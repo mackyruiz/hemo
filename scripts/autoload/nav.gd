@@ -3,6 +3,7 @@ extends Node
 
 const ROUTES := {
 	"hub": "res://scripts/screens/hub.gd",
+	"lab_floor": "res://scripts/screens/lab_floor.gd",
 	"practice": "res://scripts/screens/practice_picker.gd",
 	"shift": "res://scripts/screens/shift_runner.gd",
 	"shift_summary": "res://scripts/screens/shift_summary.gd",

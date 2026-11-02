@@ -35,6 +35,8 @@ func _ready() -> void:
 	content.add_child(scroll)
 	content.add_child(UI.label("DejaVu Sans", "TitleLabel"))
 	content.add_child(UI.label(FileAccess.get_file_as_string("res://assets/fonts/LICENSE.txt")))
+	content.add_child(UI.label("Lab Floor art", "TitleLabel"))
+	content.add_child(UI.label(FileAccess.get_file_as_string("res://assets/lab/LICENSE.txt")))
 
 
 func _open_url(url: String) -> void:
