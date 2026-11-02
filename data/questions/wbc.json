@@ -1,0 +1,1022 @@
+[
+	{
+		"id": "wbc-0001",
+		"topic": "wbc",
+		"subtopic": "benign_myeloid",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which cell is the most numerous white blood cell in the peripheral blood of a healthy adult?",
+		"image": null,
+		"choices": [
+			"Segmented neutrophil",
+			"Lymphocyte",
+			"Monocyte",
+			"Eosinophil"
+		],
+		"answer": 0,
+		"explanation": "Segmented neutrophils make up roughly 50-70% of circulating leukocytes in adults; lymphocytes are second at about 20-40%."
+	},
+	{
+		"id": "wbc-0002",
+		"topic": "wbc",
+		"subtopic": "benign_myeloid",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Coarse, dark blue-purple granules and cytoplasmic vacuoles are seen in the neutrophils on this smear from a septic patient. These changes are called:",
+		"image": "toxic_granulation",
+		"choices": [
+			"Chediak-Higashi granules",
+			"Toxic granulation and toxic vacuolization",
+			"Auer rods and vacuoles",
+			"Alder-Reilly inclusions"
+		],
+		"answer": 1,
+		"explanation": "Toxic granulation reflects retained primary granules and appears with bacterial infection, inflammation, and G-CSF therapy. Alder-Reilly granules are inherited and occur without infection."
+	},
+	{
+		"id": "wbc-0003",
+		"topic": "wbc",
+		"subtopic": "benign_myeloid",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Pale blue-gray cytoplasmic inclusions at the periphery of neutrophils represent which material?",
+		"image": "dohle_body",
+		"choices": [
+			"Denatured hemoglobin",
+			"Phagocytosed bacteria",
+			"Aggregated rough endoplasmic reticulum",
+			"Nuclear DNA fragments"
+		],
+		"answer": 2,
+		"explanation": "Dohle bodies are remnants of rough endoplasmic reticulum and appear with infection, burns, and pregnancy. They are not DNA and not intact organisms."
+	},
+	{
+		"id": "wbc-0004",
+		"topic": "wbc",
+		"subtopic": "benign_myeloid",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A patient has a WBC of 60 ×10³/µL with a left-shifted neutrophilia and toxic changes. The leukocyte alkaline phosphatase (LAP) score is markedly increased. Which diagnosis fits?",
+		"image": null,
+		"choices": [
+			"Chronic myeloid leukemia",
+			"Acute promyelocytic leukemia",
+			"Polycythemia vera, post-polycythemic phase",
+			"Leukemoid reaction"
+		],
+		"answer": 3,
+		"explanation": "A high LAP score favors a reactive leukemoid reaction. In CML the neutrophils are neoplastic and LAP is characteristically low."
+	},
+	{
+		"id": "wbc-0005",
+		"topic": "wbc",
+		"subtopic": "benign_myeloid",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Marked eosinophilia is most often associated with which condition?",
+		"image": "eosinophil",
+		"choices": [
+			"Helminth (parasitic worm) infection",
+			"Acute bacterial pneumonia",
+			"Infectious mononucleosis",
+			"Aplastic anemia"
+		],
+		"answer": 0,
+		"explanation": "Eosinophils respond to parasitic helminths and allergic disease via IL-5. Bacterial infections usually reduce eosinophils."
+	},
+	{
+		"id": "wbc-0006",
+		"topic": "wbc",
+		"subtopic": "benign_myeloid",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Neutrophils with six or more nuclear lobes are most characteristic of which deficiency?",
+		"image": "hypersegmented_neutrophil",
+		"choices": [
+			"Iron deficiency",
+			"Vitamin B12 or folate deficiency",
+			"Vitamin K deficiency",
+			"Pyridoxine excess"
+		],
+		"answer": 1,
+		"explanation": "Hypersegmentation classically suggests vitamin B12 or folate deficiency due to impaired DNA synthesis, but it is not specific. It can also occur in iron deficiency, so the finding must be interpreted with the other laboratory results."
+	},
+	{
+		"id": "wbc-0007",
+		"topic": "wbc",
+		"subtopic": "benign_myeloid",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "A smear made from EDTA blood left at room temperature for 24 hours shows neutrophils with vacuoles and pyknotic, shrunken nuclei. The best interpretation is:",
+		"image": null,
+		"choices": [
+			"True toxic change; report as sepsis",
+			"Pelger-Huet anomaly; report as inherited",
+			"Storage artifact; request a fresh specimen",
+			"Myelodysplasia; refer for marrow study"
+		],
+		"answer": 2,
+		"explanation": "Prolonged EDTA exposure causes vacuolization and nuclear degeneration in vitro. Smears should be made within a few hours of collection."
+	},
+	{
+		"id": "wbc-0008",
+		"topic": "wbc",
+		"subtopic": "benign_myeloid",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Neutrophils with bilobed, pince-nez nuclei and coarse chromatin and normal function suggest an inherited condition called:",
+		"image": "pelger_huet",
+		"choices": [
+			"Chediak-Higashi syndrome",
+			"May-Hegglin anomaly",
+			"Chronic granulomatous disease",
+			"Pelger-Huet anomaly"
+		],
+		"answer": 3,
+		"explanation": "Pelger-Huet anomaly is an autosomal dominant lamin B receptor defect with benign nuclear hyposegmentation. Acquired pseudo-Pelger cells occur in myelodysplasia."
+	},
+	{
+		"id": "wbc-0009",
+		"topic": "wbc",
+		"subtopic": "benign_myeloid",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "Giant, fused lysosomal granules in neutrophils, with recurrent infections and partial albinism, are characteristic of:",
+		"image": null,
+		"choices": [
+			"Chediak-Higashi syndrome",
+			"Alder-Reilly anomaly",
+			"Pelger-Huet anomaly",
+			"Hereditary elliptocytosis"
+		],
+		"answer": 0,
+		"explanation": "Chediak-Higashi syndrome arises from LYST gene mutations that impair lysosomal trafficking. Alder-Reilly granules are mucopolysaccharide-related and do not impair function."
+	},
+	{
+		"id": "wbc-0010",
+		"topic": "wbc",
+		"subtopic": "benign_lymphoid",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Large lymphocytes with abundant basophilic cytoplasm that indents around neighboring red cells are typical of which condition?",
+		"image": "reactive_lymph",
+		"choices": [
+			"Chronic lymphocytic leukemia",
+			"Infectious mononucleosis (EBV)",
+			"Hairy cell leukemia",
+			"Acute myeloid leukemia"
+		],
+		"answer": 1,
+		"explanation": "The reactive lymphocytes in EBV infection are mostly activated T cells responding to infected B cells. Unlike the relatively monotonous small lymphocytes of CLL, they vary in size and have abundant cytoplasm."
+	},
+	{
+		"id": "wbc-0011",
+		"topic": "wbc",
+		"subtopic": "benign_lymphoid",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "In a red-cell slide agglutination assay for infectious mononucleosis, which indicator cells can detect heterophile antibodies?",
+		"image": null,
+		"choices": [
+			"Human type O red cells",
+			"Sheep platelets",
+			"Horse red blood cells",
+			"Rabbit lymphocytes"
+		],
+		"answer": 2,
+		"explanation": "This assay detects heterophile antibodies by agglutination of horse erythrocytes, not human erythrocytes. EBV-specific serology is needed when heterophile testing is inconclusive."
+	},
+	{
+		"id": "wbc-0012",
+		"topic": "wbc",
+		"subtopic": "benign_lymphoid",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "What is the usual adult reference interval for lymphocytes on a differential?",
+		"image": null,
+		"choices": [
+			"About 1-3% of leukocytes",
+			"About 50-70% of leukocytes",
+			"About 60-80% of leukocytes",
+			"About 20-40% of leukocytes"
+		],
+		"answer": 3,
+		"explanation": "Lymphocytes are the second most common leukocyte in adults. Neutrophils account for 50-70%."
+	},
+	{
+		"id": "wbc-0013",
+		"topic": "wbc",
+		"subtopic": "benign_lymphoid",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Pertussis toxin interferes with lymphocyte trafficking into tissues. Which peripheral blood finding can result from this mechanism?",
+		"image": null,
+		"choices": [
+			"Absolute mature lymphocytosis",
+			"Absolute eosinophilia",
+			"Left-shifted neutrophilia",
+			"Pancytopenia with blasts"
+		],
+		"answer": 0,
+		"explanation": "Pertussis toxin interferes with lymphocyte trafficking into tissues, causing mature lymphocytes to accumulate in blood. Unlike acute leukemia, the cells do not form a blast population."
+	},
+	{
+		"id": "wbc-0014",
+		"topic": "wbc",
+		"subtopic": "benign_lymphoid",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Which feature best separates reactive lymphocytes from lymphoblasts on a smear?",
+		"image": null,
+		"choices": [
+			"A uniformly high nuclear-to-cytoplasmic ratio",
+			"A heterogeneous population with red-cell-molding cytoplasm",
+			"A monotonous population of small, uniform cells",
+			"Fine chromatin with consistently prominent nucleoli"
+		],
+		"answer": 1,
+		"explanation": "Reactive lymphocytes vary in size and often have abundant cytoplasm that molds around red cells; some reactive cells have nucleoli. A monotonous blast population is more concerning for acute leukemia, and uncertain cases need immunophenotyping."
+	},
+	{
+		"id": "wbc-0015",
+		"topic": "wbc",
+		"subtopic": "benign_lymphoid",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which surface marker is used to identify mature T lymphocytes by flow cytometry?",
+		"image": null,
+		"choices": [
+			"CD19",
+			"CD138",
+			"CD3",
+			"CD34"
+		],
+		"answer": 2,
+		"explanation": "CD3 is part of the T-cell receptor complex. CD19 marks B cells and CD138 marks plasma cells."
+	},
+	{
+		"id": "wbc-0016",
+		"topic": "wbc",
+		"subtopic": "benign_lymphoid",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "A patient has a WBC of 9.0 ×10³/µL with 55% lymphocytes. What is the absolute lymphocyte count?",
+		"image": null,
+		"choices": [
+			"0.55 ×10³/µL",
+			"9.55 ×10³/µL",
+			"16.4 ×10³/µL",
+			"4.95 ×10³/µL"
+		],
+		"answer": 3,
+		"explanation": "Absolute count = WBC x percentage / 100, so 9.0 x 0.55 = 4.95 ×10³/µL. The percentage alone, 0.55, is a fraction rather than an absolute count."
+	},
+	{
+		"id": "wbc-0017",
+		"topic": "wbc",
+		"subtopic": "acute_myeloid_leukemia",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "The earliest morphologically recognizable precursor in the neutrophil series has fine chromatin, prominent nucleoli, and scant cytoplasm. What is it called?",
+		"image": "myeloblast",
+		"choices": [
+			"Myeloblast",
+			"Promyelocyte",
+			"Metamyelocyte",
+			"Plasma cell"
+		],
+		"answer": 0,
+		"explanation": "The myeloblast is the earliest recognizable granulocytic precursor; it may be agranular or contain a few azurophilic granules. Promyelocytes have abundant primary granules."
+	},
+	{
+		"id": "wbc-0018",
+		"topic": "wbc",
+		"subtopic": "acute_myeloid_leukemia",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "These needle-like pink-red cytoplasmic structures in a leukemic blast are diagnostic of what?",
+		"image": "auer_rod",
+		"choices": [
+			"Lymphoid lineage",
+			"Myeloid lineage",
+			"Megakaryocytic lineage only",
+			"Reactive change"
+		],
+		"answer": 1,
+		"explanation": "Auer rods are fused primary granules and are never seen in lymphoblasts. They indicate myeloid or monocytic differentiation."
+	},
+	{
+		"id": "wbc-0019",
+		"topic": "wbc",
+		"subtopic": "acute_myeloid_leukemia",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which translocation defines acute promyelocytic leukemia and predicts response to all-trans retinoic acid?",
+		"image": null,
+		"choices": [
+			"t(9;22) BCR::ABL1",
+			"t(8;21) RUNX1::RUNX1T1",
+			"t(15;17) PML::RARA",
+			"t(12;21) ETV6::RUNX1"
+		],
+		"answer": 2,
+		"explanation": "PML::RARA blocks maturation, and ATRA overcomes the block. BCR::ABL1 characterizes CML."
+	},
+	{
+		"id": "wbc-0020",
+		"topic": "wbc",
+		"subtopic": "acute_myeloid_leukemia",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Which cytochemical stain, when positive in leukemic blasts, supports myeloid rather than lymphoid differentiation?",
+		"image": null,
+		"choices": [
+			"Terminal deoxynucleotidyl transferase",
+			"Periodic acid-Schiff",
+			"Tartrate-resistant acid phosphatase",
+			"Myeloperoxidase"
+		],
+		"answer": 3,
+		"explanation": "Myeloperoxidase in primary granules supports myeloid differentiation, although some AML subtypes are negative. TdT is commonly expressed in lymphoblasts and does not establish myeloid lineage."
+	},
+	{
+		"id": "wbc-0021",
+		"topic": "wbc",
+		"subtopic": "acute_myeloid_leukemia",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which complication is most strongly linked with acute promyelocytic leukemia at presentation?",
+		"image": null,
+		"choices": [
+			"Disseminated intravascular coagulation",
+			"Hyperviscosity syndrome",
+			"Hemolytic uremic syndrome",
+			"Polycythemia"
+		],
+		"answer": 0,
+		"explanation": "Leukemic promyelocytes promote coagulation activation and excessive fibrinolysis, producing a dangerous bleeding coagulopathy. Hyperviscosity is more characteristic of high monoclonal IgM concentrations than of APL."
+	},
+	{
+		"id": "wbc-0022",
+		"topic": "wbc",
+		"subtopic": "acute_myeloid_leukemia",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Blasts with kidney-shaped nuclei are positive for alpha-naphthyl butyrate esterase and the reaction is abolished by sodium fluoride. These blasts are:",
+		"image": null,
+		"choices": [
+			"Neutrophilic",
+			"Monocytic",
+			"Megakaryoblastic",
+			"B-lymphoid"
+		],
+		"answer": 1,
+		"explanation": "Nonspecific esterase that is fluoride-inhibitable indicates monocytic lineage. Neutrophilic cells react with chloroacetate esterase instead."
+	},
+	{
+		"id": "wbc-0023",
+		"topic": "wbc",
+		"subtopic": "acute_myeloid_leukemia",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "In the WHO classification, which finding permits an AML diagnosis even when blasts are below 20%?",
+		"image": null,
+		"choices": [
+			"JAK2 V617F mutation",
+			"Isolated del(5q)",
+			"t(8;21) RUNX1::RUNX1T1",
+			"BCR::ABL1 fusion"
+		],
+		"answer": 2,
+		"explanation": "WHO permits AML with RUNX1::RUNX1T1 to be diagnosed below 20% blasts when clinical and morphologic findings support the diagnosis. AML with BCR::ABL1 retains a 20% blast requirement and must be distinguished from CML."
+	},
+	{
+		"id": "wbc-0024",
+		"topic": "wbc",
+		"subtopic": "acute_myeloid_leukemia",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "In the absence of an AML-defining genetic abnormality, what minimum blast percentage in blood or marrow generally establishes AML?",
+		"image": null,
+		"choices": [
+			"5%",
+			"10%",
+			"50%",
+			"20%"
+		],
+		"answer": 3,
+		"explanation": "The general AML threshold is 20% blasts, not 10%. Some genetically defined AML categories can be diagnosed below 20%, so genetic results must also be considered."
+	},
+	{
+		"id": "wbc-0025",
+		"topic": "wbc",
+		"subtopic": "acute_myeloid_leukemia",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A patient has pancytopenia and 25% circulating blasts. What is the most appropriate next step?",
+		"image": null,
+		"choices": [
+			"Flow cytometry and bone marrow evaluation",
+			"Repeat the CBC in one month",
+			"Order a serum protein electrophoresis only",
+			"Report as reactive and discharge"
+		],
+		"answer": 0,
+		"explanation": "Circulating blasts need prompt immunophenotyping and marrow studies for lineage and cytogenetics. Waiting risks complications."
+	},
+	{
+		"id": "wbc-0026",
+		"topic": "wbc",
+		"subtopic": "myelodysplastic",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which pair of features is typical of myelodysplastic neoplasms (MDS)?",
+		"image": null,
+		"choices": [
+			"Pancytopenia with hypocellular fatty marrow",
+			"Peripheral cytopenias with dysplastic cells",
+			"Erythrocytosis with leukocytosis",
+			"Isolated eosinophilia with cardiac damage"
+		],
+		"answer": 1,
+		"explanation": "MDS involves ineffective hematopoiesis, so a cellular marrow coexists with cytopenias. Fatty marrow suggests aplastic anemia."
+	},
+	{
+		"id": "wbc-0027",
+		"topic": "wbc",
+		"subtopic": "myelodysplastic",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Hypogranular neutrophils with bilobed nuclei appearing in an older adult with macrocytic anemia suggest:",
+		"image": null,
+		"choices": [
+			"Inherited Pelger-Huet anomaly",
+			"Folate deficiency alone",
+			"Dysgranulopoiesis from MDS",
+			"Infectious mononucleosis"
+		],
+		"answer": 2,
+		"explanation": "Acquired pseudo-Pelger-Huet cells and hypogranulation suggest dysgranulopoiesis in MDS. Inherited Pelger-Huet anomaly usually has normal granulation and no associated cytopenias."
+	},
+	{
+		"id": "wbc-0028",
+		"topic": "wbc",
+		"subtopic": "myelodysplastic",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Which stain demonstrates ring sideroblasts in a bone marrow aspirate?",
+		"image": null,
+		"choices": [
+			"Sudan black B",
+			"Periodic acid-Schiff",
+			"Alpha-naphthyl acetate esterase",
+			"Prussian blue iron stain"
+		],
+		"answer": 3,
+		"explanation": "Prussian blue reveals mitochondrial iron as at least five granules surrounding at least one-third of an erythroblast nucleus in a ring sideroblast. Sudan black B stains lipids in myeloid granules, not iron."
+	},
+	{
+		"id": "wbc-0029",
+		"topic": "wbc",
+		"subtopic": "myelodysplastic",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A macrocytic anemia with a normal or high platelet count, hypolobated megakaryocytes, and isolated del(5q) responds to which drug?",
+		"image": null,
+		"choices": [
+			"Lenalidomide",
+			"Imatinib",
+			"All-trans retinoic acid",
+			"Hydroxyurea"
+		],
+		"answer": 0,
+		"explanation": "MDS with low blasts and isolated 5q deletion is sensitive to lenalidomide. Imatinib targets BCR::ABL1."
+	},
+	{
+		"id": "wbc-0030",
+		"topic": "wbc",
+		"subtopic": "myelodysplastic",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "In the absence of an AML-defining genetic abnormality, which marrow blast range is compatible with MDS rather than AML?",
+		"image": null,
+		"choices": [
+			"50% or more blasts",
+			"Fewer than 20% blasts",
+			"20-29% blasts only",
+			"30-49% blasts only"
+		],
+		"answer": 1,
+		"explanation": "MDS has fewer than 20% blasts; 20% or more generally establishes AML unless a genetically defined category has a different threshold. A count of 20-29% is therefore not classified as MDS."
+	},
+	{
+		"id": "wbc-0031",
+		"topic": "wbc",
+		"subtopic": "myelodysplastic",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "How much dysplasia in a lineage is generally considered significant for MDS?",
+		"image": null,
+		"choices": [
+			"At least 1% of cells",
+			"At least 50% of cells",
+			"At least 10% of cells in that lineage",
+			"Any single dysplastic cell"
+		],
+		"answer": 2,
+		"explanation": "Dysplasia in at least 10% of a lineage is morphologically significant; isolated abnormal cells are insufficient. Persistent cytopenias, genetic findings, and exclusion of reversible causes are also important."
+	},
+	{
+		"id": "wbc-0032",
+		"topic": "wbc",
+		"subtopic": "myeloproliferative",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "The Philadelphia chromosome, t(9;22), produces which fusion gene?",
+		"image": null,
+		"choices": [
+			"PML::RARA",
+			"CBFB::MYH11",
+			"ETV6::RUNX1",
+			"BCR::ABL1"
+		],
+		"answer": 3,
+		"explanation": "BCR::ABL1 encodes a constitutively active tyrosine kinase that drives CML. PML::RARA instead results from t(15;17) in acute promyelocytic leukemia."
+	},
+	{
+		"id": "wbc-0033",
+		"topic": "wbc",
+		"subtopic": "myeloproliferative",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which smear picture best fits chronic phase CML?",
+		"image": null,
+		"choices": [
+			"Granulocytic left shift with basophilia",
+			"Mostly blasts with Auer rods",
+			"Mature lymphocytosis with smudge cells",
+			"Pancytopenia with hairy cells"
+		],
+		"answer": 0,
+		"explanation": "Neutrophils, bands, myelocytes, and metamyelocytes all appear, with an absolute basophilia and often eosinophilia. Blasts are low in chronic phase."
+	},
+	{
+		"id": "wbc-0034",
+		"topic": "wbc",
+		"subtopic": "myeloproliferative",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which mutation is found in most patients with polycythemia vera?",
+		"image": null,
+		"choices": [
+			"BCR::ABL1",
+			"JAK2 V617F",
+			"PML::RARA",
+			"MYC translocation"
+		],
+		"answer": 1,
+		"explanation": "JAK2 V617F occurs in about 95% of PV, with JAK2 exon 12 mutations accounting for most remaining cases. BCR::ABL1 instead defines CML."
+	},
+	{
+		"id": "wbc-0035",
+		"topic": "wbc",
+		"subtopic": "myeloproliferative",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "An adult has persistent platelets of 780 ×10³/µL, no iron deficiency or inflammation, and no BCR::ABL1 fusion. Which additional finding most strongly supports essential thrombocythemia over reactive thrombocytosis?",
+		"image": null,
+		"choices": [
+			"Elevated CRP with otherwise reactive marrow findings",
+			"Low ferritin with otherwise normal marrow morphology",
+			"A CALR mutation with large, mature megakaryocytes",
+			"A recent splenectomy with no clonal marker"
+		],
+		"answer": 2,
+		"explanation": "A CALR mutation and increased large, mature, hyperlobulated megakaryocytes support clonal ET after excluding other myeloid neoplasms. Iron deficiency, inflammation, and recent splenectomy favor reactive thrombocytosis."
+	},
+	{
+		"id": "wbc-0036",
+		"topic": "wbc",
+		"subtopic": "myeloproliferative",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Teardrop cells, nucleated red cells, and immature granulocytes on the smear together are known as:",
+		"image": null,
+		"choices": [
+			"A left-shifted neutrophilic picture",
+			"A dysgranulopoietic picture",
+			"A hemolytic blood picture",
+			"A leukoerythroblastic picture"
+		],
+		"answer": 3,
+		"explanation": "Leukoerythroblastosis combines circulating immature myeloid cells and nucleated red cells and can accompany marrow fibrosis or infiltration. A simple reactive left shift mainly increases immature neutrophils and does not by itself imply this combined picture."
+	},
+	{
+		"id": "wbc-0037",
+		"topic": "wbc",
+		"subtopic": "myeloproliferative",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "What defines the blast phase of CML?",
+		"image": null,
+		"choices": [
+			"20% or more blasts in blood or marrow",
+			"5% blasts in blood",
+			"Basophils over 20%",
+			"Platelet count over 1000 ×10³/µL"
+		],
+		"answer": 0,
+		"explanation": "Blast phase behaves as acute leukemia and may be myeloid or lymphoid. Basophilia is a marker of progression but not the definition."
+	},
+	{
+		"id": "wbc-0038",
+		"topic": "wbc",
+		"subtopic": "myeloproliferative",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which laboratory result best separates polycythemia vera from secondary erythrocytosis?",
+		"image": null,
+		"choices": [
+			"High serum erythropoietin level",
+			"Low serum erythropoietin level",
+			"Low oxygen saturation",
+			"Elevated carboxyhemoglobin"
+		],
+		"answer": 1,
+		"explanation": "In PV, erythropoietin is suppressed. Secondary causes such as hypoxia increase EPO."
+	},
+	{
+		"id": "wbc-0039",
+		"topic": "wbc",
+		"subtopic": "myeloproliferative",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Persistent absolute basophilia should prompt consideration of:",
+		"image": null,
+		"choices": [
+			"Viral infection",
+			"Iron deficiency",
+			"A myeloid neoplasm",
+			"Acute bacterial infection"
+		],
+		"answer": 2,
+		"explanation": "Persistent basophilia is a clue to CML or another myeloid neoplasm. Acute bacterial infection more typically causes neutrophilia with toxic change."
+	},
+	{
+		"id": "wbc-0040",
+		"topic": "wbc",
+		"subtopic": "myeloproliferative",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "How is response to tyrosine kinase inhibitor therapy in CML monitored?",
+		"image": null,
+		"choices": [
+			"Serial neutrophil alkaline phosphatase scores",
+			"Repeated sickle solubility tests",
+			"Serum haptoglobin levels",
+			"Quantitative BCR::ABL1 RT-PCR"
+		],
+		"answer": 3,
+		"explanation": "Quantitative RT-PCR tracks the BCR::ABL1 transcript burden on the International Scale and can detect residual disease despite a normal CBC. LAP scores cannot quantify molecular response."
+	},
+	{
+		"id": "wbc-0041",
+		"topic": "wbc",
+		"subtopic": "acute_lymphoid_leukemia",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "A 28-year-old has a monotonous population of blasts with scant cytoplasm. Flow cytometry shows strong CD19, cytoplasmic CD79a, and TdT expression, with absent myeloperoxidase. The most likely diagnosis is:",
+		"image": "lymphoblast",
+		"choices": [
+			"B-cell acute lymphoblastic leukemia",
+			"Chronic lymphocytic leukemia",
+			"Hairy cell leukemia",
+			"Plasma cell myeloma"
+		],
+		"answer": 0,
+		"explanation": "CD19 and cytoplasmic CD79a establish B-lineage differentiation, while TdT supports an immature lymphoblastic population. CLL consists of mature B lymphocytes rather than TdT-positive blasts."
+	},
+	{
+		"id": "wbc-0042",
+		"topic": "wbc",
+		"subtopic": "acute_lymphoid_leukemia",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Which marker pattern supports lymphoblastic over myeloid leukemia?",
+		"image": null,
+		"choices": [
+			"TdT negative, myeloperoxidase positive",
+			"TdT positive, myeloperoxidase negative",
+			"Sudan black B strongly positive",
+			"Chloroacetate esterase positive"
+		],
+		"answer": 1,
+		"explanation": "TdT commonly marks immature lymphoid cells, whereas MPO supports myeloid differentiation. A full flow panel is still required because TdT alone is not lineage-specific."
+	},
+	{
+		"id": "wbc-0043",
+		"topic": "wbc",
+		"subtopic": "acute_lymphoid_leukemia",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Which cytoplasmic PAS staining pattern has historically been associated with lymphoblasts?",
+		"image": null,
+		"choices": [
+			"Diffuse fine positivity",
+			"Complete negativity in every case",
+			"Coarse block-like cytoplasmic positivity",
+			"Nuclear positivity only"
+		],
+		"answer": 2,
+		"explanation": "Lymphoblasts may show coarse PAS-positive glycogen blocks, unlike the finer diffuse pattern of many mature granulocytes. PAS is neither consistently positive nor lineage-specific, so flow cytometry is preferred."
+	},
+	{
+		"id": "wbc-0044",
+		"topic": "wbc",
+		"subtopic": "acute_lymphoid_leukemia",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which genetic abnormality in childhood B-ALL is associated with a favorable prognosis?",
+		"image": null,
+		"choices": [
+			"t(9;22) BCR::ABL1",
+			"t(4;11) KMT2A::AFF1",
+			"Hypodiploidy",
+			"t(12;21) ETV6::RUNX1"
+		],
+		"answer": 3,
+		"explanation": "ETV6::RUNX1 is associated with favorable outcomes in childhood B-ALL. KMT2A rearrangements, especially in infants, are instead associated with higher-risk disease."
+	},
+	{
+		"id": "wbc-0045",
+		"topic": "wbc",
+		"subtopic": "acute_lymphoid_leukemia",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "Which targeted drug class is a standard component of treatment for BCR::ABL1-positive B-ALL?",
+		"image": null,
+		"choices": [
+			"A BCR::ABL1 tyrosine kinase inhibitor",
+			"An all-trans retinoic acid regimen",
+			"Single-agent lenalidomide therapy",
+			"Observation without targeted therapy"
+		],
+		"answer": 0,
+		"explanation": "BCR::ABL1-directed TKIs improve outcomes when combined with an appropriate ALL regimen. ATRA targets PML::RARA in APL, not the BCR::ABL1 kinase."
+	},
+	{
+		"id": "wbc-0046",
+		"topic": "wbc",
+		"subtopic": "acute_lymphoid_leukemia",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Which flow cytometry panel fits precursor B-cell ALL?",
+		"image": null,
+		"choices": [
+			"CD3+, CD5+, CD19-, CD138-",
+			"CD19+, CD10+, CD34+, TdT+",
+			"CD13+, CD33+, MPO+",
+			"CD5+, CD23+, CD19+, CD20 dim"
+		],
+		"answer": 1,
+		"explanation": "B-lineage CD19 and CD10 together with CD34 and TdT fit precursor B-ALL. CLL instead combines CD5 and CD23 with mature B-cell markers and dim CD20."
+	},
+	{
+		"id": "wbc-0047",
+		"topic": "wbc",
+		"subtopic": "chronic_lymphoid",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Fragile, ruptured lymphocytes seen on a smear from an older adult with marked lymphocytosis are called:",
+		"image": "smudge_cell",
+		"choices": [
+			"Hairy cells, typical of hairy cell leukemia",
+			"Blister cells, typical of G6PD deficiency",
+			"Smudge cells, typical of chronic lymphocytic leukemia",
+			"Burr cells, typical of uremia"
+		],
+		"answer": 2,
+		"explanation": "CLL lymphocytes often rupture during smear preparation, creating smudge cells. Hairy cells remain intact and have fine cytoplasmic projections; smudge cells alone do not diagnose CLL."
+	},
+	{
+		"id": "wbc-0048",
+		"topic": "wbc",
+		"subtopic": "chronic_lymphoid",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which immunophenotype is characteristic of chronic lymphocytic leukemia?",
+		"image": null,
+		"choices": [
+			"CD5-, CD19+, CD103+, CD11c+",
+			"CD3+, CD4+, CD8-",
+			"CD138+, CD38 bright, CD19-",
+			"CD5+, CD19+, CD23+ with dim CD20"
+		],
+		"answer": 3,
+		"explanation": "CLL typically coexpresses CD5 and CD23 with B-cell markers and dim CD20. Hairy cell leukemia instead usually expresses CD103 and CD11c and lacks CD5."
+	},
+	{
+		"id": "wbc-0049",
+		"topic": "wbc",
+		"subtopic": "chronic_lymphoid",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Cells with fine, hair-like cytoplasmic projections are the hallmark of:",
+		"image": "hairy_cell",
+		"choices": [
+			"Hairy cell leukemia",
+			"Chronic lymphocytic leukemia",
+			"Plasma cell myeloma",
+			"Acute promyelocytic leukemia"
+		],
+		"answer": 0,
+		"explanation": "Hairy cell leukemia has circumferential cytoplasmic projections and often causes pancytopenia, monocytopenia, and splenomegaly. CLL more often has small lymphocytes with scant cytoplasm and smudge cells."
+	},
+	{
+		"id": "wbc-0050",
+		"topic": "wbc",
+		"subtopic": "chronic_lymphoid",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which mutation is present in nearly all classic hairy cell leukemia cases?",
+		"image": null,
+		"choices": [
+			"JAK2 V617F",
+			"BRAF V600E",
+			"BCR::ABL1",
+			"NPM1"
+		],
+		"answer": 1,
+		"explanation": "BRAF V600E is characteristic of classic hairy cell leukemia, which also usually expresses CD103, CD25, and CD11c. JAK2 V617F is associated with myeloproliferative neoplasms instead."
+	},
+	{
+		"id": "wbc-0051",
+		"topic": "wbc",
+		"subtopic": "chronic_lymphoid",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Which technique reduces the number of smudge cells when preparing smears from CLL blood?",
+		"image": null,
+		"choices": [
+			"Staining for longer",
+			"Using a faster spreading speed",
+			"Adding albumin before spreading",
+			"Making the smear from a clotted tube"
+		],
+		"answer": 2,
+		"explanation": "A validated albumin smear method protects fragile lymphocytes so they can be classified in the differential. Longer staining cannot restore cells already ruptured during spreading."
+	},
+	{
+		"id": "wbc-0052",
+		"topic": "wbc",
+		"subtopic": "chronic_lymphoid",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "Which marker combination distinguishes mantle cell lymphoma from CLL?",
+		"image": null,
+		"choices": [
+			"CD5-, CD23+, BRAF V600E",
+			"CD5+, CD23+, TdT+",
+			"CD5-, CD103+, TRAP+",
+			"CD5+, CD23-, cyclin D1 from t(11;14)"
+		],
+		"answer": 3,
+		"explanation": "Mantle cell lymphoma has CCND1 rearrangement; CLL generally lacks cyclin D1 and is CD23 positive."
+	},
+	{
+		"id": "wbc-0053",
+		"topic": "wbc",
+		"subtopic": "chronic_lymphoid",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "With the appropriate immunophenotype, what peripheral blood clonal B-cell count sustained for at least three months generally establishes CLL?",
+		"image": null,
+		"choices": [
+			"At least 5 ×10⁹/L",
+			"At least 0.5 ×10⁹/L",
+			"At least 50 ×10⁹/L",
+			"At least 100 ×10⁹/L"
+		],
+		"answer": 0,
+		"explanation": "The usual CLL criterion is at least 5 ×10⁹/L clonal B cells sustained for at least three months. Lower counts without lymphadenopathy, organomegaly, or attributable cytopenias generally indicate monoclonal B-cell lymphocytosis."
+	},
+	{
+		"id": "wbc-0054",
+		"topic": "wbc",
+		"subtopic": "plasma_cell",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "A cell with an eccentric nucleus, clock-face chromatin, and a perinuclear clear zone is a:",
+		"image": "plasma_cell",
+		"choices": [
+			"Monocyte",
+			"Plasma cell",
+			"Promyelocyte",
+			"Reactive lymphocyte"
+		],
+		"answer": 1,
+		"explanation": "Plasma cells have eccentric clock-face nuclei and a pale Golgi zone. Reactive lymphocytes can be deeply basophilic but lack this consistent mature plasma-cell architecture."
+	},
+	{
+		"id": "wbc-0055",
+		"topic": "wbc",
+		"subtopic": "plasma_cell",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "Why does a patient with plasma cell myeloma often show rouleaux on a blood smear?",
+		"image": null,
+		"choices": [
+			"Red cells have an intrinsic membrane defect",
+			"IgM cold antibodies are present",
+			"High immunoglobulin levels reduce red cell surface charge",
+			"Iron overload alters red cell shape"
+		],
+		"answer": 2,
+		"explanation": "Excess plasma proteins reduce the repulsive zeta potential, allowing red cells to stack as rouleaux. Cold IgM antibodies instead cause irregular agglutination, not orderly coin-like stacks."
+	},
+	{
+		"id": "wbc-0056",
+		"topic": "wbc",
+		"subtopic": "plasma_cell",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "The CRAB criteria for end-organ damage in plasma cell myeloma stand for:",
+		"image": null,
+		"choices": [
+			"Cytopenia, rash, abscess, bleeding",
+			"Cytogenetic changes, relapse, anemia, bacteremia",
+			"Calcium loss, rouleaux, albuminuria, bacteremia",
+			"Calcium elevation, renal impairment, anemia, bone lesions"
+		],
+		"answer": 3,
+		"explanation": "CRAB denotes hypercalcemia, renal impairment, anemia, and lytic bone lesions attributable to the plasma-cell disorder. Rouleaux alone is not a myeloma-defining organ injury."
+	},
+	{
+		"id": "wbc-0057",
+		"topic": "wbc",
+		"subtopic": "plasma_cell",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A monoclonal spike in the gamma region on serum protein electrophoresis is best characterized by which follow-up test?",
+		"image": null,
+		"choices": [
+			"Immunofixation electrophoresis",
+			"Heterophile antibody test",
+			"Erythrocyte sedimentation rate",
+			"Osmotic fragility test"
+		],
+		"answer": 0,
+		"explanation": "Immunofixation identifies the heavy and light chain isotypes of a monoclonal protein. ESR may be high but cannot characterize or confirm an M-protein."
+	},
+	{
+		"id": "wbc-0058",
+		"topic": "wbc",
+		"subtopic": "plasma_cell",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Why can a urine dipstick miss Bence Jones protein?",
+		"image": null,
+		"choices": [
+			"Light chains are destroyed by the reagent",
+			"It mainly detects albumin, not free light chains",
+			"Light chains are never excreted",
+			"The dipstick detects only glucose"
+		],
+		"answer": 1,
+		"explanation": "The protein pad is most sensitive to albumin and may miss free light chains, even though these are excreted. Urine electrophoresis and immunofixation can identify the monoclonal light chain."
+	},
+	{
+		"id": "wbc-0059",
+		"topic": "wbc",
+		"subtopic": "plasma_cell",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A patient with high serum IgM, lymphoplasmacytic cells, and hyperviscosity symptoms most likely has:",
+		"image": null,
+		"choices": [
+			"Plasma cell myeloma with IgG",
+			"Chronic myeloid leukemia",
+			"Waldenstrom macroglobulinemia",
+			"Hereditary spherocytosis"
+		],
+		"answer": 2,
+		"explanation": "Waldenstrom macroglobulinemia is a lymphoplasmacytic lymphoma associated with monoclonal IgM, whose size promotes hyperviscosity. IgG myeloma does not explain a dominant IgM paraprotein."
+	},
+	{
+		"id": "wbc-0060",
+		"topic": "wbc",
+		"subtopic": "plasma_cell",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which pattern is compatible with non-IgM monoclonal gammopathy of undetermined significance (MGUS), rather than plasma cell myeloma?",
+		"image": null,
+		"choices": [
+			"M-protein 2 g/dL, 8% marrow plasma cells, lytic lesions",
+			"M-protein 2 g/dL, 65% marrow clonal plasma cells",
+			"M-protein 2 g/dL, 25% marrow plasma cells, anemia",
+			"M-protein 2 g/dL, 5% marrow plasma cells, no myeloma-defining event"
+		],
+		"answer": 3,
+		"explanation": "Non-IgM MGUS has serum M-protein below 3 g/dL, fewer than 10% clonal marrow plasma cells, and no myeloma-defining event. At least 60% clonal marrow plasma cells is a myeloma-defining biomarker even without CRAB injury."
+	}
+]

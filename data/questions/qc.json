@@ -1,0 +1,257 @@
+[
+  {
+    "id": "qc-0001",
+    "topic": "qc",
+    "subtopic": "quality_control",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "On a Levey-Jennings chart, one control result is +2.4 SD from the mean. Neither level violates any other multirule criterion. How is this finding classified?",
+    "image": null,
+    "choices": [
+      "A 1-2s warning requiring review of the other rules",
+      "A 1-3s rejection requiring investigation of random error",
+      "A 2-2s rejection requiring investigation of systematic error",
+      "An R-4s rejection requiring investigation of random error"
+    ],
+    "answer": 0,
+    "explanation": "A single result beyond 2 SD triggers the 1-2s warning; the other rules and control history must be reviewed before accepting the run. It is not a 1-3s rejection because the result does not exceed 3 SD."
+  },
+  {
+    "id": "qc-0002",
+    "topic": "qc",
+    "subtopic": "quality_control",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "In the same analytical run, Level 1 is +2.3 SD and Level 2 is -2.2 SD. Which Westgard rejection rule and error pattern does this indicate?",
+    "image": null,
+    "choices": [
+      "2-2s, suggesting a systematic error",
+      "R-4s, suggesting a random error",
+      "4-1s, suggesting a systematic error",
+      "1-3s, suggesting a random error"
+    ],
+    "answer": 1,
+    "explanation": "Opposite-side control results exceeding +2 SD and -2 SD in the same run satisfy R-4s and suggest random error. A 2-2s violation requires results beyond 2 SD on the same side of the mean."
+  },
+  {
+    "id": "qc-0003",
+    "topic": "qc",
+    "subtopic": "quality_control",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "After a reagent lot change, ten consecutive results for one control level cluster above its established mean without progressively rising. How does this pattern differ from a trend?",
+    "image": null,
+    "choices": [
+      "It is random scatter; a trend requires opposite-side control failures",
+      "It is a trend; a shift requires alternating positive and negative values",
+      "It is a shift; a trend shows progressive movement in one direction",
+      "It is acceptable variation; a trend requires a single result beyond 3 SD"
+    ],
+    "answer": 2,
+    "explanation": "A sustained displacement to one side of the mean is a shift and here meets the 10-x rejection rule. A trend is a progressive increase or decrease; neither pattern should be dismissed simply because individual points remain within 2 SD."
+  },
+  {
+    "id": "qc-0004",
+    "topic": "qc",
+    "subtopic": "quality_control",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A patient's hemoglobin changes from 13.8 g/dL yesterday to 7.1 g/dL today and triggers the laboratory's delta check. QC is acceptable. What is the most appropriate next action?",
+    "image": null,
+    "choices": [
+      "Replace today's value with yesterday's result because QC is acceptable",
+      "Recalibrate the analyzer before checking the specimen or clinical history",
+      "Report today's result without review because both control levels passed",
+      "Check identity, specimen quality, and clinical changes before releasing it"
+    ],
+    "answer": 3,
+    "explanation": "A delta check compares a patient's current and previous results and can detect misidentification, dilution, or genuine clinical change. Acceptable QC assesses analytical performance but does not exclude a patient-specific preanalytical problem."
+  },
+  {
+    "id": "qc-0005",
+    "topic": "qc",
+    "subtopic": "quality_control",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A hematology proficiency-testing specimen arrives with instructions compatible with the laboratory's routine method. How should it be handled?",
+    "image": null,
+    "choices": [
+      "Test with the routine patient workflow and authorized routine personnel",
+      "Send it to another laboratory to confirm the answer before submission",
+      "Run extra replicates beyond routine practice and select the closest value",
+      "Discuss its expected result with another participant before submission"
+    ],
+    "answer": 0,
+    "explanation": "Proficiency testing evaluates routine performance, so specimens are handled like patient samples using routine personnel and methods. Referral or interlaboratory discussion before the reporting deadline defeats the independent assessment."
+  },
+  {
+    "id": "qc-0006",
+    "topic": "qc",
+    "subtopic": "quality_control",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Which statement correctly distinguishes calibration from calibration verification of a quantitative hematology method?",
+    "image": null,
+    "choices": [
+      "Calibration checks patient identity; verification checks control storage",
+      "Calibration establishes response; verification checks accuracy across its range",
+      "Calibration assesses precision only; verification sets the instrument response",
+      "Calibration reviews delta checks; verification replaces daily quality control"
+    ],
+    "answer": 1,
+    "explanation": "Calibration establishes the relationship between the instrument signal and assigned analyte values. Calibration verification checks continued accuracy across the reportable range without itself adjusting that relationship; neither replaces routine QC."
+  },
+  {
+    "id": "qc-0007",
+    "topic": "qc",
+    "subtopic": "safety",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "An uncapped blood specimen must be handled in a task that may splash. Which approach best applies standard precautions against bloodborne pathogens?",
+    "image": null,
+    "choices": [
+      "Use gloves only after the patient's infection status is confirmed positive",
+      "Use a laboratory coat alone if the patient has no known infection history",
+      "Use gloves, protective clothing, and eye or face protection for the task",
+      "Use eye protection alone when the specimen has a routine collection label"
+    ],
+    "answer": 2,
+    "explanation": "All blood is treated as potentially infectious regardless of known diagnosis. Gloves and protective clothing address contact exposure, while eye or face protection is needed when splashes are anticipated."
+  },
+  {
+    "id": "qc-0008",
+    "topic": "qc",
+    "subtopic": "safety",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "After collecting blood with a safety needle, how should the used needle be handled?",
+    "image": null,
+    "choices": [
+      "Recap with both hands before placing it in the nearest trash container",
+      "Detach it by hand and carry it to the central waste collection station",
+      "Leave it on the tray until all specimens from the patient are labeled",
+      "Activate the safety device and promptly discard it in a sharps container"
+    ],
+    "answer": 3,
+    "explanation": "Prompt safety-device activation and disposal into an approved puncture-resistant sharps container reduce needlestick risk. Routine recapping or manually detaching a used needle creates avoidable exposure hazards."
+  },
+  {
+    "id": "qc-0009",
+    "topic": "qc",
+    "subtopic": "safety",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A small blood spill containing broken glass occurs on a laboratory bench. Which response is appropriate?",
+    "image": null,
+    "choices": [
+      "Secure the area, use PPE and tools for glass, and disinfect per spill policy",
+      "Collect glass by gloved hand and wipe the blood away with a dry paper towel",
+      "Use a chemical neutralizer selected only by the spilled liquid's red color",
+      "Spray disinfectant briefly and immediately resume work on the wet surface"
+    ],
+    "answer": 0,
+    "explanation": "Blood-spill cleanup requires appropriate PPE, mechanical pickup of glass into sharps waste, and an approved disinfectant with its required contact time. A chemical spill instead requires hazard-specific procedures and Safety Data Sheet guidance; cleaners should never be improvised or mixed."
+  },
+  {
+    "id": "qc-0010",
+    "topic": "qc",
+    "subtopic": "safety",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A routine EDTA blood specimen has a different patient identifier on its label than on the order. What should the technologist do?",
+    "image": null,
+    "choices": [
+      "Relabel the tube using the order because the ordered test matches its color",
+      "Hold testing, notify the responsible staff, and request recollection per policy",
+      "Run the specimen and ask the collector to identify the patient afterward",
+      "Release the result with a comment that the specimen identifiers differ"
+    ],
+    "answer": 1,
+    "explanation": "A routine specimen with conflicting identifiers must not be assumed to belong to the ordered patient. Follow the laboratory's rejection and recollection policy rather than relabeling from paperwork or releasing an uncertain result."
+  },
+  {
+    "id": "qc-0011",
+    "topic": "qc",
+    "subtopic": "lab_math",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "For a validated manual count, 20 µL of blood is added to 380 µL of diluent. What dilution factor should be applied to the diluted specimen's cell concentration?",
+    "image": null,
+    "choices": [
+      "Multiply by 10",
+      "Multiply by 19",
+      "Multiply by 20",
+      "Multiply by 40"
+    ],
+    "answer": 2,
+    "explanation": "The total volume is 400 µL, so the dilution factor is 400/20 = 20. Dividing diluent alone by specimen volume gives 19, which is not the total dilution factor."
+  },
+  {
+    "id": "qc-0012",
+    "topic": "qc",
+    "subtopic": "lab_math",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A WBC result is 8.0 ×10⁹/L, with neutrophils accounting for 62%. Which equivalent absolute neutrophil concentration in cells/µL is correct?",
+    "image": null,
+    "choices": [
+      "49.6 cells/µL",
+      "496 cells/µL",
+      "49,600 cells/µL",
+      "4,960 cells/µL"
+    ],
+    "answer": 3,
+    "explanation": "Multiply 8.0 ×10⁹/L by 0.62 to obtain 4.96 ×10⁹/L. Because one liter contains 10⁶ µL, this equals 4,960 cells/µL; using 62 instead of 0.62 produces a hundredfold error."
+  },
+  {
+    "id": "qc-0013",
+    "topic": "qc",
+    "subtopic": "instrumentation",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which pairing correctly describes two principles used by hematology analyzers?",
+    "image": null,
+    "choices": [
+      "Impedance detects electrical pulses; optical methods detect light signals",
+      "Impedance detects fluorescence; optical methods detect electrical resistance",
+      "Impedance measures clot formation; optical methods measure aperture voltage",
+      "Impedance identifies cell antigens; optical methods count only hemoglobin"
+    ],
+    "answer": 0,
+    "explanation": "Impedance detects electrical resistance changes as cells pass through an aperture, with pulse size related to cell volume. Optical methods use signals such as scattered light or fluorescence to characterize cells."
+  },
+  {
+    "id": "qc-0014",
+    "topic": "qc",
+    "subtopic": "instrumentation",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "An analyzer repeatedly flags an aperture obstruction, and its background count remains unacceptable. Which sequence is most appropriate before patient testing resumes?",
+    "image": null,
+    "choices": [
+      "Suppress the obstruction flag, test specimens, then clean at the next shift",
+      "Perform specified maintenance, confirm acceptable background, and verify QC",
+      "Recalibrate immediately, ignore background, and report if patient values look normal",
+      "Dilute every patient specimen, leave the obstruction unresolved, and multiply results"
+    ],
+    "answer": 1,
+    "explanation": "Resolve the instrument problem using manufacturer-directed maintenance, then confirm acceptable background and QC according to the laboratory procedure. Calibration is not a substitute for clearing an obstruction or demonstrating acceptable performance."
+  },
+  {
+    "id": "qc-0015",
+    "topic": "qc",
+    "subtopic": "instrumentation",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "At the 100× objective, 50 ocular divisions align with 0.050 mm on a stage micrometer. A structure spans 8 ocular divisions. What size should be recorded at this objective?",
+    "image": null,
+    "choices": [
+      "0.8 µm, using the calibration for the 100× objective",
+      "80 µm, using the calibration for the 100× objective",
+      "8 µm, using the calibration for the 100× objective",
+      "800 µm, using the calibration for the 100× objective"
+    ],
+    "answer": 2,
+    "explanation": "0.050 mm equals 50 µm, so each of the 50 ocular divisions represents 1 µm and 8 divisions represent 8 µm. Ocular calibration must be established separately for each objective rather than transferred unchanged between magnifications."
+  }
+]

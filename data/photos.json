@@ -1,0 +1,754 @@
+[
+ {
+  "id": "acanthocyte_1",
+  "morph": "acanthocyte",
+  "file": "res://assets/photos/acanthocyte_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Human blood film with acanthocytes 01.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Human_blood_film_with_acanthocytes_01.jpg",
+  "author": "S Bhimji, MD",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0"
+ },
+ {
+  "id": "auer_rod_1",
+  "morph": "auer_rod",
+  "file": "res://assets/photos/auer_rod_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Auer Rods in Leukemic Blast (2434847298).jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Auer_Rods_in_Leukemic_Blast_(2434847298).jpg",
+  "author": "Ed Uthman from Houston, TX, USA",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0"
+ },
+ {
+  "id": "babesia_1",
+  "morph": "babesia",
+  "file": "res://assets/photos/babesia_1.png",
+  "crop": [
+   0.07,
+   0.37,
+   0.2,
+   0.23
+  ],
+  "source_title": "File:Blood smear of Babesia microti, original.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Blood_smear_of_Babesia_microti,_original.png",
+  "author": "Mikael Häggström, M.D.",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ {
+  "id": "basophil_1",
+  "morph": "basophil",
+  "file": "res://assets/photos/basophil_1.jpg",
+  "crop": [
+   0.37,
+   0.34,
+   0.12,
+   0.15
+  ],
+  "source_title": "File:Blood-basophil2.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Blood-basophil2.jpg",
+  "author": "Echinaceapallida",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "basophilic_stippling_1",
+  "morph": "basophilic_stippling",
+  "file": "res://assets/photos/basophilic_stippling_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Micrograph of a red blood cell with basophilic stippling.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Micrograph_of_a_red_blood_cell_with_basophilic_stippling.jpg",
+  "author": "Mikael Häggström, M.D.",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ {
+  "id": "cabot_ring_1",
+  "morph": "cabot_ring",
+  "file": "res://assets/photos/cabot_ring_1.jpg",
+  "crop": [
+   0.44,
+   0.42,
+   0.13,
+   0.14
+  ],
+  "source_title": "File:Cabot ring and basophilic stippling.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Cabot_ring_and_basophilic_stippling.jpg",
+  "author": "Dr. Roshan Nasimudeen",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "echinocyte_1",
+  "morph": "echinocyte",
+  "file": "res://assets/photos/echinocyte_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Echinocytes-12.JPG",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Echinocytes-12.JPG",
+  "author": "Guy Waterval",
+  "license": "Apache License 2.0",
+  "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+ },
+ {
+  "id": "elliptocyte_1",
+  "morph": "elliptocyte",
+  "file": "res://assets/photos/elliptocyte_1.png",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Peripheral blood smear stained with MGG from a patient with hereditary elliptocytosis.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Peripheral_blood_smear_stained_with_MGG_from_a_patient_with_hereditary_elliptocytosis.png",
+  "author": "Joan-Lluis Vives-Corrons, Elena Krishnevskaya",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0"
+ },
+ {
+  "id": "eosinophil_1",
+  "morph": "eosinophil",
+  "file": "res://assets/photos/eosinophil_1.jpg",
+  "crop": [
+   0.32,
+   0.12,
+   0.15,
+   0.16
+  ],
+  "source_title": "File:Eosinophils in Peripheral Blood Smear (4746281402).jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Eosinophils_in_Peripheral_Blood_Smear_(4746281402).jpg",
+  "author": "Ed Uthman from Houston, TX, USA",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0"
+ },
+ {
+  "id": "giant_platelet_1",
+  "morph": "giant_platelet",
+  "file": "res://assets/photos/giant_platelet_1.jpg",
+  "crop": [
+   0.47,
+   0.39,
+   0.13,
+   0.19
+  ],
+  "source_title": "File:Giant Platelet, Peripheral Blood Smear (6032662354).jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Giant_Platelet,_Peripheral_Blood_Smear_(6032662354).jpg",
+  "author": "Ed Uthman from Houston, TX, USA",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0"
+ },
+ {
+  "id": "hairy_cell_1",
+  "morph": "hairy_cell",
+  "file": "res://assets/photos/hairy_cell_1.jpg",
+  "crop": [
+   0.34,
+   0.3,
+   0.13,
+   0.16
+  ],
+  "source_title": "File:Hairy cell leukemia smear 2009-08-20.JPG",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Hairy_cell_leukemia_smear_2009-08-20.JPG",
+  "author": "Paulo Henrique Orlandi Mourao",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ {
+  "id": "howell_jolly_1",
+  "morph": "howell_jolly",
+  "file": "res://assets/photos/howell_jolly_1.png",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Howell-Jolly body.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Howell-Jolly_body.png",
+  "author": "Paulo Henrique Orlandi Mourao and Mikael Häggström",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ {
+  "id": "hypersegmented_neutrophil_1",
+  "morph": "hypersegmented_neutrophil",
+  "file": "res://assets/photos/hypersegmented_neutrophil_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Hypersegmented neutrophil.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Hypersegmented_neutrophil.jpg",
+  "author": "Ed Uthman from Houston, TX, USA",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0"
+ },
+ {
+  "id": "kleihauer_betke_1",
+  "morph": "kleihauer_betke",
+  "file": "res://assets/photos/kleihauer_betke_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:KB stain original.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:KB_stain_original.jpg",
+  "author": "Mikael Häggström, M.D.",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ {
+  "id": "lymphoblast_1",
+  "morph": "lymphoblast",
+  "file": "res://assets/photos/lymphoblast_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:ALL-L1.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:ALL-L1.jpg",
+  "author": "The Armed Forces Institute of Pathology (AFIP)",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ {
+  "id": "lymphocyte_1",
+  "morph": "lymphocyte",
+  "file": "res://assets/photos/lymphocyte_1.jpg",
+  "crop": [
+   0.5,
+   0.46,
+   0.12,
+   0.15
+  ],
+  "source_title": "File:Blood-lymphocyte1.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Blood-lymphocyte1.jpg",
+  "author": "Echinaceapallida",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "malaria_falciparum_ring_1",
+  "morph": "malaria_falciparum_ring",
+  "file": "res://assets/photos/malaria_falciparum_ring_1.jpg",
+  "crop": [
+   0.67,
+   0.07,
+   0.22,
+   0.2
+  ],
+  "source_title": "File:P. falciparum thin smear with ring forms.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:P._falciparum_thin_smear_with_ring_forms.jpg",
+  "author": "Jenkayaks",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ {
+  "id": "malaria_falciparum_ring_2",
+  "morph": "malaria_falciparum_ring",
+  "file": "res://assets/photos/malaria_falciparum_ring_2.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Rings of P. falciparum in a thin blood smear.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Rings_of_P._falciparum_in_a_thin_blood_smear.jpg",
+  "author": "CDC",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ {
+  "id": "metamyelocyte_1",
+  "morph": "metamyelocyte",
+  "file": "res://assets/photos/metamyelocyte_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Hem1Metamyelocyte.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Hem1Metamyelocyte.jpg",
+  "author": "El*Falaf",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ {
+  "id": "microcytic_hypochromic_1",
+  "morph": "microcytic_hypochromic",
+  "file": "res://assets/photos/microcytic_hypochromic_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Iron-deficiency Anemia, Peripheral Blood Smear (4422704616).jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg",
+  "author": "Ed Uthman from Houston, TX, USA",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0"
+ },
+ {
+  "id": "monocyte_1",
+  "morph": "monocyte",
+  "file": "res://assets/photos/monocyte_1.jpg",
+  "crop": [
+   0.63,
+   0.5,
+   0.14,
+   0.19
+  ],
+  "source_title": "File:Blood-monocyte.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Blood-monocyte.jpg",
+  "author": "Echinaceapallida",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "myeloblast_1",
+  "morph": "myeloblast",
+  "file": "res://assets/photos/myeloblast_1.jpg",
+  "crop": [
+   0.54,
+   0.59,
+   0.15,
+   0.19
+  ],
+  "source_title": "File:Myeloblast 6.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Myeloblast_6.jpg",
+  "author": "Prof. Erhabor Osaro",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "myelocyte_1",
+  "morph": "myelocyte",
+  "file": "res://assets/photos/myelocyte_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Neutrophylic Myelocyte.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Neutrophylic_Myelocyte.jpg",
+  "author": "Laboratorio microscopico",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "neutrophil_band_1",
+  "morph": "neutrophil_band",
+  "file": "res://assets/photos/neutrophil_band_1.jpg",
+  "crop": [
+   0.32,
+   0.35,
+   0.24,
+   0.3
+  ],
+  "source_title": "File:Band neutrophil.JPG",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Band_neutrophil.JPG",
+  "author": "Bobjgalindo",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "neutrophil_seg_1",
+  "morph": "neutrophil_seg",
+  "file": "res://assets/photos/neutrophil_seg_1.jpg",
+  "crop": [
+   0.24,
+   0.32,
+   0.21,
+   0.25
+  ],
+  "source_title": "File:Segmented neutrophils.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Segmented_neutrophils.jpg",
+  "author": "Unknown",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ {
+  "id": "normal_platelet_1",
+  "morph": "normal_platelet",
+  "file": "res://assets/photos/normal_platelet_1.jpg",
+  "crop": [
+   0.82,
+   0.67,
+   0.17,
+   0.22
+  ],
+  "source_title": "File:WBC (neutrophil) at centre, numerous erythrocytes and platelets (dot like bodies) in Wright's stained peripheral blood smear (PBS) microscopy.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:WBC_(neutrophil)_at_centre,_numerous_erythrocytes_and_platelets_(dot_like_bodies)_in_Wright%27s_stained_peripheral_blood_smear_(PBS)_microscopy.jpg",
+  "author": "Ajay Kumar Chaurasiya",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "normal_rbc_1",
+  "morph": "normal_rbc",
+  "file": "res://assets/photos/normal_rbc_1.jpg",
+  "crop": [
+   0.33,
+   0.54,
+   0.13,
+   0.17
+  ],
+  "source_title": "File:WBC (neutrophil) at centre, numerous erythrocytes and platelets (dot like bodies) in Wright's stained peripheral blood smear (PBS) microscopy.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:WBC_(neutrophil)_at_centre,_numerous_erythrocytes_and_platelets_(dot_like_bodies)_in_Wright%27s_stained_peripheral_blood_smear_(PBS)_microscopy.jpg",
+  "author": "Ajay Kumar Chaurasiya",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "nrbc_1",
+  "morph": "nrbc",
+  "file": "res://assets/photos/nrbc_1.jpg",
+  "crop": [
+   0.42,
+   0.33,
+   0.18,
+   0.2
+  ],
+  "source_title": "File:Nucleated red blood cell (RBC) in a Wright's stained peripheral blood smear (PBS) microscopy of an aplastic anemia patient.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Nucleated_red_blood_cell_(RBC)_in_a_Wright%27s_stained_peripheral_blood_smear_(PBS)_microscopy_of_an_aplastic_anemia_patient.jpg",
+  "author": "Ajay Kumar Chaurasiya",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "pappenheimer_1",
+  "morph": "pappenheimer",
+  "file": "res://assets/photos/pappenheimer_1.jpg",
+  "crop": [
+   0.22,
+   0.37,
+   0.13,
+   0.14
+  ],
+  "source_title": "File:Pappenheimer bodies smear 2015-08-31.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pappenheimer_bodies_smear_2015-08-31.jpg",
+  "author": "Paulo Henrique Orlandi Mourao",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "pelger_huet_1",
+  "morph": "pelger_huet",
+  "file": "res://assets/photos/pelger_huet_1.jpg",
+  "crop": [
+   0.7,
+   0.73,
+   0.23,
+   0.22
+  ],
+  "source_title": "File:Pelger-Huet anomaly-1.JPG",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pelger-Huet_anomaly-1.JPG",
+  "author": "Guy Waterval",
+  "license": "Apache License 2.0",
+  "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+ },
+ {
+  "id": "plasma_cell_1",
+  "morph": "plasma_cell",
+  "file": "res://assets/photos/plasma_cell_1.jpg",
+  "crop": [
+   0.37,
+   0.36,
+   0.16,
+   0.19
+  ],
+  "source_title": "File:Multiple myeloma peripheral blood morphology - rouleaux, background staining and plasma cell.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Multiple_myeloma_peripheral_blood_morphology_-_rouleaux,_background_staining_and_plasma_cell.jpg",
+  "author": "SpicyMilkBoy",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "platelet_satellitism_1",
+  "morph": "platelet_satellitism",
+  "file": "res://assets/photos/platelet_satellitism_1.jpg",
+  "crop": [
+   0.38,
+   0.4,
+   0.22,
+   0.25
+  ],
+  "source_title": "File:Platelet Satellitism smear 2009-09-11.JPG",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Platelet_Satellitism_smear_2009-09-11.JPG",
+  "author": "Paulo Henrique Orlandi Mourao",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ {
+  "id": "polychromasia_1",
+  "morph": "polychromasia",
+  "file": "res://assets/photos/polychromasia_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Peripheral blood smear with polychromasia.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Peripheral_blood_smear_with_polychromasia.jpg",
+  "author": "Mikael Häggström, M.D.",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ {
+  "id": "promyelocyte_1",
+  "morph": "promyelocyte",
+  "file": "res://assets/photos/promyelocyte_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Promyelocyte.JPG",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Promyelocyte.JPG",
+  "author": "Bobjgalindo",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "reactive_lymph_1",
+  "morph": "reactive_lymph",
+  "file": "res://assets/photos/reactive_lymph_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Reactive lymphocyte.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Reactive_lymphocyte.jpg",
+  "author": "SpicyMilkBoy",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "retic_nmb_1",
+  "morph": "retic_nmb",
+  "file": "res://assets/photos/retic_nmb_1.jpg",
+  "crop": [
+   0.54,
+   0.06,
+   0.14,
+   0.23
+  ],
+  "source_title": "File:Reticulocytes Human Blood Supravital Stain.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Reticulocytes_Human_Blood_Supravital_Stain.jpg",
+  "author": "Ed Uthman, MD, pathologist, Houston, Texas, USA",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0"
+ },
+ {
+  "id": "rouleaux_1",
+  "morph": "rouleaux",
+  "file": "res://assets/photos/rouleaux_1.jpg",
+  "crop": [
+   0.8,
+   0.28,
+   0.07,
+   0.18
+  ],
+  "source_title": "File:Rouleaux.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Rouleaux.jpg",
+  "author": "Gabriel Caponetti",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ {
+  "id": "schistocyte_1",
+  "morph": "schistocyte",
+  "file": "res://assets/photos/schistocyte_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Schizocyte smear 2009-12-22.JPG",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Schizocyte_smear_2009-12-22.JPG",
+  "author": "Paulo Henrique Orlandi Mourao",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ {
+  "id": "sickle_cell_1",
+  "morph": "sickle_cell",
+  "file": "res://assets/photos/sickle_cell_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Sickle-cell smear 2015-09-10.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Sickle-cell_smear_2015-09-10.jpg",
+  "author": "Paulo Henrique Orlandi Mourao",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ {
+  "id": "sickle_cell_2",
+  "morph": "sickle_cell",
+  "file": "res://assets/photos/sickle_cell_2.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Sickle Cell Anemia (5610746554).jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Sickle_Cell_Anemia_(5610746554).jpg",
+  "author": "Ed Uthman from Houston, TX, USA",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0"
+ },
+ {
+  "id": "smudge_cell_1",
+  "morph": "smudge_cell",
+  "file": "res://assets/photos/smudge_cell_1.jpg",
+  "crop": [
+   0.48,
+   0.37,
+   0.16,
+   0.18
+  ],
+  "source_title": "File:Smear cells.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Smear_cells.jpg",
+  "author": "Dr Graham Beards",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ {
+  "id": "spherocyte_1",
+  "morph": "spherocyte",
+  "file": "res://assets/photos/spherocyte_1.png",
+  "crop": [
+   0.4,
+   0.44,
+   0.13,
+   0.16
+  ],
+  "source_title": "File:Peripheral blood smear stained with MGG from a patient with hereditary spherocytosis.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Peripheral_blood_smear_stained_with_MGG_from_a_patient_with_hereditary_spherocytosis.png",
+  "author": "Joan-Lluis Vives-Corrons, Elena Krishnevskaya",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0"
+ },
+ {
+  "id": "spherocyte_2",
+  "morph": "spherocyte",
+  "file": "res://assets/photos/spherocyte_2.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Warm autoimmune hemolytic anemia.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Warm_autoimmune_hemolytic_anemia.jpg",
+  "author": "E. Uthman, MD",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ {
+  "id": "stomatocyte_1",
+  "morph": "stomatocyte",
+  "file": "res://assets/photos/stomatocyte_1.jpg",
+  "crop": [
+   0.39,
+   0.43,
+   0.16,
+   0.17
+  ],
+  "source_title": "File:Stomatocytes.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Stomatocytes.jpg",
+  "author": "Prof. Osaro Erhabor",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ {
+  "id": "target_cell_1",
+  "morph": "target_cell",
+  "file": "res://assets/photos/target_cell_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Micrograph of a target cell.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Micrograph_of_a_target_cell.jpg",
+  "author": "Mikael Häggström, M.D.",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ {
+  "id": "target_cell_2",
+  "morph": "target_cell",
+  "file": "res://assets/photos/target_cell_2.jpg",
+  "crop": [
+   0.53,
+   0.54,
+   0.2,
+   0.22
+  ],
+  "source_title": "File:Target cells.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Target_cells.jpg",
+  "author": "Prof. Osaro Erhabor",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ {
+  "id": "teardrop_cell_1",
+  "morph": "teardrop_cell",
+  "file": "res://assets/photos/teardrop_cell_1.jpg",
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "source_title": "File:Teardrop Cells smear 2009-09-22.JPG",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Teardrop_Cells_smear_2009-09-22.JPG",
+  "author": "Paulo Henrique Orlandi Mourao",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ }
+]

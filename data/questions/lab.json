@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "lab-0001",
+    "topic": "lab",
+    "subtopic": "manual_counts",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "You are preparing a manual WBC count. Which diluent removes red cells while preserving leukocyte nuclei for counting?",
+    "image": null,
+    "choices": [
+      "Dilute acetic acid, such as a 2–3% solution",
+      "Isotonic saline with no lytic agent",
+      "Hayem's solution containing sodium sulfate",
+      "Methylene blue in buffered saline"
+    ],
+    "answer": 0,
+    "explanation": "Acetic acid lyses erythrocytes so only nucleated cells remain to be counted. Hayem's and saline preserve red cells, which is what an RBC diluent should do."
+  },
+  {
+    "id": "lab-0002",
+    "topic": "lab",
+    "subtopic": "manual_counts",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "After a hemocytometer chamber is charged, what should be done before counting begins?",
+    "image": null,
+    "choices": [
+      "Count immediately while the cells are still moving",
+      "Let the cells settle for a few minutes in a humid chamber",
+      "Warm the chamber to 56 °C for ten minutes",
+      "Add a second drop of stain to each side"
+    ],
+    "answer": 1,
+    "explanation": "Cells need time to settle onto the grid so they sit in one focal plane. A humid chamber prevents the fluid from evaporating during the wait."
+  },
+  {
+    "id": "lab-0003",
+    "topic": "lab",
+    "subtopic": "manual_counts",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A manual WBC is performed with a 1:20 dilution. A total of 180 cells is counted in 4 large squares (4 mm² total, depth 0.1 mm). What is the WBC count in cells/µL?",
+    "image": null,
+    "choices": [
+      "900",
+      "3,600",
+      "9,000",
+      "18,000"
+    ],
+    "answer": 2,
+    "explanation": "Cells/µL = cells × dilution ÷ (area × depth) = 180 × 20 ÷ (4 × 0.1) = 9000. Omitting the depth correction gives 900 instead."
+  },
+  {
+    "id": "lab-0004",
+    "topic": "lab",
+    "subtopic": "manual_counts",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A 1:20 dilution WBC count yields 88 cells across 4 large corner squares (4 mm² total, depth 0.1 mm). What is the WBC count in cells/µL?",
+    "image": null,
+    "choices": [
+      "440",
+      "1,760",
+      "35,200",
+      "4,400"
+    ],
+    "answer": 3,
+    "explanation": "Cells/µL = 88 × 20 ÷ (4 × 0.1) = 1760 ÷ 0.4 = 4400, which is 4.4 ×10³/µL. Dividing by area but forgetting the 0.1 mm depth factor gives the 440 error."
+  },
+  {
+    "id": "lab-0005",
+    "topic": "lab",
+    "subtopic": "automated_counts",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "An impedance-based hematology analyzer counts and sizes cells by detecting:",
+    "image": null,
+    "choices": [
+      "Changes in electrical resistance as cells pass through an aperture",
+      "Absorbance of the cyanmethemoglobin derivative",
+      "Fluorescence after nucleic acid staining",
+      "Centrifugal packing of cells in a capillary"
+    ],
+    "answer": 0,
+    "explanation": "Each cell displaces conductive diluent in the aperture, producing a pulse whose height tracks cell volume. The other methods measure hemoglobin, nucleic acid or packed volume instead."
+  },
+  {
+    "id": "lab-0006",
+    "topic": "lab",
+    "subtopic": "automated_counts",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "An analyzer that does not automatically subtract nRBCs flags the WBC. A smear shows the illustrated nucleated red cells. What should be done before reporting?",
+    "image": "nrbc",
+    "choices": [
+      "Report the instrument WBC without any change",
+      "Review the smear, count nRBCs per 100 WBC, and report a corrected WBC",
+      "Repeat the count after adding more diluent only",
+      "Report the WBC as a critical value immediately"
+    ],
+    "answer": 1,
+    "explanation": "nRBCs can be counted with leukocytes in an uncorrected WBC channel. Unlike reporting the raw count, counting nRBCs per 100 WBCs and applying the correction removes this inflation; do not correct a result already corrected by the analyzer."
+  },
+  {
+    "id": "lab-0007",
+    "topic": "lab",
+    "subtopic": "automated_counts",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "The uncorrected analyzer WBC is 12.0 ×10³/µL and 20 nRBCs per 100 WBCs are seen on the smear. What is the corrected WBC (×10³/µL)?",
+    "image": null,
+    "choices": [
+      "9.6",
+      "14.4",
+      "10.0",
+      "12.0"
+    ],
+    "answer": 2,
+    "explanation": "Corrected WBC = 12.0 × 100 ÷ (100 + 20) = 1200 ÷ 120 = 10.0 ×10³/µL. Leaving the value at 12.0 would continue to count nRBCs as leukocytes."
+  },
+  {
+    "id": "lab-0008",
+    "topic": "lab",
+    "subtopic": "automated_counts",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Which condition most likely produces a falsely elevated impedance platelet count?",
+    "image": null,
+    "choices": [
+      "Platelet satellitism around neutrophils",
+      "EDTA-induced platelet clumping",
+      "Giant platelets above the size threshold",
+      "Red cell fragments close to platelet size"
+    ],
+    "answer": 3,
+    "explanation": "Fragments and microcytes fall within the platelet size window and are counted as platelets. Clumping, satellitism and giant platelets all tend to lower the reported count."
+  },
+  {
+    "id": "lab-0009",
+    "topic": "lab",
+    "subtopic": "reticulocytes",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which stain is used to visualize reticulocytes in a routine manual count?",
+    "image": "retic_nmb",
+    "choices": [
+      "New methylene blue, a supravital stain",
+      "Wright stain after methanol fixation",
+      "Prussian blue with an acid wash",
+      "Acid elution (Kleihauer-Betke)"
+    ],
+    "answer": 0,
+    "explanation": "Reticulocyte RNA precipitates only in living, unfixed cells, so a supravital dye is needed. Wright stain after fixation does not distinguish them reliably."
+  },
+  {
+    "id": "lab-0010",
+    "topic": "lab",
+    "subtopic": "reticulocytes",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "For a manual reticulocyte count, how should the blood and new methylene blue be handled?",
+    "image": null,
+    "choices": [
+      "Make the smear at once, then add the dye on the slide",
+      "Mix and incubate for about 10–15 minutes before making the smear",
+      "Fix the cells in methanol before mixing with the dye",
+      "Heat the mixture to 56 °C for 30 minutes"
+    ],
+    "answer": 1,
+    "explanation": "Incubation lets the dye penetrate and precipitate the ribosomal RNA. Fixing the cells first would prevent the stain from working."
+  },
+  {
+    "id": "lab-0011",
+    "topic": "lab",
+    "subtopic": "reticulocytes",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A patient has a reticulocyte count of 4.5% and a Hct of 30%. What is the corrected reticulocyte percentage (normal Hct 45%)?",
+    "image": null,
+    "choices": [
+      "1.5%",
+      "6.8%",
+      "3.0%",
+      "2.0%"
+    ],
+    "answer": 2,
+    "explanation": "Corrected retic = 4.5 × 30 ÷ 45 = 135 ÷ 45 = 3.0%. Multiplying by the inverse Hct ratio gives the erroneous 6.8%."
+  },
+  {
+    "id": "lab-0012",
+    "topic": "lab",
+    "subtopic": "reticulocytes",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A patient's retic count is 6.0% and Hct is 22.5%. What is the reticulocyte production index? (Use a maturation factor of 2.0 for Hct 20–29.9%.)",
+    "image": null,
+    "choices": [
+      "3.0",
+      "0.8",
+      "6.0",
+      "1.5"
+    ],
+    "answer": 3,
+    "explanation": "Corrected retic = 6.0 × 22.5 ÷ 45 = 3.0%. RPI = 3.0 ÷ 2.0 = 1.5; the 3.0 answer omits maturation correction, and the RPI indicates an inadequate marrow response to anemia."
+  },
+  {
+    "id": "lab-0013",
+    "topic": "lab",
+    "subtopic": "spurious_results",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "An analyzer reports a high MCHC and a falsely low RBC count. The smear shows red cell clumps that disperse on warming. What should be done?",
+    "image": null,
+    "choices": [
+      "Warm the sample to 37 °C and repeat the analysis",
+      "Report the original values with a comment only",
+      "Add EDTA and re-run the sample immediately",
+      "Replace the plasma with saline and repeat"
+    ],
+    "answer": 0,
+    "explanation": "This pattern fits a cold agglutinin. Warming dissociates the IgM, so the RBC, Hct and indices become accurate."
+  },
+  {
+    "id": "lab-0014",
+    "topic": "lab",
+    "subtopic": "spurious_results",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A lipemic sample gives a falsely high hemoglobin and MCHC. How should the result be corrected?",
+    "image": null,
+    "choices": [
+      "Centrifuge and report the Hgb from the supernatant",
+      "Replace the plasma with isotonic diluent and repeat the test",
+      "Dilute the sample 1:2 and multiply the result by 2",
+      "Warm the sample to 37 °C and rerun it"
+    ],
+    "answer": 1,
+    "explanation": "Lipid turbidity increases absorbance in the hemoglobin channel. Replacing the plasma with diluent removes the interference."
+  },
+  {
+    "id": "lab-0015",
+    "topic": "lab",
+    "subtopic": "spurious_results",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "The analyzer reports a platelet count of 38 ×10³/µL in a well patient. The smear shows platelet clumps. What is the best next step?",
+    "image": "platelet_clump",
+    "choices": [
+      "Report the 38 as a critical low platelet count",
+      "Multiply the 38 by 10 for the final result",
+      "Recollect in citrate, check for clumps, and apply its dilution correction",
+      "Recollect in a second EDTA tube and repeat"
+    ],
+    "answer": 2,
+    "explanation": "EDTA-dependent clumping can cause pseudothrombocytopenia, so repeating EDTA may reproduce the problem. If a properly filled 9:1 blood:citrate tube has no clumps, multiply its platelet count by 1.1 for dilution; citrate does not prevent clumps in every patient."
+  },
+  {
+    "id": "lab-0016",
+    "topic": "lab",
+    "subtopic": "spurious_results",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "With WBC 220 ×10³/µL, the hemoglobin channel has suspected leukocyte turbidity. Which laboratory approach is appropriate?",
+    "image": null,
+    "choices": [
+      "Release the high Hgb because lysis always removes leukocyte debris",
+      "Warm the intact sample to dissolve every leukocyte nucleus",
+      "Measure the cell-free plasma as the patient's total hemoglobin",
+      "Use a validated method that clears leukocyte debris from the hemolysate"
+    ],
+    "answer": 3,
+    "explanation": "Residual leukocyte material in a hemolysate can scatter light and falsely elevate Hgb. A validated debris-clearing method can remove the interference; cell-free plasma alone does not contain the patient's red cell hemoglobin."
+  },
+  {
+    "id": "lab-0017",
+    "topic": "lab",
+    "subtopic": "hemoglobin",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "What is the reference method for measuring hemoglobin concentration?",
+    "image": null,
+    "choices": [
+      "Cyanmethemoglobin read photometrically at 540 nm",
+      "Packed cell volume by microcentrifuge",
+      "Gravimetric measurement of dried cells",
+      "Hemoglobin electrophoresis at pH 8.6"
+    ],
+    "answer": 0,
+    "explanation": "Drabkin's reagent converts most hemoglobin derivatives to stable cyanmethemoglobin, whose absorbance is proportional to concentration. Electrophoresis separates hemoglobin types rather than serving as the reference total Hgb measurement."
+  },
+  {
+    "id": "lab-0018",
+    "topic": "lab",
+    "subtopic": "hemoglobin",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which hemoglobin derivative is NOT converted to cyanmethemoglobin in Drabkin's reagent?",
+    "image": null,
+    "choices": [
+      "Methemoglobin",
+      "Sulfhemoglobin",
+      "Carboxyhemoglobin",
+      "Oxyhemoglobin"
+    ],
+    "answer": 1,
+    "explanation": "Sulfhemoglobin is irreversibly formed and resists conversion. The other three derivatives are measured."
+  },
+  {
+    "id": "lab-0019",
+    "topic": "lab",
+    "subtopic": "hemoglobin",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A cyanmethemoglobin reading exceeds the highest standard on the calibration curve. What is the correct action?",
+    "image": null,
+    "choices": [
+      "Report the value extrapolated from the curve",
+      "Subtract the blank absorbance and report",
+      "Dilute the specimen with Drabkin's reagent, repeat, and multiply by the dilution",
+      "Switch to a 620 nm filter and rerun"
+    ],
+    "answer": 2,
+    "explanation": "Beer's law is valid only within the calibrated range. A measured dilution restores a reading inside it."
+  },
+  {
+    "id": "lab-0020",
+    "topic": "lab",
+    "subtopic": "hemoglobin",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "In Drabkin's reagent, what is the main role of potassium ferricyanide?",
+    "image": null,
+    "choices": [
+      "Lysing red cells by osmotic shock",
+      "Reducing cyanide to its inactive form",
+      "Buffering the solution at pH 3",
+      "Oxidizing heme iron from Fe²⁺ to Fe³⁺ to form methemoglobin"
+    ],
+    "answer": 3,
+    "explanation": "Ferricyanide oxidizes ferrous heme to methemoglobin, and cyanide then binds to form the stable colored product. Ferricyanide is not the lysing agent."
+  },
+  {
+    "id": "lab-0021",
+    "topic": "lab",
+    "subtopic": "hematocrit",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Before centrifuging filled microhematocrit tubes, how should they be positioned in the rotor?",
+    "image": null,
+    "choices": [
+      "With sealed ends outward and tubes balanced opposite each other",
+      "With open ends outward and tubes balanced opposite each other",
+      "With sealed ends inward and all tubes clustered on one side",
+      "With either end outward and no balancing of the loaded tubes"
+    ],
+    "answer": 0,
+    "explanation": "The seal must face outward to retain blood under centrifugal force, and opposing loads must be balanced. Facing an open end outward risks losing the specimen."
+  },
+  {
+    "id": "lab-0022",
+    "topic": "lab",
+    "subtopic": "hematocrit",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A normocytic normochromic specimen has Hgb 11.0 g/dL. Using the rule of three, which Hct would you expect?",
+    "image": null,
+    "choices": [
+      "25%",
+      "33%",
+      "44%",
+      "38%"
+    ],
+    "answer": 1,
+    "explanation": "The expected Hct is about 3 × Hgb = 3 × 11.0 = 33%. This rule works only for normocytic, normochromic cells."
+  },
+  {
+    "id": "lab-0023",
+    "topic": "lab",
+    "subtopic": "hematocrit",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "How should the Hct be read on a spun microhematocrit tube using a reader card?",
+    "image": null,
+    "choices": [
+      "Read at the top of the buffy coat",
+      "Read at the top of the plasma",
+      "Read at the top of the red cell column, excluding the buffy coat",
+      "Read the midpoint of the buffy coat"
+    ],
+    "answer": 2,
+    "explanation": "The packed red cell column alone defines the Hct. Including the buffy coat overestimates it."
+  },
+  {
+    "id": "lab-0024",
+    "topic": "lab",
+    "subtopic": "hematocrit",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "In most automated impedance analyzers, how is the Hct derived?",
+    "image": null,
+    "choices": [
+      "It is measured by microcentrifugation inside the instrument",
+      "It is calculated as 3 times the hemoglobin",
+      "It is measured photometrically at 540 nm",
+      "It is calculated from the MCV and RBC count"
+    ],
+    "answer": 3,
+    "explanation": "Hct (%) = MCV × RBC ÷ 10 when RBC is in ×10⁶/µL and MCV in fL. Multiplying Hgb by three is only a plausibility check for suitable samples, not the analyzer's Hct method."
+  },
+  {
+    "id": "lab-0025",
+    "topic": "lab",
+    "subtopic": "indices",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "A patient has Hct 36% and RBC 4.0 ×10⁶/µL. What is the MCV in fL?",
+    "image": null,
+    "choices": [
+      "90",
+      "80",
+      "100",
+      "144"
+    ],
+    "answer": 0,
+    "explanation": "MCV = Hct × 10 ÷ RBC = 36 × 10 ÷ 4.0 = 90 fL, within the 80–100 fL range. Neither 80 nor 100 follows from the given numbers."
+  },
+  {
+    "id": "lab-0026",
+    "topic": "lab",
+    "subtopic": "indices",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A patient has Hgb 9.0 g/dL and RBC 3.6 ×10⁶/µL. What is the MCH in pg?",
+    "image": null,
+    "choices": [
+      "32.4",
+      "25.0",
+      "40.0",
+      "2.5"
+    ],
+    "answer": 1,
+    "explanation": "MCH = Hgb × 10 ÷ RBC = 90 ÷ 3.6 = 25.0 pg. The 2.5 answer omits the factor of ten."
+  },
+  {
+    "id": "lab-0027",
+    "topic": "lab",
+    "subtopic": "indices",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A patient has Hgb 10.5 g/dL and Hct 33%. What is the MCHC in g/dL?",
+    "image": null,
+    "choices": [
+      "35.0",
+      "3.1",
+      "31.8",
+      "31.4"
+    ],
+    "answer": 2,
+    "explanation": "MCHC = Hgb × 100 ÷ Hct = 1050 ÷ 33 = 31.8 g/dL, slightly below the 32–36 reference range. The 31.4 option is not the rounded result of the stated calculation."
+  },
+  {
+    "id": "lab-0028",
+    "topic": "lab",
+    "subtopic": "indices",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "The analyzer reports normal MCV, high RDW and a bimodal RBC histogram after a recent transfusion. Which next step best evaluates this pattern?",
+    "image": null,
+    "choices": [
+      "Release a report describing a uniform normal-sized red cell population",
+      "Repeat only hemoglobin and discard the RBC histogram",
+      "Diagnose isolated spherocytosis without examining a smear",
+      "Review the smear for mixed red cell populations and correlate with history"
+    ],
+    "answer": 3,
+    "explanation": "A mean MCV can mask two populations, such as a patient's microcytes mixed with transfused normocytes. Smear review can verify the histogram; repeating Hgb alone does not assess the size distribution."
+  },
+  {
+    "id": "lab-0029",
+    "topic": "lab",
+    "subtopic": "differential_morphology",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which red cell shows a central dark spot surrounded by a pale ring and then a peripheral rim of hemoglobin?",
+    "image": "target_cell",
+    "choices": [
+      "Target cell",
+      "Spherocyte",
+      "Stomatocyte",
+      "Elliptocyte"
+    ],
+    "answer": 0,
+    "explanation": "Target cells have a central hemoglobin-filled area, a clear ring and a dense rim. A stomatocyte instead has slit-like central pallor."
+  },
+  {
+    "id": "lab-0030",
+    "topic": "lab",
+    "subtopic": "differential_morphology",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "WBC is 8.0 ×10³/µL with 58% segmented neutrophils and 7% bands. What is the absolute neutrophil count (×10³/µL)?",
+    "image": null,
+    "choices": [
+      "4.6",
+      "5.2",
+      "0.6",
+      "6.5"
+    ],
+    "answer": 1,
+    "explanation": "Neutrophils = 58% + 7% = 65% of the WBC, and 8.0 × 0.65 = 5.2 ×10³/µL. The 4.6 option incorrectly omits bands."
+  },
+  {
+    "id": "lab-0031",
+    "topic": "lab",
+    "subtopic": "differential_morphology",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Where on a wedge smear should the manual differential be performed?",
+    "image": null,
+    "choices": [
+      "At the very thick head of the smear",
+      "Along the extreme feather edge only",
+      "In the thin area where red cells are just barely touching",
+      "In the area where red cells overlap heavily"
+    ],
+    "answer": 2,
+    "explanation": "Cell morphology is best seen in the monolayer. The thin feather edge overrepresents large cells such as monocytes."
+  },
+  {
+    "id": "lab-0032",
+    "topic": "lab",
+    "subtopic": "differential_morphology",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A pink-red, needle-shaped cytoplasmic inclusion in a myeloblast is called a(n):",
+    "image": "auer_rod",
+    "choices": [
+      "Döhle body",
+      "Howell-Jolly body",
+      "Cabot ring",
+      "Auer rod"
+    ],
+    "answer": 3,
+    "explanation": "Auer rods are fused primary granules and support myeloid lineage in a blast. Döhle bodies are pale blue inclusions in mature neutrophils, not red needle-like rods."
+  },
+  {
+    "id": "lab-0033",
+    "topic": "lab",
+    "subtopic": "hemolytic_indicators",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which laboratory pattern is expected in active intravascular hemolysis?",
+    "image": null,
+    "choices": [
+      "Decreased haptoglobin and increased LDH",
+      "Increased haptoglobin and decreased LDH",
+      "Decreased indirect bilirubin",
+      "Decreased reticulocytes with increased haptoglobin"
+    ],
+    "answer": 0,
+    "explanation": "Free hemoglobin is bound by haptoglobin and cleared, so haptoglobin falls while LDH rises from lysed cells. Increased haptoglobin with decreased LDH is the opposite pattern."
+  },
+  {
+    "id": "lab-0034",
+    "topic": "lab",
+    "subtopic": "hemolytic_indicators",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A positive urine hemosiderin test supports which finding?",
+    "image": null,
+    "choices": [
+      "Acute blood loss from the gut",
+      "Chronic intravascular hemolysis",
+      "Isolated B12 deficiency",
+      "Extravascular hemolysis only"
+    ],
+    "answer": 1,
+    "explanation": "After intravascular hemolysis, filtered free hemoglobin is taken up by renal tubular cells and its iron is later shed as hemosiderin. Extravascular hemolysis alone does not produce this urinary finding."
+  },
+  {
+    "id": "lab-0035",
+    "topic": "lab",
+    "subtopic": "hemolytic_indicators",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A serum sample looks pink. How can in vivo hemolysis be separated from collection-related hemolysis?",
+    "image": null,
+    "choices": [
+      "Report the hemolyzed sample as a result of intravascular hemolysis",
+      "Dilute the serum and measure the free hemoglobin",
+      "Recollect carefully; pink plasma again with low haptoglobin suggests in vivo hemolysis",
+      "Heat the sample before comparing the color"
+    ],
+    "answer": 2,
+    "explanation": "Poor collection technique lyses cells in vitro. A fresh clean draw that remains pink, together with consumed haptoglobin, points to real hemolysis."
+  },
+  {
+    "id": "lab-0036",
+    "topic": "lab",
+    "subtopic": "hemolytic_indicators",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Spherocytes are seen with a positive direct antiglobulin test. What is the most likely diagnosis?",
+    "image": "spherocyte",
+    "choices": [
+      "Hereditary spherocytosis",
+      "Hereditary elliptocytosis",
+      "Paroxysmal nocturnal hemoglobinuria",
+      "Warm autoimmune hemolytic anemia"
+    ],
+    "answer": 3,
+    "explanation": "A positive DAT shows that antibody or complement is on the red cell. Hereditary spherocytosis has a negative DAT."
+  },
+  {
+    "id": "lab-0037",
+    "topic": "lab",
+    "subtopic": "special_stains",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "The illustrated red cell granules may contain iron. Which stain should you select to confirm that interpretation?",
+    "image": "pappenheimer",
+    "choices": [
+      "Prussian blue",
+      "Sudan black B",
+      "Periodic acid-Schiff",
+      "Tartrate-resistant acid phosphatase"
+    ],
+    "answer": 0,
+    "explanation": "Prussian blue stains ferric iron in Pappenheimer bodies. Sudan black B stains myeloid lipid-containing granules rather than identifying iron."
+  },
+  {
+    "id": "lab-0038",
+    "topic": "lab",
+    "subtopic": "special_stains",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "In a Kleihauer-Betke acid elution stain, which cells stain pink-red?",
+    "image": "kleihauer_betke",
+    "choices": [
+      "Cells containing hemoglobin A",
+      "Cells containing fetal hemoglobin",
+      "Reticulocytes with RNA",
+      "Cells with Heinz bodies"
+    ],
+    "answer": 1,
+    "explanation": "Hb F resists acid elution, so fetal cells stay stained. Adult red cells appear as pale ghosts."
+  },
+  {
+    "id": "lab-0039",
+    "topic": "lab",
+    "subtopic": "special_stains",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Positivity with which cytochemical stains supports myeloid rather than lymphoid lineage in an acute leukemia?",
+    "image": null,
+    "choices": [
+      "Periodic acid-Schiff only",
+      "Tartrate-resistant acid phosphatase",
+      "Myeloperoxidase and Sudan black B",
+      "Prussian blue iron stain"
+    ],
+    "answer": 2,
+    "explanation": "MPO and Sudan black B stain myeloid granules, while lymphoblasts are typically negative. PAS alone is not myeloid-specific, and some minimally differentiated myeloid leukemias can lack MPO."
+  },
+  {
+    "id": "lab-0040",
+    "topic": "lab",
+    "subtopic": "special_stains",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A low leukocyte alkaline phosphatase score is typical of which condition?",
+    "image": null,
+    "choices": [
+      "Leukemoid reaction",
+      "Polycythemia vera",
+      "Bacterial infection",
+      "Chronic myeloid leukemia"
+    ],
+    "answer": 3,
+    "explanation": "LAP is low in CML and high in leukemoid reactions. The stain is now rarely used and has been replaced by molecular testing."
+  },
+  {
+    "id": "lab-0041",
+    "topic": "lab",
+    "subtopic": "esr",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "The erythrocyte sedimentation rate measures:",
+    "image": null,
+    "choices": [
+      "How far red cells settle in plasma in one hour",
+      "The speed of hemoglobin release",
+      "The number of cells per field",
+      "The packed volume after centrifugation"
+    ],
+    "answer": 0,
+    "explanation": "ESR is the distance cells settle in anticoagulated blood over one hour, reported as mm/hr. Packed volume after centrifugation is the hematocrit, not the ESR."
+  },
+  {
+    "id": "lab-0042",
+    "topic": "lab",
+    "subtopic": "esr",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "What is the effect of tilting a Westergren tube from the vertical?",
+    "image": null,
+    "choices": [
+      "The ESR is falsely decreased",
+      "The ESR is falsely increased",
+      "The ESR is unchanged",
+      "Only the buffy coat is altered"
+    ],
+    "answer": 1,
+    "explanation": "Even a slight tilt speeds up sedimentation, so the stand must be level and vertical."
+  },
+  {
+    "id": "lab-0043",
+    "topic": "lab",
+    "subtopic": "esr",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "How long may an EDTA specimen be kept before the ESR must be set up?",
+    "image": null,
+    "choices": [
+      "15 minutes at room temperature",
+      "72 hours at room temperature",
+      "4 hours at room temperature, or 24 hours at 4 °C",
+      "1 week at 4 °C"
+    ],
+    "answer": 2,
+    "explanation": "Aged samples change cell shape and sediment slowly. Refrigerated samples must be returned to room temperature."
+  },
+  {
+    "id": "lab-0044",
+    "topic": "lab",
+    "subtopic": "esr",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Which condition tends to lower the ESR?",
+    "image": null,
+    "choices": [
+      "Multiple myeloma with rouleaux",
+      "Marked anemia",
+      "High fibrinogen from inflammation",
+      "Sickle cell disease"
+    ],
+    "answer": 3,
+    "explanation": "Sickled cells do not stack into rouleaux. The other conditions promote aggregation or reduce the red cell mass, and hence raise the ESR."
+  },
+  {
+    "id": "lab-0045",
+    "topic": "lab",
+    "subtopic": "g6pd_heinz",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Oxidant hemolysis is suspected. Which stain should you select to demonstrate the membrane-associated inclusions illustrated here?",
+    "image": "heinz_body",
+    "choices": [
+      "A supravital stain such as crystal violet",
+      "Wright-Giemsa stain only",
+      "Prussian blue",
+      "Acid elution stain"
+    ],
+    "answer": 0,
+    "explanation": "Heinz bodies are denatured hemoglobin and are not visible on Wright stain. They appear when the cells are stained supravitally."
+  },
+  {
+    "id": "lab-0046",
+    "topic": "lab",
+    "subtopic": "g6pd_heinz",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Heinz bodies are composed of:",
+    "image": null,
+    "choices": [
+      "Ribosomal RNA",
+      "Denatured hemoglobin",
+      "Iron granules",
+      "Nuclear remnants"
+    ],
+    "answer": 1,
+    "explanation": "Oxidant damage precipitates globin into Heinz bodies. Ribosomal RNA instead forms reticulocyte networks or basophilic stippling."
+  },
+  {
+    "id": "lab-0047",
+    "topic": "lab",
+    "subtopic": "g6pd_heinz",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Why might a G6PD assay be falsely normal just after a hemolytic crisis?",
+    "image": null,
+    "choices": [
+      "The assay detects only fetal G6PD",
+      "The reagent is inactivated by free hemoglobin",
+      "Older enzyme-deficient cells have lysed and young cells have more enzyme",
+      "Reticulocytes lack G6PD entirely"
+    ],
+    "answer": 2,
+    "explanation": "Young red cells and reticulocytes often have higher G6PD activity, while older deficient cells are preferentially destroyed. Reticulocytosis does not imply absent enzyme; repeat testing after recovery, commonly at about three months, according to laboratory guidance."
+  },
+  {
+    "id": "lab-0048",
+    "topic": "lab",
+    "subtopic": "g6pd_heinz",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Bite cells in G6PD deficiency form because:",
+    "image": "bite_cell",
+    "choices": [
+      "Red cells are cut by fibrin strands",
+      "Hemoglobin crystals pierce the membrane",
+      "Antibody coats part of the membrane",
+      "Macrophages remove Heinz bodies from red cells"
+    ],
+    "answer": 3,
+    "explanation": "Splenic macrophages pit out denatured globin, leaving a semicircular bite. Fibrin strands instead create irregular red cell fragments called schistocytes."
+  },
+  {
+    "id": "lab-0049",
+    "topic": "lab",
+    "subtopic": "flow_cytometry",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "What does flow cytometry measure?",
+    "image": null,
+    "choices": [
+      "Light scatter and fluorescence of individual cells in suspension",
+      "Electrical resistance of whole blood",
+      "The sedimentation of cells in a tube",
+      "Absorbance of lysed hemoglobin"
+    ],
+    "answer": 0,
+    "explanation": "Cells pass a laser one at a time, producing scatter and fluorescence signals for size, granularity and antigen expression. Electrical resistance is the principle of impedance counting."
+  },
+  {
+    "id": "lab-0050",
+    "topic": "lab",
+    "subtopic": "flow_cytometry",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "When preparing a flow cytometry analysis, what should be done with dead cells identified by a viability dye?",
+    "image": null,
+    "choices": [
+      "Include only the dye-positive cells in the final antigen analysis",
+      "Exclude the dye-positive dead cells from the viable-cell analysis",
+      "Count every dye-positive cell as a circulating blast",
+      "Use the dye-positive cells as the antibody-positive control"
+    ],
+    "answer": 1,
+    "explanation": "Dead cells can bind antibodies nonspecifically and distort antigen measurements. Including only dead cells would enrich that artifact rather than measure the viable population."
+  },
+  {
+    "id": "lab-0051",
+    "topic": "lab",
+    "subtopic": "flow_cytometry",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "CD34 positivity is most useful for identifying:",
+    "image": null,
+    "choices": [
+      "Mature neutrophils",
+      "Plasma cells",
+      "Hematopoietic progenitors and many blasts",
+      "Mature red cells"
+    ],
+    "answer": 2,
+    "explanation": "CD34 is a progenitor marker used to enumerate blasts and stem cells. Mature cells have lost it."
+  },
+  {
+    "id": "lab-0052",
+    "topic": "lab",
+    "subtopic": "flow_cytometry",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Absent CD55 and CD59 on red cells and granulocytes supports which diagnosis?",
+    "image": null,
+    "choices": [
+      "Hereditary spherocytosis",
+      "Autoimmune hemolytic anemia",
+      "Hairy cell leukemia",
+      "Paroxysmal nocturnal hemoglobinuria"
+    ],
+    "answer": 3,
+    "explanation": "A GPI anchor defect in PNH removes protective CD55/CD59 and permits complement-mediated lysis. Hereditary spherocytosis is a membrane skeleton disorder, not loss of these anchored proteins."
+  },
+  {
+    "id": "lab-0053",
+    "topic": "lab",
+    "subtopic": "molecular_cytogenetic",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "The Philadelphia chromosome t(9;22) creates which fusion gene?",
+    "image": null,
+    "choices": [
+      "BCR::ABL1",
+      "PML::RARA",
+      "JAK2 V617F",
+      "RUNX1::RUNX1T1"
+    ],
+    "answer": 0,
+    "explanation": "t(9;22) fuses BCR to ABL1, the hallmark of chronic myeloid leukemia. PML::RARA instead results from t(15;17) in acute promyelocytic leukemia."
+  },
+  {
+    "id": "lab-0054",
+    "topic": "lab",
+    "subtopic": "molecular_cytogenetic",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which translocation characterizes acute promyelocytic leukemia?",
+    "image": null,
+    "choices": [
+      "t(9;22) BCR::ABL1",
+      "t(15;17) PML::RARA",
+      "t(8;21) RUNX1::RUNX1T1",
+      "t(14;18) IGH::BCL2"
+    ],
+    "answer": 1,
+    "explanation": "PML::RARA blocks differentiation at the promyelocyte stage and characterizes APL. BCR::ABL1 from t(9;22) instead characterizes CML and some B-ALL cases."
+  },
+  {
+    "id": "lab-0055",
+    "topic": "lab",
+    "subtopic": "molecular_cytogenetic",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "The JAK2 V617F mutation is found in most cases of which disorder?",
+    "image": null,
+    "choices": [
+      "Chronic myeloid leukemia",
+      "Hairy cell leukemia",
+      "Polycythemia vera",
+      "Hereditary elliptocytosis"
+    ],
+    "answer": 2,
+    "explanation": "JAK2 V617F occurs in about 95% of polycythemia vera and in some essential thrombocythemia and primary myelofibrosis cases. CML is instead defined by BCR::ABL1."
+  },
+  {
+    "id": "lab-0056",
+    "topic": "lab",
+    "subtopic": "molecular_cytogenetic",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "What advantage does FISH have over conventional karyotyping?",
+    "image": null,
+    "choices": [
+      "It detects every chromosomal abnormality in a genome",
+      "It needs a long cell culture",
+      "It reads cell morphology directly",
+      "It can be performed on non-dividing interphase cells"
+    ],
+    "answer": 3,
+    "explanation": "FISH probes bind to target sequences in nuclei, so culture is unnecessary. However, it only tests the regions that the probes cover."
+  },
+  {
+    "id": "lab-0057",
+    "topic": "lab",
+    "subtopic": "body_fluid_counts",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "A CSF cell count should be performed:",
+    "image": null,
+    "choices": [
+      "Promptly, within about an hour of collection",
+      "Any time within 24 hours",
+      "Only after the sample is frozen",
+      "After the sample is centrifuged"
+    ],
+    "answer": 0,
+    "explanation": "CSF cells lyse quickly, so delay can lower counts and distort morphology. Centrifuging before the count removes cells from the fluid being measured."
+  },
+  {
+    "id": "lab-0058",
+    "topic": "lab",
+    "subtopic": "body_fluid_counts",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "An undiluted CSF is placed on a hemocytometer, and 45 cells are counted in 9 mm² at a depth of 0.1 mm. What is the cell count in cells/µL?",
+    "image": null,
+    "choices": [
+      "5",
+      "50",
+      "405",
+      "450"
+    ],
+    "answer": 1,
+    "explanation": "Cells/µL = 45 × 1 ÷ (9 × 0.1) = 45 ÷ 0.9 = 50. The 5 option omits the chamber depth correction."
+  },
+  {
+    "id": "lab-0059",
+    "topic": "lab",
+    "subtopic": "body_fluid_counts",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Which preparation is preferred for the differential of a cell-poor body fluid?",
+    "image": null,
+    "choices": [
+      "A wet mount counted without stain",
+      "A direct smear stained with Prussian blue",
+      "A cytocentrifuge preparation stained with Wright stain",
+      "A hemocytometer count only"
+    ],
+    "answer": 2,
+    "explanation": "Cytocentrifugation concentrates sparse cells onto a slide for Wright-stained morphology. A hemocytometer provides a count but not the stained detail needed for a reliable differential."
+  },
+  {
+    "id": "lab-0060",
+    "topic": "lab",
+    "subtopic": "body_fluid_counts",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A bloody CSF sample has an elevated WBC, but a mathematical traumatic-tap correction gives a value near normal. How should this be interpreted?",
+    "image": null,
+    "choices": [
+      "Suppress the measured WBC and state that infection is excluded",
+      "Report every WBC as contamination without further evaluation",
+      "Use the RBC count alone to determine whether meningitis is present",
+      "Report per policy; a correction estimate cannot exclude meningitis"
+    ],
+    "answer": 3,
+    "explanation": "Correction ratios estimate leukocytes introduced with blood but are imperfect, especially when disease coexists. A corrected value must not replace clinical assessment or be used alone to exclude meningitis."
+  }
+]

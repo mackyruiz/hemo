@@ -1,0 +1,262 @@
+[
+ {
+  "id": "normal_rbc_1",
+  "morph": "normal_rbc",
+  "commons": "WBC (neutrophil) at centre, numerous erythrocytes and platelets (dot like bodies) in Wright's stained peripheral blood smear (PBS) microscopy.jpg",
+  "crop": [0.33, 0.54, 0.13, 0.17]
+ },
+ {
+  "id": "normal_platelet_1",
+  "morph": "normal_platelet",
+  "commons": "WBC (neutrophil) at centre, numerous erythrocytes and platelets (dot like bodies) in Wright's stained peripheral blood smear (PBS) microscopy.jpg",
+  "crop": [0.82, 0.67, 0.17, 0.22]
+ },
+ {
+  "id": "microcytic_hypochromic_1",
+  "morph": "microcytic_hypochromic",
+  "commons": "Iron-deficiency Anemia, Peripheral Blood Smear (4422704616).jpg"
+ },
+ {
+  "id": "polychromasia_1",
+  "morph": "polychromasia",
+  "commons": "Peripheral blood smear with polychromasia.jpg"
+ },
+ {
+  "id": "spherocyte_1",
+  "morph": "spherocyte",
+  "commons": "Peripheral blood smear stained with MGG from a patient with hereditary spherocytosis.png",
+  "crop": [0.40, 0.44, 0.13, 0.16]
+ },
+ {
+  "id": "spherocyte_2",
+  "morph": "spherocyte",
+  "commons": "Warm autoimmune hemolytic anemia.jpg"
+ },
+ {
+  "id": "target_cell_1",
+  "morph": "target_cell",
+  "commons": "Micrograph of a target cell.jpg"
+ },
+ {
+  "id": "target_cell_2",
+  "morph": "target_cell",
+  "commons": "Target cells.jpg",
+  "crop": [0.53, 0.54, 0.20, 0.22]
+ },
+ {
+  "id": "schistocyte_1",
+  "morph": "schistocyte",
+  "commons": "Schizocyte smear 2009-12-22.JPG"
+ },
+ {
+  "id": "sickle_cell_1",
+  "morph": "sickle_cell",
+  "commons": "Sickle-cell smear 2015-09-10.jpg"
+ },
+ {
+  "id": "sickle_cell_2",
+  "morph": "sickle_cell",
+  "commons": "Sickle Cell Anemia (5610746554).jpg"
+ },
+ {
+  "id": "elliptocyte_1",
+  "morph": "elliptocyte",
+  "commons": "Peripheral blood smear stained with MGG from a patient with hereditary elliptocytosis.png"
+ },
+ {
+  "id": "teardrop_cell_1",
+  "morph": "teardrop_cell",
+  "commons": "Teardrop Cells smear 2009-09-22.JPG"
+ },
+ {
+  "id": "acanthocyte_1",
+  "morph": "acanthocyte",
+  "commons": "Human blood film with acanthocytes 01.jpg"
+ },
+ {
+  "id": "echinocyte_1",
+  "morph": "echinocyte",
+  "commons": "Echinocytes-12.JPG"
+ },
+ {
+  "id": "stomatocyte_1",
+  "morph": "stomatocyte",
+  "commons": "Stomatocytes.jpg",
+  "crop": [0.39, 0.43, 0.16, 0.17]
+ },
+ {
+  "id": "rouleaux_1",
+  "morph": "rouleaux",
+  "commons": "Rouleaux.jpg",
+  "crop": [0.80, 0.28, 0.07, 0.18]
+ },
+ {
+  "id": "nrbc_1",
+  "morph": "nrbc",
+  "commons": "Nucleated red blood cell (RBC) in a Wright's stained peripheral blood smear (PBS) microscopy of an aplastic anemia patient.jpg",
+  "crop": [0.42, 0.33, 0.18, 0.20]
+ },
+ {
+  "id": "howell_jolly_1",
+  "morph": "howell_jolly",
+  "commons": "Howell-Jolly body.png"
+ },
+ {
+  "id": "basophilic_stippling_1",
+  "morph": "basophilic_stippling",
+  "commons": "Micrograph of a red blood cell with basophilic stippling.jpg"
+ },
+ {
+  "id": "pappenheimer_1",
+  "morph": "pappenheimer",
+  "commons": "Pappenheimer bodies smear 2015-08-31.jpg",
+  "crop": [0.22, 0.37, 0.13, 0.14]
+ },
+ {
+  "id": "cabot_ring_1",
+  "morph": "cabot_ring",
+  "commons": "Cabot ring and basophilic stippling.jpg",
+  "crop": [0.44, 0.42, 0.13, 0.14]
+ },
+ {
+  "id": "malaria_falciparum_ring_1",
+  "morph": "malaria_falciparum_ring",
+  "commons": "P. falciparum thin smear with ring forms.jpg",
+  "crop": [0.67, 0.07, 0.22, 0.20]
+ },
+ {
+  "id": "malaria_falciparum_ring_2",
+  "morph": "malaria_falciparum_ring",
+  "commons": "Rings of P. falciparum in a thin blood smear.jpg"
+ },
+ {
+  "id": "babesia_1",
+  "morph": "babesia",
+  "commons": "Blood smear of Babesia microti, original.png",
+  "crop": [0.07, 0.37, 0.20, 0.23]
+ },
+ {
+  "id": "neutrophil_seg_1",
+  "morph": "neutrophil_seg",
+  "commons": "Segmented neutrophils.jpg",
+  "crop": [0.24, 0.32, 0.21, 0.25]
+ },
+ {
+  "id": "neutrophil_band_1",
+  "morph": "neutrophil_band",
+  "commons": "Band neutrophil.JPG",
+  "crop": [0.32, 0.35, 0.24, 0.30]
+ },
+ {
+  "id": "lymphocyte_1",
+  "morph": "lymphocyte",
+  "commons": "Blood-lymphocyte1.jpg",
+  "crop": [0.50, 0.46, 0.12, 0.15]
+ },
+ {
+  "id": "monocyte_1",
+  "morph": "monocyte",
+  "commons": "Blood-monocyte.jpg",
+  "crop": [0.63, 0.50, 0.14, 0.19]
+ },
+ {
+  "id": "eosinophil_1",
+  "morph": "eosinophil",
+  "commons": "Eosinophils in Peripheral Blood Smear (4746281402).jpg",
+  "crop": [0.32, 0.12, 0.15, 0.16]
+ },
+ {
+  "id": "basophil_1",
+  "morph": "basophil",
+  "commons": "Blood-basophil2.jpg",
+  "crop": [0.37, 0.34, 0.12, 0.15]
+ },
+ {
+  "id": "reactive_lymph_1",
+  "morph": "reactive_lymph",
+  "commons": "Reactive lymphocyte.jpg"
+ },
+ {
+  "id": "myeloblast_1",
+  "morph": "myeloblast",
+  "commons": "Myeloblast 6.jpg",
+  "crop": [0.54, 0.59, 0.15, 0.19]
+ },
+ {
+  "id": "lymphoblast_1",
+  "morph": "lymphoblast",
+  "commons": "ALL-L1.jpg"
+ },
+ {
+  "id": "promyelocyte_1",
+  "morph": "promyelocyte",
+  "commons": "Promyelocyte.JPG"
+ },
+ {
+  "id": "myelocyte_1",
+  "morph": "myelocyte",
+  "commons": "Neutrophylic Myelocyte.jpg"
+ },
+ {
+  "id": "metamyelocyte_1",
+  "morph": "metamyelocyte",
+  "commons": "Hem1Metamyelocyte.jpg"
+ },
+ {
+  "id": "plasma_cell_1",
+  "morph": "plasma_cell",
+  "commons": "Multiple myeloma peripheral blood morphology - rouleaux, background staining and plasma cell.jpg",
+  "crop": [0.37, 0.36, 0.16, 0.19]
+ },
+ {
+  "id": "hypersegmented_neutrophil_1",
+  "morph": "hypersegmented_neutrophil",
+  "commons": "Hypersegmented neutrophil.jpg"
+ },
+ {
+  "id": "auer_rod_1",
+  "morph": "auer_rod",
+  "commons": "Auer Rods in Leukemic Blast (2434847298).jpg"
+ },
+ {
+  "id": "smudge_cell_1",
+  "morph": "smudge_cell",
+  "commons": "Smear cells.jpg",
+  "crop": [0.48, 0.37, 0.16, 0.18]
+ },
+ {
+  "id": "hairy_cell_1",
+  "morph": "hairy_cell",
+  "commons": "Hairy cell leukemia smear 2009-08-20.JPG",
+  "crop": [0.34, 0.30, 0.13, 0.16]
+ },
+ {
+  "id": "pelger_huet_1",
+  "morph": "pelger_huet",
+  "commons": "Pelger-Huet anomaly-1.JPG",
+  "crop": [0.70, 0.73, 0.23, 0.22]
+ },
+ {
+  "id": "giant_platelet_1",
+  "morph": "giant_platelet",
+  "commons": "Giant Platelet, Peripheral Blood Smear (6032662354).jpg",
+  "crop": [0.47, 0.39, 0.13, 0.19]
+ },
+ {
+  "id": "platelet_satellitism_1",
+  "morph": "platelet_satellitism",
+  "commons": "Platelet Satellitism smear 2009-09-11.JPG",
+  "crop": [0.38, 0.40, 0.22, 0.25]
+ },
+ {
+  "id": "retic_nmb_1",
+  "morph": "retic_nmb",
+  "commons": "Reticulocytes Human Blood Supravital Stain.jpg",
+  "crop": [0.54, 0.06, 0.14, 0.23]
+ },
+ {
+  "id": "kleihauer_betke_1",
+  "morph": "kleihauer_betke",
+  "commons": "KB stain original.jpg"
+ }
+]

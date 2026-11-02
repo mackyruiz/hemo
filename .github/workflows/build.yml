@@ -1,0 +1,83 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  GODOT_VERSION: 4.7.2
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache Godot
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/godot
+            ~/.local/share/godot/export_templates
+          key: godot-${{ env.GODOT_VERSION }}
+
+      - name: Download Godot and web export templates
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          B=https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable
+          mkdir -p ~/godot ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable /tmp/dl
+          curl -fsSL -o /tmp/dl/godot.zip $B/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip
+          unzip -q /tmp/dl/godot.zip -d ~/godot
+          curl -fsSL -o /tmp/dl/templates.tpz $B/Godot_v${GODOT_VERSION}-stable_export_templates.tpz
+          unzip -qj /tmp/dl/templates.tpz 'templates/*' -d ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable/
+          rm -rf /tmp/dl
+
+      - name: Install Godot on PATH
+        run: |
+          chmod +x ~/godot/Godot_v${GODOT_VERSION}-stable_linux.x86_64
+          sudo ln -sf ~/godot/Godot_v${GODOT_VERSION}-stable_linux.x86_64 /usr/local/bin/godot
+          godot --version
+
+      - name: Import project
+        run: godot --headless --import
+
+      - name: Unit tests
+        run: godot --headless -s addons/gut/gut_cmdln.gd -gdir=res://tests/unit -ginclude_subdirs -gexit
+
+      - name: Export Web
+        run: |
+          mkdir -p build/web
+          godot --headless --export-release "Web" build/web/index.html
+
+      - name: Check pck size
+        run: |
+          size=$(stat -c %s build/web/index.pck)
+          echo "index.pck = $size bytes"
+          test "$size" -le 20971520
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+  deploy:
+    needs: build
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.d.outputs.page_url }}
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

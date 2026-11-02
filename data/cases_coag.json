@@ -1,0 +1,1091 @@
+[
+	{
+		"id": "coag-001",
+		"topic": "hemo",
+		"subtopic": "factor_deficiency",
+		"difficulty": 1,
+		"sex": "M",
+		"age": 22,
+		"vignette": "A young man has had recurrent knee bleeds since childhood, as has his brother. His factor VIII activity is 2% with normal factor IX activity.",
+		"results": {
+			"PT": 12.1,
+			"INR": 0.98,
+			"APTT": 62,
+			"FIB": 290,
+			"DDIMER": 0.3,
+			"TT": 16,
+			"PLT": 250,
+			"MIX_PT": null,
+			"MIX_APTT": "corrected"
+		},
+		"steps": [
+			{
+				"stem": "Which pattern best describes these screening results?",
+				"choices": [
+					"Isolated prolonged APTT with normal PT",
+					"Isolated prolonged PT with normal APTT",
+					"Prolonged PT and APTT with low platelets",
+					"Normal PT and APTT with prolonged TT"
+				],
+				"answer": 0,
+				"explanation": "The APTT is prolonged while PT, TT and fibrinogen are normal, localizing the defect to the intrinsic pathway. Factor VII deficiency instead prolongs PT alone."
+			},
+			{
+				"stem": "The APTT corrects when mixed 1:1 with normal plasma. What does this indicate?",
+				"choices": [
+					"A lupus anticoagulant is present",
+					"A factor deficiency rather than an inhibitor",
+					"A specific factor inhibitor is present",
+					"Heparin contamination of the sample"
+				],
+				"answer": 1,
+				"explanation": "Correction supports a factor deficiency because normal plasma replaces the missing factor. An immediate inhibitor usually prevents correction, although a time-dependent inhibitor requires an incubated mix."
+			},
+			{
+				"stem": "Which diagnosis fits the bleeding history and the factor activity results?",
+				"choices": [
+					"Factor VII deficiency",
+					"Von Willebrand disease",
+					"Hemophilia A",
+					"Hemophilia B"
+				],
+				"answer": 2,
+				"explanation": "Low factor VIII with hemarthroses and an affected brother supports X-linked hemophilia A. Hemophilia B has reduced factor IX instead."
+			}
+		]
+	},
+	{
+		"id": "coag-002",
+		"topic": "hemo",
+		"subtopic": "factor_deficiency",
+		"difficulty": 2,
+		"sex": "M",
+		"age": 19,
+		"vignette": "A young man bleeds heavily after a tooth extraction and reports recurrent joint bleeds since childhood. Factor VIII activity is normal and factor IX activity is 3%.",
+		"results": {
+			"PT": 12.4,
+			"INR": 1.01,
+			"APTT": 54,
+			"FIB": 260,
+			"DDIMER": 0.2,
+			"TT": 17,
+			"PLT": 230,
+			"MIX_PT": null,
+			"MIX_APTT": "corrected"
+		},
+		"steps": [
+			{
+				"stem": "Which factor deficiency causes hemophilia B in this patient?",
+				"choices": [
+					"Factor VII",
+					"Factor XIII",
+					"Factor V",
+					"Factor IX"
+				],
+				"answer": 3,
+				"explanation": "Reduced factor IX causes hemophilia B, with a prolonged APTT that corrects on mixing. Factor VII deficiency would prolong PT instead."
+			},
+			{
+				"stem": "Why is the PT normal in this patient?",
+				"choices": [
+					"The PT does not depend on factors VIII, IX, XI or XII",
+					"Factor IX is part of the extrinsic pathway only",
+					"Thromboplastin reagent contains factor IX",
+					"The PT is insensitive to all factor deficiencies"
+				],
+				"answer": 0,
+				"explanation": "PT assesses tissue factor-initiated coagulation and bypasses the intrinsic factors VIII, IX, XI and XII. The reagent does not supply factor IX to correct the deficiency."
+			}
+		]
+	},
+	{
+		"id": "coag-003",
+		"topic": "hemo",
+		"subtopic": "mixing_studies",
+		"difficulty": 2,
+		"sex": "F",
+		"age": 46,
+		"vignette": "A woman with a prior leg DVT has an incidental prolonged APTT before surgery. She has no bleeding history.",
+		"results": {
+			"PT": 12.5,
+			"INR": 1.02,
+			"APTT": 58,
+			"FIB": 300,
+			"DDIMER": 0.4,
+			"TT": 16,
+			"PLT": 270,
+			"MIX_PT": null,
+			"MIX_APTT": "not_corrected"
+		},
+		"steps": [
+			{
+				"stem": "What does failure of the APTT to correct on 1:1 mixing suggest?",
+				"choices": [
+					"A single factor deficiency",
+					"An inhibitor such as a lupus anticoagulant",
+					"Vitamin K deficiency",
+					"Underfilled collection tube"
+				],
+				"answer": 1,
+				"explanation": "An inhibitor remains active after normal plasma is added, preventing correction. A simple factor deficiency generally corrects because the mix supplies the missing factor."
+			},
+			{
+				"stem": "Which confirmatory approach fits a suspected lupus anticoagulant?",
+				"choices": [
+					"Factor XIII clot solubility test",
+					"Reptilase time only",
+					"dRVVT with a high-phospholipid confirm step",
+					"Ristocetin-induced aggregation"
+				],
+				"answer": 2,
+				"explanation": "A prolonged dRVVT screen that shortens with excess phospholipid supports a lupus anticoagulant after anticoagulant interference is excluded. Reptilase time evaluates fibrin formation, not phospholipid dependence."
+			},
+			{
+				"stem": "How should this prolonged APTT be interpreted clinically?",
+				"choices": [
+					"It predicts severe bleeding during surgery",
+					"It proves factor VIII deficiency",
+					"It is certainly a specimen error",
+					"It is associated with thrombosis risk, not bleeding"
+				],
+				"answer": 3,
+				"explanation": "Lupus anticoagulants prolong phospholipid-dependent tests in vitro yet are associated with thrombosis in vivo. A prolonged APTT in this context does not by itself predict bleeding."
+			}
+		]
+	},
+	{
+		"id": "coag-004",
+		"topic": "hemo",
+		"subtopic": "pt_inr",
+		"difficulty": 2,
+		"sex": "F",
+		"age": 71,
+		"vignette": "An older woman with poor oral intake and long antibiotic use presents with easy bruising and nosebleeds.",
+		"results": {
+			"PT": 28.4,
+			"INR": 2.31,
+			"APTT": 44,
+			"FIB": 310,
+			"DDIMER": 0.3,
+			"TT": 16,
+			"PLT": 230,
+			"MIX_PT": "corrected",
+			"MIX_APTT": "corrected"
+		},
+		"steps": [
+			{
+				"stem": "Which factors are most likely reduced?",
+				"choices": [
+					"II, VII, IX and X",
+					"V, VIII and XIII",
+					"I, V and XI",
+					"VIII and von Willebrand factor"
+				],
+				"answer": 0,
+				"explanation": "Factors II, VII, IX and X require vitamin K-dependent gamma-carboxylation. Factors V and VIII are not vitamin K-dependent, making that alternative pattern inappropriate."
+			},
+			{
+				"stem": "Why is the PT affected more than the APTT early on?",
+				"choices": [
+					"Factor VII has the longest half-life",
+					"Factor VII has the shortest half-life",
+					"Fibrinogen is consumed first",
+					"Platelets are lost first"
+				],
+				"answer": 1,
+				"explanation": "Factor VII has the shortest half-life among these factors, so PT becomes abnormal first. Early vitamin K deficiency does not primarily consume fibrinogen or platelets."
+			},
+			{
+				"stem": "What correction would you expect if vitamin K is given?",
+				"choices": [
+					"No change because the deficit is an inhibitor",
+					"PT lengthens due to rebound",
+					"PT shortens toward normal within hours to a day",
+					"Only fibrinogen normalizes"
+				],
+				"answer": 2,
+				"explanation": "Vitamin K restores synthesis of functional factors, allowing PT to shorten over hours to a day depending on route and severity. The corrected mixing study argues against an inhibitor that would resist this treatment."
+			}
+		]
+	},
+	{
+		"id": "coag-005",
+		"topic": "hemo",
+		"subtopic": "pt_inr",
+		"difficulty": 1,
+		"sex": "M",
+		"age": 67,
+		"vignette": "A man with atrial fibrillation takes warfarin and is seen for a routine monitoring check.",
+		"results": {
+			"PT": 24.0,
+			"INR": 1.95,
+			"APTT": 38,
+			"FIB": 330,
+			"DDIMER": 0.3,
+			"TT": 17,
+			"PLT": 210,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Which test is used to monitor warfarin therapy?",
+				"choices": [
+					"APTT",
+					"Thrombin time",
+					"Fibrinogen assay",
+					"PT reported as INR"
+				],
+				"answer": 3,
+				"explanation": "INR standardizes the warfarin-sensitive PT across thromboplastin reagents. APTT is less suitable for monitoring vitamin K antagonists and is not their standard dose guide."
+			},
+			{
+				"stem": "Which factor changes are responsible for the effect?",
+				"choices": [
+					"Reduced functional II, VII, IX and X",
+					"Reduced antithrombin",
+					"Reduced factor VIII and XIII",
+					"Increased protein S"
+				],
+				"answer": 0,
+				"explanation": "Warfarin inhibits vitamin K recycling, reducing functional factors II, VII, IX and X. It does not act by reducing antithrombin or factors VIII and XIII."
+			}
+		]
+	},
+	{
+		"id": "coag-006",
+		"topic": "hemo",
+		"subtopic": "aptt",
+		"difficulty": 1,
+		"sex": "F",
+		"age": 58,
+		"vignette": "A hospitalized woman on a continuous intravenous infusion has a very long APTT. Her PT is borderline.",
+		"results": {
+			"PT": 14.0,
+			"INR": 1.14,
+			"APTT": 95,
+			"FIB": 300,
+			"DDIMER": 0.4,
+			"TT": 62,
+			"PLT": 240,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Which therapy most likely explains a prolonged APTT and TT?",
+				"choices": [
+					"Warfarin",
+					"Unfractionated heparin",
+					"Vitamin K deficiency",
+					"Aspirin"
+				],
+				"answer": 1,
+				"explanation": "Unfractionated heparin enhances antithrombin inhibition of thrombin and Xa, prolonging APTT and TT. Warfarin chiefly affects PT and does not directly prolong TT."
+			},
+			{
+				"stem": "Which test would remain normal if heparin is the only cause of the long TT?",
+				"choices": [
+					"Anti-Xa assay",
+					"APTT",
+					"Reptilase time",
+					"Activated clotting time"
+				],
+				"answer": 2,
+				"explanation": "Reptilase converts fibrinogen to fibrin without using thrombin and is unaffected by heparin. APTT and activated clotting time, unlike reptilase time, are heparin-sensitive."
+			},
+			{
+				"stem": "How is unfractionated heparin typically monitored besides APTT?",
+				"choices": [
+					"INR",
+					"D-dimer",
+					"Fibrin monomer",
+					"Anti-Xa heparin assay"
+				],
+				"answer": 3,
+				"explanation": "A heparin-calibrated chromogenic anti-Xa assay measures unfractionated heparin activity and avoids some APTT confounders. INR monitors warfarin, while D-dimer measures fibrin turnover rather than heparin effect."
+			}
+		]
+	},
+	{
+		"id": "coag-007",
+		"topic": "hemo",
+		"subtopic": "dic",
+		"difficulty": 2,
+		"sex": "F",
+		"age": 33,
+		"vignette": "A woman is bleeding from IV sites after an obstetric complication. The platelet count has dropped sharply.",
+		"results": {
+			"PT": 19.5,
+			"INR": 1.59,
+			"APTT": 52,
+			"FIB": 95,
+			"DDIMER": 8.5,
+			"TT": 24,
+			"PLT": 48,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Which combination best supports DIC?",
+				"choices": [
+					"Low platelets and fibrinogen with very high D-dimer",
+					"Normal fibrinogen with low D-dimer",
+					"High platelets with high fibrinogen",
+					"Isolated prolonged APTT only"
+				],
+				"answer": 0,
+				"explanation": "DIC consumes platelets and coagulation factors while degrading cross-linked fibrin, producing low fibrinogen and high D-dimer. An isolated prolonged APTT cannot account for this multisystem consumption pattern."
+			},
+			{
+				"stem": "Which finding is most expected on the blood smear?",
+				"choices": [
+					"Spherocytes only",
+					"Schistocytes",
+					"Rouleaux",
+					"Hypersegmented neutrophils"
+				],
+				"answer": 1,
+				"explanation": "Fibrin-rich microvascular thrombi shear red cells into schistocytes. Spherocytes are more characteristic of membrane loss, such as immune hemolysis, rather than mechanical fragmentation."
+			},
+			{
+				"stem": "What is the primary management approach?",
+				"choices": [
+					"Give vitamin K alone",
+					"Stop all monitoring and observe",
+					"Treat the underlying cause and support with blood products as needed",
+					"Start warfarin immediately"
+				],
+				"answer": 2,
+				"explanation": "Control of the underlying trigger is central, with blood-component support guided by bleeding and clinical protocols. Vitamin K alone cannot reverse ongoing consumption in DIC."
+			}
+		]
+	},
+	{
+		"id": "coag-008",
+		"topic": "hemo",
+		"subtopic": "factor_deficiency",
+		"difficulty": 3,
+		"sex": "M",
+		"age": 54,
+		"vignette": "A man with alcohol-related cirrhosis has ascites and bruising. He is not on anticoagulants.",
+		"results": {
+			"PT": 19.0,
+			"INR": 1.54,
+			"APTT": 42,
+			"FIB": 130,
+			"DDIMER": 1.2,
+			"TT": 21,
+			"PLT": 95,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Which mechanism best explains prolonged PT and APTT here?",
+				"choices": [
+					"Autoantibody against factor VIII",
+					"Use of oral anticoagulants",
+					"Congenital factor XIII deficiency",
+					"Decreased hepatic synthesis of coagulation factors"
+				],
+				"answer": 3,
+				"explanation": "Liver disease reduces synthesis of multiple procoagulant factors, prolonging PT and APTT. An isolated factor VIII inhibitor would not ordinarily prolong PT."
+			},
+			{
+				"stem": "How should factor VIII activity be used when distinguishing liver disease from DIC?",
+				"choices": [
+					"It cannot reliably distinguish them by itself",
+					"A high value always excludes concurrent DIC",
+					"A normal value proves isolated vitamin K deficiency",
+					"A low value alone proves congenital hemophilia"
+				],
+				"answer": 0,
+				"explanation": "Factor VIII may be normal or elevated in both liver disease and DIC, so clinical context and serial consumption markers are needed. A high factor VIII level does not exclude DIC."
+			},
+			{
+				"stem": "Why may vitamin K only partly correct the PT in this patient?",
+				"choices": [
+					"Vitamin K causes an inhibitor",
+					"Synthetic failure limits factor production",
+					"The PT is not affected by liver function",
+					"Fibrinogen is overproduced"
+				],
+				"answer": 1,
+				"explanation": "Vitamin K can correct a concurrent deficiency but cannot fully restore factors when hepatic synthesis fails. Fibrinogen overproduction does not explain this prolonged PT with low fibrinogen."
+			}
+		]
+	},
+	{
+		"id": "coag-009",
+		"topic": "hemo",
+		"subtopic": "vascular_platelet_physiology",
+		"difficulty": 2,
+		"sex": "F",
+		"age": 29,
+		"vignette": "A woman has frequent nosebleeds and heavy menses. Her mother has similar problems.",
+		"results": {
+			"PT": 12.3,
+			"INR": 1.0,
+			"APTT": 41,
+			"FIB": 260,
+			"DDIMER": 0.2,
+			"TT": 16,
+			"PLT": 260,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Which condition fits mucosal bleeding, normal platelets and a mildly prolonged APTT?",
+				"choices": [
+					"Hemophilia B",
+					"Factor VII deficiency",
+					"Von Willebrand disease",
+					"Vitamin K deficiency"
+				],
+				"answer": 2,
+				"explanation": "Von Willebrand factor supports platelet adhesion and stabilizes factor VIII, so its deficiency can cause mucosal bleeding with a variable APTT. Hemophilia B more often causes deep tissue or joint bleeding."
+			},
+			{
+				"stem": "Which functional assay is useful alongside vWF antigen and factor VIII activity?",
+				"choices": [
+					"Reptilase time",
+					"Clot solubility in urea",
+					"Anti-Xa assay",
+					"Ristocetin cofactor activity"
+				],
+				"answer": 3,
+				"explanation": "Ristocetin cofactor activity is a traditional measure of vWF-dependent platelet binding; newer GPIb-based assays are also used. Reptilase time assesses fibrinogen conversion rather than platelet adhesion."
+			},
+			{
+				"stem": "Why can the APTT be normal in some patients?",
+				"choices": [
+					"Factor VIII levels may be only mildly reduced",
+					"The test does not use factor VIII",
+					"vWF is part of the PT",
+					"Platelets dominate the APTT"
+				],
+				"answer": 0,
+				"explanation": "In mild vWD, factor VIII can remain high enough for a normal APTT. APTT does use factor VIII, but it is not a sensitive exclusion test for all vWD."
+			}
+		]
+	},
+	{
+		"id": "coag-010",
+		"topic": "hemo",
+		"subtopic": "factor_deficiency",
+		"difficulty": 2,
+		"sex": "F",
+		"age": 40,
+		"vignette": "A woman has easy bruising. Her screening tests show an isolated PT abnormality.",
+		"results": {
+			"PT": 24.5,
+			"INR": 1.99,
+			"APTT": 30,
+			"FIB": 290,
+			"DDIMER": 0.3,
+			"TT": 16,
+			"PLT": 240,
+			"MIX_PT": "corrected",
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Which deficiency fits a prolonged PT with normal APTT?",
+				"choices": [
+					"Factor VIII",
+					"Factor VII",
+					"Factor IX",
+					"Factor XII"
+				],
+				"answer": 1,
+				"explanation": "Factor VII functions in the tissue factor pathway, so its deficiency prolongs PT alone. Factor VIII or IX deficiency instead prolongs APTT."
+			},
+			{
+				"stem": "Which result derived from PT will also be increased?",
+				"choices": [
+					"Bleeding time only",
+					"Reptilase time",
+					"INR",
+					"Thrombin time"
+				],
+				"answer": 2,
+				"explanation": "INR is calculated from PT and will increase when PT is prolonged. TT assesses conversion of fibrinogen to fibrin and remains normal in isolated factor VII deficiency; INR targets are established for warfarin monitoring, not this disorder."
+			},
+			{
+				"stem": "Which pathway does the APTT miss in this case?",
+				"choices": [
+					"Intrinsic pathway",
+					"Final fibrin polymerization",
+					"Platelet function",
+					"Extrinsic pathway"
+				],
+				"answer": 3,
+				"explanation": "APTT bypasses the tissue factor–factor VII pathway and therefore remains normal in isolated factor VII deficiency. It does assess the intrinsic and common pathways."
+			}
+		]
+	},
+	{
+		"id": "coag-011",
+		"topic": "hemo",
+		"subtopic": "factor_deficiency",
+		"difficulty": 3,
+		"sex": "M",
+		"age": 35,
+		"vignette": "A man has delayed bleeding after minor injury and poor wound healing. Routine coagulation screens are normal.",
+		"results": {
+			"PT": 12.2,
+			"INR": 0.99,
+			"APTT": 31,
+			"FIB": 310,
+			"DDIMER": 0.3,
+			"TT": 16,
+			"PLT": 250,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Which factor deficiency is suggested?",
+				"choices": [
+					"Factor XIII",
+					"Factor VII",
+					"Factor VIII",
+					"Factor X"
+				],
+				"answer": 0,
+				"explanation": "Factor XIII stabilizes fibrin by cross-linking, producing delayed bleeding when deficient despite normal routine screens. Factor VIII deficiency usually prolongs APTT."
+			},
+			{
+				"stem": "Which traditional qualitative screen may detect severe factor XIII deficiency?",
+				"choices": [
+					"Thrombin time",
+					"Clot solubility in urea or monochloroacetic acid",
+					"PT with mixing",
+					"Euglobulin lysis time"
+				],
+				"answer": 1,
+				"explanation": "Severely deficient clots can dissolve in urea or monochloroacetic acid because fibrin lacks cross-links. This insensitive screen can miss less severe deficiency, so a factor XIII activity assay is preferred; TT does not assess cross-linking."
+			},
+			{
+				"stem": "Why are PT and APTT normal?",
+				"choices": [
+					"Factor XIII is in the intrinsic pathway",
+					"Platelets compensate",
+					"Endpoint is clot formation, not cross-linking",
+					"The assays include factor XIII inhibitors"
+				],
+				"answer": 2,
+				"explanation": "PT and APTT stop timing at initial fibrin formation, before factor XIII-mediated stabilization. Normal platelets do not compensate for absent fibrin cross-linking."
+			}
+		]
+	},
+	{
+		"id": "coag-012",
+		"topic": "hemo",
+		"subtopic": "mixing_studies",
+		"difficulty": 3,
+		"sex": "F",
+		"age": 63,
+		"vignette": "A woman with autoimmune disease develops large muscle hematomas without a prior bleeding history. Her immediate 1:1 APTT mix initially corrects but becomes prolonged after 2 hours at 37 °C.",
+		"results": {
+			"PT": 12.4,
+			"INR": 1.01,
+			"APTT": 78,
+			"FIB": 320,
+			"DDIMER": 0.3,
+			"TT": 17,
+			"PLT": 280,
+			"MIX_PT": null,
+			"MIX_APTT": "not_corrected"
+		},
+		"steps": [
+			{
+				"stem": "What does an uncorrected APTT after 2 hours incubation suggest?",
+				"choices": [
+					"Mild factor deficiency",
+					"Underfilled tube",
+					"Heparin cleared by incubation",
+					"Time-dependent factor inhibitor"
+				],
+				"answer": 3,
+				"explanation": "An initially corrected mix that loses correction after incubation suggests a time-dependent inhibitor such as an acquired factor VIII antibody. A simple factor deficiency should remain corrected."
+			},
+			{
+				"stem": "Which test quantifies the inhibitor?",
+				"choices": [
+					"Bethesda assay",
+					"Reptilase time",
+					"Anti-Xa assay",
+					"Clot solubility"
+				],
+				"answer": 0,
+				"explanation": "A Bethesda assay, often with the Nijmegen modification, quantifies neutralizing factor VIII inhibitor activity. Anti-Xa testing assesses Xa-inhibiting anticoagulants, not factor VIII antibodies."
+			},
+			{
+				"stem": "How does this differ from lupus anticoagulant?",
+				"choices": [
+					"Patient is prothrombotic",
+					"Patient bleeds and a factor assay is reduced",
+					"Mixing corrects",
+					"Platelet count is low"
+				],
+				"answer": 1,
+				"explanation": "Acquired factor VIII inhibitors characteristically cause bleeding with reduced factor VIII activity. Lupus anticoagulants are generally associated with thrombosis rather than spontaneous muscle hematomas, though they can interfere with factor assays."
+			},
+			{
+				"stem": "Which assumption must be excluded first?",
+				"choices": [
+					"Cold agglutinins",
+					"Hemoglobin variants",
+					"Heparin contamination",
+					"Iron overload"
+				],
+				"answer": 2,
+				"explanation": "Heparin contamination can prevent correction in mixing studies and must be excluded with appropriate anticoagulant testing and collection review. Cold agglutinins affect red cells rather than causing this isolated plasma coagulation pattern."
+			}
+		]
+	},
+	{
+		"id": "coag-013",
+		"topic": "hemo",
+		"subtopic": "fibrinogen_ddimer_tt",
+		"difficulty": 3,
+		"sex": "M",
+		"age": 48,
+		"vignette": "A man has an incidental prolonged TT on preoperative screening without a bleeding or clotting history. His fibrinogen antigen is normal despite a low functional fibrinogen result.",
+		"results": {
+			"PT": 15.5,
+			"INR": 1.26,
+			"APTT": 37,
+			"FIB": 120,
+			"DDIMER": 0.4,
+			"TT": 28,
+			"PLT": 240,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Which condition best explains prolonged TT with discordant fibrinogen levels?",
+				"choices": [
+					"Hemophilia A",
+					"Vitamin K deficiency",
+					"Platelet storage pool disease",
+					"Dysfibrinogenemia"
+				],
+				"answer": 3,
+				"explanation": "Dysfibrinogenemia causes impaired fibrin formation despite adequate fibrinogen antigen. Hemophilia A affects factor VIII and usually leaves TT and fibrinogen function normal."
+			},
+			{
+				"stem": "Which test comparison supports this?",
+				"choices": [
+					"Functional fibrinogen low with normal immunologic fibrinogen",
+					"Both functional and immunologic equally normal",
+					"Factor VIII low with vWF normal",
+					"Elevated D-dimer alone"
+				],
+				"answer": 0,
+				"explanation": "Low functional fibrinogen with preserved antigen supports a qualitative fibrinogen defect. In a quantitative deficiency, functional and antigenic measurements generally fall together."
+			},
+			{
+				"stem": "Which clotting test stays normal with heparin alone but may be prolonged with abnormal fibrinogen?",
+				"choices": [
+					"Anti-Xa assay",
+					"Reptilase time",
+					"INR",
+					"Bleeding time"
+				],
+				"answer": 1,
+				"explanation": "Reptilase time is heparin-insensitive but may be prolonged with dysfibrinogenemia. Anti-Xa assays can detect heparin activity, but are not clotting tests of fibrin formation."
+			}
+		]
+	},
+	{
+		"id": "coag-014",
+		"topic": "hemo",
+		"subtopic": "specimen_collection",
+		"difficulty": 1,
+		"sex": "F",
+		"age": 38,
+		"vignette": "The PT and APTT are both mildly prolonged on a patient with no bleeding history. The citrate tube is visibly filled to only half the draw line.",
+		"results": {
+			"PT": 16.8,
+			"INR": 1.37,
+			"APTT": 44,
+			"FIB": 285,
+			"DDIMER": 0.3,
+			"TT": 17,
+			"PLT": 255,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "What is the most likely cause?",
+				"choices": [
+					"Hemophilia A",
+					"Factor V Leiden",
+					"Underfilled citrate tube",
+					"Vitamin K deficiency"
+				],
+				"answer": 2,
+				"explanation": "Excess citrate relative to plasma binds too much calcium and can prolong PT and APTT. Hemophilia A would not explain a prolonged PT or the visibly short-filled tube."
+			},
+			{
+				"stem": "What is the proper action?",
+				"choices": [
+					"Report the results as is",
+					"Add more blood to the tube",
+					"Dilute the sample",
+					"Recollect with a correctly filled tube"
+				],
+				"answer": 3,
+				"explanation": "A short draw requires recollection at the correct blood-to-citrate ratio. Adding blood later does not reverse the effects of initial anticoagulant imbalance or partial clot formation."
+			},
+			{
+				"stem": "What blood-to-citrate ratio is required?",
+				"choices": [
+					"9 parts blood to 1 part 3.2% citrate",
+					"1:1",
+					"4:1",
+					"19:1"
+				],
+				"answer": 0,
+				"explanation": "Nine parts blood to one part 3.2% sodium citrate provides the validated anticoagulant ratio for routine coagulation testing. A 4:1 ratio is not appropriate for these PT and APTT specimens."
+			}
+		]
+	},
+	{
+		"id": "coag-015",
+		"topic": "hemo",
+		"subtopic": "specimen_collection",
+		"difficulty": 2,
+		"sex": "M",
+		"age": 52,
+		"vignette": "A man with polycythemia vera (hematocrit 62%) has unexplained prolonged PT and APTT before a procedure. His collection tube was standard.",
+		"results": {
+			"PT": 16.2,
+			"INR": 1.32,
+			"APTT": 43,
+			"FIB": 300,
+			"DDIMER": 0.3,
+			"TT": 16,
+			"PLT": 430,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Why are clotting times prolonged in this sample?",
+				"choices": [
+					"Platelet overproduction consumes factors",
+					"Reduced plasma volume leaves excess citrate",
+					"Warfarin effect",
+					"Heparin in the tube"
+				],
+				"answer": 1,
+				"explanation": "At hematocrit above 55%, less plasma is available for a standard citrate volume, leaving excess citrate that prolongs clotting times. Platelet overproduction does not account for this citrate imbalance."
+			},
+			{
+				"stem": "What is the corrective step?",
+				"choices": [
+					"Add extra calcium to the plasma",
+					"Centrifuge twice and report",
+					"Use a tube with adjusted citrate volume and recollect",
+					"Report INR only"
+				],
+				"answer": 2,
+				"explanation": "Reduce the citrate volume using the laboratory's validated high-hematocrit protocol and recollect. Extra centrifugation cannot correct an anticoagulant-to-plasma ratio error."
+			},
+			{
+				"stem": "Which formula is used?",
+				"choices": [
+					"C = Hgb × 3",
+					"C = MCV × RBC",
+					"C = INR × ISI",
+					"C = 1.85 × 10⁻³ × (100 − Hct) × V"
+				],
+				"answer": 3,
+				"explanation": "C is the required volume of 3.2% citrate in mL, Hct is the hematocrit percentage, and V is the intended whole-blood volume in mL. Hgb × 3 estimates hematocrit and cannot determine the required citrate volume."
+			}
+		]
+	},
+	{
+		"id": "coag-016",
+		"topic": "hemo",
+		"subtopic": "specimen_collection",
+		"difficulty": 2,
+		"sex": "F",
+		"age": 61,
+		"vignette": "An ICU patient not on heparin therapy has APTT 140 s and TT 90 s. Blood was drawn from a heparin-flushed arterial line.",
+		"results": {
+			"PT": 15.0,
+			"INR": 1.22,
+			"APTT": 140,
+			"FIB": 290,
+			"DDIMER": 0.4,
+			"TT": 90,
+			"PLT": 230,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "What is the most likely cause of the abnormal results?",
+				"choices": [
+					"Heparin contamination from the line",
+					"Lupus anticoagulant",
+					"Factor XIII deficiency",
+					"DIC"
+				],
+				"answer": 0,
+				"explanation": "Residual heparin in the line can markedly prolong both APTT and TT. A lupus anticoagulant typically prolongs phospholipid-dependent tests but does not itself prolong TT."
+			},
+			{
+				"stem": "What is the best next action?",
+				"choices": [
+					"Report as critical and start protamine",
+					"Recollect by clean peripheral venipuncture",
+					"Dilute the plasma",
+					"Use reptilase time to confirm and report"
+				],
+				"answer": 1,
+				"explanation": "A clean peripheral redraw avoids residual line heparin and is preferred for this contaminated specimen. A reptilase result may explain the interference but does not make the original PT and APTT valid."
+			},
+			{
+				"stem": "A normal reptilase time with prolonged TT suggests what?",
+				"choices": [
+					"Dysfibrinogenemia",
+					"Factor VII deficiency",
+					"Heparin",
+					"Hemophilia"
+				],
+				"answer": 2,
+				"explanation": "Heparin inhibits thrombin and prolongs TT but does not inhibit reptilase. Dysfibrinogenemia can prolong both tests because the fibrinogen substrate is abnormal."
+			}
+		]
+	},
+	{
+		"id": "coag-017",
+		"topic": "hemo",
+		"subtopic": "specimen_collection",
+		"difficulty": 1,
+		"sex": "M",
+		"age": 44,
+		"vignette": "A citrate specimen has visible fibrin strands and gross hemolysis after a difficult draw. Preliminary coagulation testing shows low fibrinogen, and a paired EDTA specimen also contains a clot with a spuriously low platelet count.",
+		"results": {
+			"PT": 15.2,
+			"INR": 1.24,
+			"APTT": 48,
+			"FIB": 150,
+			"DDIMER": 1.1,
+			"TT": 18,
+			"PLT": 38,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "What does this sample indicate?",
+				"choices": [
+					"True severe thrombocytopenia",
+					"Hemophilia",
+					"Vitamin K deficiency",
+					"A partially clotted specimen"
+				],
+				"answer": 3,
+				"explanation": "Visible clots indicate in-vitro consumption of platelets and fibrinogen, so the preliminary values are unreliable. True thrombocytopenia alone does not explain clots forming in an anticoagulated specimen."
+			},
+			{
+				"stem": "How should the lab respond?",
+				"choices": [
+					"Reject and request recollection",
+					"Report results with a comment only",
+					"Filter the clot out",
+					"Add heparin"
+				],
+				"answer": 0,
+				"explanation": "Reject clotted specimens and request recollection; removing visible clots cannot restore consumed factors or platelets. Gross hemolysis also requires evaluation under the assay-specific rejection policy and may affect optical clot detection."
+			},
+			{
+				"stem": "Which collection error is a common cause?",
+				"choices": [
+					"Excess blood volume",
+					"Inadequate mixing or delayed mixing with citrate",
+					"Use of a light blue tube",
+					"Cold storage"
+				],
+				"answer": 1,
+				"explanation": "Delayed or inadequate gentle mixing leaves blood locally unanticoagulated and permits clot formation. A light blue citrate tube is appropriate; poor collection technique, not its color, is the problem."
+			}
+		]
+	},
+	{
+		"id": "coag-018",
+		"topic": "hemo",
+		"subtopic": "anti_xa",
+		"difficulty": 2,
+		"sex": "M",
+		"age": 69,
+		"vignette": "A man with atrial fibrillation takes rivaroxaban and needs surgery.",
+		"results": {
+			"PT": 17.0,
+			"INR": 1.38,
+			"APTT": 36,
+			"FIB": 310,
+			"DDIMER": 0.3,
+			"TT": 17,
+			"PLT": 240,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Which result pattern is typical for rivaroxaban?",
+				"choices": [
+					"Markedly prolonged TT",
+					"Normal PT with prolonged TT",
+					"Mild PT prolongation with near-normal APTT and TT",
+					"Low platelets"
+				],
+				"answer": 2,
+				"explanation": "Rivaroxaban can prolong PT variably with the reagent, while TT is generally unaffected. A normal PT or APTT does not exclude a clinically relevant drug level, and INR should not be used to monitor rivaroxaban."
+			},
+			{
+				"stem": "Which assay is best to measure drug level?",
+				"choices": [
+					"APTT",
+					"Bleeding time",
+					"Reptilase time",
+					"Anti-Xa assay calibrated for the drug"
+				],
+				"answer": 3,
+				"explanation": "A rivaroxaban-calibrated chromogenic anti-Xa assay estimates its concentration. APTT is variably sensitive and cannot reliably quantify this direct Xa inhibitor."
+			},
+			{
+				"stem": "Why is the TT normal?",
+				"choices": [
+					"Rivaroxaban inhibits factor Xa, not thrombin",
+					"It has no effect on coagulation",
+					"It blocks fibrinogen",
+					"It binds heparin"
+				],
+				"answer": 0,
+				"explanation": "Rivaroxaban blocks Xa, whereas TT adds thrombin directly and bypasses Xa. A direct thrombin inhibitor would instead markedly prolong TT."
+			}
+		]
+	},
+	{
+		"id": "coag-019",
+		"topic": "hemo",
+		"subtopic": "fibrinolytic_disorders",
+		"difficulty": 3,
+		"sex": "M",
+		"age": 72,
+		"vignette": "A man with metastatic prostate cancer has diffuse oozing with markedly elevated fibrinogen degradation products. Platelets remain normal and D-dimer is not elevated, suggesting little degradation of cross-linked fibrin.",
+		"results": {
+			"PT": 14.5,
+			"INR": 1.18,
+			"APTT": 38,
+			"FIB": 90,
+			"DDIMER": 0.3,
+			"TT": 20,
+			"PLT": 220,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Which condition best fits low fibrinogen, high total degradation products, normal D-dimer and preserved platelets?",
+				"choices": [
+					"DIC with platelet consumption",
+					"Primary fibrinolysis",
+					"Hemophilia A",
+					"Lupus anticoagulant"
+				],
+				"answer": 1,
+				"explanation": "Primary fibrinogenolysis can generate abundant degradation products without much cross-linked fibrin breakdown, so D-dimer may remain normal. DIC more typically raises D-dimer and consumes platelets, though clinical overlap requires further evaluation."
+			},
+			{
+				"stem": "Which test would support it?",
+				"choices": [
+					"Clot solubility normal",
+					"Bethesda assay",
+					"Euglobulin lysis time shortened",
+					"Anti-Xa assay"
+				],
+				"answer": 2,
+				"explanation": "A shortened euglobulin clot lysis time supports increased fibrinolytic activity. A Bethesda assay quantifies a factor inhibitor rather than the rate of clot lysis."
+			},
+			{
+				"stem": "Which drug inhibits fibrinolysis, although its use requires specialist assessment and exclusion of DIC?",
+				"choices": [
+					"Warfarin",
+					"Heparin",
+					"Alteplase",
+					"Tranexamic acid"
+				],
+				"answer": 3,
+				"explanation": "Tranexamic acid reduces plasminogen binding to fibrin and limits fibrinolysis. Alteplase instead promotes fibrinolysis, and antifibrinolytic treatment is not an automatic response when DIC is possible."
+			}
+		]
+	},
+	{
+		"id": "coag-020",
+		"topic": "hemo",
+		"subtopic": "fibrinogen_ddimer_tt",
+		"difficulty": 3,
+		"sex": "F",
+		"age": 76,
+		"vignette": "A woman with atrial fibrillation takes dabigatran. Her TT is markedly prolonged with relatively normal fibrinogen.",
+		"results": {
+			"PT": 15.5,
+			"INR": 1.26,
+			"APTT": 48,
+			"FIB": 320,
+			"DDIMER": 0.4,
+			"TT": 85,
+			"PLT": 200,
+			"MIX_PT": null,
+			"MIX_APTT": null
+		},
+		"steps": [
+			{
+				"stem": "Why is TT markedly prolonged?",
+				"choices": [
+					"Dabigatran directly inhibits thrombin",
+					"It blocks factor Xa",
+					"It depletes fibrinogen",
+					"It raises vitamin K"
+				],
+				"answer": 0,
+				"explanation": "Dabigatran directly inhibits thrombin, to which TT is highly sensitive. Direct Xa inhibitors act upstream and generally do not prolong TT."
+			},
+			{
+				"stem": "Which test remains unaffected?",
+				"choices": [
+					"Thrombin time",
+					"Reptilase time",
+					"Dilute thrombin time",
+					"APTT"
+				],
+				"answer": 1,
+				"explanation": "Reptilase converts fibrinogen to fibrin through an enzyme unaffected by dabigatran. Diluted thrombin time still uses thrombin and is sensitive to the drug."
+			},
+			{
+				"stem": "Which assay quantifies dabigatran best?",
+				"choices": [
+					"Anti-Xa assay",
+					"Euglobulin lysis time",
+					"Diluted thrombin time",
+					"PT"
+				],
+				"answer": 2,
+				"explanation": "A dabigatran-calibrated dilute thrombin time can estimate the drug concentration. Anti-Xa assays assess Xa inhibitors rather than direct thrombin inhibitors."
+			}
+		]
+	}
+]

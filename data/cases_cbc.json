@@ -1,0 +1,1883 @@
+[
+  {
+    "id": "cbc-001",
+    "topic": "rbc",
+    "subtopic": "microcytic",
+    "difficulty": 1,
+    "sex": "F",
+    "age": 34,
+    "vignette": "A 34-year-old woman reports fatigue and heavy menstrual periods for a year. She craves ice.",
+    "cbc": {
+      "WBC": 6.2,
+      "RBC": 4.35,
+      "HGB": 7.9,
+      "HCT": 27.0,
+      "MCV": 62,
+      "MCH": 18.2,
+      "MCHC": 29.3,
+      "RDW": 18.2,
+      "PLT": 460,
+      "RETIC": 1.0
+    },
+    "spurious": false,
+    "smear": [
+      "microcytic_hypochromic"
+    ],
+    "steps": [
+      {
+        "stem": "Which smear finding best fits these indices?",
+        "choices": [
+          "Microcytic, hypochromic red cells with pencil-shaped forms",
+          "Macro-ovalocytes with hypersegmented neutrophils",
+          "Spherocytes with polychromasia",
+          "Sickle cells with Howell-Jolly bodies"
+        ],
+        "answer": 0,
+        "explanation": "A low MCV, low MCH and a high RDW produce variable microcytic, hypochromic cells and elongated pencil forms."
+      },
+      {
+        "stem": "Which result would most strongly confirm the likely cause?",
+        "choices": [
+          "High serum ferritin with low TIBC",
+          "Low serum ferritin with high TIBC",
+          "Normal ferritin with high transferrin saturation",
+          "Elevated hemoglobin A2 on electrophoresis"
+        ],
+        "answer": 1,
+        "explanation": "Depleted iron stores lower ferritin while transferrin rises, giving a high TIBC; high ferritin points to inflammation instead."
+      },
+      {
+        "stem": "Compared with thalassemia trait, this patient's RDW is expected to be:",
+        "choices": [
+          "Normal, reflecting uniform cell size",
+          "Decreased, reflecting uniform cell size",
+          "Increased, reflecting mixed cell sizes",
+          "Unmeasurable on automated analyzers"
+        ],
+        "answer": 2,
+        "explanation": "Iron deficiency causes anisocytosis (high RDW), whereas thalassemia trait typically has uniform small cells and a normal RDW."
+      }
+    ]
+  },
+  {
+    "id": "cbc-002",
+    "topic": "rbc",
+    "subtopic": "thalassemia",
+    "difficulty": 2,
+    "sex": "M",
+    "age": 28,
+    "vignette": "A 28-year-old man of Mediterranean descent has a routine CBC. He feels well and has no history of bleeding.",
+    "cbc": {
+      "WBC": 6.8,
+      "RBC": 6.2,
+      "HGB": 12.4,
+      "HCT": 38.5,
+      "MCV": 62,
+      "MCH": 20.0,
+      "MCHC": 32.2,
+      "RDW": 13.4,
+      "PLT": 240,
+      "RETIC": 1.3
+    },
+    "spurious": false,
+    "smear": [
+      "target_cell",
+      "microcytic_hypochromic",
+      "basophilic_stippling"
+    ],
+    "steps": [
+      {
+        "stem": "Which feature most strongly suggests thalassemia trait over iron deficiency?",
+        "choices": [
+          "Low RBC count with a very high RDW",
+          "High RBC count with a high MCV",
+          "Low platelet count with a high MCHC",
+          "Markedly raised RBC count with a normal RDW"
+        ],
+        "answer": 3,
+        "explanation": "Thalassemia trait gives microcytosis despite a high red cell count and uniform cells, so the RDW stays normal."
+      },
+      {
+        "stem": "Which test best confirms beta-thalassemia trait?",
+        "choices": [
+          "Hemoglobin electrophoresis showing elevated Hb A2",
+          "Serum ferritin below 10 ng/mL",
+          "Osmotic fragility showing increased lysis",
+          "Direct antiglobulin test positive"
+        ],
+        "answer": 0,
+        "explanation": "Beta-thalassemia trait characteristically shows Hb A2 above about 3.5%; low ferritin would indicate iron deficiency."
+      },
+      {
+        "stem": "What is the most appropriate next step before iron therapy?",
+        "choices": [
+          "Start empiric iron supplementation at once",
+          "Check iron studies to exclude coexisting deficiency",
+          "Order a bone marrow biopsy",
+          "Arrange a transfusion"
+        ],
+        "answer": 1,
+        "explanation": "Iron given to a patient with thalassemia trait and normal stores is not helpful and can add to overload, so stores are verified first."
+      }
+    ]
+  },
+  {
+    "id": "cbc-003",
+    "topic": "rbc",
+    "subtopic": "hypoproliferative",
+    "difficulty": 2,
+    "sex": "F",
+    "age": 67,
+    "vignette": "A 67-year-old woman with long-standing rheumatoid arthritis has mild fatigue. She has had no blood loss.",
+    "cbc": {
+      "WBC": 9.5,
+      "RBC": 3.75,
+      "HGB": 10.1,
+      "HCT": 31.0,
+      "MCV": 83,
+      "MCH": 26.9,
+      "MCHC": 32.6,
+      "RDW": 15.0,
+      "PLT": 380,
+      "RETIC": 1.1
+    },
+    "spurious": false,
+    "smear": [
+      "normal_rbc"
+    ],
+    "steps": [
+      {
+        "stem": "What is the most likely cause of this anemia?",
+        "choices": [
+          "Iron deficiency from blood loss",
+          "Vitamin B12 deficiency",
+          "Anemia of chronic disease",
+          "Hereditary spherocytosis"
+        ],
+        "answer": 2,
+        "explanation": "Inflammation raises hepcidin, trapping iron in macrophages, and gives a mild normocytic anemia with a low reticulocyte response."
+      },
+      {
+        "stem": "Which iron profile fits this diagnosis?",
+        "choices": [
+          "Low serum iron, high TIBC, low ferritin",
+          "High serum iron, high ferritin, high saturation",
+          "Normal serum iron, low ferritin, high TIBC",
+          "Low serum iron, low TIBC, normal-to-high ferritin"
+        ],
+        "answer": 3,
+        "explanation": "In chronic inflammation serum iron and TIBC fall while ferritin, an acute-phase reactant, is normal or high."
+      },
+      {
+        "stem": "Which marker is raised and helps support inflammation as the cause?",
+        "choices": [
+          "Erythrocyte sedimentation rate",
+          "Hemoglobin A2",
+          "Reticulocyte count",
+          "Serum haptoglobin only"
+        ],
+        "answer": 0,
+        "explanation": "Fibrinogen and other acute-phase proteins rise in inflammation, accelerating the sedimentation rate."
+      }
+    ]
+  },
+  {
+    "id": "cbc-004",
+    "topic": "rbc",
+    "subtopic": "megaloblastic",
+    "difficulty": 2,
+    "sex": "F",
+    "age": 58,
+    "vignette": "A 58-year-old woman with a history of pernicious anemia complains of fatigue and numb feet.",
+    "cbc": {
+      "WBC": 3.4,
+      "RBC": 2.35,
+      "HGB": 8.2,
+      "HCT": 25.5,
+      "MCV": 109,
+      "MCH": 34.9,
+      "MCHC": 32.2,
+      "RDW": 19.0,
+      "PLT": 110,
+      "RETIC": 0.6
+    },
+    "spurious": false,
+    "smear": [
+      "macrocyte",
+      "hypersegmented_neutrophil"
+    ],
+    "steps": [
+      {
+        "stem": "Which neutrophil finding is classic on this smear?",
+        "choices": [
+          "Neutrophils with a single band nucleus",
+          "Five- to six-lobed hypersegmented neutrophils",
+          "Neutrophils with Dohle bodies",
+          "Neutrophils with bilobed pince-nez nuclei"
+        ],
+        "answer": 1,
+        "explanation": "Impaired DNA synthesis delays nuclear maturation, producing hypersegmented neutrophils (more than five lobes)."
+      },
+      {
+        "stem": "Which red cell form is typical of this anemia?",
+        "choices": [
+          "Round macrocytes only",
+          "Teardrop microcytes",
+          "Oval macrocytes",
+          "Bite cells"
+        ],
+        "answer": 2,
+        "explanation": "Megaloblastic anemia gives oval macrocytes (macro-ovalocytes); round macrocytes suggest liver disease or alcohol."
+      },
+      {
+        "stem": "Which finding best distinguishes B12 from folate deficiency?",
+        "choices": [
+          "Low serum ferritin",
+          "Elevated homocysteine alone",
+          "Raised reticulocyte count",
+          "Elevated methylmalonic acid"
+        ],
+        "answer": 3,
+        "explanation": "Methylmalonic acid rises only in B12 deficiency; homocysteine rises in both B12 and folate deficiency."
+      },
+      {
+        "stem": "Why are the WBC and platelet counts low?",
+        "choices": [
+          "Ineffective hematopoiesis affects all cell lines",
+          "Autoimmune destruction of all cells",
+          "Iron deficiency in the marrow",
+          "Splenic sequestration only"
+        ],
+        "answer": 0,
+        "explanation": "Defective DNA synthesis causes intramedullary cell death across lines, so pancytopenia can occur."
+      }
+    ]
+  },
+  {
+    "id": "cbc-005",
+    "topic": "rbc",
+    "subtopic": "megaloblastic",
+    "difficulty": 3,
+    "sex": "M",
+    "age": 49,
+    "vignette": "A 49-year-old man with heavy alcohol use and poor dietary intake has fatigue and a sore tongue without sensory symptoms. His B12 level is normal. The smear shows oval macrocytes and hypersegmented neutrophils.",
+    "cbc": {
+      "WBC": 5.1,
+      "RBC": 3.6,
+      "HGB": 12.2,
+      "HCT": 37.0,
+      "MCV": 103,
+      "MCH": 33.9,
+      "MCHC": 33.0,
+      "RDW": 14.0,
+      "PLT": 128,
+      "RETIC": 1.5
+    },
+    "spurious": false,
+    "smear": [
+      "macrocyte",
+      "hypersegmented_neutrophil"
+    ],
+    "steps": [
+      {
+        "stem": "Which smear feature supports megaloblastic rather than alcohol-related nonmegaloblastic macrocytosis?",
+        "choices": [
+          "Round macrocytes without neutrophil changes",
+          "Oval macrocytes with hypersegmented neutrophils",
+          "Microcytes with pencil cells",
+          "Spherocytes with polychromasia"
+        ],
+        "answer": 1,
+        "explanation": "Hypersegmented neutrophils and oval macrocytes indicate impaired DNA synthesis. Alcohol alone more often produces round macrocytes without neutrophil hypersegmentation."
+      },
+      {
+        "stem": "Which vitamin deficiency best explains the findings and history?",
+        "choices": [
+          "Vitamin B6 deficiency",
+          "Vitamin C deficiency",
+          "Folate deficiency",
+          "Vitamin K deficiency"
+        ],
+        "answer": 2,
+        "explanation": "Poor intake and alcohol use commonly deplete folate, impairing DNA synthesis. B6 deficiency instead can cause sideroblastic, often microcytic anemia."
+      },
+      {
+        "stem": "Which metabolite pattern supports folate deficiency rather than B12 deficiency?",
+        "choices": [
+          "High methylmalonic acid with normal homocysteine",
+          "High methylmalonic acid with high homocysteine",
+          "Normal methylmalonic acid with normal homocysteine",
+          "Normal methylmalonic acid with high homocysteine"
+        ],
+        "answer": 3,
+        "explanation": "Folate deficiency raises homocysteine but not methylmalonic acid. Both metabolites rise with B12 deficiency, so the methylmalonic acid result helps separate them."
+      }
+    ]
+  },
+  {
+    "id": "cbc-006",
+    "topic": "rbc",
+    "subtopic": "hemolytic_hereditary",
+    "difficulty": 2,
+    "sex": "M",
+    "age": 25,
+    "vignette": "A 25-year-old man has jaundice and an enlarged spleen. His father had a splenectomy. The DAT is negative.",
+    "cbc": {
+      "WBC": 8.4,
+      "RBC": 3.4,
+      "HGB": 10.4,
+      "HCT": 28.5,
+      "MCV": 84,
+      "MCH": 30.6,
+      "MCHC": 36.5,
+      "RDW": 17.0,
+      "PLT": 310,
+      "RETIC": 9.5
+    },
+    "spurious": false,
+    "smear": [
+      "spherocyte",
+      "polychromasia"
+    ],
+    "steps": [
+      {
+        "stem": "Which index is characteristically increased in this disorder?",
+        "choices": [
+          "MCHC",
+          "MCV",
+          "RDW decreased",
+          "MCH decreased"
+        ],
+        "answer": 0,
+        "explanation": "Spherocytes have lost membrane but kept hemoglobin, so their MCHC is raised above 36 g/dL."
+      },
+      {
+        "stem": "Which test is classically used to support the diagnosis?",
+        "choices": [
+          "Sucrose hemolysis test",
+          "Osmotic fragility test showing increased lysis",
+          "Heinz body stain",
+          "Hemoglobin A2 quantitation"
+        ],
+        "answer": 1,
+        "explanation": "Spherocytes have a low surface-to-volume ratio and lyse at higher saline concentrations than normal cells."
+      },
+      {
+        "stem": "What explains the elevated reticulocyte count?",
+        "choices": [
+          "Iron overload",
+          "Folate toxicity",
+          "Marrow compensation for shortened red cell survival",
+          "Decreased erythropoietin"
+        ],
+        "answer": 2,
+        "explanation": "Splenic removal of spherocytes shortens survival; the marrow responds with polychromatophilic reticulocytes."
+      },
+      {
+        "stem": "Which result distinguishes this from autoimmune hemolytic anemia?",
+        "choices": [
+          "Positive direct antiglobulin test",
+          "Low haptoglobin",
+          "High indirect bilirubin",
+          "Negative direct antiglobulin test"
+        ],
+        "answer": 3,
+        "explanation": "Hereditary spherocytosis is a membrane defect, not antibody-mediated; haptoglobin and bilirubin changes occur in both."
+      }
+    ]
+  },
+  {
+    "id": "cbc-007",
+    "topic": "rbc",
+    "subtopic": "hemolytic_acquired",
+    "difficulty": 2,
+    "sex": "F",
+    "age": 41,
+    "vignette": "A 41-year-old woman has rapid onset fatigue, dark urine and scleral icterus. Her blood bank notes difficulty with crossmatching.",
+    "cbc": {
+      "WBC": 12.1,
+      "RBC": 2.2,
+      "HGB": 6.9,
+      "HCT": 20.4,
+      "MCV": 93,
+      "MCH": 31.4,
+      "MCHC": 33.8,
+      "RDW": 20.0,
+      "PLT": 290,
+      "RETIC": 14.0
+    },
+    "spurious": false,
+    "smear": [
+      "spherocyte",
+      "polychromasia",
+      "nrbc"
+    ],
+    "steps": [
+      {
+        "stem": "Which test establishes an immune cause?",
+        "choices": [
+          "Positive direct antiglobulin test",
+          "Negative direct antiglobulin test",
+          "Abnormal osmotic fragility only",
+          "Positive sucrose lysis test"
+        ],
+        "answer": 0,
+        "explanation": "The DAT detects IgG or complement bound to red cells in autoimmune hemolysis."
+      },
+      {
+        "stem": "Why do nucleated RBCs appear on the smear?",
+        "choices": [
+          "The spleen is overactive",
+          "Marrow releases immature cells under strong hemolytic stress",
+          "Iron deficiency impairs enucleation",
+          "Autoantibodies attack the nucleus"
+        ],
+        "answer": 1,
+        "explanation": "Intense erythropoietic drive can release nucleated red cells. Correct a WBC count only if the analyzer has included nRBCs in that count."
+      },
+      {
+        "stem": "Which pattern is expected for the hemolysis markers?",
+        "choices": [
+          "High haptoglobin, low LD, low bilirubin",
+          "Low haptoglobin, low LD, normal bilirubin",
+          "Low haptoglobin, high LD, high indirect bilirubin",
+          "Normal haptoglobin, low LD, high direct bilirubin"
+        ],
+        "answer": 2,
+        "explanation": "Intravascular and extravascular destruction consume haptoglobin and release LD and unconjugated bilirubin."
+      },
+      {
+        "stem": "What is the cause of the polychromasia?",
+        "choices": [
+          "Increased Howell-Jolly bodies",
+          "Heinz body formation",
+          "Crystal formation of hemoglobin C",
+          "Increased circulating reticulocytes"
+        ],
+        "answer": 3,
+        "explanation": "Reticulocytes stain bluish-gray with Wright stain because of residual ribosomal RNA."
+      }
+    ]
+  },
+  {
+    "id": "cbc-008",
+    "topic": "rbc",
+    "subtopic": "hemolytic_hereditary",
+    "difficulty": 2,
+    "sex": "M",
+    "age": 23,
+    "vignette": "A 23-year-old man develops dark urine and back pain two days after eating fava beans.",
+    "cbc": {
+      "WBC": 11.6,
+      "RBC": 2.9,
+      "HGB": 8.8,
+      "HCT": 25.6,
+      "MCV": 88,
+      "MCH": 30.3,
+      "MCHC": 34.4,
+      "RDW": 16.0,
+      "PLT": 330,
+      "RETIC": 7.2
+    },
+    "spurious": false,
+    "smear": [
+      "bite_cell",
+      "heinz_body",
+      "polychromasia"
+    ],
+    "steps": [
+      {
+        "stem": "Which smear finding is typical of this episode?",
+        "choices": [
+          "Bite cells and blister cells",
+          "Sickle cells",
+          "Teardrop cells",
+          "Rouleaux"
+        ],
+        "answer": 0,
+        "explanation": "Splenic macrophages remove denatured hemoglobin inclusions, leaving bite cells."
+      },
+      {
+        "stem": "Which stain demonstrates the inclusion responsible?",
+        "choices": [
+          "Prussian blue",
+          "Supravital crystal violet for Heinz bodies",
+          "Kleihauer-Betke",
+          "Periodic acid-Schiff"
+        ],
+        "answer": 1,
+        "explanation": "Heinz bodies are denatured hemoglobin that only show on a supravital stain, not on Wright stain."
+      },
+      {
+        "stem": "When is the G6PD assay most reliable?",
+        "choices": [
+          "During the acute hemolytic crisis",
+          "Immediately after transfusion",
+          "Several weeks after the acute hemolytic episode",
+          "During the reticulocytosis peak"
+        ],
+        "answer": 2,
+        "explanation": "Young red cells have higher enzyme activity, so testing in the acute phase or after transfusion may give falsely normal results."
+      }
+    ]
+  },
+  {
+    "id": "cbc-009",
+    "topic": "rbc",
+    "subtopic": "hemoglobinopathy",
+    "difficulty": 2,
+    "sex": "M",
+    "age": 26,
+    "vignette": "A 26-year-old man with severe bone pain. He has had several similar admissions. He has no functioning spleen.",
+    "cbc": {
+      "WBC": 13.8,
+      "RBC": 2.6,
+      "HGB": 7.6,
+      "HCT": 22.5,
+      "MCV": 87,
+      "MCH": 29.2,
+      "MCHC": 33.8,
+      "RDW": 19.5,
+      "PLT": 420,
+      "RETIC": 12.0
+    },
+    "spurious": false,
+    "smear": [
+      "sickle_cell",
+      "howell_jolly",
+      "target_cell",
+      "nrbc"
+    ],
+    "steps": [
+      {
+        "stem": "Why are Howell-Jolly bodies present?",
+        "choices": [
+          "Lead poisoning",
+          "Vitamin B6 deficiency",
+          "Splenic enlargement from hemolysis",
+          "Functional asplenia from repeated infarction"
+        ],
+        "answer": 3,
+        "explanation": "The spleen normally removes nuclear remnants, so they persist in autosplenectomy."
+      },
+      {
+        "stem": "Which test confirms the diagnosis?",
+        "choices": [
+          "Hemoglobin electrophoresis showing Hb S",
+          "Sucrose lysis test",
+          "Hemoglobin A2 only",
+          "Osmotic fragility"
+        ],
+        "answer": 0,
+        "explanation": "Electrophoresis or HPLC identifies Hb S; a solubility test only screens for its presence."
+      },
+      {
+        "stem": "Why is a solubility screen alone insufficient?",
+        "choices": [
+          "It detects only Hb C",
+          "It cannot distinguish sickle cell disease from sickle trait",
+          "It is positive only in neonates",
+          "It reacts only with Hb F"
+        ],
+        "answer": 1,
+        "explanation": "Both trait and disease contain Hb S, so electrophoresis is needed to tell them apart."
+      },
+      {
+        "stem": "What does the leukocytosis most reflect?",
+        "choices": [
+          "Acute leukemia",
+          "Polycythemia vera",
+          "Chronic marrow stimulation and functional asplenia",
+          "Iron deficiency"
+        ],
+        "answer": 2,
+        "explanation": "Functional asplenia and inflammatory stress during a sickle cell crisis commonly raise the WBC count. The platelet count of 420 ×10³/µL is within this app's reference range."
+      }
+    ]
+  },
+  {
+    "id": "cbc-010",
+    "topic": "rbc",
+    "subtopic": "hypoproliferative",
+    "difficulty": 2,
+    "sex": "F",
+    "age": 21,
+    "vignette": "A 21-year-old woman presents with bruising, fatigue and recurrent fevers. Her exam shows no enlarged spleen.",
+    "cbc": {
+      "WBC": 1.8,
+      "RBC": 1.95,
+      "HGB": 5.8,
+      "HCT": 17.0,
+      "MCV": 87,
+      "MCH": 29.7,
+      "MCHC": 34.1,
+      "RDW": 15.0,
+      "PLT": 18,
+      "RETIC": 0.2
+    },
+    "spurious": false,
+    "smear": [
+      "normal_rbc"
+    ],
+    "steps": [
+      {
+        "stem": "Which term describes the pattern of the CBC?",
+        "choices": [
+          "Bicytopenia with leukocytosis",
+          "Pure red cell aplasia",
+          "Erythrocytosis",
+          "Pancytopenia"
+        ],
+        "answer": 3,
+        "explanation": "All three cell lines are decreased."
+      },
+      {
+        "stem": "Which test is essential for diagnosis?",
+        "choices": [
+          "Bone marrow biopsy showing hypocellularity",
+          "Hemoglobin electrophoresis",
+          "Direct antiglobulin test",
+          "Flow cytometry for hairy cells"
+        ],
+        "answer": 0,
+        "explanation": "Aplastic anemia is defined by a markedly hypocellular marrow replaced by fat, without abnormal infiltrates."
+      },
+      {
+        "stem": "What is the expected reticulocyte production index?",
+        "choices": [
+          "High, above 3",
+          "Low, below 2",
+          "Normal, near 1 only in hemolysis",
+          "Not measurable"
+        ],
+        "answer": 1,
+        "explanation": "The marrow is failing, so the corrected reticulocyte response is inadequate for the degree of anemia."
+      }
+    ]
+  },
+  {
+    "id": "cbc-011",
+    "topic": "rbc",
+    "subtopic": "acute_hemorrhage",
+    "difficulty": 1,
+    "sex": "M",
+    "age": 36,
+    "vignette": "A 36-year-old man was admitted with a ruptured ulcer and bleeding four days ago. He has received IV fluids.",
+    "cbc": {
+      "WBC": 14.2,
+      "RBC": 3.3,
+      "HGB": 9.8,
+      "HCT": 29.5,
+      "MCV": 89,
+      "MCH": 29.7,
+      "MCHC": 33.2,
+      "RDW": 15.5,
+      "PLT": 520,
+      "RETIC": 3.8
+    },
+    "spurious": false,
+    "smear": [
+      "polychromasia"
+    ],
+    "steps": [
+      {
+        "stem": "Why was the hemoglobin normal immediately after bleeding?",
+        "choices": [
+          "Hemolysis releases hemoglobin",
+          "The spleen contracts and adds cells",
+          "Whole blood was lost, so concentration did not change at first",
+          "Iron was released from the liver"
+        ],
+        "answer": 2,
+        "explanation": "Hemoglobin concentration falls only after plasma volume expands from fluids or fluid shifts."
+      },
+      {
+        "stem": "Which finding reflects marrow response?",
+        "choices": [
+          "Hypersegmented neutrophils",
+          "Spherocytes",
+          "Howell-Jolly bodies",
+          "Polychromasia and a raised reticulocyte count"
+        ],
+        "answer": 3,
+        "explanation": "The marrow increases erythropoiesis, which appears as polychromatophilic cells within days."
+      },
+      {
+        "stem": "Why is the platelet count elevated?",
+        "choices": [
+          "Reactive rise after acute bleeding",
+          "Essential thrombocythemia",
+          "Hemolysis",
+          "Iron overload"
+        ],
+        "answer": 0,
+        "explanation": "Acute blood loss temporarily increases thrombopoietic output, causing reactive thrombocytosis."
+      }
+    ]
+  },
+  {
+    "id": "cbc-012",
+    "topic": "rbc",
+    "subtopic": "erythrocytosis",
+    "difficulty": 2,
+    "sex": "M",
+    "age": 61,
+    "vignette": "A 61-year-old man reports itching after hot showers, headaches and a ruddy complexion.",
+    "cbc": {
+      "WBC": 14.8,
+      "RBC": 6.6,
+      "HGB": 19.2,
+      "HCT": 58.0,
+      "MCV": 88,
+      "MCH": 29.1,
+      "MCHC": 33.1,
+      "RDW": 14.8,
+      "PLT": 640,
+      "RETIC": 1.2
+    },
+    "spurious": false,
+    "smear": [
+      "normal_rbc",
+      "giant_platelet"
+    ],
+    "steps": [
+      {
+        "stem": "Which mutation is found in most patients with this condition?",
+        "choices": [
+          "BCR::ABL1",
+          "JAK2 V617F",
+          "PML::RARA",
+          "MYD88 L265P"
+        ],
+        "answer": 1,
+        "explanation": "JAK2 V617F occurs in the vast majority of polycythemia vera cases."
+      },
+      {
+        "stem": "Which serum value helps distinguish this from secondary erythrocytosis?",
+        "choices": [
+          "High erythropoietin",
+          "Low ferritin",
+          "Low erythropoietin",
+          "High LDH"
+        ],
+        "answer": 2,
+        "explanation": "In polycythemia vera the marrow drives itself, which suppresses erythropoietin; secondary causes raise it."
+      },
+      {
+        "stem": "What do the elevated WBC and platelets suggest?",
+        "choices": [
+          "Bacterial infection",
+          "Hemolysis",
+          "Spurious counts",
+          "Trilineage myeloproliferation"
+        ],
+        "answer": 3,
+        "explanation": "Polycythemia vera involves overproduction of all three lines, unlike isolated secondary erythrocytosis."
+      }
+    ]
+  },
+  {
+    "id": "cbc-013",
+    "topic": "rbc",
+    "subtopic": "hemolytic_acquired",
+    "difficulty": 3,
+    "sex": "F",
+    "age": 62,
+    "vignette": "A 62-year-old woman's automated CBC flags an unusually low RBC and a very high MCHC. The sample sat in a cold specimen tray. Her hemoglobin is 11.0 g/dL and she is asymptomatic.",
+    "cbc": {
+      "WBC": 7.5,
+      "RBC": 1.9,
+      "HGB": 11.0,
+      "HCT": 22.4,
+      "MCV": 118,
+      "MCH": 57.9,
+      "MCHC": 49.1,
+      "RDW": 15.0,
+      "PLT": 240
+    },
+    "spurious": true,
+    "smear": [
+      "agglutination"
+    ],
+    "steps": [
+      {
+        "stem": "What is the most likely cause of these results?",
+        "choices": [
+          "Cold agglutinins clumping red cells",
+          "Iron deficiency",
+          "Hemoglobin C disease",
+          "Hereditary spherocytosis"
+        ],
+        "answer": 0,
+        "explanation": "Clumped cells are undercounted and measured incorrectly, giving a falsely low RBC and Hct with a high MCV and MCHC."
+      },
+      {
+        "stem": "Which action should be taken first?",
+        "choices": [
+          "Report results as measured",
+          "Warm the sample to 37 °C and re-run it",
+          "Add EDTA and re-run immediately",
+          "Centrifuge the tube and use the plasma"
+        ],
+        "answer": 1,
+        "explanation": "Warming reverses cold agglutination so the sample can be measured correctly."
+      },
+      {
+        "stem": "Which finding on the smear supports the cause?",
+        "choices": [
+          "Rouleaux",
+          "Schistocytes",
+          "Clumps of red cells",
+          "Hypersegmented neutrophils"
+        ],
+        "answer": 2,
+        "explanation": "Agglutinates are irregular grape-like clusters, unlike coin-stack rouleaux."
+      },
+      {
+        "stem": "Which index is the reliable value to rely upon in these cases?",
+        "choices": [
+          "MCV",
+          "MCHC",
+          "RBC count",
+          "Hemoglobin"
+        ],
+        "answer": 3,
+        "explanation": "Hemoglobin is measured after red cells are lysed, so it is not affected by agglutination."
+      }
+    ]
+  },
+  {
+    "id": "cbc-014",
+    "topic": "rbc",
+    "subtopic": "nonmegaloblastic_macrocytic",
+    "difficulty": 3,
+    "sex": "M",
+    "age": 50,
+    "vignette": "A 50-year-old man on lipid-containing parenteral nutrition has visibly milky plasma and an unexpectedly high hemoglobin and MCHC. He also has documented liver-related round macrocytosis with normal B12 and folate levels.",
+    "cbc": {
+      "WBC": 8.0,
+      "RBC": 4.1,
+      "HGB": 19.8,
+      "HCT": 43.0,
+      "MCV": 105,
+      "MCH": 48.3,
+      "MCHC": 46.0,
+      "RDW": 13.5,
+      "PLT": 260
+    },
+    "spurious": true,
+    "smear": [
+      "macrocyte",
+      "target_cell"
+    ],
+    "steps": [
+      {
+        "stem": "What most likely explains the high hemoglobin and MCHC?",
+        "choices": [
+          "Lipemia causing turbidity at the hemoglobin wavelength",
+          "True polycythemia",
+          "Hemolysis in the sample",
+          "Cold agglutinins"
+        ],
+        "answer": 0,
+        "explanation": "Turbidity raises light absorbance in the hemoglobin measurement, falsely raising HGB, MCH and MCHC."
+      },
+      {
+        "stem": "Which check demonstrates the error?",
+        "choices": [
+          "MCV near the reference range",
+          "Rule of three: HGB x 3 does not approximate HCT",
+          "RDW above range",
+          "WBC below range"
+        ],
+        "answer": 1,
+        "explanation": "HGB 19.8 predicts about 59% Hct, but the measured Hct is 43%, so the HGB is false."
+      },
+      {
+        "stem": "Which corrective action is the best?",
+        "choices": [
+          "Dilute with water and re-run",
+          "Add more anticoagulant",
+          "Replace plasma with saline and re-run",
+          "Report the first result"
+        ],
+        "answer": 2,
+        "explanation": "Removing the lipemic plasma by saline replacement eliminates the turbidity."
+      }
+    ]
+  },
+  {
+    "id": "cbc-015",
+    "topic": "wbc",
+    "subtopic": "myeloproliferative",
+    "difficulty": 2,
+    "sex": "M",
+    "age": 47,
+    "vignette": "A 47-year-old man reports early satiety and left upper quadrant fullness. He has a massively enlarged spleen.",
+    "cbc": {
+      "WBC": 148.0,
+      "RBC": 3.8,
+      "HGB": 11.2,
+      "HCT": 34.0,
+      "MCV": 89,
+      "MCH": 29.5,
+      "MCHC": 32.9,
+      "RDW": 15.0,
+      "PLT": 520
+    },
+    "spurious": false,
+    "smear": [
+      "neutrophil_seg",
+      "myelocyte",
+      "metamyelocyte",
+      "basophil"
+    ],
+    "steps": [
+      {
+        "stem": "Which smear pattern is typical?",
+        "choices": [
+          "Predominant myeloblasts with Auer rods",
+          "Small mature lymphocytes with smudge cells",
+          "Hypersegmented neutrophils only",
+          "Leukocytosis with the full spectrum of granulocyte maturation and basophilia"
+        ],
+        "answer": 3,
+        "explanation": "Chronic myeloid leukemia shows all maturation stages from myelocytes to segmented cells plus basophils."
+      },
+      {
+        "stem": "Which genetic abnormality confirms the diagnosis?",
+        "choices": [
+          "BCR::ABL1 fusion from t(9;22)",
+          "PML::RARA from t(15;17)",
+          "JAK2 V617F",
+          "IGH::CCND1 from t(11;14)"
+        ],
+        "answer": 0,
+        "explanation": "The Philadelphia chromosome produces the BCR::ABL1 tyrosine kinase."
+      },
+      {
+        "stem": "Which leukocyte alkaline phosphatase result was classically expected?",
+        "choices": [
+          "High LAP score",
+          "Low LAP score",
+          "Normal LAP score",
+          "Not applicable"
+        ],
+        "answer": 1,
+        "explanation": "CML granulocytes have low LAP activity, in contrast to a leukemoid reaction in which LAP is high."
+      }
+    ]
+  },
+  {
+    "id": "cbc-016",
+    "topic": "wbc",
+    "subtopic": "chronic_lymphoid",
+    "difficulty": 1,
+    "sex": "M",
+    "age": 72,
+    "vignette": "A 72-year-old man has painless neck lymph nodes found incidentally on a routine exam.",
+    "cbc": {
+      "WBC": 68.0,
+      "RBC": 4.2,
+      "HGB": 12.8,
+      "HCT": 38.5,
+      "MCV": 92,
+      "MCH": 30.5,
+      "MCHC": 33.2,
+      "RDW": 14.0,
+      "PLT": 160
+    },
+    "spurious": false,
+    "smear": [
+      "smudge_cell",
+      "lymphocyte"
+    ],
+    "steps": [
+      {
+        "stem": "Which smear finding is characteristic?",
+        "choices": [
+          "Large blasts with nucleoli",
+          "Plasma cells with rouleaux",
+          "Many small mature lymphocytes and smudge cells",
+          "Hairy projections on each cell"
+        ],
+        "answer": 2,
+        "explanation": "CLL cells are fragile and are crushed during smear preparation, yielding smudge cells."
+      },
+      {
+        "stem": "Which flow cytometry pattern identifies this disorder?",
+        "choices": [
+          "CD3+ CD4+ T cells only",
+          "CD34+ TdT+ blasts",
+          "CD103+ CD25+ CD11c+ cells",
+          "CD5+, CD19+, CD23+ B cells"
+        ],
+        "answer": 3,
+        "explanation": "CLL cells co-express the T-cell marker CD5 with B-cell antigens and CD23."
+      },
+      {
+        "stem": "Why are smudge cells reduced with albumin added to the smear?",
+        "choices": [
+          "Albumin protects fragile lymphocytes",
+          "It stains the nuclei",
+          "It lyses red cells",
+          "It fixes the smear faster"
+        ],
+        "answer": 0,
+        "explanation": "Adding albumin to the blood before making a film stabilizes the cells and reduces smudging."
+      }
+    ]
+  },
+  {
+    "id": "cbc-017",
+    "topic": "wbc",
+    "subtopic": "acute_myeloid_leukemia",
+    "difficulty": 2,
+    "sex": "F",
+    "age": 55,
+    "vignette": "A 55-year-old woman has weeks of fatigue, gum bleeding and fever.",
+    "cbc": {
+      "WBC": 42.0,
+      "RBC": 2.6,
+      "HGB": 7.8,
+      "HCT": 23.0,
+      "MCV": 88,
+      "MCH": 30.0,
+      "MCHC": 33.9,
+      "RDW": 16.0,
+      "PLT": 35,
+      "RETIC": 0.4
+    },
+    "spurious": false,
+    "smear": [
+      "myeloblast",
+      "auer_rod"
+    ],
+    "steps": [
+      {
+        "stem": "Which finding best supports a myeloid origin of the blasts?",
+        "choices": [
+          "TdT positivity",
+          "Auer rods",
+          "CD19 positivity",
+          "Smudge cells"
+        ],
+        "answer": 1,
+        "explanation": "Auer rods are fused primary granules seen only in myeloid or monocytic blasts."
+      },
+      {
+        "stem": "Which cytochemical stain is positive in myeloblasts?",
+        "choices": [
+          "Terminal deoxynucleotidyl transferase",
+          "Tartrate-resistant acid phosphatase",
+          "Myeloperoxidase",
+          "Periodic acid-Schiff in blocks"
+        ],
+        "answer": 2,
+        "explanation": "Myeloperoxidase reacts with myeloid granules and helps separate AML from ALL."
+      },
+      {
+        "stem": "What blast threshold generally defines acute leukemia in the WHO system?",
+        "choices": [
+          "5% blasts",
+          "10% blasts",
+          "50% blasts",
+          "20% blasts in marrow or blood"
+        ],
+        "answer": 3,
+        "explanation": "Twenty percent is the usual cutoff; some AML types with defining genetic abnormalities are diagnosed at lower counts."
+      }
+    ]
+  },
+  {
+    "id": "cbc-018",
+    "topic": "wbc",
+    "subtopic": "acute_myeloid_leukemia",
+    "difficulty": 3,
+    "sex": "F",
+    "age": 33,
+    "vignette": "A 33-year-old woman has sudden bruising and nosebleeds. Coagulation tests show a prolonged PT and low fibrinogen.",
+    "cbc": {
+      "WBC": 2.6,
+      "RBC": 3.0,
+      "HGB": 8.9,
+      "HCT": 26.0,
+      "MCV": 87,
+      "MCH": 29.7,
+      "MCHC": 34.2,
+      "RDW": 15.0,
+      "PLT": 22,
+      "RETIC": 0.5
+    },
+    "spurious": false,
+    "smear": [
+      "promyelocyte",
+      "auer_rod"
+    ],
+    "steps": [
+      {
+        "stem": "Which cell predominates on the smear?",
+        "choices": [
+          "Abnormal hypergranular promyelocytes with bundled Auer rods",
+          "Lymphoblasts",
+          "Small mature lymphocytes",
+          "Plasma cells"
+        ],
+        "answer": 0,
+        "explanation": "Acute promyelocytic leukemia features faggot cells with multiple Auer rods."
+      },
+      {
+        "stem": "Which translocation is diagnostic?",
+        "choices": [
+          "t(9;22) BCR::ABL1",
+          "t(15;17) PML::RARA",
+          "t(8;21) RUNX1::RUNX1T1",
+          "t(12;21) ETV6::RUNX1"
+        ],
+        "answer": 1,
+        "explanation": "The PML::RARA fusion defines acute promyelocytic leukemia and predicts response to all-trans retinoic acid."
+      },
+      {
+        "stem": "Which complication explains the coagulation results?",
+        "choices": [
+          "Vitamin K deficiency",
+          "Hemophilia A",
+          "Disseminated intravascular coagulation",
+          "Heparin effect"
+        ],
+        "answer": 2,
+        "explanation": "Procoagulant granule contents trigger DIC, so urgent treatment is needed."
+      }
+    ]
+  },
+  {
+    "id": "cbc-019",
+    "topic": "wbc",
+    "subtopic": "acute_lymphoid_leukemia",
+    "difficulty": 2,
+    "sex": "M",
+    "age": 24,
+    "vignette": "A 24-year-old man has fever, bone pain and enlarged lymph nodes for three weeks.",
+    "cbc": {
+      "WBC": 57.0,
+      "RBC": 2.7,
+      "HGB": 8.1,
+      "HCT": 24.0,
+      "MCV": 89,
+      "MCH": 30.0,
+      "MCHC": 33.8,
+      "RDW": 15.5,
+      "PLT": 28,
+      "RETIC": 0.3
+    },
+    "spurious": false,
+    "smear": [
+      "lymphoblast"
+    ],
+    "steps": [
+      {
+        "stem": "Which cytochemical reaction is typical of the blasts?",
+        "choices": [
+          "Myeloperoxidase strongly positive",
+          "Sudan black positive",
+          "Alpha-naphthyl butyrate esterase positive",
+          "Myeloperoxidase negative"
+        ],
+        "answer": 3,
+        "explanation": "Lymphoblasts lack myeloperoxidase, which separates ALL from AML."
+      },
+      {
+        "stem": "Which flow pattern best supports a lymphoid precursor population?",
+        "choices": [
+          "TdT with CD19 or cytoplasmic CD3",
+          "MPO with CD13",
+          "CD14 with CD64",
+          "CD41 with CD61"
+        ],
+        "answer": 0,
+        "explanation": "TdT marks immaturity, while B-lineage markers such as CD19 or T-lineage cytoplasmic CD3 establish lineage. MPO with CD13 supports a myeloid population."
+      },
+      {
+        "stem": "Which specimen is also recommended at diagnosis?",
+        "choices": [
+          "Stool occult blood",
+          "Cerebrospinal fluid cytospin",
+          "Pleural fluid eosinophils",
+          "Urine hemosiderin"
+        ],
+        "answer": 1,
+        "explanation": "ALL often involves the central nervous system, so spinal fluid is examined."
+      }
+    ]
+  },
+  {
+    "id": "cbc-020",
+    "topic": "wbc",
+    "subtopic": "benign_lymphoid",
+    "difficulty": 1,
+    "sex": "F",
+    "age": 20,
+    "vignette": "A 20-year-old college student has sore throat, fever and posterior neck lymphadenopathy.",
+    "cbc": {
+      "WBC": 14.5,
+      "RBC": 4.45,
+      "HGB": 13.0,
+      "HCT": 38.5,
+      "MCV": 87,
+      "MCH": 29.2,
+      "MCHC": 33.8,
+      "RDW": 13.0,
+      "PLT": 190
+    },
+    "spurious": false,
+    "smear": [
+      "reactive_lymph"
+    ],
+    "steps": [
+      {
+        "stem": "Which cells make up the increased population?",
+        "choices": [
+          "Lymphoblasts",
+          "Plasma cells only",
+          "Reactive (atypical) lymphocytes",
+          "Hairy cells"
+        ],
+        "answer": 2,
+        "explanation": "Activated T cells with abundant basophilic cytoplasm that indents around neighboring red cells predominate."
+      },
+      {
+        "stem": "Which test is the quickest for confirmation?",
+        "choices": [
+          "BCR::ABL1 PCR",
+          "Hemoglobin electrophoresis",
+          "Osmotic fragility",
+          "Heterophile antibody screen"
+        ],
+        "answer": 3,
+        "explanation": "Infectious mononucleosis from EBV usually produces heterophile antibodies."
+      },
+      {
+        "stem": "Which lymphocyte feature separates reactive cells from blasts?",
+        "choices": [
+          "Condensed chromatin and no prominent nucleoli",
+          "Fine chromatin and prominent nucleoli",
+          "Auer rods",
+          "Coarse basophilic granules"
+        ],
+        "answer": 0,
+        "explanation": "Reactive cells have mature chromatin, while blasts show fine open chromatin and nucleoli."
+      }
+    ]
+  },
+  {
+    "id": "cbc-021",
+    "topic": "wbc",
+    "subtopic": "benign_myeloid",
+    "difficulty": 1,
+    "sex": "M",
+    "age": 52,
+    "vignette": "A 52-year-old man has a productive cough, fever and chills. Chest imaging shows lobar pneumonia.",
+    "cbc": {
+      "WBC": 23.5,
+      "RBC": 4.7,
+      "HGB": 14.2,
+      "HCT": 42.0,
+      "MCV": 89,
+      "MCH": 30.2,
+      "MCHC": 33.8,
+      "RDW": 13.5,
+      "PLT": 410
+    },
+    "spurious": false,
+    "smear": [
+      "neutrophil_band",
+      "toxic_granulation",
+      "dohle_body"
+    ],
+    "steps": [
+      {
+        "stem": "Which differential pattern is expected?",
+        "choices": [
+          "Lymphocytosis",
+          "Neutrophilia with a left shift",
+          "Eosinophilia",
+          "Monocytopenia with blasts"
+        ],
+        "answer": 1,
+        "explanation": "Bacterial infection increases neutrophils and releases immature bands."
+      },
+      {
+        "stem": "Which morphologic changes support infection?",
+        "choices": [
+          "Auer rods",
+          "Smudge cells",
+          "Toxic granulation and Dohle bodies",
+          "Howell-Jolly bodies"
+        ],
+        "answer": 2,
+        "explanation": "Toxic changes appear in neutrophils under infectious or inflammatory stress."
+      },
+      {
+        "stem": "What does the term left shift describe?",
+        "choices": [
+          "Increased lymphocytes",
+          "Increased eosinophils",
+          "Decrease in all neutrophils",
+          "Increased bands and earlier forms in the blood"
+        ],
+        "answer": 3,
+        "explanation": "Immature granulocytes are drawn toward the left on a maturation chart."
+      }
+    ]
+  },
+  {
+    "id": "cbc-022",
+    "topic": "wbc",
+    "subtopic": "benign_myeloid",
+    "difficulty": 1,
+    "sex": "F",
+    "age": 39,
+    "vignette": "A 39-year-old woman has itching and a recent trip to rural Southeast Asia. She walked barefoot. Her WBC is 12.8 with 22% eosinophils.",
+    "cbc": {
+      "WBC": 12.8,
+      "RBC": 4.5,
+      "HGB": 13.4,
+      "HCT": 40.0,
+      "MCV": 89,
+      "MCH": 29.8,
+      "MCHC": 33.5,
+      "RDW": 13.2,
+      "PLT": 300
+    },
+    "spurious": false,
+    "smear": [
+      "eosinophil"
+    ],
+    "steps": [
+      {
+        "stem": "What is the absolute eosinophil count?",
+        "choices": [
+          "About 2.8 ×10³/µL",
+          "About 0.3 ×10³/µL",
+          "About 1.4 ×10³/µL",
+          "About 22 ×10³/µL"
+        ],
+        "answer": 0,
+        "explanation": "12.8 x 22/100 = 2.8 ×10³/µL, well above the usual upper limit near 0.5."
+      },
+      {
+        "stem": "Which cause is most consistent with her history?",
+        "choices": [
+          "Bacterial sepsis",
+          "Helminthic parasitic infection",
+          "Acute lymphoblastic leukemia",
+          "Iron deficiency"
+        ],
+        "answer": 1,
+        "explanation": "Tissue-invasive helminths and allergy drive IL-5 mediated eosinophilia."
+      },
+      {
+        "stem": "Which stool test is the best next step?",
+        "choices": [
+          "Fecal occult blood only",
+          "Clostridioides difficile toxin only",
+          "Ova and parasite examination",
+          "Stool lactoferrin"
+        ],
+        "answer": 2,
+        "explanation": "Identifying the parasite requires stool examination, often repeated since shedding is intermittent."
+      }
+    ]
+  },
+  {
+    "id": "cbc-023",
+    "topic": "wbc",
+    "subtopic": "benign_myeloid",
+    "difficulty": 3,
+    "sex": "M",
+    "age": 45,
+    "vignette": "A 45-year-old man is critically ill with an abscess. His spleen is not enlarged and he has no prior hematologic disease.",
+    "cbc": {
+      "WBC": 52.0,
+      "RBC": 4.25,
+      "HGB": 12.9,
+      "HCT": 38.0,
+      "MCV": 89,
+      "MCH": 30.4,
+      "MCHC": 33.9,
+      "RDW": 14.0,
+      "PLT": 430
+    },
+    "spurious": false,
+    "smear": [
+      "neutrophil_band",
+      "toxic_granulation"
+    ],
+    "steps": [
+      {
+        "stem": "Which test best separates this from chronic myeloid leukemia?",
+        "choices": [
+          "BCR::ABL1 positive",
+          "JAK2 V617F positive",
+          "PML::RARA positive",
+          "BCR::ABL1 negative"
+        ],
+        "answer": 3,
+        "explanation": "A leukemoid reaction is reactive, so no Philadelphia chromosome is found."
+      },
+      {
+        "stem": "What LAP score is expected here?",
+        "choices": [
+          "Increased",
+          "Decreased",
+          "Absent",
+          "Unchanged from CML"
+        ],
+        "answer": 0,
+        "explanation": "LAP is high in reactive neutrophilia and low in CML."
+      },
+      {
+        "stem": "Which finding would favor CML over a leukemoid reaction?",
+        "choices": [
+          "Toxic granulation",
+          "Marked basophilia",
+          "Dohle bodies",
+          "Neutrophil vacuolization"
+        ],
+        "answer": 1,
+        "explanation": "Basophils and eosinophils rise in CML, while toxic changes mark reactive states."
+      }
+    ]
+  },
+  {
+    "id": "cbc-024",
+    "topic": "wbc",
+    "subtopic": "myelodysplastic",
+    "difficulty": 3,
+    "sex": "M",
+    "age": 74,
+    "vignette": "A 74-year-old man has progressive fatigue and a macrocytic anemia. B12, folate and thyroid tests are normal.",
+    "cbc": {
+      "WBC": 3.1,
+      "RBC": 2.45,
+      "HGB": 8.4,
+      "HCT": 25.0,
+      "MCV": 102,
+      "MCH": 34.3,
+      "MCHC": 33.6,
+      "RDW": 17.5,
+      "PLT": 88,
+      "RETIC": 0.8
+    },
+    "spurious": false,
+    "smear": [
+      "pelger_huet",
+      "macrocyte"
+    ],
+    "steps": [
+      {
+        "stem": "Which neutrophil change suggests dysplasia?",
+        "choices": [
+          "Hypersegmented neutrophils",
+          "Toxic vacuoles",
+          "Hypolobated neutrophils with pseudo-Pelger-Huet form",
+          "Auer rods only"
+        ],
+        "answer": 2,
+        "explanation": "Acquired nuclear hypolobation is a dysplastic change seen in myelodysplastic neoplasms."
+      },
+      {
+        "stem": "Why must B12 and folate be excluded first?",
+        "choices": [
+          "They raise LDH only",
+          "They cause hypocellular marrow",
+          "They produce spherocytes",
+          "They cause dysplastic changes that mimic MDS"
+        ],
+        "answer": 3,
+        "explanation": "Megaloblastic anemia can look dysplastic, so reversible causes are ruled out."
+      },
+      {
+        "stem": "Which test is most helpful to classify and stage the disease?",
+        "choices": [
+          "Bone marrow aspirate with cytogenetics",
+          "Direct antiglobulin test",
+          "Hemoglobin electrophoresis",
+          "Serum protein electrophoresis only"
+        ],
+        "answer": 0,
+        "explanation": "Marrow morphology, blast percentage and karyotype define MDS subtype and risk."
+      }
+    ]
+  },
+  {
+    "id": "cbc-025",
+    "topic": "wbc",
+    "subtopic": "plasma_cell",
+    "difficulty": 3,
+    "sex": "F",
+    "age": 68,
+    "vignette": "A 68-year-old woman has back pain and a high ESR. Calcium and creatinine are elevated.",
+    "cbc": {
+      "WBC": 5.6,
+      "RBC": 3.1,
+      "HGB": 9.2,
+      "HCT": 27.5,
+      "MCV": 89,
+      "MCH": 29.7,
+      "MCHC": 33.5,
+      "RDW": 15.5,
+      "PLT": 170,
+      "RETIC": 0.7
+    },
+    "spurious": false,
+    "smear": [
+      "rouleaux",
+      "plasma_cell"
+    ],
+    "steps": [
+      {
+        "stem": "Which red cell pattern is striking on the smear?",
+        "choices": [
+          "Agglutination",
+          "Rouleaux formation with bluish background",
+          "Spherocytosis",
+          "Teardrop cells"
+        ],
+        "answer": 1,
+        "explanation": "Excess paraprotein neutralizes the red cell surface charge and favors stacking."
+      },
+      {
+        "stem": "Which test best identifies the abnormal protein?",
+        "choices": [
+          "Hemoglobin electrophoresis",
+          "Coagulation factor assays",
+          "Serum protein electrophoresis with immunofixation",
+          "G6PD screen"
+        ],
+        "answer": 2,
+        "explanation": "A monoclonal spike is typed by immunofixation."
+      },
+      {
+        "stem": "Which cell type is increased in the marrow?",
+        "choices": [
+          "Clonal lymphoblasts",
+          "Megakaryocytes",
+          "Hairy cells",
+          "Clonal plasma cells"
+        ],
+        "answer": 3,
+        "explanation": "Plasma cell myeloma is a clonal proliferation of plasma cells."
+      },
+      {
+        "stem": "How can rouleaux be distinguished from true red cell agglutination?",
+        "choices": [
+          "Rouleaux disperses with saline replacement",
+          "Rouleaux persists after saline replacement",
+          "Rouleaux disappears only after freezing",
+          "Rouleaux is visible only with supravital stain"
+        ],
+        "answer": 0,
+        "explanation": "Replacing plasma with saline removes the excess protein and disperses rouleaux. True agglutination usually persists because antibody holds cells together."
+      }
+    ]
+  },
+  {
+    "id": "cbc-026",
+    "topic": "wbc",
+    "subtopic": "chronic_lymphoid",
+    "difficulty": 3,
+    "sex": "M",
+    "age": 57,
+    "vignette": "A 57-year-old man has fatigue and a massive spleen with no lymphadenopathy. A marrow aspiration yields a dry tap.",
+    "cbc": {
+      "WBC": 2.4,
+      "RBC": 3.2,
+      "HGB": 9.6,
+      "HCT": 28.5,
+      "MCV": 89,
+      "MCH": 30.0,
+      "MCHC": 33.7,
+      "RDW": 14.5,
+      "PLT": 62,
+      "RETIC": 0.6
+    },
+    "spurious": false,
+    "smear": [
+      "hairy_cell"
+    ],
+    "steps": [
+      {
+        "stem": "Which cell is seen on the peripheral smear?",
+        "choices": [
+          "Lymphoblasts with Auer rods",
+          "Lymphocytes with cytoplasmic projections",
+          "Smudge cells",
+          "Atypical cells with deep blue vacuoles"
+        ],
+        "answer": 1,
+        "explanation": "Hairy cells have circumferential fine projections and oval nuclei."
+      },
+      {
+        "stem": "Which stain historically identified these cells?",
+        "choices": [
+          "Myeloperoxidase",
+          "Prussian blue",
+          "Tartrate-resistant acid phosphatase",
+          "Sudan black B"
+        ],
+        "answer": 2,
+        "explanation": "TRAP is positive in hairy cells, though flow cytometry is now preferred."
+      },
+      {
+        "stem": "Which flow cytometry markers suit this disease?",
+        "choices": [
+          "CD5 and CD23",
+          "CD34 and TdT",
+          "CD138 and CD38",
+          "CD11c, CD25, CD103 and CD123"
+        ],
+        "answer": 3,
+        "explanation": "This pattern separates hairy cell leukemia from CLL and other B-cell neoplasms."
+      }
+    ]
+  },
+  {
+    "id": "cbc-027",
+    "topic": "plt",
+    "subtopic": "thrombocytopenia",
+    "difficulty": 1,
+    "sex": "F",
+    "age": 29,
+    "vignette": "A 29-year-old woman has new petechiae and gum bleeding. She is otherwise well and takes no drugs.",
+    "cbc": {
+      "WBC": 7.1,
+      "RBC": 4.3,
+      "HGB": 12.6,
+      "HCT": 37.5,
+      "MCV": 87,
+      "MCH": 29.3,
+      "MCHC": 33.6,
+      "RDW": 13.5,
+      "PLT": 9
+    },
+    "spurious": false,
+    "smear": [
+      "normal_platelet",
+      "giant_platelet"
+    ],
+    "steps": [
+      {
+        "stem": "Which smear observation matches her isolated low platelets?",
+        "choices": [
+          "Large platelets and no schistocytes",
+          "Numerous schistocytes",
+          "Platelet clumps",
+          "Blasts"
+        ],
+        "answer": 0,
+        "explanation": "Increased marrow production produces large young platelets, while fragments would suggest microangiopathy."
+      },
+      {
+        "stem": "What is the most likely diagnosis?",
+        "choices": [
+          "Aplastic anemia",
+          "Immune thrombocytopenia",
+          "Acute leukemia",
+          "Disseminated intravascular coagulation"
+        ],
+        "answer": 1,
+        "explanation": "A normal remainder of the CBC and an isolated drop point to autoimmune platelet destruction."
+      },
+      {
+        "stem": "How should a smear platelet estimate be used to check this low count?",
+        "choices": [
+          "Count only platelets collected at the feathered edge",
+          "Convert platelet size directly into a platelet count",
+          "Scan for clumps, then average monolayer oil-immersion fields using the lab's validated factor",
+          "Multiply the WBC count by the number of giant platelets"
+        ],
+        "answer": 2,
+        "explanation": "First scan the film and feathered edge for clumps, then estimate from representative monolayer fields using a locally validated multiplier. Counting only the feathered edge exaggerates platelets because they collect there."
+      }
+    ]
+  },
+  {
+    "id": "cbc-028",
+    "topic": "plt",
+    "subtopic": "thrombocytopenia",
+    "difficulty": 3,
+    "sex": "F",
+    "age": 44,
+    "vignette": "A 44-year-old woman has fever, confusion and renal impairment. Her creatinine is raised, and PT and aPTT are normal.",
+    "cbc": {
+      "WBC": 11.2,
+      "RBC": 2.6,
+      "HGB": 7.9,
+      "HCT": 23.5,
+      "MCV": 90,
+      "MCH": 30.4,
+      "MCHC": 33.6,
+      "RDW": 16.0,
+      "PLT": 14,
+      "RETIC": 9.0
+    },
+    "spurious": false,
+    "smear": [
+      "schistocyte"
+    ],
+    "steps": [
+      {
+        "stem": "Which smear finding is most supportive of this disorder?",
+        "choices": [
+          "Spherocytes only",
+          "Sickle cells",
+          "Rouleaux",
+          "Schistocytes with thrombocytopenia"
+        ],
+        "answer": 3,
+        "explanation": "Schistocytes support microangiopathic hemolysis and, with thrombocytopenia, raise concern for TTP. They may be absent early, so their absence does not exclude TTP."
+      },
+      {
+        "stem": "Which test result supports TTP over DIC?",
+        "choices": [
+          "Severely reduced ADAMTS13 activity",
+          "Low fibrinogen",
+          "Prolonged PT",
+          "High D-dimer only"
+        ],
+        "answer": 0,
+        "explanation": "Thrombotic thrombocytopenic purpura arises from absent ADAMTS13, and coagulation tests are typically normal."
+      },
+      {
+        "stem": "What does the elevated reticulocyte count reflect?",
+        "choices": [
+          "Iron deficiency",
+          "Marrow response to hemolysis",
+          "Vitamin B12 deficiency",
+          "Erythropoietin deficiency"
+        ],
+        "answer": 1,
+        "explanation": "Red cells are being destroyed, and the marrow tries to compensate."
+      }
+    ]
+  },
+  {
+    "id": "cbc-029",
+    "topic": "plt",
+    "subtopic": "thrombocytosis",
+    "difficulty": 2,
+    "sex": "F",
+    "age": 52,
+    "vignette": "A 52-year-old woman has headaches and burning pain in her fingertips. She has no inflammation or iron deficiency.",
+    "cbc": {
+      "WBC": 11.8,
+      "RBC": 4.4,
+      "HGB": 13.1,
+      "HCT": 39.0,
+      "MCV": 89,
+      "MCH": 29.8,
+      "MCHC": 33.6,
+      "RDW": 14.0,
+      "PLT": 1150
+    },
+    "spurious": false,
+    "smear": [
+      "giant_platelet"
+    ],
+    "steps": [
+      {
+        "stem": "Which smear finding is expected?",
+        "choices": [
+          "Schistocytes",
+          "Teardrop cells",
+          "Marked thrombocytosis with large bizarre platelets",
+          "Rouleaux"
+        ],
+        "answer": 2,
+        "explanation": "Essential thrombocythemia produces high counts with large platelets and megakaryocyte hyperplasia."
+      },
+      {
+        "stem": "Which mutation is found in about half of patients?",
+        "choices": [
+          "BCR::ABL1",
+          "PML::RARA",
+          "SF3B1",
+          "JAK2 V617F"
+        ],
+        "answer": 3,
+        "explanation": "JAK2, CALR or MPL mutations drive most cases of essential thrombocythemia."
+      },
+      {
+        "stem": "Which condition must be excluded before diagnosing this disease?",
+        "choices": [
+          "CML and other causes of reactive thrombocytosis",
+          "Hemophilia A",
+          "Sickle cell trait",
+          "Thalassemia trait"
+        ],
+        "answer": 0,
+        "explanation": "BCR::ABL1 and reactive causes such as iron deficiency or inflammation must be excluded."
+      }
+    ]
+  },
+  {
+    "id": "cbc-030",
+    "topic": "plt",
+    "subtopic": "thrombocytopenia",
+    "difficulty": 2,
+    "sex": "F",
+    "age": 36,
+    "vignette": "A 36-year-old woman has a platelet count of 38 ×10³/µL flagged by the analyzer. She has no bleeding and no known history of low platelets.",
+    "cbc": {
+      "WBC": 6.4,
+      "RBC": 4.4,
+      "HGB": 13.2,
+      "HCT": 39.0,
+      "MCV": 89,
+      "MCH": 30.0,
+      "MCHC": 33.8,
+      "RDW": 13.0,
+      "PLT": 38
+    },
+    "spurious": true,
+    "smear": [
+      "platelet_clump"
+    ],
+    "steps": [
+      {
+        "stem": "What should the technologist do before reporting the count?",
+        "choices": [
+          "Report immediately as critical",
+          "Examine the smear for platelet clumps",
+          "Add heparin and re-run",
+          "Run the sample with a cold bath"
+        ],
+        "answer": 1,
+        "explanation": "Clumps and a flag on the analyzer suggest a spurious value, which is checked on the smear."
+      },
+      {
+        "stem": "What is the most likely explanation?",
+        "choices": [
+          "Immune thrombocytopenia",
+          "Aplastic anemia",
+          "EDTA-dependent platelet clumping",
+          "Thrombotic thrombocytopenic purpura"
+        ],
+        "answer": 2,
+        "explanation": "Some patients have antibodies that agglutinate platelets in EDTA, falsely lowering counts."
+      },
+      {
+        "stem": "Which specimen is best for recollection?",
+        "choices": [
+          "Another EDTA tube",
+          "Serum separator tube",
+          "Fluoride tube",
+          "Sodium citrate tube, correcting for dilution"
+        ],
+        "answer": 3,
+        "explanation": "Citrate avoids the EDTA-dependent reaction; the result is multiplied by 1.1 to correct for dilution."
+      }
+    ]
+  }
+]

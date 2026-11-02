@@ -1,0 +1,18 @@
+{
+  "WBC": {"low": 4.5, "high": 11.0, "unit": "×10³/µL"},
+  "RBC": {"M": {"low": 4.50, "high": 5.90}, "F": {"low": 4.00, "high": 5.20}, "unit": "×10⁶/µL"},
+  "HGB": {"M": {"low": 13.5, "high": 17.5}, "F": {"low": 12.0, "high": 16.0}, "unit": "g/dL"},
+  "HCT": {"M": {"low": 41, "high": 53}, "F": {"low": 36, "high": 46}, "unit": "%"},
+  "MCV": {"low": 80, "high": 100, "unit": "fL"},
+  "MCH": {"low": 26, "high": 34, "unit": "pg"},
+  "MCHC": {"low": 32, "high": 36, "unit": "g/dL"},
+  "RDW": {"low": 11.5, "high": 14.5, "unit": "%"},
+  "PLT": {"low": 150, "high": 450, "unit": "×10³/µL"},
+  "RETIC": {"low": 0.5, "high": 2.5, "unit": "%"},
+  "PT": {"low": 11.0, "high": 13.5, "unit": "s"},
+  "INR": {"low": 0.8, "high": 1.1, "unit": "—"},
+  "APTT": {"low": 25, "high": 35, "unit": "s"},
+  "FIB": {"low": 200, "high": 400, "unit": "mg/dL"},
+  "DDIMER": {"low": 0.0, "high": 0.5, "unit": "µg/mL FEU"},
+  "TT": {"low": 14, "high": 19, "unit": "s"}
+}

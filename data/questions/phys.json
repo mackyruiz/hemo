@@ -1,0 +1,512 @@
+[
+ {
+  "id": "phys-0001",
+  "topic": "phys",
+  "subtopic": "production",
+  "difficulty": 1,
+  "kind": "theoretical",
+  "stem": "Which hormone, produced mainly by peritubular cells of the kidney, stimulates erythrocyte production?",
+  "image": null,
+  "choices": [
+   "Erythropoietin",
+   "Thrombopoietin",
+   "Granulocyte colony-stimulating factor",
+   "Interleukin-5"
+  ],
+  "answer": 0,
+  "explanation": "Renal peritubular interstitial cells release erythropoietin in response to tissue hypoxia. Thrombopoietin drives platelet production instead."
+ },
+ {
+  "id": "phys-0002",
+  "topic": "phys",
+  "subtopic": "production",
+  "difficulty": 1,
+  "kind": "theoretical",
+  "stem": "In a healthy adult, where does most effective erythropoiesis occur?",
+  "image": null,
+  "choices": [
+   "Spleen",
+   "Bone marrow",
+   "Liver",
+   "Lymph nodes"
+  ],
+  "answer": 1,
+  "explanation": "Adult hematopoiesis is confined chiefly to the marrow. The liver and spleen produce blood cells only in the fetus or in extramedullary hematopoiesis."
+ },
+ {
+  "id": "phys-0003",
+  "topic": "phys",
+  "subtopic": "production",
+  "difficulty": 2,
+  "kind": "procedural",
+  "stem": "A technologist needs to demonstrate residual RNA in circulating erythroid cells to assess marrow output. Which staining approach is appropriate?",
+  "image": null,
+  "choices": [
+   "Prussian blue staining for nonheme iron",
+   "Myeloperoxidase staining of granules",
+   "Supravital staining with new methylene blue",
+   "Wright staining of a fixed blood smear alone"
+  ],
+  "answer": 2,
+  "explanation": "New methylene blue precipitates residual ribosomal RNA, identifying reticulocytes as a measure of recent marrow output. Wright staining may show polychromasia but does not directly demonstrate the reticular RNA network."
+ },
+ {
+  "id": "phys-0004",
+  "topic": "phys",
+  "subtopic": "production",
+  "difficulty": 2,
+  "kind": "theoretical",
+  "stem": "Which cell is the immediate precursor of the platelet?",
+  "image": null,
+  "choices": [
+   "Promyelocyte",
+   "Pronormoblast",
+   "Plasmablast",
+   "Megakaryocyte"
+  ],
+  "answer": 3,
+  "explanation": "Platelets are cytoplasmic fragments shed from mature megakaryocytes in the marrow. The other cells listed belong to the granulocytic, erythroid, and plasma cell lines."
+ },
+ {
+  "id": "phys-0005",
+  "topic": "phys",
+  "subtopic": "production",
+  "difficulty": 3,
+  "kind": "theoretical",
+  "stem": "Which stage is the last erythroid cell capable of mitosis?",
+  "image": null,
+  "choices": [
+   "Polychromatic normoblast",
+   "Orthochromic normoblast",
+   "Reticulocyte",
+   "Mature erythrocyte"
+  ],
+  "answer": 0,
+  "explanation": "Cell division continues through the polychromatic normoblast stage. The orthochromic normoblast has a pyknotic nucleus and can no longer divide."
+ },
+ {
+  "id": "phys-0006",
+  "topic": "phys",
+  "subtopic": "destruction",
+  "difficulty": 1,
+  "kind": "theoretical",
+  "stem": "What is the approximate lifespan of a normal circulating red blood cell?",
+  "image": null,
+  "choices": [
+   "30 days",
+   "120 days",
+   "60 days",
+   "200 days"
+  ],
+  "answer": 1,
+  "explanation": "Normal erythrocytes survive about 120 days before senescent cells are removed. A markedly shorter survival indicates hemolysis."
+ },
+ {
+  "id": "phys-0007",
+  "topic": "phys",
+  "subtopic": "destruction",
+  "difficulty": 2,
+  "kind": "theoretical",
+  "stem": "Normal senescent red cells are removed mainly by which mechanism?",
+  "image": null,
+  "choices": [
+   "Lysis within circulating blood vessels",
+   "Filtration of intact cells by the kidneys",
+   "Phagocytosis by splenic and hepatic macrophages",
+   "Digestion by circulating segmented neutrophils"
+  ],
+  "answer": 2,
+  "explanation": "Splenic and hepatic macrophages remove senescent erythrocytes and recover their iron while degrading heme. Intravascular lysis is not the principal normal route of red cell removal."
+ },
+ {
+  "id": "phys-0008",
+  "topic": "phys",
+  "subtopic": "destruction",
+  "difficulty": 2,
+  "kind": "theoretical",
+  "stem": "During macrophage breakdown of erythrocytes, which pigment forms directly when heme oxygenase opens the heme ring?",
+  "image": null,
+  "choices": [
+   "Conjugated bilirubin",
+   "Urobilinogen",
+   "Unconjugated bilirubin",
+   "Biliverdin"
+  ],
+  "answer": 3,
+  "explanation": "Heme oxygenase forms biliverdin while releasing iron and carbon monoxide. Biliverdin reductase then produces unconjugated bilirubin, which is transported to the liver for conjugation."
+ },
+ {
+  "id": "phys-0009",
+  "topic": "phys",
+  "subtopic": "destruction",
+  "difficulty": 3,
+  "kind": "procedural",
+  "stem": "A laboratory investigates red plasma in a newly collected specimen. Which accompanying pattern best supports in vivo hemolysis rather than red cell damage limited to collection?",
+  "image": null,
+  "choices": [
+   "Low haptoglobin with increased indirect bilirubin",
+   "Normal haptoglobin with unchanged indirect bilirubin",
+   "Increased potassium without altered bilirubin",
+   "Increased LDH without altered bilirubin"
+  ],
+  "answer": 0,
+  "explanation": "In vivo hemolysis can consume haptoglobin and increase unconjugated bilirubin through heme breakdown. Collection-related hemolysis can increase potassium and LDH but does not itself produce an increased circulating indirect bilirubin concentration."
+ },
+ {
+  "id": "phys-0010",
+  "topic": "phys",
+  "subtopic": "function",
+  "difficulty": 1,
+  "kind": "theoretical",
+  "stem": "What is the primary function of the erythrocyte?",
+  "image": null,
+  "choices": [
+   "Production of antibodies",
+   "Transport of oxygen and carbon dioxide",
+   "Initiation of clot formation",
+   "Phagocytosis of bacteria"
+  ],
+  "answer": 1,
+  "explanation": "Erythrocytes carry hemoglobin that binds oxygen in the lungs and helps carry carbon dioxide from the tissues. Other listed roles belong to lymphocytes, platelets, and phagocytes."
+ },
+ {
+  "id": "phys-0011",
+  "topic": "phys",
+  "subtopic": "function",
+  "difficulty": 1,
+  "kind": "theoretical",
+  "stem": "Which cell type is the most numerous circulating leukocyte in a healthy adult?",
+  "image": null,
+  "choices": [
+   "Lymphocyte",
+   "Monocyte",
+   "Segmented neutrophil",
+   "Eosinophil"
+  ],
+  "answer": 2,
+  "explanation": "Segmented neutrophils make up roughly 50 to 70 percent of adult leukocytes. Lymphocytes are next in frequency."
+ },
+ {
+  "id": "phys-0012",
+  "topic": "phys",
+  "subtopic": "function",
+  "difficulty": 2,
+  "kind": "theoretical",
+  "stem": "Which description best fits the role of the eosinophil?",
+  "image": null,
+  "choices": [
+   "Rapid phagocytosis of bacteria in acute infection",
+   "Secretion of antibodies against specific antigens",
+   "Release of histamine during immediate hypersensitivity",
+   "Defense against helminths and participation in allergy"
+  ],
+  "answer": 3,
+  "explanation": "Eosinophil granule proteins help damage helminths, and eosinophils participate in allergic inflammation. Basophils, rather than eosinophils, are the circulating granulocytes associated with histamine release."
+ },
+ {
+  "id": "phys-0013",
+  "topic": "phys",
+  "subtopic": "function",
+  "difficulty": 2,
+  "kind": "theoretical",
+  "stem": "Which platelet structure contains ADP, serotonin, and calcium that are released upon activation?",
+  "image": null,
+  "choices": [
+   "Dense granules",
+   "Alpha granules",
+   "Lysosomes",
+   "Peroxisomes"
+  ],
+  "answer": 0,
+  "explanation": "Dense bodies store ADP, ATP, serotonin, and calcium. Alpha granules store proteins such as fibrinogen, von Willebrand factor, and platelet factor 4."
+ },
+ {
+  "id": "phys-0014",
+  "topic": "phys",
+  "subtopic": "hemoglobin_structure",
+  "difficulty": 1,
+  "kind": "theoretical",
+  "stem": "The major adult hemoglobin, Hb A, is composed of which globin chains?",
+  "image": null,
+  "choices": [
+   "Two alpha and two gamma chains",
+   "Two alpha and two beta chains",
+   "Two beta and two delta chains",
+   "Two alpha and two delta chains"
+  ],
+  "answer": 1,
+  "explanation": "Hb A is alpha2 beta2 and makes up about 95 to 98 percent of adult hemoglobin. Hb F is alpha2 gamma2, and Hb A2 is alpha2 delta2."
+ },
+ {
+  "id": "phys-0015",
+  "topic": "phys",
+  "subtopic": "hemoglobin_structure",
+  "difficulty": 2,
+  "kind": "theoretical",
+  "stem": "Each hemoglobin molecule contains how many heme groups?",
+  "image": null,
+  "choices": [
+   "One",
+   "Two",
+   "Four",
+   "Eight"
+  ],
+  "answer": 2,
+  "explanation": "There is one heme group per globin chain, and each tetramer has four chains. Each heme binds one oxygen molecule."
+ },
+ {
+  "id": "phys-0016",
+  "topic": "phys",
+  "subtopic": "hemoglobin_structure",
+  "difficulty": 3,
+  "kind": "theoretical",
+  "stem": "Stored red cells become depleted of 2,3-bisphosphoglycerate (2,3-BPG). Before 2,3-BPG is restored after transfusion, which change in hemoglobin function is expected?",
+  "image": null,
+  "choices": [
+   "Right-shifted curve with easier oxygen release",
+   "Right-shifted curve with stronger oxygen binding",
+   "Left-shifted curve with easier oxygen release",
+   "Left-shifted curve with stronger oxygen binding"
+  ],
+  "answer": 3,
+  "explanation": "2,3-BPG stabilizes deoxygenated hemoglobin and favors oxygen unloading. Its depletion increases oxygen affinity, shifting the dissociation curve left and initially reducing oxygen release to tissues."
+ },
+ {
+  "id": "phys-0017",
+  "topic": "phys",
+  "subtopic": "hemoglobin_structure",
+  "difficulty": 3,
+  "kind": "theoretical",
+  "stem": "Which form of hemoglobin contains iron in the ferric (Fe3+) state and cannot carry oxygen?",
+  "image": null,
+  "choices": [
+   "Methemoglobin",
+   "Carboxyhemoglobin",
+   "Oxyhemoglobin",
+   "Deoxyhemoglobin"
+  ],
+  "answer": 0,
+  "explanation": "Methemoglobin has oxidized iron and does not bind oxygen. Carboxyhemoglobin has iron still in the ferrous state but bound to carbon monoxide."
+ },
+ {
+  "id": "phys-0018",
+  "topic": "phys",
+  "subtopic": "iron_metabolism",
+  "difficulty": 1,
+  "kind": "theoretical",
+  "stem": "Which plasma protein transports iron to the bone marrow?",
+  "image": null,
+  "choices": [
+   "Ferritin",
+   "Transferrin",
+   "Hemosiderin",
+   "Haptoglobin"
+  ],
+  "answer": 1,
+  "explanation": "Transferrin binds ferric iron in plasma and delivers it to erythroid precursors. Ferritin and hemosiderin are storage forms."
+ },
+ {
+  "id": "phys-0019",
+  "topic": "phys",
+  "subtopic": "iron_metabolism",
+  "difficulty": 1,
+  "kind": "procedural",
+  "stem": "For an adult without inflammation or liver disease, which assay should the laboratory select to assess storage iron most directly?",
+  "image": null,
+  "choices": [
+   "Total iron-binding capacity",
+   "Serum iron",
+   "Ferritin",
+   "Transferrin saturation"
+  ],
+  "answer": 2,
+  "explanation": "Serum ferritin generally reflects storage iron and decreases as stores become depleted. Because ferritin also rises as an acute-phase reactant, a normal or high value does not reliably exclude deficiency during inflammation."
+ },
+ {
+  "id": "phys-0020",
+  "topic": "phys",
+  "subtopic": "iron_metabolism",
+  "difficulty": 2,
+  "kind": "theoretical",
+  "stem": "Which pattern is expected in iron deficiency anemia?",
+  "image": null,
+  "choices": [
+   "Low serum iron, low TIBC, normal or high ferritin",
+   "High serum iron, low TIBC, high ferritin",
+   "Normal serum iron, normal TIBC, low ferritin",
+   "Low serum iron, high TIBC, low ferritin"
+  ],
+  "answer": 3,
+  "explanation": "Iron deficiency lowers serum iron and ferritin while increased transferrin raises total iron-binding capacity (TIBC). Low iron with low TIBC and preserved or increased ferritin instead favors inflammatory iron restriction."
+ },
+ {
+  "id": "phys-0021",
+  "topic": "phys",
+  "subtopic": "iron_metabolism",
+  "difficulty": 2,
+  "kind": "theoretical",
+  "stem": "In which part of the gastrointestinal tract is dietary iron principally absorbed?",
+  "image": null,
+  "choices": [
+   "Duodenum and proximal jejunum",
+   "Stomach",
+   "Ileum",
+   "Colon"
+  ],
+  "answer": 0,
+  "explanation": "Enterocytes of the proximal small intestine take up iron. The ileum is the site for vitamin B12 absorption."
+ },
+ {
+  "id": "phys-0022",
+  "topic": "phys",
+  "subtopic": "iron_metabolism",
+  "difficulty": 3,
+  "kind": "theoretical",
+  "stem": "Which hormone inhibits iron release from macrophages and absorption by degrading ferroportin, and is elevated in inflammation?",
+  "image": null,
+  "choices": [
+   "Erythropoietin",
+   "Hepcidin",
+   "Hepatocyte growth factor",
+   "Transferrin"
+  ],
+  "answer": 1,
+  "explanation": "Liver-derived hepcidin binds ferroportin and promotes its internalization and degradation, limiting iron export into plasma. Inflammation can therefore produce low serum iron despite preserved or increased ferritin."
+ },
+ {
+  "id": "phys-0023",
+  "topic": "phys",
+  "subtopic": "bone_marrow",
+  "difficulty": 1,
+  "kind": "theoretical",
+  "stem": "Using the approximate adult rule of 100 minus age, what marrow cellularity is expected in a healthy 50-year-old?",
+  "image": null,
+  "choices": [
+   "Approximately 90 percent",
+   "Approximately 10 percent",
+   "Approximately 50 percent",
+   "Approximately 25 percent"
+  ],
+  "answer": 2,
+  "explanation": "A rough adult estimate is 100 minus age, giving about 50 percent hematopoietic tissue and 50 percent fat at age 50. Normal cellularity spans a range, so age and clinical context matter."
+ },
+ {
+  "id": "phys-0024",
+  "topic": "phys",
+  "subtopic": "bone_marrow",
+  "difficulty": 3,
+  "kind": "procedural",
+  "stem": "A marrow differential contains 450 granulocytic cells, 150 nucleated erythroid cells, and 200 other nucleated cells. What myeloid-to-erythroid (M:E) ratio should be reported?",
+  "image": null,
+  "choices": [
+   "1:3",
+   "4:1",
+   "5:1",
+   "3:1"
+  ],
+  "answer": 3,
+  "explanation": "Divide granulocytic cells by nucleated erythroid cells: 450/150 = 3:1. Lymphocytes, plasma cells, and other nonparticipating lineages do not enter this ratio."
+ },
+ {
+  "id": "phys-0025",
+  "topic": "phys",
+  "subtopic": "bone_marrow",
+  "difficulty": 2,
+  "kind": "procedural",
+  "stem": "Which site is generally preferred for an adult bone marrow aspirate and biopsy?",
+  "image": null,
+  "choices": [
+   "Posterior iliac crest",
+   "Sternum only",
+   "Tibia",
+   "Vertebral spinous process"
+  ],
+  "answer": 0,
+  "explanation": "The posterior iliac crest is safe and yields adequate marrow. The sternum is used for aspirate only because biopsy there risks injury."
+ },
+ {
+  "id": "phys-0026",
+  "topic": "phys",
+  "subtopic": "bone_marrow",
+  "difficulty": 3,
+  "kind": "procedural",
+  "stem": "A fresh first-pull bone marrow aspirate is received for morphology. Which preparation practice best preserves cellular detail?",
+  "image": null,
+  "choices": [
+   "Allow the aspirate to clot for one hour before smearing",
+   "Make smears immediately from the unanticoagulated first draw",
+   "Dilute the aspirate with saline to improve spreading",
+   "Refrigerate the aspirate overnight before smearing"
+  ],
+  "answer": 1,
+  "explanation": "Marrow clots quickly, so smears are made immediately or from EDTA specimens soon after. Delay or dilution distorts cell morphology."
+ },
+ {
+  "id": "phys-0027",
+  "topic": "phys",
+  "subtopic": "body_fluids",
+  "difficulty": 1,
+  "kind": "theoretical",
+  "stem": "Which cells normally line the pleural, peritoneal, and pericardial cavities and may appear in their effusions?",
+  "image": null,
+  "choices": [
+   "Macrophages",
+   "Neutrophils",
+   "Mesothelial cells",
+   "Lymphocytes"
+  ],
+  "answer": 2,
+  "explanation": "Mesothelial cells line serous cavities and can shed into effusion fluid, especially when irritated. Macrophages may also occur in these fluids but do not form the serosal lining."
+ },
+ {
+  "id": "phys-0028",
+  "topic": "phys",
+  "subtopic": "body_fluids",
+  "difficulty": 2,
+  "kind": "procedural",
+  "stem": "A four-tube lumbar puncture collection follows a laboratory protocol assigning tube 3 to hematology and tube 4 to repeat studies. Which specimen should be used for the routine CSF cell count?",
+  "image": null,
+  "choices": [
+   "Tube 1, reserved for routine chemistry",
+   "Tube 2, reserved for microbiology",
+   "A pooled aliquot from all four tubes",
+   "Tube 3, designated for hematology"
+  ],
+  "answer": 3,
+  "explanation": "Use the tube assigned to hematology by the laboratory's collection protocol; in this protocol it is tube 3. Later tubes usually have less traumatic blood contamination, but tube allocation varies, so the last tube is not universally the routine count specimen."
+ },
+ {
+  "id": "phys-0029",
+  "topic": "phys",
+  "subtopic": "body_fluids",
+  "difficulty": 2,
+  "kind": "procedural",
+  "stem": "Which specimen handling is required for an accurate CSF cell count?",
+  "image": null,
+  "choices": [
+   "Count within 1 hour of collection, since cells lyse quickly",
+   "Freeze the sample until the next day",
+   "Count after 24 hours at room temperature",
+   "Add EDTA and hold for several hours"
+  ],
+  "answer": 0,
+  "explanation": "Leukocytes in CSF deteriorate rapidly, so delay lowers counts. Specimens should be counted promptly and not frozen."
+ },
+ {
+  "id": "phys-0030",
+  "topic": "phys",
+  "subtopic": "body_fluids",
+  "difficulty": 3,
+  "kind": "procedural",
+  "stem": "Pleural fluid protein is 3.6 g/dL and simultaneous serum protein is 6.0 g/dL. Using the protein component of Light's criteria, how should the laboratory interpret this effusion?",
+  "image": null,
+  "choices": [
+   "Transudate, because the protein ratio exceeds 0.5",
+   "Exudate, because the protein ratio exceeds 0.5",
+   "Transudate, because the fluid protein is below serum",
+   "Unclassifiable unless all three criteria are positive"
+  ],
+  "answer": 1,
+  "explanation": "The fluid-to-serum protein ratio is 3.6/6.0 = 0.60, exceeding the exudate cutoff of 0.5. Only one positive Light's criterion is needed to classify an effusion as exudative; the fluid protein need not exceed serum protein."
+ }
+]

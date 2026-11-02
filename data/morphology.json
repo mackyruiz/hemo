@@ -1,0 +1,1503 @@
+{
+  "normal_rbc": {
+    "name": "Normal RBC (normocyte)",
+    "category": "rbc",
+    "features": "Biconcave disc about 7–8 µm in diameter with central pallor occupying roughly one third of the cell.",
+    "associations": [
+      "Normal peripheral blood",
+      "Normocytic, normochromic indices"
+    ],
+    "confusers": [
+      "spherocyte",
+      "target_cell",
+      "stomatocyte",
+      "microcytic_hypochromic"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.33
+    }
+  },
+  "microcytic_hypochromic": {
+    "name": "Microcytic hypochromic RBC",
+    "category": "rbc",
+    "features": "Small red cells with an enlarged area of central pallor (more than one third of the diameter) reflecting low hemoglobin content.",
+    "associations": [
+      "Iron deficiency anemia",
+      "Thalassemia",
+      "Anemia of chronic disease (advanced)",
+      "Sideroblastic anemia"
+    ],
+    "confusers": [
+      "normal_rbc",
+      "target_cell",
+      "spherocyte",
+      "elliptocyte"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 0.75,
+      "color": "#E0A0A0",
+      "pallor": 0.6
+    }
+  },
+  "macrocyte": {
+    "name": "Macrocyte",
+    "category": "rbc",
+    "features": "Red cell larger than normal (MCV above 100 fL); round macrocytes occur in liver disease, while macro-ovalocytes suggest megaloblastic change.",
+    "associations": [
+      "Megaloblastic anemia (B12 or folate deficiency)",
+      "Liver disease",
+      "Alcoholism",
+      "Myelodysplastic syndrome"
+    ],
+    "confusers": [
+      "polychromasia",
+      "normal_rbc",
+      "target_cell",
+      "stomatocyte"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.35,
+      "color": "#D98C8C",
+      "pallor": 0.3
+    }
+  },
+  "polychromasia": {
+    "name": "Polychromatic RBC (polychromasia)",
+    "category": "rbc",
+    "features": "Larger, bluish-gray red cells on Wright-Giemsa stain, often with reduced central pallor. The blue tint reflects residual ribosomal RNA in young red cells.",
+    "associations": [
+      "Hemolytic anemia",
+      "Acute blood loss with marrow response",
+      "Recovery after treatment of nutritional anemia",
+      "Elevated reticulocyte count"
+    ],
+    "confusers": [
+      "macrocyte",
+      "retic_nmb",
+      "basophilic_stippling",
+      "normal_rbc"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.15,
+      "color": "#B79AB4",
+      "pallor": 0.0
+    }
+  },
+  "spherocyte": {
+    "name": "Spherocyte",
+    "category": "rbc",
+    "features": "Small, dense, round red cell with no central pallor because of a reduced surface-area-to-volume ratio; MCHC is often increased.",
+    "associations": [
+      "Hereditary spherocytosis",
+      "Warm autoimmune hemolytic anemia",
+      "ABO hemolytic disease of the newborn",
+      "Burns"
+    ],
+    "confusers": [
+      "normal_rbc",
+      "microcytic_hypochromic",
+      "echinocyte",
+      "stomatocyte"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "sphere",
+      "size": 0.82,
+      "color": "#C97A7A",
+      "pallor": 0.0
+    }
+  },
+  "target_cell": {
+    "name": "Target cell (codocyte)",
+    "category": "rbc",
+    "features": "Red cell with a dense central dot surrounded by a pale ring and a darker peripheral rim, giving a bull's-eye appearance.",
+    "associations": [
+      "Hemoglobin C disease",
+      "Thalassemia",
+      "Liver disease",
+      "Post-splenectomy"
+    ],
+    "confusers": [
+      "stomatocyte",
+      "spherocyte",
+      "microcytic_hypochromic",
+      "normal_rbc"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "target",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.5
+    }
+  },
+  "schistocyte": {
+    "name": "Schistocyte",
+    "category": "rbc",
+    "features": "Fragmented red cell with sharp angles or points, such as helmet, triangle or crescent shapes, and usually no central pallor.",
+    "associations": [
+      "Microangiopathic hemolytic anemia (TTP, HUS)",
+      "Disseminated intravascular coagulation",
+      "Mechanical heart valve hemolysis",
+      "Burns"
+    ],
+    "confusers": [
+      "bite_cell",
+      "spherocyte",
+      "acanthocyte",
+      "teardrop_cell"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "fragment",
+      "size": 0.6,
+      "color": "#CC7B7B",
+      "pallor": 0.0
+    }
+  },
+  "sickle_cell": {
+    "name": "Sickle cell (drepanocyte)",
+    "category": "rbc",
+    "features": "Elongated, crescent-shaped red cell with pointed ends and no central pallor, produced by polymerization of deoxygenated hemoglobin S.",
+    "associations": [
+      "Sickle cell anemia (Hb SS)",
+      "Hb SC disease",
+      "Sickle-beta thalassemia",
+      "Vaso-occlusive crisis"
+    ],
+    "confusers": [
+      "elliptocyte",
+      "schistocyte",
+      "teardrop_cell",
+      "hb_c_crystal"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "sickle",
+      "size": 1.15,
+      "color": "#C97A82",
+      "pallor": 0.0
+    }
+  },
+  "elliptocyte": {
+    "name": "Elliptocyte (ovalocyte)",
+    "category": "rbc",
+    "features": "Oval to elongated, pencil- or cigar-shaped red cell, usually with a narrow area of central pallor. Marked elliptocytosis suggests a hereditary membrane disorder, while smaller numbers occur in acquired anemias.",
+    "associations": [
+      "Hereditary elliptocytosis",
+      "Iron deficiency anemia",
+      "Megaloblastic anemia (B12 or folate deficiency)",
+      "Myelofibrosis"
+    ],
+    "confusers": [
+      "sickle_cell",
+      "teardrop_cell",
+      "stomatocyte",
+      "microcytic_hypochromic"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "ellipse",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.25
+    }
+  },
+  "teardrop_cell": {
+    "name": "Teardrop cell (dacrocyte)",
+    "category": "rbc",
+    "features": "Red cell with a single elongated or pointed tail, resembling a teardrop or pear.",
+    "associations": [
+      "Myelofibrosis",
+      "Thalassemia",
+      "Marrow infiltration (myelophthisis)",
+      "Megaloblastic anemia (B12 or folate deficiency)"
+    ],
+    "confusers": [
+      "elliptocyte",
+      "sickle_cell",
+      "schistocyte",
+      "acanthocyte"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "teardrop",
+      "size": 0.95,
+      "color": "#D98C8C",
+      "pallor": 0.2
+    }
+  },
+  "acanthocyte": {
+    "name": "Acanthocyte (spur cell)",
+    "category": "rbc",
+    "features": "Dense red cell with a few (3–12) irregularly spaced, unevenly sized spicules with knob-like tips and no central pallor. Spur cells may accompany severe liver disease.",
+    "associations": [
+      "Abetalipoproteinemia",
+      "Liver disease",
+      "Post-splenectomy",
+      "McLeod phenotype"
+    ],
+    "confusers": [
+      "echinocyte",
+      "spherocyte",
+      "schistocyte",
+      "bite_cell"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "acanth",
+      "size": 0.95,
+      "color": "#CC7B7B",
+      "pallor": 0.0
+    }
+  },
+  "echinocyte": {
+    "name": "Echinocyte (burr cell)",
+    "category": "rbc",
+    "features": "Red cell with 10–30 short, evenly spaced, uniform projections over the entire surface; central pallor is usually retained.",
+    "associations": [
+      "Uremia",
+      "Pyruvate kinase deficiency",
+      "Slow drying or old EDTA specimen (artifact)",
+      "Hypophosphatemia"
+    ],
+    "confusers": [
+      "acanthocyte",
+      "spherocyte",
+      "target_cell",
+      "normal_rbc"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "echino",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.25
+    }
+  },
+  "stomatocyte": {
+    "name": "Stomatocyte",
+    "category": "rbc",
+    "features": "Red cell whose central pallor is a slit-like, mouth-shaped area instead of a round zone.",
+    "associations": [
+      "Hereditary stomatocytosis",
+      "Alcoholism",
+      "Liver disease",
+      "Rh null disease"
+    ],
+    "confusers": [
+      "target_cell",
+      "normal_rbc",
+      "spherocyte",
+      "elliptocyte"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "stomato",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.3
+    }
+  },
+  "bite_cell": {
+    "name": "Bite cell (degmacyte)",
+    "category": "rbc",
+    "features": "Red cell with one or more semicircular bites removed from the edge, where the spleen has pitted out Heinz bodies.",
+    "associations": [
+      "G6PD deficiency",
+      "Unstable hemoglobin disease",
+      "Oxidant drug or chemical exposure",
+      "Heinz body hemolytic anemia"
+    ],
+    "confusers": [
+      "schistocyte",
+      "acanthocyte",
+      "spherocyte",
+      "heinz_body"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "bite",
+      "size": 0.95,
+      "color": "#D98C8C",
+      "pallor": 0.25
+    }
+  },
+  "rouleaux": {
+    "name": "Rouleaux",
+    "category": "rbc",
+    "features": "Red cells stacked like a pile of coins because increased plasma proteins reduce their mutual repulsion. Assess the monolayer: stacking in thick smear areas alone may be artifactual.",
+    "associations": [
+      "Plasma cell myeloma",
+      "Waldenström macroglobulinemia",
+      "Chronic inflammation (high fibrinogen)",
+      "Increased ESR"
+    ],
+    "confusers": [
+      "agglutination",
+      "platelet_clump",
+      "normal_rbc",
+      "plasma_cell"
+    ],
+    "art": {
+      "kind": "field",
+      "arrangement": "rouleaux"
+    }
+  },
+  "agglutination": {
+    "name": "RBC agglutination",
+    "category": "rbc",
+    "features": "Irregular, grape-like clumps of red cells bound by antibody; unlike rouleaux, the clumps are randomly arranged and not stacked.",
+    "associations": [
+      "Cold agglutinin disease",
+      "Mycoplasma pneumoniae infection",
+      "Falsely high MCV with low RBC count",
+      "Cold-reactive IgM antibodies"
+    ],
+    "confusers": [
+      "rouleaux",
+      "platelet_clump",
+      "spherocyte",
+      "normal_rbc"
+    ],
+    "art": {
+      "kind": "field",
+      "arrangement": "agglutinate"
+    }
+  },
+  "hb_c_crystal": {
+    "name": "Hemoglobin C crystal",
+    "category": "rbc",
+    "features": "Dense, rod- or bar-shaped crystalline mass of hemoglobin C that fills much of an otherwise nearly empty red cell.",
+    "associations": [
+      "Hemoglobin C disease",
+      "Hb SC disease",
+      "Target cells on the same smear",
+      "Post-splenectomy"
+    ],
+    "confusers": [
+      "sickle_cell",
+      "target_cell",
+      "elliptocyte",
+      "spherocyte"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "crystal",
+      "size": 0.95,
+      "color": "#C97A82",
+      "pallor": 0.0
+    }
+  },
+  "nrbc": {
+    "name": "Nucleated RBC (metarubricyte)",
+    "category": "rbc",
+    "features": "Late erythroid precursor with a small, round, pyknotic nucleus and pink-gray cytoplasm, seen with severe erythropoietic stress or extramedullary hematopoiesis. Circulating nRBCs may require WBC correction if the counting method includes them as leukocytes.",
+    "associations": [
+      "Hemolytic anemia",
+      "Marrow infiltration (myelophthisis)",
+      "Hypoxia or newborn period",
+      "Post-splenectomy"
+    ],
+    "confusers": [
+      "lymphocyte",
+      "howell_jolly",
+      "normal_rbc",
+      "basophilic_stippling"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.0,
+      "color": "#E3A0A0",
+      "pallor": 0.0,
+      "nucleus": {
+        "shape": "round",
+        "color": "#2E1F4F",
+        "nc": 0.45,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      }
+    }
+  },
+  "howell_jolly": {
+    "name": "Howell-Jolly body",
+    "category": "inclusion",
+    "features": "Single, small, round, dense purple nuclear remnant (DNA) within a red cell, usually off-center. Common with asplenia or hyposplenism, including after splenectomy.",
+    "associations": [
+      "Post-splenectomy",
+      "Megaloblastic anemia (B12 or folate deficiency)",
+      "Hyposplenism",
+      "Hemolytic anemia"
+    ],
+    "confusers": [
+      "pappenheimer",
+      "basophilic_stippling",
+      "malaria_falciparum_ring",
+      "cabot_ring"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.33,
+      "inclusions": [
+        {
+          "type": "howell_jolly",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "basophilic_stippling": {
+    "name": "Basophilic stippling",
+    "category": "inclusion",
+    "features": "Multiple fine to coarse blue-purple granules dispersed through the red cell, representing aggregated ribosomes (RNA).",
+    "associations": [
+      "Lead poisoning",
+      "Thalassemia",
+      "Megaloblastic anemia (B12 or folate deficiency)",
+      "Myelodysplastic syndrome"
+    ],
+    "confusers": [
+      "pappenheimer",
+      "howell_jolly",
+      "polychromasia",
+      "cabot_ring"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.33,
+      "inclusions": [
+        {
+          "type": "stipple",
+          "count": 25
+        }
+      ]
+    }
+  },
+  "pappenheimer": {
+    "name": "Pappenheimer bodies (siderotic granules)",
+    "category": "inclusion",
+    "features": "Small clustered iron-containing granules near the cell periphery that stain with Wright-Giemsa and positive with Prussian blue.",
+    "associations": [
+      "Sideroblastic anemia",
+      "Post-splenectomy",
+      "Hemolytic anemia",
+      "Lead poisoning"
+    ],
+    "confusers": [
+      "basophilic_stippling",
+      "howell_jolly",
+      "malaria_falciparum_ring",
+      "cabot_ring"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.33,
+      "inclusions": [
+        {
+          "type": "pappenheimer",
+          "count": 4
+        }
+      ]
+    }
+  },
+  "heinz_body": {
+    "name": "Heinz body",
+    "category": "inclusion",
+    "features": "Round, refractile precipitate of denatured hemoglobin attached to the membrane; visible only with supravital stains such as crystal violet or methyl violet.",
+    "associations": [
+      "G6PD deficiency",
+      "Unstable hemoglobin disease",
+      "Oxidant drug or chemical exposure",
+      "Heinz body hemolytic anemia"
+    ],
+    "confusers": [
+      "howell_jolly",
+      "retic_nmb",
+      "pappenheimer",
+      "bite_cell"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.0,
+      "color": "#BFD8D0",
+      "pallor": 0.3,
+      "inclusions": [
+        {
+          "type": "heinz",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "cabot_ring": {
+    "name": "Cabot ring",
+    "category": "inclusion",
+    "features": "Thin, purple, ring- or figure-eight-shaped filament inside a red cell, thought to be a mitotic spindle remnant.",
+    "associations": [
+      "Megaloblastic anemia (B12 or folate deficiency)",
+      "Lead poisoning",
+      "Myelodysplastic syndrome",
+      "Severe dyserythropoiesis"
+    ],
+    "confusers": [
+      "howell_jolly",
+      "basophilic_stippling",
+      "pappenheimer",
+      "malaria_falciparum_ring"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.33,
+      "inclusions": [
+        {
+          "type": "cabot",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "malaria_falciparum_ring": {
+    "name": "Plasmodium falciparum ring form",
+    "category": "organism",
+    "features": "Delicate small rings with one or two chromatin dots, often multiple per cell and located at the red cell edge (applique forms), in cells of normal size.",
+    "associations": [
+      "Falciparum malaria",
+      "Travel to malaria-endemic areas",
+      "Hemolysis with fever and thrombocytopenia",
+      "Severe malaria (high parasitemia)"
+    ],
+    "confusers": [
+      "babesia",
+      "pappenheimer",
+      "howell_jolly",
+      "cabot_ring"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.33,
+      "inclusions": [
+        {
+          "type": "ring_form",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "babesia": {
+    "name": "Babesia",
+    "category": "organism",
+    "features": "Small pleomorphic intraerythrocytic rings without malarial pigment; a Maltese-cross tetrad is characteristic but uncommon. Extracellular forms may also be present.",
+    "associations": [
+      "Babesiosis (Babesia microti, tick-borne)",
+      "Northeastern or upper Midwestern U.S. exposure",
+      "Post-splenectomy",
+      "Hemolytic anemia"
+    ],
+    "confusers": [
+      "malaria_falciparum_ring",
+      "pappenheimer",
+      "howell_jolly",
+      "cabot_ring"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.0,
+      "color": "#D98C8C",
+      "pallor": 0.33,
+      "inclusions": [
+        {
+          "type": "ring_form",
+          "count": 1
+        },
+        {
+          "type": "babesia_tetrad",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "neutrophil_seg": {
+    "name": "Segmented neutrophil",
+    "category": "wbc",
+    "features": "10–15 µm cell with a nucleus of 2–5 lobes joined by thin filaments, coarse chromatin and pale pink cytoplasm with fine neutral granules.",
+    "associations": [
+      "Normal peripheral blood",
+      "Bacterial infection",
+      "Physiologic or stress leukocytosis",
+      "Corticosteroid therapy"
+    ],
+    "confusers": [
+      "neutrophil_band",
+      "hypersegmented_neutrophil",
+      "monocyte",
+      "eosinophil"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.5,
+      "cytoplasm": "#EBD9E0",
+      "nucleus": {
+        "shape": "segmented",
+        "lobes": 3,
+        "color": "#5B3A7A",
+        "nc": 0.4,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#D9B3C8",
+        "density": 0.25,
+        "size": "fine",
+        "over_nucleus": false
+      },
+      "features": []
+    }
+  },
+  "neutrophil_band": {
+    "name": "Band neutrophil",
+    "category": "wbc",
+    "features": "Neutrophil with an unsegmented, curved or sausage-shaped nucleus of uniform thickness; the band is thick enough that no filament is visible. Increased bands accompany a left shift in bacterial infection.",
+    "associations": [
+      "Bacterial infection",
+      "Inflammation or tissue necrosis",
+      "Normal peripheral blood",
+      "Leukemoid reaction"
+    ],
+    "confusers": [
+      "neutrophil_seg",
+      "metamyelocyte",
+      "monocyte",
+      "myelocyte"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.5,
+      "cytoplasm": "#EBD9E0",
+      "nucleus": {
+        "shape": "band",
+        "color": "#5B3A7A",
+        "nc": 0.45,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#D9B3C8",
+        "density": 0.25,
+        "size": "fine",
+        "over_nucleus": false
+      },
+      "features": []
+    }
+  },
+  "lymphocyte": {
+    "name": "Small lymphocyte",
+    "category": "wbc",
+    "features": "Cell slightly larger than an RBC with a round, dense nucleus of clumped chromatin and a thin rim of pale blue cytoplasm; N:C ratio is high.",
+    "associations": [
+      "Normal peripheral blood",
+      "Viral infection",
+      "Chronic lymphocytic leukemia",
+      "Pertussis"
+    ],
+    "confusers": [
+      "nrbc",
+      "reactive_lymph",
+      "lymphoblast",
+      "plasma_cell"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.15,
+      "cytoplasm": "#BCD3E6",
+      "nucleus": {
+        "shape": "round",
+        "color": "#5B3A7A",
+        "nc": 0.8,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": null,
+      "features": []
+    }
+  },
+  "monocyte": {
+    "name": "Monocyte",
+    "category": "wbc",
+    "features": "Largest normal leukocyte (12–20 µm) with a folded, indented or kidney-shaped nucleus with lacy chromatin and abundant gray-blue ground-glass cytoplasm, often with vacuoles.",
+    "associations": [
+      "Normal peripheral blood",
+      "Chronic infection (tuberculosis, endocarditis)",
+      "Recovery phase of infection",
+      "Chronic myelomonocytic leukemia"
+    ],
+    "confusers": [
+      "neutrophil_band",
+      "reactive_lymph",
+      "metamyelocyte",
+      "myeloblast"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.7,
+      "cytoplasm": "#C5CCDB",
+      "nucleus": {
+        "shape": "folded",
+        "color": "#7A6A9A",
+        "nc": 0.55,
+        "chromatin": "fine",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#C9A5C0",
+        "density": 0.1,
+        "size": "fine",
+        "over_nucleus": false
+      },
+      "features": [
+        "vacuoles"
+      ]
+    }
+  },
+  "eosinophil": {
+    "name": "Eosinophil",
+    "category": "wbc",
+    "features": "Neutrophil-sized cell with a bilobed nucleus and abundant large, uniform, refractile orange-red granules that fill the cytoplasm.",
+    "associations": [
+      "Allergic disorders",
+      "Parasitic infection",
+      "Chronic eosinophilic leukemia",
+      "Drug reaction"
+    ],
+    "confusers": [
+      "basophil",
+      "neutrophil_seg",
+      "toxic_granulation",
+      "neutrophil_band"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.5,
+      "cytoplasm": "#EBD9E0",
+      "nucleus": {
+        "shape": "bilobed",
+        "lobes": 2,
+        "color": "#5B3A7A",
+        "nc": 0.35,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#E4703A",
+        "density": 0.85,
+        "size": "coarse",
+        "over_nucleus": false
+      },
+      "features": []
+    }
+  },
+  "basophil": {
+    "name": "Basophil",
+    "category": "wbc",
+    "features": "Cell with coarse dark blue-purple granules of varying size that overlie and obscure the nucleus.",
+    "associations": [
+      "Chronic myeloid leukemia",
+      "Myeloproliferative neoplasms",
+      "Hypothyroidism",
+      "Allergic disorders"
+    ],
+    "confusers": [
+      "eosinophil",
+      "toxic_granulation",
+      "neutrophil_seg",
+      "myelocyte"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.4,
+      "cytoplasm": "#E5D3E0",
+      "nucleus": {
+        "shape": "segmented",
+        "lobes": 2,
+        "color": "#5B3A7A",
+        "nc": 0.35,
+        "chromatin": "coarse",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#2E1A5E",
+        "density": 0.8,
+        "size": "coarse",
+        "over_nucleus": true
+      },
+      "features": []
+    }
+  },
+  "reactive_lymph": {
+    "name": "Reactive (atypical) lymphocyte",
+    "category": "wbc",
+    "features": "Large lymphocyte with abundant blue cytoplasm that is darker at the edge and indents around neighboring red cells (skirt-like); the nucleus is oval to irregular with less condensed chromatin.",
+    "associations": [
+      "Infectious mononucleosis (EBV)",
+      "Cytomegalovirus infection",
+      "Viral hepatitis",
+      "Drug reaction"
+    ],
+    "confusers": [
+      "lymphocyte",
+      "monocyte",
+      "plasma_cell",
+      "lymphoblast"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.7,
+      "cytoplasm": "#9FB5D6",
+      "nucleus": {
+        "shape": "oval",
+        "color": "#6A4F8A",
+        "nc": 0.5,
+        "chromatin": "coarse",
+        "nucleoli": 0
+      },
+      "granules": null,
+      "features": [
+        "skirt_basophilia"
+      ]
+    }
+  },
+  "myeloblast": {
+    "name": "Myeloblast",
+    "category": "wbc",
+    "features": "Large cell with a high N:C ratio, round to oval nucleus with fine open chromatin and 2–5 distinct nucleoli, and scant agranular to sparsely granular blue cytoplasm. Increased blasts may indicate acute leukemia, myelodysplasia or blast-phase transformation of chronic myeloid leukemia.",
+    "associations": [
+      "Acute myeloid leukemia",
+      "Chronic myeloid leukemia",
+      "Myelodysplastic syndrome",
+      "Normal bone marrow (small minority of nucleated cells)"
+    ],
+    "confusers": [
+      "lymphoblast",
+      "promyelocyte",
+      "monocyte",
+      "reactive_lymph"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.5,
+      "cytoplasm": "#9FC0DE",
+      "nucleus": {
+        "shape": "round",
+        "color": "#7C5C9E",
+        "nc": 0.8,
+        "chromatin": "fine",
+        "nucleoli": 3
+      },
+      "granules": null,
+      "features": []
+    }
+  },
+  "lymphoblast": {
+    "name": "Lymphoblast",
+    "category": "wbc",
+    "features": "Small to large blast with a high N:C ratio, fine chromatin, one or more nucleoli and scant blue cytoplasm, usually without granules. Morphology alone cannot reliably establish lymphoid lineage; flow cytometry is needed.",
+    "associations": [
+      "B-lymphoblastic leukemia/lymphoma",
+      "T-lymphoblastic leukemia/lymphoma",
+      "Mediastinal mass in T-lymphoblastic disease",
+      "Cytopenias from marrow replacement"
+    ],
+    "confusers": [
+      "myeloblast",
+      "lymphocyte",
+      "reactive_lymph",
+      "promyelocyte"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.25,
+      "cytoplasm": "#A9C4E4",
+      "nucleus": {
+        "shape": "round",
+        "color": "#6F4F95",
+        "nc": 0.85,
+        "chromatin": "fine",
+        "nucleoli": 1
+      },
+      "granules": null,
+      "features": []
+    }
+  },
+  "promyelocyte": {
+    "name": "Promyelocyte",
+    "category": "wbc",
+    "features": "Large cell with abundant primary (azurophilic) granules, a round to oval nucleus with fine chromatin and nucleoli, and often a pale Golgi zone. Abnormal promyelocytes may contain bundles of Auer rods in acute promyelocytic leukemia, which carries a high DIC risk.",
+    "associations": [
+      "Acute promyelocytic leukemia",
+      "Chronic myeloid leukemia",
+      "Marrow recovery",
+      "Left shift"
+    ],
+    "confusers": [
+      "myeloblast",
+      "myelocyte",
+      "basophil",
+      "monocyte"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.7,
+      "cytoplasm": "#A7BDDB",
+      "nucleus": {
+        "shape": "round",
+        "color": "#6E4C93",
+        "nc": 0.6,
+        "chromatin": "fine",
+        "nucleoli": 2
+      },
+      "granules": {
+        "color": "#A04A8A",
+        "density": 0.8,
+        "size": "coarse",
+        "over_nucleus": true
+      },
+      "features": []
+    }
+  },
+  "myelocyte": {
+    "name": "Myelocyte",
+    "category": "wbc",
+    "features": "Round to oval, often eccentric nucleus with increasingly condensed chromatin, no visible nucleoli and a pale Golgi area. Specific secondary granules identify granulocytic lineage.",
+    "associations": [
+      "Chronic myeloid leukemia",
+      "Leukemoid reaction",
+      "Marrow recovery",
+      "Myeloproliferative neoplasms"
+    ],
+    "confusers": [
+      "metamyelocyte",
+      "promyelocyte",
+      "neutrophil_band",
+      "basophil"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.5,
+      "cytoplasm": "#E3CFE0",
+      "nucleus": {
+        "shape": "oval",
+        "color": "#664686",
+        "nc": 0.55,
+        "chromatin": "coarse",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#D3A8C4",
+        "density": 0.5,
+        "size": "fine",
+        "over_nucleus": false
+      },
+      "features": [
+        "perinuclear_halo"
+      ]
+    }
+  },
+  "metamyelocyte": {
+    "name": "Metamyelocyte",
+    "category": "wbc",
+    "features": "Indented or kidney-shaped nucleus with clumped chromatin and the indentation less than half the nuclear diameter, with specific granules in pink cytoplasm.",
+    "associations": [
+      "Chronic myeloid leukemia",
+      "Leukoerythroblastic reaction",
+      "Bacterial infection",
+      "Myelofibrosis"
+    ],
+    "confusers": [
+      "neutrophil_band",
+      "myelocyte",
+      "monocyte",
+      "neutrophil_seg"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.5,
+      "cytoplasm": "#EBD9E0",
+      "nucleus": {
+        "shape": "kidney",
+        "color": "#5B3A7A",
+        "nc": 0.5,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#D9B3C8",
+        "density": 0.35,
+        "size": "fine",
+        "over_nucleus": false
+      },
+      "features": []
+    }
+  },
+  "plasma_cell": {
+    "name": "Plasma cell",
+    "category": "wbc",
+    "features": "Oval cell with an eccentric round nucleus and clock-face (cartwheel) chromatin, deeply basophilic cytoplasm and a pale perinuclear Golgi halo.",
+    "associations": [
+      "Plasma cell myeloma",
+      "Reactive plasmacytosis",
+      "Plasma cell leukemia",
+      "Rouleaux on the same smear"
+    ],
+    "confusers": [
+      "lymphocyte",
+      "reactive_lymph",
+      "lymphoblast",
+      "monocyte"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.45,
+      "cytoplasm": "#4D5FB0",
+      "nucleus": {
+        "shape": "eccentric",
+        "color": "#4A2F72",
+        "nc": 0.4,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": null,
+      "features": [
+        "perinuclear_halo"
+      ]
+    }
+  },
+  "hypersegmented_neutrophil": {
+    "name": "Hypersegmented neutrophil",
+    "category": "wbc",
+    "features": "Neutrophil with six or more nuclear lobes; an increased proportion of five-lobed neutrophils also suggests hypersegmentation. Associated macro-ovalocytes support megaloblastic change.",
+    "associations": [
+      "Megaloblastic anemia (B12 or folate deficiency)",
+      "Myelodysplastic syndrome",
+      "Uremia",
+      "Hydroxyurea or antimetabolite therapy"
+    ],
+    "confusers": [
+      "neutrophil_seg",
+      "pelger_huet",
+      "eosinophil",
+      "monocyte"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.8,
+      "cytoplasm": "#EBD9E0",
+      "nucleus": {
+        "shape": "segmented",
+        "lobes": 6,
+        "color": "#5B3A7A",
+        "nc": 0.4,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#D9B3C8",
+        "density": 0.25,
+        "size": "fine",
+        "over_nucleus": false
+      },
+      "features": []
+    }
+  },
+  "auer_rod": {
+    "name": "Auer rod",
+    "category": "wbc",
+    "features": "Needle- or rod-shaped, red-purple crystalline structure of fused primary granules in the cytoplasm of a myeloid blast or promyelocyte.",
+    "associations": [
+      "Acute myeloid leukemia",
+      "Acute promyelocytic leukemia",
+      "Myelodysplastic syndrome",
+      "Myeloperoxidase-positive blasts"
+    ],
+    "confusers": [
+      "dohle_body",
+      "toxic_granulation",
+      "basophilic_stippling",
+      "howell_jolly"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.6,
+      "cytoplasm": "#9FC0DE",
+      "nucleus": {
+        "shape": "round",
+        "color": "#7C5C9E",
+        "nc": 0.7,
+        "chromatin": "fine",
+        "nucleoli": 2
+      },
+      "granules": null,
+      "features": [
+        "auer_rod"
+      ]
+    }
+  },
+  "smudge_cell": {
+    "name": "Smudge cell (basket cell)",
+    "category": "wbc",
+    "features": "Ruptured lymphocyte seen as a smeared, structureless nuclear mass with no cytoplasm, produced by smear preparation.",
+    "associations": [
+      "Chronic lymphocytic leukemia",
+      "Fragile leukocytes disrupted during smear preparation",
+      "Other leukemias and reactive lymphocytoses"
+    ],
+    "confusers": [
+      "lymphocyte",
+      "hairy_cell",
+      "plasma_cell",
+      "reactive_lymph"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.3,
+      "cytoplasm": "#C9B6D6",
+      "nucleus": {
+        "shape": "round",
+        "color": "#8A72A8",
+        "nc": 0.95,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": null,
+      "features": [
+        "smudge"
+      ]
+    }
+  },
+  "hairy_cell": {
+    "name": "Hairy cell",
+    "category": "wbc",
+    "features": "Mature B lymphocyte with an oval or bean-shaped nucleus, abundant pale blue cytoplasm and fine hair-like cytoplasmic projections around the edge.",
+    "associations": [
+      "Hairy cell leukemia",
+      "Pancytopenia with splenomegaly",
+      "BRAF V600E mutation",
+      "Positive TRAP stain historically"
+    ],
+    "confusers": [
+      "lymphocyte",
+      "reactive_lymph",
+      "monocyte",
+      "smudge_cell"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.5,
+      "cytoplasm": "#C7D4E6",
+      "nucleus": {
+        "shape": "oval",
+        "color": "#7A6A9A",
+        "nc": 0.6,
+        "chromatin": "fine",
+        "nucleoli": 0
+      },
+      "granules": null,
+      "features": [
+        "hairy_projections"
+      ]
+    }
+  },
+  "pelger_huet": {
+    "name": "Pelger-Huët cell",
+    "category": "wbc",
+    "features": "Hyposegmented neutrophil with a bilobed, spectacle-like (pince-nez) or round nucleus and very coarse, clumped chromatin. Inherited Pelger-Huët anomaly is benign; acquired pseudo-Pelger-Huët cells may be dysplastic.",
+    "associations": [
+      "Pelger-Huët anomaly (inherited, benign)",
+      "Myelodysplastic syndrome",
+      "Acute myeloid leukemia",
+      "Drug effects (e.g., mycophenolate)"
+    ],
+    "confusers": [
+      "neutrophil_band",
+      "eosinophil",
+      "hypersegmented_neutrophil",
+      "metamyelocyte"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.5,
+      "cytoplasm": "#EBD9E0",
+      "nucleus": {
+        "shape": "bilobed",
+        "lobes": 2,
+        "color": "#5B3A7A",
+        "nc": 0.35,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#D9B3C8",
+        "density": 0.25,
+        "size": "fine",
+        "over_nucleus": false
+      },
+      "features": []
+    }
+  },
+  "toxic_granulation": {
+    "name": "Toxic granulation",
+    "category": "wbc",
+    "features": "Neutrophil with prominent dark blue-purple or black cytoplasmic granules (retained primary granules) that are larger and coarser than normal. Toxic changes occur with inflammation and may include Döhle bodies and vacuoles.",
+    "associations": [
+      "Bacterial infection",
+      "Burns",
+      "G-CSF therapy",
+      "Often with Döhle bodies and vacuoles"
+    ],
+    "confusers": [
+      "basophil",
+      "eosinophil",
+      "neutrophil_band",
+      "dohle_body"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.5,
+      "cytoplasm": "#E3CCDC",
+      "nucleus": {
+        "shape": "segmented",
+        "lobes": 3,
+        "color": "#5B3A7A",
+        "nc": 0.4,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#5B2D6B",
+        "density": 0.7,
+        "size": "coarse",
+        "over_nucleus": false
+      },
+      "features": [
+        "toxic"
+      ]
+    }
+  },
+  "dohle_body": {
+    "name": "Döhle body",
+    "category": "wbc",
+    "features": "Small, round to oval, pale blue-gray cytoplasmic inclusion at the periphery of a neutrophil, representing retained rough endoplasmic reticulum. Döhle-like inclusions also occur with MYH9-related disease (May-Hegglin anomaly), which features giant platelets.",
+    "associations": [
+      "Bacterial infection",
+      "Burns",
+      "May-Hegglin anomaly",
+      "Pregnancy"
+    ],
+    "confusers": [
+      "toxic_granulation",
+      "auer_rod",
+      "howell_jolly",
+      "pappenheimer"
+    ],
+    "art": {
+      "kind": "wbc",
+      "size": 1.5,
+      "cytoplasm": "#EBD9E0",
+      "nucleus": {
+        "shape": "segmented",
+        "lobes": 3,
+        "color": "#5B3A7A",
+        "nc": 0.4,
+        "chromatin": "clumped",
+        "nucleoli": 0
+      },
+      "granules": {
+        "color": "#D9B3C8",
+        "density": 0.25,
+        "size": "fine",
+        "over_nucleus": false
+      },
+      "features": [
+        "dohle"
+      ]
+    }
+  },
+  "normal_platelet": {
+    "name": "Normal platelet",
+    "category": "plt",
+    "features": "Small (2–3 µm) anucleate fragment with light blue-gray cytoplasm and fine purple-red granules.",
+    "associations": [
+      "Normal peripheral blood",
+      "Primary hemostasis",
+      "Cytoplasmic fragments of megakaryocytes"
+    ],
+    "confusers": [
+      "giant_platelet",
+      "platelet_clump",
+      "howell_jolly",
+      "basophilic_stippling"
+    ],
+    "art": {
+      "kind": "platelet",
+      "size": 0.35,
+      "color": "#B7A0CF",
+      "granules": {
+        "color": "#8E4F9E",
+        "density": 0.5,
+        "size": "fine",
+        "over_nucleus": false
+      }
+    }
+  },
+  "giant_platelet": {
+    "name": "Giant platelet",
+    "category": "plt",
+    "features": "Platelet as large as or larger than a red cell, often with well-granulated cytoplasm.",
+    "associations": [
+      "Immune thrombocytopenia",
+      "Myeloproliferative neoplasms",
+      "Bernard-Soulier syndrome",
+      "May-Hegglin anomaly"
+    ],
+    "confusers": [
+      "normal_platelet",
+      "platelet_clump",
+      "lymphocyte",
+      "polychromasia"
+    ],
+    "art": {
+      "kind": "platelet",
+      "size": 1.0,
+      "color": "#A98FC6",
+      "granules": {
+        "color": "#8E4F9E",
+        "density": 0.7,
+        "size": "fine",
+        "over_nucleus": false
+      }
+    }
+  },
+  "platelet_clump": {
+    "name": "Platelet clump",
+    "category": "plt",
+    "features": "Aggregate of platelets, commonly seen at the feathered edge, which causes falsely low automated platelet counts.",
+    "associations": [
+      "EDTA-dependent pseudothrombocytopenia",
+      "Difficult collection with platelet activation",
+      "Partially clotted specimen",
+      "Falsely low automated platelet count"
+    ],
+    "confusers": [
+      "platelet_satellitism",
+      "giant_platelet",
+      "agglutination",
+      "normal_platelet"
+    ],
+    "art": {
+      "kind": "field",
+      "arrangement": "platelet_clump"
+    }
+  },
+  "platelet_satellitism": {
+    "name": "Platelet satellitism",
+    "category": "plt",
+    "features": "Platelets ringed around the surface of neutrophils (or monocytes), usually an EDTA-dependent antibody effect.",
+    "associations": [
+      "EDTA-dependent pseudothrombocytopenia",
+      "Falsely low automated platelet count",
+      "In vitro artifact",
+      "Usually normal platelet function in vivo"
+    ],
+    "confusers": [
+      "platelet_clump",
+      "giant_platelet",
+      "toxic_granulation",
+      "normal_platelet"
+    ],
+    "art": {
+      "kind": "field",
+      "arrangement": "satellitism",
+      "cell": "neutrophil"
+    }
+  },
+  "retic_nmb": {
+    "name": "Reticulocyte (new methylene blue)",
+    "category": "stain",
+    "features": "Supravital stain precipitates residual RNA of young red cells as a dark blue network or granules (two or more granules or a filament). Counts rise during recovery after iron, B12 or folate replacement and after blood loss.",
+    "associations": [
+      "Elevated reticulocyte count",
+      "Hemolytic anemia",
+      "Recovery after treatment of nutritional anemia",
+      "Acute blood loss with marrow response"
+    ],
+    "confusers": [
+      "heinz_body",
+      "polychromasia",
+      "basophilic_stippling",
+      "howell_jolly"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.1,
+      "color": "#9FC3D6",
+      "pallor": 0.2,
+      "inclusions": [
+        {
+          "type": "reticulum",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "kleihauer_betke": {
+    "name": "Kleihauer-Betke stain (fetal cell)",
+    "category": "stain",
+    "features": "Acid-elution stain in which fetal hemoglobin-containing cells stay deep pink while adult cells appear as pale ghosts.",
+    "associations": [
+      "Fetomaternal hemorrhage",
+      "Rh immune globulin dose assessment",
+      "Hereditary persistence of fetal hemoglobin",
+      "Maternal HbF elevation (potential interpretation pitfall)"
+    ],
+    "confusers": [
+      "normal_rbc",
+      "retic_nmb",
+      "heinz_body",
+      "polychromasia"
+    ],
+    "art": {
+      "kind": "rbc",
+      "shape": "disc",
+      "size": 1.0,
+      "color": "#E0507A",
+      "pallor": 0.0
+    }
+  }
+}

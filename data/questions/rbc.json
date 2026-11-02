@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "rbc-0001",
+    "topic": "rbc",
+    "subtopic": "microcytic",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "The red cells in the image are small with enlarged central pallor. Which condition is most typical?",
+    "image": "microcytic_hypochromic",
+    "choices": [
+      "Iron deficiency anemia",
+      "Vitamin B12 deficiency",
+      "Hereditary spherocytosis",
+      "Acute blood loss"
+    ],
+    "answer": 0,
+    "explanation": "Hypochromic microcytes reflect reduced hemoglobin synthesis, classically from iron deficiency. Vitamin B12 deficiency produces macrocytes instead."
+  },
+  {
+    "id": "rbc-0002",
+    "topic": "rbc",
+    "subtopic": "microcytic",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which iron study pattern is typical of iron deficiency anemia?",
+    "image": null,
+    "choices": [
+      "Elevated ferritin with low TIBC",
+      "Low ferritin with elevated TIBC",
+      "Elevated serum iron with high saturation",
+      "Normal ferritin with low serum iron"
+    ],
+    "answer": 1,
+    "explanation": "Depleted stores lower ferritin while the liver makes more transferrin, raising TIBC. High ferritin with low TIBC suggests inflammation or iron overload."
+  },
+  {
+    "id": "rbc-0003",
+    "topic": "rbc",
+    "subtopic": "microcytic",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which result best separates anemia of chronic inflammation from iron deficiency anemia?",
+    "image": null,
+    "choices": [
+      "Low serum iron with low ferritin",
+      "High serum iron with low TIBC",
+      "Low serum iron with normal or high ferritin",
+      "Low serum iron with markedly high TIBC"
+    ],
+    "answer": 2,
+    "explanation": "Inflammation (hepcidin) traps iron in stores, so ferritin stays normal or high. In iron deficiency ferritin is low and TIBC rises."
+  },
+  {
+    "id": "rbc-0004",
+    "topic": "rbc",
+    "subtopic": "microcytic",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "The red cells in the image contain small dark-blue peripheral granules that also stain with Prussian blue. These inclusions are called:",
+    "image": "pappenheimer",
+    "choices": [
+      "Howell-Jolly bodies",
+      "Heinz bodies",
+      "Cabot rings",
+      "Pappenheimer bodies"
+    ],
+    "answer": 3,
+    "explanation": "Pappenheimer bodies are iron-containing granules, confirmed by Prussian blue, and are seen in sideroblastic anemia. Howell-Jolly bodies are DNA remnants and do not contain iron."
+  },
+  {
+    "id": "rbc-0005",
+    "topic": "rbc",
+    "subtopic": "microcytic",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Which test is the best single indicator of body iron stores?",
+    "image": null,
+    "choices": [
+      "Serum ferritin",
+      "Serum haptoglobin",
+      "Reticulocyte count",
+      "Hemoglobin A2 quantitation"
+    ],
+    "answer": 0,
+    "explanation": "In the absence of inflammation, serum ferritin reflects storage iron and falls early in iron deficiency. Haptoglobin and reticulocyte count assess hemolysis and marrow output rather than iron stores."
+  },
+  {
+    "id": "rbc-0006",
+    "topic": "rbc",
+    "subtopic": "microcytic",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A patient has MCV 63 fL, RBC 6.2 ×10⁶/µL and RDW 13%. The Mentzer index (MCV/RBC) is about 10. This most strongly favors:",
+    "image": null,
+    "choices": [
+      "Iron deficiency anemia",
+      "Thalassemia trait",
+      "Anemia of chronic inflammation",
+      "Sideroblastic anemia"
+    ],
+    "answer": 1,
+    "explanation": "A Mentzer index below 13 with a relatively high RBC count and normal RDW favors thalassemia trait. Iron deficiency more often lowers the RBC count and raises this index; the index is a screening clue, not a definitive diagnosis."
+  },
+  {
+    "id": "rbc-0007",
+    "topic": "rbc",
+    "subtopic": "microcytic",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A 42-year-old battery-recycling worker with occupational lead exposure has microcytic anemia and the coarse basophilic stippling shown. Which enzyme inhibition explains the stippling?",
+    "image": "basophilic_stippling",
+    "choices": [
+      "Glucose-6-phosphate dehydrogenase",
+      "Pyruvate kinase",
+      "Pyrimidine 5'-nucleotidase",
+      "Methemoglobin reductase"
+    ],
+    "answer": 2,
+    "explanation": "Lead inhibits pyrimidine 5'-nucleotidase and ALA dehydratase, so ribosomal RNA remnants persist as coarse stippling. G6PD is not the target of lead."
+  },
+  {
+    "id": "rbc-0008",
+    "topic": "rbc",
+    "subtopic": "microcytic",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which is the first laboratory change as iron stores become depleted?",
+    "image": null,
+    "choices": [
+      "Microcytic hypochromic red cells",
+      "Decreased hemoglobin",
+      "Decreased reticulocyte count",
+      "Decreased serum ferritin"
+    ],
+    "answer": 3,
+    "explanation": "Ferritin falls before iron supply to the marrow is limited. Microcytosis and anemia appear only after prolonged deficiency."
+  },
+  {
+    "id": "rbc-0009",
+    "topic": "rbc",
+    "subtopic": "hemolytic_hereditary",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "The dense round red cells in the image lack central pallor and the MCHC is elevated. This is most characteristic of:",
+    "image": "spherocyte",
+    "choices": [
+      "Hereditary spherocytosis",
+      "Iron deficiency anemia",
+      "Thalassemia major",
+      "Megaloblastic anemia"
+    ],
+    "answer": 0,
+    "explanation": "Loss of membrane surface area produces spherocytes with increased MCHC. Iron deficiency lowers MCHC."
+  },
+  {
+    "id": "rbc-0010",
+    "topic": "rbc",
+    "subtopic": "hemolytic_hereditary",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Hereditary spherocytosis results from a defect in:",
+    "image": null,
+    "choices": [
+      "Globin chain synthesis",
+      "Membrane proteins such as spectrin",
+      "Pyruvate kinase activity",
+      "Complement regulatory proteins"
+    ],
+    "answer": 1,
+    "explanation": "Defective spectrin, ankyrin, or band 3 allows membrane loss and spherocyte formation. Complement regulator loss describes PNH."
+  },
+  {
+    "id": "rbc-0011",
+    "topic": "rbc",
+    "subtopic": "hemolytic_hereditary",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "When testing cells from a patient with hereditary spherocytosis, which osmotic fragility result is expected?",
+    "image": null,
+    "choices": [
+      "Decreased, with lysis only in very dilute saline",
+      "Unchanged because the membrane is intact",
+      "Increased, with lysis in less hypotonic saline",
+      "Increased only after the cells are frozen"
+    ],
+    "answer": 2,
+    "explanation": "Spherocytes have little surface area reserve, so they swell and lyse sooner. Target cells and sickle cells show decreased fragility."
+  },
+  {
+    "id": "rbc-0012",
+    "topic": "rbc",
+    "subtopic": "hemolytic_hereditary",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "The elongated oval red cells shown occur in several generations of a family. Which protein group is most likely defective?",
+    "image": "elliptocyte",
+    "choices": [
+      "Globin proteins such as beta globin",
+      "Enzymes such as pyruvate kinase",
+      "Heme enzymes such as ferrochelatase",
+      "Membrane proteins such as spectrin"
+    ],
+    "answer": 3,
+    "explanation": "Weak horizontal protein interactions let cells deform and elongate into ovals. A globin defect would cause a hemoglobinopathy instead."
+  },
+  {
+    "id": "rbc-0013",
+    "topic": "rbc",
+    "subtopic": "hemolytic_hereditary",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "The cells in the image have a semicircular portion removed after splenic pitting. Which condition is most associated with them?",
+    "image": "bite_cell",
+    "choices": [
+      "G6PD deficiency after oxidant exposure",
+      "Hereditary elliptocytosis",
+      "Iron deficiency anemia",
+      "Beta thalassemia minor"
+    ],
+    "answer": 0,
+    "explanation": "Oxidized hemoglobin forms Heinz bodies, which the spleen removes to leave bite cells. Elliptocytosis shows oval cells, not bites."
+  },
+  {
+    "id": "rbc-0014",
+    "topic": "rbc",
+    "subtopic": "hemolytic_hereditary",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Which stain is used to demonstrate Heinz bodies?",
+    "image": null,
+    "choices": [
+      "Prussian blue",
+      "Crystal violet supravital stain",
+      "Kleihauer-Betke acid elution",
+      "Peroxidase"
+    ],
+    "answer": 1,
+    "explanation": "Heinz bodies are denatured hemoglobin demonstrated by supravital staining of unfixed cells. Prussian blue detects iron rather than denatured hemoglobin."
+  },
+  {
+    "id": "rbc-0015",
+    "topic": "rbc",
+    "subtopic": "hemolytic_hereditary",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Chronic hemolysis with ATP depletion and rigid echinocytes on the smear suggests a deficiency of:",
+    "image": null,
+    "choices": [
+      "Glucose-6-phosphate dehydrogenase",
+      "Band 3",
+      "Pyruvate kinase",
+      "Glutathione synthetase"
+    ],
+    "answer": 2,
+    "explanation": "Pyruvate kinase deficiency reduces glycolytic ATP production and shortens red cell survival. G6PD deficiency instead impairs protection against oxidative stress."
+  },
+  {
+    "id": "rbc-0016",
+    "topic": "rbc",
+    "subtopic": "hemolytic_hereditary",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "Why can a G6PD assay give a falsely normal result during an acute hemolytic episode?",
+    "image": null,
+    "choices": [
+      "Hemolysis induces new enzyme synthesis in mature red cells",
+      "Reticulocytes lack G6PD until they become fully mature",
+      "Oxidant drugs permanently increase every cell's G6PD activity",
+      "Older deficient cells lyse, leaving enzyme-richer young cells"
+    ],
+    "answer": 3,
+    "explanation": "Older G6PD-deficient cells are preferentially destroyed, leaving relatively enzyme-rich young cells and reticulocytes that may mask deficiency. Mature red cells cannot synthesize new enzyme; repeat testing after recovery may be needed."
+  },
+  {
+    "id": "rbc-0017",
+    "topic": "rbc",
+    "subtopic": "hemolytic_acquired",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Warm autoimmune hemolytic anemia is typically caused by:",
+    "image": null,
+    "choices": [
+      "IgG autoantibodies reactive at 37 C",
+      "IgM autoantibodies reactive at 4 C",
+      "Mechanical fragmentation of cells",
+      "Absent complement regulators on the membrane"
+    ],
+    "answer": 0,
+    "explanation": "Warm IgG autoantibodies coat red cells for extravascular removal by the spleen. IgM cold agglutinins cause cold autoimmune hemolysis."
+  },
+  {
+    "id": "rbc-0018",
+    "topic": "rbc",
+    "subtopic": "hemolytic_acquired",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "The fragmented cells in the image appear with thrombocytopenia and fever. This pattern suggests:",
+    "image": "schistocyte",
+    "choices": [
+      "Hereditary elliptocytosis",
+      "Thrombotic thrombocytopenic purpura",
+      "Iron deficiency anemia",
+      "Warm autoimmune hemolytic anemia"
+    ],
+    "answer": 1,
+    "explanation": "Fibrin or platelet thrombi shear red cells into schistocytes. Warm AIHA mainly produces spherocytes."
+  },
+  {
+    "id": "rbc-0019",
+    "topic": "rbc",
+    "subtopic": "hemolytic_acquired",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Cold agglutinin disease is most often caused by an antibody with which specificity?",
+    "image": null,
+    "choices": [
+      "Anti-D of the IgG class",
+      "Anti-Jka of the IgG class",
+      "Anti-I of the IgM class",
+      "Anti-P of the IgA class"
+    ],
+    "answer": 2,
+    "explanation": "Most cold agglutinins are IgM anti-I that agglutinate at lower temperatures. Anti-P with biphasic hemolysis characterizes paroxysmal cold hemoglobinuria."
+  },
+  {
+    "id": "rbc-0020",
+    "topic": "rbc",
+    "subtopic": "hemolytic_acquired",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "The image shows red cells clumped in irregular masses. The analyzer reports a high MCV and MCHC with low RBC. What is the best action?",
+    "image": "agglutination",
+    "choices": [
+      "Report the values with a comment to disregard flags",
+      "Refrigerate the specimen and rerun it",
+      "Centrifuge the tube and report the plasma Hgb only",
+      "Warm the specimen to 37 C and repeat the analysis"
+    ],
+    "answer": 3,
+    "explanation": "Cold agglutinins clump cells at room temperature, distorting counts and indices. Warming disperses them, whereas cooling worsens the clumping."
+  },
+  {
+    "id": "rbc-0021",
+    "topic": "rbc",
+    "subtopic": "hemolytic_acquired",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "Paroxysmal nocturnal hemoglobinuria is best confirmed by:",
+    "image": null,
+    "choices": [
+      "Flow cytometry for CD55 and CD59",
+      "Direct antiglobulin test",
+      "Osmotic fragility test",
+      "Hemoglobin electrophoresis"
+    ],
+    "answer": 0,
+    "explanation": "PNH cells lack GPI-anchored complement regulators CD55 and CD59, which flow cytometry can detect. The DAT is usually negative because the hemolysis is not caused by red cell-bound antibody."
+  },
+  {
+    "id": "rbc-0022",
+    "topic": "rbc",
+    "subtopic": "hemolytic_acquired",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "The image shows delicate rings, several per red cell, with some cells holding two chromatin dots. Which organism is most likely?",
+    "image": "malaria_falciparum_ring",
+    "choices": [
+      "Plasmodium vivax",
+      "Plasmodium falciparum",
+      "Plasmodium malariae",
+      "Plasmodium ovale"
+    ],
+    "answer": 1,
+    "explanation": "Multiple fine rings and double chromatin dots in normal-sized cells point to P. falciparum. P. vivax enlarges infected cells and shows Schuffner dots."
+  },
+  {
+    "id": "rbc-0023",
+    "topic": "rbc",
+    "subtopic": "hemolytic_acquired",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Paroxysmal cold hemoglobinuria is caused by which antibody?",
+    "image": null,
+    "choices": [
+      "A warm-reactive IgG against Rh antigens",
+      "An IgM anti-I that agglutinates at 4 C",
+      "A biphasic IgG hemolysin with anti-P specificity",
+      "An IgA antibody against band 3"
+    ],
+    "answer": 2,
+    "explanation": "The Donath-Landsteiner IgG antibody binds in the cold and causes complement-mediated lysis on rewarming. Cold agglutinins are usually IgM anti-I and can also activate complement."
+  },
+  {
+    "id": "rbc-0024",
+    "topic": "rbc",
+    "subtopic": "hypoproliferative",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Pancytopenia with a hypocellular, fatty marrow and no abnormal infiltrate indicates:",
+    "image": null,
+    "choices": [
+      "Megaloblastic anemia",
+      "Hereditary spherocytosis",
+      "Acute blood loss",
+      "Aplastic anemia"
+    ],
+    "answer": 3,
+    "explanation": "Failure of hematopoietic stem cells leaves a fat-replaced marrow and low counts in all lines. Megaloblastic anemia has a hypercellular marrow."
+  },
+  {
+    "id": "rbc-0025",
+    "topic": "rbc",
+    "subtopic": "hypoproliferative",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "A reticulocyte production index below 2 in an anemic patient suggests:",
+    "image": null,
+    "choices": [
+      "An inadequate marrow response",
+      "An appropriate response to hemolysis",
+      "Recent acute hemorrhage",
+      "Secondary erythrocytosis"
+    ],
+    "answer": 0,
+    "explanation": "The RPI corrects reticulocytes for anemia and prolonged maturation. A low RPI indicates insufficient production; hemolysis with a healthy marrow generally gives a higher RPI once the marrow has had time to respond."
+  },
+  {
+    "id": "rbc-0026",
+    "topic": "rbc",
+    "subtopic": "hypoproliferative",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Normocytic normochromic anemia in chronic kidney disease is mainly due to:",
+    "image": null,
+    "choices": [
+      "Deficient intrinsic factor",
+      "Decreased erythropoietin production",
+      "Increased red cell membrane fragility",
+      "Excess globin chain precipitation"
+    ],
+    "answer": 1,
+    "explanation": "Damaged kidneys make too little erythropoietin to drive red cell production. Intrinsic factor loss causes pernicious anemia."
+  },
+  {
+    "id": "rbc-0027",
+    "topic": "rbc",
+    "subtopic": "hypoproliferative",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A patient with hereditary spherocytosis suddenly develops severe anemia with reticulocytes near zero after a viral illness. What is the likely mechanism?",
+    "image": null,
+    "choices": [
+      "Autoantibodies coating mature red cells",
+      "Splenic sequestration of reticulocytes",
+      "Parvovirus B19 infection of erythroid progenitors",
+      "Iron accumulation within marrow macrophages"
+    ],
+    "answer": 2,
+    "explanation": "Parvovirus B19 halts red cell production, and short red cell survival makes the loss dramatic (aplastic crisis). Autoimmune hemolysis would raise retics."
+  },
+  {
+    "id": "rbc-0028",
+    "topic": "rbc",
+    "subtopic": "hypoproliferative",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Normocytic anemia with reticulocytes of 0.2%, normal WBC and platelets, and absent marrow erythroblasts suggests:",
+    "image": null,
+    "choices": [
+      "Aplastic anemia",
+      "Iron deficiency anemia",
+      "Sickle cell disease",
+      "Pure red cell aplasia"
+    ],
+    "answer": 3,
+    "explanation": "Selective failure of the erythroid line leaves other lines normal. In aplastic anemia all three lines are reduced."
+  },
+  {
+    "id": "rbc-0029",
+    "topic": "rbc",
+    "subtopic": "hypoproliferative",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A patient has a reticulocyte count of 3.0% and Hct 30% (normal 45%, maturation factor 1.5). What is the RPI and what does it indicate?",
+    "image": null,
+    "choices": [
+      "1.3, inadequate marrow response",
+      "2.0, adequate marrow response",
+      "3.0, adequate marrow response",
+      "4.5, brisk marrow response"
+    ],
+    "answer": 0,
+    "explanation": "Corrected retic = 3.0 x 30/45 = 2.0, and RPI = 2.0/1.5 = 1.3. A value below 2 means the marrow is not responding adequately."
+  },
+  {
+    "id": "rbc-0030",
+    "topic": "rbc",
+    "subtopic": "acute_hemorrhage",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Immediately after acute severe hemorrhage, the hemoglobin and hematocrit are often:",
+    "image": null,
+    "choices": [
+      "Markedly low because cells are destroyed",
+      "Near normal because whole blood is lost",
+      "Markedly high because of marrow release",
+      "Low because of impaired erythropoietin"
+    ],
+    "answer": 1,
+    "explanation": "Red cells and plasma are lost in proportion, so values fall only after fluid shifts. Marrow release of retics comes days later."
+  },
+  {
+    "id": "rbc-0031",
+    "topic": "rbc",
+    "subtopic": "acute_hemorrhage",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "After a single acute hemorrhage, the reticulocyte count typically peaks at about:",
+    "image": null,
+    "choices": [
+      "1 hour",
+      "24 hours",
+      "7 to 10 days",
+      "6 weeks"
+    ],
+    "answer": 2,
+    "explanation": "Erythropoietin-driven marrow response takes several days to appear and peaks about a week after the bleed. It is not immediate."
+  },
+  {
+    "id": "rbc-0032",
+    "topic": "rbc",
+    "subtopic": "acute_hemorrhage",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "Soon after a major bleed, a patient has Hgb 14.0 g/dL. After large-volume crystalloid resuscitation, Hgb is 9.0 g/dL with unchanged indices and no evidence of hemolysis. What best explains the decline?",
+    "image": null,
+    "choices": [
+      "Antibody-mediated red cell destruction",
+      "Immediate loss of marrow iron stores",
+      "Abrupt failure of marrow production",
+      "Plasma expansion diluting remaining cells"
+    ],
+    "answer": 3,
+    "explanation": "Acute whole-blood loss may initially leave Hgb concentration near baseline; plasma replacement then dilutes the remaining red cells. Marrow failure cannot explain this immediate concentration change."
+  },
+  {
+    "id": "rbc-0033",
+    "topic": "rbc",
+    "subtopic": "megaloblastic",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Megaloblastic anemia is caused by:",
+    "image": null,
+    "choices": [
+      "Impaired DNA synthesis in erythroid precursors",
+      "Impaired beta-globin synthesis in erythroblasts",
+      "Impaired heme synthesis in erythroid precursors",
+      "Impaired membrane stability in mature red cells"
+    ],
+    "answer": 0,
+    "explanation": "Deficient B12 or folate slows nuclear maturation relative to cytoplasm, producing megaloblasts. Globin or heme defects cause microcytosis."
+  },
+  {
+    "id": "rbc-0034",
+    "topic": "rbc",
+    "subtopic": "megaloblastic",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "A neutrophil on a peripheral smear has six nuclear lobes. This finding is characteristic of:",
+    "image": null,
+    "choices": [
+      "Iron deficiency anemia",
+      "Megaloblastic anemia",
+      "Bacterial infection",
+      "Aplastic anemia"
+    ],
+    "answer": 1,
+    "explanation": "A neutrophil with six or more lobes is hypersegmented and supports B12 or folate deficiency. Bacterial infection more typically produces a left shift and toxic changes."
+  },
+  {
+    "id": "rbc-0035",
+    "topic": "rbc",
+    "subtopic": "megaloblastic",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Pernicious anemia results from deficiency of:",
+    "image": null,
+    "choices": [
+      "Transferrin, impairing iron transport",
+      "Erythropoietin, impairing marrow drive",
+      "Intrinsic factor, impairing vitamin B12 absorption",
+      "Folate transport protein in the duodenum"
+    ],
+    "answer": 2,
+    "explanation": "Autoimmune loss of parietal cell intrinsic factor prevents ileal B12 uptake. Iron transport defects cause microcytic anemia."
+  },
+  {
+    "id": "rbc-0036",
+    "topic": "rbc",
+    "subtopic": "megaloblastic",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Elevated LDH and indirect bilirubin in megaloblastic anemia reflect:",
+    "image": null,
+    "choices": [
+      "Complement attack on circulating red cells",
+      "Antibody-mediated splenic red cell removal",
+      "Obstruction of bile flow from the liver",
+      "Destruction of abnormal marrow precursors"
+    ],
+    "answer": 3,
+    "explanation": "Defective DNA synthesis leads to death of erythroid precursors in the marrow, releasing LDH and generating indirect bilirubin. This ineffective erythropoiesis differs from antibody-mediated removal of circulating cells."
+  },
+  {
+    "id": "rbc-0037",
+    "topic": "rbc",
+    "subtopic": "megaloblastic",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Which results best distinguish vitamin B12 deficiency from folate deficiency?",
+    "image": null,
+    "choices": [
+      "Elevated methylmalonic acid in B12 deficiency only",
+      "Elevated homocysteine in folate deficiency only",
+      "Low reticulocytes in B12 deficiency only",
+      "Hypersegmented neutrophils in folate deficiency only"
+    ],
+    "answer": 0,
+    "explanation": "MMA rises only when B12 is lacking, because B12 is needed to convert methylmalonyl-CoA. Homocysteine rises in both deficiencies."
+  },
+  {
+    "id": "rbc-0038",
+    "topic": "rbc",
+    "subtopic": "megaloblastic",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "An anemic patient has MCV 118 fL and confirmed vitamin B12 deficiency. Which red cell shape is most expected?",
+    "image": null,
+    "choices": [
+      "Target cells",
+      "Macro-ovalocytes",
+      "Schistocytes",
+      "Microspherocytes"
+    ],
+    "answer": 1,
+    "explanation": "Macro-ovalocytes are the hallmark of megaloblastic macrocytosis. Schistocytes suggest fragmentation instead."
+  },
+  {
+    "id": "rbc-0039",
+    "topic": "rbc",
+    "subtopic": "megaloblastic",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "Why can a hemolyzed serum specimen give a falsely high folate result?",
+    "image": null,
+    "choices": [
+      "Free hemoglobin lowers reagent background",
+      "Hemolysis releases vitamin B12 into folate binding",
+      "Red cells contain much more folate than serum",
+      "Hemolysis increases serum protein binding"
+    ],
+    "answer": 2,
+    "explanation": "Red cells contain much more folate than serum, so hemolysis adds intracellular folate to the sample. This is release of folate rather than a vitamin B12 effect; an acceptable new specimen is needed."
+  },
+  {
+    "id": "rbc-0040",
+    "topic": "rbc",
+    "subtopic": "nonmegaloblastic_macrocytic",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A patient with chronic alcohol use has the round macrocytes shown and no hypersegmented neutrophils. What is the likely cause?",
+    "image": "macrocyte",
+    "choices": [
+      "Autoimmune vitamin B12 malabsorption",
+      "Dietary depletion of body folate stores",
+      "Inherited reduction in beta-globin synthesis",
+      "Alcohol-related nonmegaloblastic macrocytosis"
+    ],
+    "answer": 3,
+    "explanation": "Round macrocytes with normal neutrophil lobation fit alcohol or liver disease. Megaloblastic anemias show macro-ovalocytes."
+  },
+  {
+    "id": "rbc-0041",
+    "topic": "rbc",
+    "subtopic": "nonmegaloblastic_macrocytic",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which condition can truly increase MCV because the circulating red cell population contains more large, immature cells?",
+    "image": null,
+    "choices": [
+      "Marked reticulocytosis",
+      "Iron deficiency",
+      "Thalassemia trait",
+      "Spherocytosis only"
+    ],
+    "answer": 0,
+    "explanation": "Reticulocytes are larger than mature red cells and raise the average. Iron deficiency and thalassemia lower MCV."
+  },
+  {
+    "id": "rbc-0042",
+    "topic": "rbc",
+    "subtopic": "nonmegaloblastic_macrocytic",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A patient with cirrhosis has round macrocytes and normal B12 and folate status. Which change contributes to this nonmegaloblastic macrocytosis?",
+    "image": null,
+    "choices": [
+      "Autoimmune destruction of gastric parietal cells",
+      "Accumulation of lipid in the red cell membrane",
+      "Loss of spectrin from the red cell cytoskeleton",
+      "Reduced production of beta-globin chains"
+    ],
+    "answer": 1,
+    "explanation": "Altered lipid metabolism in liver disease increases red cell membrane lipid and surface area, producing round macrocytes and sometimes target cells. Spectrin loss instead produces spherocytes."
+  },
+  {
+    "id": "rbc-0043",
+    "topic": "rbc",
+    "subtopic": "nonmegaloblastic_macrocytic",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "A patient has persistent MCV 110 fL, normal B12 and folate status, and no evidence of reticulocytosis. Which evaluation best addresses other common causes?",
+    "image": null,
+    "choices": [
+      "Assess iron stores and response to oral iron",
+      "Assess globin variants by electrophoresis",
+      "Assess liver function, thyroid, and alcohol use",
+      "Assess membrane integrity by osmotic fragility"
+    ],
+    "answer": 2,
+    "explanation": "Without megaloblastic features, common nonmegaloblastic causes should be reviewed. Iron is not appropriate for macrocytosis."
+  },
+  {
+    "id": "rbc-0044",
+    "topic": "rbc",
+    "subtopic": "hemoglobinopathy",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "The crescent-shaped cells in the image result from polymerization of deoxygenated:",
+    "image": "sickle_cell",
+    "choices": [
+      "Hemoglobin A",
+      "Hemoglobin F",
+      "Hemoglobin A2",
+      "Hemoglobin S"
+    ],
+    "answer": 3,
+    "explanation": "HbS forms rigid polymers when deoxygenated, distorting cells. HbF actually inhibits polymerization."
+  },
+  {
+    "id": "rbc-0045",
+    "topic": "rbc",
+    "subtopic": "hemoglobinopathy",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A positive sodium dithionite solubility test indicates the presence of:",
+    "image": null,
+    "choices": [
+      "HbS, but not whether the patient has trait or disease",
+      "HbC, but not whether the patient has trait or disease",
+      "HbA2 elevation sufficient to confirm beta thalassemia",
+      "HbF elevation sufficient to confirm alpha thalassemia"
+    ],
+    "answer": 0,
+    "explanation": "Deoxygenated HbS is insoluble and makes the solution turbid. Electrophoresis is needed to tell AS from SS."
+  },
+  {
+    "id": "rbc-0046",
+    "topic": "rbc",
+    "subtopic": "hemoglobinopathy",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Hemoglobin S arises from a substitution of valine for glutamic acid at position 6 of the:",
+    "image": null,
+    "choices": [
+      "Alpha chain",
+      "Beta chain",
+      "Gamma chain",
+      "Delta chain"
+    ],
+    "answer": 1,
+    "explanation": "The beta-6 glutamic acid-to-valine substitution creates HbS. Alpha-chain variants can cause other hemoglobinopathies but do not create HbS."
+  },
+  {
+    "id": "rbc-0047",
+    "topic": "rbc",
+    "subtopic": "hemoglobinopathy",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Rod-shaped intracellular hemoglobin crystals, as shown, are most typical of:",
+    "image": "hb_c_crystal",
+    "choices": [
+      "Sickle cell trait",
+      "Beta thalassemia minor",
+      "Hemoglobin C disease",
+      "Hereditary elliptocytosis"
+    ],
+    "answer": 2,
+    "explanation": "Reduced solubility of HbC allows crystal formation, often with target cells. Sickle trait cells appear normal."
+  },
+  {
+    "id": "rbc-0048",
+    "topic": "rbc",
+    "subtopic": "hemoglobinopathy",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "On cellulose acetate at alkaline pH a band migrates with HbS. Which method best separates HbS from HbD?",
+    "image": null,
+    "choices": [
+      "Repeat alkaline cellulose acetate electrophoresis",
+      "Kleihauer-Betke staining",
+      "Osmotic fragility testing",
+      "Citrate agar electrophoresis at acid pH"
+    ],
+    "answer": 3,
+    "explanation": "HbD migrates with S on alkaline cellulose acetate but separates on acid citrate agar. Solubility is negative for HbD."
+  },
+  {
+    "id": "rbc-0049",
+    "topic": "rbc",
+    "subtopic": "hemoglobinopathy",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "An untransfused adult has chronic hemolytic anemia with HbS 90%, HbF 8%, HbA2 2%, and no HbA or HbC. Which genotype is most likely?",
+    "image": null,
+    "choices": [
+      "Homozygous HbS (HbSS)",
+      "Heterozygous HbS (HbAS)",
+      "Compound HbS and HbC (HbSC)",
+      "Heterozygous HbC (HbAC)"
+    ],
+    "answer": 0,
+    "explanation": "Predominant HbS with some HbF and no HbA or HbC favors HbSS. Sickle trait ordinarily retains more HbA than HbS, while HbSC would contain HbC."
+  },
+  {
+    "id": "rbc-0050",
+    "topic": "rbc",
+    "subtopic": "hemoglobinopathy",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Sickle cell trait (HbAS) is usually:",
+    "image": null,
+    "choices": [
+      "Severe with frequent vaso-occlusive crises",
+      "Clinically silent, with HbS about 35 to 45%",
+      "A cause of chronic hemolysis",
+      "Associated with absent HbA"
+    ],
+    "answer": 1,
+    "explanation": "People with sickle trait usually have no chronic hemolytic anemia because HbA limits HbS polymerization. Frequent vaso-occlusive crises are characteristic of sickle cell disease, not uncomplicated trait."
+  },
+  {
+    "id": "rbc-0051",
+    "topic": "rbc",
+    "subtopic": "thalassemia",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Beta thalassemia is characterized by:",
+    "image": null,
+    "choices": [
+      "Production of structurally abnormal alpha-globin chains",
+      "Reduced incorporation of iron into protoporphyrin",
+      "Decreased or absent synthesis of beta-globin chains",
+      "Loss of proteins stabilizing the red cell membrane"
+    ],
+    "answer": 2,
+    "explanation": "Reduced beta chains leave unpaired alpha chains that precipitate. Heme defects cause sideroblastic anemia."
+  },
+  {
+    "id": "rbc-0052",
+    "topic": "rbc",
+    "subtopic": "thalassemia",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A patient's smear contains target cells like the one shown, with marked microcytosis. RBC is 6.1 ×10⁶/µL and HbA2 is 4.8%. Which diagnosis is most likely?",
+    "image": "target_cell",
+    "choices": [
+      "Iron deficiency anemia",
+      "Hemoglobin C disease",
+      "Alpha thalassemia silent carrier",
+      "Beta thalassemia minor"
+    ],
+    "answer": 3,
+    "explanation": "Microcytosis with a relatively high RBC count and elevated HbA2 strongly supports beta thalassemia trait. Iron deficiency more often lowers the RBC count and does not typically raise HbA2."
+  },
+  {
+    "id": "rbc-0053",
+    "topic": "rbc",
+    "subtopic": "thalassemia",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Hydrops fetalis with hemoglobin Bart's results from deletion of:",
+    "image": null,
+    "choices": [
+      "All four alpha globin genes",
+      "Three alpha globin genes",
+      "Two alpha globin genes",
+      "One beta globin gene"
+    ],
+    "answer": 0,
+    "explanation": "No alpha chains means gamma chains form tetramers (Bart's) that carry oxygen poorly. Three-gene deletion gives HbH disease."
+  },
+  {
+    "id": "rbc-0054",
+    "topic": "rbc",
+    "subtopic": "thalassemia",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "Hemoglobin H inclusions are best demonstrated by:",
+    "image": null,
+    "choices": [
+      "Prussian blue staining",
+      "Incubating with brilliant cresyl blue",
+      "Kleihauer-Betke acid elution",
+      "Wright stain alone"
+    ],
+    "answer": 1,
+    "explanation": "HbH precipitates as golf-ball inclusions only with supravital incubation. Wright stain does not show them."
+  },
+  {
+    "id": "rbc-0055",
+    "topic": "rbc",
+    "subtopic": "thalassemia",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "The image shows a nucleated red cell. In a beta thalassemia major sample, a counting method that cannot distinguish nRBCs from leukocytes reports WBC 20.0 ×10³/µL. There are 40 nRBCs per 100 WBCs. What is the corrected WBC?",
+    "image": "nrbc",
+    "choices": [
+      "12.0 ×10³/µL",
+      "16.0 ×10³/µL",
+      "14.3 ×10³/µL",
+      "28.0 ×10³/µL"
+    ],
+    "answer": 2,
+    "explanation": "Corrected WBC = 20.0 × 100/(100 + 40) = 14.3 ×10³/µL when the reported count includes nRBCs. Multiplying by 0.60 incorrectly treats 40 nRBCs per 100 WBCs as 40% of all nucleated cells."
+  },
+  {
+    "id": "rbc-0056",
+    "topic": "rbc",
+    "subtopic": "thalassemia",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "An adult has mild microcytosis, normal iron studies, and normal HbA2 and HbF on electrophoresis. The likely diagnosis is:",
+    "image": null,
+    "choices": [
+      "Beta thalassemia minor",
+      "Hemoglobin C trait",
+      "Iron deficiency anemia",
+      "Alpha thalassemia trait"
+    ],
+    "answer": 3,
+    "explanation": "Alpha thalassemia trait has normal electrophoresis. Beta thalassemia minor raises HbA2."
+  },
+  {
+    "id": "rbc-0057",
+    "topic": "rbc",
+    "subtopic": "erythrocytosis",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Which finding supports polycythemia vera rather than secondary erythrocytosis?",
+    "image": null,
+    "choices": [
+      "Low erythropoietin with a JAK2 V617F mutation",
+      "High erythropoietin with hypoxia",
+      "Normal red cell mass after rehydration",
+      "High carboxyhemoglobin from smoking"
+    ],
+    "answer": 0,
+    "explanation": "PV is a clonal neoplasm independent of erythropoietin. Secondary causes have raised or normal erythropoietin."
+  },
+  {
+    "id": "rbc-0058",
+    "topic": "rbc",
+    "subtopic": "erythrocytosis",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Erythrocytosis in a patient with chronic lung disease reflects:",
+    "image": null,
+    "choices": [
+      "A clonal stem cell mutation",
+      "An appropriate erythropoietin rise from hypoxia",
+      "Decreased plasma volume",
+      "Autonomous erythropoietin tumor secretion"
+    ],
+    "answer": 1,
+    "explanation": "Tissue hypoxia stimulates erythropoietin production. A clonal process indicates PV."
+  },
+  {
+    "id": "rbc-0059",
+    "topic": "rbc",
+    "subtopic": "erythrocytosis",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A patient with severe vomiting has Hgb 19 g/dL and Hct 57%. What should be assessed before diagnosing true erythrocytosis?",
+    "image": null,
+    "choices": [
+      "Red cell morphology only",
+      "Platelet function",
+      "Hydration status and plasma volume",
+      "Direct antiglobulin test"
+    ],
+    "answer": 2,
+    "explanation": "Dehydration contracts plasma volume and raises Hgb and Hct without increasing red cell mass: relative erythrocytosis. A DAT evaluates immune hemolysis rather than this volume effect."
+  },
+  {
+    "id": "rbc-0060",
+    "topic": "rbc",
+    "subtopic": "erythrocytosis",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Raised erythropoietin with normal arterial oxygen saturation suggests:",
+    "image": null,
+    "choices": [
+      "JAK2-positive polycythemia vera",
+      "Chronic high-altitude hypoxemia",
+      "Hypoxemia from advanced lung disease",
+      "An erythropoietin-secreting renal tumor"
+    ],
+    "answer": 3,
+    "explanation": "Autonomous erythropoietin production raises red cell mass without hypoxia. In PV, erythropoietin is suppressed."
+  }
+]

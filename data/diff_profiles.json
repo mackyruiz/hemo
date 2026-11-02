@@ -1,0 +1,18 @@
+[
+	{"id": "normal_adult", "label": "Normal adult", "tier": 1, "wbc": [5, 10], "nrbc": [0, 0],
+	 "pct": {"seg": 60, "band": 3, "lymph": 28, "mono": 6, "eos": 2, "baso": 1}},
+	{"id": "allergy_parasite", "label": "Allergic or parasitic condition", "tier": 1, "wbc": [8, 12], "nrbc": [0, 0],
+	 "pct": {"seg": 50, "band": 2, "lymph": 25, "mono": 5, "eos": 17, "baso": 1}},
+	{"id": "bacterial_infection", "label": "Bacterial infection with left shift", "tier": 2, "wbc": [14, 25], "nrbc": [0, 0],
+	 "pct": {"seg": 75, "band": 12, "meta": 2, "lymph": 8, "mono": 3}},
+	{"id": "viral_reactive", "label": "Viral infection / infectious mononucleosis", "tier": 2, "wbc": [11, 18], "nrbc": [0, 0],
+	 "pct": {"seg": 25, "band": 2, "lymph": 38, "var_lymph": 28, "mono": 6, "eos": 1}},
+	{"id": "hemolytic_nrbc", "label": "Hemolytic anemia with nRBCs", "tier": 2, "wbc": [10, 15], "nrbc": [10, 30],
+	 "pct": {"seg": 62, "band": 4, "lymph": 25, "mono": 6, "eos": 2, "baso": 1}},
+	{"id": "cll", "label": "Chronic lymphocytic leukemia", "tier": 2, "wbc": [30, 80], "nrbc": [0, 0],
+	 "pct": {"seg": 10, "lymph": 88, "mono": 2}},
+	{"id": "cml", "label": "Chronic myeloid leukemia", "tier": 3, "wbc": [80, 200], "nrbc": [1, 3],
+	 "pct": {"seg": 40, "band": 12, "meta": 10, "myelo": 15, "promyelo": 3, "blast": 1, "lymph": 6, "mono": 3, "eos": 4, "baso": 6}},
+	{"id": "aml", "label": "Acute leukemia", "tier": 3, "wbc": [20, 60], "nrbc": [0, 0],
+	 "pct": {"blast": 60, "promyelo": 2, "seg": 15, "band": 2, "lymph": 18, "mono": 3}}
+]
