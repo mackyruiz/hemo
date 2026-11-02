@@ -143,7 +143,7 @@ func _update_counting() -> void:
 		var cls: String = String(_sequence[_history.size()])
 		var morph_id: String = String(DiffGenerator.CLASS_MORPH[cls])
 		var descriptor: Dictionary = Content.morph[morph_id]["art"]
-		_cell_holder.add_child(CellArt.make(descriptor, _art_seed + _history.size(), 110.0))
+		_cell_holder.add_child(CellArt.make(descriptor, _art_seed + _history.size(), 110.0, true))
 
 
 func _submit_count() -> void:

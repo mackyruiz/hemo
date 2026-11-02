@@ -25,7 +25,7 @@ func _show_item(task: Dictionary) -> void:
 	var question: Dictionary = Content.questions_by_id[String(task["item_id"])]
 	var panel := QuestionPanel.new()
 	_content.add_child(panel)
-	panel.setup(question, {"show_feedback": true, "image_source": "photo" if int(task.get("tier", 1)) >= 2 else "art", "rng": _rng})
+	panel.setup(question, {"show_feedback": true, "image_source": "photo" if int(task.get("tier", 1)) >= 2 else "art", "rng": _rng, "flag": {"key": str(question["id"])}})
 	panel.answered.connect(func(correct: bool, _chosen: int):
 		if _answered:
 			return

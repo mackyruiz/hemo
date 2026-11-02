@@ -69,7 +69,7 @@ func _show_question() -> void:
 	}
 	var panel := QuestionPanel.new()
 	_content.add_child(panel)
-	panel.setup(question, {"show_feedback": true, "image_source": String(_task.get("source", "art")), "rng": _rng})
+	panel.setup(question, {"show_feedback": true, "image_source": String(_task.get("source", "art")), "rng": _rng, "flag": {"key": "morph:%s:%s" % [String(_task["morph_id"]), "association" if association else "identify"]}})
 	panel.answered.connect(func(correct: bool, _chosen: int):
 		if _answered:
 			return

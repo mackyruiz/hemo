@@ -24,8 +24,7 @@ func _ready() -> void:
 	var illustration := CenterContainer.new()
 	illustration.custom_minimum_size.y = 250
 	var descriptor: Dictionary = entity.get("art", {})
-	var art_scale: float = minf(130.0, 220.0 / (2.0 * CellArt.cell_radius(descriptor, 1.0)))
-	var art: CellArt = CellArt.make(descriptor, 0, art_scale)
+	var art: CellArt = CellArt.make(descriptor, 0, CellArt.STUDY_SCALE_PX, true)
 	illustration.add_child(art)
 	content.add_child(illustration)
 
@@ -41,6 +40,7 @@ func _ready() -> void:
 		content.add_child(_photo_view)
 		_credit = UI.label("", "MutedLabel")
 		content.add_child(_credit)
+		content.add_child(UI.label(CellArt.PHOTO_SCALE_NOTE, "MutedLabel"))
 		var controls := UI.hbox()
 		if _photos.size() > 1:
 			var previous: Button = UI.button("‹ Previous", func(): _show_photo(_photo_index - 1), "SecondaryButton")

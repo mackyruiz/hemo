@@ -13,6 +13,7 @@ var diff_profiles: Array = []
 var ranges: Dictionary = {}
 var sources: Dictionary = {}
 var generated_sources: Dictionary = {}
+var glossary: Array = []
 var load_errors: Array[String] = []
 
 
@@ -27,6 +28,7 @@ func _ready() -> void:
 	ranges = loaded.get("ranges", {})
 	sources = loaded.get("sources", {})
 	generated_sources = loaded.get("generated_sources", {})
+	glossary = loaded.get("glossary", [])
 	for message in loaded.get("errors", []):
 		load_errors.append(str(message))
 		push_error(str(message))

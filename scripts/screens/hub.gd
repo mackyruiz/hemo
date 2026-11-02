@@ -33,6 +33,8 @@ func _ready() -> void:
 	content.add_child(UI.button("Board Sim (mock exam)", func(): Nav.go("exam"), "SecondaryButton"))
 	content.add_child(UI.button("Lab Floor (explore the lab)", func(): Nav.go("lab_floor"), "SecondaryButton"))
 	content.add_child(UI.button("Cell Atlas", func(): Nav.go("atlas"), "SecondaryButton"))
+	content.add_child(UI.button("Flagged questions (%d)" % Progress.flagged().size(), func(): Nav.go("flagged"), "SecondaryButton"))
+	content.add_child(UI.button("Flashcards", func(): Nav.go("flashcards"), "SecondaryButton"))
 	content.add_child(UI.button("My Progress", func(): Nav.go("progress"), "SecondaryButton"))
 	content.add_child(UI.button("Settings", func(): Nav.go("settings"), "SecondaryButton"))
 

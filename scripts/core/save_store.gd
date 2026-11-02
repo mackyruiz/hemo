@@ -5,7 +5,7 @@ const VERSION := 1
 
 
 static func defaults() -> Dictionary:
-	return {"version": VERSION, "xp": 0, "items": {}, "topics": {}, "exams": [], "settings": {"large_text": false}, "stats": {"shifts_completed": 0}}
+	return {"version": VERSION, "xp": 0, "items": {}, "topics": {}, "exams": [], "settings": {"large_text": false}, "stats": {"shifts_completed": 0}, "flagged": {}, "cards": {}}
 
 
 ## Returns an independent merged value; nested default keys are preserved.

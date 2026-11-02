@@ -16,6 +16,9 @@ const ROUTES := {
 	"ranges": "res://scripts/screens/ranges.gd",
 	"credits": "res://scripts/screens/credits.gd",
 	"about": "res://scripts/screens/about.gd",
+	"flagged": "res://scripts/screens/flagged.gd",
+	"flagged_question": "res://scripts/screens/flagged_question.gd",
+	"flashcards": "res://scripts/screens/flashcards.gd",
 }
 
 var _host: Control

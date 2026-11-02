@@ -8,7 +8,7 @@ static func load_all() -> Dictionary:
 	var errors: Array[String] = []
 	var content: Dictionary = {
 		"questions": [], "morph": {}, "photos": [], "cbc_cases": [],
-		"coag_cases": [], "diff_profiles": [], "ranges": {}, "sources": {}, "generated_sources": {}, "errors": errors,
+		"coag_cases": [], "diff_profiles": [], "ranges": {}, "sources": {}, "generated_sources": {}, "glossary": [], "errors": errors,
 	}
 	for topic: String in TOPICS:
 		var questions: Variant = _load_json("res://data/questions/%s.json" % topic, TYPE_ARRAY, errors)
@@ -21,6 +21,7 @@ static func load_all() -> Dictionary:
 		"coag_cases": ["res://data/cases_coag.json", TYPE_ARRAY],
 		"diff_profiles": ["res://data/diff_profiles.json", TYPE_ARRAY],
 		"ranges": ["res://data/reference_ranges.json", TYPE_DICTIONARY],
+		"glossary": ["res://data/glossary.json", TYPE_ARRAY],
 	}
 	for key: String in paths:
 		var spec: Array = paths[key]

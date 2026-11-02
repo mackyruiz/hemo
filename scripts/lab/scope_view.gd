@@ -157,7 +157,22 @@ func _draw_mask(ci: CanvasItem) -> void:
 	var thickness := 2.0 * size.length()
 	ci.draw_arc(center, _radius + thickness * 0.5, 0.0, TAU, 96, Color.BLACK, thickness)
 	ci.draw_arc(center, _radius, 0.0, TAU, 96, RIM, 2.0)
+	_draw_scale_bar(ci)
 	_draw_pointer(ci)
+
+
+## A 10 µm scale bar. Its length follows `_px_per_unit`, so it is correct
+## at every objective; `refresh()` already redraws the mask.
+func _draw_scale_bar(ci: CanvasItem) -> void:
+	var half: float = 10.0 * _px_per_unit / CellArt.UM_PER_UNIT * 0.5
+	var cy: float = size.y * 0.5 + _radius * 0.8
+	var cx: float = size.x * 0.5
+	ci.draw_line(Vector2(cx - half, cy), Vector2(cx + half, cy), RIM, 3.0, true)
+	for side in [-half, half]:
+		ci.draw_line(Vector2(cx + side, cy), Vector2(cx + side, cy + 10.0), RIM, 3.0, true)
+	var font: Font = (ci as Control).get_theme_default_font()
+	var fs: int = int((ci as Control).get_theme_default_font_size() * 0.6)
+	ci.draw_string(font, Vector2(cx, cy - fs - 6), "10 µm", HORIZONTAL_ALIGNMENT_CENTER, int(font.get_string_size("10 µm").x), fs, ThemeBuilder.MUTED)
 
 
 ## A 4px line from the circle's left edge to just short of the target.

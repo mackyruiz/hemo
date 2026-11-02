@@ -1,6 +1,12 @@
 class_name QuestionPanel
 extends VBoxContainer
 ## Choices retain their original indices even though their display order is shuffled.
+const FLAG_OFF := "Flag for review"
+const FLAG_ON := "Flagged for review — tap to remove"
+
+var _flag_key: String = ""
+var _flag_button: Button = null
+var _opts: Dictionary = {}
 
 signal answered(correct: bool, chosen_index: int)
 signal next_pressed
@@ -32,6 +38,14 @@ func setup(q: Dictionary, opts: Dictionary = {}) -> void:
 		_rng.randomize()
 	size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	add_theme_constant_override("separation", 16)
+	_opts = opts
+	var flag_opt: Variant = opts.get("flag", {})
+	_flag_key = ""
+	if flag_opt is Dictionary:
+		_flag_key = str(flag_opt.get("key", ""))
+	if not _flag_key.is_empty():
+		_flag_button = UI.button(FLAG_ON if Progress.is_flagged(_flag_key) else FLAG_OFF, _toggle_flag, "SecondaryButton")
+		add_child(_flag_button)
 	add_child(UI.label(str(q.get("stem", ""))))
 	var image_id: String = str(q.get("image", "")) if q.get("image") != null else ""
 	if not image_id.is_empty():
@@ -93,15 +107,15 @@ func _add_image(morph_id: String, source: String) -> void:
 			if crop != [0, 0, 1, 1]:
 				credit += " (cropped)"
 			add_child(UI.label(credit, "MutedLabel"))
+			add_child(UI.label(CellArt.PHOTO_SCALE_NOTE, "MutedLabel"))
 			return
 	var entity: Dictionary = Content.morph.get(morph_id, {})
 	if entity.has("art"):
 		var center := CenterContainer.new()
 		center.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		var descriptor: Dictionary = entity["art"]
-		var art_scale: float = minf(130.0, 220.0 / (2.0 * CellArt.cell_radius(descriptor, 1.0)))
-		center.custom_minimum_size.y = 240
-		center.add_child(CellArt.make(descriptor, hash(morph_id), art_scale))
+		center.custom_minimum_size.y = 0
+		center.add_child(CellArt.make(descriptor, hash(morph_id), CellArt.STUDY_SCALE_PX, true))
 		add_child(center)
 
 
@@ -137,3 +151,32 @@ func _choose(chosen_index: int) -> void:
 			add_child(link)
 		add_child(UI.button("Next", func(): next_pressed.emit()))
 	answered.emit(correct, chosen_index)
+
+
+func _toggle_flag() -> void:
+	if _flag_key.is_empty():
+		return
+	if Progress.is_flagged(_flag_key):
+		Progress.unflag(_flag_key)
+	else:
+		Progress.flag(_flag_key, _snapshot())
+	if _flag_button != null:
+		_flag_button.text = FLAG_ON if Progress.is_flagged(_flag_key) else FLAG_OFF
+
+
+func _snapshot() -> Dictionary:
+	var flag_opt: Variant = _opts.get("flag", {})
+	var case_id: String = ""
+	if flag_opt is Dictionary:
+		case_id = str(flag_opt.get("case_id", ""))
+	return {
+		"stem": str(_question.get("stem", "")),
+		"image": str(_question.get("image", "")),
+		"choices": _question.get("choices", []).duplicate(true),
+		"answer": int(_question.get("answer", -1)),
+		"explanation": str(_question.get("explanation", "")),
+		"source": str(_question.get("source", "")),
+		"topic": str(_question.get("topic", "")),
+		"image_source": str(_opts.get("image_source", "art")),
+		"case_id": case_id,
+	}

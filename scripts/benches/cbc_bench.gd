@@ -76,8 +76,9 @@ func _add_smear() -> void:
 			column.add_child(image)
 			var crop_notice: String = " (cropped)" if crop != [0.0, 0.0, 1.0, 1.0] else ""
 			column.add_child(UI.label("Photo: %s, %s%s" % [String(photo["author"]), String(photo["license"]), crop_notice], "MutedLabel"))
+			column.add_child(UI.label(CellArt.PHOTO_SCALE_NOTE, "MutedLabel"))
 		else:
-			column.add_child(CellArt.make(entity["art"], int(morph_id.hash()), 110.0))
+			column.add_child(CellArt.make(entity["art"], int(morph_id.hash()), 110.0, true))
 			column.add_child(UI.label("Illustration", "MutedLabel"))
 		_content.add_child(card)
 
@@ -97,7 +98,7 @@ func _show_step() -> void:
 	_step_host.add_child(_panel)
 	_panel.answered.connect(_on_answered)
 	_panel.next_pressed.connect(_on_next)
-	_panel.setup(question, {"show_feedback": true, "image_source": "art"})
+	_panel.setup(question, {"show_feedback": true, "image_source": "art", "flag": {"key": "%s#%d" % [String(_case["id"]), _step_index + 1], "case_id": String(_case["id"])}})
 
 
 func _on_answered(correct: bool, _chosen_index: int) -> void:

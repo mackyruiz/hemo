@@ -27,6 +27,30 @@ func record_topic_only(topic: String, correct: bool) -> void:
 	_save()
 
 
+func flag(key: String, snapshot: Dictionary) -> void:
+	FlagStore.add(data, key, snapshot, int(Time.get_unix_time_from_system()))
+	_save()
+
+
+func unflag(key: String) -> void:
+	FlagStore.remove(data, key)
+	_save()
+
+
+func is_flagged(key: String) -> bool:
+	return FlagStore.has(data, key)
+
+
+func flagged() -> Array[Dictionary]:
+	return FlagStore.entries(data)
+
+
+func record_card(key: String, known: bool) -> void:
+	var cards: Dictionary = data["cards"]
+	cards[key] = Leitner.update(cards.get(key, {}), known, int(Time.get_unix_time_from_system()))
+	_save()
+
+
 func add_xp(n: int) -> Dictionary:
 	var old_level: int = level()
 	data["xp"] = xp() + n

@@ -2,6 +2,11 @@ class_name CellArt
 extends Control
 ## Shared, seeded Wright–Giemsa-style illustration renderer.
 
+const UM_PER_UNIT := 7.5
+const STUDY_SCALE_PX := 80.0
+const RULER_HEIGHT := 48.0
+const PHOTO_SCALE_NOTE := "Photos are not to scale — compare with a nearby normal RBC (≈7.5 µm)."
+
 var descriptor: Dictionary = {}:
 	set(value):
 		descriptor = value
@@ -16,13 +21,19 @@ var scale_px: float = 60.0:
 		scale_px = maxf(1.0, value)
 		_update_minimum()
 		queue_redraw()
+var ruler: bool = false:
+	set(value):
+		ruler = value
+		_update_minimum()
+		queue_redraw()
 
 
-static func make(desc: Dictionary, cell_seed: int = 0, cell_scale_px: float = 60.0) -> CellArt:
+static func make(desc: Dictionary, cell_seed: int = 0, cell_scale_px: float = 60.0, with_ruler: bool = false) -> CellArt:
 	var art := CellArt.new()
 	art.descriptor = desc
 	art.seed = cell_seed
 	art.scale_px = cell_scale_px
+	art.ruler = with_ruler
 	art.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	return art
 
@@ -33,34 +44,77 @@ func _ready() -> void:
 
 
 func _update_minimum() -> void:
-	var diameter: float = cell_radius(descriptor, scale_px) * 2.0 + 16.0
-	custom_minimum_size = Vector2(diameter, diameter)
+	var cell_box: float = cell_radius(descriptor, scale_px) * 2.0 + 16.0
+	if not ruler:
+		custom_minimum_size = Vector2(cell_box, cell_box)
+		return
+	var px_per_um: float = scale_px / UM_PER_UNIT
+	var ruler_px: float = ruler_um(_size_units(descriptor) * UM_PER_UNIT) * px_per_um
+	custom_minimum_size = Vector2(maxf(cell_box, ruler_px * 2.0 + 16.0), cell_box + RULER_HEIGHT)
 
 
 func _draw() -> void:
-	draw_cell(self, descriptor, size * 0.5, scale_px, seed)
+	var center := Vector2(size.x * 0.5, (size.y - (RULER_HEIGHT if ruler else 0.0)) * 0.5)
+	var r: float = draw_cell(self, descriptor, center, scale_px, seed)
+	if ruler:
+		_draw_ruler(center, r)
+
+
+func _draw_ruler(center: Vector2, r: float) -> void:
+	var px_per_um: float = scale_px / UM_PER_UNIT
+	var um: int = ruler_um(_size_units(descriptor) * UM_PER_UNIT)
+	var ruler_px: float = um * px_per_um
+	var x0: float = center.x - r
+	if str(descriptor.get("kind", "rbc")) == "field":
+		x0 = center.x - ruler_px * 0.5
+	var y: float = size.y - RULER_HEIGHT + 10.0
+	draw_line(Vector2(x0, y), Vector2(x0 + ruler_px, y), ThemeBuilder.TEXT, 2.0, true)
+	var font: Font = get_theme_default_font()
+	var font_size: int = int(get_theme_default_font_size() * 0.6)
+	for i in range(um + 1):
+		var x: float = x0 + i * px_per_um
+		var height: float = 12.0 if i % 5 == 0 else 6.0
+		draw_line(Vector2(x, y), Vector2(x, y + height), ThemeBuilder.TEXT, 1.2, true)
+		if i % 5 == 0:
+			var label: String = str(i)
+			if i == um:
+				label += "µm"
+			draw_string(font, Vector2(x, y + height + font_size + 4), label, HORIZONTAL_ALIGNMENT_CENTER, -1, font_size, ThemeBuilder.MUTED)
+
+
+static func ruler_um(diameter_um: float) -> int:
+	return maxi(5, int(ceil((diameter_um + 1.0) / 5.0)) * 5)
+
+
+static func _default_size(desc: Dictionary) -> float:
+	var kind: String = str(desc.get("kind", "rbc"))
+	if kind == "field":
+		return 3.2
+	return 1.6 if kind == "wbc" else (0.35 if kind == "platelet" else 1.0)
+
+
+static func _size_units(desc: Dictionary) -> float:
+	return maxf(0.1, _number(desc.get("size"), _default_size(desc)))
 
 
 static func cell_radius(desc: Dictionary, cell_scale_px: float) -> float:
 	var kind: String = str(desc.get("kind", "rbc"))
 	if kind == "field":
 		return cell_scale_px * 1.6
-	var default_size: float = 1.6 if kind == "wbc" else (0.35 if kind == "platelet" else 1.0)
-	var radius: float = maxf(0.1, _number(desc.get("size"), default_size)) * cell_scale_px * 0.5
+	var radius: float = _size_units(desc) * cell_scale_px * 0.5
 	# Includes seed jitter and spicules/projections, keeping art clear of its bounds.
 	return radius * 1.4
 
 
-static func draw_cell(ci: CanvasItem, desc: Dictionary, pos: Vector2, cell_scale_px: float, cell_seed: int) -> void:
+static func draw_cell(ci: CanvasItem, desc: Dictionary, pos: Vector2, cell_scale_px: float, cell_seed: int) -> float:
 	var rng := RandomNumberGenerator.new()
 	rng.seed = cell_seed
 	var rotation: float = rng.randf_range(-PI, PI)
 	var kind: String = str(desc.get("kind", "rbc"))
 	if kind == "field":
 		_draw_field(ci, desc, pos, cell_scale_px, rng)
-		return
-	var default_size: float = 1.6 if kind == "wbc" else (0.35 if kind == "platelet" else 1.0)
-	var r: float = cell_scale_px * 0.5 * maxf(0.1, _number(desc.get("size"), default_size)) * rng.randf_range(0.95, 1.05)
+		return cell_scale_px * 1.6
+	var r: float = cell_scale_px * 0.5 * _size_units(desc) * rng.randf_range(0.95, 1.05)
 	match kind:
 		"wbc":
 			_draw_wbc(ci, desc, pos, r, rotation, rng)
@@ -68,6 +122,7 @@ static func draw_cell(ci: CanvasItem, desc: Dictionary, pos: Vector2, cell_scale
 			_draw_platelet(ci, desc, pos, r, rng)
 		_:
 			_draw_rbc(ci, desc, pos, r, rotation, rng)
+	return r
 
 
 static func _number(value: Variant, fallback: float) -> float:

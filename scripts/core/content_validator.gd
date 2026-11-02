@@ -12,6 +12,7 @@ const SUBTOPICS := {
 	"qc": ["quality_control", "safety", "lab_math", "instrumentation"],
 }
 const MIN_QUESTIONS := {"phys": 30, "rbc": 60, "wbc": 60, "plt": 25, "lab": 60, "hemo": 50, "qc": 15}
+const MIN_TERMS_PER_TOPIC := 10
 const DIFF_CLASSES := ["seg", "band", "lymph", "var_lymph", "mono", "eos", "baso", "meta", "myelo", "promyelo", "blast"]
 const ART_KINDS := ["rbc", "wbc", "platelet", "field"]
 const CATEGORIES := ["rbc", "inclusion", "organism", "wbc", "plt", "stain"]
@@ -91,6 +92,7 @@ static func validate(c: Dictionary) -> Array[String]:
 	_validate_cases(c.get("cbc_cases", []), "cbc", morph, seen, errors)
 	_validate_cases(c.get("coag_cases", []), "coag", morph, seen, errors)
 	_validate_profiles(c.get("diff_profiles", []), errors)
+	_validate_glossary(c.get("glossary", []), errors)
 	_validate_sources(c, errors)
 	return errors
 
@@ -309,6 +311,51 @@ static func _validate_profiles(profiles: Array, errors: Array[String]) -> void:
 		if total != 100.0:
 			errors.append(where + ": pct must sum to exactly 100")
 
+static func _validate_glossary(glossary: Array, errors: Array[String]) -> void:
+	var seen_ids: Dictionary = {}
+	var seen_terms: Dictionary = {}
+	var counts: Dictionary = {}
+	for topic: String in MIN_QUESTIONS:
+		counts[topic] = 0
+	var id_pattern := RegEx.new()
+	id_pattern.compile("^[a-z0-9_]+$")
+	for value: Variant in glossary:
+		if not value is Dictionary:
+			errors.append("data/glossary.json [unknown]: term must be an object")
+			continue
+		var entry: Dictionary = value
+		var where: String = "data/glossary.json [%s]" % entry.get("id", "unknown")
+		if not _text(entry.get("id")):
+			errors.append(where + ": missing id")
+			continue
+		var id: String = str(entry["id"])
+		if id_pattern.search(id) == null:
+			errors.append(where + ": id must match ^[a-z0-9_]+$")
+		if seen_ids.has(id):
+			errors.append(where + ": duplicate id")
+		else:
+			seen_ids[id] = true
+		var topic: String = str(entry.get("topic", ""))
+		if not counts.has(topic):
+			errors.append(where + ": unknown topic " + topic)
+		else:
+			counts[topic] += 1
+		if not _text(entry.get("term")):
+			errors.append(where + ": term must be non-empty")
+		else:
+			var normalized: String = str(entry["term"]).strip_edges().to_lower()
+			if seen_terms.has(normalized):
+				errors.append(where + ": duplicate term")
+			else:
+				seen_terms[normalized] = true
+		var definition: Variant = entry.get("definition", "")
+		if not definition is String or str(definition).strip_edges().length() < 20 or str(definition).strip_edges().length() > 300:
+			errors.append(where + ": definition must be 20–300 characters")
+
+	for topic: String in counts:
+		if counts[topic] < MIN_TERMS_PER_TOPIC:
+			errors.append("data/glossary.json [bank]: requires at least %d terms for topic %s (got %d)" % [MIN_TERMS_PER_TOPIC, topic, counts[topic]])
+
 static func _validate_sources(c: Dictionary, errors: Array[String]) -> void:
 	var sources: Dictionary = c.get("sources", {})
 	var generated: Dictionary = c.get("generated_sources", {})
@@ -354,6 +401,9 @@ static func _validate_sources(c: Dictionary, errors: Array[String]) -> void:
 	for id: String in morph:
 		if morph[id] is Dictionary:
 			_check_source(morph[id].get("source"), "data/morphology.json [%s]" % id, sources, used, errors)
+	for value: Variant in c.get("glossary", []):
+		if value is Dictionary:
+			_check_source(value.get("source"), "data/glossary.json [%s]" % value.get("id", "unknown"), sources, used, errors)
 	for id: String in sources:
 		if not used.has(id):
 			errors.append("data/sources.json [%s]: unused source" % id)

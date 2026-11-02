@@ -20,7 +20,7 @@ func _ready() -> void:
 	content.add_child(_large_text)
 	content.add_child(UI.button("Reference ranges used in this app", func(): Nav.go("ranges"), "SecondaryButton"))
 	content.add_child(UI.button("Reset progress", _confirm_reset, "SecondaryButton"))
-	content.add_child(UI.label("Reset removes your XP, review history, mock exams, and settings from this device.", "MutedLabel"))
+	content.add_child(UI.label("Reset removes your XP, review history, flagged questions, flashcard progress, mock exams, and settings from this device.", "MutedLabel"))
 	content.add_child(UI.button("Credits & licenses", func(): Nav.go("credits"), "SecondaryButton"))
 	content.add_child(UI.button("About", func(): Nav.go("about"), "SecondaryButton"))
 	_reset_dialog = UI.confirm_dialog("Reset progress?", "All progress and settings on this device will be reset. This cannot be undone.", "Reset progress")

@@ -161,3 +161,25 @@ func test_missing_and_unexpected_generated_keys_are_reported() -> void:
 	var errors: Array[String] = ContentValidator.validate(c)
 	assert_true(_contains(errors, "data/sources.json [generated]: missing key qc:westgard"))
 	assert_true(_contains(errors, "data/sources.json [generated]: unexpected key drill:bogus"))
+
+
+func test_glossary_unknown_topic_is_reported_with_file_and_id() -> void:
+	var c: Dictionary = _fixture()
+	c["glossary"] = [_glossary_term("x", "not_a_topic", "Anisocytosis", "iron")]
+	assert_true(_contains(ContentValidator.validate(c), "data/glossary.json [x]: unknown topic"))
+
+
+func test_glossary_duplicate_id_is_reported_with_file_and_id() -> void:
+	var c: Dictionary = _fixture()
+	c["glossary"] = [_glossary_term("x", "rbc", "Anisocytosis", "iron"), _glossary_term("x", "rbc", "Poikilocytosis", "iron")]
+	assert_true(_contains(ContentValidator.validate(c), "duplicate id"))
+
+
+func test_glossary_unknown_source_is_reported_with_file_and_id() -> void:
+	var c: Dictionary = _fixture()
+	c["glossary"] = [_glossary_term("x", "rbc", "Anisocytosis", "nope")]
+	assert_true(_contains(ContentValidator.validate(c), "data/glossary.json [x]: unknown source nope"))
+
+
+func _glossary_term(term_id: String, topic: String, term: String, source_id: String) -> Dictionary:
+	return {"id": term_id, "topic": topic, "term": term, "definition": "Variation in red cell size graded on the blood film.", "source": source_id}
