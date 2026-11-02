@@ -10,6 +10,14 @@ const BENCHES := [
 	{"id": "qc", "name": "QC", "desc": "Levey-Jennings charts and Westgard rules"},
 ]
 
+const FEATURES := [
+	{"route": "practice", "title": "Practice", "desc": "Any bench, any time", "art": "practice", "tint": "#B3263E"},
+	{"route": "exam", "title": "Board Sim", "desc": "50-item timed mock exam", "art": "board_sim", "tint": "#4A5BA8"},
+	{"route": "lab_floor", "title": "Lab Floor", "desc": "Walk the lab and run stations", "art": "lab_floor", "tint": "#2E8B57"},
+	{"route": "atlas", "title": "Cell Atlas", "desc": "Every cell, illustrated and photographed", "art": "atlas", "tint": "#8E4A9E"},
+	{"route": "flashcards", "title": "Flashcards", "desc": "Cells and terms with spaced repetition", "art": "flashcards", "tint": "#C0731B"},
+]
+
 
 func _ready() -> void:
 	var p: Array = UI.page("HemoShift", false)
@@ -29,12 +37,10 @@ func _ready() -> void:
 	content.add_child(UI.label("Benches", "TitleLabel"))
 	content.add_child(_bench_grid(lvl))
 
-	content.add_child(UI.button("Practice", func(): Nav.go("practice"), "SecondaryButton"))
-	content.add_child(UI.button("Board Sim (mock exam)", func(): Nav.go("exam"), "SecondaryButton"))
-	content.add_child(UI.button("Lab Floor (explore the lab)", func(): Nav.go("lab_floor"), "SecondaryButton"))
-	content.add_child(UI.button("Cell Atlas", func(): Nav.go("atlas"), "SecondaryButton"))
+	content.add_child(UI.label("Study & explore", "TitleLabel"))
+	content.add_child(_feature_tiles())
+
 	content.add_child(UI.button("Flagged questions (%d)" % Progress.flagged().size(), func(): Nav.go("flagged"), "SecondaryButton"))
-	content.add_child(UI.button("Flashcards", func(): Nav.go("flashcards"), "SecondaryButton"))
 	content.add_child(UI.button("My Progress", func(): Nav.go("progress"), "SecondaryButton"))
 	content.add_child(UI.button("Settings", func(): Nav.go("settings"), "SecondaryButton"))
 
@@ -114,4 +120,25 @@ func _bench_grid(lvl: int) -> GridContainer:
 			locked.disabled = true
 			v.add_child(locked)
 		grid.add_child(card)
+	return grid
+
+
+func _feature_tiles() -> VBoxContainer:
+	var grid := UI.vbox(12)
+	var tiles: Array[HubTile] = []
+	for f in FEATURES:
+		var route: String = f["route"]
+		tiles.append(HubTile.make(f["title"], f["desc"], f["art"], Color(f["tint"]), func(): Nav.go(route)))
+	for pair in [[0, 1], [2, 3]]:
+		var row := UI.hbox(12)
+		for i in pair:
+			row.add_child(tiles[i])
+		grid.add_child(row)
+
+	var last := UI.hbox(12)
+	last.alignment = BoxContainer.ALIGNMENT_CENTER
+	tiles[4].size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+	last.add_child(tiles[4])
+	grid.add_child(last)
+	tiles[0].resized.connect(func(): tiles[4].custom_minimum_size.x = tiles[0].size.x)
 	return grid
