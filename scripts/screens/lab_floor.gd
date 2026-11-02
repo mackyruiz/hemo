@@ -225,7 +225,6 @@ func _confirm_leave() -> void:
 		"Open Practice",
 		"Stay in lab"
 	)
-	dialog.focus_mode = Control.FOCUS_NONE
 	_dialog = dialog
 	add_child(dialog)
 	dialog.confirmed.connect(func():
