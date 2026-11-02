@@ -61,6 +61,7 @@ func _rank_card(lvl: int, xp: int) -> PanelContainer:
 	var bar := ProgressBar.new()
 	bar.custom_minimum_size.y = 28
 	bar.show_percentage = false
+	bar.mouse_filter = Control.MOUSE_FILTER_PASS
 	var base: int = XpRules.threshold(lvl)
 	var nxt: int = XpRules.threshold(lvl + 1)
 	if lvl >= 30:
@@ -101,10 +102,7 @@ func _bench_grid(lvl: int) -> GridContainer:
 		desc.size_flags_vertical = Control.SIZE_EXPAND_FILL
 		v.add_child(desc)
 		if open:
-			card.gui_input.connect(func(event: InputEvent):
-				if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and not event.pressed:
-					Nav.go("shift", {"mode": "practice", "bench": id, "tier": tier})
-			)
+			UI.tappable(card, func(): Nav.go("shift", {"mode": "practice", "bench": id, "tier": tier}))
 			v.add_child(UI.label("✓ Unlocked"))
 			v.add_child(UI.button("Practice", func(): Nav.go("shift", {"mode": "practice", "bench": id, "tier": tier})))
 		else:

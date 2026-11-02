@@ -33,6 +33,7 @@ func _ready() -> void:
 	if not _photos.is_empty():
 		content.add_child(UI.label("Photomicrographs", "TitleLabel"))
 		_photo_view = TextureRect.new()
+		_photo_view.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		_photo_view.custom_minimum_size.y = 340
 		_photo_view.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		_photo_view.expand_mode = TextureRect.EXPAND_IGNORE_SIZE

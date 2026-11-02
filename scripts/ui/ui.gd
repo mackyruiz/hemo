@@ -2,6 +2,9 @@ class_name UI
 extends RefCounted
 ## Static helpers returning configured UI nodes.
 
+## Pointer travel that counts as a scroll drag rather than a tap on a control.
+const DRAG_DEADZONE := 12.0
+
 
 ## Returns [root_control, content_vbox]. Top bar has Back + title; content scrolls
 ## inside a centered, max-width column.
@@ -76,8 +79,67 @@ static func button(text: String, callback: Callable, variation: String = "") -> 
 	b.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	if variation != "":
 		b.theme_type_variation = variation
-	b.pressed.connect(callback)
+	# A press that stops at the button never reaches the scroll container, so a drag that
+	# starts here would not scroll; pass events up and count only a release near the press
+	# point as a tap.
+	b.mouse_filter = Control.MOUSE_FILTER_PASS
+	# Lambdas capture locals by value, so the guard state has to be one shared object.
+	var tap: Dictionary = {"travel": 0.0}
+	b.gui_input.connect(func(event: InputEvent) -> void:
+		var key: String = _pointer_key(event)
+		if key == "":
+			return
+		var at: Vector2 = _pointer_position(b, event)
+		if event.pressed:
+			tap[key] = at
+			tap["travel"] = 0.0
+		else:
+			tap["travel"] = at.distance_to(tap.get(key, at))
+	)
+	b.pressed.connect(func() -> void:
+		if tap["travel"] > DRAG_DEADZONE:
+			return
+		callback.call()
+	)
 	return b
+
+
+## Tap handler for a card: ignores releases past the drag deadzone so scrolling over the
+## card does not fire it.
+static func tappable(control: Control, callback: Callable) -> void:
+	control.mouse_filter = Control.MOUSE_FILTER_PASS
+	# Lambdas capture locals by value, so the guard state has to be one shared object.
+	var tap: Dictionary = {}
+	control.gui_input.connect(func(event: InputEvent) -> void:
+		var key: String = _pointer_key(event)
+		if key == "":
+			return
+		var at: Vector2 = _pointer_position(control, event)
+		if event.pressed:
+			tap[key] = at
+			return
+		var travel: float = at.distance_to(tap.get(key, at))
+		if travel <= DRAG_DEADZONE:
+			callback.call()
+	)
+
+
+## Which pointer family an event belongs to; "" for events the tap guard ignores.
+static func _pointer_key(event: InputEvent) -> String:
+	if event is InputEventMouseButton:
+		return "mouse" if event.button_index == MOUSE_BUTTON_LEFT else ""
+	if event is InputEventScreenTouch:
+		return "screen"
+	return ""
+
+
+## Screen-touch events carry no global position in the web build, so rebuild it from the
+## control origin plus the position relative to that control.
+static func _pointer_position(control: Control, event: InputEvent) -> Vector2:
+	var global: Variant = event.get("global_position")
+	if global is Vector2:
+		return global
+	return control.get_global_position() + event.position
 
 
 ## "Read more" button for a source id; null if the id is unknown.
@@ -92,6 +154,9 @@ static func source_link(source_id: String) -> Button:
 static func card() -> PanelContainer:
 	var c := PanelContainer.new()
 	c.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	# Stop-filtered cards eat the press, so a drag starting on them never scrolls; pair
+	# with UI.tappable for card taps.
+	c.mouse_filter = Control.MOUSE_FILTER_PASS
 	return c
 
 
