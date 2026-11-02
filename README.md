@@ -58,19 +58,32 @@ JSON files:
 
 | File | Shape / fields |
 | --- | --- |
-| `data/questions/<topic>.json` | Array of questions: `id`, `topic`, `subtopic`, `difficulty` (1–3), `kind` (`theoretical` or `procedural`), `stem`, `image` (null or morphology id), `choices` (4 distinct strings), `answer` (0–3), `explanation`. |
-| `data/morphology.json` | Object keyed by morphology id: `name`, `category` (`rbc`, `inclusion`, `organism`, `wbc`, `plt`, `stain`), `features`, `associations` (at least 2), `confusers` (at least 3 other ids), `art`. |
+| `data/questions/<topic>.json` | Array of questions: `id`, `topic`, `subtopic`, `difficulty` (1–3), `kind` (`theoretical` or `procedural`), `stem`, `image` (null or morphology id), `choices` (4 distinct strings), `answer` (0–3), `explanation`, `source` (id in `data/sources.json`). |
+| `data/morphology.json` | Object keyed by morphology id: `name`, `category` (`rbc`, `inclusion`, `organism`, `wbc`, `plt`, `stain`), `features`, `associations` (at least 2), `confusers` (at least 3 other ids), `art`, `source`. |
 | `data/photos.json` | Generated array: `id`, `morph`, `file`, `crop` (normalized x/y/width/height), `source_title`, `source_url`, `author`, `license`, `license_url`. Do not hand-edit. |
-| `data/cases_cbc.json` | Array: `id`, `topic`, `subtopic`, `difficulty`, `sex`, adult `age`, `vignette`, `cbc`, `spurious`, `smear` (morphology ids), `steps` (2–4 question-shaped steps). |
-| `data/cases_coag.json` | Array: `id`, `topic`, `subtopic`, `difficulty`, `sex`, adult `age`, `vignette`, `results`, `steps` (2–4). Results: `PT`, `INR`, `APTT`, `FIB`, `DDIMER`, `TT`, `PLT`, `MIX_PT`, `MIX_APTT`. Null means not performed; mixing results are `corrected` or `not_corrected`. |
+| `data/cases_cbc.json` | Array: `id`, `topic`, `subtopic`, `difficulty`, `sex`, adult `age`, `vignette`, `cbc`, `spurious`, `smear` (morphology ids), `steps` (2–4 question-shaped steps), `source` (a step may carry its own `source` override). |
+| `data/cases_coag.json` | Array: `id`, `topic`, `subtopic`, `difficulty`, `sex`, adult `age`, `vignette`, `results`, `steps` (2–4), `source` (steps may override). Results: `PT`, `INR`, `APTT`, `FIB`, `DDIMER`, `TT`, `PLT`, `MIX_PT`, `MIX_APTT`. Null means not performed; mixing results are `corrected` or `not_corrected`. |
 | `data/reference_ranges.json` | Object keyed by test: `{low, high, unit}` or sex-specific `{M:{low,high}, F:{low,high}, unit}`. |
 | `data/diff_profiles.json` | Array: `id`, `label`, `tier`, `wbc:[low,high]`, `nrbc:[low,high]`, `pct` (class → percentage, total 100). |
+| `data/sources.json` | Object: `sources` (id `^[a-z0-9-]+$` → `{title, publisher, url, keyword}`) and `generated` (keys `drill:<type>`, `qc:westgard`, `coag:cascade`, `diff:<profile id>` → source id, for content built at runtime). |
 
 Topic ids are `phys`, `rbc`, `wbc`, `plt`, `lab`, `hemo`, `qc`. Allowed subtopics are enumerated in `ContentValidator`. Question ids use `<topic>-NNNN`; case ids use `cbc-NNN` or `coag-NNN`. Steps contain `stem`, `choices`, `answer`, and `explanation`.
 
 Art descriptors use `kind: rbc|wbc|platelet|field`. RBC descriptors specify `shape`, relative `size`, `color`, `pallor`, optional `inclusions` and `nucleus`. WBC descriptors specify `size`, `cytoplasm`, `nucleus` (shape, lobes, color, N:C ratio `nc`, chromatin, nucleoli), optional `granules` and `features`. Platelets specify `size`, `color`, and granules. Fields specify `arrangement`. `CellArt` renders these deterministically from an injected seed.
 
 The validator checks bank minimums and difficulty shares, topic/subtopic and morphology references, four-choice answers, CBC index arithmetic unless deliberately spurious, coagulation result consistency, differential totals, and photo paths. Write original questions with one best answer, explanatory feedback, and U.S. laboratory units; do not copy commercial question banks.
+
+## Sources and hints
+
+After answering, the feedback area shows a "Read more" button that opens the item's source page in a new tab. `ContentValidator` requires every question, case, morphology entity and generated-content key to resolve to a source whose URL is `https` on an allow-listed host (`nih.gov` and subdomains, `medlineplus.gov`, `cdc.gov`, `cancer.gov`, `who.int`, `fda.gov`, `osha.gov`, `hematology.org`) and rejects unused sources. Add a host to `SOURCE_HOSTS` in `content_validator.gd` to widen the list. `www.ncbi.nlm.nih.gov/books` (StatPearls) is bot-challenged and cannot be verified by script, so it is not used.
+
+```sh
+python3 tools/check_sources.py
+```
+
+The checker GETs every registry URL and requires HTTP 200 and the entry's `keyword` in the page (PubMed Central articles are checked through NCBI E-utilities). It is run manually; CI never calls external sites.
+
+The Hint button, offered on questions with at least three choices during shifts and practice (not in Board Sim), leaves the correct answer plus one wrong choice: two wrong choices are removed from four, or one from three. Hints are unlimited and carry no XP, Leitner or accuracy penalty (`Hint.eliminate`).
 
 ## Photo credits
 

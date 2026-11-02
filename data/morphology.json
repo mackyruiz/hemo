@@ -19,7 +19,8 @@
       "size": 1.0,
       "color": "#D98C8C",
       "pallor": 0.33
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "microcytic_hypochromic": {
     "name": "Microcytic hypochromic RBC",
@@ -43,7 +44,8 @@
       "size": 0.75,
       "color": "#E0A0A0",
       "pallor": 0.6
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "macrocyte": {
     "name": "Macrocyte",
@@ -67,7 +69,8 @@
       "size": 1.35,
       "color": "#D98C8C",
       "pallor": 0.3
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "polychromasia": {
     "name": "Polychromatic RBC (polychromasia)",
@@ -91,7 +94,8 @@
       "size": 1.15,
       "color": "#B79AB4",
       "pallor": 0.0
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "spherocyte": {
     "name": "Spherocyte",
@@ -115,7 +119,8 @@
       "size": 0.82,
       "color": "#C97A7A",
       "pallor": 0.0
-    }
+    },
+    "source": "morph-shape-definitions"
   },
   "target_cell": {
     "name": "Target cell (codocyte)",
@@ -139,7 +144,8 @@
       "size": 1.0,
       "color": "#D98C8C",
       "pallor": 0.5
-    }
+    },
+    "source": "morph-shape-definitions"
   },
   "schistocyte": {
     "name": "Schistocyte",
@@ -163,7 +169,8 @@
       "size": 0.6,
       "color": "#CC7B7B",
       "pallor": 0.0
-    }
+    },
+    "source": "morph-schistocytes-icsh"
   },
   "sickle_cell": {
     "name": "Sickle cell (drepanocyte)",
@@ -187,7 +194,8 @@
       "size": 1.15,
       "color": "#C97A82",
       "pallor": 0.0
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "elliptocyte": {
     "name": "Elliptocyte (ovalocyte)",
@@ -211,7 +219,8 @@
       "size": 1.0,
       "color": "#D98C8C",
       "pallor": 0.25
-    }
+    },
+    "source": "morph-elliptocytes"
   },
   "teardrop_cell": {
     "name": "Teardrop cell (dacrocyte)",
@@ -235,7 +244,8 @@
       "size": 0.95,
       "color": "#D98C8C",
       "pallor": 0.2
-    }
+    },
+    "source": "morph-shape-definitions"
   },
   "acanthocyte": {
     "name": "Acanthocyte (spur cell)",
@@ -259,7 +269,8 @@
       "size": 0.95,
       "color": "#CC7B7B",
       "pallor": 0.0
-    }
+    },
+    "source": "morph-acanthocyte-echinocyte"
   },
   "echinocyte": {
     "name": "Echinocyte (burr cell)",
@@ -283,7 +294,8 @@
       "size": 1.0,
       "color": "#D98C8C",
       "pallor": 0.25
-    }
+    },
+    "source": "morph-shape-definitions"
   },
   "stomatocyte": {
     "name": "Stomatocyte",
@@ -307,7 +319,8 @@
       "size": 1.0,
       "color": "#D98C8C",
       "pallor": 0.3
-    }
+    },
+    "source": "morph-hereditary-stomatocytoses"
   },
   "bite_cell": {
     "name": "Bite cell (degmacyte)",
@@ -331,7 +344,8 @@
       "size": 0.95,
       "color": "#D98C8C",
       "pallor": 0.25
-    }
+    },
+    "source": "morph-heinz-bite-cells"
   },
   "rouleaux": {
     "name": "Rouleaux",
@@ -352,7 +366,8 @@
     "art": {
       "kind": "field",
       "arrangement": "rouleaux"
-    }
+    },
+    "source": "morph-rouleaux"
   },
   "agglutination": {
     "name": "RBC agglutination",
@@ -373,7 +388,8 @@
     "art": {
       "kind": "field",
       "arrangement": "agglutinate"
-    }
+    },
+    "source": "morph-cold-agglutinins"
   },
   "hb_c_crystal": {
     "name": "Hemoglobin C crystal",
@@ -397,7 +413,8 @@
       "size": 0.95,
       "color": "#C97A82",
       "pallor": 0.0
-    }
+    },
+    "source": "morph-hemoglobin-c-crystals"
   },
   "nrbc": {
     "name": "Nucleated RBC (metarubricyte)",
@@ -428,7 +445,8 @@
         "chromatin": "clumped",
         "nucleoli": 0
       }
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "howell_jolly": {
     "name": "Howell-Jolly body",
@@ -458,7 +476,8 @@
           "count": 1
         }
       ]
-    }
+    },
+    "source": "morph-howell-jolly-spleen"
   },
   "basophilic_stippling": {
     "name": "Basophilic stippling",
@@ -488,7 +507,8 @@
           "count": 25
         }
       ]
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "pappenheimer": {
     "name": "Pappenheimer bodies (siderotic granules)",
@@ -518,7 +538,8 @@
           "count": 4
         }
       ]
-    }
+    },
+    "source": "morph-pappenheimer"
   },
   "heinz_body": {
     "name": "Heinz body",
@@ -548,7 +569,8 @@
           "count": 2
         }
       ]
-    }
+    },
+    "source": "morph-heinz-bite-cells"
   },
   "cabot_ring": {
     "name": "Cabot ring",
@@ -578,7 +600,8 @@
           "count": 1
         }
       ]
-    }
+    },
+    "source": "morph-cabot-rings"
   },
   "malaria_falciparum_ring": {
     "name": "Plasmodium falciparum ring form",
@@ -608,7 +631,8 @@
           "count": 2
         }
       ]
-    }
+    },
+    "source": "morph-malaria"
   },
   "babesia": {
     "name": "Babesia",
@@ -642,7 +666,8 @@
           "count": 1
         }
       ]
-    }
+    },
+    "source": "morph-babesiosis"
   },
   "neutrophil_seg": {
     "name": "Segmented neutrophil",
@@ -679,7 +704,8 @@
         "over_nucleus": false
       },
       "features": []
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "neutrophil_band": {
     "name": "Band neutrophil",
@@ -715,7 +741,8 @@
         "over_nucleus": false
       },
       "features": []
-    }
+    },
+    "source": "morph-band-neutrophils"
   },
   "lymphocyte": {
     "name": "Small lymphocyte",
@@ -746,7 +773,8 @@
       },
       "granules": null,
       "features": []
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "monocyte": {
     "name": "Monocyte",
@@ -784,7 +812,8 @@
       "features": [
         "vacuoles"
       ]
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "eosinophil": {
     "name": "Eosinophil",
@@ -821,7 +850,8 @@
         "over_nucleus": false
       },
       "features": []
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "basophil": {
     "name": "Basophil",
@@ -858,7 +888,8 @@
         "over_nucleus": true
       },
       "features": []
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "reactive_lymph": {
     "name": "Reactive (atypical) lymphocyte",
@@ -891,7 +922,8 @@
       "features": [
         "skirt_basophilia"
       ]
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "myeloblast": {
     "name": "Myeloblast",
@@ -922,7 +954,8 @@
       },
       "granules": null,
       "features": []
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "lymphoblast": {
     "name": "Lymphoblast",
@@ -953,7 +986,8 @@
       },
       "granules": null,
       "features": []
-    }
+    },
+    "source": "morph-all"
   },
   "promyelocyte": {
     "name": "Promyelocyte",
@@ -989,7 +1023,8 @@
         "over_nucleus": true
       },
       "features": []
-    }
+    },
+    "source": "morph-apl-morphology"
   },
   "myelocyte": {
     "name": "Myelocyte",
@@ -1027,7 +1062,8 @@
       "features": [
         "perinuclear_halo"
       ]
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "metamyelocyte": {
     "name": "Metamyelocyte",
@@ -1063,7 +1099,8 @@
         "over_nucleus": false
       },
       "features": []
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "plasma_cell": {
     "name": "Plasma cell",
@@ -1096,7 +1133,8 @@
       "features": [
         "perinuclear_halo"
       ]
-    }
+    },
+    "source": "morph-myeloma"
   },
   "hypersegmented_neutrophil": {
     "name": "Hypersegmented neutrophil",
@@ -1133,7 +1171,8 @@
         "over_nucleus": false
       },
       "features": []
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "auer_rod": {
     "name": "Auer rod",
@@ -1166,7 +1205,8 @@
       "features": [
         "auer_rod"
       ]
-    }
+    },
+    "source": "morph-auer-rods"
   },
   "smudge_cell": {
     "name": "Smudge cell (basket cell)",
@@ -1198,7 +1238,8 @@
       "features": [
         "smudge"
       ]
-    }
+    },
+    "source": "morph-smudge-cells"
   },
   "hairy_cell": {
     "name": "Hairy cell",
@@ -1231,7 +1272,8 @@
       "features": [
         "hairy_projections"
       ]
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "pelger_huet": {
     "name": "Pelger-Huët cell",
@@ -1268,7 +1310,8 @@
         "over_nucleus": false
       },
       "features": []
-    }
+    },
+    "source": "morph-lbr-pelger-huet"
   },
   "toxic_granulation": {
     "name": "Toxic granulation",
@@ -1307,7 +1350,8 @@
       "features": [
         "toxic"
       ]
-    }
+    },
+    "source": "morph-toxic-changes"
   },
   "dohle_body": {
     "name": "Döhle body",
@@ -1346,7 +1390,8 @@
       "features": [
         "dohle"
       ]
-    }
+    },
+    "source": "morph-toxic-changes"
   },
   "normal_platelet": {
     "name": "Normal platelet",
@@ -1373,7 +1418,8 @@
         "size": "fine",
         "over_nucleus": false
       }
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "giant_platelet": {
     "name": "Giant platelet",
@@ -1401,7 +1447,8 @@
         "size": "fine",
         "over_nucleus": false
       }
-    }
+    },
+    "source": "morph-blood-smear"
   },
   "platelet_clump": {
     "name": "Platelet clump",
@@ -1422,7 +1469,8 @@
     "art": {
       "kind": "field",
       "arrangement": "platelet_clump"
-    }
+    },
+    "source": "morph-pseudothrombocytopenia"
   },
   "platelet_satellitism": {
     "name": "Platelet satellitism",
@@ -1444,7 +1492,8 @@
       "kind": "field",
       "arrangement": "satellitism",
       "cell": "neutrophil"
-    }
+    },
+    "source": "morph-platelet-satellitism"
   },
   "retic_nmb": {
     "name": "Reticulocyte (new methylene blue)",
@@ -1474,7 +1523,8 @@
           "count": 1
         }
       ]
-    }
+    },
+    "source": "morph-reticulocyte-nmb"
   },
   "kleihauer_betke": {
     "name": "Kleihauer-Betke stain (fetal cell)",
@@ -1498,6 +1548,7 @@
       "size": 1.0,
       "color": "#E0507A",
       "pallor": 0.0
-    }
+    },
+    "source": "morph-kleihauer-betke"
   }
 }

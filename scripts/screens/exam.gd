@@ -87,7 +87,7 @@ func _show_next() -> void:
 	_counter.text = "Question %d of 50" % (_exam.count_answered() + 1)
 	_item_elapsed = 0.0
 	var panel := QuestionPanel.new()
-	panel.setup(item, {"show_feedback": false, "image_source": "photo", "rng": _rng})
+	panel.setup(item, {"show_feedback": false, "allow_hint": false, "image_source": "photo", "rng": _rng})
 	panel.answered.connect(_answered)
 	_body.add_child(panel)
 	# Locate the page's scroll container without relying on internal node names.

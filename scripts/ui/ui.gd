@@ -80,6 +80,15 @@ static func button(text: String, callback: Callable, variation: String = "") -> 
 	return b
 
 
+## "Read more" button for a source id; null if the id is unknown.
+static func source_link(source_id: String) -> Button:
+	var s: Dictionary = Content.sources.get(source_id, {})
+	if s.is_empty():
+		return null
+	var url: String = str(s["url"])
+	return button("Read more ↗  %s (%s)" % [s["title"], s["publisher"]], func(): OS.shell_open(url), "SecondaryButton")
+
+
 static func card() -> PanelContainer:
 	var c := PanelContainer.new()
 	c.size_flags_horizontal = Control.SIZE_EXPAND_FILL

@@ -14,7 +14,8 @@
    "Interleukin-5"
   ],
   "answer": 0,
-  "explanation": "Renal peritubular interstitial cells release erythropoietin in response to tissue hypoxia. Thrombopoietin drives platelet production instead."
+  "explanation": "Renal peritubular interstitial cells release erythropoietin in response to tissue hypoxia. Thrombopoietin drives platelet production instead.",
+  "source": "phys-erythropoiesis-overview"
  },
  {
   "id": "phys-0002",
@@ -31,7 +32,8 @@
    "Lymph nodes"
   ],
   "answer": 1,
-  "explanation": "Adult hematopoiesis is confined chiefly to the marrow. The liver and spleen produce blood cells only in the fetus or in extramedullary hematopoiesis."
+  "explanation": "Adult hematopoiesis is confined chiefly to the marrow. The liver and spleen produce blood cells only in the fetus or in extramedullary hematopoiesis.",
+  "source": "phys-erythropoiesis-overview"
  },
  {
   "id": "phys-0003",
@@ -48,7 +50,8 @@
    "Wright staining of a fixed blood smear alone"
   ],
   "answer": 2,
-  "explanation": "New methylene blue precipitates residual ribosomal RNA, identifying reticulocytes as a measure of recent marrow output. Wright staining may show polychromasia but does not directly demonstrate the reticular RNA network."
+  "explanation": "New methylene blue precipitates residual ribosomal RNA, identifying reticulocytes as a measure of recent marrow output. Wright staining may show polychromasia but does not directly demonstrate the reticular RNA network.",
+  "source": "phys-reticulocyte-stain"
  },
  {
   "id": "phys-0004",
@@ -65,7 +68,8 @@
    "Megakaryocyte"
   ],
   "answer": 3,
-  "explanation": "Platelets are cytoplasmic fragments shed from mature megakaryocytes in the marrow. The other cells listed belong to the granulocytic, erythroid, and plasma cell lines."
+  "explanation": "Platelets are cytoplasmic fragments shed from mature megakaryocytes in the marrow. The other cells listed belong to the granulocytic, erythroid, and plasma cell lines.",
+  "source": "phys-platelet-granules"
  },
  {
   "id": "phys-0005",
@@ -82,7 +86,8 @@
    "Mature erythrocyte"
   ],
   "answer": 0,
-  "explanation": "Cell division continues through the polychromatic normoblast stage. The orthochromic normoblast has a pyknotic nucleus and can no longer divide."
+  "explanation": "Cell division continues through the polychromatic normoblast stage. The orthochromic normoblast has a pyknotic nucleus and can no longer divide.",
+  "source": "phys-erythroid-last-mitosis"
  },
  {
   "id": "phys-0006",
@@ -99,7 +104,8 @@
    "200 days"
   ],
   "answer": 1,
-  "explanation": "Normal erythrocytes survive about 120 days before senescent cells are removed. A markedly shorter survival indicates hemolysis."
+  "explanation": "Normal erythrocytes survive about 120 days before senescent cells are removed. A markedly shorter survival indicates hemolysis.",
+  "source": "phys-rbc-lifespan"
  },
  {
   "id": "phys-0007",
@@ -116,7 +122,8 @@
    "Digestion by circulating segmented neutrophils"
   ],
   "answer": 2,
-  "explanation": "Splenic and hepatic macrophages remove senescent erythrocytes and recover their iron while degrading heme. Intravascular lysis is not the principal normal route of red cell removal."
+  "explanation": "Splenic and hepatic macrophages remove senescent erythrocytes and recover their iron while degrading heme. Intravascular lysis is not the principal normal route of red cell removal.",
+  "source": "phys-heme-recycling"
  },
  {
   "id": "phys-0008",
@@ -133,7 +140,8 @@
    "Biliverdin"
   ],
   "answer": 3,
-  "explanation": "Heme oxygenase forms biliverdin while releasing iron and carbon monoxide. Biliverdin reductase then produces unconjugated bilirubin, which is transported to the liver for conjugation."
+  "explanation": "Heme oxygenase forms biliverdin while releasing iron and carbon monoxide. Biliverdin reductase then produces unconjugated bilirubin, which is transported to the liver for conjugation.",
+  "source": "phys-heme-recycling"
  },
  {
   "id": "phys-0009",
@@ -150,7 +158,8 @@
    "Increased LDH without altered bilirubin"
   ],
   "answer": 0,
-  "explanation": "In vivo hemolysis can consume haptoglobin and increase unconjugated bilirubin through heme breakdown. Collection-related hemolysis can increase potassium and LDH but does not itself produce an increased circulating indirect bilirubin concentration."
+  "explanation": "In vivo hemolysis can consume haptoglobin and increase unconjugated bilirubin through heme breakdown. Collection-related hemolysis can increase potassium and LDH but does not itself produce an increased circulating indirect bilirubin concentration.",
+  "source": "phys-haptoglobin-hemolysis"
  },
  {
   "id": "phys-0010",
@@ -167,7 +176,8 @@
    "Phagocytosis of bacteria"
   ],
   "answer": 1,
-  "explanation": "Erythrocytes carry hemoglobin that binds oxygen in the lungs and helps carry carbon dioxide from the tissues. Other listed roles belong to lymphocytes, platelets, and phagocytes."
+  "explanation": "Erythrocytes carry hemoglobin that binds oxygen in the lungs and helps carry carbon dioxide from the tissues. Other listed roles belong to lymphocytes, platelets, and phagocytes.",
+  "source": "phys-hemoglobin-function"
  },
  {
   "id": "phys-0011",
@@ -184,7 +194,8 @@
    "Eosinophil"
   ],
   "answer": 2,
-  "explanation": "Segmented neutrophils make up roughly 50 to 70 percent of adult leukocytes. Lymphocytes are next in frequency."
+  "explanation": "Segmented neutrophils make up roughly 50 to 70 percent of adult leukocytes. Lymphocytes are next in frequency.",
+  "source": "phys-blood-differential"
  },
  {
   "id": "phys-0012",
@@ -201,7 +212,8 @@
    "Defense against helminths and participation in allergy"
   ],
   "answer": 3,
-  "explanation": "Eosinophil granule proteins help damage helminths, and eosinophils participate in allergic inflammation. Basophils, rather than eosinophils, are the circulating granulocytes associated with histamine release."
+  "explanation": "Eosinophil granule proteins help damage helminths, and eosinophils participate in allergic inflammation. Basophils, rather than eosinophils, are the circulating granulocytes associated with histamine release.",
+  "source": "phys-blood-differential"
  },
  {
   "id": "phys-0013",
@@ -218,7 +230,8 @@
    "Peroxisomes"
   ],
   "answer": 0,
-  "explanation": "Dense bodies store ADP, ATP, serotonin, and calcium. Alpha granules store proteins such as fibrinogen, von Willebrand factor, and platelet factor 4."
+  "explanation": "Dense bodies store ADP, ATP, serotonin, and calcium. Alpha granules store proteins such as fibrinogen, von Willebrand factor, and platelet factor 4.",
+  "source": "phys-platelet-granules"
  },
  {
   "id": "phys-0014",
@@ -235,7 +248,8 @@
    "Two alpha and two delta chains"
   ],
   "answer": 1,
-  "explanation": "Hb A is alpha2 beta2 and makes up about 95 to 98 percent of adult hemoglobin. Hb F is alpha2 gamma2, and Hb A2 is alpha2 delta2."
+  "explanation": "Hb A is alpha2 beta2 and makes up about 95 to 98 percent of adult hemoglobin. Hb F is alpha2 gamma2, and Hb A2 is alpha2 delta2.",
+  "source": "phys-hbb-gene"
  },
  {
   "id": "phys-0015",
@@ -252,7 +266,8 @@
    "Eight"
   ],
   "answer": 2,
-  "explanation": "There is one heme group per globin chain, and each tetramer has four chains. Each heme binds one oxygen molecule."
+  "explanation": "There is one heme group per globin chain, and each tetramer has four chains. Each heme binds one oxygen molecule.",
+  "source": "phys-hbb-gene"
  },
  {
   "id": "phys-0016",
@@ -269,7 +284,8 @@
    "Left-shifted curve with stronger oxygen binding"
   ],
   "answer": 3,
-  "explanation": "2,3-BPG stabilizes deoxygenated hemoglobin and favors oxygen unloading. Its depletion increases oxygen affinity, shifting the dissociation curve left and initially reducing oxygen release to tissues."
+  "explanation": "2,3-BPG stabilizes deoxygenated hemoglobin and favors oxygen unloading. Its depletion increases oxygen affinity, shifting the dissociation curve left and initially reducing oxygen release to tissues.",
+  "source": "phys-stored-blood-bpg"
  },
  {
   "id": "phys-0017",
@@ -286,7 +302,8 @@
    "Deoxyhemoglobin"
   ],
   "answer": 0,
-  "explanation": "Methemoglobin has oxidized iron and does not bind oxygen. Carboxyhemoglobin has iron still in the ferrous state but bound to carbon monoxide."
+  "explanation": "Methemoglobin has oxidized iron and does not bind oxygen. Carboxyhemoglobin has iron still in the ferrous state but bound to carbon monoxide.",
+  "source": "phys-hbb-gene"
  },
  {
   "id": "phys-0018",
@@ -303,7 +320,8 @@
    "Haptoglobin"
   ],
   "answer": 1,
-  "explanation": "Transferrin binds ferric iron in plasma and delivers it to erythroid precursors. Ferritin and hemosiderin are storage forms."
+  "explanation": "Transferrin binds ferric iron in plasma and delivers it to erythroid precursors. Ferritin and hemosiderin are storage forms.",
+  "source": "phys-iron-metabolism"
  },
  {
   "id": "phys-0019",
@@ -320,7 +338,8 @@
    "Transferrin saturation"
   ],
   "answer": 2,
-  "explanation": "Serum ferritin generally reflects storage iron and decreases as stores become depleted. Because ferritin also rises as an acute-phase reactant, a normal or high value does not reliably exclude deficiency during inflammation."
+  "explanation": "Serum ferritin generally reflects storage iron and decreases as stores become depleted. Because ferritin also rises as an acute-phase reactant, a normal or high value does not reliably exclude deficiency during inflammation.",
+  "source": "phys-ferritin-test"
  },
  {
   "id": "phys-0020",
@@ -337,7 +356,8 @@
    "Low serum iron, high TIBC, low ferritin"
   ],
   "answer": 3,
-  "explanation": "Iron deficiency lowers serum iron and ferritin while increased transferrin raises total iron-binding capacity (TIBC). Low iron with low TIBC and preserved or increased ferritin instead favors inflammatory iron restriction."
+  "explanation": "Iron deficiency lowers serum iron and ferritin while increased transferrin raises total iron-binding capacity (TIBC). Low iron with low TIBC and preserved or increased ferritin instead favors inflammatory iron restriction.",
+  "source": "phys-iron-tests"
  },
  {
   "id": "phys-0021",
@@ -354,7 +374,8 @@
    "Colon"
   ],
   "answer": 0,
-  "explanation": "Enterocytes of the proximal small intestine take up iron. The ileum is the site for vitamin B12 absorption."
+  "explanation": "Enterocytes of the proximal small intestine take up iron. The ileum is the site for vitamin B12 absorption.",
+  "source": "phys-iron-metabolism"
  },
  {
   "id": "phys-0022",
@@ -371,7 +392,8 @@
    "Transferrin"
   ],
   "answer": 1,
-  "explanation": "Liver-derived hepcidin binds ferroportin and promotes its internalization and degradation, limiting iron export into plasma. Inflammation can therefore produce low serum iron despite preserved or increased ferritin."
+  "explanation": "Liver-derived hepcidin binds ferroportin and promotes its internalization and degradation, limiting iron export into plasma. Inflammation can therefore produce low serum iron despite preserved or increased ferritin.",
+  "source": "phys-hepcidin"
  },
  {
   "id": "phys-0023",
@@ -388,7 +410,8 @@
    "Approximately 25 percent"
   ],
   "answer": 2,
-  "explanation": "A rough adult estimate is 100 minus age, giving about 50 percent hematopoietic tissue and 50 percent fat at age 50. Normal cellularity spans a range, so age and clinical context matter."
+  "explanation": "A rough adult estimate is 100 minus age, giving about 50 percent hematopoietic tissue and 50 percent fat at age 50. Normal cellularity spans a range, so age and clinical context matter.",
+  "source": "phys-marrow-cellularity"
  },
  {
   "id": "phys-0024",
@@ -405,7 +428,8 @@
    "3:1"
   ],
   "answer": 3,
-  "explanation": "Divide granulocytic cells by nucleated erythroid cells: 450/150 = 3:1. Lymphocytes, plasma cells, and other nonparticipating lineages do not enter this ratio."
+  "explanation": "Divide granulocytic cells by nucleated erythroid cells: 450/150 = 3:1. Lymphocytes, plasma cells, and other nonparticipating lineages do not enter this ratio.",
+  "source": "phys-marrow-me-ratio"
  },
  {
   "id": "phys-0025",
@@ -422,7 +446,8 @@
    "Vertebral spinous process"
   ],
   "answer": 0,
-  "explanation": "The posterior iliac crest is safe and yields adequate marrow. The sternum is used for aspirate only because biopsy there risks injury."
+  "explanation": "The posterior iliac crest is safe and yields adequate marrow. The sternum is used for aspirate only because biopsy there risks injury.",
+  "source": "phys-bone-marrow-tests"
  },
  {
   "id": "phys-0026",
@@ -439,7 +464,8 @@
    "Refrigerate the aspirate overnight before smearing"
   ],
   "answer": 1,
-  "explanation": "Marrow clots quickly, so smears are made immediately or from EDTA specimens soon after. Delay or dilution distorts cell morphology."
+  "explanation": "Marrow clots quickly, so smears are made immediately or from EDTA specimens soon after. Delay or dilution distorts cell morphology.",
+  "source": "phys-marrow-first-pull"
  },
  {
   "id": "phys-0027",
@@ -456,7 +482,8 @@
    "Lymphocytes"
   ],
   "answer": 2,
-  "explanation": "Mesothelial cells line serous cavities and can shed into effusion fluid, especially when irritated. Macrophages may also occur in these fluids but do not form the serosal lining."
+  "explanation": "Mesothelial cells line serous cavities and can shed into effusion fluid, especially when irritated. Macrophages may also occur in these fluids but do not form the serosal lining.",
+  "source": "phys-mesothelial-cells"
  },
  {
   "id": "phys-0028",
@@ -473,7 +500,8 @@
    "Tube 3, designated for hematology"
   ],
   "answer": 3,
-  "explanation": "Use the tube assigned to hematology by the laboratory's collection protocol; in this protocol it is tube 3. Later tubes usually have less traumatic blood contamination, but tube allocation varies, so the last tube is not universally the routine count specimen."
+  "explanation": "Use the tube assigned to hematology by the laboratory's collection protocol; in this protocol it is tube 3. Later tubes usually have less traumatic blood contamination, but tube allocation varies, so the last tube is not universally the routine count specimen.",
+  "source": "phys-csf-cell-count"
  },
  {
   "id": "phys-0029",
@@ -490,7 +518,8 @@
    "Add EDTA and hold for several hours"
   ],
   "answer": 0,
-  "explanation": "Leukocytes in CSF deteriorate rapidly, so delay lowers counts. Specimens should be counted promptly and not frozen."
+  "explanation": "Leukocytes in CSF deteriorate rapidly, so delay lowers counts. Specimens should be counted promptly and not frozen.",
+  "source": "phys-csf-time-delay"
  },
  {
   "id": "phys-0030",
@@ -507,6 +536,7 @@
    "Unclassifiable unless all three criteria are positive"
   ],
   "answer": 1,
-  "explanation": "The fluid-to-serum protein ratio is 3.6/6.0 = 0.60, exceeding the exudate cutoff of 0.5. Only one positive Light's criterion is needed to classify an effusion as exudative; the fluid protein need not exceed serum protein."
+  "explanation": "The fluid-to-serum protein ratio is 3.6/6.0 = 0.60, exceeding the exudate cutoff of 0.5. Only one positive Light's criterion is needed to classify an effusion as exudative; the fluid protein need not exceed serum protein.",
+  "source": "phys-pleural-exudate"
  }
 ]

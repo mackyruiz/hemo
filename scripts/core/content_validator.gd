@@ -26,6 +26,14 @@ const REQUIRED_MORPH := [
 	"auer_rod", "smudge_cell", "hairy_cell", "pelger_huet", "toxic_granulation", "dohle_body",
 	"normal_platelet", "giant_platelet", "platelet_clump", "platelet_satellitism", "retic_nmb", "kleihauer_betke",
 ]
+const SOURCE_HOSTS := ["nih.gov", "medlineplus.gov", "cdc.gov", "cancer.gov", "who.int", "fda.gov", "osha.gov", "hematology.org"]
+const GENERATED_SOURCE_KEYS := [
+	"drill:mcv", "drill:mch", "drill:mchc", "drill:absolute", "drill:corrected_wbc",
+	"drill:corrected_retic", "drill:rpi", "drill:hemocytometer", "drill:inr",
+	"qc:westgard", "coag:cascade",
+	"diff:normal_adult", "diff:allergy_parasite", "diff:bacterial_infection", "diff:viral_reactive",
+	"diff:hemolytic_nrbc", "diff:cll", "diff:cml", "diff:aml",
+]
 
 static func validate(c: Dictionary) -> Array[String]:
 	var errors: Array[String] = []
@@ -83,6 +91,7 @@ static func validate(c: Dictionary) -> Array[String]:
 	_validate_cases(c.get("cbc_cases", []), "cbc", morph, seen, errors)
 	_validate_cases(c.get("coag_cases", []), "coag", morph, seen, errors)
 	_validate_profiles(c.get("diff_profiles", []), errors)
+	_validate_sources(c, errors)
 	return errors
 
 static func _integer_in(value: Variant, low: int, high: int) -> bool:
@@ -299,3 +308,81 @@ static func _validate_profiles(profiles: Array, errors: Array[String]) -> void:
 				total += float(value)
 		if total != 100.0:
 			errors.append(where + ": pct must sum to exactly 100")
+
+static func _validate_sources(c: Dictionary, errors: Array[String]) -> void:
+	var sources: Dictionary = c.get("sources", {})
+	var generated: Dictionary = c.get("generated_sources", {})
+	var id_pattern := RegEx.new()
+	id_pattern.compile("^[a-z0-9-]+$")
+	for id: String in sources:
+		var where: String = "data/sources.json [%s]" % id
+		if id_pattern.search(id) == null:
+			errors.append(where + ": id must match ^[a-z0-9-]+$")
+		if not sources[id] is Dictionary:
+			errors.append(where + ": entry must be an object")
+			continue
+		var entry: Dictionary = sources[id]
+		for field: String in ["title", "publisher", "keyword"]:
+			if not _text(entry.get(field)):
+				errors.append(where + ": " + field + " must be non-empty")
+		if not _source_url_allowed(entry.get("url")):
+			errors.append(where + ": url must be https on an allow-listed host (" + str(entry.get("url")) + ")")
+	var used: Dictionary = {}
+	for key: String in GENERATED_SOURCE_KEYS:
+		if not generated.has(key):
+			errors.append("data/sources.json [generated]: missing key " + key)
+	for key: String in generated:
+		if key not in GENERATED_SOURCE_KEYS:
+			errors.append("data/sources.json [generated]: unexpected key " + key)
+		_check_source(generated[key], "data/sources.json [generated] " + key, sources, used, errors)
+	for value: Variant in c.get("questions", []):
+		if value is Dictionary:
+			var where: String = "data/questions/%s.json [%s]" % [value.get("topic", ""), value.get("id", "unknown")]
+			_check_source(value.get("source"), where, sources, used, errors)
+	for pair: Array in [["cbc", c.get("cbc_cases", [])], ["coag", c.get("coag_cases", [])]]:
+		for value: Variant in pair[1]:
+			if not value is Dictionary:
+				continue
+			var where: String = "data/cases_%s.json [%s]" % [pair[0], value.get("id", "unknown")]
+			_check_source(value.get("source"), where, sources, used, errors)
+			var steps: Variant = value.get("steps", [])
+			if steps is Array:
+				for index: int in range(steps.size()):
+					if steps[index] is Dictionary and steps[index].has("source"):
+						_check_source(steps[index]["source"], where + " step %d" % (index + 1), sources, used, errors)
+	var morph: Dictionary = c.get("morph", {})
+	for id: String in morph:
+		if morph[id] is Dictionary:
+			_check_source(morph[id].get("source"), "data/morphology.json [%s]" % id, sources, used, errors)
+	for id: String in sources:
+		if not used.has(id):
+			errors.append("data/sources.json [%s]: unused source" % id)
+
+static func _check_source(value: Variant, where: String, sources: Dictionary, used: Dictionary, errors: Array[String]) -> void:
+	if not _text(value):
+		errors.append(where + ": missing source")
+	elif not sources.has(value):
+		errors.append(where + ": unknown source " + str(value))
+	else:
+		used[value] = true
+
+static func _source_url_allowed(url: Variant) -> bool:
+	if not url is String or not url.begins_with("https://"):
+		return false
+	var rest: String = url.substr(8)
+	var end: int = rest.length()
+	for separator: String in ["/", "?", "#"]:
+		var at: int = rest.find(separator)
+		if at >= 0:
+			end = mini(end, at)
+	var host: String = rest.substr(0, end).to_lower()
+	if host.is_empty() or host.begins_with(".") or ".." in host:
+		return false
+	for index: int in range(host.length()):
+		var code: int = host.unicode_at(index)
+		if not ((code >= 97 and code <= 122) or (code >= 48 and code <= 57) or code == 45 or code == 46):
+			return false
+	for allowed: String in SOURCE_HOSTS:
+		if host == allowed or host.ends_with("." + allowed):
+			return true
+	return false

@@ -92,6 +92,7 @@ func _show_step() -> void:
 		return
 	var question: Dictionary = steps[_step_index].duplicate(true)
 	question["stem"] = "Step %d/%d\n%s" % [_step_index + 1, steps.size(), String(question["stem"])]
+	question["source"] = String(question.get("source", _case.get("source", "")))
 	_panel = QuestionPanel.new()
 	_step_host.add_child(_panel)
 	_panel.answered.connect(_on_answered)

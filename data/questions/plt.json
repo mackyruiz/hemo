@@ -14,7 +14,8 @@
    "10-50 ×10³/µL"
   ],
   "answer": 0,
-  "explanation": "The adult reference interval is 150-450 ×10³/µL. Counts below 150 define thrombocytopenia."
+  "explanation": "The adult reference interval is 150-450 ×10³/µL. Counts below 150 define thrombocytopenia.",
+  "source": "plt-nhlbi-thrombocytopenia"
  },
  {
   "id": "plt-0002",
@@ -31,7 +32,8 @@
    "Request platelet transfusion based only on this instrument count"
   ],
   "answer": 1,
-  "explanation": "EDTA-dependent in-vitro clumping can falsely lower the count; it does not itself establish true thrombocytopenia. Verify that a properly filled citrate specimen is free of clumps and apply the laboratory's dilution correction, usually 1.1."
+  "explanation": "EDTA-dependent in-vitro clumping can falsely lower the count; it does not itself establish true thrombocytopenia. Verify that a properly filled citrate specimen is free of clumps and apply the laboratory's dilution correction, usually 1.1.",
+  "source": "plt-pseudothrombocytopenia"
  },
  {
   "id": "plt-0003",
@@ -48,7 +50,8 @@
    "Increased platelets with marked microcytosis"
   ],
   "answer": 2,
-  "explanation": "ITP involves antibody-mediated platelet destruction, so the marrow releases larger young platelets. Schistocytes point toward microangiopathy instead."
+  "explanation": "ITP involves antibody-mediated platelet destruction, so the marrow releases larger young platelets. Schistocytes point toward microangiopathy instead.",
+  "source": "plt-itp-smear"
  },
  {
   "id": "plt-0004",
@@ -65,7 +68,8 @@
    "Thrombotic thrombocytopenic purpura"
   ],
   "answer": 3,
-  "explanation": "TTP causes platelet-rich microthrombi and microangiopathic hemolysis in association with severe ADAMTS13 deficiency. PT and aPTT are usually normal, unlike the consumptive pattern commonly seen in overt DIC."
+  "explanation": "TTP causes platelet-rich microthrombi and microangiopathic hemolysis in association with severe ADAMTS13 deficiency. PT and aPTT are usually normal, unlike the consumptive pattern commonly seen in overt DIC.",
+  "source": "plt-nhlbi-ttp"
  },
  {
   "id": "plt-0005",
@@ -82,7 +86,8 @@
    "Bernard-Soulier syndrome"
   ],
   "answer": 0,
-  "explanation": "HIT is caused by antibodies to platelet factor 4-heparin complexes, typically 5-10 days after exposure. It paradoxically increases thrombosis risk."
+  "explanation": "HIT is caused by antibodies to platelet factor 4-heparin complexes, typically 5-10 days after exposure. It paradoxically increases thrombosis risk.",
+  "source": "plt-hit-review"
  },
  {
   "id": "plt-0006",
@@ -99,7 +104,8 @@
    "Normal platelets with isolated prolongation of aPTT"
   ],
   "answer": 1,
-  "explanation": "Overt DIC consumes platelets and clotting factors, while fibrin breakdown raises D-dimer. ITP causes isolated thrombocytopenia without this consumptive coagulation pattern."
+  "explanation": "Overt DIC consumes platelets and clotting factors, while fibrin breakdown raises D-dimer. ITP causes isolated thrombocytopenia without this consumptive coagulation pattern.",
+  "source": "plt-dic-review"
  },
  {
   "id": "plt-0007",
@@ -116,7 +122,8 @@
    "Persistently high, reflecting splenic platelet pooling"
   ],
   "answer": 2,
-  "explanation": "Production failure lowers output of young platelets, so the immature fraction is not raised. It rises when peripheral destruction triggers compensatory marrow release."
+  "explanation": "Production failure lowers output of young platelets, so the immature fraction is not raised. It rises when peripheral destruction triggers compensatory marrow release.",
+  "source": "plt-immature-platelet-fraction"
  },
  {
   "id": "plt-0008",
@@ -133,7 +140,8 @@
    "Platelet satellitism"
   ],
   "answer": 3,
-  "explanation": "Platelet satellitism is typically an EDTA-dependent in-vitro interaction in which platelets adhere to neutrophils. Confirming the count in a non-clumping alternative-anticoagulant specimen helps distinguish it from true thrombocytopenia."
+  "explanation": "Platelet satellitism is typically an EDTA-dependent in-vitro interaction in which platelets adhere to neutrophils. Confirming the count in a non-clumping alternative-anticoagulant specimen helps distinguish it from true thrombocytopenia.",
+  "source": "plt-analyzer-artifacts"
  },
  {
   "id": "plt-0009",
@@ -150,7 +158,8 @@
    "Multiply the instrument count by ten to account for the clumps"
   ],
   "answer": 0,
-  "explanation": "Clumped platelets are not counted reliably, so the numerical result cannot be released as accurate. Check a citrate recollection for residual clumps before reporting its dilution-corrected count."
+  "explanation": "Clumped platelets are not counted reliably, so the numerical result cannot be released as accurate. Check a citrate recollection for residual clumps before reporting its dilution-corrected count.",
+  "source": "plt-pseudothrombocytopenia"
  },
  {
   "id": "plt-0010",
@@ -167,7 +176,8 @@
    "Acute leukemia replacing platelet-producing marrow"
   ],
   "answer": 1,
-  "explanation": "Mild isolated thrombocytopenia late in pregnancy that resolves postpartum supports gestational thrombocytopenia. HELLP requires evidence of hemolysis and elevated liver enzymes in addition to low platelets."
+  "explanation": "Mild isolated thrombocytopenia late in pregnancy that resolves postpartum supports gestational thrombocytopenia. HELLP requires evidence of hemolysis and elevated liver enzymes in addition to low platelets.",
+  "source": "plt-medlineplus-platelet-tests"
  },
  {
   "id": "plt-0011",
@@ -184,7 +194,8 @@
    "Dense granule deficiency"
   ],
   "answer": 2,
-  "explanation": "Bernard-Soulier syndrome involves defective GPIb-IX-V, preventing normal vWF-dependent agglutination. Normal plasma supplies vWF but cannot replace the missing platelet receptor; most vWF-deficient plasma defects correct in this mixing approach."
+  "explanation": "Bernard-Soulier syndrome involves defective GPIb-IX-V, preventing normal vWF-dependent agglutination. Normal plasma supplies vWF but cannot replace the missing platelet receptor; most vWF-deficient plasma defects correct in this mixing approach.",
+  "source": "plt-platelet-function-defects"
  },
  {
   "id": "plt-0012",
@@ -201,7 +212,8 @@
    "Review the smear and obtain a validated alternate-method count"
   ],
   "answer": 3,
-  "explanation": "Giant platelets may fall outside an impedance analyzer's platelet gate and be missed. A validated optical, fluorescence, or manual method can resolve the count; a smear estimate alone is not a precise numerical replacement."
+  "explanation": "Giant platelets may fall outside an impedance analyzer's platelet gate and be missed. A validated optical, fluorescence, or manual method can resolve the count; a smear estimate alone is not a precise numerical replacement.",
+  "source": "plt-analyzer-artifacts"
  },
  {
   "id": "plt-0013",
@@ -218,7 +230,8 @@
    "100 ×10³/µL"
   ],
   "answer": 0,
-  "explanation": "Thrombocytosis is a count above the upper reference limit of 450 ×10³/µL."
+  "explanation": "Thrombocytosis is a count above the upper reference limit of 450 ×10³/µL.",
+  "source": "plt-essential-thrombocythemia"
  },
  {
   "id": "plt-0014",
@@ -235,7 +248,8 @@
    "Immune thrombocytopenia"
   ],
   "answer": 1,
-  "explanation": "Iron deficiency is a common reactive cause of an increased platelet count. Aplastic anemia reduces production, while TTP and ITP reduce counts through peripheral consumption or destruction."
+  "explanation": "Iron deficiency is a common reactive cause of an increased platelet count. Aplastic anemia reduces production, while TTP and ITP reduce counts through peripheral consumption or destruction.",
+  "source": "plt-essential-thrombocythemia"
  },
  {
   "id": "plt-0015",
@@ -252,7 +266,8 @@
    "Iron depletion with a markedly reduced ferritin"
   ],
   "answer": 2,
-  "explanation": "A driver mutation supports a clonal myeloproliferative process rather than reactive thrombocytosis. Diagnosis of essential thrombocythemia also requires marrow and clinical evaluation; the mutation alone does not distinguish all myeloproliferative neoplasms."
+  "explanation": "A driver mutation supports a clonal myeloproliferative process rather than reactive thrombocytosis. Diagnosis of essential thrombocythemia also requires marrow and clinical evaluation; the mutation alone does not distinguish all myeloproliferative neoplasms.",
+  "source": "plt-essential-thrombocythemia"
  },
  {
   "id": "plt-0016",
@@ -269,7 +284,8 @@
    "Increased platelets with large and bizarre forms"
   ],
   "answer": 3,
-  "explanation": "The smear shows many platelets of variable size, with giants and clumps. Schistocytes would indicate microangiopathy."
+  "explanation": "The smear shows many platelets of variable size, with giants and clumps. Schistocytes would indicate microangiopathy.",
+  "source": "plt-analyzer-artifacts"
  },
  {
   "id": "plt-0017",
@@ -286,7 +302,8 @@
    "Suppression of platelet production by marrow aplasia"
   ],
   "answer": 0,
-  "explanation": "Extreme thrombocytosis can cause acquired von Willebrand syndrome through loss of large vWF multimers, impairing platelet adhesion. A very high count therefore does not exclude bleeding; factor IX deficiency would instead impair secondary hemostasis."
+  "explanation": "Extreme thrombocytosis can cause acquired von Willebrand syndrome through loss of large vWF multimers, impairing platelet adhesion. A very high count therefore does not exclude bleeding; factor IX deficiency would instead impair secondary hemostasis.",
+  "source": "plt-essential-thrombocythemia"
  },
  {
   "id": "plt-0018",
@@ -303,7 +320,8 @@
    "Giant platelets being misclassified as red blood cells"
   ],
   "answer": 1,
-  "explanation": "Small red-cell fragments can fall within the impedance platelet gate and falsely elevate the count. Clumps and giant platelets more often cause falsely low counts; verify using a validated alternate method."
+  "explanation": "Small red-cell fragments can fall within the impedance platelet gate and falsely elevate the count. Clumps and giant platelets more often cause falsely low counts; verify using a validated alternate method.",
+  "source": "plt-analyzer-artifacts"
  },
  {
   "id": "plt-0019",
@@ -320,7 +338,8 @@
    "GPIa/IIa"
   ],
   "answer": 2,
-  "explanation": "GPIIb/IIIa is the fibrinogen receptor needed for platelet aggregation. Patients have a normal count but poor aggregation to most agonists."
+  "explanation": "GPIIb/IIIa is the fibrinogen receptor needed for platelet aggregation. Patients have a normal count but poor aggregation to most agonists.",
+  "source": "plt-platelet-function-defects"
  },
  {
   "id": "plt-0020",
@@ -337,7 +356,8 @@
    "Agglutination induced by ristocetin"
   ],
   "answer": 3,
-  "explanation": "Glanzmann thrombasthenia impairs GPIIb/IIIa-dependent aggregation but preserves the GPIb-vWF interaction measured by ristocetin. Bernard-Soulier syndrome impairs ristocetin agglutination and commonly causes giant platelets with a low count."
+  "explanation": "Glanzmann thrombasthenia impairs GPIIb/IIIa-dependent aggregation but preserves the GPIb-vWF interaction measured by ristocetin. Bernard-Soulier syndrome impairs ristocetin agglutination and commonly causes giant platelets with a low count.",
+  "source": "plt-platelet-function-defects"
  },
  {
   "id": "plt-0021",
@@ -354,7 +374,8 @@
    "Coagulation factor XIII deficiency"
   ],
   "answer": 0,
-  "explanation": "Dense granules store ADP and ATP; reduced release limits recruitment of additional platelets and the secondary wave. Coagulation factor deficiencies do not directly cause deficient platelet ATP secretion."
+  "explanation": "Dense granules store ADP and ATP; reduced release limits recruitment of additional platelets and the secondary wave. Coagulation factor deficiencies do not directly cause deficient platelet ATP secretion.",
+  "source": "plt-platelet-function-defects"
  },
  {
   "id": "plt-0022",
@@ -371,7 +392,8 @@
    "Warfarin"
   ],
   "answer": 1,
-  "explanation": "Aspirin acetylates COX-1, blocking thromboxane A2 production for the platelet's lifespan. Clopidogrel blocks the P2Y12 receptor instead."
+  "explanation": "Aspirin acetylates COX-1, blocking thromboxane A2 production for the platelet's lifespan. Clopidogrel blocks the P2Y12 receptor instead.",
+  "source": "plt-aspirin-platelets"
  },
  {
   "id": "plt-0023",
@@ -388,7 +410,8 @@
    "Aggregation induced by arachidonic acid"
   ],
   "answer": 2,
-  "explanation": "Reduced vWF can decrease ristocetin-induced agglutination, which depends on the vWF-GPIb interaction. ADP-induced aggregation tests a different pathway and is usually preserved; not every vWD subtype has the same ristocetin pattern."
+  "explanation": "Reduced vWF can decrease ristocetin-induced agglutination, which depends on the vWF-GPIb interaction. ADP-induced aggregation tests a different pathway and is usually preserved; not every vWD subtype has the same ristocetin pattern.",
+  "source": "plt-medlineplus-vwd"
  },
  {
   "id": "plt-0024",
@@ -405,7 +428,8 @@
    "Recollect in citrate and transport promptly at room temperature"
   ],
   "answer": 3,
-  "explanation": "Chilling and excessive delay alter platelet function and can invalidate aggregation results. Follow the laboratory's validated collection and timing limits, commonly completing testing within four hours rather than attempting to reverse the damage by warming."
+  "explanation": "Chilling and excessive delay alter platelet function and can invalidate aggregation results. Follow the laboratory's validated collection and timing limits, commonly completing testing within four hours rather than attempting to reverse the damage by warming.",
+  "source": "plt-refrigeration-responsiveness"
  },
  {
   "id": "plt-0025",
@@ -422,6 +446,7 @@
    "Prolonged PT and aPTT with normal responses to platelet agonists"
   ],
   "answer": 0,
-  "explanation": "Aspirin irreversibly inhibits platelet COX-1 and suppresses arachidonic acid-induced aggregation without normally lowering the count. Documenting medication exposure prevents mistaking an acquired drug effect for an inherited defect; isolated ristocetin impairment points elsewhere."
+  "explanation": "Aspirin irreversibly inhibits platelet COX-1 and suppresses arachidonic acid-induced aggregation without normally lowering the count. Documenting medication exposure prevents mistaking an acquired drug effect for an inherited defect; isolated ristocetin impairment points elsewhere.",
+  "source": "plt-aspirin-platelets"
  }
 ]

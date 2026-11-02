@@ -60,17 +60,18 @@ func _build_questions(rule: String) -> void:
 	var choices: Array[String] = [String(LABELS[rule])]
 	for i in range(3):
 		choices.append(distractors[i])
-	_questions.append({"stem": "Which is the highest-priority (most severe) Westgard rule violated on the most recent run?", "choices": choices, "answer": 0, "image": null, "explanation": String(RULE_EXPLANATIONS[rule]) + " Multiple rules can coexist; select the highest-priority rule in this exercise: 1-3s > R-4s > 2-2s > 4-1s > 10-x > 1-2s. A 1-2s warning alone does not reject the run."})
+	var source_id: String = String(Content.generated_sources.get("qc:westgard", ""))
+	_questions.append({"stem": "Which is the highest-priority (most severe) Westgard rule violated on the most recent run?", "choices": choices, "answer": 0, "image": null, "source": source_id, "explanation": String(RULE_EXPLANATIONS[rule]) + " Multiple rules can coexist; select the highest-priority rule in this exercise: 1-3s > R-4s > 2-2s > 4-1s > 10-x > 1-2s. A 1-2s warning alone does not reject the run."})
 	var reject: bool = rule != "" and rule != "1_2s"
 	_questions.append({
 		"stem": "What should you do?",
 		"choices": ["Accept the run and report patient results", "Reject the run, hold patient results, and troubleshoot"],
-		"answer": 1 if reject else 0, "image": null,
+		"answer": 1 if reject else 0, "image": null, "source": source_id,
 		"explanation": ("Do not release patient results until the QC failure is resolved. " if reject else "With no rejection rule present, the run can be accepted. ") + String(RULE_EXPLANATIONS[rule])
 	})
 	if reject:
 		var error: String = Westgard.error_type(rule)
-		_questions.append({"stem": "What type of error does this suggest?", "choices": ["Random error", "Systematic error"], "answer": 0 if error == "random" else 1, "image": null, "explanation": String(RULE_EXPLANATIONS[rule])})
+		_questions.append({"stem": "What type of error does this suggest?", "choices": ["Random error", "Systematic error"], "answer": 0 if error == "random" else 1, "image": null, "source": source_id, "explanation": String(RULE_EXPLANATIONS[rule])})
 
 
 func _show_question() -> void:

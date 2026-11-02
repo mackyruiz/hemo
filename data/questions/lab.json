@@ -14,7 +14,8 @@
       "Methylene blue in buffered saline"
     ],
     "answer": 0,
-    "explanation": "Acetic acid lyses erythrocytes so only nucleated cells remain to be counted. Hayem's and saline preserve red cells, which is what an RBC diluent should do."
+    "explanation": "Acetic acid lyses erythrocytes so only nucleated cells remain to be counted. Hayem's and saline preserve red cells, which is what an RBC diluent should do.",
+    "source": "lab-body-fluid-testing"
   },
   {
     "id": "lab-0002",
@@ -31,7 +32,8 @@
       "Add a second drop of stain to each side"
     ],
     "answer": 1,
-    "explanation": "Cells need time to settle onto the grid so they sit in one focal plane. A humid chamber prevents the fluid from evaporating during the wait."
+    "explanation": "Cells need time to settle onto the grid so they sit in one focal plane. A humid chamber prevents the fluid from evaporating during the wait.",
+    "source": "lab-body-fluid-testing"
   },
   {
     "id": "lab-0003",
@@ -48,7 +50,8 @@
       "18,000"
     ],
     "answer": 2,
-    "explanation": "Cells/µL = cells × dilution ÷ (area × depth) = 180 × 20 ÷ (4 × 0.1) = 9000. Omitting the depth correction gives 900 instead."
+    "explanation": "Cells/µL = cells × dilution ÷ (area × depth) = 180 × 20 ÷ (4 × 0.1) = 9000. Omitting the depth correction gives 900 instead.",
+    "source": "lab-chamber-calculation"
   },
   {
     "id": "lab-0004",
@@ -65,7 +68,8 @@
       "4,400"
     ],
     "answer": 3,
-    "explanation": "Cells/µL = 88 × 20 ÷ (4 × 0.1) = 1760 ÷ 0.4 = 4400, which is 4.4 ×10³/µL. Dividing by area but forgetting the 0.1 mm depth factor gives the 440 error."
+    "explanation": "Cells/µL = 88 × 20 ÷ (4 × 0.1) = 1760 ÷ 0.4 = 4400, which is 4.4 ×10³/µL. Dividing by area but forgetting the 0.1 mm depth factor gives the 440 error.",
+    "source": "lab-chamber-calculation"
   },
   {
     "id": "lab-0005",
@@ -82,7 +86,8 @@
       "Centrifugal packing of cells in a capillary"
     ],
     "answer": 0,
-    "explanation": "Each cell displaces conductive diluent in the aperture, producing a pulse whose height tracks cell volume. The other methods measure hemoglobin, nucleic acid or packed volume instead."
+    "explanation": "Each cell displaces conductive diluent in the aperture, producing a pulse whose height tracks cell volume. The other methods measure hemoglobin, nucleic acid or packed volume instead.",
+    "source": "lab-automated-counters-history"
   },
   {
     "id": "lab-0006",
@@ -99,7 +104,8 @@
       "Report the WBC as a critical value immediately"
     ],
     "answer": 1,
-    "explanation": "nRBCs can be counted with leukocytes in an uncorrected WBC channel. Unlike reporting the raw count, counting nRBCs per 100 WBCs and applying the correction removes this inflation; do not correct a result already corrected by the analyzer."
+    "explanation": "nRBCs can be counted with leukocytes in an uncorrected WBC channel. Unlike reporting the raw count, counting nRBCs per 100 WBCs and applying the correction removes this inflation; do not correct a result already corrected by the analyzer.",
+    "source": "lab-nrbc-wbc-correction"
   },
   {
     "id": "lab-0007",
@@ -116,7 +122,8 @@
       "12.0"
     ],
     "answer": 2,
-    "explanation": "Corrected WBC = 12.0 × 100 ÷ (100 + 20) = 1200 ÷ 120 = 10.0 ×10³/µL. Leaving the value at 12.0 would continue to count nRBCs as leukocytes."
+    "explanation": "Corrected WBC = 12.0 × 100 ÷ (100 + 20) = 1200 ÷ 120 = 10.0 ×10³/µL. Leaving the value at 12.0 would continue to count nRBCs as leukocytes.",
+    "source": "lab-nrbc-wbc-correction"
   },
   {
     "id": "lab-0008",
@@ -133,7 +140,8 @@
       "Red cell fragments close to platelet size"
     ],
     "answer": 3,
-    "explanation": "Fragments and microcytes fall within the platelet size window and are counted as platelets. Clumping, satellitism and giant platelets all tend to lower the reported count."
+    "explanation": "Fragments and microcytes fall within the platelet size window and are counted as platelets. Clumping, satellitism and giant platelets all tend to lower the reported count.",
+    "source": "lab-platelet-counting-traps"
   },
   {
     "id": "lab-0009",
@@ -150,7 +158,8 @@
       "Acid elution (Kleihauer-Betke)"
     ],
     "answer": 0,
-    "explanation": "Reticulocyte RNA precipitates only in living, unfixed cells, so a supravital dye is needed. Wright stain after fixation does not distinguish them reliably."
+    "explanation": "Reticulocyte RNA precipitates only in living, unfixed cells, so a supravital dye is needed. Wright stain after fixation does not distinguish them reliably.",
+    "source": "lab-retic-manual-automated"
   },
   {
     "id": "lab-0010",
@@ -167,7 +176,8 @@
       "Heat the mixture to 56 °C for 30 minutes"
     ],
     "answer": 1,
-    "explanation": "Incubation lets the dye penetrate and precipitate the ribosomal RNA. Fixing the cells first would prevent the stain from working."
+    "explanation": "Incubation lets the dye penetrate and precipitate the ribosomal RNA. Fixing the cells first would prevent the stain from working.",
+    "source": "lab-retic-manual-automated"
   },
   {
     "id": "lab-0011",
@@ -184,7 +194,8 @@
       "2.0%"
     ],
     "answer": 2,
-    "explanation": "Corrected retic = 4.5 × 30 ÷ 45 = 135 ÷ 45 = 3.0%. Multiplying by the inverse Hct ratio gives the erroneous 6.8%."
+    "explanation": "Corrected retic = 4.5 × 30 ÷ 45 = 135 ÷ 45 = 3.0%. Multiplying by the inverse Hct ratio gives the erroneous 6.8%.",
+    "source": "lab-rbc-formulas"
   },
   {
     "id": "lab-0012",
@@ -201,7 +212,8 @@
       "1.5"
     ],
     "answer": 3,
-    "explanation": "Corrected retic = 6.0 × 22.5 ÷ 45 = 3.0%. RPI = 3.0 ÷ 2.0 = 1.5; the 3.0 answer omits maturation correction, and the RPI indicates an inadequate marrow response to anemia."
+    "explanation": "Corrected retic = 6.0 × 22.5 ÷ 45 = 3.0%. RPI = 3.0 ÷ 2.0 = 1.5; the 3.0 answer omits maturation correction, and the RPI indicates an inadequate marrow response to anemia.",
+    "source": "lab-rbc-formulas"
   },
   {
     "id": "lab-0013",
@@ -218,7 +230,8 @@
       "Replace the plasma with saline and repeat"
     ],
     "answer": 0,
-    "explanation": "This pattern fits a cold agglutinin. Warming dissociates the IgM, so the RBC, Hct and indices become accurate."
+    "explanation": "This pattern fits a cold agglutinin. Warming dissociates the IgM, so the RBC, Hct and indices become accurate.",
+    "source": "lab-cold-agglutinin"
   },
   {
     "id": "lab-0014",
@@ -235,7 +248,8 @@
       "Warm the sample to 37 °C and rerun it"
     ],
     "answer": 1,
-    "explanation": "Lipid turbidity increases absorbance in the hemoglobin channel. Replacing the plasma with diluent removes the interference."
+    "explanation": "Lipid turbidity increases absorbance in the hemoglobin channel. Replacing the plasma with diluent removes the interference.",
+    "source": "lab-lipemic-samples"
   },
   {
     "id": "lab-0015",
@@ -252,7 +266,8 @@
       "Recollect in a second EDTA tube and repeat"
     ],
     "answer": 2,
-    "explanation": "EDTA-dependent clumping can cause pseudothrombocytopenia, so repeating EDTA may reproduce the problem. If a properly filled 9:1 blood:citrate tube has no clumps, multiply its platelet count by 1.1 for dilution; citrate does not prevent clumps in every patient."
+    "explanation": "EDTA-dependent clumping can cause pseudothrombocytopenia, so repeating EDTA may reproduce the problem. If a properly filled 9:1 blood:citrate tube has no clumps, multiply its platelet count by 1.1 for dilution; citrate does not prevent clumps in every patient.",
+    "source": "lab-platelet-counting-traps"
   },
   {
     "id": "lab-0016",
@@ -269,7 +284,8 @@
       "Use a validated method that clears leukocyte debris from the hemolysate"
     ],
     "answer": 3,
-    "explanation": "Residual leukocyte material in a hemolysate can scatter light and falsely elevate Hgb. A validated debris-clearing method can remove the interference; cell-free plasma alone does not contain the patient's red cell hemoglobin."
+    "explanation": "Residual leukocyte material in a hemolysate can scatter light and falsely elevate Hgb. A validated debris-clearing method can remove the interference; cell-free plasma alone does not contain the patient's red cell hemoglobin.",
+    "source": "lab-unreliable-cbc"
   },
   {
     "id": "lab-0017",
@@ -286,7 +302,8 @@
       "Hemoglobin electrophoresis at pH 8.6"
     ],
     "answer": 0,
-    "explanation": "Drabkin's reagent converts most hemoglobin derivatives to stable cyanmethemoglobin, whose absorbance is proportional to concentration. Electrophoresis separates hemoglobin types rather than serving as the reference total Hgb measurement."
+    "explanation": "Drabkin's reagent converts most hemoglobin derivatives to stable cyanmethemoglobin, whose absorbance is proportional to concentration. Electrophoresis separates hemoglobin types rather than serving as the reference total Hgb measurement.",
+    "source": "lab-hemoglobin-methods"
   },
   {
     "id": "lab-0018",
@@ -303,7 +320,8 @@
       "Oxyhemoglobin"
     ],
     "answer": 1,
-    "explanation": "Sulfhemoglobin is irreversibly formed and resists conversion. The other three derivatives are measured."
+    "explanation": "Sulfhemoglobin is irreversibly formed and resists conversion. The other three derivatives are measured.",
+    "source": "lab-hemoglobin-derivatives"
   },
   {
     "id": "lab-0019",
@@ -320,7 +338,8 @@
       "Switch to a 620 nm filter and rerun"
     ],
     "answer": 2,
-    "explanation": "Beer's law is valid only within the calibrated range. A measured dilution restores a reading inside it."
+    "explanation": "Beer's law is valid only within the calibrated range. A measured dilution restores a reading inside it.",
+    "source": "lab-hemoglobin-methods"
   },
   {
     "id": "lab-0020",
@@ -337,7 +356,8 @@
       "Oxidizing heme iron from Fe²⁺ to Fe³⁺ to form methemoglobin"
     ],
     "answer": 3,
-    "explanation": "Ferricyanide oxidizes ferrous heme to methemoglobin, and cyanide then binds to form the stable colored product. Ferricyanide is not the lysing agent."
+    "explanation": "Ferricyanide oxidizes ferrous heme to methemoglobin, and cyanide then binds to form the stable colored product. Ferricyanide is not the lysing agent.",
+    "source": "lab-hemoglobin-derivatives"
   },
   {
     "id": "lab-0021",
@@ -354,7 +374,8 @@
       "With either end outward and no balancing of the loaded tubes"
     ],
     "answer": 0,
-    "explanation": "The seal must face outward to retain blood under centrifugal force, and opposing loads must be balanced. Facing an open end outward risks losing the specimen."
+    "explanation": "The seal must face outward to retain blood under centrifugal force, and opposing loads must be balanced. Facing an open end outward risks losing the specimen.",
+    "source": "lab-manual-hematocrit"
   },
   {
     "id": "lab-0022",
@@ -371,7 +392,8 @@
       "38%"
     ],
     "answer": 1,
-    "explanation": "The expected Hct is about 3 × Hgb = 3 × 11.0 = 33%. This rule works only for normocytic, normochromic cells."
+    "explanation": "The expected Hct is about 3 × Hgb = 3 × 11.0 = 33%. This rule works only for normocytic, normochromic cells.",
+    "source": "lab-unreliable-cbc"
   },
   {
     "id": "lab-0023",
@@ -388,7 +410,8 @@
       "Read the midpoint of the buffy coat"
     ],
     "answer": 2,
-    "explanation": "The packed red cell column alone defines the Hct. Including the buffy coat overestimates it."
+    "explanation": "The packed red cell column alone defines the Hct. Including the buffy coat overestimates it.",
+    "source": "lab-manual-hematocrit"
   },
   {
     "id": "lab-0024",
@@ -405,7 +428,8 @@
       "It is calculated from the MCV and RBC count"
     ],
     "answer": 3,
-    "explanation": "Hct (%) = MCV × RBC ÷ 10 when RBC is in ×10⁶/µL and MCV in fL. Multiplying Hgb by three is only a plausibility check for suitable samples, not the analyzer's Hct method."
+    "explanation": "Hct (%) = MCV × RBC ÷ 10 when RBC is in ×10⁶/µL and MCV in fL. Multiplying Hgb by three is only a plausibility check for suitable samples, not the analyzer's Hct method.",
+    "source": "lab-manual-hematocrit"
   },
   {
     "id": "lab-0025",
@@ -422,7 +446,8 @@
       "144"
     ],
     "answer": 0,
-    "explanation": "MCV = Hct × 10 ÷ RBC = 36 × 10 ÷ 4.0 = 90 fL, within the 80–100 fL range. Neither 80 nor 100 follows from the given numbers."
+    "explanation": "MCV = Hct × 10 ÷ RBC = 36 × 10 ÷ 4.0 = 90 fL, within the 80–100 fL range. Neither 80 nor 100 follows from the given numbers.",
+    "source": "lab-rbc-formulas"
   },
   {
     "id": "lab-0026",
@@ -439,7 +464,8 @@
       "2.5"
     ],
     "answer": 1,
-    "explanation": "MCH = Hgb × 10 ÷ RBC = 90 ÷ 3.6 = 25.0 pg. The 2.5 answer omits the factor of ten."
+    "explanation": "MCH = Hgb × 10 ÷ RBC = 90 ÷ 3.6 = 25.0 pg. The 2.5 answer omits the factor of ten.",
+    "source": "lab-rbc-formulas"
   },
   {
     "id": "lab-0027",
@@ -456,7 +482,8 @@
       "31.4"
     ],
     "answer": 2,
-    "explanation": "MCHC = Hgb × 100 ÷ Hct = 1050 ÷ 33 = 31.8 g/dL, slightly below the 32–36 reference range. The 31.4 option is not the rounded result of the stated calculation."
+    "explanation": "MCHC = Hgb × 100 ÷ Hct = 1050 ÷ 33 = 31.8 g/dL, slightly below the 32–36 reference range. The 31.4 option is not the rounded result of the stated calculation.",
+    "source": "lab-rbc-formulas"
   },
   {
     "id": "lab-0028",
@@ -473,7 +500,8 @@
       "Review the smear for mixed red cell populations and correlate with history"
     ],
     "answer": 3,
-    "explanation": "A mean MCV can mask two populations, such as a patient's microcytes mixed with transfused normocytes. Smear review can verify the histogram; repeating Hgb alone does not assess the size distribution."
+    "explanation": "A mean MCV can mask two populations, such as a patient's microcytes mixed with transfused normocytes. Smear review can verify the histogram; repeating Hgb alone does not assess the size distribution.",
+    "source": "lab-rbc-histogram"
   },
   {
     "id": "lab-0029",
@@ -490,7 +518,8 @@
       "Elliptocyte"
     ],
     "answer": 0,
-    "explanation": "Target cells have a central hemoglobin-filled area, a clear ring and a dense rim. A stomatocyte instead has slit-like central pallor."
+    "explanation": "Target cells have a central hemoglobin-filled area, a clear ring and a dense rim. A stomatocyte instead has slit-like central pallor.",
+    "source": "lab-medlineplus-blood-smear"
   },
   {
     "id": "lab-0030",
@@ -507,7 +536,8 @@
       "6.5"
     ],
     "answer": 1,
-    "explanation": "Neutrophils = 58% + 7% = 65% of the WBC, and 8.0 × 0.65 = 5.2 ×10³/µL. The 4.6 option incorrectly omits bands."
+    "explanation": "Neutrophils = 58% + 7% = 65% of the WBC, and 8.0 × 0.65 = 5.2 ×10³/µL. The 4.6 option incorrectly omits bands.",
+    "source": "lab-absolute-count"
   },
   {
     "id": "lab-0031",
@@ -524,7 +554,8 @@
       "In the area where red cells overlap heavily"
     ],
     "answer": 2,
-    "explanation": "Cell morphology is best seen in the monolayer. The thin feather edge overrepresents large cells such as monocytes."
+    "explanation": "Cell morphology is best seen in the monolayer. The thin feather edge overrepresents large cells such as monocytes.",
+    "source": "lab-blood-film-review"
   },
   {
     "id": "lab-0032",
@@ -541,7 +572,8 @@
       "Auer rod"
     ],
     "answer": 3,
-    "explanation": "Auer rods are fused primary granules and support myeloid lineage in a blast. Döhle bodies are pale blue inclusions in mature neutrophils, not red needle-like rods."
+    "explanation": "Auer rods are fused primary granules and support myeloid lineage in a blast. Döhle bodies are pale blue inclusions in mature neutrophils, not red needle-like rods.",
+    "source": "lab-medlineplus-auer-rods"
   },
   {
     "id": "lab-0033",
@@ -558,7 +590,8 @@
       "Decreased reticulocytes with increased haptoglobin"
     ],
     "answer": 0,
-    "explanation": "Free hemoglobin is bound by haptoglobin and cleared, so haptoglobin falls while LDH rises from lysed cells. Increased haptoglobin with decreased LDH is the opposite pattern."
+    "explanation": "Free hemoglobin is bound by haptoglobin and cleared, so haptoglobin falls while LDH rises from lysed cells. Increased haptoglobin with decreased LDH is the opposite pattern.",
+    "source": "lab-hemolysis-markers"
   },
   {
     "id": "lab-0034",
@@ -575,7 +608,8 @@
       "Extravascular hemolysis only"
     ],
     "answer": 1,
-    "explanation": "After intravascular hemolysis, filtered free hemoglobin is taken up by renal tubular cells and its iron is later shed as hemosiderin. Extravascular hemolysis alone does not produce this urinary finding."
+    "explanation": "After intravascular hemolysis, filtered free hemoglobin is taken up by renal tubular cells and its iron is later shed as hemosiderin. Extravascular hemolysis alone does not produce this urinary finding.",
+    "source": "lab-hemolysis-markers"
   },
   {
     "id": "lab-0035",
@@ -592,7 +626,8 @@
       "Heat the sample before comparing the color"
     ],
     "answer": 2,
-    "explanation": "Poor collection technique lyses cells in vitro. A fresh clean draw that remains pink, together with consumed haptoglobin, points to real hemolysis."
+    "explanation": "Poor collection technique lyses cells in vitro. A fresh clean draw that remains pink, together with consumed haptoglobin, points to real hemolysis.",
+    "source": "lab-hemolyzed-specimens"
   },
   {
     "id": "lab-0036",
@@ -609,7 +644,8 @@
       "Warm autoimmune hemolytic anemia"
     ],
     "answer": 3,
-    "explanation": "A positive DAT shows that antibody or complement is on the red cell. Hereditary spherocytosis has a negative DAT."
+    "explanation": "A positive DAT shows that antibody or complement is on the red cell. Hereditary spherocytosis has a negative DAT.",
+    "source": "lab-warm-aiha"
   },
   {
     "id": "lab-0037",
@@ -626,7 +662,8 @@
       "Tartrate-resistant acid phosphatase"
     ],
     "answer": 0,
-    "explanation": "Prussian blue stains ferric iron in Pappenheimer bodies. Sudan black B stains myeloid lipid-containing granules rather than identifying iron."
+    "explanation": "Prussian blue stains ferric iron in Pappenheimer bodies. Sudan black B stains myeloid lipid-containing granules rather than identifying iron.",
+    "source": "lab-sideroblastic-anemia"
   },
   {
     "id": "lab-0038",
@@ -643,7 +680,8 @@
       "Cells with Heinz bodies"
     ],
     "answer": 1,
-    "explanation": "Hb F resists acid elution, so fetal cells stay stained. Adult red cells appear as pale ghosts."
+    "explanation": "Hb F resists acid elution, so fetal cells stay stained. Adult red cells appear as pale ghosts.",
+    "source": "lab-kleihauer-betke"
   },
   {
     "id": "lab-0039",
@@ -660,7 +698,8 @@
       "Prussian blue iron stain"
     ],
     "answer": 2,
-    "explanation": "MPO and Sudan black B stain myeloid granules, while lymphoblasts are typically negative. PAS alone is not myeloid-specific, and some minimally differentiated myeloid leukemias can lack MPO."
+    "explanation": "MPO and Sudan black B stain myeloid granules, while lymphoblasts are typically negative. PAS alone is not myeloid-specific, and some minimally differentiated myeloid leukemias can lack MPO.",
+    "source": "lab-acute-leukemia-cytochemistry"
   },
   {
     "id": "lab-0040",
@@ -677,7 +716,8 @@
       "Chronic myeloid leukemia"
     ],
     "answer": 3,
-    "explanation": "LAP is low in CML and high in leukemoid reactions. The stain is now rarely used and has been replaced by molecular testing."
+    "explanation": "LAP is low in CML and high in leukemoid reactions. The stain is now rarely used and has been replaced by molecular testing.",
+    "source": "lab-leukocyte-alkaline-phosphatase"
   },
   {
     "id": "lab-0041",
@@ -694,7 +734,8 @@
       "The packed volume after centrifugation"
     ],
     "answer": 0,
-    "explanation": "ESR is the distance cells settle in anticoagulated blood over one hour, reported as mm/hr. Packed volume after centrifugation is the hematocrit, not the ESR."
+    "explanation": "ESR is the distance cells settle in anticoagulated blood over one hour, reported as mm/hr. Packed volume after centrifugation is the hematocrit, not the ESR.",
+    "source": "lab-medlineplus-esr"
   },
   {
     "id": "lab-0042",
@@ -711,7 +752,8 @@
       "Only the buffy coat is altered"
     ],
     "answer": 1,
-    "explanation": "Even a slight tilt speeds up sedimentation, so the stand must be level and vertical."
+    "explanation": "Even a slight tilt speeds up sedimentation, so the stand must be level and vertical.",
+    "source": "lab-esr-position"
   },
   {
     "id": "lab-0043",
@@ -728,7 +770,8 @@
       "1 week at 4 °C"
     ],
     "answer": 2,
-    "explanation": "Aged samples change cell shape and sediment slowly. Refrigerated samples must be returned to room temperature."
+    "explanation": "Aged samples change cell shape and sediment slowly. Refrigerated samples must be returned to room temperature.",
+    "source": "lab-esr-storage"
   },
   {
     "id": "lab-0044",
@@ -745,7 +788,8 @@
       "Sickle cell disease"
     ],
     "answer": 3,
-    "explanation": "Sickled cells do not stack into rouleaux. The other conditions promote aggregation or reduce the red cell mass, and hence raise the ESR."
+    "explanation": "Sickled cells do not stack into rouleaux. The other conditions promote aggregation or reduce the red cell mass, and hence raise the ESR.",
+    "source": "lab-esr-position"
   },
   {
     "id": "lab-0045",
@@ -762,7 +806,8 @@
       "Acid elution stain"
     ],
     "answer": 0,
-    "explanation": "Heinz bodies are denatured hemoglobin and are not visible on Wright stain. They appear when the cells are stained supravitally."
+    "explanation": "Heinz bodies are denatured hemoglobin and are not visible on Wright stain. They appear when the cells are stained supravitally.",
+    "source": "lab-g6pd-heinz"
   },
   {
     "id": "lab-0046",
@@ -779,7 +824,8 @@
       "Nuclear remnants"
     ],
     "answer": 1,
-    "explanation": "Oxidant damage precipitates globin into Heinz bodies. Ribosomal RNA instead forms reticulocyte networks or basophilic stippling."
+    "explanation": "Oxidant damage precipitates globin into Heinz bodies. Ribosomal RNA instead forms reticulocyte networks or basophilic stippling.",
+    "source": "lab-g6pd-heinz"
   },
   {
     "id": "lab-0047",
@@ -796,7 +842,8 @@
       "Reticulocytes lack G6PD entirely"
     ],
     "answer": 2,
-    "explanation": "Young red cells and reticulocytes often have higher G6PD activity, while older deficient cells are preferentially destroyed. Reticulocytosis does not imply absent enzyme; repeat testing after recovery, commonly at about three months, according to laboratory guidance."
+    "explanation": "Young red cells and reticulocytes often have higher G6PD activity, while older deficient cells are preferentially destroyed. Reticulocytosis does not imply absent enzyme; repeat testing after recovery, commonly at about three months, according to laboratory guidance.",
+    "source": "lab-g6pd-reticulocytosis"
   },
   {
     "id": "lab-0048",
@@ -813,7 +860,8 @@
       "Macrophages remove Heinz bodies from red cells"
     ],
     "answer": 3,
-    "explanation": "Splenic macrophages pit out denatured globin, leaving a semicircular bite. Fibrin strands instead create irregular red cell fragments called schistocytes."
+    "explanation": "Splenic macrophages pit out denatured globin, leaving a semicircular bite. Fibrin strands instead create irregular red cell fragments called schistocytes.",
+    "source": "lab-g6pd-heinz"
   },
   {
     "id": "lab-0049",
@@ -830,7 +878,8 @@
       "Absorbance of lysed hemoglobin"
     ],
     "answer": 0,
-    "explanation": "Cells pass a laser one at a time, producing scatter and fluorescence signals for size, granularity and antigen expression. Electrical resistance is the principle of impedance counting."
+    "explanation": "Cells pass a laser one at a time, producing scatter and fluorescence signals for size, granularity and antigen expression. Electrical resistance is the principle of impedance counting.",
+    "source": "lab-flow-principles"
   },
   {
     "id": "lab-0050",
@@ -847,7 +896,8 @@
       "Use the dye-positive cells as the antibody-positive control"
     ],
     "answer": 1,
-    "explanation": "Dead cells can bind antibodies nonspecifically and distort antigen measurements. Including only dead cells would enrich that artifact rather than measure the viable population."
+    "explanation": "Dead cells can bind antibodies nonspecifically and distort antigen measurements. Including only dead cells would enrich that artifact rather than measure the viable population.",
+    "source": "lab-flow-principles"
   },
   {
     "id": "lab-0051",
@@ -864,7 +914,8 @@
       "Mature red cells"
     ],
     "answer": 2,
-    "explanation": "CD34 is a progenitor marker used to enumerate blasts and stem cells. Mature cells have lost it."
+    "explanation": "CD34 is a progenitor marker used to enumerate blasts and stem cells. Mature cells have lost it.",
+    "source": "lab-aml-flow"
   },
   {
     "id": "lab-0052",
@@ -881,7 +932,8 @@
       "Paroxysmal nocturnal hemoglobinuria"
     ],
     "answer": 3,
-    "explanation": "A GPI anchor defect in PNH removes protective CD55/CD59 and permits complement-mediated lysis. Hereditary spherocytosis is a membrane skeleton disorder, not loss of these anchored proteins."
+    "explanation": "A GPI anchor defect in PNH removes protective CD55/CD59 and permits complement-mediated lysis. Hereditary spherocytosis is a membrane skeleton disorder, not loss of these anchored proteins.",
+    "source": "lab-pnh-flow"
   },
   {
     "id": "lab-0053",
@@ -898,7 +950,8 @@
       "RUNX1::RUNX1T1"
     ],
     "answer": 0,
-    "explanation": "t(9;22) fuses BCR to ABL1, the hallmark of chronic myeloid leukemia. PML::RARA instead results from t(15;17) in acute promyelocytic leukemia."
+    "explanation": "t(9;22) fuses BCR to ABL1, the hallmark of chronic myeloid leukemia. PML::RARA instead results from t(15;17) in acute promyelocytic leukemia.",
+    "source": "lab-medlineplus-cml"
   },
   {
     "id": "lab-0054",
@@ -915,7 +968,8 @@
       "t(14;18) IGH::BCL2"
     ],
     "answer": 1,
-    "explanation": "PML::RARA blocks differentiation at the promyelocyte stage and characterizes APL. BCR::ABL1 from t(9;22) instead characterizes CML and some B-ALL cases."
+    "explanation": "PML::RARA blocks differentiation at the promyelocyte stage and characterizes APL. BCR::ABL1 from t(9;22) instead characterizes CML and some B-ALL cases.",
+    "source": "lab-medlineplus-apl"
   },
   {
     "id": "lab-0055",
@@ -932,7 +986,8 @@
       "Hereditary elliptocytosis"
     ],
     "answer": 2,
-    "explanation": "JAK2 V617F occurs in about 95% of polycythemia vera and in some essential thrombocythemia and primary myelofibrosis cases. CML is instead defined by BCR::ABL1."
+    "explanation": "JAK2 V617F occurs in about 95% of polycythemia vera and in some essential thrombocythemia and primary myelofibrosis cases. CML is instead defined by BCR::ABL1.",
+    "source": "lab-medlineplus-polycythemia-vera"
   },
   {
     "id": "lab-0056",
@@ -949,7 +1004,8 @@
       "It can be performed on non-dividing interphase cells"
     ],
     "answer": 3,
-    "explanation": "FISH probes bind to target sequences in nuclei, so culture is unnecessary. However, it only tests the regions that the probes cover."
+    "explanation": "FISH probes bind to target sequences in nuclei, so culture is unnecessary. However, it only tests the regions that the probes cover.",
+    "source": "lab-fish-interphase"
   },
   {
     "id": "lab-0057",
@@ -966,7 +1022,8 @@
       "After the sample is centrifuged"
     ],
     "answer": 0,
-    "explanation": "CSF cells lyse quickly, so delay can lower counts and distort morphology. Centrifuging before the count removes cells from the fluid being measured."
+    "explanation": "CSF cells lyse quickly, so delay can lower counts and distort morphology. Centrifuging before the count removes cells from the fluid being measured.",
+    "source": "lab-body-fluid-testing"
   },
   {
     "id": "lab-0058",
@@ -983,7 +1040,8 @@
       "450"
     ],
     "answer": 1,
-    "explanation": "Cells/µL = 45 × 1 ÷ (9 × 0.1) = 45 ÷ 0.9 = 50. The 5 option omits the chamber depth correction."
+    "explanation": "Cells/µL = 45 × 1 ÷ (9 × 0.1) = 45 ÷ 0.9 = 50. The 5 option omits the chamber depth correction.",
+    "source": "lab-chamber-calculation"
   },
   {
     "id": "lab-0059",
@@ -1000,7 +1058,8 @@
       "A hemocytometer count only"
     ],
     "answer": 2,
-    "explanation": "Cytocentrifugation concentrates sparse cells onto a slide for Wright-stained morphology. A hemocytometer provides a count but not the stained detail needed for a reliable differential."
+    "explanation": "Cytocentrifugation concentrates sparse cells onto a slide for Wright-stained morphology. A hemocytometer provides a count but not the stained detail needed for a reliable differential.",
+    "source": "lab-body-fluid-testing"
   },
   {
     "id": "lab-0060",
@@ -1017,6 +1076,7 @@
       "Report per policy; a correction estimate cannot exclude meningitis"
     ],
     "answer": 3,
-    "explanation": "Correction ratios estimate leukocytes introduced with blood but are imperfect, especially when disease coexists. A corrected value must not replace clinical assessment or be used alone to exclude meningitis."
+    "explanation": "Correction ratios estimate leukocytes introduced with blood but are imperfect, especially when disease coexists. A corrected value must not replace clinical assessment or be used alone to exclude meningitis.",
+    "source": "lab-csf-pitfalls"
   }
 ]

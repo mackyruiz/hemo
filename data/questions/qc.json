@@ -14,7 +14,8 @@
       "An R-4s rejection requiring investigation of random error"
     ],
     "answer": 0,
-    "explanation": "A single result beyond 2 SD triggers the 1-2s warning; the other rules and control history must be reviewed before accepting the run. It is not a 1-3s rejection because the result does not exceed 3 SD."
+    "explanation": "A single result beyond 2 SD triggers the 1-2s warning; the other rules and control history must be reviewed before accepting the run. It is not a 1-3s rejection because the result does not exceed 3 SD.",
+    "source": "qc-westgard-rules"
   },
   {
     "id": "qc-0002",
@@ -31,7 +32,8 @@
       "1-3s, suggesting a random error"
     ],
     "answer": 1,
-    "explanation": "Opposite-side control results exceeding +2 SD and -2 SD in the same run satisfy R-4s and suggest random error. A 2-2s violation requires results beyond 2 SD on the same side of the mean."
+    "explanation": "Opposite-side control results exceeding +2 SD and -2 SD in the same run satisfy R-4s and suggest random error. A 2-2s violation requires results beyond 2 SD on the same side of the mean.",
+    "source": "qc-westgard-rules"
   },
   {
     "id": "qc-0003",
@@ -48,7 +50,8 @@
       "It is acceptable variation; a trend requires a single result beyond 3 SD"
     ],
     "answer": 2,
-    "explanation": "A sustained displacement to one side of the mean is a shift and here meets the 10-x rejection rule. A trend is a progressive increase or decrease; neither pattern should be dismissed simply because individual points remain within 2 SD."
+    "explanation": "A sustained displacement to one side of the mean is a shift and here meets the 10-x rejection rule. A trend is a progressive increase or decrease; neither pattern should be dismissed simply because individual points remain within 2 SD.",
+    "source": "qc-westgard-rules"
   },
   {
     "id": "qc-0004",
@@ -65,7 +68,8 @@
       "Check identity, specimen quality, and clinical changes before releasing it"
     ],
     "answer": 3,
-    "explanation": "A delta check compares a patient's current and previous results and can detect misidentification, dilution, or genuine clinical change. Acceptable QC assesses analytical performance but does not exclude a patient-specific preanalytical problem."
+    "explanation": "A delta check compares a patient's current and previous results and can detect misidentification, dilution, or genuine clinical change. Acceptable QC assesses analytical performance but does not exclude a patient-specific preanalytical problem.",
+    "source": "qc-delta-checks"
   },
   {
     "id": "qc-0005",
@@ -82,7 +86,8 @@
       "Discuss its expected result with another participant before submission"
     ],
     "answer": 0,
-    "explanation": "Proficiency testing evaluates routine performance, so specimens are handled like patient samples using routine personnel and methods. Referral or interlaboratory discussion before the reporting deadline defeats the independent assessment."
+    "explanation": "Proficiency testing evaluates routine performance, so specimens are handled like patient samples using routine personnel and methods. Referral or interlaboratory discussion before the reporting deadline defeats the independent assessment.",
+    "source": "qc-proficiency-testing"
   },
   {
     "id": "qc-0006",
@@ -99,7 +104,8 @@
       "Calibration reviews delta checks; verification replaces daily quality control"
     ],
     "answer": 1,
-    "explanation": "Calibration establishes the relationship between the instrument signal and assigned analyte values. Calibration verification checks continued accuracy across the reportable range without itself adjusting that relationship; neither replaces routine QC."
+    "explanation": "Calibration establishes the relationship between the instrument signal and assigned analyte values. Calibration verification checks continued accuracy across the reportable range without itself adjusting that relationship; neither replaces routine QC.",
+    "source": "qc-calibration-verification"
   },
   {
     "id": "qc-0007",
@@ -116,7 +122,8 @@
       "Use eye protection alone when the specimen has a routine collection label"
     ],
     "answer": 2,
-    "explanation": "All blood is treated as potentially infectious regardless of known diagnosis. Gloves and protective clothing address contact exposure, while eye or face protection is needed when splashes are anticipated."
+    "explanation": "All blood is treated as potentially infectious regardless of known diagnosis. Gloves and protective clothing address contact exposure, while eye or face protection is needed when splashes are anticipated.",
+    "source": "qc-bloodborne-pathogens"
   },
   {
     "id": "qc-0008",
@@ -133,7 +140,8 @@
       "Activate the safety device and promptly discard it in a sharps container"
     ],
     "answer": 3,
-    "explanation": "Prompt safety-device activation and disposal into an approved puncture-resistant sharps container reduce needlestick risk. Routine recapping or manually detaching a used needle creates avoidable exposure hazards."
+    "explanation": "Prompt safety-device activation and disposal into an approved puncture-resistant sharps container reduce needlestick risk. Routine recapping or manually detaching a used needle creates avoidable exposure hazards.",
+    "source": "qc-bloodborne-pathogens"
   },
   {
     "id": "qc-0009",
@@ -150,7 +158,8 @@
       "Spray disinfectant briefly and immediately resume work on the wet surface"
     ],
     "answer": 0,
-    "explanation": "Blood-spill cleanup requires appropriate PPE, mechanical pickup of glass into sharps waste, and an approved disinfectant with its required contact time. A chemical spill instead requires hazard-specific procedures and Safety Data Sheet guidance; cleaners should never be improvised or mixed."
+    "explanation": "Blood-spill cleanup requires appropriate PPE, mechanical pickup of glass into sharps waste, and an approved disinfectant with its required contact time. A chemical spill instead requires hazard-specific procedures and Safety Data Sheet guidance; cleaners should never be improvised or mixed.",
+    "source": "qc-bloodborne-pathogens"
   },
   {
     "id": "qc-0010",
@@ -167,7 +176,8 @@
       "Release the result with a comment that the specimen identifiers differ"
     ],
     "answer": 1,
-    "explanation": "A routine specimen with conflicting identifiers must not be assumed to belong to the ordered patient. Follow the laboratory's rejection and recollection policy rather than relabeling from paperwork or releasing an uncertain result."
+    "explanation": "A routine specimen with conflicting identifiers must not be assumed to belong to the ordered patient. Follow the laboratory's rejection and recollection policy rather than relabeling from paperwork or releasing an uncertain result.",
+    "source": "qc-delta-checks"
   },
   {
     "id": "qc-0011",
@@ -184,7 +194,8 @@
       "Multiply by 40"
     ],
     "answer": 2,
-    "explanation": "The total volume is 400 µL, so the dilution factor is 400/20 = 20. Dividing diluent alone by specimen volume gives 19, which is not the total dilution factor."
+    "explanation": "The total volume is 400 µL, so the dilution factor is 400/20 = 20. Dividing diluent alone by specimen volume gives 19, which is not the total dilution factor.",
+    "source": "qc-hemacytometer"
   },
   {
     "id": "qc-0012",
@@ -201,7 +212,8 @@
       "4,960 cells/µL"
     ],
     "answer": 3,
-    "explanation": "Multiply 8.0 ×10⁹/L by 0.62 to obtain 4.96 ×10⁹/L. Because one liter contains 10⁶ µL, this equals 4,960 cells/µL; using 62 instead of 0.62 produces a hundredfold error."
+    "explanation": "Multiply 8.0 ×10⁹/L by 0.62 to obtain 4.96 ×10⁹/L. Because one liter contains 10⁶ µL, this equals 4,960 cells/µL; using 62 instead of 0.62 produces a hundredfold error.",
+    "source": "qc-blood-differential"
   },
   {
     "id": "qc-0013",
@@ -218,7 +230,8 @@
       "Impedance identifies cell antigens; optical methods count only hemoglobin"
     ],
     "answer": 0,
-    "explanation": "Impedance detects electrical resistance changes as cells pass through an aperture, with pulse size related to cell volume. Optical methods use signals such as scattered light or fluorescence to characterize cells."
+    "explanation": "Impedance detects electrical resistance changes as cells pass through an aperture, with pulse size related to cell volume. Optical methods use signals such as scattered light or fluorescence to characterize cells.",
+    "source": "qc-hematology-analyzers"
   },
   {
     "id": "qc-0014",
@@ -235,7 +248,8 @@
       "Dilute every patient specimen, leave the obstruction unresolved, and multiply results"
     ],
     "answer": 1,
-    "explanation": "Resolve the instrument problem using manufacturer-directed maintenance, then confirm acceptable background and QC according to the laboratory procedure. Calibration is not a substitute for clearing an obstruction or demonstrating acceptable performance."
+    "explanation": "Resolve the instrument problem using manufacturer-directed maintenance, then confirm acceptable background and QC according to the laboratory procedure. Calibration is not a substitute for clearing an obstruction or demonstrating acceptable performance.",
+    "source": "qc-analyzer-maintenance"
   },
   {
     "id": "qc-0015",
@@ -252,6 +266,7 @@
       "800 µm, using the calibration for the 100× objective"
     ],
     "answer": 2,
-    "explanation": "0.050 mm equals 50 µm, so each of the 50 ocular divisions represents 1 µm and 8 divisions represent 8 µm. Ocular calibration must be established separately for each objective rather than transferred unchanged between magnifications."
+    "explanation": "0.050 mm equals 50 µm, so each of the 50 ocular divisions represents 1 µm and 8 divisions represent 8 µm. Ocular calibration must be established separately for each objective rather than transferred unchanged between magnifications.",
+    "source": "qc-stage-micrometer"
   }
 ]

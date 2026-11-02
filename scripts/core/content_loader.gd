@@ -8,7 +8,7 @@ static func load_all() -> Dictionary:
 	var errors: Array[String] = []
 	var content: Dictionary = {
 		"questions": [], "morph": {}, "photos": [], "cbc_cases": [],
-		"coag_cases": [], "diff_profiles": [], "ranges": {}, "errors": errors,
+		"coag_cases": [], "diff_profiles": [], "ranges": {}, "sources": {}, "generated_sources": {}, "errors": errors,
 	}
 	for topic: String in TOPICS:
 		var questions: Variant = _load_json("res://data/questions/%s.json" % topic, TYPE_ARRAY, errors)
@@ -27,6 +27,14 @@ static func load_all() -> Dictionary:
 		var value: Variant = _load_json(spec[0], spec[1], errors)
 		if value != null:
 			content[key] = value
+	var sources_file: Variant = _load_json("res://data/sources.json", TYPE_DICTIONARY, errors)
+	if sources_file != null:
+		for pair: Array in [["sources", "sources"], ["generated", "generated_sources"]]:
+			var section: Variant = sources_file.get(pair[0])
+			if section is Dictionary:
+				content[pair[1]] = section
+			else:
+				errors.append("res://data/sources.json: missing '%s' object" % pair[0])
 	return content
 
 static func _load_json(path: String, expected_type: int, errors: Array[String]) -> Variant:

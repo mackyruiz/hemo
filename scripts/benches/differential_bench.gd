@@ -210,7 +210,7 @@ func _show_absolute() -> void:
 	var expected: float = HemeCalc.absolute(wbc, pct)
 	var stem: String = "Calculate the absolute %s count. WBC = %.1f ×10³/µL; actual differential = %.0f%%. Round to 1 decimal place." % [String(CLASS_LABELS[target]).to_lower(), wbc, pct]
 	var explanation: String = "Absolute count = WBC × percentage / 100 = %.1f × %.0f / 100 = %.1f ×10³/µL." % [wbc, pct, CalcDrills.round_to(expected, 1)]
-	_show_numeric(stem, expected, explanation, _after_absolute)
+	_show_numeric(stem, expected, explanation, _after_absolute, "drill:absolute")
 
 
 func _after_absolute() -> void:
@@ -226,10 +226,10 @@ func _show_corrected_wbc() -> void:
 	var expected: float = HemeCalc.corrected_wbc(wbc, nrbc)
 	var stem: String = "An uncorrected WBC is %.1f ×10³/µL with %d nRBC per 100 WBC. Calculate the corrected WBC. Round to 1 decimal place." % [wbc, nrbc]
 	var explanation: String = "Corrected WBC = WBC × 100 / (100 + nRBC) = %.1f × 100 / (100 + %d) = %.1f ×10³/µL." % [wbc, nrbc, CalcDrills.round_to(expected, 1)]
-	_show_numeric(stem, expected, explanation, _show_diagnosis)
+	_show_numeric(stem, expected, explanation, _show_diagnosis, "drill:corrected_wbc")
 
 
-func _show_numeric(stem: String, expected: float, explanation: String, next: Callable) -> void:
+func _show_numeric(stem: String, expected: float, explanation: String, next: Callable, source_key: String) -> void:
 	_clear_content()
 	_numeric_answered = false
 	_content.add_child(UI.label(stem))
@@ -244,6 +244,9 @@ func _show_numeric(stem: String, expected: float, explanation: String, next: Cal
 		pad.visible = false
 		_content.add_child(UI.label(("✓ Correct" if correct else "✗ Not quite") + " — %.1f ×10³/µL" % CalcDrills.round_to(expected, 1)))
 		_content.add_child(UI.label(explanation))
+		var link: Button = UI.source_link(str(Content.generated_sources.get(source_key, "")))
+		if link != null:
+			_content.add_child(link)
 		_content.add_child(UI.button("Next", next))
 	)
 
@@ -264,6 +267,7 @@ func _show_diagnosis() -> void:
 		choices.append(alternatives[i])
 	var question: Dictionary = {
 		"stem": "Most consistent with:", "choices": choices, "answer": 0, "image": null,
+		"source": String(Content.generated_sources.get("diff:" + String(_profile["id"]), "")),
 		"explanation": "The overall differential pattern is most consistent with %s. Interpret a differential together with the clinical history, CBC, and smear findings, not as a stand-alone diagnosis." % String(_profile["label"]).to_lower()
 	}
 	var panel := QuestionPanel.new()

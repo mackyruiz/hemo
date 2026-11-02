@@ -65,7 +65,7 @@ func _show_question() -> void:
 	var question: Dictionary = {
 		"stem": "This finding is most associated with:" if association else "Identify the cell or finding shown.",
 		"choices": choices, "answer": 0, "explanation": explanation,
-		"image": String(_task["morph_id"])
+		"image": String(_task["morph_id"]), "source": String(_entity.get("source", ""))
 	}
 	var panel := QuestionPanel.new()
 	_content.add_child(panel)
@@ -123,6 +123,9 @@ func _finish_find() -> void:
 	_record(correct, xp)
 	_content.add_child(UI.label(("✓ All targets found without misses!" if correct else "✗ Review the outlined targets.") + " %d XP" % xp))
 	_content.add_child(UI.label(String(_entity["features"])))
+	var link: Button = UI.source_link(String(_entity.get("source", "")))
+	if link != null:
+		_content.add_child(link)
 	_content.add_child(UI.button("Next", _finish))
 
 

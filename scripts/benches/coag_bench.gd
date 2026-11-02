@@ -21,6 +21,8 @@ var _assignments: Dictionary = {}
 var _selected: int = -1
 var _selection_label: Label
 var _check_button: Button
+var _next_button: Button
+var _column: VBoxContainer
 var _checked: bool = false
 var _correct: int = 0
 
@@ -47,6 +49,7 @@ func _build_cascade() -> void:
 		margin.add_theme_constant_override("margin_" + side, 16)
 	scroll.add_child(margin)
 	var column := UI.vbox(16)
+	_column = column
 	margin.add_child(column)
 	column.add_child(UI.label("Coagulation pathway sort", "TitleLabel"))
 	column.add_child(UI.label("Tap a chip, then tap a bin to place it. You can select and move a chip again before checking."))
@@ -85,10 +88,10 @@ func _build_cascade() -> void:
 		column.add_child(card)
 	_check_button = UI.button("Check", _check)
 	column.add_child(_check_button)
-	var next_button := UI.button("Next", func(): finished.emit({"correct": _correct, "total": CHIPS.size(), "xp": XpRules.xp_for_cascade(_correct)}))
-	next_button.visible = false
-	column.add_child(next_button)
-	_check_button.pressed.connect(func(): next_button.visible = _checked)
+	_next_button = UI.button("Next", func(): finished.emit({"correct": _correct, "total": CHIPS.size(), "xp": XpRules.xp_for_cascade(_correct)}))
+	_next_button.visible = false
+	column.add_child(_next_button)
+	_check_button.pressed.connect(func(): _next_button.visible = _checked)
 
 
 func _select_chip(index: int) -> void:
@@ -133,3 +136,7 @@ func _check() -> void:
 		if not correct:
 			button.text += "\nCorrect bin: " + String(BINS[int(chip["bin"])])
 		button.add_theme_color_override("font_disabled_color", ThemeBuilder.SUCCESS if correct else ThemeBuilder.ERROR)
+	var link: Button = UI.source_link(str(Content.generated_sources.get("coag:cascade", "")))
+	if link != null:
+		_column.add_child(link)
+		_column.move_child(link, _next_button.get_index())

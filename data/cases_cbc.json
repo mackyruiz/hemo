@@ -57,7 +57,8 @@
         "answer": 2,
         "explanation": "Iron deficiency causes anisocytosis (high RDW), whereas thalassemia trait typically has uniform small cells and a normal RDW."
       }
-    ]
+    ],
+    "source": "cbc-iron-deficiency-anemia"
   },
   {
     "id": "cbc-002",
@@ -119,7 +120,8 @@
         "answer": 1,
         "explanation": "Iron given to a patient with thalassemia trait and normal stores is not helpful and can add to overload, so stores are verified first."
       }
-    ]
+    ],
+    "source": "cbc-thalassemia"
   },
   {
     "id": "cbc-003",
@@ -179,7 +181,8 @@
         "answer": 0,
         "explanation": "Fibrinogen and other acute-phase proteins rise in inflammation, accelerating the sedimentation rate."
       }
-    ]
+    ],
+    "source": "cbc-anemia-chronic-disease"
   },
   {
     "id": "cbc-004",
@@ -251,7 +254,8 @@
         "answer": 0,
         "explanation": "Defective DNA synthesis causes intramedullary cell death across lines, so pancytopenia can occur."
       }
-    ]
+    ],
+    "source": "cbc-b12-deficiency-anemia"
   },
   {
     "id": "cbc-005",
@@ -312,7 +316,8 @@
         "answer": 3,
         "explanation": "Folate deficiency raises homocysteine but not methylmalonic acid. Both metabolites rise with B12 deficiency, so the methylmalonic acid result helps separate them."
       }
-    ]
+    ],
+    "source": "cbc-folate-deficiency-anemia"
   },
   {
     "id": "cbc-006",
@@ -384,7 +389,8 @@
         "answer": 3,
         "explanation": "Hereditary spherocytosis is a membrane defect, not antibody-mediated; haptoglobin and bilirubin changes occur in both."
       }
-    ]
+    ],
+    "source": "cbc-hereditary-spherocytosis"
   },
   {
     "id": "cbc-007",
@@ -433,7 +439,8 @@
           "Autoantibodies attack the nucleus"
         ],
         "answer": 1,
-        "explanation": "Intense erythropoietic drive can release nucleated red cells. Correct a WBC count only if the analyzer has included nRBCs in that count."
+        "explanation": "Intense erythropoietic drive can release nucleated red cells. Correct a WBC count only if the analyzer has included nRBCs in that count.",
+        "source": "cbc-blood-film"
       },
       {
         "stem": "Which pattern is expected for the hemolysis markers?",
@@ -457,7 +464,8 @@
         "answer": 3,
         "explanation": "Reticulocytes stain bluish-gray with Wright stain because of residual ribosomal RNA."
       }
-    ]
+    ],
+    "source": "cbc-hemolytic-anemia"
   },
   {
     "id": "cbc-008",
@@ -519,7 +527,8 @@
         "answer": 2,
         "explanation": "Young red cells have higher enzyme activity, so testing in the acute phase or after transfusion may give falsely normal results."
       }
-    ]
+    ],
+    "source": "cbc-g6pd-deficiency"
   },
   {
     "id": "cbc-009",
@@ -558,7 +567,8 @@
           "Functional asplenia from repeated infarction"
         ],
         "answer": 3,
-        "explanation": "The spleen normally removes nuclear remnants, so they persist in autosplenectomy."
+        "explanation": "The spleen normally removes nuclear remnants, so they persist in autosplenectomy.",
+        "source": "cbc-blood-film"
       },
       {
         "stem": "Which test confirms the diagnosis?",
@@ -593,7 +603,8 @@
         "answer": 2,
         "explanation": "Functional asplenia and inflammatory stress during a sickle cell crisis commonly raise the WBC count. The platelet count of 420 ×10³/µL is within this app's reference range."
       }
-    ]
+    ],
+    "source": "cbc-sickle-cell-disease"
   },
   {
     "id": "cbc-010",
@@ -653,7 +664,8 @@
         "answer": 1,
         "explanation": "The marrow is failing, so the corrected reticulocyte response is inadequate for the degree of anemia."
       }
-    ]
+    ],
+    "source": "cbc-aplastic-anemia"
   },
   {
     "id": "cbc-011",
@@ -689,7 +701,8 @@
           "Iron was released from the liver"
         ],
         "answer": 2,
-        "explanation": "Hemoglobin concentration falls only after plasma volume expands from fluids or fluid shifts."
+        "explanation": "Hemoglobin concentration falls only after plasma volume expands from fluids or fluid shifts.",
+        "source": "cbc-acute-hemorrhage"
       },
       {
         "stem": "Which finding reflects marrow response?",
@@ -713,7 +726,8 @@
         "answer": 0,
         "explanation": "Acute blood loss temporarily increases thrombopoietic output, causing reactive thrombocytosis."
       }
-    ]
+    ],
+    "source": "cbc-blood-film"
   },
   {
     "id": "cbc-012",
@@ -774,7 +788,8 @@
         "answer": 3,
         "explanation": "Polycythemia vera involves overproduction of all three lines, unlike isolated secondary erythrocytosis."
       }
-    ]
+    ],
+    "source": "cbc-polycythemia-vera"
   },
   {
     "id": "cbc-013",
@@ -844,7 +859,8 @@
         "answer": 3,
         "explanation": "Hemoglobin is measured after red cells are lysed, so it is not affected by agglutination."
       }
-    ]
+    ],
+    "source": "cbc-cold-agglutinin-indices"
   },
   {
     "id": "cbc-014",
@@ -904,7 +920,8 @@
         "answer": 2,
         "explanation": "Removing the lipemic plasma by saline replacement eliminates the turbidity."
       }
-    ]
+    ],
+    "source": "cbc-lipemic-cbc"
   },
   {
     "id": "cbc-015",
@@ -966,7 +983,8 @@
         "answer": 1,
         "explanation": "CML granulocytes have low LAP activity, in contrast to a leukemoid reaction in which LAP is high."
       }
-    ]
+    ],
+    "source": "cbc-cml"
   },
   {
     "id": "cbc-016",
@@ -1024,9 +1042,11 @@
           "It fixes the smear faster"
         ],
         "answer": 0,
-        "explanation": "Adding albumin to the blood before making a film stabilizes the cells and reduces smudging."
+        "explanation": "Adding albumin to the blood before making a film stabilizes the cells and reduces smudging.",
+        "source": "cbc-albumin-smudge"
       }
-    ]
+    ],
+    "source": "cbc-cll"
   },
   {
     "id": "cbc-017",
@@ -1087,7 +1107,8 @@
         "answer": 3,
         "explanation": "Twenty percent is the usual cutoff; some AML types with defining genetic abnormalities are diagnosed at lower counts."
       }
-    ]
+    ],
+    "source": "cbc-aml"
   },
   {
     "id": "cbc-018",
@@ -1148,7 +1169,8 @@
         "answer": 2,
         "explanation": "Procoagulant granule contents trigger DIC, so urgent treatment is needed."
       }
-    ]
+    ],
+    "source": "cbc-apl-review"
   },
   {
     "id": "cbc-019",
@@ -1208,7 +1230,8 @@
         "answer": 1,
         "explanation": "ALL often involves the central nervous system, so spinal fluid is examined."
       }
-    ]
+    ],
+    "source": "cbc-all"
   },
   {
     "id": "cbc-020",
@@ -1267,7 +1290,8 @@
         "answer": 0,
         "explanation": "Reactive cells have mature chromatin, while blasts show fine open chromatin and nucleoli."
       }
-    ]
+    ],
+    "source": "cbc-mononucleosis"
   },
   {
     "id": "cbc-021",
@@ -1328,7 +1352,8 @@
         "answer": 3,
         "explanation": "Immature granulocytes are drawn toward the left on a maturation chart."
       }
-    ]
+    ],
+    "source": "cbc-reactive-leukocytes"
   },
   {
     "id": "cbc-022",
@@ -1387,7 +1412,8 @@
         "answer": 2,
         "explanation": "Identifying the parasite requires stool examination, often repeated since shedding is intermittent."
       }
-    ]
+    ],
+    "source": "cbc-eosinophil-count"
   },
   {
     "id": "cbc-023",
@@ -1447,7 +1473,8 @@
         "answer": 1,
         "explanation": "Basophils and eosinophils rise in CML, while toxic changes mark reactive states."
       }
-    ]
+    ],
+    "source": "cbc-leukemoid-reaction"
   },
   {
     "id": "cbc-024",
@@ -1495,7 +1522,8 @@
           "They cause dysplastic changes that mimic MDS"
         ],
         "answer": 3,
-        "explanation": "Megaloblastic anemia can look dysplastic, so reversible causes are ruled out."
+        "explanation": "Megaloblastic anemia can look dysplastic, so reversible causes are ruled out.",
+        "source": "cbc-b12-deficiency-anemia"
       },
       {
         "stem": "Which test is most helpful to classify and stage the disease?",
@@ -1508,7 +1536,8 @@
         "answer": 0,
         "explanation": "Marrow morphology, blast percentage and karyotype define MDS subtype and risk."
       }
-    ]
+    ],
+    "source": "cbc-mds"
   },
   {
     "id": "cbc-025",
@@ -1580,7 +1609,8 @@
         "answer": 0,
         "explanation": "Replacing plasma with saline removes the excess protein and disperses rouleaux. True agglutination usually persists because antibody holds cells together."
       }
-    ]
+    ],
+    "source": "cbc-myeloma"
   },
   {
     "id": "cbc-026",
@@ -1640,7 +1670,8 @@
         "answer": 3,
         "explanation": "This pattern separates hairy cell leukemia from CLL and other B-cell neoplasms."
       }
-    ]
+    ],
+    "source": "cbc-hairy-cell"
   },
   {
     "id": "cbc-027",
@@ -1700,7 +1731,8 @@
         "answer": 2,
         "explanation": "First scan the film and feathered edge for clumps, then estimate from representative monolayer fields using a locally validated multiplier. Counting only the feathered edge exaggerates platelets because they collect there."
       }
-    ]
+    ],
+    "source": "cbc-itp"
   },
   {
     "id": "cbc-028",
@@ -1760,7 +1792,8 @@
         "answer": 1,
         "explanation": "Red cells are being destroyed, and the marrow tries to compensate."
       }
-    ]
+    ],
+    "source": "cbc-ttp"
   },
   {
     "id": "cbc-029",
@@ -1819,7 +1852,8 @@
         "answer": 0,
         "explanation": "BCR::ABL1 and reactive causes such as iron deficiency or inflammation must be excluded."
       }
-    ]
+    ],
+    "source": "cbc-essential-thrombocythemia"
   },
   {
     "id": "cbc-030",
@@ -1878,6 +1912,7 @@
         "answer": 3,
         "explanation": "Citrate avoids the EDTA-dependent reaction; the result is multiplied by 1.1 to correct for dilution."
       }
-    ]
+    ],
+    "source": "cbc-edta-pseudothrombocytopenia"
   }
 ]

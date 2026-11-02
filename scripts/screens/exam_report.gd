@@ -69,4 +69,7 @@ func _missed_card(result: Dictionary) -> PanelContainer:
 	key.add_theme_color_override("font_color", ThemeBuilder.SUCCESS)
 	v.add_child(key)
 	v.add_child(UI.label(str(item.get("explanation", "")), "MutedLabel"))
+	var link: Button = UI.source_link(str(item.get("source", "")))
+	if link != null:
+		v.add_child(link)
 	return card

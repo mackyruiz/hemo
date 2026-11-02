@@ -14,7 +14,8 @@
    "Factor XIII and calcium ions"
   ],
   "answer": 0,
-  "explanation": "Exposed tissue factor binds factor VII to initiate extrinsic coagulation and activate factor X. Factor XII and kallikrein initiate contact activation in the laboratory, not the tissue factor pathway."
+  "explanation": "Exposed tissue factor binds factor VII to initiate extrinsic coagulation and activate factor X. Factor XII and kallikrein initiate contact activation in the laboratory, not the tissue factor pathway.",
+  "source": "hemo-coag-pathway"
  },
  {
   "id": "hemo-0002",
@@ -31,7 +32,8 @@
    "I, V, XI, and XIII"
   ],
   "answer": 1,
-  "explanation": "Factors II, VII, IX, X (and proteins C and S) need gamma-carboxylation, which requires vitamin K; factors V and VIII do not."
+  "explanation": "Factors II, VII, IX, X (and proteins C and S) need gamma-carboxylation, which requires vitamin K; factors V and VIII do not.",
+  "source": "hemo-warfarin-factors"
  },
  {
   "id": "hemo-0003",
@@ -48,7 +50,8 @@
    "Factor VIII"
   ],
   "answer": 2,
-  "explanation": "Factor X starts the common pathway and is activated by IXa/VIIIa or VIIa/tissue factor. Factor IX participates in intrinsic tenase but is not the common substrate of both tenase complexes."
+  "explanation": "Factor X starts the common pathway and is activated by IXa/VIIIa or VIIa/tissue factor. Factor IX participates in intrinsic tenase but is not the common substrate of both tenase complexes.",
+  "source": "hemo-coag-pathway"
  },
  {
   "id": "hemo-0004",
@@ -65,7 +68,8 @@
    "Factor V and factor VIII"
   ],
   "answer": 3,
-  "explanation": "Thrombin activates cofactors V and VIII, accelerating prothrombinase and intrinsic tenase to generate more thrombin. Factor XIII stabilizes fibrin rather than acting as a tenase cofactor."
+  "explanation": "Thrombin activates cofactors V and VIII, accelerating prothrombinase and intrinsic tenase to generate more thrombin. Factor XIII stabilizes fibrin rather than acting as a tenase cofactor.",
+  "source": "hemo-coag-pathway"
  },
  {
   "id": "hemo-0005",
@@ -82,7 +86,8 @@
    "Antithrombin"
   ],
   "answer": 0,
-  "explanation": "Plasmin, formed from plasminogen, cleaves fibrin and fibrinogen. Thrombin instead converts fibrinogen to fibrin, promoting clot formation rather than clot breakdown."
+  "explanation": "Plasmin, formed from plasminogen, cleaves fibrin and fibrinogen. Thrombin instead converts fibrinogen to fibrin, promoting clot formation rather than clot breakdown.",
+  "source": "hemo-fibrinolysis"
  },
  {
   "id": "hemo-0006",
@@ -99,7 +104,8 @@
    "Protein C inhibitor"
   ],
   "answer": 1,
-  "explanation": "Alpha-2 antiplasmin binds plasmin quickly; PAI-1 instead inhibits the activators (tPA and urokinase), not plasmin itself."
+  "explanation": "Alpha-2 antiplasmin binds plasmin quickly; PAI-1 instead inhibits the activators (tPA and urokinase), not plasmin itself.",
+  "source": "hemo-fibrinolysis"
  },
  {
   "id": "hemo-0007",
@@ -116,7 +122,8 @@
    "von Willebrand factor multimers"
   ],
   "answer": 2,
-  "explanation": "D-dimer contains the covalent cross-link added by factor XIII, indicating formation and subsequent lysis of cross-linked fibrin. Digestion of fibrinogen alone produces other degradation products, not D-dimer."
+  "explanation": "D-dimer contains the covalent cross-link added by factor XIII, indicating formation and subsequent lysis of cross-linked fibrin. Digestion of fibrinogen alone produces other degradation products, not D-dimer.",
+  "source": "hemo-fibrinolysis"
  },
  {
   "id": "hemo-0008",
@@ -133,7 +140,8 @@
    "von Willebrand factor binding platelet GPIb"
   ],
   "answer": 3,
-  "explanation": "vWF bridges collagen and GPIb for adhesion; GPIIb/IIIa and fibrinogen come later and drive aggregation."
+  "explanation": "vWF bridges collagen and GPIb for adhesion; GPIIb/IIIa and fibrinogen come later and drive aggregation.",
+  "source": "hemo-vwf-platelet-adhesion"
  },
  {
   "id": "hemo-0009",
@@ -150,7 +158,8 @@
    "GPVI"
   ],
   "answer": 0,
-  "explanation": "Activated GPIIb/IIIa binds fibrinogen to bridge adjacent platelets. GPIb/IX/V primarily mediates adhesion through von Willebrand factor rather than fibrinogen-mediated aggregation."
+  "explanation": "Activated GPIIb/IIIa binds fibrinogen to bridge adjacent platelets. GPIb/IX/V primarily mediates adhesion through von Willebrand factor rather than fibrinogen-mediated aggregation.",
+  "source": "hemo-glanzmann"
  },
  {
   "id": "hemo-0010",
@@ -167,7 +176,8 @@
    "Adenosine diphosphate"
   ],
   "answer": 1,
-  "explanation": "Intact endothelium releases prostacyclin and nitric oxide; thromboxane A2 from platelets does the opposite."
+  "explanation": "Intact endothelium releases prostacyclin and nitric oxide; thromboxane A2 from platelets does the opposite.",
+  "source": "hemo-prostacyclin"
  },
  {
   "id": "hemo-0011",
@@ -184,7 +194,8 @@
    "Factor VII"
   ],
   "answer": 2,
-  "explanation": "Hemophilia A is X-linked factor VIII deficiency; hemophilia B involves factor IX."
+  "explanation": "Hemophilia A is X-linked factor VIII deficiency; hemophilia B involves factor IX.",
+  "source": "hemo-hemophilia"
  },
  {
   "id": "hemo-0012",
@@ -201,7 +212,8 @@
    "Hemophilia B"
   ],
   "answer": 3,
-  "explanation": "Correction on mixing supports a deficiency, and low factor IX activity identifies hemophilia B. Hemophilia A would have low factor VIII rather than factor IX."
+  "explanation": "Correction on mixing supports a deficiency, and low factor IX activity identifies hemophilia B. Hemophilia A would have low factor VIII rather than factor IX.",
+  "source": "hemo-hemophilia"
  },
  {
   "id": "hemo-0013",
@@ -218,7 +230,8 @@
    "Fibrinogen"
   ],
   "answer": 0,
-  "explanation": "Factor XIII cross-links fibrin after the endpoints measured by PT, APTT, and TT, so routine screens can be normal. Fibrinogen deficiency usually prolongs the TT; a factor XIII activity assay is more sensitive than clot-solubility screening."
+  "explanation": "Factor XIII cross-links fibrin after the endpoints measured by PT, APTT, and TT, so routine screens can be normal. Fibrinogen deficiency usually prolongs the TT; a factor XIII activity assay is more sensitive than clot-solubility screening.",
+  "source": "hemo-factor-xiii"
  },
  {
   "id": "hemo-0014",
@@ -235,7 +248,8 @@
    "Both PT and APTT normal"
   ],
   "answer": 1,
-  "explanation": "Factor VII acts only in the extrinsic pathway, so only the PT is prolonged."
+  "explanation": "Factor VII acts only in the extrinsic pathway, so only the PT is prolonged.",
+  "source": "hemo-factor-vii-pattern"
  },
  {
   "id": "hemo-0015",
@@ -252,7 +266,8 @@
    "Normal PT and APTT with reduced factor XIII activity"
   ],
   "answer": 2,
-  "explanation": "Alpha-2 antiplasmin deficiency permits excessive plasmin activity and premature clot breakdown despite normal routine screens. Factor XIII deficiency can also cause delayed bleeding with normal screens, but it reduces factor XIII activity rather than antiplasmin activity."
+  "explanation": "Alpha-2 antiplasmin deficiency permits excessive plasmin activity and premature clot breakdown despite normal routine screens. Factor XIII deficiency can also cause delayed bleeding with normal screens, but it reduces factor XIII activity rather than antiplasmin activity.",
+  "source": "hemo-antiplasmin-deficiency"
  },
  {
   "id": "hemo-0016",
@@ -269,7 +284,8 @@
    "Decreased fibrinogen and increased fibrin degradation products"
   ],
   "answer": 3,
-  "explanation": "Systemic plasmin generation digests fibrin and fibrinogen, increasing degradation products and potentially lowering fibrinogen. D-dimer does not decrease simply because fibrinolysis has been activated."
+  "explanation": "Systemic plasmin generation digests fibrin and fibrinogen, increasing degradation products and potentially lowering fibrinogen. D-dimer does not decrease simply because fibrinolysis has been activated.",
+  "source": "hemo-tpa-laboratory"
  },
  {
   "id": "hemo-0017",
@@ -286,7 +302,8 @@
    "Prothrombin G20210A variant"
   ],
   "answer": 0,
-  "explanation": "Factor V Leiden is the most prevalent inherited thrombophilia in people of European ancestry. Antithrombin deficiency carries substantial thrombotic risk but is much less common."
+  "explanation": "Factor V Leiden is the most prevalent inherited thrombophilia in people of European ancestry. Antithrombin deficiency carries substantial thrombotic risk but is much less common.",
+  "source": "hemo-factor-v-leiden"
  },
  {
   "id": "hemo-0018",
@@ -303,7 +320,8 @@
    "Plasminogen is converted to plasmin too slowly"
   ],
   "answer": 1,
-  "explanation": "The mutation alters a cleavage site, making factor Va resistant to activated protein C and prolonging its procoagulant activity. The defect is impaired inactivation, not excess factor V synthesis."
+  "explanation": "The mutation alters a cleavage site, making factor Va resistant to activated protein C and prolonging its procoagulant activity. The defect is impaired inactivation, not excess factor V synthesis.",
+  "source": "hemo-factor-v-leiden"
  },
  {
   "id": "hemo-0019",
@@ -320,7 +338,8 @@
    "Antithrombin bound to thrombin"
   ],
   "answer": 2,
-  "explanation": "PF4-heparin IgG antibodies can activate platelets through Fc gamma RIIa, causing thrombocytopenia and paradoxical thrombosis. Antibodies against platelet GPIIb/IIIa are associated with immune thrombocytopenia rather than the characteristic heparin-dependent mechanism."
+  "explanation": "PF4-heparin IgG antibodies can activate platelets through Fc gamma RIIa, causing thrombocytopenia and paradoxical thrombosis. Antibodies against platelet GPIIb/IIIa are associated with immune thrombocytopenia rather than the characteristic heparin-dependent mechanism.",
+  "source": "hemo-hit"
  },
  {
   "id": "hemo-0020",
@@ -337,7 +356,8 @@
    "Low platelets, low fibrinogen, prolonged PT and APTT, high D-dimer"
   ],
   "answer": 3,
-  "explanation": "Consumption of platelets and factors with secondary fibrinolysis produces this classic pattern of overt DIC. An isolated prolonged APTT with normal platelets and fibrinogen instead suggests an intrinsic factor defect or inhibitor."
+  "explanation": "Consumption of platelets and factors with secondary fibrinolysis produces this classic pattern of overt DIC. An isolated prolonged APTT with normal platelets and fibrinogen instead suggests an intrinsic factor defect or inhibitor.",
+  "source": "hemo-dic"
  },
  {
   "id": "hemo-0021",
@@ -354,7 +374,8 @@
    "Normal PT with elevated reticulocyte count"
   ],
   "answer": 0,
-  "explanation": "TTP usually leaves PT, APTT and fibrinogen normal, whereas DIC consumes clotting factors and fibrinogen."
+  "explanation": "TTP usually leaves PT, APTT and fibrinogen normal, whereas DIC consumes clotting factors and fibrinogen.",
+  "source": "hemo-dic"
  },
  {
   "id": "hemo-0022",
@@ -371,7 +392,8 @@
    "Morning sickness"
   ],
   "answer": 1,
-  "explanation": "Placental abruption can expose tissue factor and initiate systemic coagulation with consumption of factors and platelets. Uncomplicated iron deficiency does not directly activate systemic coagulation in this way."
+  "explanation": "Placental abruption can expose tissue factor and initiate systemic coagulation with consumption of factors and platelets. Uncomplicated iron deficiency does not directly activate systemic coagulation in this way.",
+  "source": "hemo-dic"
  },
  {
   "id": "hemo-0023",
@@ -388,7 +410,8 @@
    "VIII, V, and von Willebrand factor"
   ],
   "answer": 2,
-  "explanation": "The PT assesses the extrinsic and common pathways: VII, X, V, II, and fibrinogen. Factors VIII, IX, XI, and XII are evaluated by the APTT rather than the PT."
+  "explanation": "The PT assesses the extrinsic and common pathways: VII, X, V, II, and fibrinogen. Factors VIII, IX, XI, and XII are evaluated by the APTT rather than the PT.",
+  "source": "hemo-pt-factors"
  },
  {
   "id": "hemo-0024",
@@ -405,7 +428,8 @@
    "1.63"
   ],
   "answer": 3,
-  "explanation": "INR = (18/12)^1.2 = 1.5^1.2 = 1.63; multiplying by the ISI instead would incorrectly give 1.80."
+  "explanation": "INR = (18/12)^1.2 = 1.5^1.2 = 1.63; multiplying by the ISI instead would incorrectly give 1.80.",
+  "source": "hemo-inr-isi"
  },
  {
   "id": "hemo-0025",
@@ -422,7 +446,8 @@
    "3.13"
   ],
   "answer": 0,
-  "explanation": "INR = (15/12)^2 = 1.25^2 = 1.5625, rounded to 1.56. The unadjusted PT ratio of 1.25 omits the ISI exponent."
+  "explanation": "INR = (15/12)^2 = 1.25^2 = 1.5625, rounded to 1.56. The unadjusted PT ratio of 1.25 omits the ISI exponent.",
+  "source": "hemo-inr-isi"
  },
  {
   "id": "hemo-0026",
@@ -439,7 +464,8 @@
    "Factor X"
   ],
   "answer": 1,
-  "explanation": "Factor VII has a half-life of roughly 6 hours, so it falls early and prolongs the PT. Factor II persists much longer, so early PT prolongation does not mean full antithrombotic effect has been reached."
+  "explanation": "Factor VII has a half-life of roughly 6 hours, so it falls early and prolongs the PT. Factor II persists much longer, so early PT prolongation does not mean full antithrombotic effect has been reached.",
+  "source": "hemo-warfarin-factors"
  },
  {
   "id": "hemo-0027",
@@ -456,7 +482,8 @@
    "Thrombin clotting time (TT)"
   ],
   "answer": 2,
-  "explanation": "Heparin enhances antithrombin, and the APTT can be calibrated for UFH monitoring; anti-Xa is another monitoring option. The TT is very sensitive to heparin but is not suitable for routine dose titration."
+  "explanation": "Heparin enhances antithrombin, and the APTT can be calibrated for UFH monitoring; anti-Xa is another monitoring option. The TT is very sensitive to heparin but is not suitable for routine dose titration.",
+  "source": "hemo-ptt"
  },
  {
   "id": "hemo-0028",
@@ -473,7 +500,8 @@
    "Contact activator, phospholipid, and calcium"
   ],
   "answer": 3,
-  "explanation": "The APTT uses a contact activator such as silica, phospholipid, and calcium. Tissue factor is added in the PT, not the APTT."
+  "explanation": "The APTT uses a contact activator such as silica, phospholipid, and calcium. Tissue factor is added in the PT, not the APTT.",
+  "source": "hemo-isolated-aptt"
  },
  {
   "id": "hemo-0029",
@@ -490,7 +518,8 @@
    "Factor XIII"
   ],
   "answer": 0,
-  "explanation": "Factor XII deficiency markedly prolongs contact-activated clotting in vitro without causing clinical bleeding. Severe factor VIII or IX deficiency typically causes bleeding, whereas factor XIII deficiency does not prolong the APTT."
+  "explanation": "Factor XII deficiency markedly prolongs contact-activated clotting in vitro without causing clinical bleeding. Severe factor VIII or IX deficiency typically causes bleeding, whereas factor XIII deficiency does not prolong the APTT.",
+  "source": "hemo-mixing-studies"
  },
  {
   "id": "hemo-0030",
@@ -507,7 +536,8 @@
    "Dilute the sample 1:2 with saline and multiply"
   ],
   "answer": 1,
-  "explanation": "Line contamination gives false prolongation; a fresh clean peripheral sample prevents inappropriate dose changes."
+  "explanation": "Line contamination gives false prolongation; a fresh clean peripheral sample prevents inappropriate dose changes.",
+  "source": "hemo-isolated-aptt"
  },
  {
   "id": "hemo-0031",
@@ -524,7 +554,8 @@
    "Establishing an inherited fibrinogen deficiency"
   ],
   "answer": 2,
-  "explanation": "A negative high-sensitivity D-dimer can exclude VTE in an appropriate low-risk diagnostic algorithm. A positive result does not confirm thrombosis because D-dimer also rises in many other conditions."
+  "explanation": "A negative high-sensitivity D-dimer can exclude VTE in an appropriate low-risk diagnostic algorithm. A positive result does not confirm thrombosis because D-dimer also rises in many other conditions.",
+  "source": "hemo-d-dimer"
  },
  {
   "id": "hemo-0032",
@@ -541,7 +572,8 @@
    "Heparin in the sample"
   ],
   "answer": 3,
-  "explanation": "Reptilase is not inhibited by heparin, whereas thrombin is; fibrinogen defects would prolong both tests."
+  "explanation": "Reptilase is not inhibited by heparin, whereas thrombin is; fibrinogen defects would prolong both tests.",
+  "source": "hemo-reptilase-time"
  },
  {
   "id": "hemo-0033",
@@ -558,7 +590,8 @@
    "640 mg/dL"
   ],
   "answer": 0,
-  "explanation": "290 mg/dL lies between 200 and 400; 120 is low and the other two are high."
+  "explanation": "290 mg/dL lies between 200 and 400; 120 is low and the other two are high.",
+  "source": "hemo-fibrinogen-test"
  },
  {
   "id": "hemo-0034",
@@ -575,7 +608,8 @@
    "Hemophilia A"
   ],
   "answer": 1,
-  "explanation": "Abnormal fibrinogen may polymerize poorly despite a normal antigen concentration, prolonging the TT. Hemophilia A impairs upstream thrombin generation, but the TT bypasses that step by adding thrombin directly."
+  "explanation": "Abnormal fibrinogen may polymerize poorly despite a normal antigen concentration, prolonging the TT. Hemophilia A impairs upstream thrombin generation, but the TT bypasses that step by adding thrombin directly.",
+  "source": "hemo-reptilase-time"
  },
  {
   "id": "hemo-0035",
@@ -592,7 +626,8 @@
    "Heparin contamination only"
   ],
   "answer": 2,
-  "explanation": "Normal plasma supplies missing factor activity, supporting a deficiency when correction persists after incubation. A strong factor VIII inhibitor typically causes noncorrection, sometimes only after incubation."
+  "explanation": "Normal plasma supplies missing factor activity, supporting a deficiency when correction persists after incubation. A strong factor VIII inhibitor typically causes noncorrection, sometimes only after incubation.",
+  "source": "hemo-mixing-studies"
  },
  {
   "id": "hemo-0036",
@@ -609,7 +644,8 @@
    "An inhibitor such as lupus anticoagulant"
   ],
   "answer": 3,
-  "explanation": "Failure to correct suggests an inhibitor or anticoagulant drug effect; further testing distinguishes them. An isolated factor XI deficiency generally corrects when normal plasma supplies the missing factor."
+  "explanation": "Failure to correct suggests an inhibitor or anticoagulant drug effect; further testing distinguishes them. An isolated factor XI deficiency generally corrects when normal plasma supplies the missing factor.",
+  "source": "hemo-mixing-studies"
  },
  {
   "id": "hemo-0037",
@@ -626,7 +662,8 @@
    "An excess-citrate collection artifact"
   ],
   "answer": 0,
-  "explanation": "Factor VIII inhibitors can act progressively during incubation, producing delayed noncorrection. Simple factor VIII deficiency remains corrected because the normal plasma supplies factor VIII; lupus anticoagulant more often shows immediate inhibition."
+  "explanation": "Factor VIII inhibitors can act progressively during incubation, producing delayed noncorrection. Simple factor VIII deficiency remains corrected because the normal plasma supplies factor VIII; lupus anticoagulant more often shows immediate inhibition.",
+  "source": "hemo-mixing-studies"
  },
  {
   "id": "hemo-0038",
@@ -643,7 +680,8 @@
    "Thromboxane synthase"
   ],
   "answer": 1,
-  "explanation": "Aspirin irreversibly inhibits platelet COX-1, reducing thromboxane A2 synthesis for the platelet's lifespan. It does not directly inhibit thromboxane synthase, which acts downstream of COX-1."
+  "explanation": "Aspirin irreversibly inhibits platelet COX-1, reducing thromboxane A2 synthesis for the platelet's lifespan. It does not directly inhibit thromboxane synthase, which acts downstream of COX-1.",
+  "source": "hemo-aspirin-cox1"
  },
  {
   "id": "hemo-0039",
@@ -660,7 +698,8 @@
    "Storage pool disease"
   ],
   "answer": 2,
-  "explanation": "Bernard-Soulier syndrome involves deficient GPIb/IX/V and typically causes giant platelets and an absent ristocetin response. Glanzmann thrombasthenia affects GPIIb/IIIa, so its ristocetin response is usually preserved."
+  "explanation": "Bernard-Soulier syndrome involves deficient GPIb/IX/V and typically causes giant platelets and an absent ristocetin response. Glanzmann thrombasthenia affects GPIIb/IIIa, so its ristocetin response is usually preserved.",
+  "source": "hemo-platelet-disorders"
  },
  {
   "id": "hemo-0040",
@@ -677,7 +716,8 @@
    "Glanzmann thrombasthenia"
   ],
   "answer": 3,
-  "explanation": "Glanzmann thrombasthenia is a GPIIb/IIIa defect that prevents fibrinogen-mediated aggregation but preserves the GPIb-mediated ristocetin response. Bernard-Soulier syndrome instead impairs ristocetin-induced agglutination."
+  "explanation": "Glanzmann thrombasthenia is a GPIIb/IIIa defect that prevents fibrinogen-mediated aggregation but preserves the GPIb-mediated ristocetin response. Bernard-Soulier syndrome instead impairs ristocetin-induced agglutination.",
+  "source": "hemo-platelet-disorders"
  },
  {
   "id": "hemo-0041",
@@ -694,7 +734,8 @@
    "Atorvastatin"
   ],
   "answer": 0,
-  "explanation": "Warfarin reduces vitamin K-dependent proteins C and S, so low results during therapy may reflect treatment rather than inherited deficiency. Aspirin inhibits platelet COX-1 and does not lower these vitamin K-dependent anticoagulants."
+  "explanation": "Warfarin reduces vitamin K-dependent proteins C and S, so low results during therapy may reflect treatment rather than inherited deficiency. Aspirin inhibits platelet COX-1 and does not lower these vitamin K-dependent anticoagulants.",
+  "source": "hemo-warfarin-factors"
  },
  {
   "id": "hemo-0042",
@@ -711,7 +752,8 @@
    "Plasminogen"
   ],
   "answer": 1,
-  "explanation": "Heparin requires antithrombin to inhibit coagulation proteases, so low antithrombin can cause heparin resistance. Protein S deficiency causes thrombophilia but does not directly remove heparin's required cofactor."
+  "explanation": "Heparin requires antithrombin to inhibit coagulation proteases, so low antithrombin can cause heparin resistance. Protein S deficiency causes thrombophilia but does not directly remove heparin's required cofactor.",
+  "source": "hemo-antithrombin"
  },
  {
   "id": "hemo-0043",
@@ -728,7 +770,8 @@
    "Prolonged screen, correction on mixing, reduced factor IX activity"
   ],
   "answer": 2,
-  "explanation": "These findings support a phospholipid-dependent inhibitor rather than a simple factor deficiency. Correction on mixing with low factor IX instead supports factor IX deficiency, and anticardiolipin positivity alone does not establish a lupus anticoagulant."
+  "explanation": "These findings support a phospholipid-dependent inhibitor rather than a simple factor deficiency. Correction on mixing with low factor IX instead supports factor IX deficiency, and anticardiolipin positivity alone does not establish a lupus anticoagulant.",
+  "source": "hemo-mixing-studies"
  },
  {
   "id": "hemo-0044",
@@ -745,7 +788,8 @@
    "0.3-0.7 IU/mL"
   ],
   "answer": 3,
-  "explanation": "A common UFH anti-Xa target is 0.3-0.7 IU/mL, subject to the laboratory's validated protocol. The 1.5-2.5 interval resembles an older APTT ratio convention, not a UFH anti-Xa concentration."
+  "explanation": "A common UFH anti-Xa target is 0.3-0.7 IU/mL, subject to the laboratory's validated protocol. The 1.5-2.5 interval resembles an older APTT ratio convention, not a UFH anti-Xa concentration.",
+  "source": "hemo-ufh-monitoring"
  },
  {
   "id": "hemo-0045",
@@ -762,7 +806,8 @@
    "Report the result as therapeutic without further assessment"
   ],
   "answer": 0,
-  "explanation": "Hemolysis and lipemia can interfere with chromogenic absorbance measurements; the direction and magnitude depend on the assay. Review validated interference limits and obtain an acceptable specimen or use a validated alternative rather than assuming the flagged value is reliable."
+  "explanation": "Hemolysis and lipemia can interfere with chromogenic absorbance measurements; the direction and magnitude depend on the assay. Review validated interference limits and obtain an acceptable specimen or use a validated alternative rather than assuming the flagged value is reliable.",
+  "source": "hemo-anti-xa"
  },
  {
   "id": "hemo-0046",
@@ -779,7 +824,8 @@
    "1 part blood to 1 part citrate"
   ],
   "answer": 1,
-  "explanation": "Coagulation tubes use 9 parts blood to 1 part 3.2% sodium citrate. A 4:1 ratio gives excess anticoagulant relative to blood and is not the routine coagulation ratio."
+  "explanation": "Coagulation tubes use 9 parts blood to 1 part 3.2% sodium citrate. A 4:1 ratio gives excess anticoagulant relative to blood and is not the routine coagulation ratio.",
+  "source": "hemo-preanalytical"
  },
  {
   "id": "hemo-0047",
@@ -796,7 +842,8 @@
    "Unchanged PT and APTT results"
   ],
   "answer": 2,
-  "explanation": "An underfilled tube contains excess citrate relative to plasma, which binds too much of the reagent calcium and can prolong PT and APTT. It does not shorten clotting times; reject and recollect according to the laboratory's fill policy."
+  "explanation": "An underfilled tube contains excess citrate relative to plasma, which binds too much of the reagent calcium and can prolong PT and APTT. It does not shorten clotting times; reject and recollect according to the laboratory's fill policy.",
+  "source": "hemo-preanalytical"
  },
  {
   "id": "hemo-0048",
@@ -813,7 +860,8 @@
    "0.33 mL"
   ],
   "answer": 3,
-  "explanation": "C = 0.00185 × 4.5 × 40 = 0.333 mL, rounded to 0.33 mL. The usual 0.50 mL citrate for a 4.5 mL draw is excessive because high Hct leaves less plasma."
+  "explanation": "C = 0.00185 × 4.5 × 40 = 0.333 mL, rounded to 0.33 mL. The usual 0.50 mL citrate for a 4.5 mL draw is excessive because high Hct leaves less plasma.",
+  "source": "hemo-isolated-aptt"
  },
  {
   "id": "hemo-0049",
@@ -830,7 +878,8 @@
    "Green heparin collection tube"
   ],
   "answer": 0,
-  "explanation": "Citrate is collected before the listed serum and other additive tubes to minimize carryover. EDTA contamination can chelate calcium and invalidate coagulation results; when a winged set is used first, a discard tube fills the tubing dead space so the citrate tube fills properly."
+  "explanation": "Citrate is collected before the listed serum and other additive tubes to minimize carryover. EDTA contamination can chelate calcium and invalidate coagulation results; when a winged set is used first, a discard tube fills the tubing dead space so the citrate tube fills properly.",
+  "source": "hemo-preanalytical"
  },
  {
   "id": "hemo-0050",
@@ -847,6 +896,7 @@
    "After 48 hours of refrigeration"
   ],
   "answer": 1,
-  "explanation": "Prompt preparation of platelet-poor plasma limits platelet factor 4 release and heparin neutralization. Waiting 8 hours can artifactually shorten the APTT and underestimate the anticoagulant effect; follow the laboratory's validated handling policy."
+  "explanation": "Prompt preparation of platelet-poor plasma limits platelet factor 4 release and heparin neutralization. Waiting 8 hours can artifactually shorten the APTT and underestimate the anticoagulant effect; follow the laboratory's validated handling policy.",
+  "source": "hemo-preanalytical"
  }
 ]

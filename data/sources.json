@@ -1,0 +1,1717 @@
+{
+ "sources": {
+  "cbc-acute-hemorrhage": {
+   "title": "Major haemorrhage: past, present and future",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10087440/",
+   "keyword": "haemorrhage"
+  },
+  "cbc-albumin-smudge": {
+   "title": "An early warning indicator of mortality risk in patients with COVID-19: the neutrophil extracellular traps/neutrophilic segmented granulocyte ratio",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10859410/",
+   "keyword": "albumin"
+  },
+  "cbc-all": {
+   "title": "Acute Lymphoblastic Leukemia Treatment",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/patient/adult-all-treatment-pdq",
+   "keyword": "lymphoblastic"
+  },
+  "cbc-aml": {
+   "title": "Educational Case: Acute Promyelocytic Leukemia With PML-RARA",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6753509/",
+   "keyword": "Auer"
+  },
+  "cbc-anemia-chronic-disease": {
+   "title": "Anemia of chronic disease",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000565.htm",
+   "keyword": "chronic disease"
+  },
+  "cbc-apl-review": {
+   "title": "Acute promyelocytic leukemia (APL): a review of the literature",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082115/",
+   "keyword": "promyelocytic"
+  },
+  "cbc-aplastic-anemia": {
+   "title": "Aplastic anemia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000554.htm",
+   "keyword": "bone marrow"
+  },
+  "cbc-b12-deficiency-anemia": {
+   "title": "Vitamin B12 deficiency anemia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000574.htm",
+   "keyword": "vitamin B12"
+  },
+  "cbc-blood-film": {
+   "title": "PERIPHERAL BLOOD FILM - A REVIEW",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4415389/",
+   "keyword": "biconcave"
+  },
+  "cbc-cll": {
+   "title": "Educational Case: Chronic Lymphocytic Leukemia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096680/",
+   "keyword": "CD23"
+  },
+  "cbc-cml": {
+   "title": "Chronic Myeloid Leukemia Treatment",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/patient/cml-treatment-pdq",
+   "keyword": "Philadelphia"
+  },
+  "cbc-cold-agglutinin-indices": {
+   "title": "Prospective validation of an automatic reflex test for identifying spurious elevations of mean corpuscular haemoglobin concentration due to the presence of cold agglutinins",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34346820/",
+   "keyword": "cold agglutinins"
+  },
+  "cbc-edta-pseudothrombocytopenia": {
+   "title": "Discovery and Correction of Spurious Low Platelet Counts due to EDTA-Dependent Pseudothrombocytopenia",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25425098/",
+   "keyword": "pseudothrombocytopenia"
+  },
+  "cbc-eosinophil-count": {
+   "title": "Eosinophil count - absolute",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003649.htm",
+   "keyword": "eosinophil"
+  },
+  "cbc-essential-thrombocythemia": {
+   "title": "Essential thrombocythemia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/essential-thrombocythemia/",
+   "keyword": "thrombocythemia"
+  },
+  "cbc-folate-deficiency-anemia": {
+   "title": "Folate-deficiency anemia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000551.htm",
+   "keyword": "folate"
+  },
+  "cbc-g6pd-deficiency": {
+   "title": "Glucose-6-phosphate dehydrogenase deficiency",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/glucose-6-phosphate-dehydrogenase-deficiency/",
+   "keyword": "fava"
+  },
+  "cbc-hairy-cell": {
+   "title": "Hairy Cell Leukemia Treatment",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/patient/hairy-cell-treatment-pdq",
+   "keyword": "hairy cell"
+  },
+  "cbc-hemolytic-anemia": {
+   "title": "Educational Case: Warm Autoimmune Hemolytic Anemia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7656867/",
+   "keyword": "antiglobulin"
+  },
+  "cbc-hereditary-spherocytosis": {
+   "title": "Hereditary spherocytosis",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/hereditary-spherocytosis/",
+   "keyword": "spherocytosis"
+  },
+  "cbc-iron-deficiency-anemia": {
+   "title": "Iron deficiency anemia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000584.htm",
+   "keyword": "iron deficiency"
+  },
+  "cbc-itp": {
+   "title": "Platelet Disorders - Immune Thrombocytopenia (ITP)",
+   "publisher": "NHLBI (NIH)",
+   "url": "https://www.nhlbi.nih.gov/health/immune-thrombocytopenia",
+   "keyword": "thrombocytopenia"
+  },
+  "cbc-leukemoid-reaction": {
+   "title": "An update on the etiology and diagnostic evaluation of a leukemoid reaction",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16962944/",
+   "keyword": "leukemoid"
+  },
+  "cbc-lipemic-cbc": {
+   "title": "How to handle lipemic CBC samples on Sysmex hematology analyzers?",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40438559/",
+   "keyword": "lipemia"
+  },
+  "cbc-mds": {
+   "title": "Myelodysplastic Syndromes Treatment (PDQ®) – Health Professional Version",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/myeloproliferative/hp/myelodysplastic-treatment-pdq",
+   "keyword": "pseudo-Pelger"
+  },
+  "cbc-mononucleosis": {
+   "title": "Nonmalignant leukocyte disorders",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7151933/",
+   "keyword": "heterophile"
+  },
+  "cbc-myeloma": {
+   "title": "Plasma Cell Neoplasms (Including Multiple Myeloma) Treatment",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/myeloma/patient/myeloma-treatment-pdq",
+   "keyword": "plasma cell"
+  },
+  "cbc-polycythemia-vera": {
+   "title": "Polycythemia vera",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/polycythemia-vera/",
+   "keyword": "JAK2"
+  },
+  "cbc-reactive-leukocytes": {
+   "title": "Nonmalignant leukocyte disorders",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7151933/",
+   "keyword": "left shift"
+  },
+  "cbc-sickle-cell-disease": {
+   "title": "Sickle Cell Disease - What Is Sickle Cell Disease?",
+   "publisher": "NHLBI (NIH)",
+   "url": "https://www.nhlbi.nih.gov/health/sickle-cell-disease",
+   "keyword": "sickle"
+  },
+  "cbc-thalassemia": {
+   "title": "Thalassemia - What Is Thalassemia?",
+   "publisher": "NHLBI (NIH)",
+   "url": "https://www.nhlbi.nih.gov/health/thalassemia",
+   "keyword": "thalassemia"
+  },
+  "cbc-ttp": {
+   "title": "Educational Case: Differentiating Thrombotic Thrombocytopenic Purpura From Other Thrombotic Microangiopathies and Potential Role of the Spleen",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8013907/",
+   "keyword": "ADAMTS13"
+  },
+  "coag-acquired-hemophilia": {
+   "title": "Diagnosis and laboratory monitoring of acquired hemophilia A",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38066923/",
+   "keyword": "acquired hemophilia A"
+  },
+  "coag-arterial-line-heparin": {
+   "title": "Intra-arterial blood sampling for clotting studies. Effects of heparin contamination",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1928668/",
+   "keyword": "heparin contamination"
+  },
+  "coag-clotted-samples": {
+   "title": "Pre-analytical issues in the haemostasis laboratory: guidance for the clinical laboratories",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5154122/",
+   "keyword": "mixing"
+  },
+  "coag-dic": {
+   "title": "Blood Clotting Disorders - Disseminated Intravascular Coagulation (DIC)",
+   "publisher": "NHLBI (NIH)",
+   "url": "https://www.nhlbi.nih.gov/health/disseminated-intravascular-coagulation",
+   "keyword": "disseminated intravascular coagulation"
+  },
+  "coag-doac-testing": {
+   "title": "Laboratory Measurement of the Anticoagulant Activity of the Target-specific Oral Anticoagulant Agents: A Systematic Review",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4167772/",
+   "keyword": "rivaroxaban"
+  },
+  "coag-doac-thrombin-time": {
+   "title": "The reversal of anticoagulation in clinical practice",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6334060/",
+   "keyword": "anticoagulant"
+  },
+  "coag-drvvt": {
+   "title": "Dilute Russell viper venom time interpretation and clinical correlation: A two-year retrospective institutional review",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30194751/",
+   "keyword": "Russell viper venom time"
+  },
+  "coag-dysfibrinogenemia": {
+   "title": "Laboratory diagnosis of dysfibrinogenemia",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11900586/",
+   "keyword": "dysfibrinogenemia"
+  },
+  "coag-factor-vii": {
+   "title": "Clinical, Laboratory, and Molecular Aspects of Factor VII Deficiency",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39209290/",
+   "keyword": "factor VII"
+  },
+  "coag-factor-xiii": {
+   "title": "Factor XIII deficiency management: a review of the literature",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24401950/",
+   "keyword": "Factor XIII"
+  },
+  "coag-fibrinolysis-tests-treatment": {
+   "title": "Bleeding Disorders in Primary Fibrinolysis",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8268566/",
+   "keyword": "euglobulin"
+  },
+  "coag-hemophilia": {
+   "title": "Hemophilia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/hemophilia.html",
+   "keyword": "factor VIII"
+  },
+  "coag-heparin-anti-xa": {
+   "title": "The use of anti-Xa assay to monitor intravenous unfractionated heparin therapy",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21507816/",
+   "keyword": "anti-Xa"
+  },
+  "coag-high-hematocrit": {
+   "title": "Effect on routine and special coagulation testing values of citrate anticoagulant adjustment in patients with high hematocrit values",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16880137/",
+   "keyword": "high hematocrit"
+  },
+  "coag-hyperfibrinolysis": {
+   "title": "Tranexamic Acid to Treat Life-threatening Hemorrhage in Prostate Cancer Associated Disseminated Intravascular Coagulation with Excessive Fibrinolysis",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4727914/",
+   "keyword": "Primary"
+  },
+  "coag-liver-disease": {
+   "title": "Pathogenesis, prevention, and management of bleeding and thrombosis in patients with liver diseases",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30046685/",
+   "keyword": "liver disease"
+  },
+  "coag-mixing-studies": {
+   "title": "Mixing Studies in Patients With Prolonged Activated Partial Thromboplastin Time or Prothrombin Time",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31094773/",
+   "keyword": "mixing stud"
+  },
+  "coag-pt-inr": {
+   "title": "Prothrombin Time Test and INR (PT/INR)",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/prothrombin-time-test-and-inr-ptinr",
+   "keyword": "warfarin"
+  },
+  "coag-reptilase-time": {
+   "title": "Reptilase time (RT)",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23546720/",
+   "keyword": "reptilase time"
+  },
+  "coag-underfilled-tubes": {
+   "title": "Prolonged prothrombin time and activated partial thromboplastin time due to underfilled specimen tubes with 109 mmol/L (3.2%) citrate anticoagulant",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9620035/",
+   "keyword": "underfilled"
+  },
+  "coag-vitamin-k": {
+   "title": "Vitamin K: MedlinePlus Medical Encyclopedia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/002407.htm",
+   "keyword": "clotting vitamin"
+  },
+  "coag-von-willebrand": {
+   "title": "Von Willebrand disease: MedlinePlus Medical Encyclopedia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000544.htm",
+   "keyword": "ristocetin"
+  },
+  "generated-abs-neutrophil-count": {
+   "title": "How to Interpret and Pursue an Abnormal Complete Blood Cell Count in Adults",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7127472/",
+   "keyword": "absolute neutrophil count"
+  },
+  "generated-aml": {
+   "title": "Acute Myeloid Leukemia Treatment (PDQ)–Patient Version",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/patient/adult-aml-treatment-pdq",
+   "keyword": "myeloblasts"
+  },
+  "generated-blood-differential": {
+   "title": "Blood Differential",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/blood-differential/",
+   "keyword": "eosinophils"
+  },
+  "generated-cll": {
+   "title": "Educational Case: Chronic Lymphocytic Leukemia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096680/",
+   "keyword": "smudge"
+  },
+  "generated-cml": {
+   "title": "Chronic Myeloid Leukemia Treatment (PDQ)–Patient Version",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/patient/cml-treatment-pdq",
+   "keyword": "Philadelphia"
+  },
+  "generated-coag-pathway": {
+   "title": "Back to basics: the coagulation pathway",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519239/",
+   "keyword": "tenase"
+  },
+  "generated-counting-chamber": {
+   "title": "Counting Human Neural Stem Cells",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2565849/",
+   "keyword": "dilution factor"
+  },
+  "generated-eosinophil-count": {
+   "title": "Eosinophil count - absolute",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003649.htm",
+   "keyword": "parasite"
+  },
+  "generated-hemolytic-anemia": {
+   "title": "PERIPHERAL BLOOD FILM - A REVIEW",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4415389/",
+   "keyword": "nucleated"
+  },
+  "generated-infectious-mono": {
+   "title": "About Infectious Mononucleosis (Mono)",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/epstein-barr/about/mononucleosis.html",
+   "keyword": "atypical lymphocytes"
+  },
+  "generated-left-shift": {
+   "title": "Neutrophil left shift and white blood cell count as markers of bacterial infection",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27034055/",
+   "keyword": "left shift"
+  },
+  "generated-nrbc-wbc-correction": {
+   "title": "Unreliable Automated Complete Blood Count Results: Causes, Recognition, and Resolution",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9057813/",
+   "keyword": "NRBC"
+  },
+  "generated-pt-inr": {
+   "title": "Monitoring of Anticoagulant Therapy in Heart Disease: Considerations for the Current Assays",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3466827/",
+   "keyword": "International Sensitivity Index"
+  },
+  "generated-rbc-indices": {
+   "title": "Hematologic Disorders",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7122868/",
+   "keyword": "reticulocyte"
+  },
+  "generated-reticulocyte-count": {
+   "title": "Hematologic Disorders",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7122868/",
+   "keyword": "reticulocyte"
+  },
+  "generated-reticulocyte-production-index": {
+   "title": "Hematologic Disorders",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7122868/",
+   "keyword": "reticulocyte"
+  },
+  "generated-westgard-iqc": {
+   "title": "A comparative study of sigma metrics and statistical quality control rules in clinical biochemistry laboratories using a Cobas pure analyzer",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13098847/",
+   "keyword": "Levey-Jennings"
+  },
+  "hemo-anti-xa": {
+   "title": "Interference in the anti-Xa heparin activity assay due to hemolysis and icterus during pediatric extracorporeal life support",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30964951/",
+   "keyword": "anti-Xa"
+  },
+  "hemo-antiplasmin-deficiency": {
+   "title": "Enhanced thrombin and plasmin generation profiles in alpha-2-antiplasmin–deficient patients: Data from the Rare Bleeding disorders in the Netherlands study",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11613267/",
+   "keyword": "normal screening"
+  },
+  "hemo-antithrombin": {
+   "title": "Overcoming heparin resistance in pregnant women with antithrombin deficiency: a case report and review of the literature",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29907123/",
+   "keyword": "antithrombin"
+  },
+  "hemo-aspirin-cox1": {
+   "title": "Aspirin inhibition and recovery of cyclooxygenase activity and thromboxane biosynthesis in human megakaryocytes: a translational surrogate model",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12799507/",
+   "keyword": "thromboxane"
+  },
+  "hemo-coag-pathway": {
+   "title": "Back to basics: the coagulation pathway",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519239/",
+   "keyword": "tenase"
+  },
+  "hemo-d-dimer": {
+   "title": "D-Dimer Test: MedlinePlus Medical Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/d-dimer-test/",
+   "keyword": "D-dimer"
+  },
+  "hemo-dic": {
+   "title": "Disseminated Intravascular Coagulation (DIC) | NHLBI, NIH",
+   "publisher": "NHLBI (NIH)",
+   "url": "https://www.nhlbi.nih.gov/health/disseminated-intravascular-coagulation",
+   "keyword": "DIC"
+  },
+  "hemo-factor-v-leiden": {
+   "title": "Factor V Leiden thrombophilia: MedlinePlus Genetics",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/factor-v-leiden-thrombophilia/",
+   "keyword": "activated protein C"
+  },
+  "hemo-factor-vii-pattern": {
+   "title": "Successful Laparoscopic Sleeve Gastrectomy in a Patient With Rare Congenital Factor VII Deficiency: A Case Report and Management Strategy",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11738829/",
+   "keyword": "normal aPTT"
+  },
+  "hemo-factor-xiii": {
+   "title": "Factor XIII deficiency: MedlinePlus Genetics",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/factor-xiii-deficiency/",
+   "keyword": "factor XIII"
+  },
+  "hemo-fibrinogen-test": {
+   "title": "Fibrinogen blood test: MedlinePlus Medical Encyclopedia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003650.htm",
+   "keyword": "fibrinogen"
+  },
+  "hemo-fibrinolysis": {
+   "title": "The Fibrinolytic System and Its Measurement: History, Current Uses and Future Directions for Diagnosis and Treatment",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10532028/",
+   "keyword": "plasmin"
+  },
+  "hemo-glanzmann": {
+   "title": "Glanzmann thrombasthenia: MedlinePlus Genetics",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/glanzmann-thrombasthenia/",
+   "keyword": "thrombasthenia"
+  },
+  "hemo-hemophilia": {
+   "title": "Hemophilia: MedlinePlus",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/hemophilia.html",
+   "keyword": "factor IX"
+  },
+  "hemo-hit": {
+   "title": "Anti-heparin/platelet factor 4 antibodies and heparin-induced thrombocytopenia--review",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18426686/",
+   "keyword": "platelet factor 4"
+  },
+  "hemo-inr-isi": {
+   "title": "Monitoring of Anticoagulant Therapy in Heart Disease: Considerations for the Current Assays",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3466827/",
+   "keyword": "International Sensitivity Index"
+  },
+  "hemo-isolated-aptt": {
+   "title": "Isolated Prolongation of Activated Partial Thromboplastin Time: Not Just Bleeding Risk!",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10305031/",
+   "keyword": "phospholipids"
+  },
+  "hemo-mixing-studies": {
+   "title": "Coagulation mixing studies: Utility, algorithmic strategies and limitations for lupus anticoagulant testing or follow up of abnormal coagulation tests",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31674066/",
+   "keyword": "mixing"
+  },
+  "hemo-platelet-disorders": {
+   "title": "Hereditary disorders of platelet function",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21043747/",
+   "keyword": "ristocetin"
+  },
+  "hemo-preanalytical": {
+   "title": "Pre-analytical issues in the haemostasis laboratory: guidance for the clinical laboratories",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5154122/",
+   "keyword": "sodium citrate"
+  },
+  "hemo-prostacyclin": {
+   "title": "Medical therapy of pulmonary hypertension. The prostacyclins",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11590846/",
+   "keyword": "prostacyclin"
+  },
+  "hemo-pt-factors": {
+   "title": "Point-of-Care Diagnostics in Coagulation Management",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7435714/",
+   "keyword": "prothrombin"
+  },
+  "hemo-ptt": {
+   "title": "Partial Thromboplastin Time (PTT) Test: MedlinePlus Medical Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/partial-thromboplastin-time-ptt-test/",
+   "keyword": "partial thromboplastin time"
+  },
+  "hemo-reptilase-time": {
+   "title": "Reptilase time (RT)",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23546720/",
+   "keyword": "reptilase"
+  },
+  "hemo-tpa-laboratory": {
+   "title": "Predictors of Postthrombolysis Outcome and Symptomatic Postthrombolysis Hemorrhage following Intravenous Thrombolysis with Alteplase for Acute Ischemic Stroke",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7195957/",
+   "keyword": "fibrinogen degradation"
+  },
+  "hemo-ufh-monitoring": {
+   "title": "Monitoring of Anticoagulant Therapy in Heart Disease: Considerations for the Current Assays",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3466827/",
+   "keyword": "0.3 to 0.7"
+  },
+  "hemo-vwf-platelet-adhesion": {
+   "title": "Of von Willebrand factor and platelets",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4284388/",
+   "keyword": "GPIb"
+  },
+  "hemo-warfarin-factors": {
+   "title": "Decline of proteins C and S and factors II, VII, IX and X during the initiation of warfarin therapy",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2954263/",
+   "keyword": "warfarin"
+  },
+  "lab-absolute-count": {
+   "title": "How to Interpret and Pursue an Abnormal Complete Blood Cell Count in Adults",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7127472/",
+   "keyword": "multiplying"
+  },
+  "lab-acute-leukemia-cytochemistry": {
+   "title": "Approach to the diagnosis and classification of blood diseases",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7152454/",
+   "keyword": "Sudan Black B"
+  },
+  "lab-aml-flow": {
+   "title": "Acute Myeloid Leukemia: Diagnosis and Evaluation by Flow Cytometry",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11592599/",
+   "keyword": "CD34"
+  },
+  "lab-automated-counters-history": {
+   "title": "Development, history, and future of automated cell counters",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25676368/",
+   "keyword": "Coulter principle"
+  },
+  "lab-blood-film-review": {
+   "title": "PERIPHERAL BLOOD FILM - A REVIEW",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4415389/",
+   "keyword": "monolayer"
+  },
+  "lab-body-fluid-testing": {
+   "title": "Laboratory testing of extravascular body fluids: National recommendations on behalf of the Croatian Society of Medical Biochemistry and Laboratory Medicine. Part I – Serous fluids",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6904973/",
+   "keyword": "Neubauer"
+  },
+  "lab-chamber-calculation": {
+   "title": "Counting Human Neural Stem Cells",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2565849/",
+   "keyword": "dilution factor"
+  },
+  "lab-cold-agglutinin": {
+   "title": "Effect of cold agglutinins on red blood cell parameters in a trauma patient: a case report",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6214689/",
+   "keyword": "cold agglutinin"
+  },
+  "lab-csf-pitfalls": {
+   "title": "Spatial and temporal variation of routine parameters: pitfalls in the cerebrospinal fluid analysis in central nervous system infections",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9258096/",
+   "keyword": "traumatic"
+  },
+  "lab-esr-position": {
+   "title": "Rapid Measurement of Erythrocyte Sedimentation Rate Using a Tube Positioned at a 45° Angle Compared With the Westergren Reference Method",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13280657/",
+   "keyword": "sickle"
+  },
+  "lab-esr-storage": {
+   "title": "Effect of storage temperature and time on erythrocyte sedimentation rate",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9148503/",
+   "keyword": "sedimentation"
+  },
+  "lab-fish-interphase": {
+   "title": "Banded chromosomes versus fluorescence in situ hybridization in the diagnosis of mantle cell lymphoma: a lesson from three cases",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12237233/",
+   "keyword": "interphase"
+  },
+  "lab-flow-principles": {
+   "title": "Introduction to Multiparametric Flow Cytometry and Analysis of High-Dimensional Data",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7868168/",
+   "keyword": "exclude dead cells"
+  },
+  "lab-g6pd-heinz": {
+   "title": "Molecular Mechanisms of Drug-Induced Hemolysis in G6PD Deficiency: Mechanistic Insights",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12343164/",
+   "keyword": "Heinz bodies"
+  },
+  "lab-g6pd-reticulocytosis": {
+   "title": "Educational Case: Glucose-6-phosphate dehydrogenase (G6PD) deficiency anemia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13427546/",
+   "keyword": "falsely normal"
+  },
+  "lab-hemoglobin-derivatives": {
+   "title": "Diagnosing anemia: Challenges selecting methods, addressing underlying causes, and implementing actions at the public health level",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10880862/",
+   "keyword": "sulfhemoglobin"
+  },
+  "lab-hemoglobin-methods": {
+   "title": "Methods and analyzers for hemoglobin measurement in clinical laboratories and field settings",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6709845/",
+   "keyword": "cyanmethemoglobin"
+  },
+  "lab-hemolysis-markers": {
+   "title": "Clinical Applications of Hemolytic Markers in the Differential Diagnosis and Management of Hemolytic Anemia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4706896/",
+   "keyword": "haptoglobin"
+  },
+  "lab-hemolyzed-specimens": {
+   "title": "Hemolyzed Specimens: Major Challenge for Identifying and Rejecting Specimens in Clinical Laboratories",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6425048/",
+   "keyword": "haptoglobin"
+  },
+  "lab-kleihauer-betke": {
+   "title": "Development of a new staining protocol for the Kleihauer–Betke test to facilitate the reading of difficult cases",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10823721/",
+   "keyword": "Kleihauer"
+  },
+  "lab-leukocyte-alkaline-phosphatase": {
+   "title": "Diagnostic discrimination and cost effective assay strategy for leukocyte alkaline phosphatase",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8919203/",
+   "keyword": "alkaline phosphatase"
+  },
+  "lab-lipemic-samples": {
+   "title": "Handling of lipemic samples in the clinical laboratory",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10197190/",
+   "keyword": "lipemia"
+  },
+  "lab-manual-hematocrit": {
+   "title": "Comparison of Manual Hematocrit Determinations vs Automated Methods for Hematopoietic Progenitor Cell Apheresis Products",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4980147/",
+   "keyword": "microhematocrit"
+  },
+  "lab-medlineplus-apl": {
+   "title": "Acute promyelocytic leukemia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://www.medlineplus.gov/genetics/condition/acute-promyelocytic-leukemia/",
+   "keyword": "PML"
+  },
+  "lab-medlineplus-auer-rods": {
+   "title": "Auer rods",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://www.nlm.nih.gov/medlineplus/ency/imagepages/1441.htm",
+   "keyword": "Auer"
+  },
+  "lab-medlineplus-blood-smear": {
+   "title": "Blood smear",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003665.htm",
+   "keyword": "target"
+  },
+  "lab-medlineplus-cml": {
+   "title": "Chronic myeloid leukemia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/chronic-myeloid-leukemia",
+   "keyword": "ABL1"
+  },
+  "lab-medlineplus-esr": {
+   "title": "Erythrocyte Sedimentation Rate (ESR)",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/erythrocyte-sedimentation-rate-esr",
+   "keyword": "sickle cell"
+  },
+  "lab-medlineplus-polycythemia-vera": {
+   "title": "Polycythemia vera",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/polycythemia-vera",
+   "keyword": "JAK2"
+  },
+  "lab-nrbc-wbc-correction": {
+   "title": "Unreliable Automated Complete Blood Count Results: Causes, Recognition, and Resolution",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9057813/",
+   "keyword": "NRBC"
+  },
+  "lab-platelet-counting-traps": {
+   "title": "Platelet Counting: Ugly Traps and Good Advice. Proposals from the French-Speaking Cellular Hematology Group (GFHC)",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7141345/",
+   "keyword": "fragment"
+  },
+  "lab-pnh-flow": {
+   "title": "The use of monoclonal antibodies and flow cytometry in the diagnosis of paroxysmal nocturnal hemoglobinuria",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8652849/",
+   "keyword": "paroxysmal nocturnal hemoglobinuria"
+  },
+  "lab-rbc-formulas": {
+   "title": "Hematologic Disorders",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7122868/",
+   "keyword": "MCHC"
+  },
+  "lab-rbc-histogram": {
+   "title": "Clinical Utility of Blood Cell Histogram Interpretation",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5713789/",
+   "keyword": "histogram"
+  },
+  "lab-retic-manual-automated": {
+   "title": "Comparison Between Manual and Automated Methods of Counting Reticulocytes and the Effect of Sample Storage on Reticulocyte Count: A Cross-Sectional Study from Southern India",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8804130/",
+   "keyword": "new methylene blue"
+  },
+  "lab-sideroblastic-anemia": {
+   "title": "Causes and Pathophysiology of Acquired Sideroblastic Anemia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498732/",
+   "keyword": "Prussian blue"
+  },
+  "lab-unreliable-cbc": {
+   "title": "Unreliable Automated Complete Blood Count Results: Causes, Recognition, and Resolution",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9057813/",
+   "keyword": "leukocytosis"
+  },
+  "lab-warm-aiha": {
+   "title": "The Clinical Pictures of Autoimmune Hemolytic Anemia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4678314/",
+   "keyword": "spherocyt"
+  },
+  "morph-acanthocyte-echinocyte": {
+   "title": "The acanthocyte-echinocyte differential: The example of chorea-acanthocytosis",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20131113/",
+   "keyword": "echinocytes"
+  },
+  "morph-all": {
+   "title": "Acute Lymphoblastic Leukemia Treatment",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/patient/adult-all-treatment-pdq",
+   "keyword": "lymphoblast"
+  },
+  "morph-apl-morphology": {
+   "title": "Acute promyelocytic leukemia: morphological aspects",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8090023/",
+   "keyword": "promyelocytes"
+  },
+  "morph-auer-rods": {
+   "title": "Auer rods and faggot cells: A review of the history, significance and mimics of two morphological curiosities of enduring relevance",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36175378/",
+   "keyword": "Auer rods"
+  },
+  "morph-babesiosis": {
+   "title": "Babesiosis",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25999229/",
+   "keyword": "babesiosis"
+  },
+  "morph-band-neutrophils": {
+   "title": "Hematologic response to acute inflammation: the band neutrophil revisited",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2186500/",
+   "keyword": "band neutrophil"
+  },
+  "morph-blood-smear": {
+   "title": "PERIPHERAL BLOOD FILM - A REVIEW",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4415389/",
+   "keyword": "biconcave"
+  },
+  "morph-cabot-rings": {
+   "title": "Origin and composition of Cabot rings in pernicious anemia",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1155375/",
+   "keyword": "Cabot rings"
+  },
+  "morph-cold-agglutinins": {
+   "title": "Febrile (warm) and cold agglutinins",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003549.htm",
+   "keyword": "cold agglutinin"
+  },
+  "morph-elliptocytes": {
+   "title": "Red blood cells - elliptocytosis",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/imagepages/1219.htm",
+   "keyword": "elliptical"
+  },
+  "morph-heinz-bite-cells": {
+   "title": "Heinz body hemolytic animea. \"Bite cells\" -a clue to diagnosis",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1247346/",
+   "keyword": "Heinz body"
+  },
+  "morph-hemoglobin-c-crystals": {
+   "title": "Structure of human hemoglobin C: a disease with intraerythrocytic crystals",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/427205/",
+   "keyword": "intraerythrocytic crystals"
+  },
+  "morph-hereditary-stomatocytoses": {
+   "title": "The hereditary stomatocytoses",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19644134/",
+   "keyword": "stomatocytosis"
+  },
+  "morph-howell-jolly-spleen": {
+   "title": "Howell-Jolly body counting as a measure of splenic function. A reassessment",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2125541/",
+   "keyword": "Howell-Jolly"
+  },
+  "morph-kleihauer-betke": {
+   "title": "Kleihauer-Betke Test",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28613626/",
+   "keyword": "Kleihauer"
+  },
+  "morph-lbr-pelger-huet": {
+   "title": "LBR gene",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/gene/lbr/",
+   "keyword": "Pelger"
+  },
+  "morph-malaria": {
+   "title": "DPDx - Malaria",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/dpdx/malaria/index.html",
+   "keyword": "chromatin dots"
+  },
+  "morph-myeloma": {
+   "title": "Plasma Cell Neoplasms (Including Multiple Myeloma) Treatment",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/myeloma/patient/myeloma-treatment-pdq",
+   "keyword": "plasma cell"
+  },
+  "morph-pappenheimer": {
+   "title": "Pappenheimer bodies: a brief historical review",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15054821/",
+   "keyword": "siderotic granules"
+  },
+  "morph-platelet-satellitism": {
+   "title": "Pseudothrombocytopenia and other conditions associated with spuriously low platelet counts",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40145275/",
+   "keyword": "platelet satellitism"
+  },
+  "morph-pseudothrombocytopenia": {
+   "title": "Pseudothrombocytopenia and other conditions associated with spuriously low platelet counts",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40145275/",
+   "keyword": "pseudothrombocytopenia"
+  },
+  "morph-reticulocyte-nmb": {
+   "title": "Staining of inclusion bodies and reticulocytes: a modified procedure",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1695987/",
+   "keyword": "new methylene blue"
+  },
+  "morph-rouleaux": {
+   "title": "Rouleaux and saline replacement",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30295502/",
+   "keyword": "stacked coins"
+  },
+  "morph-schistocytes-icsh": {
+   "title": "ICSH recommendations for identification, diagnostic value, and quantitation of schistocytes",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22081912/",
+   "keyword": "schistocytes"
+  },
+  "morph-shape-definitions": {
+   "title": "Practical Considerations in the Implementation of Peripheral Smear Review in the Clinical Laboratory",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13555154/",
+   "keyword": "peripheral blood smear"
+  },
+  "morph-smudge-cells": {
+   "title": "Smudge Cells in Chronic Lymphocytic Leukemia: Pathophysiology, Laboratory Considerations, and Clinical Significance",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33527134/",
+   "keyword": "smudge cells"
+  },
+  "morph-toxic-changes": {
+   "title": "Nonmalignant leukocyte disorders",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7151933/",
+   "keyword": "Döhle"
+  },
+  "phys-blood-differential": {
+   "title": "Blood Differential Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/blood-differential/",
+   "keyword": "neutrophils"
+  },
+  "phys-bone-marrow-tests": {
+   "title": "Bone Marrow Tests",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/bone-marrow-tests/",
+   "keyword": "iliac crest"
+  },
+  "phys-csf-cell-count": {
+   "title": "Cerebrospinal Fluid–Basic Concepts Review",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10216641/",
+   "keyword": "third tube"
+  },
+  "phys-csf-time-delay": {
+   "title": "Effect of sample processing and time delay on cell count and chemistry tests in cerebrospinal fluid collected from drainage systems",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6214696/",
+   "keyword": "60 minutes"
+  },
+  "phys-erythroid-last-mitosis": {
+   "title": "Vimentin expression is retained in erythroid cells differentiated from human iPSC and ESC and indicates dysregulation in these cells early in differentiation",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6489253/",
+   "keyword": "polychromatic"
+  },
+  "phys-erythropoiesis-overview": {
+   "title": "Erythropoiesis: insights into pathophysiology and treatments in 2017",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016880/",
+   "keyword": "erythropoietin"
+  },
+  "phys-ferritin-test": {
+   "title": "Ferritin Blood Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/ferritin-blood-test/",
+   "keyword": "ferritin"
+  },
+  "phys-haptoglobin-hemolysis": {
+   "title": "Hemolyzed Specimens: Major Challenge for Identifying and Rejecting Specimens in Clinical Laboratories",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6425048/",
+   "keyword": "haptoglobin"
+  },
+  "phys-hbb-gene": {
+   "title": "HBB gene",
+   "publisher": "MedlinePlus Genetics (NIH)",
+   "url": "https://medlineplus.gov/genetics/gene/hbb/",
+   "keyword": "alpha-globin"
+  },
+  "phys-heme-recycling": {
+   "title": "The Multiple Facets of Iron Recycling",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8469827/",
+   "keyword": "biliverdin"
+  },
+  "phys-hemoglobin-function": {
+   "title": "Hemoglobin: Structure, Function and Allostery",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+   "keyword": "carbon dioxide"
+  },
+  "phys-hepcidin": {
+   "title": "Physiological and pathophysiological mechanisms of hepcidin regulation: clinical implications for iron disorders",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8164969/",
+   "keyword": "hepcidin"
+  },
+  "phys-iron-metabolism": {
+   "title": "Review on iron and its importance for human health",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999603/",
+   "keyword": "duodenum"
+  },
+  "phys-iron-tests": {
+   "title": "Iron Tests",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/iron-tests/",
+   "keyword": "transferrin"
+  },
+  "phys-marrow-cellularity": {
+   "title": "Myelodysplastic syndromes: updates and nuances",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5358800/",
+   "keyword": "100-age"
+  },
+  "phys-marrow-first-pull": {
+   "title": "Practical Guide to Bone Marrow Sampling for Suspected Myelodysplastic Syndromes",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5995536/",
+   "keyword": "plain collecting syringe"
+  },
+  "phys-marrow-me-ratio": {
+   "title": "Bone Marrow Pathology Predicts Mortality in Chronic Hemodialysis Patients",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4354719/",
+   "keyword": "M/E ratio"
+  },
+  "phys-mesothelial-cells": {
+   "title": "Cellular Plasticity in Malignant Transformation: Mesothelial Cells",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13218699/",
+   "keyword": "mesothelial"
+  },
+  "phys-platelet-granules": {
+   "title": "The life cycle of platelet granules",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5832915/",
+   "keyword": "dense granules"
+  },
+  "phys-pleural-exudate": {
+   "title": "Elevated Nitrite/Nitrate Ratio as a Potential Biomarker for the Differential Diagnosis of Pleural Effusions",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9312090/",
+   "keyword": "Light"
+  },
+  "phys-rbc-lifespan": {
+   "title": "How Do Red Blood Cells Die?",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8006275/",
+   "keyword": "120 days"
+  },
+  "phys-reticulocyte-stain": {
+   "title": "Reticulocytes in sports medicine",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18278982/",
+   "keyword": "new methylene blue"
+  },
+  "phys-stored-blood-bpg": {
+   "title": "The acidosis-induced right shift of the HbO2 dissociation curve is maintained during erythrocyte storage",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3156439/",
+   "keyword": "diphosphoglycerate"
+  },
+  "plt-analyzer-artifacts": {
+   "title": "Unreliable Automated Complete Blood Count Results: Causes, Recognition, and Resolution",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9057813/",
+   "keyword": "giant PLTs"
+  },
+  "plt-aspirin-platelets": {
+   "title": "Aspirin and platelets: the antiplatelet action of aspirin and its role in thrombosis treatment and prophylaxis",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9263351/",
+   "keyword": "cyclooxygenase"
+  },
+  "plt-dic-review": {
+   "title": "Disseminated intravascular coagulation",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4260307/",
+   "keyword": "disseminated intravascular coagulation"
+  },
+  "plt-essential-thrombocythemia": {
+   "title": "Essential thrombocythemia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1781427/",
+   "keyword": "multimers"
+  },
+  "plt-hit-review": {
+   "title": "Heparin-induced thrombocytopenia (HIT): Identification and treatment pathways",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6062760/",
+   "keyword": "heparin-induced thrombocytopenia"
+  },
+  "plt-immature-platelet-fraction": {
+   "title": "Immature platelet fraction: A useful marker for identifying the cause of thrombocytopenia and predicting platelet recovery",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7035018/",
+   "keyword": "hypoproductive"
+  },
+  "plt-itp-smear": {
+   "title": "Updated international consensus report on the investigation and management of primary immune thrombocytopenia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6880896/",
+   "keyword": "thrombocytopenia"
+  },
+  "plt-medlineplus-platelet-tests": {
+   "title": "Platelet Tests",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/platelet-tests/",
+   "keyword": "Glanzmann"
+  },
+  "plt-medlineplus-vwd": {
+   "title": "Von Willebrand disease",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000544.htm",
+   "keyword": "ristocetin"
+  },
+  "plt-nhlbi-thrombocytopenia": {
+   "title": "Platelet Disorders - Thrombocytopenia",
+   "publisher": "NHLBI (NIH)",
+   "url": "https://www.nhlbi.nih.gov/health/thrombocytopenia",
+   "keyword": "150,000"
+  },
+  "plt-nhlbi-ttp": {
+   "title": "Platelet Disorders - Thrombotic Thrombocytopenic Purpura (TTP)",
+   "publisher": "NHLBI (NIH)",
+   "url": "https://www.nhlbi.nih.gov/health/thrombotic-thrombocytopenic-purpura",
+   "keyword": "fragments"
+  },
+  "plt-platelet-function-defects": {
+   "title": "Platelet function defects",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19141164/",
+   "keyword": "Bernard-Soulier"
+  },
+  "plt-pseudothrombocytopenia": {
+   "title": "Pseudothrombocytopenia due to Platelet Clumping: A Case Report and Brief Review of the Literature",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5164902/",
+   "keyword": "pseudothrombocytopenia"
+  },
+  "plt-refrigeration-responsiveness": {
+   "title": "The effect of short-term refrigeration on platelet responsiveness",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9546855/",
+   "keyword": "refrigerat"
+  },
+  "qc-analyzer-maintenance": {
+   "title": "Unreliable Automated Complete Blood Count Results: Causes, Recognition, and Resolution",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9057813/",
+   "keyword": "aperture"
+  },
+  "qc-blood-differential": {
+   "title": "How to Interpret and Pursue an Abnormal Complete Blood Cell Count in Adults",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7127472/",
+   "keyword": "multiplying"
+  },
+  "qc-bloodborne-pathogens": {
+   "title": "1910.1030 - Bloodborne pathogens.",
+   "publisher": "OSHA",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+   "keyword": "Broken glassware"
+  },
+  "qc-calibration-verification": {
+   "title": "Verifying performance characteristics of quantitative analytical systems: calibration verification, linearity, and analytical measurement range",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25171699/",
+   "keyword": "calibration verification"
+  },
+  "qc-delta-checks": {
+   "title": "Delta Checks in the clinical laboratory.",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30632840/",
+   "keyword": "delta check"
+  },
+  "qc-hemacytometer": {
+   "title": "Counting Human Neural Stem Cells",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2565849/",
+   "keyword": "dilution factor"
+  },
+  "qc-hematology-analyzers": {
+   "title": "Automated hematology analyzers: Recent trends and applications",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5784285/",
+   "keyword": "impedance"
+  },
+  "qc-proficiency-testing": {
+   "title": "Regulations for Implementing the Clinical Laboratory Improvement Amendments of 1988: A Summary",
+   "publisher": "CDC (MMWR)",
+   "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00016177.htm",
+   "keyword": "same manner as patient specimens"
+  },
+  "qc-stage-micrometer": {
+   "title": "How to measure your microscope’s HPF. A critical guide for residents",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10767800/",
+   "keyword": "stage micrometer"
+  },
+  "qc-westgard-rules": {
+   "title": "A comparative study of sigma metrics and statistical quality control rules in clinical biochemistry laboratories using a Cobas pure analyzer",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13098847/",
+   "keyword": "Westgard"
+  },
+  "rbc-alpha-thalassemia": {
+   "title": "Alpha thalassemia: MedlinePlus Genetics",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/alpha-thalassemia/",
+   "keyword": "hemoglobin H"
+  },
+  "rbc-anemia-ckd": {
+   "title": "Anemia in Chronic Kidney Disease - NIDDK",
+   "publisher": "NIDDK (NIH)",
+   "url": "https://www.niddk.nih.gov/health-information/kidney-disease/anemia",
+   "keyword": "erythropoietin"
+  },
+  "rbc-anemia-of-inflammation": {
+   "title": "Anemia of Inflammation",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4115203/",
+   "keyword": "hepcidin"
+  },
+  "rbc-aplastic-anemia": {
+   "title": "Aplastic anemia: MedlinePlus Medical Encyclopedia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000554.htm",
+   "keyword": "aplastic anemia"
+  },
+  "rbc-autoimmune-hemolytic-anemia": {
+   "title": "Autoimmune Hemolytic Anemia in the Pediatric Setting",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7828053/",
+   "keyword": "cold agglutinin"
+  },
+  "rbc-b12-hematologic": {
+   "title": "Revisiting the hematological manifestations of vitamin B12 deficiency",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13508813/",
+   "keyword": "hypersegmented"
+  },
+  "rbc-beta-thalassemia": {
+   "title": "Beta thalassemia: MedlinePlus Genetics",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/beta-thalassemia/",
+   "keyword": "beta-globin"
+  },
+  "rbc-cold-agglutinin-cbc": {
+   "title": "Effect of cold agglutinins on red blood cell parameters in a trauma patient: a case report",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6214689/",
+   "keyword": "cold agglutinin"
+  },
+  "rbc-epo-renal-tumor": {
+   "title": "Erythropoietin in renal cell carcinoma: evaluation of its usefulness as a tumor marker",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1499617/",
+   "keyword": "erythropoietin"
+  },
+  "rbc-erythrocytosis-workup": {
+   "title": "JAK2 V617F mutation negative erythrocytosis (or how to more simply perform diagnosis and treatment)",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3463076/",
+   "keyword": "erythropoietin"
+  },
+  "rbc-ferritin-iron-deficiency": {
+   "title": "Serum or plasma ferritin concentration as an index of iron deficiency and overload",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8142307/",
+   "keyword": "ferritin"
+  },
+  "rbc-folate-rbc-assay": {
+   "title": "A Practical Approach to Red Blood Cell Folate Analysis",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2716806/",
+   "keyword": "hemolysate"
+  },
+  "rbc-g6pd-assay-retic": {
+   "title": "Glucose-6-Phosphate Dehydrogenase Deficiency and Neonatal Hyperbilirubinemia: Insights on Pathophysiology, Diagnosis, and Gene Variants in Disease Heterogeneity",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9170901/",
+   "keyword": "reticulocyte"
+  },
+  "rbc-g6pd-bite-cells": {
+   "title": "Rasburicase-induced hemolytic anemia in previously undiagnosed G6PD deficiency",
+   "publisher": "American Society of Hematology",
+   "url": "https://imagebank.hematology.org/image/61798/rasburicaseinduced-hemolytic-anemia-in-previously-undiagnosed-g6pd-deficiency",
+   "keyword": "bite cells"
+  },
+  "rbc-hbh-brilliant-cresyl-blue": {
+   "title": "Usefulness of brilliant cresyl blue staining as an auxiliary method of screening for alpha-thalassemia",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15746652/",
+   "keyword": "brilliant cresyl blue"
+  },
+  "rbc-heinz-crystal-violet": {
+   "title": "Quantifying phenylhydrazine-induced Heinz body formation in normal human erythrocytes by flow cytometry versus microscopy or spectrophotometry",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13595877/",
+   "keyword": "crystal violet-stained"
+  },
+  "rbc-hemoglobin-c": {
+   "title": "Hemoglobin C disease: MedlinePlus Medical Encyclopedia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000572.htm",
+   "keyword": "hemoglobin C"
+  },
+  "rbc-hemorrhage-hemoglobin": {
+   "title": "Hemorrhagic Shock: Blood Marker Sequencing and Pulmonary Gas Exchange",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9955920/",
+   "keyword": "lag behind"
+  },
+  "rbc-iron-deficiency-anemia": {
+   "title": "Iron deficiency anemia: MedlinePlus Medical Encyclopedia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000584.htm",
+   "keyword": "iron deficiency"
+  },
+  "rbc-lead-p5n": {
+   "title": "Effects of low-level lead exposure on pyrimidine 5'-nucleotidase and other erythrocyte enzymes. Possible role of pyrimidine 5'-nucleotidase in the pathogenesis of lead-induced anemia",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1184742/",
+   "keyword": "nucleotidase"
+  },
+  "rbc-liver-membrane-lipid": {
+   "title": "Evaluation of Macrocytosis in Routine Hemograms",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3572251/",
+   "keyword": "macrocytosis"
+  },
+  "rbc-macrocytic-anemias": {
+   "title": "Diagnosis and treatment of macrocytic anemias in adults",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5689413/",
+   "keyword": "alcohol"
+  },
+  "rbc-malaria": {
+   "title": "Malaria: MedlinePlus Medical Encyclopedia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000621.htm",
+   "keyword": "falciparum"
+  },
+  "rbc-mentzer-index": {
+   "title": "Role of Mentzer index for differentiating iron deficiency anemia and beta thalassemia trait in pregnant women",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9121960/",
+   "keyword": "Mentzer"
+  },
+  "rbc-nrbc-thalassemia": {
+   "title": "The Importance of Nucleated Red Blood Cells in Patients with Beta Thalassemia Major and Comparison of Two Automated Systems with Manual Microscopy and Flow Cytometry",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26554249/",
+   "keyword": "nucleated red blood cell"
+  },
+  "rbc-pappenheimer-bodies": {
+   "title": "Pappenheimer bodies in a splenectomized patient with alcohol abuse",
+   "publisher": "American Society of Hematology",
+   "url": "https://imagebank.hematology.org/image/12647/pappenheimer-bodies-in-a-splenectomized-patient-with-alcohol-abuse",
+   "keyword": "Pappenheimer"
+  },
+  "rbc-parvovirus-aplastic-crisis": {
+   "title": "Transient aplastic crisis triggered by parvovirus B19 in a family with hereditary spherocytosis",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7242858/",
+   "keyword": "aplastic crisis"
+  },
+  "rbc-pch": {
+   "title": "Autoimmune Hemolytic Anemia in the Pediatric Setting",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7828053/",
+   "keyword": "Donath"
+  },
+  "rbc-pernicious-anemia": {
+   "title": "Pernicious anemia: MedlinePlus Medical Encyclopedia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000569.htm",
+   "keyword": "intrinsic factor"
+  },
+  "rbc-pnh-flow-cytometry": {
+   "title": "Technical advances in flow cytometry-based diagnosis and monitoring of paroxysmal nocturnal hemoglobinuria",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5234748/",
+   "keyword": "CD59"
+  },
+  "rbc-pure-red-cell-aplasia": {
+   "title": "Acquired pure red cell aplasia: updated review of treatment",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18510682/",
+   "keyword": "pure red cell aplasia"
+  },
+  "rbc-pyruvate-kinase-deficiency": {
+   "title": "Pyruvate kinase deficiency: MedlinePlus Genetics",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/pyruvate-kinase-deficiency/",
+   "keyword": "pyruvate kinase"
+  },
+  "rbc-red-cell-membrane": {
+   "title": "Abnormalities of the Erythrocyte Membrane",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4155395/",
+   "keyword": "osmotic fragility"
+  },
+  "rbc-reticulocyte-postdonation": {
+   "title": "Hepcidin/Ferritin Quotient Helps to Predict Spontaneous Recovery from Iron Loss following Blood Donation",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4698650/",
+   "keyword": "reticulocytes"
+  },
+  "rbc-reticulocyte-production-index": {
+   "title": "Hematology",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7123236/",
+   "keyword": "maturation factor"
+  },
+  "rbc-sickle-cell-disease": {
+   "title": "Sickle cell disease: MedlinePlus Medical Encyclopedia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000527.htm",
+   "keyword": "sickle"
+  },
+  "rbc-sickle-cell-trait": {
+   "title": "Sickle Cell Disease - Sickle Cell Trait | NHLBI, NIH",
+   "publisher": "NHLBI (NIH)",
+   "url": "https://www.nhlbi.nih.gov/health/sickle-cell-disease/sickle-cell-trait",
+   "keyword": "sickle cell trait"
+  },
+  "rbc-sickle-detection": {
+   "title": "Techniques for the Detection of Sickle Cell Disease: A Review",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8148117/",
+   "keyword": "citrate agar"
+  },
+  "rbc-sickle-solubility": {
+   "title": "Sickle Cell Screening in Adults: A Current Review of Point-of-Care Testing",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236353/",
+   "keyword": "dithionite"
+  },
+  "rbc-thalassemia": {
+   "title": "Thalassemia: MedlinePlus Medical Encyclopedia",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000587.htm",
+   "keyword": "thalassemia"
+  },
+  "rbc-ttp": {
+   "title": "Thrombotic Thrombocytopenic Purpura: Pathophysiology, Diagnosis, and Management",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7867179/",
+   "keyword": "microangiopathic"
+  },
+  "wbc-absolute-lymphocyte-count": {
+   "title": "Comparing Absolute Lymphocyte Count to Total Lymphocyte Count, as a CD4 T Cell Surrogate, to Initiate Antiretroviral Therapy",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3162814/",
+   "keyword": "multiplying"
+  },
+  "wbc-albumin-smudge": {
+   "title": "Albumin enhanced morphometric image analysis in CLL",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14696058/",
+   "keyword": "albumin"
+  },
+  "wbc-all-adult": {
+   "title": "Adult Acute Lymphoblastic Leukemia Treatment (PDQ)",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/hp/adult-all-treatment-pdq",
+   "keyword": "TdT"
+  },
+  "wbc-all-child": {
+   "title": "Childhood Acute Lymphoblastic Leukemia Treatment (PDQ)",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+   "keyword": "ETV6"
+  },
+  "wbc-aml": {
+   "title": "Adult Acute Myeloid Leukemia Treatment (PDQ)",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/hp/adult-aml-treatment-pdq",
+   "keyword": "Auer"
+  },
+  "wbc-chediak-higashi": {
+   "title": "Chediak-Higashi syndrome",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/genetics/condition/chediak-higashi-syndrome/",
+   "keyword": "albinism"
+  },
+  "wbc-cll": {
+   "title": "Chronic Lymphocytic Leukemia Treatment (PDQ)",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/hp/cll-treatment-pdq",
+   "keyword": "monoclonal B"
+  },
+  "wbc-cml": {
+   "title": "Chronic Myelogenous Leukemia Treatment (PDQ)",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/hp/cml-treatment-pdq",
+   "keyword": "Philadelphia"
+  },
+  "wbc-degenerative-neutrophils": {
+   "title": "Time-Dependent EDTA Effect on Leukocyte Differential Count and Morphology Compared to Blood Smear Made by Direct Finger Prick",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12426802/",
+   "keyword": "pyknotic nuclei"
+  },
+  "wbc-differential": {
+   "title": "Blood Differential",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/blood-differential/",
+   "keyword": "neutrophils"
+  },
+  "wbc-eosinophilic": {
+   "title": "Eosinophilic Disorders",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/eosinophilicdisorders.html",
+   "keyword": "eosinophil"
+  },
+  "wbc-hairy-cell": {
+   "title": "Hairy Cell Leukemia Treatment (PDQ)",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/leukemia/hp/hairy-cell-treatment-pdq",
+   "keyword": "BRAF"
+  },
+  "wbc-hypersegmented": {
+   "title": "Hypersegmented neutrophil",
+   "publisher": "American Society of Hematology",
+   "url": "https://imagebank.hematology.org/image/60400/hypersegmented-neutrophil",
+   "keyword": "hypersegmented"
+  },
+  "wbc-leukemoid": {
+   "title": "Leukemoid reaction: A 21st-century cohort study",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31765058/",
+   "keyword": "leukemoid"
+  },
+  "wbc-lymphoblast-pas": {
+   "title": "Images from the Haematologica Atlas of Hematologic Cytology: precursor lymphoid neoplasms, cytochemistry and immunocytochemistry",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8968893/",
+   "keyword": "glycogen"
+  },
+  "wbc-mantle-cell": {
+   "title": "MANTLE CELL LYMPHOMA: A CLINICALLY HETEROGENEOUS DISEASE IN NEED OF TAILORED APPROACHES",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4015063/",
+   "keyword": "CD23"
+  },
+  "wbc-mds": {
+   "title": "Myelodysplastic Syndromes Treatment (PDQ)",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/myeloproliferative/hp/myelodysplastic-treatment-pdq",
+   "keyword": "ring sideroblast"
+  },
+  "wbc-mpn": {
+   "title": "Myeloproliferative Neoplasms Treatment (PDQ)",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/myeloproliferative/hp/myeloproliferative-neoplasms-treatment",
+   "keyword": "JAK2"
+  },
+  "wbc-myeloma": {
+   "title": "Plasma Cell Neoplasms (Including Multiple Myeloma) Treatment (PDQ)",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/myeloma/hp/myeloma-treatment-pdq",
+   "keyword": "MGUS"
+  },
+  "wbc-myeloma-laboratory": {
+   "title": "An overview of multiple myeloma: A monoclonal plasma cell malignancy's diagnosis, management, and treatment modalities",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10818257/",
+   "keyword": "immunofixation"
+  },
+  "wbc-myeloma-protein-effects": {
+   "title": "Nonalbumin Proteinuria in a Patient with Slowly Worsening Kidney Function",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11000716/",
+   "keyword": "dipstick testing only detects albumin"
+  },
+  "wbc-myeloma-rouleaux": {
+   "title": "Hyperviscosity Syndrome as a Rare Presentation of Immunoglobulin G Kappa Smoldering Multiple Myeloma",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13568732/",
+   "keyword": "zeta potential"
+  },
+  "wbc-pelger-huet": {
+   "title": "A case of benign Pelger-Huët anomaly",
+   "publisher": "American Society of Hematology",
+   "url": "https://imagebank.hematology.org/image/60723/a-case-of-benign-pelgerhut-anomaly",
+   "keyword": "Pelger"
+  },
+  "wbc-pertussis-lymphocytosis": {
+   "title": "Pertussis toxin induces lymphocytosis in rhesus macaques",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9210021/",
+   "keyword": "extravasation"
+  },
+  "wbc-plasma-cell-morphology": {
+   "title": "Plasma cell myeloma",
+   "publisher": "American Society of Hematology",
+   "url": "https://imagebank.hematology.org/image/64953/plasma-cell-myeloma",
+   "keyword": "clock face"
+  },
+  "wbc-reactive-lymphocytes": {
+   "title": "Nonmalignant leukocyte disorders",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7151933/",
+   "keyword": "heterogeneous"
+  },
+  "wbc-smudge-cells": {
+   "title": "Smudge Cells in Chronic Lymphocytic Leukemia: Pathophysiology, Laboratory Considerations, and Clinical Significance",
+   "publisher": "PubMed (NIH)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33527134/",
+   "keyword": "smudge"
+  },
+  "wbc-t-cell-cd3": {
+   "title": "50-color phenotyping of the human immune system with in-depth assessment of T cells and dendritic cells",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11178442/",
+   "keyword": "CD3"
+  },
+  "wbc-toxic-neutrophils": {
+   "title": "Recognize the Significance of Detecting Toxic Granules in Sepsis",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12620709/",
+   "keyword": "toxic granulation"
+  },
+  "wbc-waldenstrom": {
+   "title": "Pathophysiology and Treatments of Complications of Waldenström’s Macroglobulinemia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11477924/",
+   "keyword": "hyperviscosity"
+  }
+ },
+ "generated": {
+  "coag:cascade": "generated-coag-pathway",
+  "diff:allergy_parasite": "generated-eosinophil-count",
+  "diff:aml": "generated-aml",
+  "diff:bacterial_infection": "generated-left-shift",
+  "diff:cll": "generated-cll",
+  "diff:cml": "generated-cml",
+  "diff:hemolytic_nrbc": "generated-hemolytic-anemia",
+  "diff:normal_adult": "generated-blood-differential",
+  "diff:viral_reactive": "generated-infectious-mono",
+  "drill:absolute": "generated-abs-neutrophil-count",
+  "drill:corrected_retic": "generated-reticulocyte-count",
+  "drill:corrected_wbc": "generated-nrbc-wbc-correction",
+  "drill:hemocytometer": "generated-counting-chamber",
+  "drill:inr": "generated-pt-inr",
+  "drill:mch": "generated-rbc-indices",
+  "drill:mchc": "generated-rbc-indices",
+  "drill:mcv": "generated-rbc-indices",
+  "drill:rpi": "generated-reticulocyte-production-index",
+  "qc:westgard": "generated-westgard-iqc"
+ }
+}

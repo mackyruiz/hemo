@@ -39,7 +39,8 @@
 					"Heparin contamination of the sample"
 				],
 				"answer": 1,
-				"explanation": "Correction supports a factor deficiency because normal plasma replaces the missing factor. An immediate inhibitor usually prevents correction, although a time-dependent inhibitor requires an incubated mix."
+				"explanation": "Correction supports a factor deficiency because normal plasma replaces the missing factor. An immediate inhibitor usually prevents correction, although a time-dependent inhibitor requires an incubated mix.",
+				"source": "coag-mixing-studies"
 			},
 			{
 				"stem": "Which diagnosis fits the bleeding history and the factor activity results?",
@@ -52,7 +53,8 @@
 				"answer": 2,
 				"explanation": "Low factor VIII with hemarthroses and an affected brother supports X-linked hemophilia A. Hemophilia B has reduced factor IX instead."
 			}
-		]
+		],
+		"source": "coag-hemophilia"
 	},
 	{
 		"id": "coag-002",
@@ -96,7 +98,8 @@
 				"answer": 0,
 				"explanation": "PT assesses tissue factor-initiated coagulation and bypasses the intrinsic factors VIII, IX, XI and XII. The reagent does not supply factor IX to correct the deficiency."
 			}
-		]
+		],
+		"source": "coag-hemophilia"
 	},
 	{
 		"id": "coag-003",
@@ -138,7 +141,8 @@
 					"Ristocetin-induced aggregation"
 				],
 				"answer": 2,
-				"explanation": "A prolonged dRVVT screen that shortens with excess phospholipid supports a lupus anticoagulant after anticoagulant interference is excluded. Reptilase time evaluates fibrin formation, not phospholipid dependence."
+				"explanation": "A prolonged dRVVT screen that shortens with excess phospholipid supports a lupus anticoagulant after anticoagulant interference is excluded. Reptilase time evaluates fibrin formation, not phospholipid dependence.",
+				"source": "coag-drvvt"
 			},
 			{
 				"stem": "How should this prolonged APTT be interpreted clinically?",
@@ -149,9 +153,11 @@
 					"It is associated with thrombosis risk, not bleeding"
 				],
 				"answer": 3,
-				"explanation": "Lupus anticoagulants prolong phospholipid-dependent tests in vitro yet are associated with thrombosis in vivo. A prolonged APTT in this context does not by itself predict bleeding."
+				"explanation": "Lupus anticoagulants prolong phospholipid-dependent tests in vitro yet are associated with thrombosis in vivo. A prolonged APTT in this context does not by itself predict bleeding.",
+				"source": "coag-drvvt"
 			}
-		]
+		],
+		"source": "coag-mixing-studies"
 	},
 	{
 		"id": "coag-004",
@@ -206,7 +212,8 @@
 				"answer": 2,
 				"explanation": "Vitamin K restores synthesis of functional factors, allowing PT to shorten over hours to a day depending on route and severity. The corrected mixing study argues against an inhibitor that would resist this treatment."
 			}
-		]
+		],
+		"source": "coag-vitamin-k"
 	},
 	{
 		"id": "coag-005",
@@ -250,7 +257,8 @@
 				"answer": 0,
 				"explanation": "Warfarin inhibits vitamin K recycling, reducing functional factors II, VII, IX and X. It does not act by reducing antithrombin or factors VIII and XIII."
 			}
-		]
+		],
+		"source": "coag-pt-inr"
 	},
 	{
 		"id": "coag-006",
@@ -292,7 +300,8 @@
 					"Activated clotting time"
 				],
 				"answer": 2,
-				"explanation": "Reptilase converts fibrinogen to fibrin without using thrombin and is unaffected by heparin. APTT and activated clotting time, unlike reptilase time, are heparin-sensitive."
+				"explanation": "Reptilase converts fibrinogen to fibrin without using thrombin and is unaffected by heparin. APTT and activated clotting time, unlike reptilase time, are heparin-sensitive.",
+				"source": "coag-reptilase-time"
 			},
 			{
 				"stem": "How is unfractionated heparin typically monitored besides APTT?",
@@ -305,7 +314,8 @@
 				"answer": 3,
 				"explanation": "A heparin-calibrated chromogenic anti-Xa assay measures unfractionated heparin activity and avoids some APTT confounders. INR monitors warfarin, while D-dimer measures fibrin turnover rather than heparin effect."
 			}
-		]
+		],
+		"source": "coag-heparin-anti-xa"
 	},
 	{
 		"id": "coag-007",
@@ -347,7 +357,8 @@
 					"Hypersegmented neutrophils"
 				],
 				"answer": 1,
-				"explanation": "Fibrin-rich microvascular thrombi shear red cells into schistocytes. Spherocytes are more characteristic of membrane loss, such as immune hemolysis, rather than mechanical fragmentation."
+				"explanation": "Fibrin-rich microvascular thrombi shear red cells into schistocytes. Spherocytes are more characteristic of membrane loss, such as immune hemolysis, rather than mechanical fragmentation.",
+				"source": "coag-hyperfibrinolysis"
 			},
 			{
 				"stem": "What is the primary management approach?",
@@ -360,7 +371,8 @@
 				"answer": 2,
 				"explanation": "Control of the underlying trigger is central, with blood-component support guided by bleeding and clinical protocols. Vitamin K alone cannot reverse ongoing consumption in DIC."
 			}
-		]
+		],
+		"source": "coag-dic"
 	},
 	{
 		"id": "coag-008",
@@ -415,7 +427,8 @@
 				"answer": 1,
 				"explanation": "Vitamin K can correct a concurrent deficiency but cannot fully restore factors when hepatic synthesis fails. Fibrinogen overproduction does not explain this prolonged PT with low fibrinogen."
 			}
-		]
+		],
+		"source": "coag-liver-disease"
 	},
 	{
 		"id": "coag-009",
@@ -470,7 +483,8 @@
 				"answer": 0,
 				"explanation": "In mild vWD, factor VIII can remain high enough for a normal APTT. APTT does use factor VIII, but it is not a sensitive exclusion test for all vWD."
 			}
-		]
+		],
+		"source": "coag-von-willebrand"
 	},
 	{
 		"id": "coag-010",
@@ -525,7 +539,8 @@
 				"answer": 3,
 				"explanation": "APTT bypasses the tissue factor–factor VII pathway and therefore remains normal in isolated factor VII deficiency. It does assess the intrinsic and common pathways."
 			}
-		]
+		],
+		"source": "coag-factor-vii"
 	},
 	{
 		"id": "coag-011",
@@ -580,7 +595,8 @@
 				"answer": 2,
 				"explanation": "PT and APTT stop timing at initial fibrin formation, before factor XIII-mediated stabilization. Normal platelets do not compensate for absent fibrin cross-linking."
 			}
-		]
+		],
+		"source": "coag-factor-xiii"
 	},
 	{
 		"id": "coag-012",
@@ -646,7 +662,8 @@
 				"answer": 2,
 				"explanation": "Heparin contamination can prevent correction in mixing studies and must be excluded with appropriate anticoagulant testing and collection review. Cold agglutinins affect red cells rather than causing this isolated plasma coagulation pattern."
 			}
-		]
+		],
+		"source": "coag-acquired-hemophilia"
 	},
 	{
 		"id": "coag-013",
@@ -701,7 +718,8 @@
 				"answer": 1,
 				"explanation": "Reptilase time is heparin-insensitive but may be prolonged with dysfibrinogenemia. Anti-Xa assays can detect heparin activity, but are not clotting tests of fibrin formation."
 			}
-		]
+		],
+		"source": "coag-dysfibrinogenemia"
 	},
 	{
 		"id": "coag-014",
@@ -756,7 +774,8 @@
 				"answer": 0,
 				"explanation": "Nine parts blood to one part 3.2% sodium citrate provides the validated anticoagulant ratio for routine coagulation testing. A 4:1 ratio is not appropriate for these PT and APTT specimens."
 			}
-		]
+		],
+		"source": "coag-underfilled-tubes"
 	},
 	{
 		"id": "coag-015",
@@ -811,7 +830,8 @@
 				"answer": 3,
 				"explanation": "C is the required volume of 3.2% citrate in mL, Hct is the hematocrit percentage, and V is the intended whole-blood volume in mL. Hgb × 3 estimates hematocrit and cannot determine the required citrate volume."
 			}
-		]
+		],
+		"source": "coag-high-hematocrit"
 	},
 	{
 		"id": "coag-016",
@@ -864,9 +884,11 @@
 					"Hemophilia"
 				],
 				"answer": 2,
-				"explanation": "Heparin inhibits thrombin and prolongs TT but does not inhibit reptilase. Dysfibrinogenemia can prolong both tests because the fibrinogen substrate is abnormal."
+				"explanation": "Heparin inhibits thrombin and prolongs TT but does not inhibit reptilase. Dysfibrinogenemia can prolong both tests because the fibrinogen substrate is abnormal.",
+				"source": "coag-reptilase-time"
 			}
-		]
+		],
+		"source": "coag-arterial-line-heparin"
 	},
 	{
 		"id": "coag-017",
@@ -921,7 +943,8 @@
 				"answer": 1,
 				"explanation": "Delayed or inadequate gentle mixing leaves blood locally unanticoagulated and permits clot formation. A light blue citrate tube is appropriate; poor collection technique, not its color, is the problem."
 			}
-		]
+		],
+		"source": "coag-clotted-samples"
 	},
 	{
 		"id": "coag-018",
@@ -974,9 +997,11 @@
 					"It binds heparin"
 				],
 				"answer": 0,
-				"explanation": "Rivaroxaban blocks Xa, whereas TT adds thrombin directly and bypasses Xa. A direct thrombin inhibitor would instead markedly prolong TT."
+				"explanation": "Rivaroxaban blocks Xa, whereas TT adds thrombin directly and bypasses Xa. A direct thrombin inhibitor would instead markedly prolong TT.",
+				"source": "coag-doac-thrombin-time"
 			}
-		]
+		],
+		"source": "coag-doac-testing"
 	},
 	{
 		"id": "coag-019",
@@ -1018,7 +1043,8 @@
 					"Anti-Xa assay"
 				],
 				"answer": 2,
-				"explanation": "A shortened euglobulin clot lysis time supports increased fibrinolytic activity. A Bethesda assay quantifies a factor inhibitor rather than the rate of clot lysis."
+				"explanation": "A shortened euglobulin clot lysis time supports increased fibrinolytic activity. A Bethesda assay quantifies a factor inhibitor rather than the rate of clot lysis.",
+				"source": "coag-fibrinolysis-tests-treatment"
 			},
 			{
 				"stem": "Which drug inhibits fibrinolysis, although its use requires specialist assessment and exclusion of DIC?",
@@ -1029,9 +1055,11 @@
 					"Tranexamic acid"
 				],
 				"answer": 3,
-				"explanation": "Tranexamic acid reduces plasminogen binding to fibrin and limits fibrinolysis. Alteplase instead promotes fibrinolysis, and antifibrinolytic treatment is not an automatic response when DIC is possible."
+				"explanation": "Tranexamic acid reduces plasminogen binding to fibrin and limits fibrinolysis. Alteplase instead promotes fibrinolysis, and antifibrinolytic treatment is not an automatic response when DIC is possible.",
+				"source": "coag-fibrinolysis-tests-treatment"
 			}
-		]
+		],
+		"source": "coag-hyperfibrinolysis"
 	},
 	{
 		"id": "coag-020",
@@ -1073,7 +1101,8 @@
 					"APTT"
 				],
 				"answer": 1,
-				"explanation": "Reptilase converts fibrinogen to fibrin through an enzyme unaffected by dabigatran. Diluted thrombin time still uses thrombin and is sensitive to the drug."
+				"explanation": "Reptilase converts fibrinogen to fibrin through an enzyme unaffected by dabigatran. Diluted thrombin time still uses thrombin and is sensitive to the drug.",
+				"source": "coag-reptilase-time"
 			},
 			{
 				"stem": "Which assay quantifies dabigatran best?",
@@ -1086,6 +1115,7 @@
 				"answer": 2,
 				"explanation": "A dabigatran-calibrated dilute thrombin time can estimate the drug concentration. Anti-Xa assays assess Xa inhibitors rather than direct thrombin inhibitors."
 			}
-		]
+		],
+		"source": "coag-doac-testing"
 	}
 ]

@@ -55,6 +55,9 @@ func _show_drill(task: Dictionary) -> void:
 		var expected: String = String.num(CalcDrills.round_to(float(drill["answer"]), decimals), decimals)
 		_content.add_child(UI.label(("✓ Correct" if correct else "✗ Not quite") + " — " + expected + " " + String(drill.get("unit", ""))))
 		_content.add_child(UI.label(String(drill["explanation"])))
+		var link: Button = UI.source_link(str(Content.generated_sources.get("drill:%s" % drill["type"], "")))
+		if link != null:
+			_content.add_child(link)
 		_content.add_child(UI.button("Next", _finish))
 	)
 

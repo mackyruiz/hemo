@@ -168,7 +168,7 @@ func _morph_item(id: String) -> Dictionary:
 		"id": "morph:" + id, "topic": "lab", "subtopic": "differential_morphology",
 		"difficulty": 2, "stem": "Identify the cell/finding indicated.",
 		"choices": names, "answer": answer_index, "image": id,
-		"explanation": str(entity.get("features", "")),
+		"explanation": str(entity.get("features", "")), "source": str(entity.get("source", "")),
 	}
 
 

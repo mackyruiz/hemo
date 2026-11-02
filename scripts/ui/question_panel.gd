@@ -11,6 +11,8 @@ var _answered: bool = false
 var _mapping: Array[int] = []
 var _buttons: Array[Button] = []
 var _rng: RandomNumberGenerator
+var _hint_button: Button
+var _hinted: bool = false
 
 
 func setup(q: Dictionary, opts: Dictionary = {}) -> void:
@@ -20,6 +22,8 @@ func setup(q: Dictionary, opts: Dictionary = {}) -> void:
 	_question = q
 	_show_feedback = bool(opts.get("show_feedback", true))
 	_answered = false
+	_hinted = false
+	_hint_button = null
 	_mapping.clear()
 	_buttons.clear()
 	_rng = opts.get("rng") as RandomNumberGenerator
@@ -46,6 +50,23 @@ func setup(q: Dictionary, opts: Dictionary = {}) -> void:
 		button.custom_minimum_size.y = 72
 		add_child(button)
 		_buttons.append(button)
+	if bool(opts.get("allow_hint", true)) and _show_feedback and choices.size() >= Hint.MIN_CHOICES:
+		_hint_button = UI.button("Hint: remove two wrong answers", _use_hint, "SecondaryButton")
+		add_child(_hint_button)
+
+
+func _use_hint() -> void:
+	if _answered or _hinted:
+		return
+	_hinted = true
+	var removed: Array[int] = Hint.eliminate(_buttons.size(), int(_question.get("answer", -1)), _rng)
+	for i in range(_buttons.size()):
+		if _mapping[i] in removed:
+			_buttons[i].disabled = true
+			_buttons[i].modulate.a = 0.4
+			_buttons[i].text = "(removed) " + _buttons[i].text
+	_hint_button.disabled = true
+	_hint_button.text = "Hint used: two wrong answers removed"
 
 
 func _add_image(morph_id: String, source: String) -> void:
@@ -88,6 +109,9 @@ func _choose(chosen_index: int) -> void:
 	if _answered:
 		return
 	_answered = true
+	if _hint_button != null:
+		_hint_button.queue_free()
+		_hint_button = null
 	var correct_index: int = int(_question.get("answer", -1))
 	var correct: bool = chosen_index == correct_index
 	for button in _buttons:
@@ -108,5 +132,8 @@ func _choose(chosen_index: int) -> void:
 		var explanation: PanelContainer = UI.card()
 		explanation.add_child(UI.label(str(_question.get("explanation", ""))))
 		add_child(explanation)
+		var link: Button = UI.source_link(str(_question.get("source", "")))
+		if link != null:
+			add_child(link)
 		add_child(UI.button("Next", func(): next_pressed.emit()))
 	answered.emit(correct, chosen_index)

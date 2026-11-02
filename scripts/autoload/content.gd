@@ -11,6 +11,8 @@ var coag_cases: Array = []
 var cases_by_id: Dictionary = {}
 var diff_profiles: Array = []
 var ranges: Dictionary = {}
+var sources: Dictionary = {}
+var generated_sources: Dictionary = {}
 var load_errors: Array[String] = []
 
 
@@ -23,6 +25,8 @@ func _ready() -> void:
 	coag_cases = loaded.get("coag_cases", [])
 	diff_profiles = loaded.get("diff_profiles", [])
 	ranges = loaded.get("ranges", {})
+	sources = loaded.get("sources", {})
+	generated_sources = loaded.get("generated_sources", {})
 	for message in loaded.get("errors", []):
 		load_errors.append(str(message))
 		push_error(str(message))
