@@ -19,6 +19,7 @@ const ROUTES := {
 	"flagged": "res://scripts/screens/flagged.gd",
 	"flagged_question": "res://scripts/screens/flagged_question.gd",
 	"flashcards": "res://scripts/screens/flashcards.gd",
+	"version_history": "res://scripts/screens/version_history.gd",
 }
 
 var _host: Control

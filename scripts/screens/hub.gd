@@ -49,8 +49,31 @@ func _ready() -> void:
 	if not Content.load_errors.is_empty():
 		content.add_child(_banner("Some content failed to load."))
 
+	content.add_child(_footer())
+
 	if Progress.consume_recovered():
 		UI.toast(self, "Your saved progress was unreadable and has been reset. A backup was kept.")
+
+
+func _footer() -> VBoxContainer:
+	var footer := UI.vbox(8)
+	footer.add_child(HSeparator.new())
+	var links := UI.hbox(12)
+	links.alignment = BoxContainer.ALIGNMENT_CENTER
+	footer.add_child(links)
+	var history := UI.button("Version history", func(): Nav.go("version_history"), "SecondaryButton")
+	history.custom_minimum_size.x = 220
+	history.flat = true
+	links.add_child(history)
+	var github := UI.button("", func(): OS.shell_open("https://github.com/mackyruiz/hemo"), "SecondaryButton")
+	github.name = "GitHubProjectLink"
+	github.icon = preload("res://assets/icons/github.svg")
+	github.custom_minimum_size = Vector2(64, 64)
+	github.tooltip_text = "View HemoShift on GitHub"
+	github.accessibility_name = "HemoShift GitHub project"
+	github.flat = true
+	links.add_child(github)
+	return footer
 
 
 func _banner(text: String) -> PanelContainer:

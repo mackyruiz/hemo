@@ -21,6 +21,8 @@ Install on phone: Safari Share → Add to Home Screen / Chrome menu → Install 
 
 Career shifts unlock benches as you gain XP; Practice makes every bench available. Cell Atlas, flashcards and every bench show credited photomicrographs with a ring-and-arrow marker on the finding in question. Progress stays in this browser's local storage; clearing site data removes it. Private browsing or blocked storage can prevent persistence. There are no accounts, server-side saves, or native Android/iOS builds.
 
+The home-screen footer links to dated version history (Git revisions, newest first) and the [GitHub project](https://github.com/mackyruiz/hemo) through the GitHub icon. Update `scripts/screens/version_history.gd` when publishing a new milestone.
+
 ## Develop
 
 Use **Godot 4.7.2-stable**, GDScript, and the Compatibility renderer. Download the Linux editor and export templates from the [Godot 4.7.2 release](https://github.com/godotengine/godot/releases/tag/4.7.2-stable). Put the executable on `PATH` as `godot`; extract the contents of the archive's `templates/` directory into `~/.local/share/godot/export_templates/4.7.2.stable/`.
