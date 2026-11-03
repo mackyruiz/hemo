@@ -22,7 +22,7 @@ func _clear() -> void:
 
 func _show_decks() -> void:
 	_clear()
-	var cells: Array[Dictionary] = Flashcards.cell_cards(Content.morph)
+	var cells: Array[Dictionary] = Flashcards.cell_cards(Content.morph, Content.photos_by_morph)
 	var terms: Array[Dictionary] = Flashcards.term_cards(Content.glossary)
 	var all: Array[Dictionary] = cells.duplicate()
 	all.append_array(terms)
@@ -100,10 +100,8 @@ func _render_card() -> void:
 	box.add_child(column)
 	if str(card["kind"]) == "cell":
 		var entity: Dictionary = Content.morph.get(str(card["id"]), {})
-		var art: Control = CellArt.make(entity.get("art", {}), hash(str(card["id"])), CellArt.STUDY_SCALE_PX, true)
-		var center: CenterContainer = CenterContainer.new()
-		center.add_child(art)
-		column.add_child(center)
+		var photos: Array = Content.photos_by_morph.get(str(card["id"]), [])
+		column.add_child(PhotoView.block(photos[0], 320))
 		column.add_child(UI.label("Name this cell or finding."))
 		if _revealed:
 			column.add_child(UI.label(str(entity.get("name", card["id"])), "TitleLabel"))

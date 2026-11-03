@@ -3,7 +3,7 @@ extends Control
 
 const BENCHES := [
 	{"id": "knowledge", "name": "Knowledge", "desc": "Exam-style questions and lab math drills"},
-	{"id": "morphology", "name": "Morphology", "desc": "Identify cells and find them in a smear"},
+	{"id": "morphology", "name": "Morphology", "desc": "Identify cells and their clinical associations"},
 	{"id": "differential", "name": "Differential", "desc": "Count 100 WBCs and report the diff"},
 	{"id": "cbc", "name": "CBC", "desc": "Interpret CBC reports and indices"},
 	{"id": "coag", "name": "Coagulation", "desc": "Coag cases and the cascade sort"},
@@ -14,7 +14,7 @@ const FEATURES := [
 	{"route": "practice", "title": "Practice", "desc": "Any bench, any time", "art": "practice", "tint": "#B3263E"},
 	{"route": "exam", "title": "Board Sim", "desc": "50-item timed mock exam", "art": "board_sim", "tint": "#4A5BA8"},
 	{"route": "lab_floor", "title": "Lab Floor", "desc": "Walk the lab and run stations", "art": "lab_floor", "tint": "#2E8B57"},
-	{"route": "atlas", "title": "Cell Atlas", "desc": "Every cell, illustrated and photographed", "art": "atlas", "tint": "#8E4A9E"},
+	{"route": "atlas", "title": "Cell Atlas", "desc": "Every cell, photographed", "art": "atlas", "tint": "#8E4A9E"},
 	{"route": "flashcards", "title": "Flashcards", "desc": "Cells and terms with spaced repetition", "art": "flashcards", "tint": "#C0731B"},
 ]
 

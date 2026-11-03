@@ -56,8 +56,11 @@ static func compose(content: Dictionary, progress: Dictionary, level: int, rng: 
 		elif bench == "morphology":
 			var candidates: Array[Dictionary] = []
 			var morph: Dictionary = content.get("morph", {})
+			var photographed: Dictionary = content.get("photos_by_morph", {})
 			for id: String in morph:
 				var entity: Dictionary = morph[id]
+				if not photographed.has(id):
+					continue
 				var filter_topic: String = _morph_topic(str(entity.get("category", "")))
 				if mode == "practice" and practice_topic != "" and filter_topic != practice_topic:
 					continue
@@ -65,16 +68,8 @@ static func compose(content: Dictionary, progress: Dictionary, level: int, rng: 
 			var chosen: Dictionary = _pick(candidates, progress, used, tier, rng, now)
 			if not chosen.is_empty():
 				var id: String = chosen["morph_id"]
-				var entity: Dictionary = morph[id]
-				var photos: Dictionary = content.get("photos_by_morph", {})
-				var source: String = "photo" if tier >= 2 and photos.has(id) else "art"
-				var variant: String = "identify"
-				if tier == 2 and id != "normal_rbc" and entity.get("category", "") == "rbc" and rng.randf() < 0.3:
-					variant = "find"
-					source = "art"
-				elif tier >= 3 and rng.randf() < 0.5:
-					variant = "association"
-				task = {"bench": bench, "morph_id": id, "variant": variant, "source": source}
+				var variant: String = "association" if tier >= 3 and rng.randf() < 0.5 else "identify"
+				task = {"bench": bench, "morph_id": id, "variant": variant}
 		elif bench == "differential":
 			var profiles: Array[Dictionary] = []
 			for profile: Dictionary in content.get("diff_profiles", []):

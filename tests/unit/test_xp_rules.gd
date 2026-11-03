@@ -42,8 +42,6 @@ func test_xp_awards_and_boundaries() -> void:
 	assert_eq(XpRules.xp_for_diff(0.899), 25)
 	assert_eq(XpRules.xp_for_diff(0.75), 25)
 	assert_eq(XpRules.xp_for_diff(0.749), 10)
-	assert_eq(XpRules.xp_for_find(4, 1), 18)
-	assert_eq(XpRules.xp_for_find(0, 4), 0)
 	assert_eq(XpRules.xp_for_cascade(14), 28)
 	assert_eq(XpRules.xp_to_next(99), 1)
 	assert_eq(XpRules.xp_to_next(100), 200)

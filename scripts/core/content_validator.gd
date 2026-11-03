@@ -41,6 +41,10 @@ static func validate(c: Dictionary) -> Array[String]:
 	for error: Variant in c.get("errors", []):
 		errors.append(str(error))
 	var morph: Dictionary = c.get("morph", {})
+	var photo_morphs: Dictionary = {}
+	for photo: Variant in c.get("photos", []):
+		if photo is Dictionary:
+			photo_morphs[str(photo.get("morph", ""))] = true
 	var seen: Dictionary = {}
 	var counts: Dictionary = {}
 	var sub_counts: Dictionary = {}
@@ -60,6 +64,8 @@ static func validate(c: Dictionary) -> Array[String]:
 		_register_id(q, where, seen, errors)
 		_validate_topic(q, where, errors)
 		_validate_question(q, where, morph, errors)
+		if q.get("image") != null and morph.has(q["image"]) and not photo_morphs.has(q["image"]):
+			errors.append(where + ": image morphology has no photo " + str(q["image"]))
 		if q.get("kind", "") not in ["theoretical", "procedural"]:
 			errors.append(where + ": kind must be theoretical or procedural")
 		var id_pattern := RegEx.new()
@@ -192,6 +198,23 @@ static func _validate_photos(photos: Array, morph: Dictionary, errors: Array[Str
 			errors.append(where + ": unknown morphology " + str(photo.get("morph", "")))
 		if not FileAccess.file_exists(str(photo.get("file", ""))):
 			errors.append(where + ": photo file does not exist: " + str(photo.get("file", "")))
+		var markers: Variant = photo.get("markers")
+		if not markers is Array or markers.is_empty() or markers.size() > 3:
+			errors.append(where + ": markers must be 1-3 [cx, cy, r] entries")
+			continue
+		var crop: Array = photo.get("crop", [0.0, 0.0, 1.0, 1.0])
+		for marker: Variant in markers:
+			if not marker is Array or marker.size() != 3:
+				errors.append(where + ": markers must be 1-3 [cx, cy, r] entries")
+				continue
+			var cx: float = float(marker[0])
+			var cy: float = float(marker[1])
+			var radius: float = float(marker[2])
+			if not is_finite(cx) or not is_finite(cy) or not is_finite(radius) or cx < 0.0 or cx > 1.0 or cy < 0.0 or cy > 1.0 or radius <= 0.0 or radius > 0.5:
+				errors.append(where + ": markers must be 1-3 [cx, cy, r] entries")
+				continue
+			if cx < crop[0] or cx > crop[0] + crop[2] or cy < crop[1] or cy > crop[1] + crop[3]:
+				errors.append(where + ": marker center must lie inside crop")
 
 static func _validate_cases(cases: Array, kind: String, morph: Dictionary, seen: Dictionary, errors: Array[String]) -> void:
 	var file: String = "data/cases_%s.json" % kind

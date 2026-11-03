@@ -35,5 +35,5 @@ func _ready() -> void:
 		content.add_child(ReportTable.build(kind, results, String(case_data["sex"])))
 	var panel := QuestionPanel.new()
 	content.add_child(panel)
-	panel.setup(question, {"show_feedback": true, "allow_hint": false, "image_source": str(snapshot.get("image_source", "art")), "flag": {"key": _key, "case_id": case_id}})
+	panel.setup(question, {"show_feedback": true, "allow_hint": false, "flag": {"key": _key, "case_id": case_id}})
 	panel.next_pressed.connect(func(): Nav.back())

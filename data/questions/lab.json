@@ -95,7 +95,7 @@
     "subtopic": "automated_counts",
     "difficulty": 2,
     "kind": "procedural",
-    "stem": "An analyzer that does not automatically subtract nRBCs flags the WBC. A smear shows the illustrated nucleated red cells. What should be done before reporting?",
+    "stem": "An analyzer that does not automatically subtract nRBCs flags the WBC. A smear shows the circled nucleated red cell. What should be done before reporting?",
     "image": "nrbc",
     "choices": [
       "Report the instrument WBC without any change",
@@ -653,7 +653,7 @@
     "subtopic": "special_stains",
     "difficulty": 2,
     "kind": "procedural",
-    "stem": "The illustrated red cell granules may contain iron. Which stain should you select to confirm that interpretation?",
+    "stem": "The circled red cell granules may contain iron. Which stain should you select to confirm that interpretation?",
     "image": "pappenheimer",
     "choices": [
       "Prussian blue",
@@ -797,8 +797,8 @@
     "subtopic": "g6pd_heinz",
     "difficulty": 1,
     "kind": "procedural",
-    "stem": "Oxidant hemolysis is suspected. Which stain should you select to demonstrate the membrane-associated inclusions illustrated here?",
-    "image": "heinz_body",
+    "stem": "Oxidant hemolysis is suspected. Which stain should you select to demonstrate Heinz bodies, the membrane-associated inclusions of denatured hemoglobin?",
+    "image": null,
     "choices": [
       "A supravital stain such as crystal violet",
       "Wright-Giemsa stain only",
@@ -852,7 +852,7 @@
     "difficulty": 3,
     "kind": "theoretical",
     "stem": "Bite cells in G6PD deficiency form because:",
-    "image": "bite_cell",
+    "image": null,
     "choices": [
       "Red cells are cut by fibrin strands",
       "Hemoglobin crystals pierce the membrane",

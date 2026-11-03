@@ -221,8 +221,8 @@
     "subtopic": "hemolytic_hereditary",
     "difficulty": 2,
     "kind": "theoretical",
-    "stem": "The cells in the image have a semicircular portion removed after splenic pitting. Which condition is most associated with them?",
-    "image": "bite_cell",
+    "stem": "A smear shows red cells with a semicircular portion removed after splenic pitting. Which condition is most associated with them?",
+    "image": null,
     "choices": [
       "G6PD deficiency after oxidant exposure",
       "Hereditary elliptocytosis",

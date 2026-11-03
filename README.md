@@ -19,7 +19,7 @@ Content alignment: ASCP BOC MLT Examination Content Guideline, revised September
 
 Install on phone: Safari Share → Add to Home Screen / Chrome menu → Install app.
 
-Career shifts unlock benches as you gain XP; Practice makes every bench available. Cell Atlas combines illustrations with credited photomicrographs. Progress stays in this browser's local storage; clearing site data removes it. Private browsing or blocked storage can prevent persistence. There are no accounts, server-side saves, or native Android/iOS builds.
+Career shifts unlock benches as you gain XP; Practice makes every bench available. Cell Atlas, flashcards and every bench show credited photomicrographs with a ring-and-arrow marker on the finding in question. Progress stays in this browser's local storage; clearing site data removes it. Private browsing or blocked storage can prevent persistence. There are no accounts, server-side saves, or native Android/iOS builds.
 
 ## Develop
 
@@ -60,7 +60,7 @@ JSON files:
 | --- | --- |
 | `data/questions/<topic>.json` | Array of questions: `id`, `topic`, `subtopic`, `difficulty` (1–3), `kind` (`theoretical` or `procedural`), `stem`, `image` (null or morphology id), `choices` (4 distinct strings), `answer` (0–3), `explanation`, `source` (id in `data/sources.json`). |
 | `data/morphology.json` | Object keyed by morphology id: `name`, `category` (`rbc`, `inclusion`, `organism`, `wbc`, `plt`, `stain`), `features`, `associations` (at least 2), `confusers` (at least 3 other ids), `art`, `source`. |
-| `data/photos.json` | Generated array: `id`, `morph`, `file`, `crop` (normalized x/y/width/height), `source_title`, `source_url`, `author`, `license`, `license_url`. Do not hand-edit. |
+| `data/photos.json` | Generated array: `id`, `morph`, `file`, `crop` (normalized x/y/width/height), `markers` (1-3 normalized `[cx, cy, r]`), `source_title`, `source_url`, `author`, `license`, `license_url`. Do not hand-edit. |
 | `data/cases_cbc.json` | Array: `id`, `topic`, `subtopic`, `difficulty`, `sex`, adult `age`, `vignette`, `cbc`, `spurious`, `smear` (morphology ids), `steps` (2–4 question-shaped steps), `source` (a step may carry its own `source` override). |
 | `data/cases_coag.json` | Array: `id`, `topic`, `subtopic`, `difficulty`, `sex`, adult `age`, `vignette`, `results`, `steps` (2–4), `source` (steps may override). Results: `PT`, `INR`, `APTT`, `FIB`, `DDIMER`, `TT`, `PLT`, `MIX_PT`, `MIX_APTT`. Null means not performed; mixing results are `corrected` or `not_corrected`. |
 | `data/reference_ranges.json` | Object keyed by test: `{low, high, unit}` or sex-specific `{M:{low,high}, F:{low,high}, unit}`. |
@@ -93,10 +93,10 @@ The Hint button, offered on questions with at least three choices during shifts 
 python3 tools/fetch_commons.py
 ```
 
-The pipeline requests 640-pixel Wikimedia Commons thumbnails, checks its license allow-list, and preserves source/license links. After changing the manifest, inspect every downloaded image and adjust normalized crops so the named finding is clear.
+The pipeline requests 640-pixel Wikimedia Commons thumbnails, checks its license allow-list, and preserves source/license links. Every manifest entry needs `markers`: 1-3 `[cx, cy, r]` entries normalized to the full image (`cx` by width, `cy` by height, `r` by width) that the app draws as a ring and arrow; marker centers must lie inside the optional `crop`. After changing the manifest, inspect every downloaded image with `python3 tools/preview_markers.py [id ...]` (writes `build/marker_preview/<id>.png`) and adjust crops and markers so the named finding is clear.
 
 The API is requested at width 640; Commons may return a larger standard-size thumbnail bucket or a smaller original. The fetcher removes marketing `utm_*` parameters from image URLs to avoid observed CDN HTTP 429 responses, without changing the image resource or resolution. Existing committed images are reused after refreshing license metadata; changing a source title invalidates that cache. Delete the corresponding asset to refresh a revised image under the same source title. Cropped displays are identified in credit lines.
 
-The release contains 300 questions (41 image-based), 30 CBC cases, 20 coagulation cases, all 51 explicitly enumerated morphology findings, and 47 curated photos. Two candidate photos were removed after visual inspection: gross-slide agglutination and an image without a clear bite cell; those findings remain illustrated.
+The release contains 300 questions (38 image-based), 30 CBC cases, 20 coagulation cases, all 51 explicitly enumerated morphology findings, and 51 curated photos covering 47 findings. Bite cell, Cabot ring, Heinz body and promyelocyte have no acceptable photo; they appear in the Atlas as text only and their questions carry no image. Drawn cells remain only in the Lab Floor microscope and home-tile art.
 
 DejaVu Sans is bundled so correctness symbols, mathematical notation and keypad glyphs render consistently in web builds. Its Bitstream Vera license and notices are in `assets/fonts/LICENSE.txt` and displayed in-app under Credits.

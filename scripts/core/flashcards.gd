@@ -4,9 +4,11 @@ extends RefCounted
 const SESSION_SIZE := 20
 
 
-static func cell_cards(morph: Dictionary) -> Array[Dictionary]:
+static func cell_cards(morph: Dictionary, photos_by_morph: Dictionary) -> Array[Dictionary]:
 	var ids: Array[String] = []
 	for id: String in morph:
+		if not photos_by_morph.has(id):
+			continue
 		ids.append(id)
 	ids.sort()
 	var cards: Array[Dictionary] = []

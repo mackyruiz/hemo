@@ -51,7 +51,7 @@ func test_next_due_returns_earliest_seen_due() -> void:
 
 
 func test_cell_cards_sort_ids_and_prefix_keys() -> void:
-	var cards: Array[Dictionary] = Flashcards.cell_cards({"z_cell": {}, "a_cell": {}})
+	var cards: Array[Dictionary] = Flashcards.cell_cards({"z_cell": {}, "a_cell": {}, "no_photo": {}}, {"z_cell": [{}], "a_cell": [{}]})
 	assert_eq(cards.size(), 2)
 	assert_eq(str(cards[0]["key"]), "cell:a_cell")
 	assert_eq(str(cards[1]["key"]), "cell:z_cell")

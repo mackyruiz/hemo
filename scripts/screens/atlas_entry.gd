@@ -3,7 +3,7 @@ extends Control
 var _id: String = ""
 var _photos: Array = []
 var _photo_index: int = 0
-var _photo_view: TextureRect
+var _photo_view: PhotoView
 var _credit: Label
 var _photo_counter: Label
 
@@ -20,27 +20,16 @@ func _ready() -> void:
 	if entity.is_empty():
 		content.add_child(UI.label("This atlas entry is not available."))
 		return
-	content.add_child(UI.label("Illustration", "MutedLabel"))
-	var illustration := CenterContainer.new()
-	illustration.custom_minimum_size.y = 250
-	var descriptor: Dictionary = entity.get("art", {})
-	var art: CellArt = CellArt.make(descriptor, 0, CellArt.STUDY_SCALE_PX, true)
-	illustration.add_child(art)
-	content.add_child(illustration)
 
 	_photos = Content.photos_by_morph.get(_id, [])
 	if not _photos.is_empty():
 		content.add_child(UI.label("Photomicrographs", "TitleLabel"))
-		_photo_view = TextureRect.new()
-		_photo_view.mouse_filter = Control.MOUSE_FILTER_IGNORE
-		_photo_view.custom_minimum_size.y = 340
-		_photo_view.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-		_photo_view.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-		_photo_view.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		_photo_view = PhotoView.make(_photos[0], 340)
 		content.add_child(_photo_view)
+		content.add_child(UI.label(PhotoView.MARKER_NOTE, "MutedLabel"))
 		_credit = UI.label("", "MutedLabel")
 		content.add_child(_credit)
-		content.add_child(UI.label(CellArt.PHOTO_SCALE_NOTE, "MutedLabel"))
+		content.add_child(UI.label(PhotoView.SCALE_NOTE, "MutedLabel"))
 		var controls := UI.hbox()
 		if _photos.size() > 1:
 			var previous: Button = UI.button("‹ Previous", func(): _show_photo(_photo_index - 1), "SecondaryButton")
@@ -57,7 +46,7 @@ func _ready() -> void:
 		content.add_child(controls)
 		_show_photo(0)
 	else:
-		content.add_child(UI.label("Illustration-only entry.", "MutedLabel"))
+		content.add_child(UI.label("No photomicrograph is available for this finding.", "MutedLabel"))
 
 	content.add_child(UI.label("Features", "TitleLabel"))
 	content.add_child(UI.label(str(entity.get("features", ""))))
@@ -75,18 +64,8 @@ func _ready() -> void:
 func _show_photo(index: int) -> void:
 	_photo_index = posmod(index, _photos.size())
 	var photo: Dictionary = _photos[_photo_index]
-	var texture: Texture2D = load(str(photo["file"])) as Texture2D
-	var crop: Array = photo.get("crop", [0, 0, 1, 1])
-	var atlas := AtlasTexture.new()
-	atlas.atlas = texture
-	atlas.region = Rect2(
-		float(crop[0]) * texture.get_width(), float(crop[1]) * texture.get_height(),
-		float(crop[2]) * texture.get_width(), float(crop[3]) * texture.get_height()
-	)
-	_photo_view.texture = atlas
-	_credit.text = "Photo: %s, %s" % [photo.get("author", ""), photo.get("license", "")]
-	if crop != [0, 0, 1, 1]:
-		_credit.text += " (cropped)"
+	_photo_view.set_photo(photo)
+	_credit.text = PhotoView.credit(photo)
 	_photo_counter.text = "%d / %d" % [_photo_index + 1, _photos.size()]
 
 

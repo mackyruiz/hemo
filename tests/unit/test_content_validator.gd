@@ -89,6 +89,34 @@ func test_invalid_differential_sum_and_class_are_rejected() -> void:
 	assert_true(_contains(errors, "unknown differential class"))
 	assert_true(_contains(errors, "pct must sum to exactly 100"))
 
+func test_photo_markers_must_be_valid_and_inside_crop() -> void:
+	var photo: Dictionary = {"id": "normal_rbc_1", "morph": "normal_rbc", "file": "res://assets/photos/normal_rbc_1.jpg"}
+	var c: Dictionary = _fixture()
+	c["photos"] = [photo]
+	assert_true(_contains(ContentValidator.validate(c), ": markers must be 1-3 [cx, cy, r] entries"))
+
+	c = _fixture()
+	c["photos"] = [photo.duplicate(true)]
+	c["photos"][0]["crop"] = [0.0, 0.0, 0.5, 0.5]
+	c["photos"][0]["markers"] = [[0.9, 0.9, 0.05]]
+	assert_true(_contains(ContentValidator.validate(c), "marker center must lie inside crop"))
+
+	c = _fixture()
+	c["photos"] = [photo.duplicate(true)]
+	c["photos"][0]["crop"] = [0.0, 0.0, 0.5, 0.5]
+	c["photos"][0]["markers"] = [[0.25, 0.25, 0.05]]
+	var errors: Array[String] = ContentValidator.validate(c)
+	assert_false(_contains(errors, "markers must be 1-3 [cx, cy, r] entries"))
+	assert_false(_contains(errors, "marker center must lie inside crop"))
+
+
+func test_question_image_requires_a_photo() -> void:
+	var c: Dictionary = _fixture()
+	c["questions"][0]["image"] = "normal_rbc"
+	c["morph"] = {"normal_rbc": {}}
+	assert_true(_contains(ContentValidator.validate(c), "[rbc-0001]: image morphology has no photo normal_rbc"))
+
+
 func test_photo_morphology_and_file_must_exist() -> void:
 	var c: Dictionary = _fixture()
 	c["photos"] = [{"id": "missing", "morph": "unknown", "file": "res://assets/photos/does_not_exist.jpg"}]

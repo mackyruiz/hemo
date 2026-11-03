@@ -1,12 +1,5 @@
 extends GutTest
 
-func test_ruler_um_boundaries() -> void:
-	assert_eq(CellArt.ruler_um(2.6), 5)
-	assert_eq(CellArt.ruler_um(7.5), 10)
-	assert_eq(CellArt.ruler_um(9.0), 10)
-	assert_eq(CellArt.ruler_um(9.5), 15)
-	assert_eq(CellArt.ruler_um(13.5), 15)
-
 func test_art_sizes_match_features_ranges() -> void:
 	var content: Dictionary = ContentLoader.load_all()
 	assert_eq(content["errors"], [])

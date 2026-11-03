@@ -36,12 +36,12 @@ var _xp: int = 0
 var _completed: bool = false
 var _numeric_answered: bool = false
 var _final_answered: bool = false
-var _art_seed: int = 0
+var _photo_seed: int = 0
 
 
 func start(task: Dictionary) -> void:
 	_rng.seed = Time.get_ticks_usec()
-	_art_seed = _rng.randi()
+	_photo_seed = _rng.randi()
 	_profile = Content.profile(String(task["profile_id"]))
 	_generated = DiffGenerator.generate(_profile, _rng)
 	_sequence = _generated["sequence"]
@@ -62,7 +62,7 @@ func _show_counting() -> void:
 	_content.add_child(_counter)
 	_content.add_child(UI.label("Classify each cell. nRBCs are counted separately. Undo corrects your last tap before you submit.", "MutedLabel"))
 	var cell_space := Control.new()
-	cell_space.custom_minimum_size.y = 240
+	cell_space.custom_minimum_size.y = 360
 	_content.add_child(cell_space)
 	_cell_holder = CenterContainer.new()
 	_cell_holder.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -142,8 +142,16 @@ func _update_counting() -> void:
 	else:
 		var cls: String = String(_sequence[_history.size()])
 		var morph_id: String = String(DiffGenerator.CLASS_MORPH[cls])
-		var descriptor: Dictionary = Content.morph[morph_id]["art"]
-		_cell_holder.add_child(CellArt.make(descriptor, _art_seed + _history.size(), 110.0, true))
+		var photos: Array = Content.photos_by_morph.get(morph_id, [])
+		if photos.is_empty():
+			var missing: Label = UI.label("No photo available for this cell.", "MutedLabel")
+			missing.custom_minimum_size.x = 520
+			_cell_holder.add_child(missing)
+		else:
+			var block: VBoxContainer = PhotoView.block(photos[posmod(_photo_seed + _history.size(), photos.size())], 240)
+			# Autowrapped captions need a width inside a CenterContainer.
+			block.custom_minimum_size.x = 520
+			_cell_holder.add_child(block)
 
 
 func _submit_count() -> void:

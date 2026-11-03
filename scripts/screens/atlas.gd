@@ -57,13 +57,12 @@ func _entry_row(id: String, entity: Dictionary) -> Button:
 	row.offset_top = 10
 	row.offset_right = -12
 	row.offset_bottom = -10
-	var descriptor: Dictionary = entity.get("art", {})
-	var art_scale: float = minf(40.0, 68.0 / (2.0 * CellArt.cell_radius(descriptor, 1.0)))
-	var art: CellArt = CellArt.make(descriptor, 0, art_scale)
 	var preview := CenterContainer.new()
 	preview.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	preview.custom_minimum_size = Vector2(84, 84)
-	preview.add_child(art)
+	var photos: Array = Content.photos_by_morph.get(id, [])
+	if not photos.is_empty():
+		preview.add_child(PhotoView.thumbnail(photos[0], 84.0))
 	row.add_child(preview)
 	var title := UI.label(str(entity.get("name", id)))
 	title.mouse_filter = Control.MOUSE_FILTER_IGNORE

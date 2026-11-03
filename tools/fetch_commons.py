@@ -2,6 +2,7 @@
 """Fetch CC-licensed photomicrographs from Wikimedia Commons per tools/photo_manifest.json.
 
 Writes assets/photos/<id>.<ext> and data/photos.json. Python 3 stdlib only.
+Marker triples are copied through to data/photos.json.
 Exit code 1 if any entry was rejected or failed.
 Existing downloaded/committed images are reused after live metadata and license
 checks, unless the prior photos.json source_title changed. Crop-only changes
@@ -78,6 +79,22 @@ def author_name(artist_html):
     return re.sub(r"\s+", " ", text).strip()
 
 
+def markers_ok(entry):
+    """Marker triples must be 1-3 normalized [cx, cy, r] values."""
+    markers = entry.get("markers")
+    if not isinstance(markers, list) or not 1 <= len(markers) <= 3:
+        return False
+    for marker in markers:
+        if not isinstance(marker, list) or len(marker) != 3:
+            return False
+        cx, cy, r = marker
+        if not all(isinstance(v, (int, float)) for v in marker):
+            return False
+        if not 0 <= cx <= 1 or not 0 <= cy <= 1 or not 0 < r <= 0.5:
+            return False
+    return True
+
+
 def main():
     with open(MANIFEST, encoding="utf-8") as f:
         manifest = json.load(f)
@@ -95,8 +112,12 @@ def main():
     photos = []
     failed = False
     for e in manifest:
-        pid = e["id"]
+        ident = e["id"]
         title = "File:" + e["commons"]
+        if not markers_ok(e):
+            print("ERROR %s: markers must be 1-3 [cx, cy, r] entries with 0<=cx,cy<=1 and 0<r<=0.5" % ident, file=sys.stderr)
+            failed = True
+            continue
         q = urllib.parse.urlencode({
             "action": "query", "format": "json", "titles": title,
             "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": 640,
@@ -106,13 +127,13 @@ def main():
             page = next(iter(data["query"]["pages"].values()))
             info = page["imageinfo"][0]
         except Exception as ex:  # noqa: BLE001
-            print("ERROR %s: lookup failed for %s (%s)" % (pid, title, ex), file=sys.stderr)
+            print("ERROR %s: lookup failed for %s (%s)" % (ident, title, ex), file=sys.stderr)
             failed = True
             continue
         meta = info.get("extmetadata", {})
         lic = meta.get("LicenseShortName", {}).get("value", "")
         if not license_ok(lic):
-            print("ERROR %s: license %r not allowed (%s)" % (pid, lic, title), file=sys.stderr)
+            print("ERROR %s: license %r not allowed (%s)" % (ident, lic, title), file=sys.stderr)
             failed = True
             continue
         thumb = info.get("thumburl") or info["url"]
@@ -125,30 +146,31 @@ def main():
         ])
         thumb = urllib.parse.urlunsplit(parts._replace(query=query))
         ext = os.path.splitext(urllib.parse.urlparse(thumb).path)[1].lower() or ".jpg"
-        fname = pid + ext
+        fname = ident + ext
         path = os.path.join(OUT_DIR, fname)
-        source_matches = pid not in previous_sources or previous_sources[pid] == title
+        source_matches = ident not in previous_sources or previous_sources[ident] == title
         if not os.path.isfile(path) or not source_matches:
             try:
                 blob = http_get(thumb)
             except Exception as ex:  # noqa: BLE001
-                print("ERROR %s: download failed (%s)" % (pid, ex), file=sys.stderr)
+                print("ERROR %s: download failed (%s)" % (ident, ex), file=sys.stderr)
                 failed = True
                 continue
             with open(path, "wb") as f:
                 f.write(blob)
         photos.append({
-            "id": pid,
+            "id": ident,
             "morph": e["morph"],
             "file": "res://assets/photos/" + fname,
             "crop": e.get("crop", [0, 0, 1, 1]),
+            "markers": e["markers"],
             "source_title": title,
             "source_url": info.get("descriptionurl", ""),
             "author": author_name(meta.get("Artist", {}).get("value", "")) or "Unknown",
             "license": lic,
             "license_url": meta.get("LicenseUrl", {}).get("value", ""),
         })
-        print("ok %s (%s)" % (pid, lic))
+        print("ok %s (%s)" % (ident, lic))
     photos.sort(key=lambda p: p["id"])
     with open(OUT_JSON, "w", encoding="utf-8") as f:
         json.dump(photos, f, ensure_ascii=False, indent=1)

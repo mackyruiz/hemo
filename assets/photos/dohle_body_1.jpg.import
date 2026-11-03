@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buvplhtxr7qbd"
-path="res://.godot/imported/promyelocyte_1.jpg-6d3507e7ce88e401f88bd8d7c2f5799e.ctex"
+uid="uid://bl3vvxk0tk3ee"
+path="res://.godot/imported/dohle_body_1.jpg-a76a387a35d6184679f32236108ed5ef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/photos/promyelocyte_1.jpg"
-dest_files=["res://.godot/imported/promyelocyte_1.jpg-6d3507e7ce88e401f88bd8d7c2f5799e.ctex"]
+source_file="res://assets/photos/dohle_body_1.jpg"
+dest_files=["res://.godot/imported/dohle_body_1.jpg-a76a387a35d6184679f32236108ed5ef.ctex"]
 
 [params]
 

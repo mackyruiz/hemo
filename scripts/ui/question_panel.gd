@@ -49,7 +49,7 @@ func setup(q: Dictionary, opts: Dictionary = {}) -> void:
 	add_child(UI.label(str(q.get("stem", ""))))
 	var image_id: String = str(q.get("image", "")) if q.get("image") != null else ""
 	if not image_id.is_empty():
-		_add_image(image_id, str(opts.get("image_source", "art")))
+		_add_image(image_id)
 	var choices: Array = q.get("choices", [])
 	for i in range(choices.size()):
 		_mapping.append(i)
@@ -83,40 +83,12 @@ func _use_hint() -> void:
 	_hint_button.text = "Hint used: two wrong answers removed"
 
 
-func _add_image(morph_id: String, source: String) -> void:
+func _add_image(morph_id: String) -> void:
 	var available: Array = Content.photos_by_morph.get(morph_id, [])
-	if source == "photo" and not available.is_empty():
-		var photo: Dictionary = available[_rng.randi_range(0, available.size() - 1)]
-		var texture: Texture2D = load(str(photo["file"])) as Texture2D
-		if texture != null:
-			var crop: Array = photo.get("crop", [0.0, 0.0, 1.0, 1.0])
-			var atlas := AtlasTexture.new()
-			atlas.atlas = texture
-			atlas.region = Rect2(
-				float(crop[0]) * texture.get_width(), float(crop[1]) * texture.get_height(),
-				float(crop[2]) * texture.get_width(), float(crop[3]) * texture.get_height()
-			)
-			var image := TextureRect.new()
-			image.texture = atlas
-			image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-			image.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-			image.custom_minimum_size.y = 320
-			image.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-			add_child(image)
-			var credit: String = "Photo: %s, %s" % [photo.get("author", ""), photo.get("license", "")]
-			if crop != [0, 0, 1, 1]:
-				credit += " (cropped)"
-			add_child(UI.label(credit, "MutedLabel"))
-			add_child(UI.label(CellArt.PHOTO_SCALE_NOTE, "MutedLabel"))
-			return
-	var entity: Dictionary = Content.morph.get(morph_id, {})
-	if entity.has("art"):
-		var center := CenterContainer.new()
-		center.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-		var descriptor: Dictionary = entity["art"]
-		center.custom_minimum_size.y = 0
-		center.add_child(CellArt.make(descriptor, hash(morph_id), CellArt.STUDY_SCALE_PX, true))
-		add_child(center)
+	if available.is_empty():
+		return
+	var photo: Dictionary = available[_rng.randi_range(0, available.size() - 1)]
+	add_child(PhotoView.block(photo, 320))
 
 
 func _choose(chosen_index: int) -> void:
@@ -177,6 +149,5 @@ func _snapshot() -> Dictionary:
 		"explanation": str(_question.get("explanation", "")),
 		"source": str(_question.get("source", "")),
 		"topic": str(_question.get("topic", "")),
-		"image_source": str(_opts.get("image_source", "art")),
 		"case_id": case_id,
 	}

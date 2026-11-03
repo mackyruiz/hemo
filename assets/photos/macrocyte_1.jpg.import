@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3pkb00x88ckp"
-path="res://.godot/imported/cabot_ring_1.jpg-7a13de7aacfc3877c8b7c31b68833b72.ctex"
+uid="uid://cnjw2c3haoctk"
+path="res://.godot/imported/macrocyte_1.jpg-68bded323d1a59cd3d10ee5a67200e8a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/photos/cabot_ring_1.jpg"
-dest_files=["res://.godot/imported/cabot_ring_1.jpg-7a13de7aacfc3877c8b7c31b68833b72.ctex"]
+source_file="res://assets/photos/macrocyte_1.jpg"
+dest_files=["res://.godot/imported/macrocyte_1.jpg-68bded323d1a59cd3d10ee5a67200e8a.ctex"]
 
 [params]
 

@@ -1,5 +1,5 @@
 extends Control
-## Identification, clinical associations, and a tappable smear search.
+## Identification and clinical associations from photomicrographs.
 
 signal finished(result: Dictionary)
 
@@ -10,9 +10,6 @@ var _entity: Dictionary
 var _result: Dictionary = {"correct": 0, "total": 1, "xp": 0}
 var _answered: bool = false
 var _completed: bool = false
-var _field: SmearField
-var _search_status: Label
-var _done_button: Button
 
 
 func start(task: Dictionary) -> void:
@@ -22,10 +19,7 @@ func start(task: Dictionary) -> void:
 	var page: Array = UI.page("Morphology", false)
 	add_child(page[0])
 	_content = page[1]
-	if String(task.get("variant", "identify")) == "find":
-		_show_find()
-	else:
-		_show_question()
+	_show_question()
 
 
 func _shuffle(values: Array[String]) -> void:
@@ -63,13 +57,13 @@ func _show_question() -> void:
 	if association:
 		explanation += " Associated conditions include: " + "; ".join(_entity["associations"]) + "."
 	var question: Dictionary = {
-		"stem": "This finding is most associated with:" if association else "Identify the cell or finding shown.",
+		"stem": "The circled finding is most associated with:" if association else "Identify the circled cell or finding.",
 		"choices": choices, "answer": 0, "explanation": explanation,
 		"image": String(_task["morph_id"]), "source": String(_entity.get("source", ""))
 	}
 	var panel := QuestionPanel.new()
 	_content.add_child(panel)
-	panel.setup(question, {"show_feedback": true, "image_source": String(_task.get("source", "art")), "rng": _rng, "flag": {"key": "morph:%s:%s" % [String(_task["morph_id"]), "association" if association else "identify"]}})
+	panel.setup(question, {"show_feedback": true, "rng": _rng, "flag": {"key": "morph:%s:%s" % [String(_task["morph_id"]), "association" if association else "identify"]}})
 	panel.answered.connect(func(correct: bool, _chosen: int):
 		if _answered:
 			return
@@ -89,44 +83,6 @@ func _add_candidates(entity: Dictionary, association: bool, candidates: Array[St
 		var text: String = String(entity["name"])
 		if text != String(_entity["name"]) and not candidates.has(text):
 			candidates.append(text)
-
-
-func _show_find() -> void:
-	var target_count: int = _rng.randi_range(2, 5)
-	_content.add_child(UI.label("Tap all %d %s" % [target_count, String(_entity["name"])]))
-	_content.add_child(UI.label("Tap each target once, then press Done. Misses reduce XP.", "MutedLabel"))
-	_search_status = UI.label("Found: 0/%d · Misses: 0" % target_count)
-	_content.add_child(_search_status)
-	_field = SmearField.new()
-	_content.add_child(_field)
-	_field.setup(String(_task["morph_id"]), target_count, _rng)
-	_field.tapped.connect(func(_is_target: bool):
-		if _answered:
-			return
-		_search_status.text = "Found: %d/%d · Misses: %d" % [_field.hits, _field.target_count, _field.misses]
-		if _field.hits >= _field.target_count:
-			_finish_find()
-	)
-	_done_button = UI.button("Done", _finish_find)
-	_content.add_child(_done_button)
-
-
-func _finish_find() -> void:
-	if _answered:
-		return
-	_answered = true
-	_field.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	_field.reveal()
-	_done_button.disabled = true
-	var correct: bool = _field.hits == _field.target_count and _field.misses == 0
-	var xp: int = maxi(0, 5 * _field.hits - 2 * _field.misses)
-	_record(correct, xp)
-	_content.add_child(UI.label(("✓ All targets found without misses!" if correct else "✗ Review the outlined targets.") + " %d XP" % xp))
-	_content.add_child(UI.label(String(_entity["features"])))
-	var link: Button = UI.source_link(String(_entity.get("source", "")))
-	if link != null:
-		_content.add_child(link)
-	_content.add_child(UI.button("Next", _finish))
 
 
 func _record(correct: bool, xp: int) -> void:

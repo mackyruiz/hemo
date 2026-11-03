@@ -61,25 +61,10 @@ func _add_smear() -> void:
 		card.add_child(column)
 		column.add_child(UI.label(String(entity["name"])))
 		var photos: Array = Content.photos_by_morph.get(morph_id, [])
-		if int(_task.get("tier", 1)) >= 2 and not photos.is_empty():
-			var photo: Dictionary = photos[0]
-			var texture: Texture2D = load(String(photo["file"]))
-			var crop: Array = photo.get("crop", [0.0, 0.0, 1.0, 1.0])
-			var atlas := AtlasTexture.new()
-			atlas.atlas = texture
-			atlas.region = Rect2(float(crop[0]) * texture.get_width(), float(crop[1]) * texture.get_height(), float(crop[2]) * texture.get_width(), float(crop[3]) * texture.get_height())
-			var image := TextureRect.new()
-			image.texture = atlas
-			image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-			image.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-			image.custom_minimum_size.y = 240
-			column.add_child(image)
-			var crop_notice: String = " (cropped)" if crop != [0.0, 0.0, 1.0, 1.0] else ""
-			column.add_child(UI.label("Photo: %s, %s%s" % [String(photo["author"]), String(photo["license"]), crop_notice], "MutedLabel"))
-			column.add_child(UI.label(CellArt.PHOTO_SCALE_NOTE, "MutedLabel"))
+		if not photos.is_empty():
+			column.add_child(PhotoView.block(photos[0], 240))
 		else:
-			column.add_child(CellArt.make(entity["art"], int(morph_id.hash()), 110.0, true))
-			column.add_child(UI.label("Illustration", "MutedLabel"))
+			column.add_child(UI.label(String(entity["features"]), "MutedLabel"))
 		_content.add_child(card)
 
 
@@ -98,7 +83,7 @@ func _show_step() -> void:
 	_step_host.add_child(_panel)
 	_panel.answered.connect(_on_answered)
 	_panel.next_pressed.connect(_on_next)
-	_panel.setup(question, {"show_feedback": true, "image_source": "art", "flag": {"key": "%s#%d" % [String(_case["id"]), _step_index + 1], "case_id": String(_case["id"])}})
+	_panel.setup(question, {"show_feedback": true, "flag": {"key": "%s#%d" % [String(_case["id"]), _step_index + 1], "case_id": String(_case["id"])}})
 
 
 func _on_answered(correct: bool, _chosen_index: int) -> void:

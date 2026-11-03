@@ -57,9 +57,6 @@ static func xp_for_diff(accuracy: float) -> int:
 	return 10
 
 
-static func xp_for_find(hits: int, misses: int) -> int:
-	return maxi(0, 5 * hits - 2 * misses)
-
 
 static func xp_for_cascade(correct_chips: int) -> int:
 	return 2 * correct_chips

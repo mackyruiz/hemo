@@ -57,7 +57,6 @@ func test_level_one_has_exactly_two_morphology_tasks() -> void:
 			assert_eq(int(task["tier"]), 1)
 			if task["bench"] == "morphology":
 				morphology_count += 1
-				assert_eq(task["source"], "art")
 				assert_eq(task["variant"], "identify")
 		assert_eq(morphology_count, 2)
 		_assert_unique(tasks)
@@ -152,34 +151,25 @@ func test_filtered_practice_and_every_fourth_calculation() -> void:
 		assert_true(str(task["case_id"]).begins_with("cbc-wbc-"))
 
 
-func test_photo_and_variant_rules_at_higher_tiers() -> void:
+func test_morphology_uses_only_photographed_findings() -> void:
 	var content: Dictionary = _fixture()
 	for tier in [2, 3]:
-		var tasks: Array[Dictionary] = ShiftComposer.compose(content, {}, 1, _rng(9), 1000, 10, "practice", "morphology", tier, "rbc")
-		assert_eq(tasks.size(), 10)
-		for task: Dictionary in tasks:
-			assert_true(str(task["morph_id"]).begins_with("rbc_"))
-			if task["variant"] == "find":
-				assert_eq(tier, 2)
-				assert_eq(task["source"], "art")
-			else:
-				assert_eq(task["source"], "photo")
-				assert_true(task["variant"] in (["identify", "find"] if tier == 2 else ["identify", "association"]))
-	content["photos_by_morph"] = {}
-	var tasks: Array[Dictionary] = ShiftComposer.compose(content, {}, 1, _rng(9), 1000, 10, "practice", "morphology", 3)
-	for task: Dictionary in tasks:
-		assert_eq(task["source"], "art")
-
-
-func test_normal_rbc_never_becomes_find_variant_at_tier_two() -> void:
-	var content: Dictionary = _fixture()
-	content["morph"] = {"normal_rbc": {"name": "Normal RBC", "category": "rbc"}}
-	content["photos_by_morph"] = {}
-	for seed_value in range(1, 101):
-		var tasks: Array[Dictionary] = ShiftComposer.compose(content, {}, 1, _rng(seed_value), 1000, 1, "practice", "morphology", 2)
+		for seed_value in range(1, 21):
+			var tasks: Array[Dictionary] = ShiftComposer.compose(content, {}, 1, _rng(seed_value), 1000, 10, "practice", "morphology", tier)
+			assert_eq(tasks.size(), 10)
+			for task: Dictionary in tasks:
+				if tier == 2:
+					assert_eq(task["variant"], "identify")
+				else:
+					assert_true(task["variant"] in ["identify", "association"])
+	content["photos_by_morph"] = {"rbc_03": [{"id": "x"}]}
+	for seed_value in range(1, 21):
+		var tasks: Array[Dictionary] = ShiftComposer.compose(content, {}, 1, _rng(seed_value), 1000, 10, "practice", "morphology", 2)
 		assert_eq(tasks.size(), 1)
-		assert_eq(tasks[0]["morph_id"], "normal_rbc")
-		assert_eq(tasks[0]["variant"], "identify")
+		assert_eq(tasks[0]["morph_id"], "rbc_03")
+	content["photos_by_morph"] = {}
+	for seed_value in range(1, 21):
+		assert_eq(ShiftComposer.compose(content, {}, 1, _rng(seed_value), 1000, 10, "practice", "morphology", 2).size(), 0)
 
 
 func test_nearest_difficulty_falls_back_lower_first() -> void:
