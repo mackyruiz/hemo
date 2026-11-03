@@ -1,9 +1,9 @@
 class_name AdaptiveExam
 extends RefCounted
-## A seeded 50-item blueprint with adaptive difficulty and no repeated item ids.
+## A seeded 100-item blueprint with adaptive difficulty and no repeated item ids.
 
-const BLUEPRINT := {"phys": 5, "rbc": 10, "wbc": 10, "plt": 4, "lab": 10, "hemo": 9, "qc": 2}
-const DURATION_S: int = 4500
+const BLUEPRINT := {"phys": 2, "rbc": 5, "wbc": 5, "plt": 2, "lab": 4, "hemo": 4, "bb": 18, "ua": 8, "chem": 22, "immuno": 8, "micro": 17, "qc": 3, "safety": 2}
+const DURATION_S: int = 9000
 
 var difficulty: int = 2
 var _content: Dictionary
@@ -40,7 +40,7 @@ func _init(content: Dictionary, rng: RandomNumberGenerator, recent_ids: Array = 
 		else:
 			fresh_photos.append(item)
 	fresh_photos.append_array(recent_photos)
-	var photo_count: int = mini(4, fresh_photos.size())
+	var photo_count: int = mini(2, fresh_photos.size())
 	for topic: String in BLUEPRINT:
 		for i in int(BLUEPRINT[topic]):
 			var slot: Dictionary = {"topic": topic}

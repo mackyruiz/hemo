@@ -2,7 +2,7 @@ class_name XpRules
 extends RefCounted
 
 const MAX_LEVEL := 30
-const BENCH_UNLOCK := {"knowledge": 1, "morphology": 1, "differential": 2, "cbc": 3, "coag": 4, "qc": 5}
+const BENCH_UNLOCK := {"knowledge": 1, "morphology": 1, "safety": 1, "differential": 2, "urinalysis": 2, "cbc": 3, "chem": 3, "coag": 4, "blood_bank": 4, "qc": 5, "micro": 5, "immuno": 6}
 const XP_PER_CORRECT_PER_DIFFICULTY := 10
 const XP_CASE_STEP := 15
 const XP_SHIFT_COMPLETE := 50
@@ -58,7 +58,7 @@ static func xp_for_diff(accuracy: float) -> int:
 
 
 
-static func xp_for_cascade(correct_chips: int) -> int:
+static func xp_for_sort(correct_chips: int) -> int:
 	return 2 * correct_chips
 
 

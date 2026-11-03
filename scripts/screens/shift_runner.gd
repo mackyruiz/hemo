@@ -1,8 +1,6 @@
 extends Control
 ## Runs a composed shift and commits its earned XP only after completion.
 
-const TOPICS := ["phys", "rbc", "wbc", "plt", "lab", "hemo", "qc"]
-
 var _params: Dictionary = {}
 var _tasks: Array[Dictionary] = []
 var _task_label: Label
@@ -89,7 +87,7 @@ func _complete_shift() -> void:
 	Progress.shift_completed()
 	var weakest_topic: String = ""
 	var weakest_mastery: float = INF
-	for topic in TOPICS:
+	for topic in Topics.ids():
 		if Progress.attempts(topic) == 0:
 			continue
 		var mastery: float = Progress.mastery(topic)

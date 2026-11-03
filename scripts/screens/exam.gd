@@ -22,8 +22,8 @@ func _ready() -> void:
 	var card := UI.card()
 	var intro := UI.vbox()
 	card.add_child(intro)
-	intro.add_child(UI.label("Mock hematology exam", "TitleLabel"))
-	intro.add_child(UI.label("50 questions · 75 minutes"))
+	intro.add_child(UI.label("Mock MLT exam", "TitleLabel"))
+	intro.add_child(UI.label("100 questions · 150 minutes"))
 	intro.add_child(UI.label("One question at a time, with no going back and no feedback until the end. Difficulty adapts to your answers, like the ASCP CAT."))
 	intro.add_child(UI.label("This is a practice benchmark, not an official exam or pass predictor. The timer pauses while the browser tab is backgrounded.", "MutedLabel"))
 	_content.add_child(card)
@@ -50,8 +50,8 @@ func _start() -> void:
 	_item_elapsed = 0.0
 	_started = true
 	var header := UI.hbox()
-	_counter = UI.label("Question 1 of 50")
-	_timer = UI.label("75:00")
+	_counter = UI.label("Question 1 of 100")
+	_timer = UI.label("150:00")
 	_timer.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 	header.add_child(_counter)
 	header.add_child(_timer)
@@ -84,7 +84,7 @@ func _show_next() -> void:
 		_body.remove_child(child)
 		child.queue_free()
 	var item: Dictionary = _exam.next_item()
-	_counter.text = "Question %d of 50" % (_exam.count_answered() + 1)
+	_counter.text = "Question %d of 100" % (_exam.count_answered() + 1)
 	_item_elapsed = 0.0
 	var panel := QuestionPanel.new()
 	panel.setup(item, {"show_feedback": false, "allow_hint": false, "rng": _rng, "flag": {"key": str(item["id"])}})

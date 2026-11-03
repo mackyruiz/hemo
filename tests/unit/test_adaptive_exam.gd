@@ -45,7 +45,7 @@ func test_correct_correct_wrong_adapts_difficulty() -> void:
 	assert_eq(exam.difficulty, 2)
 
 
-func test_fifty_unique_items_match_blueprint_with_four_photo_items() -> void:
+func test_hundred_unique_items_match_blueprint_with_two_photo_items() -> void:
 	for seed_value in range(1, 11):
 		var content: Dictionary = _fixture()
 		var exam := AdaptiveExam.new(content, _rng(seed_value))
@@ -77,16 +77,16 @@ func test_fifty_unique_items_match_blueprint_with_four_photo_items() -> void:
 				assert_eq(unique.size(), 4)
 				assert_eq(choices[int(item["answer"])], content["morph"][item["image"]]["name"])
 			exam.answer(true, 2.0, int(item["answer"]))
-		assert_eq(seen.size(), 50)
+		assert_eq(seen.size(), 100)
 		assert_eq(topics, AdaptiveExam.BLUEPRINT)
-		assert_eq(photo_count, 4)
-		assert_eq(exam.count_answered(), 50)
+		assert_eq(photo_count, 2)
+		assert_eq(exam.count_answered(), 100)
 		assert_eq(exam.next_item(), {})
 		var results: Dictionary = exam.results()
-		assert_eq(int(results["correct"]), 50)
-		assert_eq(int(results["total"]), 50)
+		assert_eq(int(results["correct"]), 100)
+		assert_eq(int(results["total"]), 100)
 		assert_eq(float(results["score"]), 1.0)
-		assert_eq(float(results["duration_s"]), 100.0)
+		assert_eq(float(results["duration_s"]), 200.0)
 		for topic: String in AdaptiveExam.BLUEPRINT:
 			assert_eq(int(results["by_topic"][topic]["correct"]), int(AdaptiveExam.BLUEPRINT[topic]))
 			assert_eq(int(results["by_topic"][topic]["total"]), int(AdaptiveExam.BLUEPRINT[topic]))
@@ -96,13 +96,13 @@ func test_fifty_unique_items_match_blueprint_with_four_photo_items() -> void:
 			assert_eq(int(record["chosen"]), int(record["item"]["answer"]))
 
 
-func test_no_photos_still_produces_fifty_blueprint_items() -> void:
+func test_no_photos_still_produces_hundred_blueprint_items() -> void:
 	var exam := AdaptiveExam.new(_fixture(false), _rng(9))
 	while not exam.is_done():
 		var item: Dictionary = exam.next_item()
 		assert_false(str(item["id"]).begins_with("morph:"))
 		exam.answer(false, 1.0)
-	assert_eq(exam.count_answered(), 50)
+	assert_eq(exam.count_answered(), 100)
 	assert_eq(float(exam.results()["score"]), 0.0)
 
 
@@ -136,11 +136,11 @@ func test_timeout_counts_presented_and_remaining_items_wrong() -> void:
 	var presented_id: String = exam.next_item()["id"]
 	exam.mark_timeout()
 	assert_true(exam.is_done())
-	assert_eq(exam.count_answered(), 50)
+	assert_eq(exam.count_answered(), 100)
 	var results: Dictionary = exam.results()
 	assert_eq(int(results["correct"]), 1)
-	assert_eq(int(results["total"]), 50)
-	assert_almost_eq(float(results["score"]), 0.02, 0.000001)
+	assert_eq(int(results["total"]), 100)
+	assert_almost_eq(float(results["score"]), 0.01, 0.000001)
 	assert_eq(float(results["duration_s"]), float(AdaptiveExam.DURATION_S))
 	var records: Array = results["items"]
 	assert_eq(records[1]["id"], presented_id)
@@ -151,7 +151,7 @@ func test_timeout_counts_presented_and_remaining_items_wrong() -> void:
 	for topic: String in AdaptiveExam.BLUEPRINT:
 		assert_eq(int(results["by_topic"][topic]["total"]), int(AdaptiveExam.BLUEPRINT[topic]))
 		topic_total += int(results["by_topic"][topic]["total"])
-	assert_eq(topic_total, 50)
+	assert_eq(topic_total, 100)
 
 
 func test_photo_choices_pad_from_same_category() -> void:
@@ -166,7 +166,7 @@ func test_photo_choices_pad_from_same_category() -> void:
 			photos += 1
 			assert_eq(item["choices"].size(), 4)
 		exam.answer(true, 0.0)
-	assert_eq(photos, 4)
+	assert_eq(photos, 2)
 
 
 func test_missing_difficulty_uses_nearest_lower_first() -> void:

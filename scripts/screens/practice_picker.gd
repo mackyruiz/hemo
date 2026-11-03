@@ -8,16 +8,12 @@ const BENCHES := [
 	{"id": "cbc", "name": "CBC review"},
 	{"id": "coag", "name": "Coagulation"},
 	{"id": "qc", "name": "Quality control"},
-]
-const TOPICS := [
-	{"id": "", "name": "Any topic"},
-	{"id": "phys", "name": "Physiology"},
-	{"id": "rbc", "name": "RBC disorders"},
-	{"id": "wbc", "name": "WBC disorders"},
-	{"id": "plt", "name": "Platelet disorders"},
-	{"id": "lab", "name": "Lab testing & morphology"},
-	{"id": "hemo", "name": "Hemostasis"},
-	{"id": "qc", "name": "QC & lab operations"},
+	{"id": "micro", "name": "Microbiology"},
+	{"id": "urinalysis", "name": "Urinalysis"},
+	{"id": "blood_bank", "name": "Blood bank"},
+	{"id": "immuno", "name": "Immunology"},
+	{"id": "chem", "name": "Chemistry"},
+	{"id": "safety", "name": "Lab safety"},
 ]
 
 var _bench: String = "knowledge"
@@ -64,7 +60,10 @@ func _ready() -> void:
 	column.add_child(_topic_section)
 	_topic_section.add_child(UI.label("Knowledge topic", "TitleLabel"))
 	var topic_group := ButtonGroup.new()
-	for entry in TOPICS:
+	var topics: Array[Dictionary] = [{"id": "", "name": "Any topic"}]
+	for topic_id: String in Topics.NAMES:
+		topics.append({"id": topic_id, "name": Topics.NAMES[topic_id]})
+	for entry in topics:
 		var id: String = String(entry["id"])
 		var button := UI.button(String(entry["name"]), _select_topic.bind(id), "SecondaryButton")
 		button.toggle_mode = true

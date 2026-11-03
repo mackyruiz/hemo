@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "micro-0001",
+    "topic": "micro",
+    "subtopic": "specimen_collection",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "According to CDC guidance, how much blood should a single adult blood culture set contain?",
+    "image": null,
+    "choices": [
+      "20–30 mL",
+      "1–3 mL",
+      "5–8 mL",
+      "50–60 mL"
+    ],
+    "answer": 0,
+    "explanation": "CDC states that an adult blood culture set should consist of 20–30 mL of blood collected by venipuncture, typically 10 mL in each bottle. Smaller volumes such as 5–8 mL per set reduce the chance of detecting bacteremia.",
+    "source": "micro-blood-culture-collection"
+  },
+  {
+    "id": "micro-0002",
+    "topic": "micro",
+    "subtopic": "specimen_collection",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "The first adult blood culture set (one aerobic and one anaerobic bottle) was drawn from the left antecubital vein. How should the second set be collected?",
+    "image": null,
+    "choices": [
+      "Through the same needle after swapping bottles",
+      "Through the patient's existing IV line",
+      "Only after the first set signals positive",
+      "From a separate venipuncture site"
+    ],
+    "answer": 3,
+    "explanation": "CDC's model procedure collects the second set from a separate venipuncture site, because two independent sets are needed to tell a contaminant from true bacteremia. Drawing both sets through one stick or line defeats that comparison.",
+    "source": "micro-blood-culture-collection"
+  },
+  {
+    "id": "micro-0003",
+    "topic": "micro",
+    "subtopic": "specimen_collection",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A stool for ova and parasites cannot be examined promptly and no commercial collection kit is available. How should it be preserved?",
+    "image": null,
+    "choices": [
+      "Refrigerate it unpreserved and examine it within 72 hours",
+      "Freeze it at −20 °C in a clean, dry, leakproof container",
+      "Split it into 10% formalin and PVA at 1:3 stool to preservative",
+      "Mix it 1:1 with saline and hold it at room temperature"
+    ],
+    "answer": 2,
+    "explanation": "CDC DPDx recommends dividing the specimen between 10% formalin and PVA, adding one volume of stool to three volumes of preservative, because the two fixatives have complementary strengths. Refrigerated unpreserved stool is suitable for antigen testing only, not a full O&P.",
+    "source": "micro-dpdx-stool-collection"
+  },
+  {
+    "id": "micro-0004",
+    "topic": "micro",
+    "subtopic": "specimen_collection",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which specimen does CDC recommend for both culture and PCR when pertussis is suspected?",
+    "image": null,
+    "choices": [
+      "Oropharyngeal (throat) swab",
+      "Nasopharyngeal swab or aspirate",
+      "Expectorated sputum",
+      "Anterior nares swab"
+    ],
+    "answer": 1,
+    "explanation": "CDC advises collecting a nasopharyngeal swab or aspirate from everyone with suspected pertussis; the same specimen serves both culture (plated within 24 hours) and PCR. Throat and anterior nasal swabs do not sample the nasopharynx, where B. pertussis is recovered.",
+    "source": "micro-pertussis-lab"
+  },
+  {
+    "id": "micro-0005",
+    "topic": "micro",
+    "subtopic": "specimen_collection",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A sputum submitted for Legionella culture shows few white cells and some oral bacteria on Gram stain. What should the laboratory do?",
+    "image": null,
+    "choices": [
+      "Reject it as saliva and request a recollection",
+      "Culture it on chocolate agar only",
+      "Accept it and plate it on selective BCYE agar",
+      "Hold it at 4 °C for 48 hours before plating"
+    ],
+    "answer": 2,
+    "explanation": "CDC states that labs should not reject lower respiratory specimens for few WBCs or contamination when working up Legionnaires' disease: such sputum often has few WBCs, and contaminants do not hinder isolation on selective BCYE agar. Routine sputum-quality rejection rules do not apply here.",
+    "source": "micro-legionella-lab"
+  },
+  {
+    "id": "micro-0006",
+    "topic": "micro",
+    "subtopic": "processing_media",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "On sorbitol-MacConkey (SMAC) agar, why does E. coli O157:H7 usually form colorless colonies?",
+    "image": null,
+    "choices": [
+      "It cannot ferment lactose within 24 hours",
+      "It produces hydrogen sulfide from thiosulfate",
+      "Its growth is partially inhibited by bile salts",
+      "It does not ferment sorbitol within 24 hours"
+    ],
+    "answer": 3,
+    "explanation": "O157 STEC cannot ferment sorbitol within 24 hours, so on SMAC its colonies stay colorless while most fecal E. coli ferment sorbitol. Lactose fermentation is the differential reaction on standard MacConkey agar, not on SMAC.",
+    "source": "micro-stec-mmwr"
+  },
+  {
+    "id": "micro-0007",
+    "topic": "micro",
+    "subtopic": "processing_media",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which selective medium does CDC recommend for stool culture when Vibrio infection is suspected?",
+    "image": null,
+    "choices": [
+      "Sorbitol-MacConkey agar",
+      "CIN agar",
+      "BCYE agar",
+      "TCBS agar"
+    ],
+    "answer": 3,
+    "explanation": "CDC recommends selective media such as thiosulfate citrate bile-salts (TCBS) agar for examining stool for Vibrio. CIN agar is used for Yersinia, and BCYE for Legionella.",
+    "source": "micro-vibrio"
+  },
+  {
+    "id": "micro-0008",
+    "topic": "micro",
+    "subtopic": "processing_media",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Why is a vaginal-rectal group B Streptococcus screening swab inoculated into a selective enrichment broth (such as Lim broth) instead of being plated directly?",
+    "image": null,
+    "choices": [
+      "The CAMP test can only be read from broth",
+      "Anaerobes overgrow GBS on blood agar",
+      "The broth makes GBS safe to handle on the open bench",
+      "Direct plating misses up to half of GBS carriers"
+    ],
+    "answer": 3,
+    "explanation": "CDC notes that when direct agar plating replaces selective enrichment, as many as 50% of GBS carriers have false-negative cultures. Lim broth is Todd-Hewitt broth with colistin and nalidixic acid, which suppresses competing flora; the CAMP test is done on colonies after subculture, not in broth.",
+    "source": "micro-gbs-mmwr"
+  },
+  {
+    "id": "micro-0009",
+    "topic": "micro",
+    "subtopic": "processing_media",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Which culture-bench practice does CDC say should be prohibited?",
+    "image": null,
+    "choices": [
+      "Sniffing culture plates to detect odors",
+      "Using disposable inoculating loops",
+      "Using an electric incinerator for wire loops",
+      "Disinfecting keyboard covers at the end of the shift"
+    ],
+    "answer": 0,
+    "explanation": "CDC recommends prohibiting the sniffing of culture plates because it has been linked to multiple laboratory-acquired infections. Disposable loops, electric incinerators and routine keyboard-cover disinfection are all recommended practices.",
+    "source": "micro-safe-work-practices"
+  },
+  {
+    "id": "micro-0010",
+    "topic": "micro",
+    "subtopic": "processing_media",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A blood culture flags positive at 72 hours; the Gram stain shows tiny gram-negative coccobacilli, and subcultures show pinpoint colonies at 48 hours. The laboratory cannot rule out Brucella. What is the best action?",
+    "image": null,
+    "choices": [
+      "Work in a biosafety cabinet and refer the isolate",
+      "Finish the identification on the open bench with gloves",
+      "Smell the plate for a characteristic odor before testing",
+      "Set up an automated identification panel on the open bench"
+    ],
+    "answer": 0,
+    "explanation": "CDC lists slow growth in blood culture bottles with small gram-negative coccobacilli as a sign of a possible high-risk pathogen that must be handled in a BSC. Laboratories that cannot rule out Brucella or Francisella should ship the isolate to a reference laboratory rather than attempt identification, which generates aerosols.",
+    "source": "micro-safe-work-practices"
+  },
+  {
+    "id": "micro-0011",
+    "topic": "micro",
+    "subtopic": "blood_csf",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Why is a single blood culture set collected in a 24-hour period considered inadequate?",
+    "image": null,
+    "choices": [
+      "Single sets cannot be incubated anaerobically by design",
+      "Too little blood, and contamination cannot be judged",
+      "CLIA prohibits reporting single-set culture results",
+      "Single sets nearly always grow skin flora as contaminants"
+    ],
+    "answer": 1,
+    "explanation": "A single set provides too little blood to reliably detect bacteremia and can cause false negatives. It also cannot be used to judge contamination, which by definition requires at least two separate sets.",
+    "source": "micro-blood-culture-contamination"
+  },
+  {
+    "id": "micro-0012",
+    "topic": "micro",
+    "subtopic": "blood_csf",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A skin commensal such as a coagulase-negative staphylococcus grows in only one of three blood culture sets drawn within 24 hours; the other sets are negative. How is this best classified?",
+    "image": null,
+    "choices": [
+      "Confirmed catheter-related bacteremia",
+      "An inadequate single-set blood culture",
+      "Early polymicrobial bloodstream sepsis",
+      "Probable blood culture contamination"
+    ],
+    "answer": 3,
+    "explanation": "Professional guidance cited by CDC defines blood culture contamination as a commensal skin organism isolated from only one of two or more sets collected within 24 hours. Three sets were drawn here, so it is not a single-set culture.",
+    "source": "micro-blood-culture-contamination"
+  },
+  {
+    "id": "micro-0013",
+    "topic": "micro",
+    "subtopic": "blood_csf",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "According to CLSI guidance summarized by CDC, what blood culture contamination rate should laboratories achieve?",
+    "image": null,
+    "choices": [
+      "Below 10%, with 5% achievable by most hospitals",
+      "Below 5%, with 3% achievable by most hospitals",
+      "Below 0.1% for every collection unit and shift",
+      "Well below 3%, with 1% achievable"
+    ],
+    "answer": 3,
+    "explanation": "CLSI states that laboratories should achieve contamination rates substantially below 3%, and that a target of 1% is achievable when best practices are followed. A 5–10% rate would represent poor collection technique.",
+    "source": "micro-blood-culture-contamination"
+  },
+  {
+    "id": "micro-0014",
+    "topic": "micro",
+    "subtopic": "blood_csf",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A multiplex PCR panel on cerebrospinal fluid detects Neisseria meningitidis. What additional step does CDC recommend for the laboratory?",
+    "image": null,
+    "choices": [
+      "Report the PCR result and discard the CSF",
+      "Repeat the PCR on a second aliquot instead of culturing",
+      "Perform an India ink preparation on the sediment",
+      "Perform a simultaneous or reflex culture"
+    ],
+    "answer": 3,
+    "explanation": "CDC advises a simultaneous or reflex culture when PCR identifies N. meningitidis, because the isolate is needed for serogrouping, susceptibility testing and whole-genome sequencing; PCR cannot determine antimicrobial resistance. Repeating the PCR adds none of that information.",
+    "source": "micro-meningitis-pcr"
+  },
+  {
+    "id": "micro-0015",
+    "topic": "micro",
+    "subtopic": "respiratory",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Which medium is used to isolate Legionella from lower respiratory specimens?",
+    "image": null,
+    "choices": [
+      "MacConkey agar with crystal violet",
+      "Thayer-Martin agar",
+      "Sorbitol-MacConkey agar with cefixime",
+      "BCYE agar with antibiotics"
+    ],
+    "answer": 3,
+    "explanation": "Legionella is recovered on selective buffered charcoal yeast extract (BCYE) agar with antibiotics. It does not grow on routine media such as MacConkey agar.",
+    "source": "micro-legionella-lab"
+  },
+  {
+    "id": "micro-0016",
+    "topic": "micro",
+    "subtopic": "respiratory",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A patient with Legionnaires' disease has a negative Legionella urinary antigen test, but sputum culture grows Legionella. What best explains the discrepancy?",
+    "image": null,
+    "choices": [
+      "Urinary antigen clears within hours of symptom onset",
+      "Sputum culture for Legionella has low specificity",
+      "The UAT mainly detects L. pneumophila serogroup 1",
+      "The urine test detects antibody rather than antigen"
+    ],
+    "answer": 2,
+    "explanation": "CDC notes that the urinary antigen test typically detects only L. pneumophila serogroup 1, whereas culture detects all species and serogroups. Culture specificity is 100%, so the positive culture is reliable.",
+    "source": "micro-legionella-lab"
+  },
+  {
+    "id": "micro-0017",
+    "topic": "micro",
+    "subtopic": "respiratory",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Why does the sensitivity of Bordetella pertussis culture fall after the first 2 weeks of cough?",
+    "image": null,
+    "choices": [
+      "Patient antibodies inhibit growth on the culture medium",
+      "Culture loses specificity after 2 weeks",
+      "Fewer viable bacteria remain in the nasopharynx",
+      "PCR inhibitors accumulate in the specimen"
+    ],
+    "answer": 2,
+    "explanation": "CDC advises culture during the first 2 weeks after cough onset, while viable bacteria are still present; after that, sensitivity drops and false negatives rise. PCR can be used up to 3–4 weeks after cough onset.",
+    "source": "micro-pertussis-lab"
+  },
+  {
+    "id": "micro-0018",
+    "topic": "micro",
+    "subtopic": "respiratory",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "A symptomatic 8-year-old has a negative rapid antigen detection test for group A Streptococcus. What should follow?",
+    "image": null,
+    "choices": [
+      "A repeat rapid antigen test in 1 week",
+      "A throat culture",
+      "An antistreptolysin O titer",
+      "No further testing"
+    ],
+    "answer": 1,
+    "explanation": "CDC recommends confirming a negative rapid antigen test with a throat culture in symptomatic children aged 3 years or older, because rapid tests vary in sensitivity. Throat culture is the gold standard.",
+    "source": "micro-gas-pharyngitis"
+  },
+  {
+    "id": "micro-0019",
+    "topic": "micro",
+    "subtopic": "gi_urine",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A diarrheal stool for C. difficile toxin enzyme immunoassay was left at room temperature for 4 hours before testing. Why is this a problem?",
+    "image": null,
+    "choices": [
+      "Nontoxigenic strains overgrow and cause false positives",
+      "The toxin degrades and may give a false-negative result",
+      "The GDH antigen becomes undetectable",
+      "Toxin A converts to toxin B at room temperature"
+    ],
+    "answer": 1,
+    "explanation": "CDC notes that C. difficile toxin is unstable: it degrades at room temperature and may be undetectable within 2 hours of collection. Specimens must be tested promptly or refrigerated to avoid false-negative results.",
+    "source": "micro-cdiff-testing"
+  },
+  {
+    "id": "micro-0020",
+    "topic": "micro",
+    "subtopic": "gi_urine",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "According to CDC recommendations, how should stools from patients with acute community-acquired diarrhea be tested for Shiga toxin–producing E. coli (STEC)?",
+    "image": null,
+    "choices": [
+      "Culture for O157 STEC and simultaneously test for Shiga toxins",
+      "Test for Shiga toxin only when the stool is bloody",
+      "Culture for O157 STEC only in children younger than 5 years",
+      "Test for Shiga toxin only after routine culture is negative"
+    ],
+    "answer": 0,
+    "explanation": "CDC recommends culturing all such stools for O157 STEC on selective and differential agar while simultaneously testing for Shiga toxins or their genes to detect non-O157 STEC. Testing is not limited by age, season or visible blood.",
+    "source": "micro-stec-mmwr"
+  },
+  {
+    "id": "micro-0021",
+    "topic": "micro",
+    "subtopic": "gi_urine",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A urine culture from a pregnant woman grows 2 × 10⁴ CFU/mL of group B Streptococcus mixed with one other organism. What should be reported?",
+    "image": null,
+    "choices": [
+      "No significant growth, because the count is below 10⁵ CFU/mL",
+      "GBS, because it is present at ≥10⁴ CFU/mL",
+      "Mixed flora, with a request for recollection",
+      "GBS only if it is isolated in pure culture"
+    ],
+    "answer": 1,
+    "explanation": "CDC recommends that laboratories identify and report GBS in urine at ≥10⁴ CFU/mL, whether in pure culture or mixed with a second organism. Applying the 10⁵ CFU/mL cutoff or requiring pure culture would miss GBS bacteriuria in pregnancy.",
+    "source": "micro-gbs-mmwr"
+  },
+  {
+    "id": "micro-0022",
+    "topic": "micro",
+    "subtopic": "gi_urine",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A multiplex gastrointestinal PCR panel detects Salmonella. Why does CDC recommend a reflex culture?",
+    "image": null,
+    "choices": [
+      "Because PCR cannot detect Salmonella in stool samples",
+      "To measure how much Salmonella toxin the stool contains",
+      "To obtain an isolate for susceptibility testing",
+      "To confirm the PCR result with a Salmonella antibody titer"
+    ],
+    "answer": 2,
+    "explanation": "CDC recommends a follow-up (reflex) culture after a positive culture-independent test so that an isolate is available for antimicrobial susceptibility testing and outbreak detection. Serologic testing for Salmonella is unreliable and not advised.",
+    "source": "micro-salmonella"
+  },
+  {
+    "id": "micro-0023",
+    "topic": "micro",
+    "subtopic": "genital_wound",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "A Gram stain of urethral discharge from a symptomatic man shows neutrophils containing intracellular gram-negative diplococci. How is this interpreted?",
+    "image": null,
+    "choices": [
+      "Diagnostic of Chlamydia trachomatis infection",
+      "Consistent with normal urethral flora",
+      "Indicative of Trichomonas vaginalis",
+      "Diagnostic of Neisseria gonorrhoeae infection"
+    ],
+    "answer": 3,
+    "explanation": "CDC states that intracellular gram-negative diplococci within PMNs in urethral discharge from a symptomatic man are diagnostic of gonorrhea (specificity >99%, sensitivity >95%). Chlamydia is an obligate intracellular organism that is not seen on Gram stain.",
+    "source": "micro-gonorrhea-sti"
+  },
+  {
+    "id": "micro-0024",
+    "topic": "micro",
+    "subtopic": "genital_wound",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Vaginal fluid has a pH of 5.0, a fishy odor after adding 10% KOH, and epithelial cells studded with adherent bacteria. These findings indicate which condition?",
+    "image": null,
+    "choices": [
+      "Vulvovaginal candidiasis",
+      "Gonococcal cervicitis",
+      "Bacterial vaginosis",
+      "Normal Lactobacillus-predominant flora"
+    ],
+    "answer": 2,
+    "explanation": "Three of the four Amsel criteria are present (pH >4.5, positive whiff test, clue cells), which establishes bacterial vaginosis. Normal Lactobacillus-predominant flora keeps the vaginal pH at 4.5 or below.",
+    "source": "micro-bv-sti"
+  },
+  {
+    "id": "micro-0025",
+    "topic": "micro",
+    "subtopic": "genital_wound",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A vaginal wet mount for Trichomonas vaginalis is examined 90 minutes after collection and is negative. What is the best next step?",
+    "image": null,
+    "choices": [
+      "Report the result as negative for T. vaginalis",
+      "Re-examine the same slide after warming it to 37 °C",
+      "Perform a T. vaginalis NAAT",
+      "Gram stain the specimen to look for trophozoites"
+    ],
+    "answer": 2,
+    "explanation": "CDC notes that wet-mount sensitivity is only 44–68% and falls to about 20% within 1 hour of collection, so a negative result should be followed by a highly sensitive NAAT. A delayed negative wet mount does not rule out infection.",
+    "source": "micro-trich-sti"
+  },
+  {
+    "id": "micro-0026",
+    "topic": "micro",
+    "subtopic": "genital_wound",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A man with liver disease develops hemorrhagic bullae around a leg wound after wading in coastal seawater. Vibrio vulnificus is isolated from the wound culture. What should the laboratory do with the isolate?",
+    "image": null,
+    "choices": [
+      "Discard it as environmental contamination",
+      "Report it only if blood cultures are also positive",
+      "Send it to a public health laboratory",
+      "Hold it 30 days before reporting"
+    ],
+    "answer": 2,
+    "explanation": "CDC advises culturing the wound or hemorrhagic bullae and sending all V. vulnificus isolates to a public health laboratory. V. vulnificus wound infection is life-threatening, especially in patients with liver disease, so the isolate is never dismissed as a contaminant.",
+    "source": "micro-vibrio"
+  },
+  {
+    "id": "micro-0027",
+    "topic": "micro",
+    "subtopic": "gram_positive_id",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "After enrichment broth from a prenatal screen is subcultured to blood agar, which test gives presumptive identification of group B Streptococcus colonies?",
+    "image": null,
+    "choices": [
+      "Bile solubility test",
+      "Optochin susceptibility",
+      "CAMP test",
+      "Coagulase test"
+    ],
+    "answer": 2,
+    "explanation": "CDC describes presumptive identification of GBS by the CAMP test, or identification by latex agglutination with group B antisera. Bile solubility and optochin identify S. pneumoniae, and coagulase identifies S. aureus.",
+    "source": "micro-gbs-mmwr"
+  },
+  {
+    "id": "micro-0028",
+    "topic": "micro",
+    "subtopic": "gram_positive_id",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Corynebacterium diphtheriae is isolated from a throat swab, and PCR detects the tox gene. Why is an Elek test still required to confirm diphtheria?",
+    "image": null,
+    "choices": [
+      "Most U.S. tox-positive strains do not actually produce toxin",
+      "PCR cannot identify C. diphtheriae to species level",
+      "The Elek test also measures antimicrobial susceptibility",
+      "tox gene PCR cross-reacts with streptococci"
+    ],
+    "answer": 0,
+    "explanation": "CDC explains that most U.S. C. diphtheriae strains carrying the tox gene do not express it, so toxin production must be shown with the Elek immunoprecipitation test. Finding the gene alone does not confirm toxigenic diphtheria.",
+    "source": "micro-diphtheria-lab"
+  },
+  {
+    "id": "micro-0029",
+    "topic": "micro",
+    "subtopic": "gram_positive_id",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A rapidly growing, flat, nonpigmented colony with an irregular ground-glass edge and comma-shaped projections shows boxcar-shaped gram-positive rods. What should the technologist do?",
+    "image": null,
+    "choices": [
+      "Discard the plate as a Bacillus contaminant",
+      "Continue the workup on the open bench",
+      "Continue all work in a biological safety cabinet",
+      "Sniff the plate to confirm the identification"
+    ],
+    "answer": 2,
+    "explanation": "CDC lists this colony morphology and boxcar-shaped gram-positive rods as indicators of a possible high-risk pathogen, so work must continue in a BSC. Treating the isolate as a contaminant or working on the open bench risks laboratory exposure.",
+    "source": "micro-safe-work-practices"
+  },
+  {
+    "id": "micro-0030",
+    "topic": "micro",
+    "subtopic": "gram_positive_id",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "The pneumococcal urinary antigen test detects which component of Streptococcus pneumoniae?",
+    "image": null,
+    "choices": [
+      "C-polysaccharide antigen",
+      "Pneumolysin toxin",
+      "Bacterial DNA",
+      "Type-specific capsular antibody"
+    ],
+    "answer": 0,
+    "explanation": "CDC describes the urinary antigen test as detecting the C-polysaccharide antigen of S. pneumoniae, a lancet-shaped gram-positive organism. It is an antigen test, not an antibody or nucleic acid test.",
+    "source": "micro-pneumococcal"
+  },
+  {
+    "id": "micro-0031",
+    "topic": "micro",
+    "subtopic": "gram_positive_id",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Why is febrile gastroenteritis caused by Listeria monocytogenes rarely diagnosed outside outbreak settings?",
+    "image": null,
+    "choices": [
+      "Listeria is a gram-negative rod overgrown on MacConkey agar",
+      "Listeria grows only in cell culture",
+      "Routine stool cultures do not detect Listeria",
+      "Listeria cannot be isolated from sterile sites"
+    ],
+    "answer": 2,
+    "explanation": "CDC notes that Listeria cannot be detected by routine stool culture, so febrile gastroenteritis is rarely diagnosed except during outbreaks. L. monocytogenes is a gram-positive rod readily isolated in standard culture of normally sterile sites.",
+    "source": "micro-listeria"
+  },
+  {
+    "id": "micro-0032",
+    "topic": "micro",
+    "subtopic": "gram_negative_id",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Haemophilus influenzae requires which growth factors in vitro?",
+    "image": null,
+    "choices": [
+      "Hemin (X factor) only, without NAD",
+      "Hemin (X) and NAD (V)",
+      "NAD (V factor) only, without hemin",
+      "Cysteine and ferric iron supplements"
+    ],
+    "answer": 1,
+    "explanation": "H. influenzae is a fastidious gram-negative coccobacillus that requires both hemin (X factor) and NAD (V factor) for in vitro growth. Requiring only one factor points to other Haemophilus species.",
+    "source": "micro-hib-pinkbook"
+  },
+  {
+    "id": "micro-0033",
+    "topic": "micro",
+    "subtopic": "gram_negative_id",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Gram-negative diplococci are seen in the CSF of a febrile teenager with a petechial rash. How should this finding be interpreted?",
+    "image": null,
+    "choices": [
+      "Confirms Neisseria gonorrhoeae as the cause",
+      "Confirms N. meningitidis serogroup B infection",
+      "Strongly suggestive of N. meningitidis, not confirmatory",
+      "Indicates skin contamination from the lumbar puncture"
+    ],
+    "answer": 2,
+    "explanation": "CDC states that gram-negative diplococci in a normally sterile site strongly suggest N. meningitidis but do not confirm it; diagnosis rests on culture (the gold standard) or a validated PCR. The Gram stain cannot determine serogroup.",
+    "source": "micro-meningococcal-pinkbook"
+  },
+  {
+    "id": "micro-0034",
+    "topic": "micro",
+    "subtopic": "gram_negative_id",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A bubo aspirate from a patient who recently lived in the western United States shows small gram-negative rods with bipolar 'safety pin' staining on Wayson stain. The automated system identifies the isolate as Yersinia pseudotuberculosis. What is the best action?",
+    "image": null,
+    "choices": [
+      "Report Y. pseudotuberculosis as the final identification",
+      "Suspect Y. pestis and notify public health immediately",
+      "Repeat the automated identification and report it",
+      "Report the isolate as a likely contaminant"
+    ],
+    "answer": 1,
+    "explanation": "Bipolar safety-pin staining should trigger suspicion of plague, and CDC warns that automated and MALDI-TOF systems may misidentify Y. pestis as Y. pseudotuberculosis. Local and state health departments must be notified immediately.",
+    "source": "micro-plague-lab"
+  },
+  {
+    "id": "micro-0035",
+    "topic": "micro",
+    "subtopic": "gram_negative_id",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Yersiniosis is suspected from a diarrheal stool. Which laboratory technique increases the chance of recovering the organism?",
+    "image": null,
+    "choices": [
+      "Plating on TCBS agar at 35 °C",
+      "Cold enrichment or CIN agar",
+      "Plating on BCYE agar with antibiotics",
+      "Plating on sorbitol-MacConkey agar"
+    ],
+    "answer": 1,
+    "explanation": "CDC notes that cold enrichment, alkali treatment or plating on CIN agar increases the likelihood of a positive Yersinia culture, so the laboratory should be told when yersiniosis is suspected. TCBS is for Vibrio and BCYE is for Legionella.",
+    "source": "micro-yersinia"
+  },
+  {
+    "id": "micro-0036",
+    "topic": "micro",
+    "subtopic": "gram_negative_id",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "When tularemia is suspected, why should the physician alert the laboratory?",
+    "image": null,
+    "choices": [
+      "Cultures need extended incubation and extra safety measures",
+      "The specimen must be frozen at −70 °C before plating",
+      "Francisella grows only on MacConkey agar at 42 °C",
+      "Only serologic testing can be performed on these patients"
+    ],
+    "answer": 0,
+    "explanation": "CDC advises alerting the lab because Francisella tularensis is fastidious and slow-growing, so cultures must be held for extended periods, and special safety procedures are needed. Isolation by culture is a confirmatory method, so serology is not the only option.",
+    "source": "micro-tularemia-lab"
+  },
+  {
+    "id": "micro-0037",
+    "topic": "micro",
+    "subtopic": "susceptibility_resistance",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Methicillin (oxacillin) resistance in Staphylococcus aureus is usually caused by which mechanism?",
+    "image": null,
+    "choices": [
+      "A beta-lactamase that hydrolyzes oxacillin",
+      "mecA gene encoding altered PBP2a",
+      "The vanA gene altering cell-wall precursors",
+      "Efflux pumps that expel beta-lactam drugs"
+    ],
+    "answer": 1,
+    "explanation": "CDC explains that mecA encodes PBP2a, a penicillin-binding protein with low affinity for beta-lactams, and that other mechanisms are rare. vanA mediates vancomycin, not oxacillin, resistance.",
+    "source": "micro-mrsa-lab"
+  },
+  {
+    "id": "micro-0038",
+    "topic": "micro",
+    "subtopic": "susceptibility_resistance",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Which antimicrobial disk is recommended for disk diffusion detection of methicillin resistance in Staphylococcus aureus?",
+    "image": null,
+    "choices": [
+      "Oxacillin",
+      "Penicillin",
+      "Cefoxitin",
+      "Vancomycin"
+    ],
+    "answer": 2,
+    "explanation": "CDC lists cefoxitin disk diffusion as a recommended method because cefoxitin induces mecA better and gives clearer endpoints. Oxacillin disk diffusion is not reliable for S. aureus.",
+    "source": "micro-mrsa-lab"
+  },
+  {
+    "id": "micro-0039",
+    "topic": "micro",
+    "subtopic": "susceptibility_resistance",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A Staphylococcus aureus isolate gives a vancomycin MIC of 16 µg/mL. What should the laboratory do first?",
+    "image": null,
+    "choices": [
+      "Confirm the result with a vancomycin disk diffusion test",
+      "Check purity, then repeat the ID and a validated MIC",
+      "Report the isolate as vancomycin-intermediate S. aureus",
+      "Report the MIC as resistant without any further testing"
+    ],
+    "answer": 1,
+    "explanation": "CDC notes that most suspected VRSA are mixed cultures of VRE and MRSA, so the result must be verified by restreaking for purity and repeating the identification and a validated MIC before referral to public health and CDC. Disk diffusion is not recommended for vancomycin testing of S. aureus.",
+    "source": "micro-vrsa-lab"
+  },
+  {
+    "id": "micro-0040",
+    "topic": "micro",
+    "subtopic": "susceptibility_resistance",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A group B Streptococcus isolate tests erythromycin resistant and clindamycin susceptible, and its D-zone test is positive. How should clindamycin be interpreted?",
+    "image": null,
+    "choices": [
+      "Inducible resistance; presume resistant",
+      "Clindamycin susceptible; report it as tested",
+      "The erythromycin result is a false resistance",
+      "Penicillin resistance is also likely present"
+    ],
+    "answer": 0,
+    "explanation": "CDC explains that a positive D-zone (double-disk) test shows inducible clindamycin resistance, and such isolates are presumed resistant. Reporting clindamycin as susceptible could lead to treatment failure.",
+    "source": "micro-gbs-mmwr"
+  },
+  {
+    "id": "micro-0041",
+    "topic": "micro",
+    "subtopic": "susceptibility_resistance",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Gonorrhea treatment fails, and the patient was diagnosed only by NAAT. What testing is needed?",
+    "image": null,
+    "choices": [
+      "A repeat NAAT to detect resistance genes",
+      "Serology for gonococcal antibodies",
+      "An endocervical Gram stain for diplococci",
+      "Culture with susceptibility testing"
+    ],
+    "answer": 3,
+    "explanation": "CDC recommends culture with antimicrobial susceptibility testing in suspected treatment failure, because NAATs cannot provide susceptibility results. Agar dilution is the reference method for N. gonorrhoeae.",
+    "source": "micro-gonorrhea-sti"
+  },
+  {
+    "id": "micro-0042",
+    "topic": "micro",
+    "subtopic": "mycobacteria",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "How many sputum specimens are recommended when evaluating a patient for pulmonary tuberculosis?",
+    "image": null,
+    "choices": [
+      "At least 3, 8–24 hours apart, one early morning",
+      "A single early-morning specimen on the first day",
+      "2 specimens collected 1 hour apart on the same day",
+      "5 specimens collected on 5 consecutive days"
+    ],
+    "answer": 0,
+    "explanation": "CDC recommends at least three consecutive sputum specimens collected 8–24 hours apart, with at least one collected early in the morning. A single specimen lacks sensitivity, especially since negative smears do not exclude TB.",
+    "source": "micro-tb-lab"
+  },
+  {
+    "id": "micro-0043",
+    "topic": "micro",
+    "subtopic": "mycobacteria",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "All three sputum AFB smears from a patient with suspected TB are negative. What should happen to the specimens?",
+    "image": null,
+    "choices": [
+      "Stop testing because TB is excluded",
+      "Culture them only if the NAAT is positive",
+      "Culture them only if the chest x-ray is abnormal",
+      "Culture all of them; smears do not rule out TB"
+    ],
+    "answer": 3,
+    "explanation": "CDC states that all specimens should be cultured regardless of the smear result, because culture is the gold standard and negative smears do not exclude TB disease. Culture does not depend on NAAT or imaging results.",
+    "source": "micro-tb-lab"
+  },
+  {
+    "id": "micro-0044",
+    "topic": "micro",
+    "subtopic": "mycobacteria",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which nontuberculous mycobacterium is a rapid grower?",
+    "image": null,
+    "choices": [
+      "Mycobacterium avium complex",
+      "Mycobacterium kansasii",
+      "Mycobacterium marinum",
+      "Mycobacterium fortuitum"
+    ],
+    "answer": 3,
+    "explanation": "CDC lists M. abscessus, M. chelonae, M. fortuitum and M. mucogenicum as rapid growers, which usually grow within 7 to 10 days. MAC, M. kansasii and M. marinum are slow growers that may take more than 14 days.",
+    "source": "micro-ntm"
+  },
+  {
+    "id": "micro-0045",
+    "topic": "micro",
+    "subtopic": "mycobacteria",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Under ATS/IDSA criteria for nontuberculous mycobacterial pulmonary disease, which sputum finding meets the microbiologic criterion?",
+    "image": null,
+    "choices": [
+      "At least 2 separate positive sputum cultures",
+      "One positive sputum culture with compatible symptoms",
+      "A positive AFB smear without any culture result",
+      "A positive interferon-gamma release assay result"
+    ],
+    "answer": 0,
+    "explanation": "The microbiologic criterion requires at least 2 separate positive sputum cultures, or 1 positive bronchial wash/lavage culture, or biopsy findings plus a positive culture. A single sputum isolate may reflect environmental contamination.",
+    "source": "micro-ntm"
+  },
+  {
+    "id": "micro-0046",
+    "topic": "micro",
+    "subtopic": "mycology",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which rapid microscopic preparation is used on cerebrospinal fluid to visualize Cryptococcus?",
+    "image": null,
+    "choices": [
+      "India ink",
+      "Modified acid-fast stain",
+      "Wright stain",
+      "Trichrome stain"
+    ],
+    "answer": 0,
+    "explanation": "CDC notes that India ink microscopy, usually performed on CSF, gives a quick look at Cryptococcus cells. Cryptococcal antigen testing and culture (the gold standard) complement it.",
+    "source": "micro-cryptococcus"
+  },
+  {
+    "id": "micro-0047",
+    "topic": "micro",
+    "subtopic": "mycology",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A mold is growing from the sputum of a patient from Arizona, and Coccidioides is suspected. Where should cultures be processed and manipulated?",
+    "image": null,
+    "choices": [
+      "On the open bench in a BSL-2 laboratory",
+      "On a horizontal laminar-flow clean bench",
+      "In a chemical fume hood",
+      "In a biosafety level 3 laboratory"
+    ],
+    "answer": 3,
+    "explanation": "CDC states that Coccidioides cultures should be processed and manipulated in a biosafety level 3 laboratory, because the mold form releases infectious arthroconidia. Clean benches and fume hoods do not protect the worker from infectious aerosols.",
+    "source": "micro-valley-fever"
+  },
+  {
+    "id": "micro-0048",
+    "topic": "micro",
+    "subtopic": "mycology",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A yeast from a urine culture is germ tube negative, grows well at 42 °C, and is identified by VITEK 2 as Candida haemulonii. What is the best next step?",
+    "image": null,
+    "choices": [
+      "Report the isolate as Candida haemulonii",
+      "Confirm it by MALDI-TOF with an updated library",
+      "Perform an India ink preparation on the colony",
+      "Report it as Candida albicans because it is a yeast"
+    ],
+    "answer": 1,
+    "explanation": "CDC warns that VITEK 2 can misidentify Candida auris as C. haemulonii; C. auris forms no germ tubes and grows well at 40–42 °C. MALDI-TOF with an updated library or sequencing gives an accurate identification, and suspected cases are reported to public health immediately.",
+    "source": "micro-candida-auris-id"
+  },
+  {
+    "id": "micro-0049",
+    "topic": "micro",
+    "subtopic": "mycology",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which test is the most widely used and most sensitive method for diagnosing histoplasmosis?",
+    "image": null,
+    "choices": [
+      "Urine or serum Histoplasma antigen",
+      "Fungal culture of a sputum specimen",
+      "Complement fixation antibody testing",
+      "Microscopy of tissue for budding yeast"
+    ],
+    "answer": 0,
+    "explanation": "CDC identifies Histoplasma antigen detection in urine or serum as the most widely used and most sensitive method. Culture can take up to 6 weeks, and microscopy has low sensitivity.",
+    "source": "micro-histoplasmosis"
+  },
+  {
+    "id": "micro-0050",
+    "topic": "micro",
+    "subtopic": "parasitology",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "In malaria diagnosis, what is the main purpose of the thin blood smear?",
+    "image": null,
+    "choices": [
+      "Screening for low-level parasitemia",
+      "Identifying the Plasmodium species",
+      "Detecting microfilariae at low power",
+      "Counting white blood cells"
+    ],
+    "answer": 1,
+    "explanation": "Most often the thin smear is used for species identification of parasites found on the thick smear. The thick smear concentrates parasites and is used for screening and detecting mixed infections.",
+    "source": "micro-malaria-smears"
+  },
+  {
+    "id": "micro-0051",
+    "topic": "micro",
+    "subtopic": "parasitology",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "On a thin blood smear, 30 RBCs infected with asexual malaria parasites are counted among 2,000 RBCs. What is the percent parasitemia?",
+    "image": null,
+    "choices": [
+      "0.15%",
+      "3.0%",
+      "15%",
+      "1.5%"
+    ],
+    "answer": 3,
+    "explanation": "% parasitemia = (parasitized RBCs ÷ total RBCs counted) × 100 = (30 ÷ 2,000) × 100 = 1.5%. Answering 0.15% comes from a decimal-place error.",
+    "source": "micro-malaria-smears"
+  },
+  {
+    "id": "micro-0052",
+    "topic": "micro",
+    "subtopic": "parasitology",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "When should a cellulose-tape preparation for pinworm (Enterobius vermicularis) eggs be collected?",
+    "image": null,
+    "choices": [
+      "Morning, before defecation and washing",
+      "At bedtime, immediately after bathing",
+      "Two hours after a dose of a laxative",
+      "Any time of day; timing does not matter"
+    ],
+    "answer": 0,
+    "explanation": "CDC recommends pressing transparent tape on the perianal skin in the morning, before defecation and washing, to improve sensitivity. Bathing first removes the eggs deposited overnight.",
+    "source": "micro-enterobiasis"
+  },
+  {
+    "id": "micro-0053",
+    "topic": "micro",
+    "subtopic": "parasitology",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which stain is used to confirm Cryptosporidium oocysts in stool?",
+    "image": null,
+    "choices": [
+      "Modified acid-fast stain",
+      "Wheatley trichrome stain",
+      "Gram stain with safranin",
+      "India ink preparation"
+    ],
+    "answer": 0,
+    "explanation": "With the modified acid-fast stain, Cryptosporidium oocysts (about 4–5 µm) stand out bright red against a blue-green background. Oocysts stay unstained with trichrome, which is inadequate for a definitive diagnosis.",
+    "source": "micro-cryptosporidiosis"
+  },
+  {
+    "id": "micro-0054",
+    "topic": "micro",
+    "subtopic": "virology",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "During peak influenza season, a hospitalized patient with influenza-like illness has a negative rapid influenza diagnostic test (RIDT). What is the best interpretation?",
+    "image": null,
+    "choices": [
+      "Influenza is ruled out by the negative test",
+      "Repeat the same antigen test the next day",
+      "Possible false negative; confirm by RT-PCR",
+      "The patient most likely has influenza B instead"
+    ],
+    "answer": 2,
+    "explanation": "RIDTs have limited sensitivity, and false negatives are most likely when influenza activity is high, so CDC advises confirming with RT-PCR when influenza is still suspected. A negative RIDT does not exclude influenza.",
+    "source": "micro-flu-ridt"
+  },
+  {
+    "id": "micro-0055",
+    "topic": "micro",
+    "subtopic": "virology",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "When is a positive rapid influenza diagnostic test most likely to be a false positive?",
+    "image": null,
+    "choices": [
+      "At the peak of influenza season",
+      "When the specimen is collected within 3 days of onset",
+      "When a digital analyzer reads the test",
+      "When influenza prevalence in the community is low"
+    ],
+    "answer": 3,
+    "explanation": "Predictive value depends on prevalence: positive predictive value is lowest, and false positives most likely, when influenza activity is low, such as at the start and end of the season. During peak season false negatives are the main concern.",
+    "source": "micro-flu-ridt"
+  },
+  {
+    "id": "micro-0056",
+    "topic": "micro",
+    "subtopic": "virology",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Fluid is swabbed from an unhealed genital vesicle. Which test is faster and more accurate than viral culture for herpes simplex virus?",
+    "image": null,
+    "choices": [
+      "PCR for HSV DNA",
+      "HSV-2 IgG serology",
+      "Gram stain",
+      "Rapid plasma reagin"
+    ],
+    "answer": 0,
+    "explanation": "PCR detects HSV genetic material in lesion fluid and is faster and more accurate than viral culture. Serology detects antibodies, not virus in the lesion.",
+    "source": "micro-hsv-test"
+  },
+  {
+    "id": "micro-0057",
+    "topic": "micro",
+    "subtopic": "postanalytic",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "A blood culture bottle flags positive, and the Gram stain shows gram-positive cocci in clusters. How should this result be handled?",
+    "image": null,
+    "choices": [
+      "Hold it until the final identification is available",
+      "Call it immediately as a critical value",
+      "Post it in the LIS without a phone call to anyone",
+      "Report it with the next morning's routine results"
+    ],
+    "answer": 1,
+    "explanation": "A positive Gram stain from a blood culture is a critical (panic) value: it indicates an imminently life-threatening condition and must be called to the ordering provider immediately. Waiting for the final identification delays therapy.",
+    "source": "micro-blood-culture-contamination"
+  },
+  {
+    "id": "micro-0058",
+    "topic": "micro",
+    "subtopic": "postanalytic",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A culture report was issued in error and a corrected report was sent. Under CLIA, for how long must the laboratory keep or be able to retrieve copies of the original and corrected reports?",
+    "image": null,
+    "choices": [
+      "At least 6 months",
+      "At least 10 years",
+      "At least 2 years",
+      "Until the patient is discharged"
+    ],
+    "answer": 2,
+    "explanation": "CLIA (42 CFR 493.1105) requires laboratories to retain or be able to retrieve original test reports, including final, preliminary and corrected reports, for at least 2 years after reporting. The 10-year period applies to pathology reports.",
+    "source": "micro-report-retention"
+  },
+  {
+    "id": "micro-0059",
+    "topic": "micro",
+    "subtopic": "postanalytic",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A stool enrichment broth is positive for Shiga toxin, but no O157 STEC colonies are recovered. What should the laboratory do?",
+    "image": null,
+    "choices": [
+      "Report the stool as negative because no O157 grew",
+      "Report it and send the broth to a public health lab",
+      "Repeat the toxin EIA, then discard the enrichment broth",
+      "Withhold the result until a new stool can be cultured"
+    ],
+    "answer": 1,
+    "explanation": "CDC directs labs to report Shiga toxin–positive results immediately to the clinician and public health officials, and to forward toxin-positive specimens or broths to a public health laboratory to isolate and characterize non-O157 STEC. The absence of O157 does not make the result negative.",
+    "source": "micro-stec-mmwr"
+  },
+  {
+    "id": "micro-0060",
+    "topic": "micro",
+    "subtopic": "postanalytic",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A clinical laboratory identifies a nationally notifiable disease. Under U.S. case surveillance, who must the laboratory notify?",
+    "image": null,
+    "choices": [
+      "CDC directly, in place of the health department",
+      "The local or state public health department",
+      "The patient's insurance carrier",
+      "The FDA"
+    ],
+    "answer": 1,
+    "explanation": "State and territorial laws specify reportable conditions, and laboratories must notify the public health department; states then voluntarily share case data with CDC. Reporting to CDC does not replace reporting to the health department.",
+    "source": "micro-nndss-case-surveillance"
+  }
+]

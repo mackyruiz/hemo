@@ -1,0 +1,542 @@
+[
+	{
+		"id": "ua-0001",
+		"topic": "ua",
+		"subtopic": "physical_exam",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "What is the reference range for the specific gravity of a random urine specimen from an adult with normal kidney function?",
+		"image": null,
+		"choices": [
+			"1.000–1.004",
+			"1.010–1.012",
+			"1.005–1.030",
+			"1.040–1.060"
+		],
+		"answer": 2,
+		"explanation": "Normal urine specific gravity ranges from about 1.005 to 1.030, depending on hydration. Persistently low values point to dilute urine, as in diabetes insipidus or excess fluid intake.",
+		"source": "ua-urine-specific-gravity"
+	},
+	{
+		"id": "ua-0002",
+		"topic": "ua",
+		"subtopic": "physical_exam",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A urine specimen is bright orange. The patient takes phenazopyridine for dysuria, and the reagent strip shows positive protein and bilirubin. How should the strip results be handled?",
+		"image": null,
+		"choices": [
+			"Flag likely drug interference; confirm by another method",
+			"Report the strip results as read, since drugs do not affect reagent pads",
+			"Dilute the urine 1:10 and retest with a new strip",
+			"Reject the specimen as hemolyzed"
+		],
+		"answer": 0,
+		"explanation": "Phenazopyridine pigments the urine and can cause false-positive protein and bilirubin pad reactions, so the results need an interference comment or confirmation by a method that does not depend on color. Diluting the specimen does not remove the drug's effect.",
+		"source": "ua-urine-preanalytical"
+	},
+	{
+		"id": "ua-0003",
+		"topic": "ua",
+		"subtopic": "physical_exam",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A urine that was clear when voided turns cloudy with abundant amorphous crystals after refrigeration. The physician asks for crystal identification. What should the laboratory do?",
+		"image": null,
+		"choices": [
+			"Report the amorphous material as pathologic crystalluria",
+			"Examine a separate aliquot that was never refrigerated",
+			"Freeze the specimen and examine it the next day",
+			"Add boric acid and re-examine immediately"
+		],
+		"answer": 1,
+		"explanation": "Refrigeration makes phosphates and urates precipitate, so a separate non-refrigerated aliquot is needed for accurate crystal identification. Reporting the cold-induced precipitate as pathologic crystalluria would report an artifact.",
+		"source": "ua-urine-microscopy"
+	},
+	{
+		"id": "ua-0004",
+		"topic": "ua",
+		"subtopic": "physical_exam",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A well-hydrated outpatient's urine has a refractometer specific gravity of 1.050 with negative glucose and protein. The patient had a CT scan with IV contrast that morning. What best explains the result?",
+		"image": null,
+		"choices": [
+			"Syndrome of inappropriate ADH secretion",
+			"Severe dehydration",
+			"Diabetes insipidus",
+			"Excreted radiographic contrast medium"
+		],
+		"answer": 3,
+		"explanation": "Intravenous contrast dye is excreted in the urine and raises the measured specific gravity; recent contrast is a recognized interference with this test. Dehydration also raises specific gravity but does not fit a well-hydrated patient, and diabetes insipidus lowers it.",
+		"source": "ua-urine-specific-gravity"
+	},
+	{
+		"id": "ua-0005",
+		"topic": "ua",
+		"subtopic": "chemical_strip",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A patient in diabetic ketoacidosis has only a small ketone reaction on the urine reagent strip. Which limitation of the ketone pad best explains this?",
+		"image": null,
+		"choices": [
+			"It does not detect β-hydroxybutyrate",
+			"It reacts only with acetone, not acetoacetate",
+			"Glucose inhibits the ketone reaction",
+			"It requires a urine pH above 8"
+		],
+		"answer": 0,
+		"explanation": "The strip ketone test does not detect β-hydroxybutyrate, the predominant ketone in DKA, so it can underestimate ketosis. The pad reacts mainly with acetoacetic acid, not only with acetone.",
+		"source": "ua-urine-preanalytical"
+	},
+	{
+		"id": "ua-0006",
+		"topic": "ua",
+		"subtopic": "chemical_strip",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A patient with a plasma glucose of 310 mg/dL has a negative urine glucose oxidase strip reaction. The patient takes several grams of vitamin C daily. What is the best action?",
+		"image": null,
+		"choices": [
+			"Report urine glucose as negative",
+			"Acidify the urine to pH 5 and immediately repeat the same strip test",
+			"Repeat the test at least one day after the last vitamin C dose",
+			"Report urine glucose as positive based on the plasma value"
+		],
+		"answer": 2,
+		"explanation": "High urinary ascorbate lowers glucose oxidase sensitivity and causes false-negative results, so the test should be repeated at least one day after the last vitamin C intake. Reporting a negative result ignores both the interference and a plasma glucose well above the renal threshold.",
+		"source": "ua-urine-preanalytical"
+	},
+	{
+		"id": "ua-0007",
+		"topic": "ua",
+		"subtopic": "chemical_strip",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A urine left at room temperature overnight has a pH of 9.0 and a 1+ protein reaction on the reagent strip. The sediment is unremarkable. What is the most likely explanation for the protein result?",
+		"image": null,
+		"choices": [
+			"Bence Jones protein in the specimen",
+			"A false positive from highly buffered alkaline urine",
+			"Glomerular proteinuria from an early nephrotic syndrome",
+			"Ascorbic acid interference"
+		],
+		"answer": 1,
+		"explanation": "Highly buffered alkaline urine (pH 9), as in stale specimens or with alkaline medication, can give a false-positive protein pad reaction. Ascorbic acid causes false-negative strip reactions, not false positives.",
+		"source": "ua-urine-preanalytical"
+	},
+	{
+		"id": "ua-0008",
+		"topic": "ua",
+		"subtopic": "chemical_strip",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A patient with multiple myeloma excretes large amounts of free light chains, yet the urine reagent strip protein is negative. Why?",
+		"image": null,
+		"choices": [
+			"Light chains are too large to pass the glomerular filtration barrier",
+			"The urine pH is too low for the reaction",
+			"Myeloma urine contains ascorbic acid",
+			"The pad detects mainly albumin, not light chains"
+		],
+		"answer": 3,
+		"explanation": "The strip protein pad is most sensitive to albumin, and false negatives occur when the proteinuria consists of globulins, immunoglobulins or light chains. Free light chains are small enough to be filtered, which is why they reach the urine in myeloma.",
+		"source": "ua-urine-preanalytical"
+	},
+	{
+		"id": "ua-0009",
+		"topic": "ua",
+		"subtopic": "chemical_strip",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A symptomatic patient's urine has positive leukocyte esterase and negative nitrite, and the culture grows more than 100,000 CFU/mL of Enterococcus faecalis. How is the negative nitrite best explained?",
+		"image": null,
+		"choices": [
+			"The leukocyte esterase reaction consumed the nitrite",
+			"Enterococci do not produce nitrite",
+			"Nitrite is detected only in alkaline urine",
+			"The urine was exposed to air for too long"
+		],
+		"answer": 1,
+		"explanation": "Some uropathogens, including enterococci, do not produce nitrite, so a negative nitrite does not rule out urinary tract infection. Air exposure causes false-positive, not false-negative, nitrite results.",
+		"source": "ua-urinalysis-stewardship"
+	},
+	{
+		"id": "ua-0010",
+		"topic": "ua",
+		"subtopic": "microscopic",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Hyaline casts are formed mainly from which substance?",
+		"image": null,
+		"choices": [
+			"Tamm-Horsfall protein (uromodulin)",
+			"Albumin filtered through a damaged glomerulus",
+			"Fibrin",
+			"Hemoglobin"
+		],
+		"answer": 0,
+		"explanation": "Hyaline casts are a colorless fibrillary matrix of Tamm-Horsfall protein (uromodulin) and increase with strenuous exercise, dehydration and fever. Albumin is not the cast matrix.",
+		"source": "ua-urine-microscopy"
+	},
+	{
+		"id": "ua-0011",
+		"topic": "ua",
+		"subtopic": "microscopic",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Colorless hexagonal plates, some layered, are seen in an acidic urine sediment from a young adult with recurrent kidney stones. Which crystal is this, and what does it indicate?",
+		"image": null,
+		"choices": [
+			"Uric acid; a normal finding",
+			"Calcium oxalate; ethylene glycol ingestion",
+			"Cystine; cystinuria",
+			"Triple phosphate; urea-splitting infection"
+		],
+		"answer": 2,
+		"explanation": "Cystine crystals are hexagonal, often layered plates and are a pathological finding of cystinuria, an inherited defect of the dibasic amino acid transporter. Uric acid crystals are pleomorphic, rhombic or diamond-shaped instead.",
+		"source": "ua-urine-microscopy"
+	},
+	{
+		"id": "ua-0012",
+		"topic": "ua",
+		"subtopic": "microscopic",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Hyaline casts are easily missed under bright-field microscopy. Which technique best improves their visibility in unstained sediment?",
+		"image": null,
+		"choices": [
+			"Polarized light microscopy",
+			"Opening the condenser to full brightness",
+			"Oil-immersion examination of a dried smear",
+			"Phase-contrast microscopy"
+		],
+		"answer": 3,
+		"explanation": "Phase-contrast microscopy improves visibility of transparent structures with a low refractive index, such as hyaline casts. Polarized light is used to identify birefringent crystals and lipids, not hyaline casts.",
+		"source": "ua-urine-microscopy"
+	},
+	{
+		"id": "ua-0013",
+		"topic": "ua",
+		"subtopic": "microscopic",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "A urine sediment from a woman with suspected UTI shows more than 5 squamous epithelial cells per high-power field. What do these cells most likely indicate?",
+		"image": null,
+		"choices": [
+			"Renal tubular injury from ischemia or nephrotoxins",
+			"A poorly collected, contaminated specimen",
+			"Bladder carcinoma",
+			"Acute pyelonephritis"
+		],
+		"answer": 1,
+		"explanation": "Large numbers of squamous epithelial cells (>5/hpf) suggest a poorly collected sample, so a properly collected clean-catch specimen should be requested. Renal tubular epithelial cells, not squamous cells, indicate tubular injury.",
+		"source": "ua-urinalysis-stewardship"
+	},
+	{
+		"id": "ua-0014",
+		"topic": "ua",
+		"subtopic": "microscopic",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "Under polarized light, round refractile droplets in a urine sediment show symmetrical Maltese crosses, while other similar particles show crosses with asymmetrical arms. What are the droplets with symmetrical crosses?",
+		"image": null,
+		"choices": [
+			"Cholesterol or cholesterol ester droplets",
+			"Starch granules",
+			"Triglyceride droplets",
+			"Lysed red blood cells (ghost cells) in dilute urine"
+		],
+		"answer": 0,
+		"explanation": "Cholesterol and its esters produce symmetrical Maltese crosses under polarized light, whereas starch contaminants give crosses with asymmetrical arms. Triglycerides do not form Maltese crosses and are identified with fat stains such as Sudan or oil red O.",
+		"source": "ua-urine-microscopy"
+	},
+	{
+		"id": "ua-0015",
+		"topic": "ua",
+		"subtopic": "renal_physiology",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Glucose appears in the urine when plasma glucose exceeds the renal tubular reabsorption threshold. What is the commonly accepted average threshold?",
+		"image": null,
+		"choices": [
+			"About 70 mg/dL",
+			"About 120 mg/dL",
+			"About 180 mg/dL",
+			"About 400 mg/dL"
+		],
+		"answer": 2,
+		"explanation": "Proximal tubular SGLT2 and SGLT1 transporters reabsorb filtered glucose up to an average threshold of about 180 mg/dL; above it, glucose spills into the urine. At 120 mg/dL the transporters are not yet saturated.",
+		"source": "ua-renal-tubular-function"
+	},
+	{
+		"id": "ua-0016",
+		"topic": "ua",
+		"subtopic": "renal_physiology",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A patient with advanced chronic kidney disease produces urine whose osmolality stays near that of plasma regardless of fluid intake. What is this finding called?",
+		"image": null,
+		"choices": [
+			"Hypersthenuria",
+			"Nocturia",
+			"Oliguria",
+			"Isosthenuria"
+		],
+		"answer": 3,
+		"explanation": "Isosthenuria is urine fixed at the osmolality of plasma (specific gravity about 1.010) because damaged tubules can no longer concentrate or dilute the filtrate. Oliguria refers to reduced urine volume, not fixed concentration.",
+		"source": "ua-renal-tubular-function"
+	},
+	{
+		"id": "ua-0017",
+		"topic": "ua",
+		"subtopic": "renal_physiology",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "Which specimens are required for a measured creatinine clearance test?",
+		"image": null,
+		"choices": [
+			"A 24-hour urine and a blood creatinine",
+			"A random urine creatinine only",
+			"A first-morning urine and a fasting glucose",
+			"Two blood creatinines drawn 24 hours apart"
+		],
+		"answer": 0,
+		"explanation": "Creatinine clearance compares the creatinine in a 24-hour urine collection with the blood creatinine to estimate the glomerular filtration rate. Blood or random urine alone cannot give the excretion rate.",
+		"source": "ua-creatinine-clearance"
+	},
+	{
+		"id": "ua-0018",
+		"topic": "ua",
+		"subtopic": "renal_disease",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A hospitalized patient with acute kidney injury after septic shock has many renal tubular epithelial cells and dense, brown granular casts in the urine sediment. Which condition is most likely?",
+		"image": null,
+		"choices": [
+			"Prerenal azotemia",
+			"Acute tubular necrosis",
+			"Nephrotic syndrome",
+			"Acute cystitis"
+		],
+		"answer": 1,
+		"explanation": "Muddy brown granular casts with renal tubular epithelial cells reflect shed tubular epithelium and are highly specific for acute tubular necrosis. Prerenal acute kidney injury usually shows a bland sediment or only hyaline casts.",
+		"source": "ua-urine-microscopy"
+	},
+	{
+		"id": "ua-0019",
+		"topic": "ua",
+		"subtopic": "renal_disease",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Two weeks after strep throat, a 7-year-old has smoky brown urine, facial edema and hypertension. The sediment shows RBC casts. What is the most likely diagnosis?",
+		"image": null,
+		"choices": [
+			"Acute cystitis",
+			"Nephrotic syndrome from minimal change disease",
+			"Post-streptococcal glomerulonephritis",
+			"Kidney stones"
+		],
+		"answer": 2,
+		"explanation": "Post-streptococcal glomerulonephritis is a common cause of blood in the urine in children, and RBC casts show that the bleeding is glomerular. Nephrotic syndrome presents with heavy proteinuria and lipiduria rather than RBC casts.",
+		"source": "ua-hematuria"
+	},
+	{
+		"id": "ua-0020",
+		"topic": "ua",
+		"subtopic": "renal_disease",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Which combination of laboratory findings best fits nephrotic syndrome?",
+		"image": null,
+		"choices": [
+			"Hematuria with RBC casts and dysmorphic RBCs",
+			"Sterile pyuria with WBC casts after starting a new drug",
+			"Muddy brown casts and renal tubular cells",
+			"Proteinuria ≥3.5 g/day, low albumin, fatty casts"
+		],
+		"answer": 3,
+		"explanation": "Nephrotic syndrome is defined by proteinuria ≥3.5 g/day, serum albumin <2.5 g/dL and edema, with lipiduria seen as oval fat bodies and fatty casts. RBC casts with dysmorphic RBCs indicate nephritic syndrome instead.",
+		"source": "ua-urine-microscopy"
+	},
+	{
+		"id": "ua-0021",
+		"topic": "ua",
+		"subtopic": "renal_disease",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Acute kidney injury develops 10 days after a patient starts an antibiotic; the sediment shows WBCs and WBC casts, and the urine culture is negative. The clinician requests a Hansel stain for urine eosinophils. What is the most appropriate response?",
+		"image": null,
+		"choices": [
+			"Explain that urine eosinophils are not reliable markers of AIN",
+			"Perform the stain, because eosinophiluria confirms the AIN diagnosis",
+			"Perform the stain; it is required to diagnose AIN",
+			"Count eosinophils on a Gram stain instead"
+		],
+		"answer": 0,
+		"explanation": "Staining for urine eosinophils is no longer recommended because eosinophiluria is neither sensitive nor specific for acute interstitial nephritis; it also occurs in glomerulonephritis, pyelonephritis and prostatitis. Sterile pyuria and WBC casts after a new drug are the useful sediment clues.",
+		"source": "ua-urine-microscopy"
+	},
+	{
+		"id": "ua-0022",
+		"topic": "ua",
+		"subtopic": "csf",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "CSF is collected in three sequential tubes. RBC counts are 8,000/µL in tube 1, 2,100/µL in tube 2 and 150/µL in tube 3, and the centrifuged supernatant is clear and colorless. What is the most likely interpretation?",
+		"image": null,
+		"choices": [
+			"Subarachnoid hemorrhage",
+			"Traumatic tap",
+			"Bacterial meningitis",
+			"Guillain-Barré syndrome"
+		],
+		"answer": 1,
+		"explanation": "A falling RBC count from the first to the last tube with no xanthochromia indicates blood introduced by the puncture (traumatic tap). Subarachnoid hemorrhage produces a xanthochromic supernatant from the pigments of lysed red cells.",
+		"source": "ua-csf-analysis"
+	},
+	{
+		"id": "ua-0023",
+		"topic": "ua",
+		"subtopic": "csf",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "A febrile patient with neck stiffness has these CSF results: WBC 1,500/µL with 90% neutrophils, protein 210 mg/dL and glucose 25 mg/dL; plasma glucose is 100 mg/dL. Which interpretation fits best?",
+		"image": null,
+		"choices": [
+			"Viral meningitis",
+			"Multiple sclerosis",
+			"Bacterial meningitis",
+			"Normal CSF"
+		],
+		"answer": 2,
+		"explanation": "CSF glucose is normally about two-thirds of plasma glucose (100 × 2/3 ≈ 67 mg/dL expected), so 25 mg/dL is markedly low; with neutrophilic pleocytosis and high protein, this indicates bacterial meningitis. Viral meningitis shows lymphocytes with normal or near-normal glucose.",
+		"source": "ua-csf-analysis"
+	},
+	{
+		"id": "ua-0024",
+		"topic": "ua",
+		"subtopic": "csf",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "How should routine CSF specimens be transported to the laboratory?",
+		"image": null,
+		"choices": [
+			"Packed on ice to slow cell lysis and bacterial growth",
+			"Frozen at −20 °C",
+			"Refrigerated at 2–8 °C",
+			"At room temperature, delivered promptly"
+		],
+		"answer": 3,
+		"explanation": "CSF is sent to the laboratory promptly in a biohazard bag without refrigeration. Chilling can kill fastidious pathogens such as Neisseria meningitidis that the culture needs to recover.",
+		"source": "ua-csf-analysis"
+	},
+	{
+		"id": "ua-0025",
+		"topic": "ua",
+		"subtopic": "serous_synovial",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Pleural fluid protein is 3.6 g/dL (serum 6.0 g/dL) and pleural fluid LD is 150 U/L (serum 300 U/L; serum upper reference limit 250 U/L). How is the effusion classified by Light's criteria?",
+		"image": null,
+		"choices": [
+			"Exudate, because the fluid/serum protein ratio exceeds 0.5",
+			"Transudate, because the LD ratio is below 0.6",
+			"Transudate, because all three of Light's criteria must be met to call an exudate",
+			"Unclassifiable without a cell count"
+		],
+		"answer": 0,
+		"explanation": "Protein ratio = 3.6 / 6.0 = 0.60 (>0.5), so the effusion is an exudate even though the LD ratio (150 / 300 = 0.50) and fluid LD (150 < 2/3 × 250 ≈ 167 U/L) are not exudative. Light's criteria require only one criterion to classify an exudate.",
+		"source": "ua-serous-fluids"
+	},
+	{
+		"id": "ua-0026",
+		"topic": "ua",
+		"subtopic": "serous_synovial",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Synovial fluid from an acutely swollen first metatarsophalangeal joint shows intracellular needle-shaped crystals that are strongly negatively birefringent and yellow when aligned with the slow ray of the red compensator. What are they?",
+		"image": null,
+		"choices": [
+			"Calcium pyrophosphate dihydrate",
+			"Monosodium urate",
+			"Cholesterol",
+			"Hydroxyapatite"
+		],
+		"answer": 1,
+		"explanation": "Monosodium urate crystals of gout are fine needles that are strongly negatively birefringent and appear yellow when aligned with the slow vibration. Calcium pyrophosphate crystals are rhomboid, weakly positively birefringent and appear blue in that orientation.",
+		"source": "ua-synovial-fluid"
+	},
+	{
+		"id": "ua-0027",
+		"topic": "ua",
+		"subtopic": "serous_synovial",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Synovial fluid is collected for a cell count and crystal analysis. Which collection tube is preferred?",
+		"image": null,
+		"choices": [
+			"Lithium heparin (green top)",
+			"Sodium fluoride/potassium oxalate (gray top)",
+			"Liquid EDTA (lavender top)",
+			"Lyophilized (powdered) EDTA"
+		],
+		"answer": 2,
+		"explanation": "Liquid EDTA is preferred for synovial cell counts and crystal analysis. Oxalate, lithium heparin and lyophilized EDTA can form crystal-like particles that may be mistaken for monosodium urate or calcium oxalate crystals.",
+		"source": "ua-synovial-fluid"
+	},
+	{
+		"id": "ua-0028",
+		"topic": "ua",
+		"subtopic": "other_fluids",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "A patient will collect a semen sample for a fertility evaluation. Which instruction is correct?",
+		"image": null,
+		"choices": [
+			"Abstain 2–5 days; keep it warm and deliver within 30 minutes",
+			"Abstain at least 10 days; refrigerate the sample",
+			"Use an ordinary latex condom and deliver the sample within 24 hours",
+			"Freeze the sample and deliver it the next morning"
+		],
+		"answer": 0,
+		"explanation": "Ejaculation should be avoided for 2 to 3 days, and no longer than 5 days, before the test; the sample is kept at body temperature and delivered within 30 minutes. Longer abstinence lowers semen quality, and chilling or delay invalidates motility.",
+		"source": "ua-semen-analysis"
+	},
+	{
+		"id": "ua-0029",
+		"topic": "ua",
+		"subtopic": "other_fluids",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Amniotic fluid obtained at 16 weeks' gestation has a markedly elevated alpha-fetoprotein (AFP). Which fetal condition does this most strongly suggest?",
+		"image": null,
+		"choices": [
+			"Fetal lung immaturity",
+			"Open neural tube defect such as spina bifida",
+			"Hemolytic disease of the fetus and newborn from anti-D",
+			"Maternal diabetes mellitus"
+		],
+		"answer": 1,
+		"explanation": "AFP is made by the fetal liver, and an increased amniotic fluid level points to a defect of the spine or brain such as spina bifida or anencephaly. Fetal lung maturity is assessed with phospholipid tests, not AFP.",
+		"source": "ua-amniocentesis"
+	},
+	{
+		"id": "ua-0030",
+		"topic": "ua",
+		"subtopic": "other_fluids",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "Before collecting stool for a guaiac fecal occult blood test, which patient instruction helps prevent a false-positive result?",
+		"image": null,
+		"choices": [
+			"Take vitamin C supplements daily",
+			"Eat a high-fat diet for 3 days",
+			"Collect stool from the toilet bowl water, mixed with urine",
+			"Avoid red meat for several days before testing"
+		],
+		"answer": 3,
+		"explanation": "Traces of blood from red meat such as beef, lamb and liver can show up in the guaiac test and give a false positive. Vitamin C above 250 mg a day should also be avoided, but because it causes false negatives, not to prevent false positives.",
+		"source": "ua-fecal-occult-blood"
+	}
+]

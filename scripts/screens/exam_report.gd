@@ -1,10 +1,5 @@
 extends Control
 
-const TOPICS := {
-	"phys": "Physiology", "rbc": "RBC disorders", "wbc": "WBC disorders",
-	"plt": "Platelet disorders", "lab": "Lab testing & morphology",
-	"hemo": "Hemostasis", "qc": "QC & lab operations",
-}
 var _results: Dictionary = {}
 
 
@@ -17,7 +12,7 @@ func _ready() -> void:
 	add_child(page[0])
 	var content: VBoxContainer = page[1]
 	content.add_child(UI.label("Overall: %.0f%%" % (float(_results.get("score", 0.0)) * 100.0), "TitleLabel"))
-	content.add_child(UI.label("%d / %d correct" % [int(_results.get("correct", 0)), int(_results.get("total", 50))]))
+	content.add_child(UI.label("%d / %d correct" % [int(_results.get("correct", 0)), int(_results.get("total", 100))]))
 	var seconds: int = int(round(float(_results.get("duration_s", 0.0))))
 	content.add_child(UI.label("Time used: %02d:%02d" % [seconds / 60, seconds % 60]))
 	content.add_child(UI.label("Practice benchmark only — not an official pass predictor.", "MutedLabel"))
@@ -28,12 +23,12 @@ func _ready() -> void:
 	for heading in ["Topic", "Correct", "%"]:
 		table.add_child(UI.label(heading, "MutedLabel"))
 	var by_topic: Dictionary = _results.get("by_topic", {})
-	for topic in TOPICS:
+	for topic in Topics.NAMES:
 		var counts: Dictionary = by_topic.get(topic, {})
 		var correct: int = int(counts.get("correct", 0))
 		var total: int = int(counts.get("total", 0))
 		var percent: float = float(correct) * 100.0 / float(total) if total > 0 else 0.0
-		table.add_child(UI.label(TOPICS[topic]))
+		table.add_child(UI.label(Topics.NAMES[topic]))
 		table.add_child(UI.label("%d/%d" % [correct, total]))
 		table.add_child(UI.label("%.0f%%" % percent))
 	content.add_child(table)

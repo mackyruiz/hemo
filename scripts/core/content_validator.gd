@@ -10,8 +10,14 @@ const SUBTOPICS := {
 	"lab": ["manual_counts", "automated_counts", "reticulocytes", "spurious_results", "differential_morphology", "hemoglobin", "hematocrit", "indices", "hemolytic_indicators", "special_stains", "esr", "g6pd_heinz", "flow_cytometry", "molecular_cytogenetic", "body_fluid_counts"],
 	"hemo": ["coag_pathways", "fibrinolysis", "vascular_platelet_physiology", "factor_deficiency", "fibrinolytic_disorders", "hypercoagulable", "dic", "pt_inr", "aptt", "fibrinogen_ddimer_tt", "mixing_studies", "platelet_function", "thrombophilia_testing", "anti_xa", "specimen_collection"],
 	"qc": ["quality_control", "safety", "lab_math", "instrumentation"],
+	"bb": ["donors_processing", "components_storage", "abo_rh", "other_blood_groups", "blood_group_immunology", "antibody_identification", "dat_hemolytic", "compatibility_testing", "transfusion_reactions", "component_therapy"],
+	"ua": ["physical_exam", "chemical_strip", "microscopic", "renal_physiology", "renal_disease", "csf", "serous_synovial", "other_fluids"],
+	"chem": ["carbohydrates", "lipids", "heme_derivatives", "enzymes", "proteins", "nitrogen_compounds", "markers", "acid_base", "electrolytes", "endocrinology", "tdm_toxicology", "vitamins_nutrition"],
+	"immuno": ["immune_physiology", "immunoglobulins_complement", "autoimmunity", "hypersensitivity", "immunodeficiency_proliferative", "transplant_hla", "viral_serology", "syphilis_serology", "immunoassay_methods"],
+	"micro": ["specimen_collection", "processing_media", "blood_csf", "respiratory", "gi_urine", "genital_wound", "gram_positive_id", "gram_negative_id", "susceptibility_resistance", "mycobacteria", "mycology", "parasitology", "virology", "postanalytic"],
+	"safety": ["bloodborne_pathogens", "ppe_work_practices", "biosafety", "chemical_safety", "fire_electrical", "specimen_transport", "emergency_response", "waste_disposal"],
 }
-const MIN_QUESTIONS := {"phys": 30, "rbc": 60, "wbc": 60, "plt": 25, "lab": 60, "hemo": 50, "qc": 15}
+const MIN_QUESTIONS := {"phys": 30, "rbc": 60, "wbc": 60, "plt": 25, "lab": 60, "hemo": 50, "qc": 15, "bb": 60, "ua": 30, "chem": 60, "immuno": 30, "micro": 60, "safety": 30}
 const MIN_TERMS_PER_TOPIC := 10
 const DIFF_CLASSES := ["seg", "band", "lymph", "var_lymph", "mono", "eos", "baso", "meta", "myelo", "promyelo", "blast"]
 const ART_KINDS := ["rbc", "wbc", "platelet", "field"]
@@ -34,6 +40,9 @@ const GENERATED_SOURCE_KEYS := [
 	"qc:westgard", "coag:cascade",
 	"diff:normal_adult", "diff:allergy_parasite", "diff:bacterial_infection", "diff:viral_reactive",
 	"diff:hemolytic_nrbc", "diff:cll", "diff:cml", "diff:aml",
+	"micro:identification", "ua:interpretation", "bb:abo_rh", "immuno:hepatitis_b", "safety:waste",
+	"chem:anion_gap", "chem:osmolality", "chem:ldl_friedewald", "chem:non_hdl", "chem:ag_ratio",
+	"chem:creatinine_clearance", "chem:transferrin_saturation", "chem:indirect_bilirubin",
 ]
 
 static func validate(c: Dictionary) -> Array[String]:

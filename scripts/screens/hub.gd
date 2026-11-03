@@ -1,7 +1,7 @@
 extends Control
 ## Home screen: rank, Start Shift, bench grid, navigation, banners.
 
-const BENCHES := [
+const HEME_BENCHES := [
 	{"id": "knowledge", "name": "Knowledge", "desc": "Exam-style questions and lab math drills"},
 	{"id": "morphology", "name": "Morphology", "desc": "Identify cells and their clinical associations"},
 	{"id": "differential", "name": "Differential", "desc": "Count 100 WBCs and report the diff"},
@@ -9,10 +9,18 @@ const BENCHES := [
 	{"id": "coag", "name": "Coagulation", "desc": "Coag cases and the cascade sort"},
 	{"id": "qc", "name": "QC", "desc": "Levey-Jennings charts and Westgard rules"},
 ]
+const SUBJECT_BENCHES := [
+	{"id": "micro", "name": "Microbiology", "desc": "Gram stains and organism workups"},
+	{"id": "urinalysis", "name": "Urinalysis", "desc": "Dipstick and sediment interpretation"},
+	{"id": "blood_bank", "name": "Blood bank", "desc": "ABO/Rh typing and compatible units"},
+	{"id": "immuno", "name": "Immunology", "desc": "Hepatitis B serology panels"},
+	{"id": "chem", "name": "Chemistry", "desc": "Chemistry calculations"},
+	{"id": "safety", "name": "Lab safety", "desc": "Sort lab waste safely"},
+]
 
 const FEATURES := [
 	{"route": "practice", "title": "Practice", "desc": "Any bench, any time", "art": "practice", "tint": "#B3263E"},
-	{"route": "exam", "title": "Board Sim", "desc": "50-item timed mock exam", "art": "board_sim", "tint": "#4A5BA8"},
+	{"route": "exam", "title": "Board Sim", "desc": "100-item timed mock exam", "art": "board_sim", "tint": "#4A5BA8"},
 	{"route": "lab_floor", "title": "Lab Floor", "desc": "Walk the lab and run stations", "art": "lab_floor", "tint": "#2E8B57"},
 	{"route": "atlas", "title": "Cell Atlas", "desc": "Every cell, photographed", "art": "atlas", "tint": "#8E4A9E"},
 	{"route": "flashcards", "title": "Flashcards", "desc": "Cells and terms with spaced repetition", "art": "flashcards", "tint": "#C0731B"},
@@ -26,7 +34,7 @@ func _ready() -> void:
 	var lvl: int = Progress.level()
 	var xp: int = Progress.xp()
 
-	content.add_child(UI.label("Hematology lab shifts for MLT exam prep", "MutedLabel"))
+	content.add_child(UI.label("Lab shifts for MLT certification exam prep", "MutedLabel"))
 
 	content.add_child(_rank_card(lvl, xp))
 
@@ -34,8 +42,10 @@ func _ready() -> void:
 	start.custom_minimum_size.y = 84
 	content.add_child(start)
 
-	content.add_child(UI.label("Benches", "TitleLabel"))
-	content.add_child(_bench_grid(lvl))
+	content.add_child(UI.label("Hematology benches", "TitleLabel"))
+	content.add_child(_bench_grid(lvl, HEME_BENCHES))
+	content.add_child(UI.label("More subjects", "TitleLabel"))
+	content.add_child(_bench_grid(lvl, SUBJECT_BENCHES))
 
 	content.add_child(UI.label("Study & explore", "TitleLabel"))
 	content.add_child(_feature_tiles())
@@ -112,14 +122,14 @@ func _rank_card(lvl: int, xp: int) -> PanelContainer:
 	return card
 
 
-func _bench_grid(lvl: int) -> GridContainer:
+func _bench_grid(lvl: int, benches: Array) -> GridContainer:
 	var grid := GridContainer.new()
 	grid.columns = 2
 	grid.add_theme_constant_override("h_separation", 12)
 	grid.add_theme_constant_override("v_separation", 12)
 	grid.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	var tier: int = XpRules.tier_for_level(lvl)
-	for b in BENCHES:
+	for b in benches:
 		var d: Dictionary = b
 		var id: String = d["id"]
 		var unlock: int = XpRules.BENCH_UNLOCK[id]

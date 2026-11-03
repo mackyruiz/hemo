@@ -1,0 +1,1082 @@
+[
+	{
+		"id": "chem-0001",
+		"topic": "chem",
+		"subtopic": "carbohydrates",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which fasting plasma glucose result meets the diagnostic criterion for diabetes mellitus?",
+		"image": null,
+		"choices": [
+			"126 mg/dL",
+			"100 mg/dL",
+			"118 mg/dL",
+			"99 mg/dL"
+		],
+		"answer": 0,
+		"explanation": "A fasting plasma glucose of 126 mg/dL or higher indicates diabetes. Values of 100–125 mg/dL indicate prediabetes, so 100 and 118 mg/dL do not meet the diabetes cutoff.",
+		"source": "chem-diabetes-testing"
+	},
+	{
+		"id": "chem-0002",
+		"topic": "chem",
+		"subtopic": "carbohydrates",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "A glucose specimen will not be centrifuged for several hours. Which collection tube best prevents a falsely low result?",
+		"image": null,
+		"choices": [
+			"Lavender top (K2EDTA)",
+			"Light blue top (3.2% buffered sodium citrate)",
+			"Green top (lithium heparin)",
+			"Gray top (sodium fluoride/potassium oxalate)"
+		],
+		"answer": 3,
+		"explanation": "Sodium fluoride inhibits the glycolytic enzyme enolase, so cells stop consuming glucose. Without an inhibitor, glycolysis in unseparated blood can lower glucose by about 5–7% per hour.",
+		"source": "chem-glucose-glycolysis"
+	},
+	{
+		"id": "chem-0003",
+		"topic": "chem",
+		"subtopic": "carbohydrates",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A hemoglobin A1c result reflects a patient's average blood glucose over approximately what period?",
+		"image": null,
+		"choices": [
+			"The previous 2 to 3 weeks",
+			"The previous 24 to 48 hours",
+			"The previous 2 to 3 months",
+			"The previous 6 to 12 months"
+		],
+		"answer": 2,
+		"explanation": "The A1C test measures average blood glucose over the past 2 or 3 months, matching the red cell life span. A 2–3 week window describes fructosamine, which reflects glycated serum proteins.",
+		"source": "chem-diabetes-testing"
+	},
+	{
+		"id": "chem-0004",
+		"topic": "chem",
+		"subtopic": "carbohydrates",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A nonpregnant adult has a 2-hour oral glucose tolerance test. Which 2-hour plasma glucose result indicates diabetes?",
+		"image": null,
+		"choices": [
+			"185 mg/dL",
+			"205 mg/dL",
+			"150 mg/dL",
+			"135 mg/dL"
+		],
+		"answer": 1,
+		"explanation": "A 2-hour OGTT glucose of 200 mg/dL or higher indicates diabetes. Values of 140–199 mg/dL (such as 150 or 185 mg/dL) indicate prediabetes, and 140 mg/dL or below is normal.",
+		"source": "chem-diabetes-testing"
+	},
+	{
+		"id": "chem-0005",
+		"topic": "chem",
+		"subtopic": "carbohydrates",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A patient with diabetes and chronic hemolytic anemia has fasting glucose results of 180–220 mg/dL, but the HbA1c is 5.1%. What best explains the discrepancy?",
+		"image": null,
+		"choices": [
+			"Hemolysis falsely raises the fasting glucose results",
+			"Glycated hemoglobin is filtered into the urine during hemolysis",
+			"Shortened red cell survival leaves less time for hemoglobin glycation",
+			"HbA1c reflects only the glucose levels of the few days before collection"
+		],
+		"answer": 2,
+		"explanation": "Glycation accumulates over the roughly 120-day red cell life span, so a younger red cell population in hemolytic anemia gives a falsely low HbA1c. The glucose results are not raised by hemolysis; they reflect true hyperglycemia.",
+		"source": "chem-hba1c-hemolysis"
+	},
+	{
+		"id": "chem-0006",
+		"topic": "chem",
+		"subtopic": "carbohydrates",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "HbA1c is unreliable in a patient with chronic hemolytic anemia. Which test is the preferred alternative for monitoring average glycemia?",
+		"image": null,
+		"choices": [
+			"Repeat HbA1c by a different method",
+			"Urine glucose",
+			"Serum C-peptide",
+			"Fructosamine"
+		],
+		"answer": 3,
+		"explanation": "Fructosamine (glycated serum protein) reflects average glucose over the past 2–3 weeks and does not depend on red cell survival. Any HbA1c method is still affected by the shortened red cell life span.",
+		"source": "chem-hba1c-hemolysis"
+	},
+	{
+		"id": "chem-0007",
+		"topic": "chem",
+		"subtopic": "lipids",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which lipoprotein carries dietary (exogenous) triglyceride from the intestine into the circulation?",
+		"image": null,
+		"choices": [
+			"VLDL",
+			"LDL",
+			"HDL",
+			"Chylomicrons"
+		],
+		"answer": 3,
+		"explanation": "Chylomicrons are made in the intestine after a meal from absorbed dietary fat and carry it into the blood. VLDL carries triglyceride made by the liver (endogenous).",
+		"source": "chem-chylomicronemia"
+	},
+	{
+		"id": "chem-0008",
+		"topic": "chem",
+		"subtopic": "lipids",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Which apolipoprotein is the structural protein of LDL, present as one molecule per particle?",
+		"image": null,
+		"choices": [
+			"Apolipoprotein B-48",
+			"Apolipoprotein A-I",
+			"Apolipoprotein C-II",
+			"Apolipoprotein B-100"
+		],
+		"answer": 3,
+		"explanation": "One molecule of apo B-100 encircles each VLDL, LDL and Lp(a) particle. Apo B-48 is the truncated form found on chylomicrons and their remnants.",
+		"source": "chem-apob-lipoproteins"
+	},
+	{
+		"id": "chem-0009",
+		"topic": "chem",
+		"subtopic": "lipids",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A fasting lipid panel shows total cholesterol 230 mg/dL, HDL cholesterol 50 mg/dL and triglycerides 150 mg/dL. What is the calculated LDL cholesterol by the Friedewald equation?",
+		"image": null,
+		"choices": [
+			"150 mg/dL",
+			"180 mg/dL",
+			"165 mg/dL",
+			"200 mg/dL"
+		],
+		"answer": 0,
+		"explanation": "LDL = TC − HDL − TG/5 = 230 − 50 − (150/5) = 230 − 50 − 30 = 150 mg/dL. 180 mg/dL is the non-HDL cholesterol (230 − 50), which omits the VLDL estimate.",
+		"source": "chem-ldl-equations"
+	},
+	{
+		"id": "chem-0010",
+		"topic": "chem",
+		"subtopic": "lipids",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Above which triglyceride concentration is the Friedewald equation regarded as invalid, so LDL cholesterol should be measured directly?",
+		"image": null,
+		"choices": [
+			"400 mg/dL",
+			"150 mg/dL",
+			"200 mg/dL",
+			"250 mg/dL"
+		],
+		"answer": 0,
+		"explanation": "The Friedewald equation becomes increasingly inaccurate from 200 to 400 mg/dL triglyceride and is regarded as invalid above 400 mg/dL. At 150–250 mg/dL it is less accurate but still reported.",
+		"source": "chem-ldl-equations"
+	},
+	{
+		"id": "chem-0011",
+		"topic": "chem",
+		"subtopic": "lipids",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Fasting serum from a patient with lipemia is left standing overnight at 4 °C. A creamy layer forms on top and the infranatant is clear. What does this indicate?",
+		"image": null,
+		"choices": [
+			"Increased VLDL with no chylomicrons present",
+			"Increased chylomicrons without increased VLDL",
+			"Increased chylomicrons and VLDL",
+			"Increased LDL only"
+		],
+		"answer": 1,
+		"explanation": "In the refrigerator (standing plasma) test, chylomicrons float as a creamy top layer; a clear infranatant means VLDL is not increased (type 1 pattern). A turbid, lactescent infranatant under the cream layer would mean VLDL is also increased (type 5 pattern).",
+		"source": "chem-chylomicronemia"
+	},
+	{
+		"id": "chem-0012",
+		"topic": "chem",
+		"subtopic": "heme_derivatives",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Unconjugated bilirubin is transported in the blood to the liver bound to which protein?",
+		"image": null,
+		"choices": [
+			"Haptoglobin",
+			"Transferrin",
+			"Hemopexin",
+			"Albumin"
+		],
+		"answer": 3,
+		"explanation": "Unconjugated bilirubin is not water-soluble and circulates bound to albumin until hepatocytes take it up for conjugation. Haptoglobin binds free hemoglobin, not bilirubin.",
+		"source": "chem-bilirubin-elevated"
+	},
+	{
+		"id": "chem-0013",
+		"topic": "chem",
+		"subtopic": "heme_derivatives",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "Why must specimens for bilirubin testing be protected from light?",
+		"image": null,
+		"choices": [
+			"Light hemolyzes red cells and falsely raises bilirubin",
+			"Light converts unconjugated bilirubin to the conjugated form",
+			"Light inactivates the diazo reagent added during testing",
+			"Bilirubin breaks down in light, giving falsely low results"
+		],
+		"answer": 3,
+		"explanation": "Bilirubin is degraded by light, which is also why phototherapy lowers bilirubin in jaundiced newborns. Exposed specimens therefore read falsely low, not falsely high.",
+		"source": "chem-urine-bilirubin"
+	},
+	{
+		"id": "chem-0014",
+		"topic": "chem",
+		"subtopic": "heme_derivatives",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "An asymptomatic adult has total bilirubin 4.6 mg/dL and direct (conjugated) bilirubin 0.4 mg/dL. What is the indirect (unconjugated) bilirubin?",
+		"image": null,
+		"choices": [
+			"5.0 mg/dL",
+			"0.4 mg/dL",
+			"4.6 mg/dL",
+			"4.2 mg/dL"
+		],
+		"answer": 3,
+		"explanation": "Indirect bilirubin = total − direct = 4.6 − 0.4 = 4.2 mg/dL. The conjugated fraction is under 20% of the total, an unconjugated pattern such as Gilbert syndrome or hemolysis.",
+		"source": "chem-bilirubin-elevated"
+	},
+	{
+		"id": "chem-0015",
+		"topic": "chem",
+		"subtopic": "heme_derivatives",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A patient with a gallstone obstructing the common bile duct has a positive urine bilirubin. Which form of bilirubin is present in the urine?",
+		"image": null,
+		"choices": [
+			"Unconjugated bilirubin bound to albumin",
+			"Biliverdin",
+			"Stercobilin",
+			"Conjugated (direct) bilirubin"
+		],
+		"answer": 3,
+		"explanation": "Bilirubin found in urine is the conjugated (direct) form, which rises in biliary tract disease such as gallstones. Unconjugated bilirubin is bound to albumin and is not filtered by the glomerulus.",
+		"source": "chem-urine-bilirubin"
+	},
+	{
+		"id": "chem-0016",
+		"topic": "chem",
+		"subtopic": "heme_derivatives",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A young woman has recurrent attacks of severe abdominal pain not explained by common causes, with confusion and dark urine. Which spot urine test is the key screening test for an acute hepatic porphyria?",
+		"image": null,
+		"choices": [
+			"Urobilinogen",
+			"Free erythrocyte protoporphyrin (whole blood)",
+			"Porphobilinogen (with δ-aminolevulinic acid)",
+			"Urine bilirubin"
+		],
+		"answer": 2,
+		"explanation": "A random urine porphobilinogen with δ-aminolevulinic acid, corrected to creatinine, is the screening test of choice for acute hepatic porphyrias such as acute intermittent porphyria. Urobilinogen is a bilirubin breakdown product and does not detect accumulated porphyrin precursors.",
+		"source": "chem-acute-porphyria"
+	},
+	{
+		"id": "chem-0017",
+		"topic": "chem",
+		"subtopic": "enzymes",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which aminotransferase is found mainly in the liver and is the more liver-specific marker of hepatocellular injury?",
+		"image": null,
+		"choices": [
+			"AST",
+			"LDH",
+			"ALT",
+			"CK"
+		],
+		"answer": 2,
+		"explanation": "ALT (alanine aminotransferase) is found mainly in the liver and is released when liver cells are damaged. AST is also abundant in heart and skeletal muscle and red cells, so it is less liver-specific.",
+		"source": "chem-alt-test"
+	},
+	{
+		"id": "chem-0018",
+		"topic": "chem",
+		"subtopic": "enzymes",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Why is serum lipase preferred over amylase for diagnosing acute pancreatitis?",
+		"image": null,
+		"choices": [
+			"Lipase is cleared only by the liver",
+			"Lipase reaches higher peaks and stays elevated longer",
+			"Lipase rises within minutes and normalizes within 12 hours",
+			"Lipase is measured only in urine"
+		],
+		"answer": 1,
+		"explanation": "Because of its longer half-life and higher peak concentrations than amylase, lipase has better diagnostic performance for pancreatitis. Its longer elevation is the opposite of a marker that normalizes within hours.",
+		"source": "chem-lipase-amylase"
+	},
+	{
+		"id": "chem-0019",
+		"topic": "chem",
+		"subtopic": "enzymes",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A healthy 14-year-old has an alkaline phosphatase about three times the adult upper limit, with normal ALT and bilirubin. What is the most likely explanation?",
+		"image": null,
+		"choices": [
+			"Biliary obstruction",
+			"Bone growth",
+			"Acute viral hepatitis",
+			"Acute pancreatitis"
+		],
+		"answer": 1,
+		"explanation": "Children and teens normally have high ALP because their bones are growing (osteoblastic ALP). Biliary obstruction would usually be accompanied by other abnormal liver tests.",
+		"source": "chem-alp-test"
+	},
+	{
+		"id": "chem-0020",
+		"topic": "chem",
+		"subtopic": "enzymes",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "A grossly hemolyzed serum specimen is received for a chemistry panel. Which pair of results is most likely to be falsely increased?",
+		"image": null,
+		"choices": [
+			"Potassium and LDH",
+			"Sodium and glucose",
+			"Chloride and amylase",
+			"Albumin and GGT"
+		],
+		"answer": 0,
+		"explanation": "Red cells contain far more potassium, LDH and AST than plasma, so in vitro hemolysis falsely increases them. Sodium, chloride and albumin are not concentrated in red cells.",
+		"source": "chem-hemolysis-enzymes"
+	},
+	{
+		"id": "chem-0021",
+		"topic": "chem",
+		"subtopic": "enzymes",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "Which aminotransferase pattern is characteristic of alcoholic hepatitis?",
+		"image": null,
+		"choices": [
+			"ALT much higher than AST, as in acute viral hepatitis",
+			"AST higher than ALT (De Ritis ratio above 1)",
+			"AST and ALT both normal with isolated increased ALP",
+			"AST equal to ALT in every case"
+		],
+		"answer": 1,
+		"explanation": "In alcoholic hepatitis AST is usually higher than ALT, giving an AST/ALT (De Ritis) ratio above 1. In acute viral hepatitis ALT is usually higher than AST.",
+		"source": "chem-de-ritis"
+	},
+	{
+		"id": "chem-0022",
+		"topic": "chem",
+		"subtopic": "enzymes",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A patient with rhabdomyolysis after a crush injury has a markedly increased total CK. Which CK isoenzyme predominates?",
+		"image": null,
+		"choices": [
+			"CK-MB",
+			"CK-BB",
+			"CK-MM",
+			"Mitochondrial CK"
+		],
+		"answer": 2,
+		"explanation": "CK-MM is the skeletal muscle isoenzyme, and most of the body's CK is in skeletal muscle. CK-MB comes mainly from heart muscle.",
+		"source": "chem-ck-isoenzymes"
+	},
+	{
+		"id": "chem-0023",
+		"topic": "chem",
+		"subtopic": "proteins",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which protein is the most abundant in serum and helps keep fluid from leaking out of the blood vessels?",
+		"image": null,
+		"choices": [
+			"IgG",
+			"Transferrin",
+			"Alpha-1 antitrypsin",
+			"Albumin"
+		],
+		"answer": 3,
+		"explanation": "Albumin is the most abundant serum protein and keeps fluid from leaking out of blood vessels into tissues. IgG is the most abundant immunoglobulin but a much smaller fraction of total protein.",
+		"source": "chem-protein-electrophoresis"
+	},
+	{
+		"id": "chem-0024",
+		"topic": "chem",
+		"subtopic": "proteins",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A serum protein electrophoresis shows a narrow, dense band in the gamma region. Which test identifies the heavy and light chain of this M protein?",
+		"image": null,
+		"choices": [
+			"Repeat serum protein electrophoresis",
+			"Quantitative total protein (biuret)",
+			"Immunofixation electrophoresis",
+			"Urine reagent strip protein"
+		],
+		"answer": 2,
+		"explanation": "Immunofixation electrophoresis identifies the heavy and light chain type of the M protein. Repeating the electrophoresis only measures the spike again without typing it.",
+		"source": "chem-myeloma-workup"
+	},
+	{
+		"id": "chem-0025",
+		"topic": "chem",
+		"subtopic": "proteins",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "A low prealbumin (transthyretin) can reflect malnutrition. Which other condition can also lower prealbumin and limit its use as a nutrition marker?",
+		"image": null,
+		"choices": [
+			"Dehydration",
+			"A diet very high in protein and calories",
+			"Inflammation or infection",
+			"Recent exercise"
+		],
+		"answer": 2,
+		"explanation": "Prealbumin falls with malnutrition but also with inflammation, infection or injury, so a low result does not prove poor nutrition. Dehydration concentrates serum proteins rather than lowering them.",
+		"source": "chem-prealbumin"
+	},
+	{
+		"id": "chem-0026",
+		"topic": "chem",
+		"subtopic": "proteins",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "Which serum protein electrophoresis pattern is typical of nephrotic syndrome?",
+		"image": null,
+		"choices": [
+			"Normal albumin with a narrow, dense gamma-region spike",
+			"Increased albumin with decreased gamma globulin",
+			"Decreased albumin with increased alpha-2 globulin",
+			"Increased albumin with decreased alpha-2 globulin"
+		],
+		"answer": 2,
+		"explanation": "Albumin is lost in the urine, and the liver responds by making more proteins, so the alpha-2 globulin fraction rises. A narrow gamma spike instead suggests a monoclonal protein.",
+		"source": "chem-nephrotic-proteins"
+	},
+	{
+		"id": "chem-0027",
+		"topic": "chem",
+		"subtopic": "proteins",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Total protein is 7.0 g/dL and albumin is 4.2 g/dL. What is the albumin/globulin (A/G) ratio?",
+		"image": null,
+		"choices": [
+			"0.67",
+			"0.60",
+			"1.5",
+			"2.8"
+		],
+		"answer": 2,
+		"explanation": "Globulin = total protein − albumin = 7.0 − 4.2 = 2.8 g/dL, so A/G = 4.2 ÷ 2.8 = 1.5. 0.67 is the inverted ratio (2.8 ÷ 4.2).",
+		"source": "chem-globulin-test"
+	},
+	{
+		"id": "chem-0028",
+		"topic": "chem",
+		"subtopic": "nitrogen_compounds",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "In the Jaffe method for creatinine, creatinine reacts with which reagent?",
+		"image": null,
+		"choices": [
+			"Alkaline picrate",
+			"Diacetyl monoxime",
+			"Urease",
+			"Phosphotungstic acid"
+		],
+		"answer": 0,
+		"explanation": "The Jaffe reaction measures creatinine with alkaline picrate, forming a colored complex that bilirubin and other substances can interfere with. Diacetyl monoxime and urease are used for urea methods.",
+		"source": "chem-jaffe-creatinine"
+	},
+	{
+		"id": "chem-0029",
+		"topic": "chem",
+		"subtopic": "nitrogen_compounds",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A dehydrated patient has BUN 56 mg/dL and creatinine 1.4 mg/dL. Which interpretation fits?",
+		"image": null,
+		"choices": [
+			"Ratio 40:1, consistent with acute tubular necrosis",
+			"Ratio 10:1, consistent with prerenal azotemia",
+			"Ratio 40:1, consistent with prerenal azotemia",
+			"Ratio 10:1, consistent with intrinsic renal disease"
+		],
+		"answer": 2,
+		"explanation": "BUN/creatinine = 56 ÷ 1.4 = 40. Reduced renal perfusion increases tubular urea reabsorption, so prerenal azotemia typically gives a ratio above 20:1, whereas acute tubular necrosis gives a normal or low ratio.",
+		"source": "chem-bun-creatinine-ratio"
+	},
+	{
+		"id": "chem-0030",
+		"topic": "chem",
+		"subtopic": "nitrogen_compounds",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "A 24-hour urine has creatinine 90 mg/dL and volume 1800 mL; plasma creatinine is 1.5 mg/dL. What is the creatinine clearance, not corrected for body surface area?",
+		"image": null,
+		"choices": [
+			"75 mL/min",
+			"113 mL/min",
+			"30 mL/min",
+			"125 mL/min"
+		],
+		"answer": 0,
+		"explanation": "Clearance = (U × V) ÷ (P × 1440) = (90 × 1800) ÷ (1.5 × 1440) = 162,000 ÷ 2160 = 75 mL/min. 113 mL/min results from omitting the plasma creatinine (90 × 1800 ÷ 1440).",
+		"source": "chem-creatinine-clearance"
+	},
+	{
+		"id": "chem-0031",
+		"topic": "chem",
+		"subtopic": "nitrogen_compounds",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "How should a blood specimen for plasma ammonia be handled?",
+		"image": null,
+		"choices": [
+			"Let it clot 30 minutes at room temperature before separating",
+			"Hold it at room temperature for batch testing within 8 hours",
+			"Send it on ice and analyze it promptly",
+			"Freeze the whole blood before transport"
+		],
+		"answer": 2,
+		"explanation": "Ammonia specimens are delivered on ice and fast-tracked for prompt analysis, and grossly hemolyzed samples are rejected. Most laboratories reject ammonia samples not sent on ice, so room-temperature holding or clotting delays are unacceptable.",
+		"source": "chem-ammonia-handling"
+	},
+	{
+		"id": "chem-0032",
+		"topic": "chem",
+		"subtopic": "nitrogen_compounds",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Uric acid is the end product of the breakdown of which compounds?",
+		"image": null,
+		"choices": [
+			"Pyrimidines",
+			"Purines",
+			"Amino acids",
+			"Creatine"
+		],
+		"answer": 1,
+		"explanation": "Uric acid is the waste product made when the body breaks down purines. Amino acid nitrogen is excreted mainly as urea, and creatine forms creatinine.",
+		"source": "chem-uric-acid"
+	},
+	{
+		"id": "chem-0033",
+		"topic": "chem",
+		"subtopic": "markers",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which laboratory test is mainly used to help diagnose a heart attack (myocardial infarction)?",
+		"image": null,
+		"choices": [
+			"Amylase",
+			"Alkaline phosphatase",
+			"Cardiac troponin",
+			"GGT"
+		],
+		"answer": 2,
+		"explanation": "Damaged heart muscle releases troponin into the blood, and troponin testing is mainly used to diagnose heart attacks. Amylase, ALP and GGT reflect pancreatic, bone or hepatobiliary disease.",
+		"source": "chem-troponin"
+	},
+	{
+		"id": "chem-0034",
+		"topic": "chem",
+		"subtopic": "markers",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A patient presents with shortness of breath. Which blood test helps confirm or rule out heart failure?",
+		"image": null,
+		"choices": [
+			"Cardiac troponin I or T",
+			"BNP or NT-proBNP",
+			"CK-MB",
+			"Myoglobin"
+		],
+		"answer": 1,
+		"explanation": "Natriuretic peptide tests (BNP, NT-proBNP) are mainly used to confirm or rule out heart failure in people with symptoms. Troponin, CK-MB and myoglobin are markers of myocardial or muscle injury.",
+		"source": "chem-natriuretic-peptides"
+	},
+	{
+		"id": "chem-0035",
+		"topic": "chem",
+		"subtopic": "markers",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which tumor marker is used mainly in colorectal cancer, for example to check treatment response and assess recurrence?",
+		"image": null,
+		"choices": [
+			"CA-125",
+			"Carcinoembryonic antigen (CEA)",
+			"Prostate-specific antigen (PSA)",
+			"Alpha-fetoprotein (AFP)"
+		],
+		"answer": 1,
+		"explanation": "CEA is the tumor marker listed for colorectal cancer. CA-125 is used for ovarian cancer, PSA for prostate cancer, and AFP for liver cancer and germ cell tumors.",
+		"source": "chem-tumor-markers"
+	},
+	{
+		"id": "chem-0036",
+		"topic": "chem",
+		"subtopic": "markers",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "A patient with typical chest pain has a troponin below the cutoff on an immunoassay. The patient takes high-dose biotin supplements. What should the laboratory consider?",
+		"image": null,
+		"choices": [
+			"Biotin interference causing a falsely low troponin",
+			"Biotin-induced myocardial injury raising true troponin",
+			"Hemolysis from biotin lowering troponin",
+			"Biotin binding troponin in vivo and blocking its release"
+		],
+		"answer": 0,
+		"explanation": "The FDA has received adverse event reports of biotin interference causing falsely low troponin results in assays that use biotin technology. Biotin does not damage heart muscle or block troponin release.",
+		"source": "chem-biotin-troponin"
+	},
+	{
+		"id": "chem-0037",
+		"topic": "chem",
+		"subtopic": "acid_base",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "What is the normal reference range for arterial blood pH?",
+		"image": null,
+		"choices": [
+			"7.25–7.35",
+			"7.35–7.45",
+			"7.45–7.55",
+			"7.00–7.20"
+		],
+		"answer": 1,
+		"explanation": "Normal arterial pH is 7.35–7.45. Below 7.35 is acidemia and above 7.45 is alkalemia.",
+		"source": "chem-abg-test"
+	},
+	{
+		"id": "chem-0038",
+		"topic": "chem",
+		"subtopic": "acid_base",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Arterial blood gas: pH 7.28, PaCO2 55 mmHg, HCO3 25 mmol/L. What is the interpretation?",
+		"image": null,
+		"choices": [
+			"Metabolic acidosis with respiratory compensation",
+			"Chronic, compensated respiratory acidosis",
+			"Acute (uncompensated) respiratory acidosis",
+			"Respiratory alkalosis"
+		],
+		"answer": 2,
+		"explanation": "Low pH with high PaCO2 is respiratory acidosis. The acute rule predicts HCO3 to rise only 1 mmol/L per 10 mmHg PaCO2 (24 + 1.5 ≈ 25.5), which matches 25; a chronic process would raise HCO3 3.5 mmol/L per 10 mmHg (about 29).",
+		"source": "chem-abg-interpretation"
+	},
+	{
+		"id": "chem-0039",
+		"topic": "chem",
+		"subtopic": "acid_base",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Serum results: Na 138 mmol/L, Cl 100 mmol/L, HCO3 14 mmol/L. Calculate the anion gap (without potassium) and interpret it.",
+		"image": null,
+		"choices": [
+			"24 mmol/L, normal",
+			"24 mmol/L, increased",
+			"52 mmol/L, increased",
+			"38 mmol/L, increased"
+		],
+		"answer": 1,
+		"explanation": "Anion gap = Na − (Cl + HCO3) = 138 − (100 + 14) = 24 mmol/L. Without potassium the normal gap is about 8 ± 4 mmol/L, so 24 is increased, pointing to a high anion gap metabolic acidosis.",
+		"source": "chem-abg-interpretation"
+	},
+	{
+		"id": "chem-0040",
+		"topic": "chem",
+		"subtopic": "acid_base",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "Arterial blood gas: pH 7.48, PaCO2 46 mmHg, HCO3 33 mmol/L. What is the best interpretation?",
+		"image": null,
+		"choices": [
+			"Metabolic alkalosis with appropriate respiratory compensation",
+			"Respiratory acidosis with metabolic compensation",
+			"Respiratory alkalosis",
+			"Metabolic alkalosis with an additional primary respiratory acidosis"
+		],
+		"answer": 0,
+		"explanation": "High pH with high HCO3 is metabolic alkalosis. Expected PaCO2 = 0.7 × HCO3 + 21 ± 2 = 0.7 × 33 + 21 = 44.1 ± 2 (about 42–46), so 46 mmHg is appropriate compensation; a PaCO2 above this range would mean an added respiratory acidosis.",
+		"source": "chem-abg-interpretation"
+	},
+	{
+		"id": "chem-0041",
+		"topic": "chem",
+		"subtopic": "acid_base",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "An arterial blood gas syringe arrives with a large air bubble that was not expelled. Which change in results is expected?",
+		"image": null,
+		"choices": [
+			"Decreased pO2 and increased pCO2",
+			"Increased pCO2 and decreased pH",
+			"No change in pO2, pCO2 or pH",
+			"Increased pO2 and decreased pCO2"
+		],
+		"answer": 3,
+		"explanation": "Gas equilibrates between the sample and the trapped air, so pO2 and pH rise while pCO2 falls. A sample with an air bubble does not keep its original gas values.",
+		"source": "chem-abg-air-bubble"
+	},
+	{
+		"id": "chem-0042",
+		"topic": "chem",
+		"subtopic": "acid_base",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "A previously healthy patient with an acute opioid overdose has a PaCO2 of 70 mmHg (baseline PaCO2 40 mmHg, HCO3 24 mmol/L). Using the acute compensation rule, what HCO3 is expected?",
+		"image": null,
+		"choices": [
+			"27 mmol/L",
+			"35 mmol/L",
+			"24 mmol/L",
+			"21 mmol/L"
+		],
+		"answer": 0,
+		"explanation": "In acute respiratory acidosis HCO3 rises 1 mmol/L for every 10 mmHg rise in PaCO2: 24 + (70 − 40)/10 × 1 = 24 + 3 = 27 mmol/L. 35 mmol/L would fit the chronic rule (24 + 3 × 3.5 ≈ 34.5).",
+		"source": "chem-abg-interpretation"
+	},
+	{
+		"id": "chem-0043",
+		"topic": "chem",
+		"subtopic": "electrolytes",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which cation is found mainly inside cells?",
+		"image": null,
+		"choices": [
+			"Sodium",
+			"Calcium",
+			"Chloride",
+			"Potassium"
+		],
+		"answer": 3,
+		"explanation": "More than 98% of total body potassium is inside cells such as muscle, liver and red cells. Sodium is the main extracellular cation, and chloride is an anion.",
+		"source": "chem-potassium-distribution"
+	},
+	{
+		"id": "chem-0044",
+		"topic": "chem",
+		"subtopic": "electrolytes",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "An outpatient with no symptoms has potassium 9.2 mmol/L and calcium 2.9 mg/dL. The specimen is not hemolyzed. What is the most likely cause?",
+		"image": null,
+		"choices": [
+			"Hemolysis during collection",
+			"Prolonged tourniquet time",
+			"Delayed separation of a refrigerated specimen",
+			"K2EDTA contamination of the specimen"
+		],
+		"answer": 3,
+		"explanation": "K2EDTA adds potassium and chelates calcium, so contamination (for example, wrong order of draw) gives a falsely high potassium with a very low calcium. Hemolysis is excluded by the non-hemolyzed specimen and does not lower calcium this much.",
+		"source": "chem-edta-contamination"
+	},
+	{
+		"id": "chem-0045",
+		"topic": "chem",
+		"subtopic": "electrolytes",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "A grossly lipemic specimen has sodium 124 mmol/L on the indirect ion-selective electrode of the chemistry analyzer but 139 mmol/L on a direct ion-selective electrode. What explains the difference?",
+		"image": null,
+		"choices": [
+			"Lipid displaces plasma water, so the diluted indirect method underestimates sodium",
+			"Lipemia causes true hyponatremia that only the indirect method detects",
+			"Lipid falsely increases sodium on the direct method",
+			"Sodium partitions into the lipid layer and is removed before the dilution step"
+		],
+		"answer": 0,
+		"explanation": "Indirect ISEs dilute the sample and assume a normal plasma water fraction; excess lipid (or protein) lowers that fraction, producing pseudohyponatremia through the electrolyte exclusion effect. Direct ISEs measure undiluted sample water and are unaffected.",
+		"source": "chem-pseudohyponatremia"
+	},
+	{
+		"id": "chem-0046",
+		"topic": "chem",
+		"subtopic": "electrolytes",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Serum results: Na 135 mmol/L, glucose 450 mg/dL, BUN 28 mg/dL. What is the calculated serum osmolality?",
+		"image": null,
+		"choices": [
+			"305 mOsm/kg",
+			"295 mOsm/kg",
+			"280 mOsm/kg",
+			"315 mOsm/kg"
+		],
+		"answer": 0,
+		"explanation": "Calculated osmolality = 2 × Na + glucose/18 + BUN/2.8 = 270 + 25 + 10 = 305 mOsm/kg. 295 mOsm/kg results from leaving out the BUN term.",
+		"source": "chem-osmolality-formula"
+	},
+	{
+		"id": "chem-0047",
+		"topic": "chem",
+		"subtopic": "electrolytes",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which fraction of serum calcium is physiologically active?",
+		"image": null,
+		"choices": [
+			"Albumin-bound calcium",
+			"Calcium complexed with phosphate",
+			"Total calcium",
+			"Ionized (free) calcium"
+		],
+		"answer": 3,
+		"explanation": "Free (ionized) calcium is not attached to proteins and is the form active in body functions. Protein-bound calcium, about half of the total, is inactive.",
+		"source": "chem-calcium-test"
+	},
+	{
+		"id": "chem-0048",
+		"topic": "chem",
+		"subtopic": "electrolytes",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Total calcium is 7.4 mg/dL and albumin is 2.0 g/dL. Using the common albumin correction (Payne formula), what is the corrected calcium?",
+		"image": null,
+		"choices": [
+			"5.8 mg/dL",
+			"9.0 mg/dL",
+			"8.2 mg/dL",
+			"7.4 mg/dL"
+		],
+		"answer": 1,
+		"explanation": "Corrected Ca = total Ca + 0.8 × (4.0 − albumin) = 7.4 + 0.8 × (4.0 − 2.0) = 7.4 + 1.6 = 9.0 mg/dL. 5.8 mg/dL results from subtracting the correction instead of adding it.",
+		"source": "chem-corrected-calcium"
+	},
+	{
+		"id": "chem-0049",
+		"topic": "chem",
+		"subtopic": "endocrinology",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "TSH is 18 mIU/L (high) and free T4 is low. What is the most likely interpretation?",
+		"image": null,
+		"choices": [
+			"Primary hypothyroidism",
+			"Secondary (pituitary) hypothyroidism",
+			"Primary hyperthyroidism",
+			"Subclinical hypothyroidism"
+		],
+		"answer": 0,
+		"explanation": "When the thyroid makes too little hormone, the pituitary makes more TSH, so high TSH with low free T4 indicates primary hypothyroidism. Pituitary failure gives low or inappropriately normal TSH, and subclinical hypothyroidism has a normal free T4.",
+		"source": "chem-tsh-test"
+	},
+	{
+		"id": "chem-0050",
+		"topic": "chem",
+		"subtopic": "endocrinology",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Which test is recommended as an initial screening test for Cushing syndrome?",
+		"image": null,
+		"choices": [
+			"ACTH (cosyntropin) stimulation test",
+			"1-mg overnight dexamethasone suppression test",
+			"Plasma renin activity",
+			"Oral glucose tolerance test with growth hormone"
+		],
+		"answer": 1,
+		"explanation": "Initial testing uses a highly accurate test such as the 1-mg overnight dexamethasone suppression test, late-night salivary cortisol or urine free cortisol. The ACTH stimulation test evaluates adrenal insufficiency, not cortisol excess.",
+		"source": "chem-cushing-guideline"
+	},
+	{
+		"id": "chem-0051",
+		"topic": "chem",
+		"subtopic": "endocrinology",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "Which urine specimen is best for a qualitative hCG pregnancy test early in pregnancy?",
+		"image": null,
+		"choices": [
+			"Random afternoon urine",
+			"24-hour urine",
+			"Urine collected after drinking extra fluids",
+			"First morning urine"
+		],
+		"answer": 3,
+		"explanation": "First morning urine is the most concentrated and usually has enough hCG to be detected. Dilute urine collected after extra fluids can give a false-negative result early in pregnancy.",
+		"source": "chem-urine-hcg"
+	},
+	{
+		"id": "chem-0052",
+		"topic": "chem",
+		"subtopic": "endocrinology",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Serum calcium is 11.8 mg/dL and intact PTH is increased. Which condition is most consistent?",
+		"image": null,
+		"choices": [
+			"Primary hyperparathyroidism",
+			"Secondary hyperparathyroidism",
+			"Hypoparathyroidism",
+			"Vitamin D deficiency"
+		],
+		"answer": 0,
+		"explanation": "Primary hyperparathyroidism is high PTH with high blood calcium, most often from a parathyroid adenoma. Secondary hyperparathyroidism is high PTH with low blood calcium, the glands responding appropriately.",
+		"source": "chem-pth-test"
+	},
+	{
+		"id": "chem-0053",
+		"topic": "chem",
+		"subtopic": "endocrinology",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "A patient with suspected molar pregnancy has a serum hCG by sandwich immunoassay that is far lower than expected. What is the best next step?",
+		"image": null,
+		"choices": [
+			"Dilute the specimen and repeat the assay",
+			"Report the result and recommend repeat testing in one week",
+			"Repeat the test on a qualitative urine hCG device",
+			"Repeat the undiluted specimen on the same assay"
+		],
+		"answer": 0,
+		"explanation": "Very high hCG concentrations, as in molar pregnancy, can saturate both antibodies in a sandwich immunoassay (hook effect) and give falsely low results; diluting the sample and re-assaying reveals the true concentration. Repeating the undiluted sample reproduces the same error.",
+		"source": "chem-hook-effect"
+	},
+	{
+		"id": "chem-0054",
+		"topic": "chem",
+		"subtopic": "tdm_toxicology",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "When should the blood sample for a trough drug level be collected?",
+		"image": null,
+		"choices": [
+			"30 minutes after an IV infusion ends",
+			"At any random time during the dosing interval",
+			"Just before the next dose is due",
+			"1 hour after an oral dose"
+		],
+		"answer": 2,
+		"explanation": "A trough is the lowest concentration in the dosing interval, so it is drawn just before the next dose. Samples shortly after a dose reflect peak concentrations.",
+		"source": "chem-vancomycin-tdm"
+	},
+	{
+		"id": "chem-0055",
+		"topic": "chem",
+		"subtopic": "tdm_toxicology",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "After a single acute acetaminophen ingestion, what is the earliest time a serum level can be plotted on the Rumack–Matthew nomogram?",
+		"image": null,
+		"choices": [
+			"1 hour after ingestion",
+			"2 hours after ingestion",
+			"12 hours after ingestion",
+			"4 hours after ingestion"
+		],
+		"answer": 3,
+		"explanation": "The nomogram applies to timed acetaminophen concentrations measured between 4 and 24 hours after a single acute ingestion. Earlier levels may not reflect complete absorption.",
+		"source": "chem-acetaminophen"
+	},
+	{
+		"id": "chem-0056",
+		"topic": "chem",
+		"subtopic": "tdm_toxicology",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A 2-year-old's capillary (fingerstick) blood lead level is 6 µg/dL. What is the recommended next step?",
+		"image": null,
+		"choices": [
+			"Confirm with a venous blood lead test",
+			"Report lead poisoning without further testing",
+			"Measure urine lead",
+			"Repeat capillary screening at the next annual visit"
+		],
+		"answer": 0,
+		"explanation": "Capillary results above the CDC blood lead reference value of 3.5 µg/dL are confirmed with a venous sample (within 3 months for 3.5–9 µg/dL), because lead on the skin can falsely raise capillary results. Blood, not urine, is the specimen for lead testing.",
+		"source": "chem-blood-lead"
+	},
+	{
+		"id": "chem-0057",
+		"topic": "chem",
+		"subtopic": "tdm_toxicology",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "An unresponsive patient has Na 140 mmol/L, glucose 90 mg/dL, BUN 14 mg/dL and a measured osmolality of 320 mOsm/kg; ethanol is negative. What is the osmolal gap and its significance?",
+		"image": null,
+		"choices": [
+			"30 mOsm/kg; within normal limits",
+			"30 mOsm/kg; suggests a toxic alcohol such as ethylene glycol or methanol",
+			"10 mOsm/kg; within normal limits, no unmeasured osmoles present",
+			"0 mOsm/kg; excludes toxic alcohol ingestion"
+		],
+		"answer": 1,
+		"explanation": "Calculated osmolality = 2 × 140 + 90/18 + 14/2.8 = 280 + 5 + 5 = 290 mOsm/kg, so the gap = 320 − 290 = 30 mOsm/kg. An increased gap with negative ethanol points to unmeasured osmoles such as ethylene glycol or methanol; a normal gap is under about 10.",
+		"source": "chem-osmolal-gap"
+	},
+	{
+		"id": "chem-0058",
+		"topic": "chem",
+		"subtopic": "tdm_toxicology",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A patient taking digoxin and a diuretic develops signs of digoxin toxicity even though the digoxin level is within the therapeutic range. Which electrolyte abnormality increases this risk?",
+		"image": null,
+		"choices": [
+			"Hyperkalemia",
+			"Hypernatremia",
+			"Hypokalemia",
+			"Hypophosphatemia"
+		],
+		"answer": 2,
+		"explanation": "Many diuretics cause potassium loss, and a low potassium level increases the risk of digitalis toxicity. Potassium loss, not potassium excess, is the classic predisposing factor.",
+		"source": "chem-digitalis-toxicity"
+	},
+	{
+		"id": "chem-0059",
+		"topic": "chem",
+		"subtopic": "vitamins_nutrition",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Which test is ordered to assess whether a patient has enough vitamin D?",
+		"image": null,
+		"choices": [
+			"1,25-dihydroxyvitamin D",
+			"25-hydroxyvitamin D",
+			"Parathyroid hormone",
+			"Ionized calcium"
+		],
+		"answer": 1,
+		"explanation": "Most vitamin D tests measure 25-hydroxyvitamin D, the main circulating form that reflects body stores. 1,25-dihydroxyvitamin D is the active hormone and is not usually used to check vitamin D sufficiency.",
+		"source": "chem-vitamin-d"
+	},
+	{
+		"id": "chem-0060",
+		"topic": "chem",
+		"subtopic": "vitamins_nutrition",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "Both serum homocysteine and methylmalonic acid (MMA) are increased. Which deficiency best explains both results?",
+		"image": null,
+		"choices": [
+			"Folate",
+			"Vitamin B12",
+			"Vitamin B6",
+			"Iron"
+		],
+		"answer": 1,
+		"explanation": "Vitamin B12 is needed to break down MMA, so MMA accumulates in B12 deficiency, and B12 is also needed to clear homocysteine. Folate or B6 deficiency can raise homocysteine but does not raise MMA.",
+		"source": "chem-mma-test"
+	}
+]

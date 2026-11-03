@@ -1,13 +1,10 @@
 extends Control
 
-const TOPIC_NAMES := {
-	"phys": "Physiology", "rbc": "RBC disorders", "wbc": "WBC disorders",
-	"plt": "Platelet disorders", "lab": "Lab testing & morphology",
-	"hemo": "Hemostasis", "qc": "QC & lab operations",
-}
 const BENCH_NAMES := {
 	"knowledge": "Knowledge", "morphology": "Morphology", "differential": "Differential",
 	"cbc": "CBC review", "coag": "Coagulation", "qc": "Quality control",
+	"micro": "Microbiology", "urinalysis": "Urinalysis", "blood_bank": "Blood bank",
+	"immuno": "Immunology", "chem": "Chemistry", "safety": "Lab safety",
 }
 
 var _params: Dictionary = {}
@@ -45,7 +42,7 @@ func _ready() -> void:
 		column.add_child(level_card)
 	var weakest: String = String(_params.get("weakest_topic", ""))
 	if not weakest.is_empty():
-		column.add_child(UI.label("Weakest topic: " + String(TOPIC_NAMES.get(weakest, weakest))))
+		column.add_child(UI.label("Weakest topic: " + String(Topics.NAMES.get(weakest, weakest))))
 	column.add_child(UI.button("Another shift", _another_shift))
 	column.add_child(UI.button("Back to lab", func(): Nav.go("hub"), "SecondaryButton"))
 

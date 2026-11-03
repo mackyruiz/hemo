@@ -47,33 +47,45 @@ func _assert_unique(tasks: Array[Dictionary]) -> void:
 			ids[id] = true
 
 
-func test_level_one_has_exactly_two_morphology_tasks() -> void:
+func test_level_one_has_two_morphology_tasks_and_one_safety_task() -> void:
 	for seed_value in range(1, 21):
 		var tasks: Array[Dictionary] = ShiftComposer.compose(_fixture(), {}, 1, _rng(seed_value), 1000)
 		assert_eq(tasks.size(), 10)
 		var morphology_count: int = 0
+		var safety_count: int = 0
 		for task: Dictionary in tasks:
-			assert_true(task["bench"] in ["knowledge", "morphology"])
+			assert_true(task["bench"] in ["knowledge", "morphology", "safety"])
 			assert_eq(int(task["tier"]), 1)
 			if task["bench"] == "morphology":
 				morphology_count += 1
 				assert_eq(task["variant"], "identify")
+			elif task["bench"] == "safety":
+				safety_count += 1
 		assert_eq(morphology_count, 2)
+		assert_eq(safety_count, 1)
 		_assert_unique(tasks)
 
 
-func test_level_five_has_all_benches_and_never_starts_with_differential() -> void:
+func test_level_five_caps_bench_slots_and_covers_every_unlocked_bench() -> void:
+	var seen: Dictionary = {}
 	for seed_value in range(1, 31):
 		var tasks: Array[Dictionary] = ShiftComposer.compose(_fixture(), {}, 5, _rng(seed_value), 1000)
 		assert_eq(tasks.size(), 10)
 		assert_ne(tasks[0]["bench"], "differential")
-		var benches: Dictionary = {}
+		var bench_tasks: int = 0
 		for task: Dictionary in tasks:
-			benches[task["bench"]] = true
+			seen[task["bench"]] = true
 			assert_eq(int(task["tier"]), 2)
-		for bench: String in XpRules.BENCH_UNLOCK:
-			assert_true(benches.has(bench), bench + " is represented")
+			if task["bench"] != "knowledge":
+				bench_tasks += 1
+		assert_eq(bench_tasks, ShiftComposer.MAX_BENCH_SLOTS)
 		_assert_unique(tasks)
+	var expected: Array = []
+	expected.assign(XpRules.unlocked_benches(5))
+	var actual: Array = seen.keys()
+	expected.sort()
+	actual.sort()
+	assert_eq(actual, expected)
 
 
 func test_oldest_due_item_precedes_other_knowledge_items() -> void:

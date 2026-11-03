@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "bb-0001",
+    "topic": "bb",
+    "subtopic": "donors_processing",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Under FDA blood donor eligibility requirements, how long must a donor wait after a whole blood donation before donating whole blood again?",
+    "image": null,
+    "choices": [
+      "4 weeks",
+      "8 weeks",
+      "12 weeks",
+      "6 months"
+    ],
+    "answer": 1,
+    "explanation": "A donor must not have donated blood in the last eight weeks (56 days), which allows hemoglobin and iron to recover. Four weeks is too short an interval after a whole blood donation.",
+    "source": "bb-fda-blood-donation"
+  },
+  {
+    "id": "bb-0002",
+    "topic": "bb",
+    "subtopic": "donors_processing",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "A prospective donor reports getting a tattoo 6 weeks ago at a facility that is not state-licensed. What is the correct eligibility decision?",
+    "image": null,
+    "choices": [
+      "Accept today if the hemoglobin is acceptable",
+      "Accept today, because the tattoo has healed",
+      "Defer until 3 months after the tattoo",
+      "Defer permanently"
+    ],
+    "answer": 2,
+    "explanation": "A tattoo in the last three months is a deferral unless it was done under sterile conditions at a state-licensed facility, so this donor is deferred until 3 months have passed. The deferral is temporary, and healing of the skin does not shorten it.",
+    "source": "bb-fda-blood-donation"
+  },
+  {
+    "id": "bb-0003",
+    "topic": "bb",
+    "subtopic": "donors_processing",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "FDA's May 2023 guidance revised how blood establishments screen donors for HIV risk. What approach does it recommend?",
+    "image": null,
+    "choices": [
+      "Deferring every first-time donor for 12 months",
+      "Evaluating donor eligibility with individual risk-based questions",
+      "Permanently deferring any man who has had sex with another man",
+      "Replacing the donor history questionnaire with HIV nucleic acid testing"
+    ],
+    "answer": 1,
+    "explanation": "The May 2023 guidance recommends evaluating donor eligibility with individual risk-based questions and revising donor history questionnaires accordingly. Donation testing does not replace the donor history; screening and testing are separate layers of safety.",
+    "source": "bb-fda-individual-risk-questions"
+  },
+  {
+    "id": "bb-0004",
+    "topic": "bb",
+    "subtopic": "donors_processing",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "During a plateletpheresis collection, the donor reports tingling around the mouth and in the fingertips. What is the most likely cause?",
+    "image": null,
+    "choices": [
+      "Citrate-induced hypocalcemia",
+      "Hemolysis of the returned red cells",
+      "Hypovolemia from a large extracorporeal volume",
+      "An allergic reaction to the collection kit"
+    ],
+    "answer": 0,
+    "explanation": "Citrate toxicity in apheresis donors presents as perioral paresthesia, tingling and twitching because citrate binds ionized calcium. Hypovolemia causes lightheadedness or fainting rather than perioral tingling.",
+    "source": "bb-component-preparation"
+  },
+  {
+    "id": "bb-0005",
+    "topic": "bb",
+    "subtopic": "donors_processing",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Components from a new donation have been labeled and stored, but the infectious disease test results are still pending. How must these components be handled?",
+    "image": null,
+    "choices": [
+      "Released to inventory and recalled if a test is reactive",
+      "Released only for emergency use in group O recipients",
+      "Irradiated so they can be issued before testing is complete",
+      "Quarantine until test results are acceptable"
+    ],
+    "answer": 3,
+    "explanation": "Donated blood must be quarantined until it is tested and shown to be free of relevant transfusion-transmitted infections. Irradiation only prevents graft-versus-host disease and does not replace infectious disease testing.",
+    "source": "bb-fda-blood-donation"
+  },
+  {
+    "id": "bb-0006",
+    "topic": "bb",
+    "subtopic": "donors_processing",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Donor selection, serologic testing and nucleic acid testing (NAT) have greatly reduced viral transmission by transfusion. What accounts for most of the remaining (residual) risk?",
+    "image": null,
+    "choices": [
+      "False-positive screening tests that discard safe units",
+      "Plasma derivatives such as albumin given with transfusion",
+      "Recent infection during the window period",
+      "Viruses that multiply in red cells during refrigerated storage"
+    ],
+    "answer": 2,
+    "explanation": "Residual risk comes from asymptomatic donors who donate in the window period, when infection is present but markers are not yet detectable. False-positive results waste units but cannot transmit infection.",
+    "source": "bb-adverse-transfusion-reactions"
+  },
+  {
+    "id": "bb-0007",
+    "topic": "bb",
+    "subtopic": "components_storage",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Red blood cells stored in an additive solution such as AS-1 (Adsol) or SAGM have what maximum shelf life?",
+    "image": null,
+    "choices": [
+      "5 days",
+      "21 days",
+      "35 days",
+      "42 days"
+    ],
+    "answer": 3,
+    "explanation": "Additive solutions such as ADSOL or SAGM allow red cells to be stored for 42 days. The shorter 21- and 35-day limits apply to red cells in CPD and CPDA-1 without an additive solution.",
+    "source": "bb-component-preparation"
+  },
+  {
+    "id": "bb-0008",
+    "topic": "bb",
+    "subtopic": "components_storage",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "A transfusion service receives a conventional apheresis platelet unit for its inventory. How should the unit be stored until issue?",
+    "image": null,
+    "choices": [
+      "At −18 °C or colder in a plasma freezer",
+      "At 37 °C in a dry incubator",
+      "At 1–6 °C in the blood bank refrigerator",
+      "At 20–24 °C with continuous agitation"
+    ],
+    "answer": 3,
+    "explanation": "Platelets are stored at 20–24 °C in a platelet incubator-agitator to preserve function and prevent clumping. Freezer storage is used for plasma products, not conventional platelet units.",
+    "source": "bb-component-preparation"
+  },
+  {
+    "id": "bb-0009",
+    "topic": "bb",
+    "subtopic": "components_storage",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Fresh frozen plasma stored at −18 °C or colder has what maximum shelf life?",
+    "image": null,
+    "choices": [
+      "1 year",
+      "42 days",
+      "5 days",
+      "10 years"
+    ],
+    "answer": 0,
+    "explanation": "Frozen plasma may be stored for up to 1 year at −18 °C or lower, which limits loss of the labile factors V and VIII. Forty-two days is the red cell limit in additive solution, not a plasma limit.",
+    "source": "bb-component-therapy"
+  },
+  {
+    "id": "bb-0010",
+    "topic": "bb",
+    "subtopic": "components_storage",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A unit of FFP is thawed at 37 °C at 0800 and placed in the blood bank refrigerator, still labeled as FFP. By what time must it be transfused?",
+    "image": null,
+    "choices": [
+      "1200 the same day (4 hours after thawing)",
+      "1400 the same day (6 hours after thawing)",
+      "0800 the next day (24 hours after thawing)",
+      "0800 three days later (72 hours after thawing)"
+    ],
+    "answer": 2,
+    "explanation": "After thawing at 30–37 °C, FFP may be refrigerated but should be used within 24 hours to keep adequate levels of factors V and VIII. A 72-hour limit would allow too much loss of these labile factors for a product labeled FFP.",
+    "source": "bb-component-therapy"
+  },
+  {
+    "id": "bb-0011",
+    "topic": "bb",
+    "subtopic": "components_storage",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "How is cryoprecipitated AHF prepared from a unit of fresh frozen plasma?",
+    "image": null,
+    "choices": [
+      "Heavy-spin whole blood and collect the buffy coat layer",
+      "Thaw the FFP at 1–6 °C, centrifuge, remove the supernatant and refreeze the precipitate",
+      "Pass thawed FFP through a leukocyte-reduction filter and refreeze the filtrate",
+      "Thaw the FFP at 37 °C and refreeze the whole unit within 1 hour"
+    ],
+    "answer": 1,
+    "explanation": "FFP is thawed at 1–6 °C and centrifuged; the cold-insoluble precipitate, rich in fibrinogen, factor VIII and factor XIII, is resuspended in a small volume of plasma and refrozen. Thawing at 37 °C dissolves the cryoproteins instead of letting them precipitate.",
+    "source": "bb-cryoprecipitate"
+  },
+  {
+    "id": "bb-0012",
+    "topic": "bb",
+    "subtopic": "components_storage",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A red cell unit is labeled leukocyte-reduced. What residual white cell content must the unit meet?",
+    "image": null,
+    "choices": [
+      "Fewer than 5 × 10⁶ leukocytes per unit",
+      "Fewer than 1.2 × 10⁹ leukocytes per unit",
+      "Fewer than 5 × 10⁹ leukocytes per unit",
+      "Fewer than 5 × 10¹⁰ leukocytes per unit"
+    ],
+    "answer": 0,
+    "explanation": "A leukocyte-reduced unit must contain fewer than 5 × 10⁶ leukocytes, which reduces HLA alloimmunization, febrile reactions and CMV transmission. Removing the buffy coat alone leaves up to about 1.2 × 10⁹ leukocytes, which is not leukocyte-reduced.",
+    "source": "bb-component-preparation"
+  },
+  {
+    "id": "bb-0013",
+    "topic": "bb",
+    "subtopic": "abo_rh",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Forward grouping: anti-A 0, anti-B 4+. Reverse grouping: A1 cells 4+, B cells 0. What is the ABO group?",
+    "image": null,
+    "choices": [
+      "Group A",
+      "Group AB",
+      "Group B",
+      "Group O"
+    ],
+    "answer": 2,
+    "explanation": "The red cells carry B antigen (agglutinated by anti-B) and the serum contains anti-A (agglutinates A1 cells), which is the pattern of group B. Group A would show the opposite pattern.",
+    "source": "bb-blood-typing"
+  },
+  {
+    "id": "bb-0014",
+    "topic": "bb",
+    "subtopic": "abo_rh",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which ABO antibodies are expected in the serum of a healthy group O adult?",
+    "image": null,
+    "choices": [
+      "Anti-B only",
+      "Both anti-A and anti-B",
+      "Anti-A only",
+      "Neither anti-A nor anti-B"
+    ],
+    "answer": 1,
+    "explanation": "Group O red cells lack A and B antigens, and group O serum contains both anti-A and anti-B. Absence of both antibodies is the pattern of group AB.",
+    "source": "bb-blood-typing"
+  },
+  {
+    "id": "bb-0015",
+    "topic": "bb",
+    "subtopic": "abo_rh",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A patient types as group O in forward and reverse grouping, but the serum strongly agglutinates all group O reagent cells and every group O donor unit at immediate spin. The autocontrol is negative. What is the most likely explanation?",
+    "image": null,
+    "choices": [
+      "Group A2 with anti-A1",
+      "Rouleaux from high plasma protein",
+      "Bombay (Oh) phenotype with anti-H",
+      "Cold autoantibody with anti-I specificity"
+    ],
+    "answer": 2,
+    "explanation": "Bombay individuals lack H antigen and make anti-H along with anti-A and anti-B, so their serum reacts with H-rich group O cells; they need Bombay or autologous blood. A cold autoantibody would also make the autocontrol positive.",
+    "source": "bb-bombay-phenotype"
+  },
+  {
+    "id": "bb-0016",
+    "topic": "bb",
+    "subtopic": "abo_rh",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A pregnant woman has a serologic weak D phenotype, and RHD genotyping identifies weak D type 1. How should she be managed?",
+    "image": null,
+    "choices": [
+      "As RhD-negative for transfusion only",
+      "As RhD-positive; Rh immune globulin is not needed",
+      "Repeat serologic D typing every trimester",
+      "As RhD-negative; give Rh immune globulin at 28 weeks"
+    ],
+    "answer": 1,
+    "explanation": "People with weak D types 1, 2 or 3 are not at risk of forming alloanti-D and can be managed safely as RhD-positive, avoiding unnecessary Rh immune globulin and RhD-negative red cells. RhD-negative management is reserved for genotypes such as partial D that can form anti-D.",
+    "source": "bb-weak-d"
+  },
+  {
+    "id": "bb-0017",
+    "topic": "bb",
+    "subtopic": "abo_rh",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Why are Rh-negative recipients routinely given Rh-negative red cells?",
+    "image": null,
+    "choices": [
+      "Rh antibodies are IgM and cause immediate intravascular hemolysis",
+      "D-positive cells survive poorly in any recipient",
+      "Anti-D is naturally present in all Rh-negative people",
+      "After A and B, D is the most immunogenic red cell antigen"
+    ],
+    "answer": 3,
+    "explanation": "After A and B, D is more immunogenic than virtually all other red cell antigens, so transfusing D-positive cells can readily lead to anti-D formation. Anti-D is not naturally occurring and forms after exposure through transfusion or pregnancy.",
+    "source": "bb-red-cell-antigens"
+  },
+  {
+    "id": "bb-0018",
+    "topic": "bb",
+    "subtopic": "abo_rh",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A patient with acute myeloid leukemia, previously typed as group A, now reacts only 1+ with anti-A, while the reverse grouping still shows anti-B only. Which type of ABO discrepancy is this?",
+    "image": null,
+    "choices": [
+      "Weakened or missing antibodies in the serum",
+      "Weakened red cell antigens",
+      "Rouleaux caused by abnormal plasma proteins",
+      "An unexpected cold alloantibody in the serum"
+    ],
+    "answer": 1,
+    "explanation": "The forward grouping is weak while the reverse grouping is as expected, so the problem is weakened red cell antigen expression (a Type II discrepancy), which can occur with acute leukemia. Weakened or missing antibodies (Type I) would affect the reverse grouping instead.",
+    "source": "bb-abo-discrepancies"
+  },
+  {
+    "id": "bb-0019",
+    "topic": "bb",
+    "subtopic": "abo_rh",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "In a patient with multiple myeloma, the reverse grouping shows unexpected agglutination of both A1 and B cells, and the clumps look like stacks of coins under the microscope. What causes this ABO discrepancy?",
+    "image": null,
+    "choices": [
+      "Rouleaux from abnormal plasma proteins",
+      "An acquired B antigen from bacterial infection",
+      "Missing ABO antibodies from hypogammaglobulinemia",
+      "Weakened A and B antigens from malignancy"
+    ],
+    "answer": 0,
+    "explanation": "Protein abnormalities cause rouleaux, which produce pseudoagglutination in serum tests (a Type III discrepancy). Weakened antigens (Type II) would affect the forward grouping, not the reverse grouping.",
+    "source": "bb-abo-discrepancies"
+  },
+  {
+    "id": "bb-0020",
+    "topic": "bb",
+    "subtopic": "other_blood_groups",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "The Fy(a−b−) red cell phenotype is classically associated with resistance to which malaria parasite, which uses Duffy as an invasion receptor?",
+    "image": null,
+    "choices": [
+      "Babesia microti",
+      "Plasmodium vivax",
+      "Plasmodium falciparum",
+      "Plasmodium malariae"
+    ],
+    "answer": 1,
+    "explanation": "Duffy is the receptor for the Plasmodium vivax Duffy-binding protein, explaining the classic association of Duffy-null red cells with resistance to infection. Protection is not absolute: P. vivax can cause clinical malaria in Duffy-negative people.",
+    "source": "bb-duffy-malaria"
+  },
+  {
+    "id": "bb-0021",
+    "topic": "bb",
+    "subtopic": "other_blood_groups",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which blood group antigen is the cellular receptor for parvovirus B19?",
+    "image": null,
+    "choices": [
+      "Duffy glycoprotein",
+      "P antigen (globoside)",
+      "Kell glycoprotein",
+      "Lewis b antigen"
+    ],
+    "answer": 1,
+    "explanation": "Parvovirus B19 binds P antigen (globoside) on erythroid progenitors, and people with the rare p phenotype resist infection. Lewis b is a binding site for Helicobacter pylori, not parvovirus.",
+    "source": "bb-red-cell-antigens"
+  },
+  {
+    "id": "bb-0022",
+    "topic": "bb",
+    "subtopic": "other_blood_groups",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "How do red cells acquire Lewis antigens?",
+    "image": null,
+    "choices": [
+      "By synthesis in erythroblasts during red cell maturation",
+      "By transfer from platelets during circulation",
+      "By adsorbing soluble Lewis substances from the plasma",
+      "By conversion of A and B antigens in the spleen"
+    ],
+    "answer": 2,
+    "explanation": "Lewis antigens are soluble antigens in saliva and plasma, and red cells acquire their Lewis phenotype by adsorbing them from the plasma. This is also why cord cells react weakly or not at all with Lewis antisera.",
+    "source": "bb-red-cell-antigens"
+  },
+  {
+    "id": "bb-0023",
+    "topic": "bb",
+    "subtopic": "other_blood_groups",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A patient's record shows anti-Jka identified 2 years ago. Today's antibody screen is negative. How should red cells be selected for transfusion?",
+    "image": null,
+    "choices": [
+      "Any ABO-compatible units, because the antibody is gone",
+      "Jk(a−), antiglobulin-crossmatch-compatible units",
+      "Jk(a+) units after an immediate-spin crossmatch",
+      "No transfusion until the antibody is detectable again"
+    ],
+    "answer": 1,
+    "explanation": "Kidd antibodies show evanescence, falling below detectable levels, and can return in an anamnestic response that causes a delayed hemolytic transfusion reaction. Antigen-negative units are still required even when the current screen is negative.",
+    "source": "bb-kidd-dhtr"
+  },
+  {
+    "id": "bb-0024",
+    "topic": "bb",
+    "subtopic": "other_blood_groups",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "In hemolytic disease of the fetus and newborn caused by anti-K, fetal anemia is often more severe than the degree of hemolysis and bilirubin would suggest. Why?",
+    "image": null,
+    "choices": [
+      "Anti-K is IgM and acts only after birth",
+      "K antigen is not expressed on fetal red cells",
+      "Anti-K targets fetal platelets rather than red cells",
+      "Suppression of fetal erythropoiesis"
+    ],
+    "answer": 3,
+    "explanation": "Anti-K suppresses erythropoiesis and destroys erythroid progenitors, so anemia develops with relatively little hemolysis and bilirubin. Anti-K is an IgG antibody that crosses the placenta, which is why it causes HDFN at all.",
+    "source": "bb-hdfn-immunohematology"
+  },
+  {
+    "id": "bb-0025",
+    "topic": "bb",
+    "subtopic": "other_blood_groups",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which statement describes the I and i antigens?",
+    "image": null,
+    "choices": [
+      "Cord cells are rich in i; adult I expression increases after birth",
+      "I and i are found only in saliva, not on red cells",
+      "Adult I dominates cord cells; i becomes the main antigen in adults",
+      "I and i are antithetical antigens encoded by alleles at one locus"
+    ],
+    "answer": 0,
+    "explanation": "At birth red cells carry abundant i with almost no I; I increases as i decreases until about 18 months, when little i remains. I and i are not antithetical; i is the precursor structure of I.",
+    "source": "bb-red-cell-antigens"
+  },
+  {
+    "id": "bb-0026",
+    "topic": "bb",
+    "subtopic": "blood_group_immunology",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Why do anti-A and anti-B cause rapid hemolysis of ABO-incompatible red cells?",
+    "image": null,
+    "choices": [
+      "They are mainly IgM antibodies that agglutinate cells directly",
+      "They form only after a first incompatible transfusion",
+      "They are IgE antibodies that trigger mast cell release",
+      "They are IgG4 antibodies that react only with enzyme-treated cells"
+    ],
+    "answer": 0,
+    "explanation": "Anti-A and anti-B are largely IgM alloantibodies that cause direct agglutination and rapid intravascular hemolysis of incompatible cells. They are present without prior transfusion, which is why ABO typing is required before every transfusion.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0027",
+    "topic": "bb",
+    "subtopic": "blood_group_immunology",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "In the indirect antiglobulin test, why are the incubated red cells washed with saline before antihuman globulin (AHG) reagent is added?",
+    "image": null,
+    "choices": [
+      "To elute bound antibody for identification",
+      "To remove complement so that only IgG is detected",
+      "To lyse red cells coated with IgM",
+      "To remove unbound serum antibodies"
+    ],
+    "answer": 3,
+    "explanation": "Washing with 0.9% saline removes unbound antibodies; otherwise free serum globulin would neutralize the AHG reagent and cause a false-negative result. Washing does not elute bound antibody, which requires a separate elution procedure.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0028",
+    "topic": "bb",
+    "subtopic": "blood_group_immunology",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which immunoglobulin class of maternal red cell antibody crosses the placenta and causes hemolytic disease of the fetus and newborn?",
+    "image": null,
+    "choices": [
+      "IgE",
+      "IgA",
+      "IgM",
+      "IgG"
+    ],
+    "answer": 3,
+    "explanation": "HDFN occurs when maternal IgG antibody against a fetal red cell antigen crosses the placenta. IgM is too large to cross, which is why Lewis antibodies, mostly IgM, are not implicated in HDFN.",
+    "source": "bb-hdfn-immunohematology"
+  },
+  {
+    "id": "bb-0029",
+    "topic": "bb",
+    "subtopic": "blood_group_immunology",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A patient's antibody reacts 3+ with Jk(a−b+) panel cells but weakly or not at all with Jk(a+b+) cells. What explains this pattern?",
+    "image": null,
+    "choices": [
+      "Enzyme destruction of Jkb on some panel cells",
+      "Prozone: excess antibody blocking agglutination",
+      "Mixed-field reactions from a recent transfusion",
+      "Dosage from homozygous antigen expression"
+    ],
+    "answer": 3,
+    "explanation": "Kidd antibodies show dosage, reacting more strongly with homozygous cells, here Jk(a−b+) cells with a double dose of Jkb, than with heterozygous Jk(a+b+) cells. Prozone would weaken reactions with every antigen-positive cell, not only the heterozygous ones.",
+    "source": "bb-kidd-dhtr"
+  },
+  {
+    "id": "bb-0030",
+    "topic": "bb",
+    "subtopic": "blood_group_immunology",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Why does an ABO-incompatible transfusion typically cause intravascular hemolysis, whereas many IgG alloantibodies cause mainly extravascular clearance?",
+    "image": null,
+    "choices": [
+      "Robust complement activation through to cell lysis",
+      "ABO antigens are anchored to the red cell cytoskeleton",
+      "ABO-incompatible cells are removed by the spleen within minutes",
+      "ABO antibodies bind only to macrophage Fc receptors"
+    ],
+    "answer": 0,
+    "explanation": "ABO(H) hemolytic transfusion reactions produce robust complement activation and rapid intravascular hemolysis. Clearance through Fc receptors on macrophages, which contributes in reactions such as those due to anti-K, is extravascular.",
+    "source": "bb-complement-htr"
+  },
+  {
+    "id": "bb-0031",
+    "topic": "bb",
+    "subtopic": "antibody_identification",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Why are antibody screening cells group O?",
+    "image": null,
+    "choices": [
+      "Because group O cells carry the most Rh antigens",
+      "So that the cells can also serve as the autocontrol",
+      "To avoid reactions with the patient's ABO antibodies",
+      "Because group O cells lack all minor blood group antigens"
+    ],
+    "answer": 2,
+    "explanation": "Antibody screening uses group O red cells of known antigen composition, so ABO antibodies do not react and any reaction points to unexpected antibodies. Group O cells still carry many other antigens, which the screen is designed to test.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0032",
+    "topic": "bb",
+    "subtopic": "antibody_identification",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "An antibody panel shows all 11 cells reacting at the antiglobulin phase, and the autocontrol is also positive. What is the most likely cause?",
+    "image": null,
+    "choices": [
+      "An alloantibody to a low-prevalence antigen",
+      "Anti-A1 in a group A2 patient",
+      "A Lewis antibody reacting at room temperature",
+      "A warm autoantibody"
+    ],
+    "answer": 3,
+    "explanation": "Agglutination of all panel cells together with a positive autocontrol indicates an autoantibody, as in warm autoimmune hemolytic anemia. An alloantibody gives a specific pattern with a negative autocontrol.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0033",
+    "topic": "bb",
+    "subtopic": "antibody_identification",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A myeloma patient receiving daratumumab (anti-CD38) has a panreactive antibody screen and panel at the AHG phase. Testing with dithiothreitol (DTT)-treated cells is negative. If the patient's K type is unknown, which red cells should be issued?",
+    "image": null,
+    "choices": [
+      "Any ABO-compatible units after an immediate-spin crossmatch",
+      "K-negative units, because DTT destroys Kell antigens",
+      "D-negative units, because DTT destroys the D antigen",
+      "Fy(a−) units, because DTT destroys Duffy antigens"
+    ],
+    "answer": 1,
+    "explanation": "DTT denatures CD38 and removes daratumumab interference, but it also destroys Kell antigens, so anti-K cannot be excluded and K-negative units are issued. The D antigen is not affected by DTT.",
+    "source": "bb-daratumumab-interference"
+  },
+  {
+    "id": "bb-0034",
+    "topic": "bb",
+    "subtopic": "antibody_identification",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A panel is repeated with papain-treated cells. Antibodies to antigens of which blood group systems will no longer react?",
+    "image": null,
+    "choices": [
+      "Rh and Kidd",
+      "Duffy and MNS",
+      "ABO and Lewis",
+      "Kell only"
+    ],
+    "answer": 1,
+    "explanation": "Papain degrades antigens of the Duffy and MNS systems, so antibodies such as anti-Fya or anti-M lose reactivity with treated cells. Papain does not denature Kell antigens.",
+    "source": "bb-anti-cd38-review"
+  },
+  {
+    "id": "bb-0035",
+    "topic": "bb",
+    "subtopic": "antibody_identification",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A patient transfused 3 weeks ago needs an extended red cell antigen profile before starting anti-CD38 therapy. Which method gives a reliable result?",
+    "image": null,
+    "choices": [
+      "Serologic phenotyping with enzyme-treated cells",
+      "Red cell genotyping",
+      "An antibody screen with DTT-treated cells",
+      "Serologic phenotyping of a new sample"
+    ],
+    "answer": 1,
+    "explanation": "Serologic phenotyping may be inaccurate if the patient was transfused in the prior 3 months, because donor cells are still circulating; genotyping is unaffected by transfused cells. A DTT-treated screen addresses drug interference but does not type the patient's antigens.",
+    "source": "bb-anti-cd38-management"
+  },
+  {
+    "id": "bb-0036",
+    "topic": "bb",
+    "subtopic": "antibody_identification",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A patient has anti-K and anti-Fya. Assume antigen frequencies are independent: 91% of donor units are K-negative and 34% are Fy(a−). About how many random ABO-compatible units must be screened to find 2 units negative for both antigens?",
+    "image": null,
+    "choices": [
+      "3",
+      "5",
+      "7",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "Frequency of K−, Fy(a−) units = 0.91 × 0.34 ≈ 0.31; units to screen = 2 ÷ 0.31 ≈ 6.5, rounded up to 7. Only antigen-negative units are transfused because both antibodies are clinically significant.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0037",
+    "topic": "bb",
+    "subtopic": "antibody_identification",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A patient's antibody screen is positive, and the panel identifies anti-E. What is the appropriate red cell selection?",
+    "image": null,
+    "choices": [
+      "E-positive units after an immediate-spin crossmatch",
+      "Group O, Rh-negative units issued without a crossmatch",
+      "E-negative, antiglobulin-crossmatch-compatible units",
+      "Any ABO-identical units without further testing"
+    ],
+    "answer": 2,
+    "explanation": "When a clinically significant antibody is identified, only red cells negative for the corresponding antigen are transfused, and a full antiglobulin crossmatch is performed. Issuing units without a crossmatch skips the check for additional incompatibility.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0038",
+    "topic": "bb",
+    "subtopic": "dat_hemolytic",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "What does the direct antiglobulin test (DAT) detect?",
+    "image": null,
+    "choices": [
+      "Free antibody in the patient's plasma against reagent red cells",
+      "ABO antigens on the patient's red cells",
+      "Antibody or complement bound to red cells in vivo",
+      "Antibodies against donor white cells"
+    ],
+    "answer": 2,
+    "explanation": "The DAT tests washed patient red cells with antiglobulin reagent to detect antibody or complement on the cell surface. Free antibody in plasma is detected by the indirect antiglobulin test.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0039",
+    "topic": "bb",
+    "subtopic": "dat_hemolytic",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A patient with hemolytic anemia has a DAT positive with anti-IgG (with or without C3d), and the eluate reacts with every panel cell. What is the most likely diagnosis?",
+    "image": null,
+    "choices": [
+      "Paroxysmal cold hemoglobinuria",
+      "Delayed serologic transfusion reaction",
+      "Warm autoimmune hemolytic anemia",
+      "Cold agglutinin disease"
+    ],
+    "answer": 2,
+    "explanation": "Warm AIHA has a pan-reactive IgG autoantibody, so the DAT is positive with IgG, C3d or both and the eluate reacts with all cells. Cold agglutinin disease and paroxysmal cold hemoglobinuria give a DAT positive with C3d only.",
+    "source": "bb-aiha-classification"
+  },
+  {
+    "id": "bb-0040",
+    "topic": "bb",
+    "subtopic": "dat_hemolytic",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A patient recovering from Mycoplasma pneumoniae pneumonia has hemolysis. The DAT is positive with anti-C3d, negative with anti-IgG, and the serum has a high-titer cold agglutinin. What specificity is expected?",
+    "image": null,
+    "choices": [
+      "Anti-D",
+      "Anti-i (fetal linear-chain antigen)",
+      "Anti-P",
+      "Anti-I (adult branched-chain antigen)"
+    ],
+    "answer": 3,
+    "explanation": "Cold agglutinins after M. pneumoniae infection usually have anti-I specificity; they are complement-fixing IgM, so the DAT shows C3d only. Anti-i is associated with Epstein–Barr virus infectious mononucleosis.",
+    "source": "bb-cold-agglutinin-disease"
+  },
+  {
+    "id": "bb-0041",
+    "topic": "bb",
+    "subtopic": "dat_hemolytic",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A child develops hemoglobinuria after a viral illness, and the Donath–Landsteiner test is positive. What antibody causes this condition?",
+    "image": null,
+    "choices": [
+      "A monoclonal IgM anti-I cold agglutinin",
+      "A biphasic IgG auto-anti-P",
+      "A warm IgG autoantibody against band 3",
+      "An IgM alloantibody to Lewis antigens"
+    ],
+    "answer": 1,
+    "explanation": "Paroxysmal cold hemoglobinuria is caused by a biphasic IgG hemolysin that binds red cells in the cold and fixes complement that lyses them on warming; it recognizes the P blood group system. Monoclonal IgM anti-I causes cold agglutinin disease instead.",
+    "source": "bb-aiha-classification"
+  },
+  {
+    "id": "bb-0042",
+    "topic": "bb",
+    "subtopic": "dat_hemolytic",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A Kleihauer–Betke test on an Rh-negative mother after delivery of an Rh-positive infant shows 1.2% fetal cells. Using fetal whole blood (mL) = % fetal cells × 50, 30 mL per 300-µg vial, and one extra vial, how many vials of Rh immune globulin are indicated?",
+    "image": null,
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Fetal bleed = 1.2 × 50 = 60 mL fetal whole blood; 60 ÷ 30 mL per vial = 2 vials, plus 1 extra vial = 3 vials. Giving only 2 vials leaves no margin for the imprecision of the cell count.",
+    "source": "bb-fmh-testing"
+  },
+  {
+    "id": "bb-0043",
+    "topic": "bb",
+    "subtopic": "dat_hemolytic",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "An Rh-negative mother delivers an Rh-positive infant, and the postpartum fetal bleed (rosette) screen is positive. What is the next step?",
+    "image": null,
+    "choices": [
+      "Give one 300-µg vial of Rh immune globulin with no further testing",
+      "Repeat the rosette screen in 72 hours",
+      "Withhold Rh immune globulin because the mother is now sensitized",
+      "Quantify the bleed by Kleihauer–Betke or flow cytometry"
+    ],
+    "answer": 3,
+    "explanation": "The rosette test is a qualitative screen; a positive result requires quantitative testing such as the Kleihauer–Betke test or flow cytometry to calculate the Rh immune globulin dose. A positive rosette shows D-positive fetal cells in the maternal circulation, not maternal anti-D.",
+    "source": "bb-fmh-testing"
+  },
+  {
+    "id": "bb-0044",
+    "topic": "bb",
+    "subtopic": "compatibility_testing",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A patient's ABO/Rh type is confirmed and the antibody screen is negative, with no history of antibodies. Which crossmatch is commonly performed before issuing red cells?",
+    "image": null,
+    "choices": [
+      "Minor crossmatch of donor plasma with patient red cells",
+      "Autologous control with the patient's own cells",
+      "Immediate-spin crossmatch",
+      "Antiglobulin crossmatch with 37 °C incubation"
+    ],
+    "answer": 2,
+    "explanation": "With a negative antibody screen, mixing patient serum with donor cells and reading immediately for hemolysis or agglutination (immediate spin) adds safety by detecting ABO incompatibility. A full antiglobulin crossmatch is needed when a clinically significant antibody is present.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0045",
+    "topic": "bb",
+    "subtopic": "compatibility_testing",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "A trauma patient needs red cells immediately, before a blood sample can be typed. What should the blood bank issue?",
+    "image": null,
+    "choices": [
+      "Emergency-release group O red cells",
+      "No blood until a crossmatch is complete",
+      "Red cells of the type the patient states",
+      "Group AB red cells, because AB is the universal recipient"
+    ],
+    "answer": 0,
+    "explanation": "When the patient's type is unknown and there is no time to test, uncrossmatched group O (O-negative) red cells are issued, and the physician signs an emergency release form. AB red cells carry A and B antigens that the patient's anti-A or anti-B could destroy.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0046",
+    "topic": "bb",
+    "subtopic": "compatibility_testing",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "In a major crossmatch, which two components are tested together?",
+    "image": null,
+    "choices": [
+      "Patient serum or plasma and donor red cells",
+      "Donor red cells and antihuman globulin only",
+      "Patient serum and group O reagent cells",
+      "Donor plasma and patient red cells"
+    ],
+    "answer": 0,
+    "explanation": "The crossmatch determines whether the recipient's serum contains antibodies to the donor's red cell antigens, so patient serum is tested against donor cells. Testing patient serum against group O reagent cells is the antibody screen.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0047",
+    "topic": "bb",
+    "subtopic": "compatibility_testing",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A 60-year-old Rh-negative man is receiving massive transfusion after trauma, and the Rh-negative red cell inventory will soon run out. What is the accepted practice?",
+    "image": null,
+    "choices": [
+      "Withhold red cells until an Rh-negative shipment arrives",
+      "Switch to group AB, Rh-negative red cells",
+      "Switch to Rh-positive red cells",
+      "Continue only Rh-negative units, even if transfusion must stop"
+    ],
+    "answer": 2,
+    "explanation": "Once it is clear that massive transfusion will exceed the Rh-negative inventory, the patient should be switched to Rh-positive components, considering future needs and other Rh-negative patients. Stopping life-saving transfusion to avoid possible anti-D formation is not acceptable.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0048",
+    "topic": "bb",
+    "subtopic": "compatibility_testing",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "A group B, Rh-negative patient needs red cells. Which donor unit is compatible?",
+    "image": null,
+    "choices": [
+      "AB, Rh-negative",
+      "B, Rh-positive",
+      "A, Rh-negative",
+      "O, Rh-negative"
+    ],
+    "answer": 3,
+    "explanation": "A group B patient can receive group B or O red cells, and an Rh-negative patient should receive Rh-negative blood, so O-negative is compatible. B-positive cells carry D, and A or AB cells carry A antigen that the patient's anti-A would destroy.",
+    "source": "bb-blood-typing"
+  },
+  {
+    "id": "bb-0049",
+    "topic": "bb",
+    "subtopic": "compatibility_testing",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Donor and patient are matched for ABO and Rh. Why is antiglobulin testing (antibody screen or crossmatch) still needed before a routine transfusion?",
+    "image": null,
+    "choices": [
+      "The crossmatch confirms the donor's infectious disease tests",
+      "Possible antibodies to non-ABO/Rh red cell antigens",
+      "ABO typing is unreliable unless confirmed by a crossmatch",
+      "The crossmatch detects bacterial contamination of the unit"
+    ],
+    "answer": 1,
+    "explanation": "Many minor red cell antigens are not detected by routine typing, so a reaction can still occur after ABO/Rh matching; crossmatching with a Coombs test helps detect these incompatibilities. The crossmatch does not test for infection or bacterial contamination.",
+    "source": "bb-blood-typing"
+  },
+  {
+    "id": "bb-0050",
+    "topic": "bb",
+    "subtopic": "transfusion_reactions",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Ten minutes into a red cell transfusion, the patient develops fever, chills, flank pain and hypotension. What should be done first?",
+    "image": null,
+    "choices": [
+      "Give diphenhydramine and restart when symptoms resolve",
+      "Slow the transfusion and give acetaminophen",
+      "Stop the transfusion and keep the IV line open with normal saline",
+      "Finish the unit quickly, then notify the blood bank"
+    ],
+    "answer": 2,
+    "explanation": "Suspected acute hemolysis requires stopping the transfusion immediately and giving isotonic saline, then returning the bag and a patient sample to the blood bank. Slowing or finishing the unit gives the patient more incompatible cells.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0051",
+    "topic": "bb",
+    "subtopic": "transfusion_reactions",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Febrile nonhemolytic transfusion reactions are mainly caused by which factor, and reduced by which product modification?",
+    "image": null,
+    "choices": [
+      "Donor leukocytes and their cytokines; reduced by leukoreduction",
+      "Donor plasma proteins; reduced by irradiation",
+      "Bacterial contamination; reduced by washing",
+      "Donor IgA; reduced by volume reduction"
+    ],
+    "answer": 0,
+    "explanation": "Febrile reactions are mediated by antibodies to donor white cells and by cytokines released during storage, so leukocyte-reduced products cause fewer of them. Irradiation inactivates donor T cells to prevent graft-versus-host disease but does not remove cytokines.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0052",
+    "topic": "bb",
+    "subtopic": "transfusion_reactions",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A patient has anaphylaxis during a plasma transfusion, and workup shows IgA deficiency with anti-IgA. Which red cell product should be provided if IgA-deficient donor blood is unavailable?",
+    "image": null,
+    "choices": [
+      "Washed red cells",
+      "CMV-seronegative red cells",
+      "Leukocyte-reduced red cells",
+      "Irradiated red cells"
+    ],
+    "answer": 0,
+    "explanation": "Washing removes most of the plasma and with it donor IgA, so washed red cells are used for IgA-deficient patients who have formed anti-IgA. Irradiation and leukoreduction do not remove plasma proteins.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0053",
+    "topic": "bb",
+    "subtopic": "transfusion_reactions",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Which description fits transfusion-related acute lung injury (TRALI)?",
+    "image": null,
+    "choices": [
+      "Lung injury 7–10 days after transfusion from donor T cells",
+      "Hydrostatic pulmonary edema from volume overload that responds to diuretics",
+      "Bronchospasm from IgE against donor plasma proteins",
+      "Noncardiogenic pulmonary edema within 6 hours, often from donor anti-leukocyte antibodies"
+    ],
+    "answer": 3,
+    "explanation": "TRALI is acute lung injury during or within 6 hours of transfusion, often linked to donor leukocyte antibodies that are more common in plasma from female donors. Volume-overload edema that improves with diuretics describes TACO.",
+    "source": "bb-trali"
+  },
+  {
+    "id": "bb-0054",
+    "topic": "bb",
+    "subtopic": "transfusion_reactions",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "Two hours after receiving 3 units of red cells, an elderly patient with heart failure becomes dyspneic, with acute hypertension, distended neck veins and peripheral edema, and improves quickly with diuretics. Which reaction is most likely?",
+    "image": null,
+    "choices": [
+      "Transfusion-related acute lung injury (TRALI)",
+      "Anaphylactic transfusion reaction",
+      "Febrile nonhemolytic transfusion reaction",
+      "Transfusion-associated circulatory overload (TACO)"
+    ],
+    "answer": 3,
+    "explanation": "Distended neck veins, peripheral edema, acute hypertension and rapid improvement with diuresis point to circulatory overload. Fever and occasional hypotension favor TRALI, which is a permeability edema.",
+    "source": "bb-trali"
+  },
+  {
+    "id": "bb-0055",
+    "topic": "bb",
+    "subtopic": "transfusion_reactions",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Seven days after an uneventful red cell transfusion, a patient's hemoglobin falls, indirect bilirubin and LDH rise, and the DAT is newly positive with anti-IgG. What is the most likely diagnosis?",
+    "image": null,
+    "choices": [
+      "Delayed hemolytic transfusion reaction",
+      "Acute hemolytic transfusion reaction from ABO incompatibility",
+      "Transfusion-associated graft-versus-host disease",
+      "Febrile nonhemolytic transfusion reaction"
+    ],
+    "answer": 0,
+    "explanation": "Delayed hemolytic reactions occur about 3–10 days after transfusion when an anamnestic response to a donor antigen, often Kidd, destroys the transfused cells; the DAT becomes positive and an eluate identifies the antibody. ABO-incompatible reactions occur during or right after the transfusion.",
+    "source": "bb-kidd-dhtr"
+  },
+  {
+    "id": "bb-0056",
+    "topic": "bb",
+    "subtopic": "component_therapy",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which component is the most concentrated blood bank source of fibrinogen for a bleeding patient with hypofibrinogenemia?",
+    "image": null,
+    "choices": [
+      "Apheresis platelets",
+      "5% albumin",
+      "Fresh frozen plasma",
+      "Cryoprecipitated AHF"
+    ],
+    "answer": 3,
+    "explanation": "Cryoprecipitate is rich in fibrinogen (about 250 mg per unit), factor VIII and von Willebrand factor and is used for fibrinogen deficiency. FFP also contains fibrinogen but only at plasma concentration, so much larger volumes would be needed.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0057",
+    "topic": "bb",
+    "subtopic": "component_therapy",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which patient requires irradiated cellular blood components?",
+    "image": null,
+    "choices": [
+      "A directed donation from a first-degree relative",
+      "A patient receiving plasma for multiple factor deficiencies",
+      "An adult with iron deficiency anemia receiving routine red cells",
+      "A patient with anti-IgA receiving washed red cells"
+    ],
+    "answer": 0,
+    "explanation": "Donations from first- or second-degree relatives require gamma irradiation of cellular components to prevent transfusion-associated graft-versus-host disease. Routine adult red cell transfusions and plasma do not require irradiation.",
+    "source": "bb-component-preparation"
+  },
+  {
+    "id": "bb-0058",
+    "topic": "bb",
+    "subtopic": "component_therapy",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A 70-kg adult with no ongoing bleeding has a hemoglobin of 7.0 g/dL and receives 2 units of red cells. What post-transfusion hemoglobin is expected?",
+    "image": null,
+    "choices": [
+      "About 8 g/dL",
+      "About 9 g/dL",
+      "About 11 g/dL",
+      "About 13 g/dL"
+    ],
+    "answer": 1,
+    "explanation": "Each red cell unit raises hemoglobin by about 1 g/dL (hematocrit by about 3%) in an adult: 7.0 + (2 × 1) = about 9 g/dL. An answer of 8 g/dL accounts for only one unit.",
+    "source": "bb-component-therapy"
+  },
+  {
+    "id": "bb-0059",
+    "topic": "bb",
+    "subtopic": "component_therapy",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "In which patient is platelet transfusion generally not recommended?",
+    "image": null,
+    "choices": [
+      "Thrombotic thrombocytopenic purpura",
+      "Aplastic anemia with a platelet count of 5,000/µL",
+      "Chemotherapy-induced thrombocytopenia with a platelet count of 8,000/µL",
+      "A surgical patient bleeding with a platelet count of 30,000/µL"
+    ],
+    "answer": 0,
+    "explanation": "Platelet transfusion is not recommended in thrombotic thrombocytopenic purpura, hemolytic uremic syndrome or heparin-induced thrombocytopenia. Profound thrombocytopenia from decreased production, as in aplasia or chemotherapy, is a standard indication.",
+    "source": "bb-blood-bank-resources"
+  },
+  {
+    "id": "bb-0060",
+    "topic": "bb",
+    "subtopic": "component_therapy",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which is an appropriate indication for fresh frozen plasma?",
+    "image": null,
+    "choices": [
+      "Bleeding with multiple factor deficiencies from liver disease",
+      "Correction of isolated thrombocytopenia",
+      "Protein replacement in a malnourished patient",
+      "Volume expansion in a hypotensive patient"
+    ],
+    "answer": 0,
+    "explanation": "FFP replaces coagulation factors and is indicated for bleeding patients with multiple factor deficiencies, such as liver disease or DIC. It should not be used as a volume expander or as a source of protein.",
+    "source": "bb-component-therapy"
+  }
+]

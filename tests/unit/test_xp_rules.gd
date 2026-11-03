@@ -27,9 +27,9 @@ func test_ranks_and_tiers() -> void:
 
 
 func test_bench_unlock_order() -> void:
-	assert_eq(XpRules.unlocked_benches(1), ["knowledge", "morphology"])
-	assert_eq(XpRules.unlocked_benches(2), ["knowledge", "morphology", "differential"])
-	assert_eq(XpRules.unlocked_benches(5), ["knowledge", "morphology", "differential", "cbc", "coag", "qc"])
+	assert_eq(XpRules.unlocked_benches(1), ["knowledge", "morphology", "safety"])
+	assert_eq(XpRules.unlocked_benches(2), ["knowledge", "morphology", "safety", "differential", "urinalysis"])
+	assert_eq(XpRules.unlocked_benches(5), ["knowledge", "morphology", "safety", "differential", "urinalysis", "cbc", "chem", "coag", "blood_bank", "qc", "micro"])
 
 
 func test_xp_awards_and_boundaries() -> void:
@@ -42,7 +42,7 @@ func test_xp_awards_and_boundaries() -> void:
 	assert_eq(XpRules.xp_for_diff(0.899), 25)
 	assert_eq(XpRules.xp_for_diff(0.75), 25)
 	assert_eq(XpRules.xp_for_diff(0.749), 10)
-	assert_eq(XpRules.xp_for_cascade(14), 28)
+	assert_eq(XpRules.xp_for_sort(14), 28)
 	assert_eq(XpRules.xp_to_next(99), 1)
 	assert_eq(XpRules.xp_to_next(100), 200)
 	assert_eq(XpRules.xp_to_next(1000000), 0)

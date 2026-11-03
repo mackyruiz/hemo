@@ -1,0 +1,542 @@
+[
+	{
+		"id": "immuno-0001",
+		"topic": "immuno",
+		"subtopic": "immune_physiology",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which cell type usually presents antigen to naive T cells and links innate immunity to the adaptive immune response?",
+		"image": null,
+		"choices": [
+			"Dendritic cell",
+			"Neutrophil",
+			"Plasma cell",
+			"Eosinophil"
+		],
+		"answer": 0,
+		"explanation": "Dendritic cells phagocytose antigen and act as the main antigen-presenting cells that initiate the acquired immune response. Plasma cells secrete antibody but do not present antigen to naive T cells.",
+		"source": "immuno-intro-immunology"
+	},
+	{
+		"id": "immuno-0002",
+		"topic": "immuno",
+		"subtopic": "immune_physiology",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A virus-infected cell displays viral peptides on its surface. Which T-cell subset recognizes these peptides, and on which molecule?",
+		"image": null,
+		"choices": [
+			"CD4+ helper T cells, on MHC class I",
+			"CD8+ cytotoxic T cells, on MHC class II",
+			"CD8+ cytotoxic T cells, on MHC class I",
+			"CD4+ helper T cells, on MHC class II"
+		],
+		"answer": 2,
+		"explanation": "CD8+ cytotoxic T cells are activated when their TCR binds peptide on MHC class I, which presents endogenous (intracellular) peptides such as viral proteins. CD4+ helper T cells recognize exogenous peptides on MHC class II.",
+		"source": "immuno-intro-immunology"
+	},
+	{
+		"id": "immuno-0003",
+		"topic": "immuno",
+		"subtopic": "immune_physiology",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which innate lymphocyte kills virus-infected and tumor cells by releasing perforins and granzymes, without prior antigen presentation?",
+		"image": null,
+		"choices": [
+			"B lymphocyte",
+			"Natural killer (NK) cell",
+			"Mast cell",
+			"CD4+ helper T cell"
+		],
+		"answer": 1,
+		"explanation": "NK cells are innate effector cells that destroy virus-infected and tumor cells by releasing perforins and granzymes, which induce apoptosis. Helper T cells need antigen presented on MHC class II and do not kill target cells directly.",
+		"source": "immuno-intro-immunology"
+	},
+	{
+		"id": "immuno-0004",
+		"topic": "immuno",
+		"subtopic": "immune_physiology",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "In a flow cytometric lymphocyte subset panel, lymphocytes are first gated on forward versus side scatter. Which marker is gated next to identify T cells?",
+		"image": null,
+		"choices": [
+			"CD19",
+			"CD14",
+			"CD56",
+			"CD3"
+		],
+		"answer": 3,
+		"explanation": "CD3, part of the T-cell receptor complex, is the pan-T-cell marker, so T cells are gated on CD3 before splitting into CD4 and CD8 subsets. CD19 marks B cells, not T cells.",
+		"source": "immuno-flow-cytometry"
+	},
+	{
+		"id": "immuno-0005",
+		"topic": "immuno",
+		"subtopic": "immunoglobulins_complement",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A newborn is evaluated for a congenital infection. Which result in the infant's serum best shows antibody made by the fetus rather than acquired from the mother?",
+		"image": null,
+		"choices": [
+			"Pathogen-specific IgG",
+			"Pathogen-specific IgM",
+			"Total IgG above the adult reference range",
+			"Pathogen-specific IgG equal to the mother's titer"
+		],
+		"answer": 1,
+		"explanation": "IgG is the only antibody class that crosses the placenta, so infant IgG may be maternal; IgM does not cross, so specific IgM in the infant was made by the fetus. Specific IgG matching the mother's titer is expected from passive transfer.",
+		"source": "immuno-intro-immunology"
+	},
+	{
+		"id": "immuno-0006",
+		"topic": "immuno",
+		"subtopic": "immunoglobulins_complement",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which immunoglobulin class protects mucosal surfaces and is present in saliva, tears and breast milk?",
+		"image": null,
+		"choices": [
+			"IgA",
+			"IgD",
+			"IgE",
+			"IgM"
+		],
+		"answer": 0,
+		"explanation": "IgA protects the respiratory and digestive tracts and is found in saliva, tears, breast milk and respiratory and gastric fluids. IgM is the first antibody made after exposure and is found mainly in blood and lymph.",
+		"source": "immuno-immunoglobulins-test"
+	},
+	{
+		"id": "immuno-0007",
+		"topic": "immuno",
+		"subtopic": "immunoglobulins_complement",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A patient's CH50 (total hemolytic complement) result is markedly decreased. What is the appropriate follow-up testing?",
+		"image": null,
+		"choices": [
+			"Measure individual complement components to find the abnormal one",
+			"Repeat the CH50 on an EDTA plasma specimen stored at room temperature",
+			"Perform serum protein electrophoresis to look for an M protein",
+			"Report the result as hereditary angioedema"
+		],
+		"answer": 0,
+		"explanation": "The CH50 measures the combined activity of the major complement proteins, so an abnormal result is followed by measuring individual components (e.g., C3, C4) to find the one that is low. An abnormal CH50 alone cannot diagnose a specific disorder such as hereditary angioedema.",
+		"source": "immuno-complement-test"
+	},
+	{
+		"id": "immuno-0008",
+		"topic": "immuno",
+		"subtopic": "immunoglobulins_complement",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A young adult has had three episodes of meningococcal (Neisseria meningitidis) meningitis. A deficiency of which complement proteins is most likely?",
+		"image": null,
+		"choices": [
+			"C1 esterase inhibitor",
+			"C1q",
+			"Decay-accelerating factor (CD55)",
+			"Terminal components C5 through C9"
+		],
+		"answer": 3,
+		"explanation": "C5–C9 form the membrane attack complex, which lyses Neisseria; people deficient in terminal components are at increased risk for recurrent meningitis. C1 esterase inhibitor deficiency causes hereditary angioedema, not recurrent neisserial infection.",
+		"source": "immuno-complement-pathways"
+	},
+	{
+		"id": "immuno-0009",
+		"topic": "immuno",
+		"subtopic": "autoimmunity",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "Which method and substrate are considered the gold standard for antinuclear antibody (ANA) screening?",
+		"image": null,
+		"choices": [
+			"Latex agglutination with nucleoprotein-coated particles",
+			"Indirect immunofluorescence on HEp-2 cells",
+			"Direct immunofluorescence on a kidney biopsy",
+			"Double immunodiffusion against extractable nuclear antigens"
+		],
+		"answer": 1,
+		"explanation": "The ACR ANA Task Force recommends indirect immunofluorescence (IIF) on HEp-2 cells as the gold standard because it detects antibodies to many nuclear antigens and is reported with a titer and pattern. Latex agglutination is a less sensitive screen with limited antigens.",
+		"source": "immuno-ctd-autoantibodies"
+	},
+	{
+		"id": "immuno-0010",
+		"topic": "immuno",
+		"subtopic": "autoimmunity",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A patient with suspected lupus has a positive ANA at 1:640. Which autoantibody is found in fewer than half of SLE patients but is the most specific for SLE?",
+		"image": null,
+		"choices": [
+			"Anti-Smith (anti-Sm)",
+			"Anti-histone",
+			"Anti-centromere",
+			"Rheumatoid factor"
+		],
+		"answer": 0,
+		"explanation": "Anti-Sm has low sensitivity (about 10–55%) but 98–100% specificity, making it the most specific SLE antibody. Anti-histone antibodies are associated with drug-induced lupus.",
+		"source": "immuno-ctd-autoantibodies"
+	},
+	{
+		"id": "immuno-0011",
+		"topic": "immuno",
+		"subtopic": "autoimmunity",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A patient with symmetric small-joint arthritis has a positive rheumatoid factor. Which additional antibody test is more specific for rheumatoid arthritis?",
+		"image": null,
+		"choices": [
+			"Anti-double-stranded DNA",
+			"Anti-centromere",
+			"Anti-cyclic citrullinated peptide (anti-CCP)",
+			"Antistreptolysin O"
+		],
+		"answer": 2,
+		"explanation": "Anti-CCP (ACPA) has sensitivity similar to RF but is more specific for RA, so the two are tested together. RF also occurs in other autoimmune diseases, chronic infections and healthy people.",
+		"source": "immuno-rheumatoid-factor"
+	},
+	{
+		"id": "immuno-0012",
+		"topic": "immuno",
+		"subtopic": "autoimmunity",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "Rheumatoid factor detected by classic agglutination methods is most often IgM directed against which target?",
+		"image": null,
+		"choices": [
+			"The Fc region of IgG",
+			"The Fab region of IgM",
+			"Citrullinated proteins",
+			"Double-stranded DNA"
+		],
+		"answer": 0,
+		"explanation": "Rheumatoid factors are antibodies against the Fc region of IgG, and IgM RF is the most frequently detected isotype. Antibodies to citrullinated proteins are anti-CCP antibodies, a separate test.",
+		"source": "immuno-rheumatoid-factor"
+	},
+	{
+		"id": "immuno-0013",
+		"topic": "immuno",
+		"subtopic": "hypersensitivity",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "In type I (immediate) hypersensitivity, re-exposure to an allergen cross-links which antibody bound to mast cells and basophils?",
+		"image": null,
+		"choices": [
+			"IgG",
+			"IgM",
+			"IgA",
+			"IgE"
+		],
+		"answer": 3,
+		"explanation": "Type I reactions are mediated by IgE bound to mast cells and basophils; allergen cross-linking triggers release of histamine, leukotrienes and prostaglandins. IgG and IgM mediate type II and type III reactions.",
+		"source": "immuno-intro-immunology"
+	},
+	{
+		"id": "immuno-0014",
+		"topic": "immuno",
+		"subtopic": "hypersensitivity",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A tuberculin skin test, a delayed-type (type IV) hypersensitivity reaction, was placed 2 days ago. How is it read?",
+		"image": null,
+		"choices": [
+			"Measure the area of redness (erythema) at 24 hours",
+			"Measure the induration in millimeters at 48–72 hours",
+			"Measure the wheal 15–20 minutes after placement",
+			"Measure the redness and induration together at 7 days"
+		],
+		"answer": 1,
+		"explanation": "CDC directs reading the test 48–72 hours after placement by measuring the induration (firm swelling) in millimeters across the forearm. Erythema (redness) is not measured.",
+		"source": "immuno-tuberculin-skin-test"
+	},
+	{
+		"id": "immuno-0015",
+		"topic": "immuno",
+		"subtopic": "hypersensitivity",
+		"difficulty": 3,
+		"kind": "theoretical",
+		"stem": "A patient develops fever, rash and joint pain 10 days after receiving an animal-derived antiserum. Which hypersensitivity type is this serum sickness?",
+		"image": null,
+		"choices": [
+			"Type I, IgE-mediated",
+			"Type II, antibody against cell-surface antigens",
+			"Type III, immune complex",
+			"Type IV, T cell-mediated"
+		],
+		"answer": 2,
+		"explanation": "Serum sickness is a type III reaction: IgG and IgM bind soluble antigen, and the immune complexes deposit in tissues and activate complement. Type II reactions involve antibody against cell-surface molecules, as in autoimmune hemolytic anemia.",
+		"source": "immuno-intro-immunology"
+	},
+	{
+		"id": "immuno-0016",
+		"topic": "immuno",
+		"subtopic": "immunodeficiency_proliferative",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A 9-month-old boy has recurrent pneumonia and ear infections that began after the first few months of life. He has very few B cells and markedly decreased immunoglobulins. Which disorder is most likely?",
+		"image": null,
+		"choices": [
+			"DiGeorge syndrome",
+			"X-linked agammaglobulinemia",
+			"Chronic granulomatous disease",
+			"Hereditary angioedema"
+		],
+		"answer": 1,
+		"explanation": "X-linked agammaglobulinemia (BTK gene) blocks B-cell development, so boys have very few B cells and antibodies; infections begin after maternal antibody is cleared. DiGeorge syndrome is mainly a T-cell defect from thymic hypoplasia.",
+		"source": "immuno-xla"
+	},
+	{
+		"id": "immuno-0017",
+		"topic": "immuno",
+		"subtopic": "immunodeficiency_proliferative",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A newborn with a congenital heart defect has seizures from hypocalcemia, and imaging shows a small thymus. Which immune defect is expected?",
+		"image": null,
+		"choices": [
+			"Absent B cells from a BTK defect",
+			"Defective neutrophil oxidative burst",
+			"Deficiency of terminal complement components",
+			"T-cell deficiency from thymic hypoplasia"
+		],
+		"answer": 3,
+		"explanation": "DiGeorge syndrome (22q11.2 deletion) causes hypocalcemia from hypoparathyroidism, heart defects and thymic hypoplasia or aplasia, which leads to a T-cell deficiency. Absent B cells from a BTK defect describes X-linked agammaglobulinemia.",
+		"source": "immuno-digeorge"
+	},
+	{
+		"id": "immuno-0018",
+		"topic": "immuno",
+		"subtopic": "immunodeficiency_proliferative",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "Serum protein electrophoresis shows a narrow M spike in the gamma region. Which test identifies the heavy- and light-chain type of the M protein?",
+		"image": null,
+		"choices": [
+			"Immunofixation electrophoresis",
+			"Quantitative immunoglobulins by nephelometry",
+			"Repeat SPEP on a 24-hour urine",
+			"Serum viscosity"
+		],
+		"answer": 0,
+		"explanation": "Immunofixation electrophoresis identifies the heavy and light chain of the M protein (e.g., IgG kappa). Quantitative immunoglobulins measure total IgG, IgA and IgM but do not show whether a protein is monoclonal or which light chain it carries.",
+		"source": "immuno-plasma-cell-neoplasms"
+	},
+	{
+		"id": "immuno-0019",
+		"topic": "immuno",
+		"subtopic": "transplant_hla",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "The HLA genes are located on which chromosome and inherited as haplotypes, one from each parent?",
+		"image": null,
+		"choices": [
+			"Chromosome 1",
+			"Chromosome 9",
+			"Chromosome 6",
+			"Chromosome 22"
+		],
+		"answer": 2,
+		"explanation": "HLA genes lie close together on chromosome 6, so they are inherited as haplotypes, one from each parent. Chromosome 9 carries the ABO gene.",
+		"source": "immuno-kidney-rejection"
+	},
+	{
+		"id": "immuno-0020",
+		"topic": "immuno",
+		"subtopic": "transplant_hla",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "A kidney turns cyanotic in the operating room minutes after the vessels are connected. What causes this hyperacute rejection?",
+		"image": null,
+		"choices": [
+			"Donor T cells in the graft attacking recipient tissue",
+			"Recipient T cells sensitized to donor HLA after the transplant",
+			"Toxicity from calcineurin-inhibitor immunosuppressive drugs",
+			"Preformed recipient antibodies to donor ABO or HLA antigens"
+		],
+		"answer": 3,
+		"explanation": "Hyperacute rejection is antibody-mediated, caused by preformed donor-specific antibodies such as ABO and HLA antibodies, and occurs shortly after the vascular anastomoses are made. T-cell-mediated rejection develops later, as acute rejection.",
+		"source": "immuno-kidney-rejection"
+	},
+	{
+		"id": "immuno-0021",
+		"topic": "immuno",
+		"subtopic": "transplant_hla",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "In a complement-dependent cytotoxicity (CDC) crossmatch before kidney transplant, which components are incubated together?",
+		"image": null,
+		"choices": [
+			"Donor serum, recipient lymphocytes and rabbit complement",
+			"Recipient serum, donor lymphocytes and rabbit complement",
+			"Recipient serum, donor red cells and anti-human globulin",
+			"Donor serum, recipient platelets and guinea pig complement"
+		],
+		"answer": 1,
+		"explanation": "The CDC crossmatch incubates recipient (patient) serum with potential donor lymphocytes, then adds rabbit complement; lysis means donor-specific HLA antibodies are present. Reversing serum and cells would test the donor for antibodies to the recipient, which is not the question being asked.",
+		"source": "immuno-hla-antibodies"
+	},
+	{
+		"id": "immuno-0022",
+		"topic": "immuno",
+		"subtopic": "viral_serology",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "Interpret this hepatitis B panel: HBsAg positive, total anti-HBc positive, IgM anti-HBc positive, anti-HBs negative.",
+		"image": null,
+		"choices": [
+			"Chronic infection",
+			"Resolved infection",
+			"Acute infection",
+			"Immune due to vaccination"
+		],
+		"answer": 2,
+		"explanation": "Per the CDC table, HBsAg with positive total and IgM anti-HBc and negative anti-HBs indicates acute infection. Chronic infection has the same pattern except IgM anti-HBc is negative.",
+		"source": "immuno-hbv-serology"
+	},
+	{
+		"id": "immuno-0023",
+		"topic": "immuno",
+		"subtopic": "viral_serology",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "Interpret this hepatitis B panel: HBsAg negative, total anti-HBc negative, anti-HBs positive.",
+		"image": null,
+		"choices": [
+			"Immune due to hepatitis B vaccination",
+			"Resolved natural infection",
+			"Susceptible, never infected",
+			"Early acute infection"
+		],
+		"answer": 0,
+		"explanation": "Anti-HBs alone, with negative HBsAg and anti-HBc, indicates immunity from vaccination, because vaccine contains only HBsAg and does not induce anti-HBc. Resolved infection would also show positive total anti-HBc.",
+		"source": "immuno-hbv-serology"
+	},
+	{
+		"id": "immuno-0024",
+		"topic": "immuno",
+		"subtopic": "viral_serology",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "A specimen is repeatedly reactive on a laboratory HIV-1/HIV-2 antigen/antibody combination immunoassay, but the HIV-1/HIV-2 antibody differentiation immunoassay is negative. What is the next step in the CDC algorithm?",
+		"image": null,
+		"choices": [
+			"Report the patient as HIV negative",
+			"Confirm with an HIV-1 Western blot",
+			"Repeat the antigen/antibody immunoassay in 6 months before reporting",
+			"Test the specimen with an HIV-1 nucleic acid (RNA) test"
+		],
+		"answer": 3,
+		"explanation": "CDC recommends HIV-1 RNA testing for every specimen that is reactive on the antigen/antibody immunoassay but negative on the supplemental antibody test, to find acute infection. Reporting it as negative could miss acute HIV, when p24 antigen is present before antibodies are detectable.",
+		"source": "immuno-hiv-algorithm"
+	},
+	{
+		"id": "immuno-0025",
+		"topic": "immuno",
+		"subtopic": "viral_serology",
+		"difficulty": 2,
+		"kind": "procedural",
+		"stem": "A teenager with fever, sore throat and lymphadenopathy has these EBV antibodies: anti-VCA IgM positive, anti-VCA IgG positive, anti-EBNA negative. What is the interpretation?",
+		"image": null,
+		"choices": [
+			"Past infection months to years ago",
+			"Susceptible to EBV infection",
+			"Primary (recent) EBV infection",
+			"No EBV infection; the heterophile antibody is false positive"
+		],
+		"answer": 2,
+		"explanation": "Anti-VCA IgM without antibody to EBNA indicates primary infection, because anti-EBNA appears only 2–4 months after symptom onset. Past infection shows antibodies to both VCA and EBNA.",
+		"source": "immuno-ebv-serology"
+	},
+	{
+		"id": "immuno-0026",
+		"topic": "immuno",
+		"subtopic": "syphilis_serology",
+		"difficulty": 1,
+		"kind": "theoretical",
+		"stem": "Which syphilis test is a nontreponemal test that detects antibodies to lipoidal (cardiolipin) antigen?",
+		"image": null,
+		"choices": [
+			"FTA-ABS",
+			"Rapid plasma reagin (RPR)",
+			"T. pallidum particle agglutination (TP-PA)",
+			"Treponemal enzyme immunoassay"
+		],
+		"answer": 1,
+		"explanation": "The RPR and VDRL use a cardiolipin, lecithin (phosphatidylcholine) and cholesterol antigen, so they are nontreponemal (lipoidal antigen) tests. FTA-ABS, TP-PA and treponemal EIAs use T. pallidum–specific antigens.",
+		"source": "immuno-syphilis-testing"
+	},
+	{
+		"id": "immuno-0027",
+		"topic": "immuno",
+		"subtopic": "syphilis_serology",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "In reverse-sequence screening, a serum is reactive on an automated treponemal chemiluminescence immunoassay, and the quantitative RPR is nonreactive. What should be done next?",
+		"image": null,
+		"choices": [
+			"Report the patient as having active, untreated syphilis",
+			"Repeat the same treponemal immunoassay on a new specimen",
+			"Test with a second, different treponemal assay such as TP-PA",
+			"Perform a VDRL on the serum"
+		],
+		"answer": 2,
+		"explanation": "CDC directs that discordant results in the reverse sequence algorithm be adjudicated with a second treponemal assay of a different format and antigens, such as TP-PA. Repeating the same assay or a second nontreponemal test does not resolve the discordance.",
+		"source": "immuno-syphilis-testing"
+	},
+	{
+		"id": "immuno-0028",
+		"topic": "immuno",
+		"subtopic": "immunoassay_methods",
+		"difficulty": 3,
+		"kind": "procedural",
+		"stem": "A one-step sandwich immunoassay for prolactin gives a modestly elevated result in a patient with a large pituitary tumor. A high-dose hook effect is suspected. What should be done?",
+		"image": null,
+		"choices": [
+			"Dilute the specimen and reassay",
+			"Report the result with a comment",
+			"Re-collect the specimen in an EDTA tube",
+			"Treat the specimen with heterophile-blocking reagent"
+		],
+		"answer": 0,
+		"explanation": "In antigen excess, free analyte saturates both antibodies and the signal falls, giving a falsely low result; diluting the sample restores the antigen-to-antibody ratio and reveals the true, much higher concentration. Heterophile-blocking reagent addresses antibody interference, not antigen excess.",
+		"source": "immuno-immunoassay-interference"
+	},
+	{
+		"id": "immuno-0029",
+		"topic": "immuno",
+		"subtopic": "immunoassay_methods",
+		"difficulty": 2,
+		"kind": "theoretical",
+		"stem": "In a competitive immunoassay, patient analyte competes with labeled analyte for a limited number of antibody sites. How does the bound signal relate to the patient's analyte concentration?",
+		"image": null,
+		"choices": [
+			"It is directly proportional",
+			"It is inversely related",
+			"It does not change",
+			"It rises and then plateaus"
+		],
+		"answer": 1,
+		"explanation": "More patient analyte displaces more labeled analyte, so less label is bound; signal is inversely related to concentration. In a sandwich (noncompetitive) assay, signal rises with concentration instead.",
+		"source": "immuno-immunoassay-formats"
+	},
+	{
+		"id": "immuno-0030",
+		"topic": "immuno",
+		"subtopic": "immunoassay_methods",
+		"difficulty": 1,
+		"kind": "procedural",
+		"stem": "When reviewing a flow cytometry dot plot, which light-scatter parameter separates cells mainly by size?",
+		"image": null,
+		"choices": [
+			"Side scatter",
+			"CD45 fluorescence intensity",
+			"Propidium iodide fluorescence",
+			"Forward scatter"
+		],
+		"answer": 3,
+		"explanation": "Forward scatter is collected along the axis of the laser and is proportional to particle size. Side scatter, collected at 90°, reflects internal granularity or complexity.",
+		"source": "immuno-flow-cytometry"
+	}
+]

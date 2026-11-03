@@ -1,17 +1,17 @@
 # hemo
-This is a gamified learning app for Hematology. 
+This is a gamified learning app for the MLT certification exam, built around hematology lab shifts.
 
 Disclaimer: I am no where near a medical professional but i know how to use AI to vibecode stuff.
 
 ## What it is
 
-**HemoShift** is a browser-only, on-device-save hematology lab-shift learning game.
+**HemoShift** is a browser-only, on-device-save lab-shift learning game for MLT certification exam prep.
 
-HemoShift helps MLT students and interns review hematology for the certification exam required for California MLT licensure. CDPH Laboratory Field Services accepts the ASCP BOC MLT (U.S. version) and AAB MLT certification exams. Content follows the ASCP BOC MLT content guideline for Hematology (physiology, disease states, laboratory testing, hemostasis).
+HemoShift helps MLT students and interns review every content area of the certification exam required for California MLT licensure: hematology, blood banking, chemistry, microbiology, urinalysis and body fluids, immunology, and laboratory operations including safety. CDPH Laboratory Field Services accepts the ASCP BOC MLT (U.S. version) and AAB MLT certification exams. Content follows the ASCP BOC MLT examination content guideline (revised June 9, 2026).
 
 Not affiliated with or endorsed by ASCP, AAB, or CDPH. For study only; not medical advice. Reference ranges vary between laboratories.
 
-Content alignment: ASCP BOC MLT Examination Content Guideline, revised September 25, 2025. The game includes physiology, RBC/WBC/platelet disorders, laboratory testing, hemostasis, and QC. Board Sim is a 50-item, 75-minute adaptive practice exam, not the actual certification exam or an official pass predictor. AI-authored educational content needs review by an MLS/educator before public promotion.
+Content alignment: ASCP BOC MLT Examination Content Guideline, revised June 9, 2026. The game covers hematology (physiology, RBC/WBC/platelet disorders, laboratory testing, hemostasis), blood banking, urinalysis and body fluids, chemistry, immunology, microbiology, and laboratory operations (QC and safety). Board Sim is a 100-item, 150-minute adaptive practice exam weighted like the exam's content areas, not the actual certification exam or an official pass predictor. AI-authored educational content needs review by an MLS/educator before public promotion.
 
 ## Play
 
@@ -67,9 +67,9 @@ JSON files:
 | `data/cases_coag.json` | Array: `id`, `topic`, `subtopic`, `difficulty`, `sex`, adult `age`, `vignette`, `results`, `steps` (2–4), `source` (steps may override). Results: `PT`, `INR`, `APTT`, `FIB`, `DDIMER`, `TT`, `PLT`, `MIX_PT`, `MIX_APTT`. Null means not performed; mixing results are `corrected` or `not_corrected`. |
 | `data/reference_ranges.json` | Object keyed by test: `{low, high, unit}` or sex-specific `{M:{low,high}, F:{low,high}, unit}`. |
 | `data/diff_profiles.json` | Array: `id`, `label`, `tier`, `wbc:[low,high]`, `nrbc:[low,high]`, `pct` (class → percentage, total 100). |
-| `data/sources.json` | Object: `sources` (id `^[a-z0-9-]+$` → `{title, publisher, url, keyword}`) and `generated` (keys `drill:<type>`, `qc:westgard`, `coag:cascade`, `diff:<profile id>` → source id, for content built at runtime). |
+| `data/sources.json` | Object: `sources` (id `^[a-z0-9-]+$` → `{title, publisher, url, keyword}`) and `generated` (keys `drill:<type>`, `chem:<type>`, `qc:westgard`, `coag:cascade`, `diff:<profile id>`, `micro:identification`, `ua:interpretation`, `bb:abo_rh`, `immuno:hepatitis_b`, `safety:waste` → source id, for content built at runtime). |
 
-Topic ids are `phys`, `rbc`, `wbc`, `plt`, `lab`, `hemo`, `qc`. Allowed subtopics are enumerated in `ContentValidator`. Question ids use `<topic>-NNNN`; case ids use `cbc-NNN` or `coag-NNN`. Steps contain `stem`, `choices`, `answer`, and `explanation`.
+Topic ids, display names and exam content areas live in `scripts/core/topics.gd` (`Topics`): `phys`, `rbc`, `wbc`, `plt`, `lab`, `hemo` (hematology), `bb` (blood banking), `ua` (urinalysis & body fluids), `chem`, `immuno`, `micro`, and `qc` plus `safety` (lab operations). Allowed subtopics are enumerated in `ContentValidator`. Question ids use `<topic>-NNNN`; case ids use `cbc-NNN` or `coag-NNN`. Steps contain `stem`, `choices`, `answer`, and `explanation`.
 
 Art descriptors use `kind: rbc|wbc|platelet|field`. RBC descriptors specify `shape`, relative `size`, `color`, `pallor`, optional `inclusions` and `nucleus`. WBC descriptors specify `size`, `cytoplasm`, `nucleus` (shape, lobes, color, N:C ratio `nc`, chromatin, nucleoli), optional `granules` and `features`. Platelets specify `size`, `color`, and granules. Fields specify `arrangement`. `CellArt` renders these deterministically from an injected seed.
 
@@ -99,6 +99,6 @@ The pipeline requests 640-pixel Wikimedia Commons thumbnails, checks its license
 
 The API is requested at width 640; Commons may return a larger standard-size thumbnail bucket or a smaller original. The fetcher removes marketing `utm_*` parameters from image URLs to avoid observed CDN HTTP 429 responses, without changing the image resource or resolution. Existing committed images are reused after refreshing license metadata; changing a source title invalidates that cache. Delete the corresponding asset to refresh a revised image under the same source title. Cropped displays are identified in credit lines.
 
-The release contains 300 questions (38 image-based), 30 CBC cases, 20 coagulation cases, all 51 explicitly enumerated morphology findings, and 51 curated photos covering 47 findings. Bite cell, Cabot ring, Heinz body and promyelocyte have no acceptable photo; they appear in the Atlas as text only and their questions carry no image. Drawn cells remain only in the Lab Floor microscope and home-tile art.
+The release contains 570 questions (38 image-based), 130 glossary terms, 30 CBC cases, 20 coagulation cases, all 51 explicitly enumerated morphology findings, and 51 curated photos covering 47 findings. Bite cell, Cabot ring, Heinz body and promyelocyte have no acceptable photo; they appear in the Atlas as text only and their questions carry no image. Drawn cells remain only in the Lab Floor microscope and home-tile art.
 
 DejaVu Sans is bundled so correctness symbols, mathematical notation and keypad glyphs render consistently in web builds. Its Bitstream Vera license and notices are in `assets/fonts/LICENSE.txt` and displayed in-app under Credits.

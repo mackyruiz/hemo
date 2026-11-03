@@ -1,11 +1,5 @@
 extends Control
 
-const TOPICS := {
-	"phys": "Physiology", "rbc": "RBC disorders", "wbc": "WBC disorders",
-	"plt": "Platelet disorders", "lab": "Lab testing & morphology",
-	"hemo": "Hemostasis", "qc": "QC & lab operations",
-}
-
 
 func _ready() -> void:
 	var page: Array = UI.page("My Progress")
@@ -13,23 +7,27 @@ func _ready() -> void:
 	var content: VBoxContainer = page[1]
 	content.add_child(UI.label("Topic mastery", "TitleLabel"))
 	content.add_child(UI.label("Based on your last 20 attempts in each topic.", "MutedLabel"))
-	for topic in TOPICS:
-		var card := UI.card()
-		var v := UI.vbox(8)
-		card.add_child(v)
-		v.add_child(UI.label(TOPICS[topic]))
-		var attempts: int = Progress.attempts(topic)
-		var mastery: float = Progress.mastery(topic)
-		if attempts == 0:
-			v.add_child(UI.label("— · no attempts yet", "MutedLabel"))
-		else:
-			var bar := ProgressBar.new()
-			bar.max_value = 100.0
-			bar.value = mastery * 100.0
-			bar.custom_minimum_size.y = 32
-			v.add_child(bar)
-			v.add_child(UI.label("%d attempts" % attempts, "MutedLabel"))
-		content.add_child(card)
+	for area: String in Topics.AREAS:
+		# A single-topic area already reads as the topic card title.
+		if Topics.AREAS[area].size() > 1:
+			content.add_child(UI.label(area, "MutedLabel"))
+		for topic: String in Topics.AREAS[area]:
+			var card := UI.card()
+			var v := UI.vbox(8)
+			card.add_child(v)
+			v.add_child(UI.label(Topics.NAMES[topic]))
+			var attempts: int = Progress.attempts(topic)
+			var mastery: float = Progress.mastery(topic)
+			if attempts == 0:
+				v.add_child(UI.label("— · no attempts yet", "MutedLabel"))
+			else:
+				var bar := ProgressBar.new()
+				bar.max_value = 100.0
+				bar.value = mastery * 100.0
+				bar.custom_minimum_size.y = 32
+				v.add_child(bar)
+				v.add_child(UI.label("%d attempts" % attempts, "MutedLabel"))
+			content.add_child(card)
 
 	content.add_child(UI.label("%d items due now" % Progress.due_count()))
 	var stats: Dictionary = Progress.data.get("stats", {})
@@ -50,6 +48,8 @@ func _ready() -> void:
 			content.add_child(card)
 
 
+## On track: the last two exams each score at least 75% and every content area,
+## weighted by its Board Sim blueprint share, scores at least 60%.
 func _on_track(exams: Array) -> bool:
 	if exams.size() < 2:
 		return false
@@ -58,7 +58,13 @@ func _on_track(exams: Array) -> bool:
 		if float(exam.get("score", 0.0)) < 0.75:
 			return false
 		var by_topic: Dictionary = exam.get("by_topic", {})
-		for topic in TOPICS:
-			if float(by_topic.get(topic, 0.0)) < 0.60:
+		for area: String in Topics.AREAS:
+			var weighted: float = 0.0
+			var weight: int = 0
+			for topic: String in Topics.AREAS[area]:
+				var slots: int = int(AdaptiveExam.BLUEPRINT[topic])
+				weighted += float(by_topic.get(topic, 0.0)) * slots
+				weight += slots
+			if weighted / weight < 0.60:
 				return false
 	return true

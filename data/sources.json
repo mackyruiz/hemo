@@ -1691,6 +1691,1038 @@
    "publisher": "PubMed Central (NIH)",
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11477924/",
    "keyword": "hyperviscosity"
+  },
+  "bb-fda-blood-donation": {
+   "title": "Have You Given Blood Lately?",
+   "publisher": "FDA",
+   "url": "https://www.fda.gov/consumers/consumer-updates/have-you-given-blood-lately",
+   "keyword": "eight weeks"
+  },
+  "bb-fda-individual-risk-questions": {
+   "title": "Recommendations for Evaluating Donor Eligibility Using Individual Risk-Based Questions to Reduce the Risk of HIV Transmission by Blood and Blood Products",
+   "publisher": "FDA",
+   "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/recommendations-evaluating-donor-eligibility-using-individual-risk-based-questions-reduce-risk-human",
+   "keyword": "individual risk-based questions"
+  },
+  "bb-component-preparation": {
+   "title": "Overview of blood components and their preparation",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4260297/",
+   "keyword": "incubator-agitators"
+  },
+  "bb-adverse-transfusion-reactions": {
+   "title": "Adverse Transfusion Reactions in Critically Ill Patients",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7122237/",
+   "keyword": "window period"
+  },
+  "bb-component-therapy": {
+   "title": "Blood component therapy: Which, when and how much",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3127320/",
+   "keyword": "Saline washing"
+  },
+  "bb-cryoprecipitate": {
+   "title": "Cryoprecipitate therapy",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4627369/",
+   "keyword": "cryoprecipitate"
+  },
+  "bb-blood-typing": {
+   "title": "Blood typing",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003345.htm",
+   "keyword": "back typing"
+  },
+  "bb-bombay-phenotype": {
+   "title": "FUT1 variants responsible for Bombay or para-Bombay phenotypes in a database",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10576827/",
+   "keyword": "anti-H"
+  },
+  "bb-weak-d": {
+   "title": "Serological weak D phenotypes: a review and guidance for interpreting the RhD blood type using the RHD genotype",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5612847/",
+   "keyword": "weak D type"
+  },
+  "bb-red-cell-antigens": {
+   "title": "Red cell antigens: Structure and function",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3168130/",
+   "keyword": "parvovirus"
+  },
+  "bb-abo-discrepancies": {
+   "title": "ABO blood group discrepancies in blood donor and patient samples at a tertiary care oncology centre: analysis and serological resolution",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11451381/",
+   "keyword": "rouleaux"
+  },
+  "bb-kidd-dhtr": {
+   "title": "A case report of a delayed hemolytic transfusion reaction due to anamnestic response by anti-Kidd \"b\" in an orthopedic patient",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13716244/",
+   "keyword": "evanescence"
+  },
+  "bb-hdfn-immunohematology": {
+   "title": "Hemolytic disease of the fetus and newborn-a perspective of immunohematology",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11670614/",
+   "keyword": "erythropoiesis"
+  },
+  "bb-blood-bank-resources": {
+   "title": "Utilizing Blood Bank Resources/Transfusion Reactions and Complications",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7152021/",
+   "keyword": "antibody screening"
+  },
+  "bb-complement-htr": {
+   "title": "Initiation and regulation of complement during hemolytic transfusion reactions",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3479954/",
+   "keyword": "intravascular hemolysis"
+  },
+  "bb-daratumumab-interference": {
+   "title": "Overcoming Drug Interference in Transfusion Testing: A Spotlight on Daratumumab",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8164699/",
+   "keyword": "dithiothreitol"
+  },
+  "bb-anti-cd38-review": {
+   "title": "Review: Effects of anti-CD38 monoclonal antibodies on red blood cell transfusion and interventions",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8649382/",
+   "keyword": "papain"
+  },
+  "bb-anti-cd38-management": {
+   "title": "Blood Transfusion Management for Patients Treated With Anti-CD38 Monoclonal Antibodies",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6249335/",
+   "keyword": "genotyping"
+  },
+  "bb-aiha-classification": {
+   "title": "Autoimmune Hemolytic Anemias: Classifications, Pathophysiology, Diagnoses and Management",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11049952/",
+   "keyword": "Donath"
+  },
+  "bb-cold-agglutinin-disease": {
+   "title": "Cold Agglutinin Disease",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8432332/",
+   "keyword": "C3d"
+  },
+  "bb-rh-prophylaxis": {
+   "title": "FIGO/ICM guidelines for preventing Rhesus disease: A call to action",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7898700/",
+   "keyword": "Kleihauer"
+  },
+  "bb-fmh-testing": {
+   "title": "Laboratory assessment of fetomaternal haemorrhage and Rh immune globulin management: Canadian practice and scoping review",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12436229/",
+   "keyword": "rosette"
+  },
+  "bb-trali": {
+   "title": "Transfusion-related acute lung injury (TRALI): a clinical review with emphasis on the critically ill",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4532338/",
+   "keyword": "circulatory overload"
+  },
+  "bb-duffy-malaria": {
+   "title": "The enigmatic mechanisms by which Plasmodium vivax infects Duffy-negative individuals",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7032691/",
+   "keyword": "Duffy"
+  },
+  "ua-urine-specific-gravity": {
+   "title": "Urine specific gravity test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003587.htm",
+   "keyword": "1.005 to 1.030"
+  },
+  "ua-urine-preanalytical": {
+   "title": "Preanalytical requirements of urinalysis",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3936984/",
+   "keyword": "beta-hydroxybutyrate"
+  },
+  "ua-urine-microscopy": {
+   "title": "Diagnostic Utility of Urine Microscopy in Kidney Diseases",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11303840/",
+   "keyword": "muddy brown"
+  },
+  "ua-urinalysis-stewardship": {
+   "title": "Deconstructing the urinalysis: A novel approach to diagnostic and antimicrobial stewardship",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8486290/",
+   "keyword": "enterococcus"
+  },
+  "ua-renal-tubular-function": {
+   "title": "Understanding Renal Tubular Function: Key Mechanisms, Clinical Relevance, and Comprehensive Urine Assessment",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12285995/",
+   "keyword": "isosthenuria"
+  },
+  "ua-creatinine-clearance": {
+   "title": "Creatinine clearance test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003611.htm",
+   "keyword": "24 hours"
+  },
+  "ua-hematuria": {
+   "title": "Urine - bloody",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003138.htm",
+   "keyword": "post-streptococcal glomerulonephritis"
+  },
+  "ua-csf-analysis": {
+   "title": "Cerebrospinal Fluid (CSF) Analysis and Interpretation in Neurocritical Care for Acute Neurological Conditions",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6707491/",
+   "keyword": "xanthochromia"
+  },
+  "ua-serous-fluids": {
+   "title": "Laboratory testing of extravascular body fluids: National recommendations of the Croatian Society of Medical Biochemistry and Laboratory Medicine. Part I – Serous fluids",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6904973/",
+   "keyword": "serum-ascites albumin gradient"
+  },
+  "ua-synovial-fluid": {
+   "title": "Laboratory testing of extravascular body fluids: National recommendations of the Croatian Society of Medical Biochemistry and Laboratory Medicine. Part II – Synovial fluid",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7394252/",
+   "keyword": "negatively birefringent"
+  },
+  "ua-semen-analysis": {
+   "title": "Semen analysis",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003627.htm",
+   "keyword": "body temperature"
+  },
+  "ua-amniocentesis": {
+   "title": "Amniocentesis",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003921.htm",
+   "keyword": "alpha-fetoprotein"
+  },
+  "ua-fecal-occult-blood": {
+   "title": "Fecal Occult Blood Test (FOBT)",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/fecal-occult-blood-test-fobt/",
+   "keyword": "red meat"
+  },
+  "chem-diabetes-testing": {
+   "title": "Diabetes Testing",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/diabetes/diabetes-testing/index.html",
+   "keyword": "126 mg/dL"
+  },
+  "chem-glucose-glycolysis": {
+   "title": "Impact of blood sample collection and processing methods on glucose levels in community outreach studies",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3556871/",
+   "keyword": "enolase"
+  },
+  "chem-hba1c-hemolysis": {
+   "title": "Abnormally Low HbA1c Caused by Hemolytic Anemia, a Case Report and Literature Review",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11745879/",
+   "keyword": "fructosamine"
+  },
+  "chem-chylomicronemia": {
+   "title": "Current Diagnosis and Management of Primary Chylomicronemia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8532063/",
+   "keyword": "refrigerator"
+  },
+  "chem-apob-lipoproteins": {
+   "title": "Physiological Bases for the Superiority of Apolipoprotein B Over LDL Cholesterol and Non-HDL Cholesterol as a Marker of Cardiovascular Risk",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9673669/",
+   "keyword": "apo B 100"
+  },
+  "chem-ldl-equations": {
+   "title": "Validation of multiple equations for estimating low-density lipoprotein cholesterol levels in Korean adults",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8453999/",
+   "keyword": "Friedewald"
+  },
+  "chem-bilirubin-elevated": {
+   "title": "Evaluating Elevated Bilirubin Levels in Asymptomatic Adults",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4424929/",
+   "keyword": "Gilbert"
+  },
+  "chem-urine-bilirubin": {
+   "title": "Bilirubin - urine",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003595.htm",
+   "keyword": "break down in light"
+  },
+  "chem-acute-porphyria": {
+   "title": "AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/",
+   "keyword": "porphobilinogen"
+  },
+  "chem-alt-test": {
+   "title": "ALT Blood Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/alt-blood-test/",
+   "keyword": "alanine transaminase"
+  },
+  "chem-lipase-amylase": {
+   "title": "Crawling toward obsolescence: The extended lifespan of amylase for pancreatitis",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10734915/",
+   "keyword": "lipase"
+  },
+  "chem-alp-test": {
+   "title": "Alkaline Phosphatase",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/alkaline-phosphatase/",
+   "keyword": "bones are growing"
+  },
+  "chem-hemolysis-enzymes": {
+   "title": "When Hemolysis Misleads: Implications for the Clinical Interpretation of Enzyme Activities in Pediatric Samples",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13609769/",
+   "keyword": "lactate dehydrogenase"
+  },
+  "chem-de-ritis": {
+   "title": "The De Ritis Ratio: The Test of Time",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3866949/",
+   "keyword": "De Ritis"
+  },
+  "chem-ck-isoenzymes": {
+   "title": "Creatine Kinase",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/creatine-kinase/",
+   "keyword": "CK-MM"
+  },
+  "chem-protein-electrophoresis": {
+   "title": "Protein electrophoresis - serum",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003540.htm",
+   "keyword": "most abundant protein"
+  },
+  "chem-myeloma-workup": {
+   "title": "Plasma Cell Neoplasms (Including Multiple Myeloma) Treatment (PDQ) – Health Professional Version",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/myeloma/hp/myeloma-treatment-pdq",
+   "keyword": "immunofixation"
+  },
+  "chem-prealbumin": {
+   "title": "Prealbumin Blood Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/prealbumin-blood-test/",
+   "keyword": "transthyretin"
+  },
+  "chem-nephrotic-proteins": {
+   "title": "Biochemical markers of nephrotic syndrome: An observational, cross-sectional study",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10113854/",
+   "keyword": "alpha-2-globulin"
+  },
+  "chem-globulin-test": {
+   "title": "Globulin Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/globulin-test/",
+   "keyword": "Albumin makes up most"
+  },
+  "chem-jaffe-creatinine": {
+   "title": "Modification of Jaffe's kinetic method decreases bilirubin interference: A preliminary report",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3453011/",
+   "keyword": "alkaline picrate"
+  },
+  "chem-bun-creatinine-ratio": {
+   "title": "Diagnostic accuracy of the blood urea-to-creatinine ratio for differentiating AKI etiologies",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13573689/",
+   "keyword": "20:1"
+  },
+  "chem-creatinine-clearance": {
+   "title": "Assessment of accuracy of Cockcroft-Gault and MDRD formulae in a South Indian population",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3752870/",
+   "keyword": "1440"
+  },
+  "chem-ammonia-handling": {
+   "title": "To Investigate the Laboratory Sample Criteria of Ammonia Measurement in Saudi Arabia",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12380135/",
+   "keyword": "on ice"
+  },
+  "chem-uric-acid": {
+   "title": "Uric Acid Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/uric-acid-test/",
+   "keyword": "purines"
+  },
+  "chem-troponin": {
+   "title": "Troponin Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/troponin-test/",
+   "keyword": "heart attack"
+  },
+  "chem-natriuretic-peptides": {
+   "title": "Natriuretic Peptide Tests (BNP, NT-proBNP)",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/natriuretic-peptide-tests-bnp-nt-probnp/",
+   "keyword": "heart failure"
+  },
+  "chem-tumor-markers": {
+   "title": "Tumor Marker Tests in Common Use",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list",
+   "keyword": "Carcinoembryonic antigen"
+  },
+  "chem-biotin-troponin": {
+   "title": "Biotin Interference with Troponin Lab Tests - Assays Subject to Biotin Interference",
+   "publisher": "FDA",
+   "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference",
+   "keyword": "falsely low troponin"
+  },
+  "chem-abg-test": {
+   "title": "Arterial Blood Gas (ABG) Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/arterial-blood-gas-abg-test/",
+   "keyword": "7.35-7.45"
+  },
+  "chem-abg-interpretation": {
+   "title": "Interpretation of arterial blood gas",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2936733/",
+   "keyword": "Anion gap"
+  },
+  "chem-abg-air-bubble": {
+   "title": "Impact of an air bubble within the syringe on test results obtained with a modern blood gas analyzer",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11662954/",
+   "keyword": "air bubble"
+  },
+  "chem-potassium-distribution": {
+   "title": "Chronic Hyperkaliemia in Chronic Kidney Disease: An Old Concern with New Answers",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9223624/",
+   "keyword": "98%"
+  },
+  "chem-edta-contamination": {
+   "title": "Contamination of lithium heparin blood by K2-ethylenediaminetetraacetic acid (EDTA): an experimental evaluation",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4210256/",
+   "keyword": "order of draw"
+  },
+  "chem-pseudohyponatremia": {
+   "title": "Pseudohyponatremia: Mechanism, Diagnosis, Clinical Associations and Management",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10299669/",
+   "keyword": "electrolyte exclusion"
+  },
+  "chem-osmolality-formula": {
+   "title": "Hyponatremia Demystified: Integrating Physiology to Shape Clinical Practice",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9993811/",
+   "keyword": "osmolality"
+  },
+  "chem-calcium-test": {
+   "title": "Calcium Blood Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/calcium-blood-test/",
+   "keyword": "ionized calcium"
+  },
+  "chem-corrected-calcium": {
+   "title": "Limited diagnostic utility of albumin-corrected calcium in the intensive care unit: A prospective comparison with ionised calcium",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13387552/",
+   "keyword": "Payne"
+  },
+  "chem-tsh-test": {
+   "title": "TSH (Thyroid-stimulating hormone) Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/tsh-thyroid-stimulating-hormone-test/",
+   "keyword": "pituitary"
+  },
+  "chem-cushing-guideline": {
+   "title": "The diagnosis of Cushing's syndrome: an Endocrine Society Clinical Practice Guideline",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2386281/",
+   "keyword": "dexamethasone"
+  },
+  "chem-urine-hcg": {
+   "title": "HCG in urine",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/003619.htm",
+   "keyword": "most concentrated"
+  },
+  "chem-pth-test": {
+   "title": "Parathyroid Hormone (PTH) Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/parathyroid-hormone-pth-test/",
+   "keyword": "Primary hyperparathyroidism"
+  },
+  "chem-hook-effect": {
+   "title": "Double trouble: Unmasking two hook effects on Siemens Atellica - Total PSA and total hCG assays",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10862002/",
+   "keyword": "hook effect"
+  },
+  "chem-vancomycin-tdm": {
+   "title": "Advances in Pediatric Therapeutic Drug Monitoring",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12750816/",
+   "keyword": "before the next dose"
+  },
+  "chem-acetaminophen": {
+   "title": "Acetylcysteine for Acetaminophen Poisoning",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2637612/",
+   "keyword": "Rumack"
+  },
+  "chem-blood-lead": {
+   "title": "Testing for Lead Poisoning in Children",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/lead-prevention/testing/index.html",
+   "keyword": "reference value"
+  },
+  "chem-osmolal-gap": {
+   "title": "An evaluation of the osmole gap as a screening test for toxic alcohol poisoning",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2390580/",
+   "keyword": "osmole gap"
+  },
+  "chem-digitalis-toxicity": {
+   "title": "Digitalis toxicity",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000165.htm",
+   "keyword": "potassium"
+  },
+  "chem-vitamin-d": {
+   "title": "Vitamin D Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/vitamin-d-test/",
+   "keyword": "25(OH)D"
+  },
+  "chem-mma-test": {
+   "title": "Methylmalonic Acid (MMA) Test",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/lab-tests/methylmalonic-acid-mma-test/",
+   "keyword": "methylmalonic"
+  },
+  "immuno-intro-immunology": {
+   "title": "An introduction to immunology and immunopathology",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6156898/",
+   "keyword": "dendritic"
+  },
+  "immuno-flow-cytometry": {
+   "title": "Introduction to Multiparametric Flow Cytometry and Analysis of High-Dimensional Data",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7868168/",
+   "keyword": "forward scatter"
+  },
+  "immuno-immunoglobulins-test": {
+   "title": "Immunoglobulins Blood Test",
+   "publisher": "MedlinePlus (NLM)",
+   "url": "https://medlineplus.gov/lab-tests/immunoglobulins-blood-test/",
+   "keyword": "IgA"
+  },
+  "immuno-complement-test": {
+   "title": "Complement Blood Test",
+   "publisher": "MedlinePlus (NLM)",
+   "url": "https://medlineplus.gov/lab-tests/complement-blood-test/",
+   "keyword": "CH50"
+  },
+  "immuno-complement-pathways": {
+   "title": "Complement System Part I – Molecular Mechanisms of Activation and Regulation",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4451739/",
+   "keyword": "membrane attack complex"
+  },
+  "immuno-ctd-autoantibodies": {
+   "title": "Autoantibodies Associated With Connective Tissue Diseases: What Meaning for Clinicians?",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5879136/",
+   "keyword": "anti-Sm"
+  },
+  "immuno-rheumatoid-factor": {
+   "title": "Rheumatoid Factors: Clinical Applications",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3845430/",
+   "keyword": "Fc region"
+  },
+  "immuno-tuberculin-skin-test": {
+   "title": "Clinical Testing Guidance for Tuberculosis: Tuberculin Skin Test",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html",
+   "keyword": "induration"
+  },
+  "immuno-xla": {
+   "title": "X-linked agammaglobulinemia",
+   "publisher": "MedlinePlus (NLM)",
+   "url": "https://medlineplus.gov/genetics/condition/x-linked-agammaglobulinemia/",
+   "keyword": "BTK"
+  },
+  "immuno-digeorge": {
+   "title": "DiGeorge Syndrome: a not so rare disease",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2954737/",
+   "keyword": "thymic hypoplasia"
+  },
+  "immuno-plasma-cell-neoplasms": {
+   "title": "Plasma Cell Neoplasms (Including Multiple Myeloma) Treatment (PDQ®)–Health Professional Version",
+   "publisher": "NCI (NIH)",
+   "url": "https://www.cancer.gov/types/myeloma/hp/myeloma-treatment-pdq",
+   "keyword": "immunofixation"
+  },
+  "immuno-kidney-rejection": {
+   "title": "Pathophysiology of Rejection in Kidney Transplantation",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10299312/",
+   "keyword": "Hyperacute rejection"
+  },
+  "immuno-hla-antibodies": {
+   "title": "Detection of HLA Antibodies in Organ Transplant Recipients – Triumphs and Challenges of the Solid Phase Bead Assay",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5146910/",
+   "keyword": "donor lymphocytes"
+  },
+  "immuno-hbv-serology": {
+   "title": "Clinical Testing and Diagnosis for Hepatitis B",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html",
+   "keyword": "IgM anti-HBc"
+  },
+  "immuno-hiv-algorithm": {
+   "title": "HIV – STI Treatment Guidelines",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/hiv.htm",
+   "keyword": "antibody differentiation assay"
+  },
+  "immuno-ebv-serology": {
+   "title": "Laboratory Testing for Epstein-Barr Virus (EBV)",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/epstein-barr/php/laboratories/",
+   "keyword": "EBNA"
+  },
+  "immuno-syphilis-testing": {
+   "title": "CDC Laboratory Recommendations for Syphilis Testing, United States, 2024",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7301a1.htm",
+   "keyword": "reverse sequence"
+  },
+  "immuno-immunoassay-interference": {
+   "title": "Interferences in Immunoassay",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1904417/",
+   "keyword": "heterophile"
+  },
+  "immuno-immunoassay-formats": {
+   "title": "Hormone Immunoassay Interference: A 2021 Update",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8368230/",
+   "keyword": "competitive immunoassays"
+  },
+  "micro-blood-culture-collection": {
+   "title": "Collect Adult Blood Culture Sets",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/lab-quality/php/preventing-adult-blood-culture-contamination/collect.html",
+   "keyword": "separate venipuncture site"
+  },
+  "micro-blood-culture-contamination": {
+   "title": "Blood Culture Contamination and Diagnostic Stewardship: From a Clinical Laboratory Quality Monitor to a National Patient Safety Measure",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11709119/",
+   "keyword": "single-set"
+  },
+  "micro-dpdx-stool-collection": {
+   "title": "DPDx Diagnostic Procedures: Stool Specimens – Specimen Collection",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/dpdx/diagnosticprocedures/stool/specimencoll.html",
+   "keyword": "PVA"
+  },
+  "micro-pertussis-lab": {
+   "title": "Laboratory Testing for Pertussis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/pertussis/php/laboratories/index.html",
+   "keyword": "nasopharyngeal"
+  },
+  "micro-legionella-lab": {
+   "title": "Laboratory Testing for Legionella",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/legionella/php/laboratories/index.html",
+   "keyword": "BCYE"
+  },
+  "micro-gas-pharyngitis": {
+   "title": "Clinical Guidance for Group A Streptococcal Pharyngitis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+   "keyword": "throat culture"
+  },
+  "micro-stec-mmwr": {
+   "title": "Recommendations for Diagnosis of Shiga Toxin–Producing Escherichia coli Infections by Clinical Laboratories (MMWR)",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5812a1.htm",
+   "keyword": "sorbitol"
+  },
+  "micro-vibrio": {
+   "title": "Clinical Overview of Vibriosis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/vibrio/hcp/clinical-overview/index.html",
+   "keyword": "TCBS"
+  },
+  "micro-gbs-mmwr": {
+   "title": "Prevention of Perinatal Group B Streptococcal Disease (MMWR)",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5910a1.htm",
+   "keyword": "enrichment broth"
+  },
+  "micro-safe-work-practices": {
+   "title": "Guidelines for Safe Work Practices in Human and Animal Medical Diagnostic Laboratories (MMWR)",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/su6101a1.htm",
+   "keyword": "sniffing"
+  },
+  "micro-meningitis-pcr": {
+   "title": "Best practices for diagnosis of Haemophilus influenzae and Neisseria meningitidis disease",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/meningococcal/php/guidance/index.html",
+   "keyword": "reflex culture"
+  },
+  "micro-cdiff-testing": {
+   "title": "Clinical Testing and Diagnosis for C. diff Infection",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/c-diff/hcp/diagnosis-testing/index.html",
+   "keyword": "toxin"
+  },
+  "micro-salmonella": {
+   "title": "Clinical Overview of Salmonellosis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/salmonella/hcp/clinical-overview/index.html",
+   "keyword": "reflex"
+  },
+  "micro-gonorrhea-sti": {
+   "title": "Gonococcal Infections Among Adolescents and Adults – STI Treatment Guidelines",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm",
+   "keyword": "diplococci"
+  },
+  "micro-bv-sti": {
+   "title": "Bacterial Vaginosis – STI Treatment Guidelines",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm",
+   "keyword": "Nugent"
+  },
+  "micro-trich-sti": {
+   "title": "Trichomoniasis – STI Treatment Guidelines",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+   "keyword": "wet mount"
+  },
+  "micro-diphtheria-lab": {
+   "title": "Laboratory Testing for Diphtheria",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/diphtheria/php/laboratories/index.html",
+   "keyword": "Elek"
+  },
+  "micro-pneumococcal": {
+   "title": "Clinical Overview of Pneumococcal Disease",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/pneumococcal/hcp/clinical-overview/index.html",
+   "keyword": "C-polysaccharide"
+  },
+  "micro-listeria": {
+   "title": "Clinical Overview of Listeriosis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/listeria/hcp/clinical-overview/index.html",
+   "keyword": "gram-positive"
+  },
+  "micro-hib-pinkbook": {
+   "title": "Pink Book Chapter 8: Haemophilus influenzae",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-8-haemophilus-influenzae.html",
+   "keyword": "X factor"
+  },
+  "micro-meningococcal-pinkbook": {
+   "title": "Pink Book Chapter 14: Meningococcal Disease",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-14-meningococcal-disease.html",
+   "keyword": "diplococci"
+  },
+  "micro-plague-lab": {
+   "title": "Plague: Diagnosis and Testing",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/plague/hcp/diagnosis-testing/index.html",
+   "keyword": "safety pin"
+  },
+  "micro-yersinia": {
+   "title": "Clinical Overview of Yersiniosis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/yersinia/hcp/clinical-overview/index.html",
+   "keyword": "CIN agar"
+  },
+  "micro-tularemia-lab": {
+   "title": "Tularemia: Diagnosis and Testing",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/tularemia/hcp/diagnosis-testing/index.html",
+   "keyword": "slow-growing"
+  },
+  "micro-mrsa-lab": {
+   "title": "Laboratory Testing for Methicillin (oxacillin)-resistant Staphylococcus aureus (MRSA)",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/mrsa/php/laboratories/index.html",
+   "keyword": "cefoxitin"
+  },
+  "micro-vrsa-lab": {
+   "title": "Laboratory Testing for Vancomycin-resistant Staphylococcus aureus",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/staphylococcus-aureus/php/laboratories/index.html",
+   "keyword": "vanA"
+  },
+  "micro-tb-lab": {
+   "title": "Clinical and Laboratory Diagnosis for Tuberculosis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/tb/hcp/testing-diagnosis/clinical-and-laboratory-diagnosis.html",
+   "keyword": "acid-fast bacilli"
+  },
+  "micro-ntm": {
+   "title": "Clinical Overview of Nontuberculous Mycobacteria (NTM)",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/nontuberculous-mycobacteria/hcp/clinical-overview/index.html",
+   "keyword": "Rapid-growing"
+  },
+  "micro-cryptococcus": {
+   "title": "Clinical Overview of Cryptococcosis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/cryptococcosis/hcp/clinical-overview/index.html",
+   "keyword": "India Ink"
+  },
+  "micro-valley-fever": {
+   "title": "Clinical Overview of Valley Fever",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/valley-fever/hcp/clinical-overview/index.html",
+   "keyword": "biosafety level 3"
+  },
+  "micro-candida-auris-id": {
+   "title": "Identification of C. auris",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/candida-auris/hcp/laboratories/identification-of-c-auris.html",
+   "keyword": "germ tubes"
+  },
+  "micro-histoplasmosis": {
+   "title": "Clinical Overview of Histoplasmosis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/histoplasmosis/hcp/clinical-overview/index.html",
+   "keyword": "antigen detection"
+  },
+  "micro-malaria-smears": {
+   "title": "DPDx Diagnostic Procedures: Blood Specimens – Microscopic Examination",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/dpdx/diagnosticprocedures/blood/microexam.html",
+   "keyword": "thin smear"
+  },
+  "micro-enterobiasis": {
+   "title": "DPDx: Enterobiasis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+   "keyword": "cellulose tape"
+  },
+  "micro-cryptosporidiosis": {
+   "title": "DPDx: Cryptosporidiosis",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/dpdx/cryptosporidiosis/index.html",
+   "keyword": "modified acid-fast"
+  },
+  "micro-flu-ridt": {
+   "title": "Rapid Influenza Diagnostic Tests",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/flu/hcp/testing-methods/clinician_guidance_ridt.html",
+   "keyword": "false negative"
+  },
+  "micro-hsv-test": {
+   "title": "Herpes HSV Test",
+   "publisher": "MedlinePlus (NLM)",
+   "url": "https://medlineplus.gov/lab-tests/herpes-hsv-test/",
+   "keyword": "polymerase chain reaction"
+  },
+  "micro-report-retention": {
+   "title": "Good Laboratory Practices for Molecular Genetic Testing for Heritable Diseases and Conditions (MMWR)",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5806a1.htm",
+   "keyword": "corrected reports"
+  },
+  "micro-nndss-case-surveillance": {
+   "title": "What is Case Surveillance? (NNDSS)",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/nndss/what-is-case-surveillance/index.html",
+   "keyword": "voluntarily"
+  },
+  "safety-osha-bbp": {
+   "title": "29 CFR 1910.1030 Bloodborne Pathogens",
+   "publisher": "OSHA",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+   "keyword": "Other Potentially Infectious Materials"
+  },
+  "safety-osha-hazcom": {
+   "title": "29 CFR 1910.1200 Hazard Communication",
+   "publisher": "OSHA",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200",
+   "keyword": "Signal word"
+  },
+  "safety-osha-lab-standard": {
+   "title": "29 CFR 1910.1450 Occupational Exposure to Hazardous Chemicals in Laboratories",
+   "publisher": "OSHA",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1450",
+   "keyword": "Chemical Hygiene Plan"
+  },
+  "safety-cdc-biosafety-levels": {
+   "title": "Recognizing the Biosafety Levels (Quick Learn)",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/training/quicklearns/biosafety/",
+   "keyword": "Biological Safety Cabinet"
+  },
+  "safety-bsc-clinical-lab": {
+   "title": "The Role of the Biosafety Cabinet in Preventing Infection in the Clinical Laboratory",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10823295/",
+   "keyword": "class II"
+  },
+  "safety-osha-extinguishers": {
+   "title": "Portable Fire Extinguishers: Extinguisher Basics (Evacuation Plans and Procedures eTool)",
+   "publisher": "OSHA",
+   "url": "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/about",
+   "keyword": "Class D"
+  },
+  "safety-osha-extinguisher-use": {
+   "title": "Portable Fire Extinguishers: Fire Extinguisher Use (Evacuation Plans and Procedures eTool)",
+   "publisher": "OSHA",
+   "url": "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use",
+   "keyword": "P.A.S.S."
+  },
+  "safety-osha-electrical-use": {
+   "title": "29 CFR 1910.334 Use of Equipment (Electrical Safety-Related Work Practices)",
+   "publisher": "OSHA",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.334",
+   "keyword": "visually inspected"
+  },
+  "safety-cdc-specimen-packing": {
+   "title": "Smallpox Specimen Packaging and Shipping",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/smallpox/hcp/laboratories/specimen-packing.html",
+   "keyword": "UN 3373"
+  },
+  "safety-niosh-bloodborne": {
+   "title": "Bloodborne Infectious Disease Risk Factors (Healthcare Workers)",
+   "publisher": "CDC (NIOSH)",
+   "url": "https://www.cdc.gov/niosh/healthcare/risk-factors/bloodborne-infectious-diseases.html",
+   "keyword": "Irrigate eyes"
+  },
+  "safety-medlineplus-eye-emergencies": {
+   "title": "Eye emergencies",
+   "publisher": "MedlinePlus (NIH)",
+   "url": "https://medlineplus.gov/ency/article/000054.htm",
+   "keyword": "15 minutes"
+  },
+  "safety-cdc-hiv-pep": {
+   "title": "Preventing HIV with PEP",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/hiv/prevention/pep.html",
+   "keyword": "72 hours"
+  },
+  "safety-cdc-environmental-services": {
+   "title": "Environmental Services: Guidelines for Environmental Infection Control in Health-Care Facilities",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/infection-control/hcp/environmental-control/environmental-services.html",
+   "keyword": "large spills of concentrated infectious agents"
+  },
+  "safety-cdc-medical-waste": {
+   "title": "Regulated Medical Waste: Guidelines for Environmental Infection Control in Health-Care Facilities",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/infection-control/hcp/environmental-control/regulated-medical-waste.html",
+   "keyword": "steam sterilization"
+  },
+  "generated-bacterial-identification": {
+   "title": "Evolving Approaches to Bacterial Identification: A Review of Classical and Modern Techniques",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13256776/",
+   "keyword": "coagulase"
+  },
+  "generated-urinalysis": {
+   "title": "Deconstructing the urinalysis: A novel approach to diagnostic and antimicrobial stewardship",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8486290/",
+   "keyword": "leukocyte esterase"
+  },
+  "generated-abo-grouping": {
+   "title": "ABO blood group discrepancies in blood donor and patient samples at a tertiary care oncology centre: analysis and serological resolution",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11451381/",
+   "keyword": "reverse type"
+  },
+  "generated-anion-gap": {
+   "title": "Serum anion gap and its interaction with diabetes in predicting mortality among critically ill patients with non-traumatic intracerebral hemorrhage",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12220329/",
+   "keyword": "AG was calculated according to the following formula"
+  },
+  "generated-calculated-osmolality": {
+   "title": "Evaluation of the effects of glucose on osmolal gap using freezing point depression and vapor pressure methods",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11915567/",
+   "keyword": "Glu/18 + BUN/2.8"
+  },
+  "generated-friedewald-ldl": {
+   "title": "Underestimation of Low-Density Lipoprotein Cholesterol (LDL-C) Using the Friedewald Equation at Higher Triglyceride Levels: Evidence From a Method-Comparison Study",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676778/",
+   "keyword": "Friedewald"
+  },
+  "generated-non-hdl-cholesterol": {
+   "title": "Non-HDL Cholesterol as a Practical Gatekeeper for Adolescent Dyslipidemia Screening: Implications for Nutrition and Public Health",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13414525/",
+   "keyword": "total cholesterol minus HDL cholesterol"
+  },
+  "generated-albumin-globulin-ratio": {
+   "title": "Nonlinear association between albumin-globulin ratio and bone mineral density: A cross-sectional study revealing threshold effects and sexual dimorphism in US adults",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13574411/",
+   "keyword": "derived by subtracting albumin from the total protein"
+  },
+  "generated-creatinine-clearance": {
+   "title": "Evaluation of kidney disease using e-GFR compared to measured creatinine clearance",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11069609/",
+   "keyword": "U x V/P"
+  },
+  "generated-transferrin-saturation": {
+   "title": "Characteristics of transferrin saturation and anemia-related biomarkers in patients with uterine adenomyosis",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12994800/",
+   "keyword": "total iron-binding capacity"
+  },
+  "generated-indirect-bilirubin": {
+   "title": "Associations of bilirubin, albumin, and the ALBI index with gastric cancer risk: a smoking-stratified prospective cohort study in men",
+   "publisher": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13479926/",
+   "keyword": "difference between total bilirubin and direct bilirubin"
+  },
+  "generated-hepatitis-b-serology": {
+   "title": "Clinical Testing and Diagnosis for Hepatitis B",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html",
+   "keyword": "IgM anti-HBc"
+  },
+  "generated-bloodborne-pathogens-standard": {
+   "title": "1910.1030 - Bloodborne pathogens",
+   "publisher": "OSHA",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+   "keyword": "Regulated Waste"
   }
  },
  "generated": {
@@ -1712,6 +2744,19 @@
   "drill:mchc": "generated-rbc-indices",
   "drill:mcv": "generated-rbc-indices",
   "drill:rpi": "generated-reticulocyte-production-index",
-  "qc:westgard": "generated-westgard-iqc"
+  "qc:westgard": "generated-westgard-iqc",
+  "micro:identification": "generated-bacterial-identification",
+  "ua:interpretation": "generated-urinalysis",
+  "bb:abo_rh": "generated-abo-grouping",
+  "chem:anion_gap": "generated-anion-gap",
+  "chem:osmolality": "generated-calculated-osmolality",
+  "chem:ldl_friedewald": "generated-friedewald-ldl",
+  "chem:non_hdl": "generated-non-hdl-cholesterol",
+  "chem:ag_ratio": "generated-albumin-globulin-ratio",
+  "chem:creatinine_clearance": "generated-creatinine-clearance",
+  "chem:transferrin_saturation": "generated-transferrin-saturation",
+  "chem:indirect_bilirubin": "generated-indirect-bilirubin",
+  "immuno:hepatitis_b": "generated-hepatitis-b-serology",
+  "safety:waste": "generated-bloodborne-pathogens-standard"
  }
 }

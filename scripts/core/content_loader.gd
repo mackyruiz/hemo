@@ -2,15 +2,13 @@ class_name ContentLoader
 extends RefCounted
 ## Single file-loading path for runtime content and content validation tests.
 
-const TOPICS := ["phys", "rbc", "wbc", "plt", "lab", "hemo", "qc"]
-
 static func load_all() -> Dictionary:
 	var errors: Array[String] = []
 	var content: Dictionary = {
 		"questions": [], "morph": {}, "photos": [], "cbc_cases": [],
 		"coag_cases": [], "diff_profiles": [], "ranges": {}, "sources": {}, "generated_sources": {}, "glossary": [], "errors": errors,
 	}
-	for topic: String in TOPICS:
+	for topic: String in Topics.ids():
 		var questions: Variant = _load_json("res://data/questions/%s.json" % topic, TYPE_ARRAY, errors)
 		if questions is Array:
 			content["questions"].append_array(questions)

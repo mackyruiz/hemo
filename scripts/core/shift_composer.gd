@@ -2,6 +2,10 @@ class_name ShiftComposer
 extends RefCounted
 ## Pure, seeded composition of career and targeted practice shifts.
 
+## Career shifts hold at most this many non-knowledge bench slots.
+const MAX_BENCH_SLOTS := 6
+
+
 static func compose(content: Dictionary, progress: Dictionary, level: int, rng: RandomNumberGenerator, now: int, size: int = 10, mode: String = "career", practice_bench: String = "", practice_tier: int = 0, practice_topic: String = "") -> Array[Dictionary]:
 	var tier: int = XpRules.tier_for_level(level)
 	if mode == "practice" and practice_tier > 0:
@@ -11,13 +15,17 @@ static func compose(content: Dictionary, progress: Dictionary, level: int, rng: 
 		for i in maxi(size, 0):
 			slots.append(practice_bench)
 	else:
-		var benches: Array[String] = XpRules.unlocked_benches(level)
-		for bench: String in benches:
+		var candidates: Array[String] = []
+		for bench: String in XpRules.unlocked_benches(level):
 			if bench == "knowledge":
 				continue
-			slots.append(bench)
+			candidates.append(bench)
 			if bench == "morphology":
-				slots.append(bench)
+				candidates.append(bench)
+		if candidates.size() > MAX_BENCH_SLOTS:
+			_shuffle(candidates, rng)
+			candidates.resize(MAX_BENCH_SLOTS)
+		slots = candidates
 		while slots.size() < size:
 			slots.append("knowledge")
 		if slots.size() > maxi(size, 0):
@@ -89,6 +97,17 @@ static func compose(content: Dictionary, progress: Dictionary, level: int, rng: 
 		elif bench == "qc":
 			var scenarios: Array = QcGenerator.SCENARIOS
 			task = {"bench": bench, "scenario": scenarios[rng.randi_range(0, scenarios.size() - 1)]}
+		elif bench == "micro":
+			task = {"bench": bench, "organism": MicroId.ORGANISM_IDS[rng.randi_range(0, MicroId.ORGANISM_IDS.size() - 1)]}
+		elif bench == "urinalysis":
+			task = {"bench": bench, "scenario": UaCases.SCENARIO_IDS[rng.randi_range(0, UaCases.SCENARIO_IDS.size() - 1)]}
+		elif bench == "blood_bank" or bench == "immuno" or bench == "safety":
+			task = {"bench": bench}
+		elif bench == "chem":
+			var drills: Array[String] = []
+			drills.assign(ChemCalcs.TYPES)
+			_shuffle(drills, rng)
+			task = {"bench": bench, "drills": drills.slice(0, 3)}
 		if not task.is_empty():
 			task["tier"] = tier
 			tasks.append(task)

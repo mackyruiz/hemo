@@ -1,0 +1,542 @@
+[
+  {
+    "id": "safety-0001",
+    "topic": "safety",
+    "subtopic": "bloodborne_pathogens",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Under the OSHA Bloodborne Pathogens Standard, when must the employer make the hepatitis B vaccination series available to a newly hired technologist with occupational exposure?",
+    "image": null,
+    "choices": [
+      "Only after the technologist reports a needlestick or other exposure incident",
+      "Within 90 days of hire, with the cost shared by the employee",
+      "After required training and within 10 working days of initial assignment, at no cost",
+      "Only if a prescreening antibody test shows the technologist is not immune"
+    ],
+    "answer": 2,
+    "explanation": "OSHA requires the vaccine to be made available after training and within 10 working days of initial assignment, at no cost to the employee. Waiting for an exposure incident misses the pre-exposure requirement, and prescreening may not be made a prerequisite for vaccination.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0002",
+    "topic": "safety",
+    "subtopic": "bloodborne_pathogens",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which body fluid is classified as other potentially infectious material (OPIM) under the OSHA Bloodborne Pathogens Standard even when no blood is visible?",
+    "image": null,
+    "choices": [
+      "Cerebrospinal fluid",
+      "Urine without visible blood",
+      "Nasal secretions without visible blood",
+      "Sweat"
+    ],
+    "answer": 0,
+    "explanation": "OSHA lists cerebrospinal fluid with synovial, pleural, pericardial, peritoneal and amniotic fluids, semen and vaginal secretions as OPIM. Urine, tears and sweat become OPIM only when visibly contaminated with blood or when body fluids cannot be differentiated.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0003",
+    "topic": "safety",
+    "subtopic": "bloodborne_pathogens",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A new refrigerator will be used to store patient serum and plasma specimens. How must it be labeled under the OSHA Bloodborne Pathogens Standard?",
+    "image": null,
+    "choices": [
+      "A yellow caution label reading \"Specimens only\"",
+      "A fluorescent orange or orange-red biohazard label",
+      "A GHS health-hazard pictogram with the signal word \"Warning\"",
+      "No label; only shipping containers need one"
+    ],
+    "answer": 1,
+    "explanation": "OSHA requires warning labels on refrigerators and freezers containing blood or OPIM, and the labels must be fluorescent orange or orange-red with the biohazard legend in a contrasting color. GHS pictograms communicate chemical hazards, not biohazards.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0004",
+    "topic": "safety",
+    "subtopic": "bloodborne_pathogens",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "For how long must an employer keep the medical record of a technologist with occupational exposure under the OSHA Bloodborne Pathogens Standard?",
+    "image": null,
+    "choices": [
+      "3 years from the date the record was created",
+      "Until the hepatitis B vaccination series is completed",
+      "5 years after the employee leaves the job",
+      "At least the duration of employment plus 30 years"
+    ],
+    "answer": 3,
+    "explanation": "Bloodborne pathogens medical records must be kept for at least the duration of employment plus 30 years. The 3-year period applies to training records, not medical records.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0005",
+    "topic": "safety",
+    "subtopic": "ppe_work_practices",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "While pipetting patient serum, a technologist notices a small tear in one glove. What should be done?",
+    "image": null,
+    "choices": [
+      "Finish the current run first, then change both gloves",
+      "Remove the gloves, wash hands, and put on new gloves",
+      "Cover the tear with tape and keep working",
+      "Wipe the glove with 70% alcohol and keep working"
+    ],
+    "answer": 1,
+    "explanation": "Disposable gloves must be replaced as soon as feasible when torn, and hands are washed after glove removal. Disposable gloves may not be washed or decontaminated for reuse, so wiping or taping the glove is not acceptable.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0006",
+    "topic": "safety",
+    "subtopic": "ppe_work_practices",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which activity is prohibited at a laboratory bench where blood specimens are processed?",
+    "image": null,
+    "choices": [
+      "Applying lip balm",
+      "Wearing a fluid-resistant laboratory coat",
+      "Using a mechanical pipetting device",
+      "Recording results on a paper worksheet"
+    ],
+    "answer": 0,
+    "explanation": "OSHA prohibits eating, drinking, smoking, applying cosmetics or lip balm and handling contact lenses where occupational exposure is reasonably likely. Mechanical pipetting is the required alternative to mouth pipetting, which is prohibited.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0007",
+    "topic": "safety",
+    "subtopic": "ppe_work_practices",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A technologist wearing a fluid-resistant lab coat in specimen processing is leaving for a break in the cafeteria. What should be done with the lab coat?",
+    "image": null,
+    "choices": [
+      "Wear it on break if it has no visible blood",
+      "Take it home to wash with personal laundry",
+      "Turn it inside out and wear it on break",
+      "Remove it before leaving the work area"
+    ],
+    "answer": 3,
+    "explanation": "All PPE must be removed before leaving the work area and placed in a designated area or container. The employer, not the employee, cleans and launders PPE, so taking it home is not acceptable.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0008",
+    "topic": "safety",
+    "subtopic": "ppe_work_practices",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "According to the OSHA Bloodborne Pathogens Standard, when must hands be washed after removing gloves worn to handle blood specimens?",
+    "image": null,
+    "choices": [
+      "Only if the gloves were torn or punctured",
+      "Only at the end of the shift",
+      "Immediately or as soon as feasible after glove removal",
+      "Only if blood is visible on the hands"
+    ],
+    "answer": 2,
+    "explanation": "OSHA requires hand washing immediately or as soon as feasible after removing gloves or other PPE. Gloves can have unnoticed defects, so washing only after a visible tear is not sufficient.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0009",
+    "topic": "safety",
+    "subtopic": "biosafety",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Laboratory culture work with Mycobacterium tuberculosis, which is transmitted by the respiratory route, is typically performed at which biosafety level?",
+    "image": null,
+    "choices": [
+      "BSL-1",
+      "BSL-2",
+      "BSL-3",
+      "BSL-4"
+    ],
+    "answer": 2,
+    "explanation": "BSL-3 is used for indigenous or exotic microbes that can cause serious or lethal disease through respiratory transmission, such as M. tuberculosis. BSL-4 is reserved for dangerous exotic agents such as Ebola and Marburg viruses.",
+    "source": "safety-cdc-biosafety-levels"
+  },
+  {
+    "id": "safety-0010",
+    "topic": "safety",
+    "subtopic": "biosafety",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which biological safety cabinet is used most often in clinical laboratories because it protects both the worker and the specimen or culture being handled?",
+    "image": null,
+    "choices": [
+      "Class I",
+      "Class II",
+      "Class III",
+      "Chemical fume hood"
+    ],
+    "answer": 1,
+    "explanation": "Class II cabinets, with HEPA-filtered vertical airflow, protect personnel and the product and are the type used most often in clinical laboratories. A Class I cabinet protects the worker and environment but not the product, and a fume hood is not a biological safety cabinet.",
+    "source": "safety-bsc-clinical-lab"
+  },
+  {
+    "id": "safety-0011",
+    "topic": "safety",
+    "subtopic": "biosafety",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A technologist working in a Class II biological safety cabinet wants to flame an inoculating loop. What is the best practice?",
+    "image": null,
+    "choices": [
+      "Place a Bunsen burner just inside the front grille",
+      "Switch off the cabinet blower briefly while flaming",
+      "Close the sash completely while flaming",
+      "Use a sterile disposable loop instead of a flame"
+    ],
+    "answer": 3,
+    "explanation": "Open flames should not be used inside a BSC because they disrupt the protective airflow and create a fire hazard. Turning off the blower or blocking the front grille also destroys containment.",
+    "source": "safety-bsc-clinical-lab"
+  },
+  {
+    "id": "safety-0012",
+    "topic": "safety",
+    "subtopic": "biosafety",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "In a BSL-2 clinical microbiology laboratory, which task should be performed inside a biological safety cabinet?",
+    "image": null,
+    "choices": [
+      "Grinding a tissue specimen for culture",
+      "Examining a stained smear under the microscope",
+      "Entering culture results into the laboratory information system",
+      "Labeling empty culture plates before inoculation"
+    ],
+    "answer": 0,
+    "explanation": "At BSL-2, procedures that can cause infection through aerosols or splashes, such as tissue grinding, are performed in a biological safety cabinet. Reading a fixed, stained smear or doing clerical tasks does not generate infectious aerosols.",
+    "source": "safety-cdc-biosafety-levels"
+  },
+  {
+    "id": "safety-0013",
+    "topic": "safety",
+    "subtopic": "chemical_safety",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "On a chemical label required by the OSHA Hazard Communication Standard, what does the signal word \"Danger\" indicate compared with \"Warning\"?",
+    "image": null,
+    "choices": [
+      "A more severe hazard",
+      "A less severe hazard",
+      "A hazard that applies only during shipping",
+      "A chemical that has no physical hazards"
+    ],
+    "answer": 0,
+    "explanation": "OSHA uses two signal words: \"Danger\" for more severe hazards and \"Warning\" for less severe hazards. The signal word appears on shipped-container labels with the pictograms and hazard statements.",
+    "source": "safety-osha-hazcom"
+  },
+  {
+    "id": "safety-0014",
+    "topic": "safety",
+    "subtopic": "chemical_safety",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A technologist needs to know which gloves and eye protection to wear with a new fixative. Which section of the 16-section safety data sheet (SDS) should be checked?",
+    "image": null,
+    "choices": [
+      "Section 2, Hazard(s) identification",
+      "Section 4, First-aid measures",
+      "Section 8, Exposure controls/personal protection",
+      "Section 11, Toxicological information"
+    ],
+    "answer": 2,
+    "explanation": "Section 8 of the SDS gives exposure controls and personal protective equipment. Section 4 covers first aid after an exposure, not the PPE needed to prevent one.",
+    "source": "safety-osha-hazcom"
+  },
+  {
+    "id": "safety-0015",
+    "topic": "safety",
+    "subtopic": "chemical_safety",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "Methanol is poured from a labeled stock bottle into a squeeze bottle that will stay on the staining bench for all staff to use over several shifts. What does the OSHA Hazard Communication Standard require?",
+    "image": null,
+    "choices": [
+      "No label, because portable containers are always exempt",
+      "Label the squeeze bottle with the product identifier and hazard information",
+      "A label showing only the date of transfer",
+      "A label only if the bottle holds more than 1 liter"
+    ],
+    "answer": 1,
+    "explanation": "The portable-container exemption applies only when the chemical is for immediate use by the person who transferred it within the same work shift. A shared container kept across shifts is a workplace container and needs the product identifier and hazard information.",
+    "source": "safety-osha-hazcom"
+  },
+  {
+    "id": "safety-0016",
+    "topic": "safety",
+    "subtopic": "chemical_safety",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which OSHA standard requires a laboratory to have a written Chemical Hygiene Plan and a designated Chemical Hygiene Officer?",
+    "image": null,
+    "choices": [
+      "29 CFR 1910.1030, the Bloodborne Pathogens Standard",
+      "29 CFR 1910.1200, the Hazard Communication Standard",
+      "29 CFR 1910.157, Portable fire extinguishers",
+      "29 CFR 1910.1450, the Laboratory Standard"
+    ],
+    "answer": 3,
+    "explanation": "The OSHA Laboratory Standard (29 CFR 1910.1450) requires a written Chemical Hygiene Plan, a Chemical Hygiene Officer, and at least annual review of the plan. The Hazard Communication Standard covers labels, SDSs and training but does not require a Chemical Hygiene Plan.",
+    "source": "safety-osha-lab-standard"
+  },
+  {
+    "id": "safety-0017",
+    "topic": "safety",
+    "subtopic": "fire_electrical",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "A fire starts in the wiring of an energized analyzer. Which extinguisher class is designed for this type of fire?",
+    "image": null,
+    "choices": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    "answer": 2,
+    "explanation": "Fires in wiring and energized electrical equipment require an extinguisher labeled C. Class A is for ordinary combustibles such as paper and wood, and Class D is for combustible metals.",
+    "source": "safety-osha-extinguishers"
+  },
+  {
+    "id": "safety-0018",
+    "topic": "safety",
+    "subtopic": "fire_electrical",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Using the PASS technique on a small fire, where should the extinguisher nozzle be aimed?",
+    "image": null,
+    "choices": [
+      "At the top of the flames",
+      "Low, at the base of the fire",
+      "At the smoke above the fire",
+      "At the wall behind the fire"
+    ],
+    "answer": 1,
+    "explanation": "PASS means pull the pin, aim low at the base of the fire, squeeze the handle, and sweep side to side. Aiming at the flames or smoke does not reach the burning fuel.",
+    "source": "safety-osha-extinguisher-use"
+  },
+  {
+    "id": "safety-0019",
+    "topic": "safety",
+    "subtopic": "fire_electrical",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Before starting a centrifuge, a technologist sees that its power cord insulation is cracked and frayed. What should be done?",
+    "image": null,
+    "choices": [
+      "Wrap the damaged area with electrical tape and run it",
+      "Run today's specimens and report the cord at shift end",
+      "Plug it into an extension cord to reduce strain on the cord",
+      "Remove the centrifuge from service and report it for repair"
+    ],
+    "answer": 3,
+    "explanation": "OSHA requires cord-and-plug equipment to be inspected before use, and damaged items must be removed from service until repaired and tested. Using it with a temporary tape repair still exposes workers to shock and fire hazards.",
+    "source": "safety-osha-electrical-use"
+  },
+  {
+    "id": "safety-0020",
+    "topic": "safety",
+    "subtopic": "fire_electrical",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A small fire involves spilled ethanol on a laboratory bench. Which portable extinguisher is appropriate?",
+    "image": null,
+    "choices": [
+      "Carbon dioxide extinguisher rated for Class B and C fires",
+      "Air-pressurized water extinguisher rated for Class A fires",
+      "Dry powder extinguisher rated only for Class D metal fires",
+      "No extinguisher; blow out the flames with compressed air"
+    ],
+    "answer": 0,
+    "explanation": "Flammable liquid fires are Class B, and CO2 extinguishers are designed for Class B and C fires. Water should never be used on flammable liquid fires because it is ineffective and can spread the burning liquid.",
+    "source": "safety-osha-extinguishers"
+  },
+  {
+    "id": "safety-0021",
+    "topic": "safety",
+    "subtopic": "specimen_transport",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Patient specimens that may contain pathogens but do not meet the high-risk Category A criteria are shipped under which UN number and proper shipping name?",
+    "image": null,
+    "choices": [
+      "UN 2814, Infectious Substance, Affecting Humans",
+      "UN 3373, Biological Substance, Category B",
+      "UN 2900, Infectious Substance, Affecting Animals only",
+      "UN 1845, Carbon dioxide, solid (dry ice)"
+    ],
+    "answer": 1,
+    "explanation": "Low- and moderate-risk specimens are packaged, labeled and shipped as Category B infectious substances (UN 3373). UN 2814 is used for high-risk Category A infectious substances affecting humans.",
+    "source": "safety-cdc-specimen-packing"
+  },
+  {
+    "id": "safety-0022",
+    "topic": "safety",
+    "subtopic": "specimen_transport",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "When triple-packaging a liquid serum specimen for shipment, where is the absorbent material placed?",
+    "image": null,
+    "choices": [
+      "Between the primary receptacle and the secondary receptacle",
+      "Between the secondary receptacle and the outer packaging",
+      "Inside the primary tube with the specimen",
+      "Outside the outer box, under the shipping label"
+    ],
+    "answer": 0,
+    "explanation": "For liquid specimens, absorbent material goes between the leakproof primary receptacle and the leakproof secondary receptacle so it can contain a leak. The space between the secondary receptacle and outer packaging holds the list of contents and paperwork.",
+    "source": "safety-cdc-specimen-packing"
+  },
+  {
+    "id": "safety-0023",
+    "topic": "safety",
+    "subtopic": "specimen_transport",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "Where should the itemized list of contents and specimen paperwork be placed in a UN 3373 triple package?",
+    "image": null,
+    "choices": [
+      "Inside the secondary receptacle with the specimen tubes",
+      "Taped directly to the primary receptacle",
+      "Mailed separately after the package is delivered",
+      "Between the secondary receptacle and the outer packaging"
+    ],
+    "answer": 3,
+    "explanation": "The list of contents and paperwork go between the secondary receptacle and the outer packaging, where they stay dry and can be read without opening the leakproof layers. Placing paperwork inside the secondary receptacle risks contaminating it if a tube leaks.",
+    "source": "safety-cdc-specimen-packing"
+  },
+  {
+    "id": "safety-0024",
+    "topic": "safety",
+    "subtopic": "emergency_response",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "A technologist sustains a needlestick from a needle used on a patient. What should be done first?",
+    "image": null,
+    "choices": [
+      "Finish processing the specimens, then report",
+      "Wait for the source patient's HIV result before acting",
+      "Wash the puncture site with soap and water",
+      "Cover the site with a bandage and keep working"
+    ],
+    "answer": 2,
+    "explanation": "CDC first aid is to wash the needlestick site with soap and water, then report to the supervisor and seek medical care immediately. Delaying care or reporting can delay post-exposure prophylaxis.",
+    "source": "safety-niosh-bloodborne"
+  },
+  {
+    "id": "safety-0025",
+    "topic": "safety",
+    "subtopic": "emergency_response",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Formalin splashes into a technologist's eye. How long should the eye be flushed at the eyewash station?",
+    "image": null,
+    "choices": [
+      "At least 15 minutes",
+      "30 seconds",
+      "2 minutes",
+      "Until the stinging stops"
+    ],
+    "answer": 0,
+    "explanation": "Chemical splashes to the eye should be flushed with running water or saline for at least 15 minutes, followed by prompt medical care. Shorter flushing, or stopping when pain eases, can leave chemical in the eye.",
+    "source": "safety-medlineplus-eye-emergencies"
+  },
+  {
+    "id": "safety-0026",
+    "topic": "safety",
+    "subtopic": "emergency_response",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "After an occupational exposure to blood from a patient with HIV, when must HIV post-exposure prophylaxis (PEP) be started to be effective?",
+    "image": null,
+    "choices": [
+      "Within 7 days of the exposure",
+      "As soon as possible, and within 72 hours",
+      "Only after the employee's baseline HIV test is positive",
+      "Within 30 days of the exposure"
+    ],
+    "answer": 1,
+    "explanation": "CDC states PEP must be started within 72 hours of exposure, and the sooner it starts the better. A positive baseline test would mean prior infection, which PEP cannot prevent.",
+    "source": "safety-cdc-hiv-pep"
+  },
+  {
+    "id": "safety-0027",
+    "topic": "safety",
+    "subtopic": "emergency_response",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A flask of broth culture of a pathogenic organism breaks and spills across a microbiology bench. Which approach follows CDC recommendations?",
+    "image": null,
+    "choices": [
+      "Wipe up the liquid with paper towels, then rinse the bench with tap water",
+      "Spray with water to dilute the culture, then mop up",
+      "Confine it, flood it with liquid germicide, then clean and decontaminate",
+      "Let the culture dry before sweeping up the glass"
+    ],
+    "answer": 2,
+    "explanation": "For large spills of concentrated infectious agents, CDC recommends confining the area, flooding it with a liquid chemical germicide before cleaning, and decontaminating with fresh germicide of at least intermediate-level potency. Wiping or rinsing without a germicide spreads viable organisms.",
+    "source": "safety-cdc-environmental-services"
+  },
+  {
+    "id": "safety-0028",
+    "topic": "safety",
+    "subtopic": "waste_disposal",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which waste container is intended for used glass slides and tubes with small amounts of blood?",
+    "image": null,
+    "choices": [
+      "Puncture-resistant sharps container",
+      "Red biohazard bag",
+      "Regular trash container",
+      "Glass recycling bin"
+    ],
+    "answer": 0,
+    "explanation": "Puncture-resistant containers at the point of use hold discarded slides or tubes with small amounts of blood, needles, scalpel blades and other sharps. A biohazard bag can be punctured by glass, exposing handlers.",
+    "source": "safety-cdc-medical-waste"
+  },
+  {
+    "id": "safety-0029",
+    "topic": "safety",
+    "subtopic": "waste_disposal",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "How should used microbiology culture plates and stocks of microorganisms be handled before final disposal?",
+    "image": null,
+    "choices": [
+      "Discard them in regular trash once the lids are taped",
+      "Pour bleach over them and flush them down the sink",
+      "Freeze them until the waste hauler arrives",
+      "Decontaminate them on site, such as by autoclaving"
+    ],
+    "answer": 3,
+    "explanation": "CDC recommends on-site decontamination of microbiology cultures and stocks, preferably within the laboratory, historically by autoclaving (steam sterilization) or incineration. Taping lids does not inactivate the high concentration of organisms.",
+    "source": "safety-cdc-medical-waste"
+  },
+  {
+    "id": "safety-0030",
+    "topic": "safety",
+    "subtopic": "waste_disposal",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Under the OSHA Bloodborne Pathogens Standard, which item is regulated waste?",
+    "image": null,
+    "choices": [
+      "Gloves with no visible blood that were worn to handle capped tubes",
+      "Gauze caked with dried blood that could flake off during handling",
+      "An empty cardboard reagent box",
+      "A paper towel used after hand washing"
+    ],
+    "answer": 1,
+    "explanation": "Regulated waste includes items caked with dried blood or OPIM that can release these materials during handling, as well as liquid or semi-liquid blood and contaminated sharps. Gloves with no visible blood would not release blood if compressed, so they are not regulated waste under this definition.",
+    "source": "safety-osha-bbp"
+  }
+]
