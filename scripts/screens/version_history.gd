@@ -2,6 +2,7 @@ extends Control
 ## Dated project milestones, identified by their Git revision rather than invented release numbers.
 
 const ENTRIES := [
+	{"date": "2026-11-04", "revision": "0e60c1e", "title": "Full MLT subject coverage", "notes": "Blood banking, chemistry, microbiology, urinalysis, immunology and lab safety question banks and benches; Board Sim now mirrors the 100-question MLT exam."},
 	{"date": "2026-11-03", "revision": "ff5977b", "title": "Real cell photography", "notes": "Photomicrographs with yellow target indicators replace cell drawings on study surfaces. Added new photos and removed the drawn smear-search game."},
 	{"date": "2026-11-02", "revision": "e771383", "title": "Home screen tiles", "notes": "Illustrated navigation tiles for Practice, Board Sim, Lab Floor, Cell Atlas and Flashcards."},
 	{"date": "2026-11-02", "revision": "45e5d7b", "title": "Study aids", "notes": "Flag questions for review and study cells and terms with spaced-repetition flashcards."},
