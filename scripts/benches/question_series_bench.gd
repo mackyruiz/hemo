@@ -27,6 +27,7 @@ func run(title: String, topic: String, source_key: String, steps: Array[Dictiona
 	var page: Array = UI.page(title, false)
 	add_child(page[0])
 	_question_host = UI.vbox()
+	_question_host.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	page[1].add_child(_question_host)
 	_show_question()
 

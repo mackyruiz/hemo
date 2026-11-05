@@ -19,6 +19,9 @@ var _buttons: Array[Button] = []
 var _rng: RandomNumberGenerator
 var _hint_button: Button
 var _hinted: bool = false
+## Hint and Flag sit together below the choices, set apart by a separator. The row
+## expands and bottom-aligns, so on short pages it rests at the bottom of the screen.
+var _tools: VBoxContainer = null
 
 
 func setup(q: Dictionary, opts: Dictionary = {}) -> void:
@@ -30,6 +33,8 @@ func setup(q: Dictionary, opts: Dictionary = {}) -> void:
 	_answered = false
 	_hinted = false
 	_hint_button = null
+	_flag_button = null
+	_tools = null
 	_mapping.clear()
 	_buttons.clear()
 	_rng = opts.get("rng") as RandomNumberGenerator
@@ -43,9 +48,6 @@ func setup(q: Dictionary, opts: Dictionary = {}) -> void:
 	_flag_key = ""
 	if flag_opt is Dictionary:
 		_flag_key = str(flag_opt.get("key", ""))
-	if not _flag_key.is_empty():
-		_flag_button = UI.button(FLAG_ON if Progress.is_flagged(_flag_key) else FLAG_OFF, _toggle_flag, "SecondaryButton")
-		add_child(_flag_button)
 	add_child(UI.label(str(q.get("stem", ""))))
 	var image_id: String = str(q.get("image", "")) if q.get("image") != null else ""
 	if not image_id.is_empty():
@@ -64,9 +66,25 @@ func setup(q: Dictionary, opts: Dictionary = {}) -> void:
 		button.custom_minimum_size.y = 72
 		add_child(button)
 		_buttons.append(button)
+	var tool_row := UI.hbox(12)
 	if bool(opts.get("allow_hint", true)) and _show_feedback and choices.size() >= Hint.MIN_CHOICES:
-		_hint_button = UI.button("Hint: remove two wrong answers", _use_hint, "SecondaryButton")
-		add_child(_hint_button)
+		_hint_button = UI.button("Hint: remove two wrong answers", _use_hint, "HintButton")
+		tool_row.add_child(_hint_button)
+	if not _flag_key.is_empty():
+		_flag_button = UI.button(FLAG_ON if Progress.is_flagged(_flag_key) else FLAG_OFF, _toggle_flag, "FlagButton")
+		tool_row.add_child(_flag_button)
+	if tool_row.get_child_count() > 0:
+		for button in tool_row.get_children():
+			button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		_tools = UI.vbox(12)
+		_tools.alignment = BoxContainer.ALIGNMENT_END
+		_tools.size_flags_vertical = Control.SIZE_EXPAND_FILL
+		_tools.add_child(HSeparator.new())
+		_tools.add_child(tool_row)
+		add_child(_tools)
+		size_flags_vertical = Control.SIZE_EXPAND_FILL
+	else:
+		tool_row.queue_free()
 
 
 func _use_hint() -> void:
@@ -96,8 +114,14 @@ func _choose(chosen_index: int) -> void:
 		return
 	_answered = true
 	if _hint_button != null:
+		_hint_button.get_parent().remove_child(_hint_button)
 		_hint_button.queue_free()
 		_hint_button = null
+	if _tools != null and _flag_button == null:
+		remove_child(_tools)
+		_tools.queue_free()
+		_tools = null
+		size_flags_vertical = Control.SIZE_FILL
 	var correct_index: int = int(_question.get("answer", -1))
 	var correct: bool = chosen_index == correct_index
 	for button in _buttons:
@@ -122,6 +146,8 @@ func _choose(chosen_index: int) -> void:
 		if link != null:
 			add_child(link)
 		add_child(UI.button("Next", func(): next_pressed.emit()))
+	if _tools != null:
+		move_child(_tools, -1)
 	answered.emit(correct, chosen_index)
 
 

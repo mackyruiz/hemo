@@ -57,6 +57,7 @@ func _start() -> void:
 	header.add_child(_timer)
 	_content.add_child(header)
 	_body = UI.vbox()
+	_body.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	_content.add_child(_body)
 	_show_next()
 

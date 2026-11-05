@@ -10,6 +10,13 @@ const SUCCESS := Color("#2E8B57")
 const ERROR := Color("#C0392B")
 const TEXT := Color("#222222")
 const MUTED := Color("#6B6B6B")
+# Pastel study-tool colors keep Hint and Flag visually apart from the white answer choices.
+const HINT_BG := Color("#FFF3C4")
+const HINT_FG := Color("#6B4E00")
+const HINT_BORDER := Color("#E3C25A")
+const FLAG_BG := Color("#E3E8FF")
+const FLAG_FG := Color("#33428A")
+const FLAG_BORDER := Color("#A9B5EA")
 
 
 static func _box(bg: Color, radius: int, border: Color = Color(0, 0, 0, 0), border_w: int = 0, margin: int = 0) -> StyleBoxFlat:
@@ -65,6 +72,12 @@ static func build(large_text: bool) -> Theme:
 	theme.add_type("SecondaryButton")
 	theme.set_type_variation("SecondaryButton", "Button")
 	_button_styles(theme, "SecondaryButton", SURFACE, PRIMARY, PRIMARY, 2)
+
+	for tool: Array in [["HintButton", HINT_BG, HINT_FG, HINT_BORDER], ["FlagButton", FLAG_BG, FLAG_FG, FLAG_BORDER]]:
+		theme.add_type(tool[0])
+		theme.set_type_variation(tool[0], "Button")
+		_button_styles(theme, tool[0], tool[1], tool[2], tool[3], 2)
+		theme.set_font_size("font_size", tool[0], fs - 4)
 
 	theme.set_stylebox("panel", "PanelContainer", _box(SURFACE, 14, Color("#E6E1DD"), 1, 16))
 

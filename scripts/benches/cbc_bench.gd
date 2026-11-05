@@ -45,6 +45,7 @@ func _build() -> void:
 	if kind == "cbc":
 		_add_smear()
 	_step_host = UI.vbox(12)
+	_step_host.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	_content.add_child(_step_host)
 
 

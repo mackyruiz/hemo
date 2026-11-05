@@ -45,6 +45,8 @@ static func page(title: String, show_back: bool = true) -> Array:
 
 	var margin := MarginContainer.new()
 	margin.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	# Fill short pages so a child can expand to pin controls to the bottom of the screen.
+	margin.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	scroll.add_child(margin)
 	margin.add_theme_constant_override("margin_top", 8)
 	margin.add_theme_constant_override("margin_bottom", 24)

@@ -42,6 +42,7 @@ func start(task: Dictionary) -> void:
 	_content.add_child(chart)
 	chart.setup(data)
 	_question_host = UI.vbox()
+	_question_host.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	_content.add_child(_question_host)
 	_build_questions(rule)
 	_show_question()
