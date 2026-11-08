@@ -46,14 +46,27 @@ static func sort_glyph(index: int) -> String:
 	return SORT_GLYPHS[index % SORT_GLYPHS.size()]
 
 
+## Sort-chip icon box and the text indent that clears it, both derived from the font
+## size so the large-text setting scales the art with the label.
+const ICON_RATIO := 1.6
+const ICON_GAP := 10
+
+static func icon_px(font_size: int) -> int:
+	return int(round(font_size * ICON_RATIO))
+
+
+static func icon_text_pad(font_size: int) -> int:
+	return 12 + icon_px(font_size) + ICON_GAP
+
+
 ## Per-node button colours. The disabled state keeps the same colours so results stay
 ## readable after the sort is checked.
-static func tint_button(button: Button, bg: Color, fg: Color, border: Color, border_w: int) -> void:
-	button.add_theme_stylebox_override("normal", _box(bg, 12, border, border_w, 12))
-	button.add_theme_stylebox_override("hover", _box(bg.lightened(0.06), 12, border, border_w, 12))
-	for state in ["pressed", "hover_pressed"]:
-		button.add_theme_stylebox_override(state, _box(bg.darkened(0.08), 12, border, border_w, 12))
-	button.add_theme_stylebox_override("disabled", _box(bg, 12, border, border_w, 12))
+static func tint_button(button: Button, bg: Color, fg: Color, border: Color, border_w: int, pad_left: int = 12) -> void:
+	var fills := {"normal": bg, "hover": bg.lightened(0.06), "pressed": bg.darkened(0.08), "hover_pressed": bg.darkened(0.08), "disabled": bg}
+	for state: String in fills:
+		var sb := _box(fills[state], 12, border, border_w, 12)
+		sb.content_margin_left = pad_left
+		button.add_theme_stylebox_override(state, sb)
 	for c in ["font_color", "font_hover_color", "font_pressed_color", "font_hover_pressed_color", "font_focus_color", "font_disabled_color"]:
 		button.add_theme_color_override(c, fg)
 

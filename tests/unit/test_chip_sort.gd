@@ -9,6 +9,14 @@ const CHIPS := [
 	{"name": "b", "bin": 1},
 	{"name": "c", "bin": 0},
 ]
+# The same control with drawn items and drawn targets; the art-less CHIPS fixture above
+# is the coagulation-sort path.
+const ART_CHIPS := [
+	{"name": "a", "bin": 0, "art": "needle"},
+	{"name": "b", "bin": 1, "art": "gauze"},
+	{"name": "c", "bin": 0, "art": "slide"},
+]
+const ART_BINS := ["sharps", "biohazard_bag"]
 
 var _sort: ChipSort
 
@@ -101,3 +109,69 @@ func test_containers_are_tinted_apart_and_items_stay_neutral() -> void:
 		assert_eq(button.theme_type_variation, "ChipButton")
 		assert_eq(button.get_theme_stylebox("normal").bg_color, ThemeBuilder.SURFACE, "item tags stay neutral")
 		assert_false(button.toggle_mode, "items are not toggles")
+
+
+## The same control built with drawn items and drawn container targets.
+func _art_sort() -> ChipSort:
+	var rng := RandomNumberGenerator.new()
+	rng.seed = 1
+	var sort := ChipSort.new()
+	sort.theme = ThemeBuilder.build(false)
+	add_child_autofree(sort)
+	sort.setup("Sort things", "Tap an item, then a container.", BINS, ART_CHIPS, rng, "", "item", "container", ART_BINS)
+	await wait_process_frames(2)
+	return sort
+
+
+func _arts(button: Button) -> Array[SortArt]:
+	var found: Array[SortArt] = []
+	for child in button.get_children():
+		if child is SortArt:
+			found.append(child as SortArt)
+	return found
+
+
+func test_item_chips_carry_their_own_drawing() -> void:
+	var sort: ChipSort = await _art_sort()
+	for index in range(ART_CHIPS.size()):
+		var arts := _arts(sort._buttons[index])
+		assert_eq(arts.size(), 1, "one drawing per item chip")
+		var art: SortArt = arts[0]
+		assert_eq(art.kind, String(ART_CHIPS[index]["art"]), "each chip shows its own drawing")
+		assert_eq(art.offset_right - art.offset_left, float(ThemeBuilder.icon_px(sort._buttons[index].get_theme_font_size("font_size"))), "the drawing scales with the label beside it")
+		assert_gte(sort._buttons[index].get_theme_stylebox("normal").content_margin_left, art.offset_right, "the label starts clear of the drawing")
+	sort._select_chip(0)
+	sort._place_chip(0)
+	var moved: Button = sort._buttons[0]
+	assert_eq(_arts(moved).size(), 1, "the drawing rides along with the placed item")
+	assert_eq(moved.get_parent(), sort._bin_hosts[0])
+
+
+func test_held_item_lightens_its_drawing() -> void:
+	var sort: ChipSort = await _art_sort()
+	sort._select_chip(1)
+	assert_eq(sort._icons[1].ink, Color.WHITE, "outlines flip to white on the dark held chip")
+	assert_eq(sort._icons[0].ink, ThemeBuilder.TEXT, "only the held chip's drawing changes")
+	sort._select_chip(1)
+	assert_eq(sort._icons[1].ink, ThemeBuilder.TEXT, "putting the item down darkens the outlines again")
+
+
+func test_container_targets_show_their_container_drawing() -> void:
+	var sort: ChipSort = await _art_sort()
+	for index in range(ART_BINS.size()):
+		var dock_button: Button = sort._dock_buttons[index]
+		var arts := _arts(dock_button)
+		assert_eq(arts.size(), 1, "one drawing per container target")
+		var art: SortArt = arts[0]
+		assert_eq(art.kind, ART_BINS[index], "each target shows its own container")
+		assert_eq(art.tint, ThemeBuilder.sort_tint(index), "a container is drawn in its own tint")
+		assert_gte(dock_button.get_theme_stylebox("normal").content_margin_left, art.offset_right, "the label starts clear of the drawing")
+
+
+func test_item_drawings_never_use_a_container_tint() -> void:
+	var sort: ChipSort = await _art_sort()
+	for index in range(ART_CHIPS.size()):
+		var arts := _arts(sort._buttons[index])
+		assert_eq(arts.size(), 1)
+		assert_false(ThemeBuilder.SORT_TINTS.has(arts[0].tint), "an item drawing may not wear a container colour")
+		assert_false(ThemeBuilder.SORT_TINTS.has(arts[0].ink), "item outlines are never a container colour")

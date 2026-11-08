@@ -11,10 +11,14 @@ var column: VBoxContainer
 
 var _bins: Array = []
 var _chips: Array = []
+var _bin_art: Array = []
 var _source_id: String = ""
 var _item_noun: String = "item"
 var _bin_noun: String = "container"
 var _buttons: Array[Button] = []
+var _icons: Array[SortArt] = []     ## one entry per chip, null when the chip has no art
+var _chip_pads: Array[int] = []     ## text indent per chip button
+var _bin_pads: Array[int] = []      ## text indent per dock button
 var _tray: VBoxContainer
 var _tray_card: PanelContainer
 var _tray_header: Label
@@ -33,10 +37,12 @@ var _checked: bool = false
 
 ## Chips are {"name": String, "bin": int}; the tray order is shuffled with rng.
 ## item_noun/bin_noun keep the wording matched to the host bench (item/container,
-## factor/pathway, ...).
-func setup(title: String, instructions: String, bins: Array, chips: Array, rng: RandomNumberGenerator, source_id: String, item_noun: String = "item", bin_noun: String = "container") -> void:
+## factor/pathway, ...). bin_art is one SortArt kind per container, index-matched to
+## bins; an empty list (or an unknown kind) leaves the targets text-only.
+func setup(title: String, instructions: String, bins: Array, chips: Array, rng: RandomNumberGenerator, source_id: String, item_noun: String = "item", bin_noun: String = "container", bin_art: Array = []) -> void:
 	_bins = bins
 	_chips = chips
+	_bin_art = bin_art
 	_source_id = source_id
 	_item_noun = item_noun
 	_bin_noun = bin_noun
@@ -73,11 +79,25 @@ func setup(title: String, instructions: String, bins: Array, chips: Array, rng: 
 	_tray = UI.vbox(8)
 	tray_column.add_child(_tray)
 
+	# ChipButton/BinButton carry no font item of their own; their size comes from the
+	# Button variation, so that is the one to ask the theme for.
+	var fs: int = get_theme_font_size("font_size", "Button")
+	var icon_px := float(ThemeBuilder.icon_px(fs))
+	var icon_pad: int = ThemeBuilder.icon_text_pad(fs)
 	for index in range(_chips.size()):
 		var chip: Dictionary = _chips[index]
 		var button := UI.button(String(chip["name"]), _select_chip.bind(index), "ChipButton")
 		button.alignment = HORIZONTAL_ALIGNMENT_LEFT
 		button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		var art_kind: String = String(chip.get("art", ""))
+		if SortArt.has_kind(art_kind):
+			button.custom_minimum_size.y = maxf(button.custom_minimum_size.y, icon_px + 24.0)
+			_icons.append(_attach_art(button, art_kind, ThemeBuilder.MUTED, icon_px))
+			_chip_pads.append(icon_pad)
+		else:
+			# No art key: today's plain tag, unchanged indent, no drawing.
+			_icons.append(null)
+			_chip_pads.append(12)
 		_buttons.append(button)
 	# Shuffle the tray order, remembering each button's slot so a picked-up item returns
 	# to the same place rather than to the end of the list.
@@ -132,12 +152,38 @@ func setup(title: String, instructions: String, bins: Array, chips: Array, rng: 
 		var bin_button := UI.button("", _place_chip.bind(index), "BinButton")
 		bin_button.custom_minimum_size = Vector2(0, 76)
 		bin_button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		var bin_kind: String = String(_bin_art[index]) if index < _bin_art.size() else ""
+		if SortArt.has_kind(bin_kind):
+			bin_button.alignment = HORIZONTAL_ALIGNMENT_LEFT
+			bin_button.custom_minimum_size.y = maxf(76.0, icon_px + 24.0)
+			_attach_art(bin_button, bin_kind, ThemeBuilder.sort_tint(index), icon_px)
+			_bin_pads.append(icon_pad)
+		else:
+			_bin_pads.append(12)
 		_dock_buttons.append(bin_button)
 		grid.add_child(bin_button)
 	_check_button = UI.button("", _check)
 	dock_column.add_child(_check_button)
 	_refresh_chips()
 	_refresh_groups()
+
+
+const ICON_LEFT := 12.0
+
+
+## Pins the drawing at the left edge of a button, vertically centred at any height.
+func _attach_art(button: Button, art_kind: String, art_tint: Color, px: float) -> SortArt:
+	var art := SortArt.make(art_kind, art_tint)
+	art.set_anchor(SIDE_LEFT, 0.0)
+	art.set_anchor(SIDE_RIGHT, 0.0)
+	art.set_anchor(SIDE_TOP, 0.5)
+	art.set_anchor(SIDE_BOTTOM, 0.5)
+	art.offset_left = ICON_LEFT
+	art.offset_right = ICON_LEFT + px
+	art.offset_top = -px * 0.5
+	art.offset_bottom = px * 0.5
+	button.add_child(art)
+	return art
 
 
 ## Picks up the held item, puts the held item down, or picks a placed item back up.
@@ -191,15 +237,22 @@ func _refresh_chips() -> void:
 		var name: String = String(_chips[index]["name"])
 		if index == _selected:
 			# Dark ink for the held item, so "held" can never read as a container tint.
-			ThemeBuilder.tint_button(button, ThemeBuilder.TEXT, Color.WHITE, ThemeBuilder.TEXT, 2)
+			ThemeBuilder.tint_button(button, ThemeBuilder.TEXT, Color.WHITE, ThemeBuilder.TEXT, 2, _chip_pads[index])
 			button.text = "▸ " + name
 		elif _assignments.has(index):
 			var tint: Color = ThemeBuilder.sort_tint(int(_assignments[index]))
-			ThemeBuilder.tint_button(button, tint.lerp(ThemeBuilder.SURFACE, 0.90), ThemeBuilder.TEXT, tint, 2)
+			ThemeBuilder.tint_button(button, tint.lerp(ThemeBuilder.SURFACE, 0.90), ThemeBuilder.TEXT, tint, 2, _chip_pads[index])
 			button.text = ThemeBuilder.sort_glyph(int(_assignments[index])) + " " + name
 		else:
-			ThemeBuilder.clear_button_tint(button)
+			if _chip_pads[index] > 12:
+				# Tint it explicitly with the chip's own look so the text keeps its indent.
+				ThemeBuilder.tint_button(button, ThemeBuilder.SURFACE, ThemeBuilder.TEXT, ThemeBuilder.CHIP_BORDER, 2, _chip_pads[index])
+			else:
+				ThemeBuilder.clear_button_tint(button)
 			button.text = name
+		if _icons[index] != null:
+			# Outlines turn white on the dark fill of the held item.
+			_icons[index].set_ink(Color.WHITE if index == _selected else ThemeBuilder.TEXT)
 
 
 func _refresh_groups() -> void:
@@ -223,9 +276,9 @@ func _refresh_groups() -> void:
 			bin_button.text += "\n%d placed" % count
 		# An armed pick deepens the target tint so the tap is obviously doing something.
 		if _selected >= 0:
-			ThemeBuilder.tint_button(bin_button, tint.lerp(ThemeBuilder.SURFACE, 0.70), tint.darkened(0.30), tint, 3)
+			ThemeBuilder.tint_button(bin_button, tint.lerp(ThemeBuilder.SURFACE, 0.70), tint.darkened(0.30), tint, 3, _bin_pads[index])
 		else:
-			ThemeBuilder.tint_button(bin_button, tint.lerp(ThemeBuilder.SURFACE, 0.90), tint.darkened(0.15), tint, 2)
+			ThemeBuilder.tint_button(bin_button, tint.lerp(ThemeBuilder.SURFACE, 0.90), tint.darkened(0.15), tint, 2, _bin_pads[index])
 	# The dock carries the banner and Check button; once it is freed there is nothing to update.
 	if _dock != null:
 		_check_button.text = "Check — %d of %d placed" % [placed, _chips.size()]
@@ -257,10 +310,10 @@ func _check() -> void:
 		var button: Button = _buttons[index]
 		button.disabled = true
 		if correct:
-			ThemeBuilder.tint_button(button, ThemeBuilder.SUCCESS_BG, ThemeBuilder.SUCCESS.darkened(0.15), ThemeBuilder.SUCCESS, 2)
+			ThemeBuilder.tint_button(button, ThemeBuilder.SUCCESS_BG, ThemeBuilder.SUCCESS.darkened(0.15), ThemeBuilder.SUCCESS, 2, _chip_pads[index])
 			button.text = "✓ " + String(chip["name"])
 		else:
-			ThemeBuilder.tint_button(button, ThemeBuilder.ERROR_BG, ThemeBuilder.ERROR.darkened(0.10), ThemeBuilder.ERROR, 2)
+			ThemeBuilder.tint_button(button, ThemeBuilder.ERROR_BG, ThemeBuilder.ERROR.darkened(0.10), ThemeBuilder.ERROR, 2, _chip_pads[index])
 			button.text = "✗ " + String(chip["name"]) + "\nCorrect %s: %s %s" % [_bin_noun, ThemeBuilder.sort_glyph(int(chip["bin"])), String(_bins[int(chip["bin"])])]
 	_summary.text = "Checked: %d of %d correct. ✓ correct; ✗ shows the right %s." % [correct_count, _chips.size(), _bin_noun]
 	_summary.visible = true

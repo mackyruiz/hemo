@@ -12,7 +12,7 @@ func start(_task: Dictionary) -> void:
 	var sort := ChipSort.new()
 	sort.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(sort)
-	sort.setup("Lab waste sort", "Tap an item in the list, then tap the container it belongs in at the bottom. Tap a placed item to pick it up again.", SafetySort.BINS, chips, _rng, str(Content.generated_sources.get("safety:waste", "")))
+	sort.setup("Lab waste sort", "Tap an item in the list, then tap the container it belongs in at the bottom. Tap a placed item to pick it up again.", SafetySort.BINS, chips, _rng, str(Content.generated_sources.get("safety:waste", "")), "item", "container", SafetySort.BIN_ART)
 	sort.checked.connect(func(results: Array[bool]):
 		var correct: int = 0
 		for r: bool in results:
