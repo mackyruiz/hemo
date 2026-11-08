@@ -201,3 +201,15 @@ func test_nearest_difficulty_falls_back_lower_first() -> void:
 
 func test_composition_is_seed_deterministic() -> void:
 	assert_eq(ShiftComposer.compose(_fixture(), {}, 8, _rng(42), 1000), ShiftComposer.compose(_fixture(), {}, 8, _rng(42), 1000))
+
+
+func test_safety_practice_alternates_the_two_drills() -> void:
+	var tasks: Array[Dictionary] = ShiftComposer.compose(_fixture(), {}, 1, _rng(3), 1000, 10, "practice", "safety", 2)
+	assert_eq(tasks.size(), 10)
+	var seen: Dictionary = {}
+	for task: Dictionary in tasks:
+		var variant: String = String(task.get("variant", ""))
+		assert_true(variant in ["scenario", "waste_sort"], "unknown safety variant " + variant)
+		seen[variant] = true
+	assert_true(seen.has("scenario"), "a practice run should include an incident scenario")
+	assert_true(seen.has("waste_sort"), "a practice run should still include the waste sort")

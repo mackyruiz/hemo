@@ -538,5 +538,797 @@
     "answer": 1,
     "explanation": "Regulated waste includes items caked with dried blood or OPIM that can release these materials during handling, as well as liquid or semi-liquid blood and contaminated sharps. Gloves with no visible blood would not release blood if compressed, so they are not regulated waste under this definition.",
     "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0031",
+    "topic": "safety",
+    "subtopic": "clia_certification",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which federal agency certifies and regulates clinical laboratories for the quality of patient testing?",
+    "image": null,
+    "choices": [
+      "The Occupational Safety and Health Administration (OSHA)",
+      "The Centers for Medicare & Medicaid Services (CMS), through CLIA",
+      "The Food and Drug Administration (FDA)",
+      "The Centers for Disease Control and Prevention (CDC)"
+    ],
+    "answer": 1,
+    "explanation": "CMS regulates laboratory testing performed on humans in the United States through the Clinical Laboratory Improvement Amendments (CLIA), with requirements that scale to the complexity of the test method. OSHA is the tempting answer because it writes the safety rules the bench works under, but it governs worker protection, not the quality of patient results; CDC and FDA are CLIA partners without the certifying role.",
+    "source": "safety-clia-program"
+  },
+  {
+    "id": "safety-0032",
+    "topic": "safety",
+    "subtopic": "clia_certification",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which testing falls under CLIA?",
+    "image": null,
+    "choices": [
+      "Only testing performed in hospital laboratories",
+      "Only testing billed to Medicare or Medicaid",
+      "Any testing of materials from the human body for health assessment, diagnosis, prevention, or treatment",
+      "Only moderate- and high-complexity testing"
+    ],
+    "answer": 2,
+    "explanation": "CLIA covers testing of human specimens for the purpose of assessing health or diagnosing, preventing, or treating disease, wherever that testing is performed. Limiting it to hospitals is the common misread: physician office laboratories and clinics are covered too. The narrow exceptions are SAMHSA-regulated drug testing, forensic testing, and research that does not report patient-specific results.",
+    "source": "safety-clia-overview"
+  },
+  {
+    "id": "safety-0033",
+    "topic": "safety",
+    "subtopic": "clia_certification",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A clinic holding a Certificate of Waiver installs a moderate-complexity chemistry analyzer. What must it do before running patient samples on it?",
+    "image": null,
+    "choices": [
+      "Apply for the certificate type that matches the highest complexity of testing it performs",
+      "Nothing: every CLIA certificate permits waived testing, so the new analyzer is covered",
+      "Report the new instrument at the next biennial certificate renewal",
+      "Have a reference laboratory confirm the first month of results"
+    ],
+    "answer": 0,
+    "explanation": "A laboratory applies for the certificate matching the highest complexity of testing it performs, so moderate-complexity work needs a nonwaived certificate before patient samples are run. It is true that every certificate type allows waived testing, which makes that option tempting, but it is a floor, not a ceiling: a Certificate of Waiver covers waived tests only.",
+    "source": "safety-clia-certificates"
+  },
+  {
+    "id": "safety-0034",
+    "topic": "safety",
+    "subtopic": "clia_certification",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "How long is a CLIA certificate effective before it must be renewed?",
+    "image": null,
+    "choices": [
+      "One year",
+      "Two years",
+      "Three years",
+      "Indefinitely, as long as the annual fee is paid"
+    ],
+    "answer": 1,
+    "explanation": "Every type of CLIA certificate is effective for two years, after which the laboratory renews it. The indefinite option is tempting because fees are a familiar part of the programme, but no CLIA certificate runs without a renewal cycle.",
+    "source": "safety-clia-certificates"
+  },
+  {
+    "id": "safety-0035",
+    "topic": "safety",
+    "subtopic": "clia_certification",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which body assigns a test system its complexity category, and what are the CLIA groupings?",
+    "image": null,
+    "choices": [
+      "CMS assigns it; the groupings are simple and complex",
+      "CDC assigns it; the groupings are screening and confirmatory",
+      "The accrediting organization assigns it; the groupings are routine and esoteric",
+      "FDA assigns it; tests are waived or nonwaived, with nonwaived covering moderate and high complexity"
+    ],
+    "answer": 3,
+    "explanation": "FDA categorizes test systems as waived (simple, with a low risk of an incorrect result) or nonwaived, and nonwaived covers both moderate and high complexity. CMS is the tempting answer because CMS issues the certificates and enforces CLIA, but it is the FDA categorization that decides which certificate a laboratory needs.",
+    "source": "safety-clia-complexity"
+  },
+  {
+    "id": "safety-0036",
+    "topic": "safety",
+    "subtopic": "clia_certification",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "A laboratory wants to bring up a test system that FDA has not yet categorized for complexity. How is it treated?",
+    "image": null,
+    "choices": [
+      "As high complexity, until it is categorized",
+      "As moderate complexity, until it is categorized",
+      "It may not be used for patient testing in any CLIA laboratory",
+      "It takes the category of the most similar test system already on the market"
+    ],
+    "answer": 0,
+    "explanation": "A test system that has not been categorized defaults to high complexity. FDA scores seven criteria from 1 to 3; a total score of 12 or less makes the test moderate complexity and a score above 12 makes it high complexity. Moderate is tempting because it sits in the middle, but until a categorization exists the conservative assumption — the highest personnel and quality requirements — is what applies.",
+    "source": "safety-fda-clia-categorization"
+  },
+  {
+    "id": "safety-0037",
+    "topic": "safety",
+    "subtopic": "clia_personnel",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "What does CLIA require of the laboratory director at a site holding a Certificate of Waiver?",
+    "image": null,
+    "choices": [
+      "A doctoral-level director is required, as in every CLIA laboratory",
+      "The site must name a laboratory director, but no federal education or experience qualifications apply to that role under a Certificate of Waiver",
+      "No laboratory director is needed; the practice manager signs the application",
+      "The director must be board certified in clinical pathology"
+    ],
+    "answer": 1,
+    "explanation": "A Certificate of Waiver laboratory must have a laboratory director, but CLIA sets no federal education or experience requirements for that position. The doctoral-level answer is tempting because directors of nonwaived laboratories do have to meet CLIA education, training, and experience requirements — the complexity of the testing is what draws the line.",
+    "source": "safety-clia-certificates"
+  },
+  {
+    "id": "safety-0038",
+    "topic": "safety",
+    "subtopic": "clia_personnel",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A physician office laboratory applies for a certificate covering provider-performed microscopy and other moderate-complexity testing. What applies to its director?",
+    "image": null,
+    "choices": [
+      "Any licensed physician qualifies, regardless of laboratory training",
+      "A director is optional as long as a consultant reviews results monthly",
+      "The director must meet CLIA's education, training, and experience requirements, and documentation goes in with the application",
+      "The state survey agency appoints the director"
+    ],
+    "answer": 2,
+    "explanation": "Directors of laboratories performing nonwaived testing — moderate complexity, high complexity, or provider-performed microscopy — must meet CLIA's education, training, and experience requirements, and the laboratory submits proof of those qualifications with its application. A medical licence alone is the tempting answer, but licensure is not the same as the director qualifications CLIA specifies.",
+    "source": "safety-clia-certificates"
+  },
+  {
+    "id": "safety-0039",
+    "topic": "safety",
+    "subtopic": "clia_personnel",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Proficiency testing samples arrive and a supervisor suggests the most experienced technologist run all of them so the laboratory scores well. Why is that wrong?",
+    "image": null,
+    "choices": [
+      "PT samples must be tested like patient specimens, by the staff who routinely perform that testing, because PT validates the testing process and the competency of testing personnel",
+      "Only the laboratory director may handle PT samples",
+      "PT samples must be split and run by every employee in the department",
+      "It is acceptable, because PT scores belong to the laboratory rather than to individuals"
+    ],
+    "answer": 0,
+    "explanation": "PT exists to validate the accuracy and reliability of the laboratory's testing process, including the competency of the personnel who perform it, so the samples are handled in the routine way by the routine staff. Funnelling every sample to the strongest technologist produces a score that says nothing about the testing patients actually receive.",
+    "source": "safety-clia-proficiency-testing"
+  },
+  {
+    "id": "safety-0040",
+    "topic": "safety",
+    "subtopic": "clia_personnel",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Among the federal partners in the CLIA programme, which one monitors proficiency testing practices and develops technical standards and laboratory practice guidelines, including those for cytology?",
+    "image": null,
+    "choices": [
+      "CMS",
+      "FDA",
+      "CDC",
+      "The state survey agency"
+    ],
+    "answer": 2,
+    "explanation": "CDC's CLIA role is the technical one: monitoring proficiency testing practices and developing technical standards and laboratory practice guidelines, including cytology guidelines. CMS is tempting because it issues certificates and enforces the regulations, and FDA categorizes test complexity; the three agencies share the programme.",
+    "source": "safety-clia-overview"
+  },
+  {
+    "id": "safety-0041",
+    "topic": "safety",
+    "subtopic": "clia_proficiency_testing",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which laboratories must enrol in an approved proficiency testing programme?",
+    "image": null,
+    "choices": [
+      "Every CLIA laboratory, including sites that perform only waived tests",
+      "Only laboratories holding a Certificate of Accreditation",
+      "Only hospital laboratories",
+      "Those performing nonwaived testing for regulated analytes"
+    ],
+    "answer": 3,
+    "explanation": "CLIA-certificated laboratories that perform nonwaived testing for regulated analytes must enrol in an approved PT programme. Sweeping in waived-only sites is the tempting overreach: the PT requirement follows the complexity of the testing, not the mere fact of holding a certificate.",
+    "source": "safety-clia-proficiency-testing"
+  },
+  {
+    "id": "safety-0042",
+    "topic": "safety",
+    "subtopic": "clia_proficiency_testing",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A proficiency testing result looks implausible, and a colleague offers to send the remaining PT material to the reference laboratory for confirmation before it is reported. What do you do?",
+    "image": null,
+    "choices": [
+      "Refuse: PT samples may not be referred to another laboratory; report the result this laboratory obtained",
+      "Agree, because confirming an odd result before reporting is good practice",
+      "Agree, and report the reference laboratory's result instead",
+      "Discard the sample and request a replacement shipment"
+    ],
+    "answer": 0,
+    "explanation": "PT samples are treated exactly like patient specimens with one addition: they may not be referred to another laboratory for testing. Confirming a strange result sounds like diligence, which is what makes it the trap — PT referral is a violation that puts the laboratory's CLIA certificate at risk. Report what this laboratory's own method produced, then investigate the method.",
+    "source": "safety-clia-proficiency-testing"
+  },
+  {
+    "id": "safety-0043",
+    "topic": "safety",
+    "subtopic": "clia_proficiency_testing",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "How must a proficiency testing sample be analysed?",
+    "image": null,
+    "choices": [
+      "In duplicate on both analyzers, reporting the pair that agrees best",
+      "On the same instrument and method, in the same manner, and the same number of times as a patient specimen",
+      "By whichever method the PT provider recommends, even if the laboratory uses another",
+      "Three times, reporting the mean of the three results"
+    ],
+    "answer": 1,
+    "explanation": "A PT sample is run with the laboratory's routine method, in the same manner and the same number of times as a patient specimen, which is what makes the score a statement about routine patient testing. Extra replicates and picking the best agreement is special handling, and special handling defeats the purpose of the exercise.",
+    "source": "safety-clia-proficiency-testing"
+  },
+  {
+    "id": "safety-0044",
+    "topic": "safety",
+    "subtopic": "clia_proficiency_testing",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Which enrolment does CLIA require for gynecologic cytology proficiency testing?",
+    "image": null,
+    "choices": [
+      "The laboratory only",
+      "The laboratory and each individual who examines gynecologic cytology slides, in an approved programme such as those run by CAP or ASCP",
+      "The cytotechnologists only; pathologists are exempt",
+      "Enrolment is recommended rather than required"
+    ],
+    "answer": 1,
+    "explanation": "Gyn cytology PT is required both for the laboratory and for every individual who examines gyn cytology slides, through an approved programme — CAP and ASCP operate them. Laboratory-level enrolment alone is the familiar pattern from chemistry and haematology PT, which is exactly why it is the tempting answer here.",
+    "source": "safety-clia-proficiency-testing"
+  },
+  {
+    "id": "safety-0045",
+    "topic": "safety",
+    "subtopic": "clia_quality_systems",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "What does CLIA require of a nonwaived laboratory to assure the quality of its results?",
+    "image": null,
+    "choices": [
+      "Quality control run only when a clinician questions a result",
+      "Quality control run on the days inspectors are on site",
+      "Documented quality control and quality assurance measures covering the complete testing process, so results are accurate and precise",
+      "Review of every abnormal result by a second technologist"
+    ],
+    "answer": 2,
+    "explanation": "CLIA requires quality control and quality assurance measures across the complete testing process so that results are accurate and precise. Running QC only in response to a complaint or an inspection inverts the purpose: QC is what catches the error before the result leaves the laboratory.",
+    "source": "safety-cdc-lab-quality"
+  },
+  {
+    "id": "safety-0046",
+    "topic": "safety",
+    "subtopic": "clia_quality_systems",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A research study tests patient specimens but never reports results for patient care. The team now wants to release one result to the patient's physician. What changes?",
+    "image": null,
+    "choices": [
+      "Nothing: research testing is exempt from CLIA",
+      "Nothing, as long as the physician is told the result is research grade",
+      "The institutional review board can grant a CLIA exemption",
+      "Releasing the result for diagnosis, prevention, or treatment brings the testing under CLIA, so it must be performed in a CLIA-certified laboratory"
+    ],
+    "answer": 3,
+    "explanation": "The research exception holds only while results are not reported for patient-specific care. Once a result is released for assessing health or diagnosing, preventing, or treating an individual, the testing falls under CLIA. A 'research grade' disclaimer does not restore the exception, because it is the use of the result that decides.",
+    "source": "safety-clia-overview"
+  },
+  {
+    "id": "safety-0047",
+    "topic": "safety",
+    "subtopic": "clia_quality_systems",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A laboratory certified for chemistry and haematology wants to begin immunohematology testing. What does CLIA require?",
+    "image": null,
+    "choices": [
+      "The laboratory must be certified for each specialty and subspecialty in which it performs testing",
+      "One certificate covers any test the laboratory chooses to add",
+      "A separate CLIA number is issued for each new instrument",
+      "No action, as long as the complexity matches its current testing"
+    ],
+    "answer": 0,
+    "explanation": "Laboratories must be certified for each specialty and subspecialty of testing they perform, so adding immunohematology means adding that specialty. Matching complexity is the tempting shortcut, but complexity and specialty are separate dimensions of the certificate.",
+    "source": "safety-clia-complexity"
+  },
+  {
+    "id": "safety-0048",
+    "topic": "safety",
+    "subtopic": "clia_quality_systems",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A CAP-accredited laboratory asks whether CLIA still applies to it. What is the answer?",
+    "image": null,
+    "choices": [
+      "Yes: it holds a CLIA certificate of accreditation, an approved accreditor's requirements may be more stringent than CLIA's, and the state survey agency still enforces CLIA",
+      "No: accreditation by an approved organization replaces CLIA certification",
+      "Yes, but only for its waived testing",
+      "Only if the laboratory bills Medicare"
+    ],
+    "answer": 0,
+    "explanation": "Accreditation does not replace CLIA. The laboratory holds a CLIA certificate of accreditation, the approved accrediting organization's standards may impose more stringent requirements than CLIA itself, and state survey agencies continue to set and enforce CLIA requirements. Billing is irrelevant: CLIA follows the testing, not the payer.",
+    "source": "safety-clia-program"
+  },
+  {
+    "id": "safety-0049",
+    "topic": "safety",
+    "subtopic": "hazard_communication",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "A reagent label carries the GHS pictogram showing a human silhouette with a white starburst on the chest. What does it flag?",
+    "image": null,
+    "choices": [
+      "Acute toxicity that can be fatal in small amounts",
+      "Serious longer-term health hazards such as carcinogenicity or target organ toxicity",
+      "Skin and eye corrosion",
+      "Flammability"
+    ],
+    "answer": 1,
+    "explanation": "The health-hazard pictogram marks carcinogens, respiratory sensitizers, reproductive and target organ toxicity, and aspiration hazards. Acute toxicity that can kill in small amounts carries the skull and crossbones, corrosion has its own pictogram, and the flame marks flammables — reading the silhouette as 'poison' is the usual error.",
+    "source": "safety-osha-hazcom"
+  },
+  {
+    "id": "safety-0050",
+    "topic": "safety",
+    "subtopic": "hazard_communication",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Before opening a new solvent you need to know which gloves and eye protection the manufacturer specifies. Which safety data sheet section has it?",
+    "image": null,
+    "choices": [
+      "Section 2, Hazard(s) identification",
+      "Section 9, Physical and chemical properties",
+      "Section 8, Exposure controls/personal protection",
+      "The shipping label on the outer carton"
+    ],
+    "answer": 2,
+    "explanation": "Section 8 gives exposure limits, engineering controls, and the personal protective equipment for the chemical. Section 2 is tempting because it names the hazards and carries the signal word and pictograms, but it does not tell you which glove and eye protection to put on.",
+    "source": "safety-osha-hazcom"
+  },
+  {
+    "id": "safety-0051",
+    "topic": "safety",
+    "subtopic": "hazard_communication",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "What governs the order of sections in a safety data sheet?",
+    "image": null,
+    "choices": [
+      "A standardized 16-section format in a fixed order, with first-aid measures always in Section 4",
+      "Manufacturers may order the sections as they wish, as long as the information is all present",
+      "An eight-section format set by each state",
+      "The distributor sets the order, not the manufacturer"
+    ],
+    "answer": 0,
+    "explanation": "Hazard communication requires safety data sheets in a uniform 16-section format presented in a set order, so first-aid measures are Section 4 and handling and storage Section 7 whoever made the product. The fixed order is the point: in an emergency nobody should have to search the sheet.",
+    "source": "safety-osha-hazcom"
+  },
+  {
+    "id": "safety-0052",
+    "topic": "safety",
+    "subtopic": "hazard_communication",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "Which set of elements must appear on the label of a hazardous chemical container shipped to the laboratory?",
+    "image": null,
+    "choices": [
+      "Product identifier, lot number, expiration date, and storage temperature",
+      "Chemical name, CAS number, and the biohazard symbol",
+      "Product identifier, signal word, and the receiving department",
+      "Product identifier, signal word, hazard statements, pictograms, precautionary statements, and supplier information"
+    ],
+    "answer": 3,
+    "explanation": "Shipped-container labels carry six elements: product identifier, signal word, hazard statement(s), pictogram(s), precautionary statement(s), and the name, address, and telephone number of the responsible party. Lot number and expiration date appear on many reagent labels and are useful inventory data, but they are not hazard communication label elements.",
+    "source": "safety-osha-hazcom"
+  },
+  {
+    "id": "safety-0053",
+    "topic": "safety",
+    "subtopic": "hazard_communication",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "When must employees receive hazard communication training?",
+    "image": null,
+    "choices": [
+      "At the annual safety in-service only",
+      "At initial assignment, and again whenever a new chemical hazard is introduced into their work area",
+      "Only when a chemical changes supplier",
+      "Within 90 days of any chemical spill"
+    ],
+    "answer": 1,
+    "explanation": "Training is required at the time of initial assignment to work involving hazardous chemicals and whenever a new chemical hazard is introduced into the work area. An annual refresher is good practice, but waiting for it leaves staff working with an unfamiliar hazard untrained in the meantime.",
+    "source": "safety-osha-hazcom"
+  },
+  {
+    "id": "safety-0054",
+    "topic": "safety",
+    "subtopic": "hazard_communication",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "A stock bottle of acid has a torn label: the product name is still readable but the hazard statements and pictograms are gone. What do you do?",
+    "image": null,
+    "choices": [
+      "Keep using it, because the safety data sheet on file carries the same information",
+      "Write the chemical name on the cap in marker and keep it in service",
+      "Relabel the container with the required label information before it is used again",
+      "Move it to the back of the cabinet and flag it at the annual inventory"
+    ],
+    "answer": 2,
+    "explanation": "Labels on incoming containers must not be removed or defaced, and containers must stay legibly labelled with the required information, so a damaged label is replaced before the next use. Having the safety data sheet on file is the tempting excuse, but the label is what warns the person holding the bottle at the moment they pour.",
+    "source": "safety-osha-hazcom"
+  },
+  {
+    "id": "safety-0055",
+    "topic": "safety",
+    "subtopic": "osha_programs",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "How often must the written Exposure Control Plan be reviewed and updated?",
+    "image": null,
+    "choices": [
+      "At least annually, and whenever new or modified tasks and procedures affect occupational exposure",
+      "Only after an exposure incident occurs",
+      "Every three years, at facility licence renewal",
+      "Whenever a new employee is hired"
+    ],
+    "answer": 0,
+    "explanation": "The plan is reviewed and updated at least annually and whenever tasks or procedures change. The update must document the employer's consideration of safer medical devices and reflect input from frontline employees who use them. Updating only after an incident is the reactive habit the annual review exists to prevent.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0056",
+    "topic": "safety",
+    "subtopic": "osha_programs",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "What does the sharps injury log record?",
+    "image": null,
+    "choices": [
+      "The injured employee's name, job title, and post-exposure test results",
+      "The type and brand of device involved, the department or work area where the incident occurred, and an explanation of how it happened",
+      "Only the number of injuries each quarter",
+      "The source patient's identity and diagnosis"
+    ],
+    "answer": 1,
+    "explanation": "The sharps injury log records the device type and brand, the work area, and how the injury occurred, and it is kept in a way that protects the injured employee's privacy. Names and test results belong in the confidential medical record, not in a log whose purpose is spotting patterns in devices and tasks.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0057",
+    "topic": "safety",
+    "subtopic": "osha_programs",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A phlebotomist with occupational exposure declines the hepatitis B vaccination series. What happens?",
+    "image": null,
+    "choices": [
+      "The refusal is final; the employer need not offer the series again",
+      "The employee must be reassigned to duties without exposure",
+      "The employee pays for the series if they request it later",
+      "The employee signs the declination statement, and the vaccine remains available at no cost if they later change their mind while still covered"
+    ],
+    "answer": 3,
+    "explanation": "A worker who declines signs the OSHA declination statement, and the employer must still make the vaccination available later, at no cost, if the employee changes their mind while occupational exposure continues. Treating the refusal as permanent, or billing the employee afterwards, is the opposite of what the standard requires.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0058",
+    "topic": "safety",
+    "subtopic": "osha_programs",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "What does the OSHA laboratory standard require of the Chemical Hygiene Plan?",
+    "image": null,
+    "choices": [
+      "That it be readily available to employees, reviewed and evaluated for effectiveness at least annually and updated as necessary, with a designated Chemical Hygiene Officer",
+      "That it be kept in the director's office for inspectors",
+      "That it be rewritten whenever a new chemical is purchased",
+      "That it replace the need for safety data sheets at the bench"
+    ],
+    "answer": 0,
+    "explanation": "The Chemical Hygiene Plan must be capable of protecting employees, readily available to them, reviewed and evaluated for effectiveness at least annually and updated as necessary, and the employer must designate a Chemical Hygiene Officer. A plan filed away for inspectors fails the availability requirement that makes it useful at the bench.",
+    "source": "safety-osha-lab-standard"
+  },
+  {
+    "id": "safety-0059",
+    "topic": "safety",
+    "subtopic": "osha_programs",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Who pays for the personal protective equipment required at the bench?",
+    "image": null,
+    "choices": [
+      "The employee, as a condition of employment",
+      "The employer for the first set only",
+      "The employer, including replacements, except for PPE the employee has lost or intentionally damaged",
+      "The cost is split between employer and employee"
+    ],
+    "answer": 2,
+    "explanation": "Required PPE is provided at no cost to the employee, and the employer pays for replacements as well. 'First set only' is the tempting half-answer: worn, contaminated, or defective PPE is replaced at the employer's expense as often as the work requires. The single exception is equipment the employee lost or intentionally damaged.",
+    "source": "safety-osha-ppe"
+  },
+  {
+    "id": "safety-0060",
+    "topic": "safety",
+    "subtopic": "osha_programs",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "Before assigning PPE in a new work area, what must the employer do?",
+    "image": null,
+    "choices": [
+      "Assess the area for hazards requiring PPE, select equipment that properly fits each affected employee, communicate the selection to them, and certify the hazard assessment in writing",
+      "Walk the area with the supervisor and order gloves on that basis",
+      "Document an assessment only once an injury has occurred",
+      "Let each employee choose the PPE they prefer"
+    ],
+    "answer": 0,
+    "explanation": "The employer assesses the workplace for hazards, selects PPE that fits each affected employee, communicates that selection, and certifies in writing that the assessment was performed — identifying the workplace evaluated, the person certifying, and the date. A verbal walk-through leaves no certification and no record of which hazards were considered.",
+    "source": "safety-osha-ppe"
+  },
+  {
+    "id": "safety-0061",
+    "topic": "safety",
+    "subtopic": "bloodborne_pathogens",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A tube slips and shatters on the bench, leaving blood-contaminated glass. How is it picked up?",
+    "image": null,
+    "choices": [
+      "With gloved hands, into a red biohazard bag",
+      "With mechanical means such as a brush and dustpan, tongs, or forceps, into a sharps container, decontaminating the surface afterwards",
+      "Swept into the regular trash once the blood has dried",
+      "Rinsed into the sink and wiped down with disinfectant"
+    ],
+    "answer": 1,
+    "explanation": "Contaminated broken glassware is never picked up directly with the hands, gloved or not: it is lifted with mechanical means into a puncture-resistant container, and the surface is then decontaminated. Gloves plus a red bag is the tempting answer because the bag is the usual destination for contaminated items, but a bag is not puncture resistant and the glass will find the next pair of hands.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0062",
+    "topic": "safety",
+    "subtopic": "bloodborne_pathogens",
+    "difficulty": 3,
+    "kind": "theoretical",
+    "stem": "Which pairing correctly separates an engineering control from a work-practice control?",
+    "image": null,
+    "choices": [
+      "Engineering: a self-sheathing needle. Work practice: the prohibition on two-handed recapping",
+      "Engineering: the face shield worn while aliquoting. Work practice: the sharps container",
+      "Engineering: hand washing after glove removal. Work practice: the biosafety cabinet",
+      "Engineering: the Exposure Control Plan. Work practice: the sharps injury log"
+    ],
+    "answer": 0,
+    "explanation": "Engineering controls isolate or remove the hazard from the workplace — self-sheathing needles, sharps containers, biosafety cabinets. Work-practice controls change how the task is performed, such as banning two-handed recapping in favour of a one-handed scoop. A face shield is neither: PPE is its own category, worn on the body because the hazard could not be removed.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0063",
+    "topic": "safety",
+    "subtopic": "ppe_work_practices",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "You pick up the face shield before an aliquoting run and find the visor cracked across the eye line. What do you do?",
+    "image": null,
+    "choices": [
+      "Take it out of service and fetch an undamaged replacement before starting",
+      "Use it for this short run and report it at the end of the shift",
+      "Tape the crack on the inside and carry on",
+      "Wear safety glasses underneath the cracked shield"
+    ],
+    "answer": 0,
+    "explanation": "Defective or damaged personal protective equipment must not be used: it comes out of service and is replaced, at the employer's expense. 'Just this once, it is a short run' is exactly the reasoning the rule blocks, because a cracked visor can fail at the splash it was meant to stop.",
+    "source": "safety-osha-ppe"
+  },
+  {
+    "id": "safety-0064",
+    "topic": "safety",
+    "subtopic": "ppe_work_practices",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "You have finished processing specimens and need to document the run at the office computer. What is correct?",
+    "image": null,
+    "choices": [
+      "Remove and discard the contaminated gloves in the designated container before leaving the work area, then wash your hands",
+      "Keep the gloves on so bare hands never touch the keyboard",
+      "Wash the gloved hands at the sink and keep wearing them",
+      "Remove the gloves at the office and drop them in the office bin"
+    ],
+    "answer": 0,
+    "explanation": "Gloves are removed and discarded in the designated container before leaving the work area, and hands are washed immediately afterwards. Keeping them on feels protective, which is the trap: contamination then travels to door handles, keyboards, and phones that nobody treats as dirty.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0065",
+    "topic": "safety",
+    "subtopic": "biosafety",
+    "difficulty": 1,
+    "kind": "theoretical",
+    "stem": "Which statement describes how specimens are handled under standard precautions in the clinical laboratory?",
+    "image": null,
+    "choices": [
+      "Extra precautions are used only for specimens flagged as infectious",
+      "Every patient specimen is handled as potentially infectious, whatever test was requested or diagnosis is known",
+      "Precautions depend on the ward the specimen came from",
+      "Barrier protection is needed only for specimens from known positive patients"
+    ],
+    "answer": 1,
+    "explanation": "Clinical laboratories work at Biosafety Level 2 practices and treat all human blood, body fluids, and tissues as potentially infectious, because the specimen that transmits infection is usually the one nobody suspected. Relying on flags means relying on a diagnosis that has not been made yet.",
+    "source": "safety-cdc-biosafety-levels"
+  },
+  {
+    "id": "safety-0066",
+    "topic": "safety",
+    "subtopic": "biosafety",
+    "difficulty": 3,
+    "kind": "procedural",
+    "stem": "Which practice preserves the containment of a Class II biological safety cabinet during use?",
+    "image": null,
+    "choices": [
+      "Stacking racks and supplies along the front grille to free working space",
+      "Working close to the sash opening so the downflow does not disturb the work",
+      "Working well inside the cabinet, moving the arms slowly straight in and out, and keeping the front grille unobstructed",
+      "Raising the sash above the marked working height for easier access"
+    ],
+    "answer": 2,
+    "explanation": "Class II protection depends on a stable air curtain at the opening: work is done well inside the cabinet, arms move slowly and straight in and out, and the grilles stay clear. Blocking the front grille with racks or absorbent paper interrupts the inflow that keeps aerosols away from the operator — the most common way a cabinet is defeated while still appearing to work.",
+    "source": "safety-bsc-clinical-lab"
+  },
+  {
+    "id": "safety-0067",
+    "topic": "safety",
+    "subtopic": "chemical_safety",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "A mercury thermometer breaks on the floor by the chemistry bench and beads scatter across the tile. Which action is prohibited?",
+    "image": null,
+    "choices": [
+      "Vacuuming or sweeping the beads, or washing them down the drain",
+      "Keeping people out of the area and reporting the spill",
+      "Ventilating the area to the outside",
+      "Collecting the beads onto a damp paper towel in a sealed bag"
+    ],
+    "answer": 0,
+    "explanation": "Never vacuum a mercury spill: a vacuum throws mercury vapour into the room air. Never sweep it either, because a broom breaks the beads into smaller droplets that spread further, and never pour mercury down a drain, where it lodges in the plumbing. Keep people out, ventilate to the outside, and use the mercury spill procedure.",
+    "source": "safety-epa-mercury-spill"
+  },
+  {
+    "id": "safety-0068",
+    "topic": "safety",
+    "subtopic": "chemical_safety",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "During cleanup of a broken mercury thermometer, how are the beads collected and the area handled afterwards?",
+    "image": null,
+    "choices": [
+      "Roll the beads together with stiff cardboard or draw them up with an eyedropper onto a damp paper towel, seal them in a labelled bag, and ventilate the area to the outside for at least 24 hours",
+      "Rinse the residue into the sink with detergent and dry the floor",
+      "Absorb the beads with kitty litter and discard it in the regular trash",
+      "Wipe the beads up with alcohol gauze and discard it in the biohazard bag"
+    ],
+    "answer": 0,
+    "explanation": "Beads are rolled together with stiff cardboard or lifted with an eyedropper onto a damp paper towel, sealed in a labelled bag, and the area is kept ventilated to the outside for at least 24 hours; the local health department or waste authority directs disposal. Absorbent litter is the tempting habit from solvent spills, but it does not take up metallic mercury, and rinsing it down the drain contaminates the plumbing.",
+    "source": "safety-epa-mercury-spill"
+  },
+  {
+    "id": "safety-0069",
+    "topic": "safety",
+    "subtopic": "fire_electrical",
+    "difficulty": 2,
+    "kind": "theoretical",
+    "stem": "A new analyzer needs power and the nearest outlet is already in use. Which practice is acceptable?",
+    "image": null,
+    "choices": [
+      "Daisy-chain a second power strip into the first to reach the instrument",
+      "Tape over the cracked insulation on the existing cord and share the outlet",
+      "Run an extension cord along the floor as the permanent supply",
+      "Power the instrument from permanent wiring, inspecting cords before use and removing damaged ones from service"
+    ],
+    "answer": 3,
+    "explanation": "Cord- and plug-connected equipment is visually inspected before use on each shift and taken out of service when damage is found; extension cords and chained power strips are temporary measures, never a substitute for permanent wiring. Taping damaged insulation hides the defect instead of removing the equipment from service.",
+    "source": "safety-osha-electrical-use"
+  },
+  {
+    "id": "safety-0070",
+    "topic": "safety",
+    "subtopic": "specimen_transport",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "A routine diagnostic specimen is shipped to a reference laboratory as a Category B infectious substance. How is the outer package marked?",
+    "image": null,
+    "choices": [
+      "A biohazard label on the outer box is sufficient",
+      "With the UN 3373 diamond mark and the words 'Biological Substance, Category B' next to it",
+      "A red 'Infectious' sticker plus the sender's return address",
+      "No marking is needed when the shipment travels by courier"
+    ],
+    "answer": 1,
+    "explanation": "Category B shipments carry the UN 3373 diamond-shaped mark on the outer package with the proper shipping name 'Biological Substance, Category B' adjacent to it, on top of triple packaging. A generic biohazard label is tempting because it is the familiar in-house symbol, but it tells the carrier neither the classification nor how to respond to damage in transit.",
+    "source": "safety-cdc-specimen-packing"
+  },
+  {
+    "id": "safety-0071",
+    "topic": "safety",
+    "subtopic": "emergency_response",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "Where must emergency eyewash and drenching facilities be located in a laboratory working with corrosives?",
+    "image": null,
+    "choices": [
+      "Within the work area, suitable for immediate emergency use wherever eyes or body may be exposed to injurious corrosive materials",
+      "In the facility's first-aid room, which all staff are shown during orientation",
+      "Anywhere in the building, as long as the route is signposted",
+      "At the nearest restroom sink"
+    ],
+    "answer": 0,
+    "explanation": "Where the eyes or body of any person may be exposed to injurious corrosive materials, suitable facilities for quick drenching or flushing must be provided within the work area for immediate emergency use. A first-aid room down the hall fails that test: a corrosive in the eye has to be flushed within seconds, not after a walk.",
+    "source": "safety-osha-first-aid"
+  },
+  {
+    "id": "safety-0072",
+    "topic": "safety",
+    "subtopic": "emergency_response",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Water is spreading across the floor from a leaking pipe under the laboratory sink. What is the correct response?",
+    "image": null,
+    "choices": [
+      "Mop it up and carry on, since the leak is small",
+      "Tighten the fitting yourself to stop the leak",
+      "Keep staff off the wet floor, guard or mark the area, and report the leak so it is corrected before the surface is used again",
+      "Leave it for the next shift with a note on the bench"
+    ],
+    "answer": 2,
+    "explanation": "Walking-working surfaces are kept clean and, so far as feasible, dry and free of hazards such as leaks and spills; a hazardous condition must be corrected or repaired before the surface is used again, and guarded in the meantime. Mopping is tempting because it makes the floor look fine while the leak keeps running, and the repair itself belongs to qualified people, not to whoever found the puddle.",
+    "source": "safety-osha-walking-surfaces"
+  },
+  {
+    "id": "safety-0073",
+    "topic": "safety",
+    "subtopic": "waste_disposal",
+    "difficulty": 1,
+    "kind": "procedural",
+    "stem": "The sharps container at the draw station has filled to the fill line. What is correct?",
+    "image": null,
+    "choices": [
+      "Close it and put a fresh container in service; sharps containers are puncture resistant, leakproof, labelled or colour-coded, and closable",
+      "Press the contents down to make room until the end of the shift",
+      "Transfer the contents into a second container",
+      "Take the lid off so the last few sharps will fit"
+    ],
+    "answer": 0,
+    "explanation": "Sharps containers are puncture resistant, leakproof on sides and bottom, labelled or colour-coded, and closable, and they are replaced before they overfill. Pressing the contents down or reaching in to transfer them puts a hand into a container full of contaminated needles — the exact injury the container exists to prevent.",
+    "source": "safety-osha-bbp"
+  },
+  {
+    "id": "safety-0074",
+    "topic": "safety",
+    "subtopic": "waste_disposal",
+    "difficulty": 2,
+    "kind": "procedural",
+    "stem": "Where does spent xylene from the staining line go?",
+    "image": null,
+    "choices": [
+      "Down the sink with plenty of running water",
+      "Into the red biohazard bag",
+      "Into a labelled, compatible hazardous chemical waste container, handled under the Chemical Hygiene Plan",
+      "Into the autoclave with the day's infectious waste"
+    ],
+    "answer": 2,
+    "explanation": "Spent solvent is hazardous chemical waste: it goes into a labelled container compatible with the solvent, under the disposal provisions of the laboratory's Chemical Hygiene Plan. Flushing it away with water is the tempting shortcut and discharges a flammable regulated solvent into the sewer; neither a red bag nor the autoclave is a route for chemical waste.",
+    "source": "safety-osha-lab-standard"
   }
 ]

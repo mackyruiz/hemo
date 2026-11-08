@@ -101,7 +101,10 @@ static func compose(content: Dictionary, progress: Dictionary, level: int, rng: 
 			task = {"bench": bench, "organism": MicroId.ORGANISM_IDS[rng.randi_range(0, MicroId.ORGANISM_IDS.size() - 1)]}
 		elif bench == "urinalysis":
 			task = {"bench": bench, "scenario": UaCases.SCENARIO_IDS[rng.randi_range(0, UaCases.SCENARIO_IDS.size() - 1)]}
-		elif bench == "blood_bank" or bench == "immuno" or bench == "safety":
+		elif bench == "safety":
+			# Alternate the drills so a practice run is not ten identical waste sorts.
+			task = {"bench": bench, "variant": "scenario" if rng.randf() < 0.5 else "waste_sort"}
+		elif bench == "blood_bank" or bench == "immuno":
 			task = {"bench": bench}
 		elif bench == "chem":
 			var drills: Array[String] = []

@@ -15,9 +15,9 @@ const SUBTOPICS := {
 	"chem": ["carbohydrates", "lipids", "heme_derivatives", "enzymes", "proteins", "nitrogen_compounds", "markers", "acid_base", "electrolytes", "endocrinology", "tdm_toxicology", "vitamins_nutrition"],
 	"immuno": ["immune_physiology", "immunoglobulins_complement", "autoimmunity", "hypersensitivity", "immunodeficiency_proliferative", "transplant_hla", "viral_serology", "syphilis_serology", "immunoassay_methods"],
 	"micro": ["specimen_collection", "processing_media", "blood_csf", "respiratory", "gi_urine", "genital_wound", "gram_positive_id", "gram_negative_id", "susceptibility_resistance", "mycobacteria", "mycology", "parasitology", "virology", "postanalytic"],
-	"safety": ["bloodborne_pathogens", "ppe_work_practices", "biosafety", "chemical_safety", "fire_electrical", "specimen_transport", "emergency_response", "waste_disposal"],
+	"safety": ["bloodborne_pathogens", "ppe_work_practices", "biosafety", "chemical_safety", "fire_electrical", "specimen_transport", "emergency_response", "waste_disposal", "hazard_communication", "osha_programs", "clia_certification", "clia_personnel", "clia_proficiency_testing", "clia_quality_systems"],
 }
-const MIN_QUESTIONS := {"phys": 30, "rbc": 60, "wbc": 60, "plt": 25, "lab": 60, "hemo": 50, "qc": 15, "bb": 60, "ua": 30, "chem": 60, "immuno": 30, "micro": 60, "safety": 30}
+const MIN_QUESTIONS := {"phys": 30, "rbc": 60, "wbc": 60, "plt": 25, "lab": 60, "hemo": 50, "qc": 15, "bb": 60, "ua": 30, "chem": 60, "immuno": 30, "micro": 60, "safety": 74}
 const MIN_TERMS_PER_TOPIC := 10
 const DIFF_CLASSES := ["seg", "band", "lymph", "var_lymph", "mono", "eos", "baso", "meta", "myelo", "promyelo", "blast"]
 const ART_KINDS := ["rbc", "wbc", "platelet", "field"]
@@ -33,7 +33,7 @@ const REQUIRED_MORPH := [
 	"auer_rod", "smudge_cell", "hairy_cell", "pelger_huet", "toxic_granulation", "dohle_body",
 	"normal_platelet", "giant_platelet", "platelet_clump", "platelet_satellitism", "retic_nmb", "kleihauer_betke",
 ]
-const SOURCE_HOSTS := ["nih.gov", "medlineplus.gov", "cdc.gov", "cancer.gov", "who.int", "fda.gov", "osha.gov", "hematology.org"]
+const SOURCE_HOSTS := ["nih.gov", "medlineplus.gov", "cdc.gov", "cancer.gov", "who.int", "fda.gov", "osha.gov", "hematology.org", "cms.gov", "epa.gov"]
 const GENERATED_SOURCE_KEYS := [
 	"drill:mcv", "drill:mch", "drill:mchc", "drill:absolute", "drill:corrected_wbc",
 	"drill:corrected_retic", "drill:rpi", "drill:hemocytometer", "drill:inr",
