@@ -29,7 +29,7 @@ func start(task: Dictionary) -> void:
 	var sort := ChipSort.new()
 	sort.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(sort)
-	sort.setup("Coagulation pathway sort", "Tap a chip, then tap a bin to place it. You can select and move a chip again before checking.", BINS, CHIPS, rng, str(Content.generated_sources.get("coag:cascade", "")))
+	sort.setup("Coagulation pathway sort", "Tap a factor in the list, then tap the pathway it belongs to at the bottom. Tap a placed factor to pick it up again.", BINS, CHIPS, rng, str(Content.generated_sources.get("coag:cascade", "")), "factor", "pathway")
 	sort.checked.connect(func(results: Array[bool]):
 		var correct: int = 0
 		for r: bool in results:

@@ -17,6 +17,15 @@ const HINT_BORDER := Color("#E3C25A")
 const FLAG_BG := Color("#E3E8FF")
 const FLAG_FG := Color("#33428A")
 const FLAG_BORDER := Color("#A9B5EA")
+# Sort containers are told apart by tint and by glyph, so colour is never the only cue.
+const SORT_TINTS := [
+	Color("#B3263E"), Color("#4A5BA8"), Color("#9A6B00"),
+	Color("#0F6F7A"), Color("#7A3E9D"), Color("#52606D"),
+]
+const SORT_GLYPHS := ["●", "▲", "■", "◆", "★", "✚"]
+const CHIP_BORDER := Color("#BDB6B0")
+const SUCCESS_BG := Color("#E8F5EE")
+const ERROR_BG := Color("#FBEAE8")
 
 
 static func _box(bg: Color, radius: int, border: Color = Color(0, 0, 0, 0), border_w: int = 0, margin: int = 0) -> StyleBoxFlat:
@@ -27,6 +36,34 @@ static func _box(bg: Color, radius: int, border: Color = Color(0, 0, 0, 0), bord
 	sb.border_color = border
 	sb.set_content_margin_all(margin)
 	return sb
+
+
+static func sort_tint(index: int) -> Color:
+	return SORT_TINTS[index % SORT_TINTS.size()]
+
+
+static func sort_glyph(index: int) -> String:
+	return SORT_GLYPHS[index % SORT_GLYPHS.size()]
+
+
+## Per-node button colours. The disabled state keeps the same colours so results stay
+## readable after the sort is checked.
+static func tint_button(button: Button, bg: Color, fg: Color, border: Color, border_w: int) -> void:
+	button.add_theme_stylebox_override("normal", _box(bg, 12, border, border_w, 12))
+	button.add_theme_stylebox_override("hover", _box(bg.lightened(0.06), 12, border, border_w, 12))
+	for state in ["pressed", "hover_pressed"]:
+		button.add_theme_stylebox_override(state, _box(bg.darkened(0.08), 12, border, border_w, 12))
+	button.add_theme_stylebox_override("disabled", _box(bg, 12, border, border_w, 12))
+	for c in ["font_color", "font_hover_color", "font_pressed_color", "font_hover_pressed_color", "font_focus_color", "font_disabled_color"]:
+		button.add_theme_color_override(c, fg)
+
+
+## Drops tint_button overrides so the button falls back to its theme variation.
+static func clear_button_tint(button: Button) -> void:
+	for state in ["normal", "hover", "pressed", "hover_pressed", "disabled"]:
+		button.remove_theme_stylebox_override(state)
+	for c in ["font_color", "font_hover_color", "font_pressed_color", "font_hover_pressed_color", "font_focus_color", "font_disabled_color"]:
+		button.remove_theme_color_override(c)
 
 
 static func _button_styles(theme: Theme, type_name: String, bg: Color, fg: Color, border: Color, border_w: int) -> void:
@@ -72,6 +109,16 @@ static func build(large_text: bool) -> Theme:
 	theme.add_type("SecondaryButton")
 	theme.set_type_variation("SecondaryButton", "Button")
 	_button_styles(theme, "SecondaryButton", SURFACE, PRIMARY, PRIMARY, 2)
+
+	# Sortable items are neutral tags, visually unlike the red SecondaryButton actions and
+	# unlike the tinted container targets.
+	theme.add_type("ChipButton")
+	theme.set_type_variation("ChipButton", "Button")
+	_button_styles(theme, "ChipButton", SURFACE, TEXT, CHIP_BORDER, 2)
+
+	theme.add_type("BinButton")
+	theme.set_type_variation("BinButton", "Button")
+	theme.set_font_size("font_size", "BinButton", fs - 6)
 
 	for tool: Array in [["HintButton", HINT_BG, HINT_FG, HINT_BORDER], ["FlagButton", FLAG_BG, FLAG_FG, FLAG_BORDER]]:
 		theme.add_type(tool[0])
