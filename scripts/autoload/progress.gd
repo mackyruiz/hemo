@@ -58,8 +58,10 @@ func add_xp(n: int) -> Dictionary:
 	return {"old_level": old_level, "new_level": level()}
 
 
+## Debug builds report the maximum level so every bench is reachable; XP is still
+## accumulated and saved, so the real level returns as soon as the flag is off.
 func level() -> int:
-	return XpRules.level_for_xp(xp())
+	return XpRules.MAX_LEVEL if DebugMode.unlock_all() else XpRules.level_for_xp(xp())
 
 
 func xp() -> int:

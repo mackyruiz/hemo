@@ -58,6 +58,8 @@ func _ready() -> void:
 		content.add_child(_banner("This browser isn't saving your progress (private mode or blocked storage)."))
 	if not Content.load_errors.is_empty():
 		content.add_child(_banner("Some content failed to load."))
+	if DebugMode.unlock_all():
+		content.add_child(_banner("DEBUG BUILD — all benches unlocked, level forced to %d." % XpRules.MAX_LEVEL))
 
 	content.add_child(_footer())
 

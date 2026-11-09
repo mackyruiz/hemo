@@ -37,6 +37,8 @@ godot --headless -s addons/gut/gut_cmdln.gd -gdir=res://tests/unit -ginclude_sub
 
 Open `project.godot` in the editor to run interactively. Pure logic is in `scripts/core/`; screens and benches are code-built Controls. `scenes/main.tscn` is the only application scene. Saves use `user://save.json` (IndexedDB-backed in web builds).
 
+Debug mode unlocks every bench so all content is reachable without earning XP. It is off unless you ask for it: start the game with `godot --path . -- --unlock-all`, or export with a preset carrying the `unlock_all` custom feature. While it is on, `Progress.level()` reports the maximum level and the hub shows a DEBUG banner; XP is still earned and saved, so the real level returns the moment the flag is off. Release builds have neither the argument nor the feature. A local `Web Debug` export preset (`custom_features="unlock_all"`, `export_path="build/web-debug/index.html"`, PWA off so its service worker cannot cache over the production build) is a convenience for browser testing and is not part of the repository.
+
 ## Build locally
 
 ```sh
